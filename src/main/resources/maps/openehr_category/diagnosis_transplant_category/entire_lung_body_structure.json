@@ -1,0 +1,26 @@
+{
+  "system" : "SNOMED Clinical Terms",
+  "code" : "181216001",
+  "description" : "",
+  "children" : [ {
+    "system" : "http://snomed.info/sct",
+    "code" : "361982005",
+    "display" : "Entire left lung"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "181216001",
+    "display" : "Entire lung"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "361967000",
+    "display" : "Entire right lung"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "187543000",
+    "display" : "Entire transplanted lung"
+  }, {
+      "system": "http://snomed.info/sct",
+      "code": "88039007",
+      "display": "Transplant of lung (procedure)"
+  } ]
+}

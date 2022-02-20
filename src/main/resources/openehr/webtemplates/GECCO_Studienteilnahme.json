@@ -1,0 +1,507 @@
+{
+  "templateId" : "GECCO_Studienteilnahme",
+  "version" : "2.3",
+  "defaultLanguage" : "de",
+  "languages" : [ "de" ],
+  "tree" : {
+    "id" : "gecco_studienteilnahme",
+    "name" : "GECCO_Studienteilnahme",
+    "localizedName" : "GECCO_Studienteilnahme",
+    "rmType" : "COMPOSITION",
+    "nodeId" : "openEHR-EHR-COMPOSITION.registereintrag.v1",
+    "min" : 1,
+    "max" : 1,
+    "localizedNames" : {
+      "de" : "GECCO_Studienteilnahme"
+    },
+    "localizedDescriptions" : {
+      "de" : "Generische Zusammenstellung zur Darstellung eines Datensatzes für Forschungszwecke. "
+    },
+    "aqlPath" : "",
+    "children" : [ {
+      "id" : "context",
+      "rmType" : "EVENT_CONTEXT",
+      "nodeId" : "",
+      "min" : 1,
+      "max" : 1,
+      "aqlPath" : "/context",
+      "children" : [ {
+        "id" : "status",
+        "name" : "Status",
+        "localizedName" : "Status",
+        "rmType" : "DV_CODED_TEXT",
+        "nodeId" : "at0004",
+        "min" : 0,
+        "max" : 1,
+        "localizedNames" : {
+          "de" : "Status"
+        },
+        "localizedDescriptions" : {
+          "de" : "Status der gelieferten Daten für den Registereintrag. Hinweis: Dies ist nicht der Status einzelner Komponenten."
+        },
+        "aqlPath" : "/context/other_context[at0001]/items[at0004]/value",
+        "inputs" : [ {
+          "suffix" : "code",
+          "type" : "CODED_TEXT",
+          "list" : [ {
+            "value" : "at0010",
+            "label" : "registriert",
+            "localizedLabels" : {
+              "de" : "registriert"
+            },
+            "localizedDescriptions" : {
+              "de" : "*"
+            }
+          }, {
+            "value" : "at0011",
+            "label" : "vorläufig",
+            "localizedLabels" : {
+              "de" : "vorläufig"
+            },
+            "localizedDescriptions" : {
+              "de" : "*"
+            }
+          }, {
+            "value" : "at0012",
+            "label" : "final",
+            "localizedLabels" : {
+              "de" : "final"
+            },
+            "localizedDescriptions" : {
+              "de" : "*"
+            }
+          }, {
+            "value" : "at0013",
+            "label" : "geändert",
+            "localizedLabels" : {
+              "de" : "geändert"
+            },
+            "localizedDescriptions" : {
+              "de" : "*"
+            }
+          } ]
+        } ]
+      }, {
+        "id" : "kategorie",
+        "name" : "Kategorie",
+        "localizedName" : "Kategorie",
+        "rmType" : "DV_TEXT",
+        "nodeId" : "at0005",
+        "min" : 0,
+        "max" : -1,
+        "localizedNames" : {
+          "de" : "Kategorie"
+        },
+        "localizedDescriptions" : {
+          "de" : "Die Klassifikation des Registereintrags (z.B. Typ der Observation des FHIR-Profils)."
+        },
+        "aqlPath" : "/context/other_context[at0001]/items[at0005]/value",
+        "inputs" : [ {
+          "type" : "TEXT",
+          "list" : [ {
+            "value" : "survey",
+            "label" : "survey"
+          } ],
+          "listOpen" : true
+        } ]
+      }, {
+        "id" : "start_time",
+        "name" : "Start_time",
+        "rmType" : "DV_DATE_TIME",
+        "min" : 1,
+        "max" : 1,
+        "aqlPath" : "/context/start_time",
+        "inputs" : [ {
+          "type" : "DATETIME"
+        } ],
+        "inContext" : true
+      }, {
+        "id" : "setting",
+        "name" : "Setting",
+        "rmType" : "DV_CODED_TEXT",
+        "min" : 1,
+        "max" : 1,
+        "aqlPath" : "/context/setting",
+        "inputs" : [ {
+          "suffix" : "code",
+          "type" : "TEXT"
+        }, {
+          "suffix" : "value",
+          "type" : "TEXT"
+        } ],
+        "inContext" : true
+      } ]
+    }, {
+      "id" : "gecco_studienteilnahme",
+      "name" : "GECCO_Studienteilnahme",
+      "localizedName" : "GECCO_Studienteilnahme",
+      "rmType" : "EVALUATION",
+      "nodeId" : "openEHR-EHR-EVALUATION.gecco_study_participation.v0",
+      "min" : 0,
+      "max" : 1,
+      "localizedNames" : {
+        "de" : "GECCO_Studienteilnahme"
+      },
+      "localizedDescriptions" : {
+        "de" : "GECCO_Studienteilnahme"
+      },
+      "aqlPath" : "/content[openEHR-EHR-EVALUATION.gecco_study_participation.v0]",
+      "children" : [ {
+        "id" : "bereits_an_interventionellen_klinischen_studien_teilgenommen",
+        "name" : "Bereits an interventionellen klinischen Studien teilgenommen?",
+        "localizedName" : "Bereits an interventionellen klinischen Studien teilgenommen?",
+        "rmType" : "DV_CODED_TEXT",
+        "nodeId" : "at0002",
+        "min" : 0,
+        "max" : 1,
+        "localizedNames" : {
+          "de" : "Bereits an interventionellen klinischen Studien teilgenommen?"
+        },
+        "localizedDescriptions" : {
+          "de" : ""
+        },
+        "aqlPath" : "/content[openEHR-EHR-EVALUATION.gecco_study_participation.v0]/data[at0001]/items[at0002]/value",
+        "inputs" : [ {
+          "suffix" : "code",
+          "type" : "CODED_TEXT",
+          "list" : [ {
+            "value" : "373066001",
+            "label" : "Yes (qualifier value)",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "373067005",
+            "label" : "No (qualifier value)",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "261665006",
+            "label" : "Unknown (qualifier value)",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "74964007",
+            "label" : "Other (qualifier value)",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "385432009",
+            "label" : "Not applicable (qualifier value)",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          } ],
+          "terminology" : "SNOMED Clinical Terms"
+        } ]
+      }, {
+        "id" : "studienteilnahme",
+        "name" : "Studienteilnahme",
+        "localizedName" : "Studienteilnahme",
+        "rmType" : "CLUSTER",
+        "nodeId" : "openEHR-EHR-CLUSTER.study_participation.v1",
+        "min" : 0,
+        "max" : 1,
+        "localizedNames" : {
+          "de" : "Studienteilnahme"
+        },
+        "localizedDescriptions" : {
+          "de" : "Detaillierte Informationen über die Teilnahme an einer klinischen Prüfung, Beobachtungs-, Register-, Diagnostik-, Therapiestudie oder an einem anderen medizinischen Forschungsvorhaben in der Rolle eines Studienpatienten oder Probanden."
+        },
+        "aqlPath" : "/content[openEHR-EHR-EVALUATION.gecco_study_participation.v0]/data[at0001]/items[openEHR-EHR-CLUSTER.study_participation.v1]",
+        "children" : [ {
+          "id" : "studie_prüfung",
+          "name" : "Studie/Prüfung",
+          "localizedName" : "Studie/Prüfung",
+          "rmType" : "CLUSTER",
+          "nodeId" : "openEHR-EHR-CLUSTER.study_details.v1",
+          "min" : 0,
+          "max" : 1,
+          "localizedNames" : {
+            "de" : "Studie/Prüfung"
+          },
+          "localizedDescriptions" : {
+            "de" : "Detaillierte Informationen über eine klinische Prüfung, Beobachtungs-, Register-, Diagnostik-, Therapiestudie oder ein anderes medizinisches Forschungsvorhaben an Menschen."
+          },
+          "aqlPath" : "/content[openEHR-EHR-EVALUATION.gecco_study_participation.v0]/data[at0001]/items[openEHR-EHR-CLUSTER.study_participation.v1]/items[openEHR-EHR-CLUSTER.study_details.v1]",
+          "children" : [ {
+            "id" : "titel_der_studie_prüfung",
+            "name" : "Titel der Studie/Prüfung",
+            "localizedName" : "Titel der Studie/Prüfung",
+            "rmType" : "DV_CODED_TEXT",
+            "nodeId" : "at0001",
+            "min" : 1,
+            "max" : 1,
+            "localizedNames" : {
+              "de" : "Titel der Studie/Prüfung"
+            },
+            "localizedDescriptions" : {
+              "de" : "Titel des Forschungsvorhabens."
+            },
+            "annotations" : {
+              "comment" : "Zum Beispiel: \"Eine randomisierte Phase-II-Studie mit nal-Iri plus 5-Fluorouracil im Vergleich zu 5-Fluorouracil bei stationären Patienten mit Cholangio- und Gallenblasenkarzinom, die zuvor mit Gemcitabin oder Gemcitabin-haltigen Therapien behandelt wurden.\""
+            },
+            "aqlPath" : "/content[openEHR-EHR-EVALUATION.gecco_study_participation.v0]/data[at0001]/items[openEHR-EHR-CLUSTER.study_participation.v1]/items[openEHR-EHR-CLUSTER.study_details.v1]/items[at0001]/value",
+            "inputs" : [ {
+              "suffix" : "code",
+              "type" : "CODED_TEXT",
+              "list" : [ {
+                "value" : "03",
+                "label" : "Participation in interventional clinical trials",
+                "localizedLabels" : {
+                  "de" : ""
+                }
+              } ],
+              "terminology" : "eCRF"
+            } ]
+          }, {
+            "id" : "beschreibung",
+            "name" : "Beschreibung",
+            "localizedName" : "Beschreibung",
+            "rmType" : "DV_TEXT",
+            "nodeId" : "at0004",
+            "min" : 0,
+            "max" : 1,
+            "localizedNames" : {
+              "de" : "Beschreibung"
+            },
+            "localizedDescriptions" : {
+              "de" : "Kurze Beschreibung des Forschungsvorhabens."
+            },
+            "annotations" : {
+              "comment" : "Beschreibung des Forschungsvorhabens in leicht verständlicher Formulierung für Laien."
+            },
+            "aqlPath" : "/content[openEHR-EHR-EVALUATION.gecco_study_participation.v0]/data[at0001]/items[openEHR-EHR-CLUSTER.study_participation.v1]/items[openEHR-EHR-CLUSTER.study_details.v1]/items[at0004]/value",
+            "inputs" : [ {
+              "type" : "TEXT"
+            } ]
+          }, {
+            "id" : "registrierung",
+            "name" : "Registrierung",
+            "localizedName" : "Registrierung",
+            "rmType" : "CLUSTER",
+            "nodeId" : "at0033",
+            "min" : 0,
+            "max" : -1,
+            "localizedNames" : {
+              "de" : "Registrierung"
+            },
+            "localizedDescriptions" : {
+              "de" : "Registrierung der Studie in Registern."
+            },
+            "annotations" : {
+              "comment" : "Wenn die Studie auf der Webseite Clinicaltrials.gov registriert ist, besitzt sie eine US NCT-Nummer. Zum Beispiel: NCT03772405. \r\nEine EudraCT Nummer wird von der Europäischen Arzneimittelagentur vergeben. Wenn die klinische Prüfung auf der Webseite Current Controlled Trials registriert ist, besitzt sie eine ISRCTN-Nummer (International Standard Randomised Controlled Trial Number). "
+            },
+            "aqlPath" : "/content[openEHR-EHR-EVALUATION.gecco_study_participation.v0]/data[at0001]/items[openEHR-EHR-CLUSTER.study_participation.v1]/items[openEHR-EHR-CLUSTER.study_details.v1]/items[at0033]",
+            "children" : [ {
+              "id" : "registername",
+              "name" : "Registername",
+              "localizedName" : "Registername",
+              "rmType" : "DV_CODED_TEXT",
+              "nodeId" : "at0035",
+              "min" : 0,
+              "max" : 1,
+              "localizedNames" : {
+                "de" : "Registername"
+              },
+              "localizedDescriptions" : {
+                "de" : "Studienregister, wo die Studie registriert ist und eine eindeutige Identifikationsnummer besitzt."
+              },
+              "annotations" : {
+                "comment" : "Zum Beispiel: Europäischen Arzneimittelagentur (EudraCT) oder Webseite Clinicaltrials.gov (US NCT-Nummer)."
+              },
+              "aqlPath" : "/content[openEHR-EHR-EVALUATION.gecco_study_participation.v0]/data[at0001]/items[openEHR-EHR-CLUSTER.study_participation.v1]/items[openEHR-EHR-CLUSTER.study_details.v1]/items[at0033]/items[at0035]/value",
+              "inputs" : [ {
+                "suffix" : "code",
+                "type" : "CODED_TEXT",
+                "list" : [ {
+                  "value" : "04",
+                  "label" : "EudraCT Number‎",
+                  "localizedLabels" : {
+                    "de" : ""
+                  }
+                }, {
+                  "value" : "05",
+                  "label" : "NCT number",
+                  "localizedLabels" : {
+                    "de" : ""
+                  }
+                } ],
+                "terminology" : "eCRF"
+              } ]
+            }, {
+              "id" : "registrierungsnummer",
+              "name" : "Registrierungsnummer",
+              "localizedName" : "Registrierungsnummer",
+              "rmType" : "DV_TEXT",
+              "nodeId" : "at0034",
+              "min" : 0,
+              "max" : 1,
+              "localizedNames" : {
+                "de" : "Registrierungsnummer"
+              },
+              "localizedDescriptions" : {
+                "de" : "Eindeutige Identifikationsnummer an dem angezeigten Register."
+              },
+              "annotations" : {
+                "comment" : "Zum Beispiel die EudraCT Nummer, die von der Europäischen Arzneimittelagentur vergeben wird, oder ISRCTN (International Standard Randomised Controlled Trial Number). \r\nWenn die klinische Prüfung auf der Webseite Current Controlled Trials registriert ist, besitzt sie eine ISRCTN-Nummer."
+              },
+              "aqlPath" : "/content[openEHR-EHR-EVALUATION.gecco_study_participation.v0]/data[at0001]/items[openEHR-EHR-CLUSTER.study_participation.v1]/items[openEHR-EHR-CLUSTER.study_details.v1]/items[at0033]/items[at0034]/value",
+              "inputs" : [ {
+                "type" : "TEXT"
+              } ]
+            } ]
+          } ]
+        }, {
+          "id" : "bestätigte_covid-19-diagnose_als_hauptursache_für_aufnahme_in_studie",
+          "name" : "Bestätigte Covid-19-Diagnose als Hauptursache für Aufnahme in Studie",
+          "localizedName" : "Bestätigte Covid-19-Diagnose als Hauptursache für Aufnahme in Studie",
+          "rmType" : "DV_CODED_TEXT",
+          "nodeId" : "at0014",
+          "min" : 0,
+          "max" : 1,
+          "localizedNames" : {
+            "de" : "Bestätigte Covid-19-Diagnose als Hauptursache für Aufnahme in Studie"
+          },
+          "localizedDescriptions" : {
+            "de" : "Zusätzliche Informationen zu der Studienteilnahme."
+          },
+          "aqlPath" : "/content[openEHR-EHR-EVALUATION.gecco_study_participation.v0]/data[at0001]/items[openEHR-EHR-CLUSTER.study_participation.v1]/items[at0014,'Bestätigte Covid-19-Diagnose als Hauptursache für Aufnahme in Studie']/value",
+          "inputs" : [ {
+            "suffix" : "code",
+            "type" : "CODED_TEXT",
+            "list" : [ {
+              "value" : "373066001",
+              "label" : "Yes (qualifier value)",
+              "localizedLabels" : {
+                "de" : ""
+              }
+            }, {
+              "value" : "373067005",
+              "label" : "No (qualifier value)",
+              "localizedLabels" : {
+                "de" : ""
+              }
+            }, {
+              "value" : "261665006",
+              "label" : "Unknown (qualifier value)",
+              "localizedLabels" : {
+                "de" : ""
+              }
+            }, {
+              "value" : "74964007",
+              "label" : "Other (qualifier value)",
+              "localizedLabels" : {
+                "de" : ""
+              }
+            }, {
+              "value" : "385432009",
+              "label" : "Not applicable (qualifier value)",
+              "localizedLabels" : {
+                "de" : ""
+              }
+            } ],
+            "terminology" : "SNOMED Clinical Terms"
+          } ]
+        } ]
+      }, {
+        "id" : "language",
+        "name" : "Language",
+        "rmType" : "CODE_PHRASE",
+        "min" : 1,
+        "max" : 1,
+        "aqlPath" : "/content[openEHR-EHR-EVALUATION.gecco_study_participation.v0]/language",
+        "inContext" : true
+      }, {
+        "id" : "encoding",
+        "name" : "Encoding",
+        "rmType" : "CODE_PHRASE",
+        "min" : 1,
+        "max" : 1,
+        "aqlPath" : "/content[openEHR-EHR-EVALUATION.gecco_study_participation.v0]/encoding",
+        "inContext" : true
+      }, {
+        "id" : "subject",
+        "name" : "Subject",
+        "rmType" : "PARTY_PROXY",
+        "min" : 1,
+        "max" : 1,
+        "aqlPath" : "/content[openEHR-EHR-EVALUATION.gecco_study_participation.v0]/subject",
+        "inputs" : [ {
+          "suffix" : "id",
+          "type" : "TEXT"
+        }, {
+          "suffix" : "id_scheme",
+          "type" : "TEXT"
+        }, {
+          "suffix" : "id_namespace",
+          "type" : "TEXT"
+        }, {
+          "suffix" : "name",
+          "type" : "TEXT"
+        } ],
+        "inContext" : true
+      } ]
+    }, {
+      "id" : "category",
+      "rmType" : "DV_CODED_TEXT",
+      "nodeId" : "",
+      "min" : 1,
+      "max" : 1,
+      "aqlPath" : "/category",
+      "inputs" : [ {
+        "suffix" : "code",
+        "type" : "CODED_TEXT",
+        "list" : [ {
+          "value" : "433",
+          "label" : "event",
+          "localizedLabels" : {
+            "de" : ""
+          }
+        } ],
+        "terminology" : "openehr"
+      } ],
+      "inContext" : true
+    }, {
+      "id" : "language",
+      "name" : "Language",
+      "rmType" : "CODE_PHRASE",
+      "min" : 1,
+      "max" : 1,
+      "aqlPath" : "/language",
+      "inContext" : true
+    }, {
+      "id" : "territory",
+      "name" : "Territory",
+      "rmType" : "CODE_PHRASE",
+      "min" : 1,
+      "max" : 1,
+      "aqlPath" : "/territory",
+      "inContext" : true
+    }, {
+      "id" : "composer",
+      "name" : "Composer",
+      "rmType" : "PARTY_PROXY",
+      "min" : 1,
+      "max" : 1,
+      "aqlPath" : "/composer",
+      "inputs" : [ {
+        "suffix" : "id",
+        "type" : "TEXT"
+      }, {
+        "suffix" : "id_scheme",
+        "type" : "TEXT"
+      }, {
+        "suffix" : "id_namespace",
+        "type" : "TEXT"
+      }, {
+        "suffix" : "name",
+        "type" : "TEXT"
+      } ],
+      "inContext" : true
+    } ]
+  }
+}

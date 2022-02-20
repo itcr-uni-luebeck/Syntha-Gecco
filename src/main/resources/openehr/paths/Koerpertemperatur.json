@@ -1,0 +1,109 @@
+{
+  "templateName" : "Koerpertemperatur",
+  "paths" : [ {
+    "id" : 0,
+    "aqlPath" : "/context/other_context[at0001]/items[at0004]/value|code",
+    "path" : "gecco_koerpertemperatur/context/status|code",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 1,
+    "aqlPath" : "/context/other_context[at0001]/items[at0005]/value",
+    "path" : "gecco_koerpertemperatur/context/kategorie",
+    "type" : "TEXT"
+  }, {
+    "id" : 2,
+    "aqlPath" : "/context/start_time",
+    "path" : "gecco_koerpertemperatur/context/start_time",
+    "type" : "DATETIME"
+  }, {
+    "id" : 3,
+    "aqlPath" : "/context/setting|code",
+    "path" : "gecco_koerpertemperatur/context/setting|code",
+    "type" : "TEXT"
+  }, {
+    "id" : 4,
+    "aqlPath" : "/context/setting|value",
+    "path" : "gecco_koerpertemperatur/context/setting|value",
+    "type" : "TEXT"
+  }, {
+    "id" : 5,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.body_temperature.v2,'Koerpertemperatur']/data[at0002]/events[at0003]/data[at0001]/items[at0004]/value|magnitude",
+    "path" : "gecco_koerpertemperatur/koerpertemperatur/temperatur|magnitude",
+    "type" : "DECIMAL"
+  }, {
+    "id" : 6,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.body_temperature.v2,'Koerpertemperatur']/data[at0002]/events[at0003]/data[at0001]/items[at0004]/value|unit",
+    "path" : "gecco_koerpertemperatur/koerpertemperatur/temperatur|unit",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 7,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.body_temperature.v2,'Koerpertemperatur']/data[at0002]/events[at0003]/time",
+    "path" : "gecco_koerpertemperatur/koerpertemperatur/time",
+    "type" : "DATETIME"
+  }, {
+    "id" : 8,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.body_temperature.v2,'Koerpertemperatur']/language",
+    "path" : "gecco_koerpertemperatur/koerpertemperatur/language",
+    "type" : "TEXT"
+  }, {
+    "id" : 9,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.body_temperature.v2,'Koerpertemperatur']/encoding",
+    "path" : "gecco_koerpertemperatur/koerpertemperatur/encoding",
+    "type" : "TEXT"
+  }, {
+    "id" : 10,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.body_temperature.v2,'Koerpertemperatur']/subject|id",
+    "path" : "gecco_koerpertemperatur/koerpertemperatur/subject|id",
+    "type" : "TEXT"
+  }, {
+    "id" : 11,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.body_temperature.v2,'Koerpertemperatur']/subject|id_scheme",
+    "path" : "gecco_koerpertemperatur/koerpertemperatur/subject|id_scheme",
+    "type" : "TEXT"
+  }, {
+    "id" : 12,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.body_temperature.v2,'Koerpertemperatur']/subject|id_namespace",
+    "path" : "gecco_koerpertemperatur/koerpertemperatur/subject|id_namespace",
+    "type" : "TEXT"
+  }, {
+    "id" : 13,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.body_temperature.v2,'Koerpertemperatur']/subject|name",
+    "path" : "gecco_koerpertemperatur/koerpertemperatur/subject|name",
+    "type" : "TEXT"
+  }, {
+    "id" : 14,
+    "aqlPath" : "/category|code",
+    "path" : "gecco_koerpertemperatur/category|code",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 15,
+    "aqlPath" : "/language",
+    "path" : "gecco_koerpertemperatur/language",
+    "type" : "TEXT"
+  }, {
+    "id" : 16,
+    "aqlPath" : "/territory",
+    "path" : "gecco_koerpertemperatur/territory",
+    "type" : "TEXT"
+  }, {
+    "id" : 17,
+    "aqlPath" : "/composer|id",
+    "path" : "gecco_koerpertemperatur/composer|id",
+    "type" : "TEXT"
+  }, {
+    "id" : 18,
+    "aqlPath" : "/composer|id_scheme",
+    "path" : "gecco_koerpertemperatur/composer|id_scheme",
+    "type" : "TEXT"
+  }, {
+    "id" : 19,
+    "aqlPath" : "/composer|id_namespace",
+    "path" : "gecco_koerpertemperatur/composer|id_namespace",
+    "type" : "TEXT"
+  }, {
+    "id" : 20,
+    "aqlPath" : "/composer|name",
+    "path" : "gecco_koerpertemperatur/composer|name",
+    "type" : "TEXT"
+  } ]
+}

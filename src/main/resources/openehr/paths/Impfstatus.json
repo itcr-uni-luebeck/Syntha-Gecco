@@ -1,0 +1,174 @@
+{
+  "templateName" : "Impfstatus",
+  "paths" : [ {
+    "id" : 0,
+    "aqlPath" : "/context/start_time",
+    "path" : "impfstatus/context/start_time",
+    "type" : "DATETIME"
+  }, {
+    "id" : 1,
+    "aqlPath" : "/context/setting|code",
+    "path" : "impfstatus/context/setting|code",
+    "type" : "TEXT"
+  }, {
+    "id" : 2,
+    "aqlPath" : "/context/setting|value",
+    "path" : "impfstatus/context/setting|value",
+    "type" : "TEXT"
+  }, {
+    "id" : 3,
+    "aqlPath" : "/content[openEHR-EHR-ACTION.medication.v1,'Impfung']/ism_transition/current_state|code",
+    "path" : "impfstatus/impfung/ism_transition/current_state|code",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 4,
+    "aqlPath" : "/content[openEHR-EHR-ACTION.medication.v1,'Impfung']/ism_transition/transition|code",
+    "path" : "impfstatus/impfung/ism_transition/transition|code",
+    "type" : "TEXT"
+  }, {
+    "id" : 5,
+    "aqlPath" : "/content[openEHR-EHR-ACTION.medication.v1,'Impfung']/ism_transition/transition|value",
+    "path" : "impfstatus/impfung/ism_transition/transition|value",
+    "type" : "TEXT"
+  }, {
+    "id" : 6,
+    "aqlPath" : "/content[openEHR-EHR-ACTION.medication.v1,'Impfung']/ism_transition/careflow_step|code",
+    "path" : "impfstatus/impfung/ism_transition/careflow_step|code",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 7,
+    "aqlPath" : "/content[openEHR-EHR-ACTION.medication.v1,'Impfung']/description[at0017]/items[at0020,'Impfstoff']/value",
+    "path" : "impfstatus/impfung/impfstoff",
+    "type" : "TEXT"
+  }, {
+    "id" : 8,
+    "aqlPath" : "/content[openEHR-EHR-ACTION.medication.v1,'Impfung']/description[at0017]/items[openEHR-EHR-CLUSTER.dosage.v1,'Verabreichte Dosen']/items[at0164]/value",
+    "path" : "impfstatus/impfung/verabreichte_dosen/dosierungsreihenfolge",
+    "type" : "INTEGER"
+  }, {
+    "id" : 9,
+    "aqlPath" : "/content[openEHR-EHR-ACTION.medication.v1,'Impfung']/description[at0017]/items[openEHR-EHR-CLUSTER.dosage.v1,'Verabreichte Dosen']/items[at0144]/value|magnitude",
+    "path" : "impfstatus/impfung/verabreichte_dosen/dosismenge|magnitude",
+    "type" : "DECIMAL"
+  }, {
+    "id" : 10,
+    "aqlPath" : "/content[openEHR-EHR-ACTION.medication.v1,'Impfung']/description[at0017]/items[openEHR-EHR-CLUSTER.dosage.v1,'Verabreichte Dosen']/items[at0144]/value|unit",
+    "path" : "impfstatus/impfung/verabreichte_dosen/dosismenge|unit",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 11,
+    "aqlPath" : "/content[openEHR-EHR-ACTION.medication.v1,'Impfung']/description[at0017]/items[at0156]/value",
+    "path" : "impfstatus/impfung/klinische_indikation",
+    "type" : "TEXT"
+  }, {
+    "id" : 12,
+    "aqlPath" : "/content[openEHR-EHR-ACTION.medication.v1,'Impfung']/description[at0017]/items[at0021,'Impfung gegen']/value|code",
+    "path" : "impfstatus/impfung/impfung_gegen|code",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 13,
+    "aqlPath" : "/content[openEHR-EHR-ACTION.medication.v1,'Impfung']/time",
+    "path" : "impfstatus/impfung/time",
+    "type" : "DATETIME"
+  }, {
+    "id" : 14,
+    "aqlPath" : "/content[openEHR-EHR-ACTION.medication.v1,'Impfung']/language",
+    "path" : "impfstatus/impfung/language",
+    "type" : "TEXT"
+  }, {
+    "id" : 15,
+    "aqlPath" : "/content[openEHR-EHR-ACTION.medication.v1,'Impfung']/encoding",
+    "path" : "impfstatus/impfung/encoding",
+    "type" : "TEXT"
+  }, {
+    "id" : 16,
+    "aqlPath" : "/content[openEHR-EHR-ACTION.medication.v1,'Impfung']/subject|id",
+    "path" : "impfstatus/impfung/subject|id",
+    "type" : "TEXT"
+  }, {
+    "id" : 17,
+    "aqlPath" : "/content[openEHR-EHR-ACTION.medication.v1,'Impfung']/subject|id_scheme",
+    "path" : "impfstatus/impfung/subject|id_scheme",
+    "type" : "TEXT"
+  }, {
+    "id" : 18,
+    "aqlPath" : "/content[openEHR-EHR-ACTION.medication.v1,'Impfung']/subject|id_namespace",
+    "path" : "impfstatus/impfung/subject|id_namespace",
+    "type" : "TEXT"
+  }, {
+    "id" : 19,
+    "aqlPath" : "/content[openEHR-EHR-ACTION.medication.v1,'Impfung']/subject|name",
+    "path" : "impfstatus/impfung/subject|name",
+    "type" : "TEXT"
+  }, {
+    "id" : 20,
+    "aqlPath" : "/content[openEHR-EHR-EVALUATION.absence.v2,'Unbekannter Impfstatus']/data[at0001]/items[at0002]/value|code",
+    "path" : "impfstatus/unbekannter_impfstatus/aussage_über_abwesenheit|code",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 21,
+    "aqlPath" : "/content[openEHR-EHR-EVALUATION.absence.v2,'Unbekannter Impfstatus']/language",
+    "path" : "impfstatus/unbekannter_impfstatus/language",
+    "type" : "TEXT"
+  }, {
+    "id" : 22,
+    "aqlPath" : "/content[openEHR-EHR-EVALUATION.absence.v2,'Unbekannter Impfstatus']/encoding",
+    "path" : "impfstatus/unbekannter_impfstatus/encoding",
+    "type" : "TEXT"
+  }, {
+    "id" : 23,
+    "aqlPath" : "/content[openEHR-EHR-EVALUATION.absence.v2,'Unbekannter Impfstatus']/subject|id",
+    "path" : "impfstatus/unbekannter_impfstatus/subject|id",
+    "type" : "TEXT"
+  }, {
+    "id" : 24,
+    "aqlPath" : "/content[openEHR-EHR-EVALUATION.absence.v2,'Unbekannter Impfstatus']/subject|id_scheme",
+    "path" : "impfstatus/unbekannter_impfstatus/subject|id_scheme",
+    "type" : "TEXT"
+  }, {
+    "id" : 25,
+    "aqlPath" : "/content[openEHR-EHR-EVALUATION.absence.v2,'Unbekannter Impfstatus']/subject|id_namespace",
+    "path" : "impfstatus/unbekannter_impfstatus/subject|id_namespace",
+    "type" : "TEXT"
+  }, {
+    "id" : 26,
+    "aqlPath" : "/content[openEHR-EHR-EVALUATION.absence.v2,'Unbekannter Impfstatus']/subject|name",
+    "path" : "impfstatus/unbekannter_impfstatus/subject|name",
+    "type" : "TEXT"
+  }, {
+    "id" : 27,
+    "aqlPath" : "/category|code",
+    "path" : "impfstatus/category|code",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 28,
+    "aqlPath" : "/language",
+    "path" : "impfstatus/language",
+    "type" : "TEXT"
+  }, {
+    "id" : 29,
+    "aqlPath" : "/territory",
+    "path" : "impfstatus/territory",
+    "type" : "TEXT"
+  }, {
+    "id" : 30,
+    "aqlPath" : "/composer|id",
+    "path" : "impfstatus/composer|id",
+    "type" : "TEXT"
+  }, {
+    "id" : 31,
+    "aqlPath" : "/composer|id_scheme",
+    "path" : "impfstatus/composer|id_scheme",
+    "type" : "TEXT"
+  }, {
+    "id" : 32,
+    "aqlPath" : "/composer|id_namespace",
+    "path" : "impfstatus/composer|id_namespace",
+    "type" : "TEXT"
+  }, {
+    "id" : 33,
+    "aqlPath" : "/composer|name",
+    "path" : "impfstatus/composer|name",
+    "type" : "TEXT"
+  } ]
+}

@@ -1,0 +1,830 @@
+{
+  "system" : "SNOMED Clinical Terms",
+  "code" : "3138006",
+  "description" : "",
+  "children" : [ {
+    "system" : "http://snomed.info/sct",
+    "code" : "361727008",
+    "display" : "All bone (tissue)"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "328133002",
+    "display" : "All bone marrow bony trabeculae"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "3138006",
+    "display" : "Bone (tissue) structure"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "427291008",
+    "display" : "Bone tissue of bone organ of distal carpus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "427171006",
+    "display" : "Bone tissue of bone organ of proximal carpus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "427532003",
+    "display" : "Bone tissue of capitate bone"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "426268002",
+    "display" : "Bone tissue of cervical vertebra C7"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "427301003",
+    "display" : "Bone tissue of coccygeal vertebra"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "427342000",
+    "display" : "Bone tissue of distal phalanx of foot"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "426816004",
+    "display" : "Bone tissue of distal phalanx of fourth toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "425544004",
+    "display" : "Bone tissue of distal phalanx of great toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "426835004",
+    "display" : "Bone tissue of distal phalanx of index finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "426178006",
+    "display" : "Bone tissue of distal phalanx of little finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "426126008",
+    "display" : "Bone tissue of distal phalanx of little toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "425775005",
+    "display" : "Bone tissue of distal phalanx of middle finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "427144006",
+    "display" : "Bone tissue of distal phalanx of ring finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "426057005",
+    "display" : "Bone tissue of distal phalanx of second toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "426878009",
+    "display" : "Bone tissue of distal phalanx of third toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "427254002",
+    "display" : "Bone tissue of ethmoid bone"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "427373001",
+    "display" : "Bone tissue of false rib"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "426298009",
+    "display" : "Bone tissue of fifth metatarsal"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "427574008",
+    "display" : "Bone tissue of fifth sacral vertebra"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "427628001",
+    "display" : "Bone tissue of first coccygeal vertebra"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "426212006",
+    "display" : "Bone tissue of first metatarsal"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "426386001",
+    "display" : "Bone tissue of first sacral vertebra"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "427308009",
+    "display" : "Bone tissue of flat bone"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "426843009",
+    "display" : "Bone tissue of floating rib"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "427457006",
+    "display" : "Bone tissue of fourth coccygeal vertebra"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "426710002",
+    "display" : "Bone tissue of fourth sacral vertebra"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "426227006",
+    "display" : "Bone tissue of frontal bone"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "427227000",
+    "display" : "Bone tissue of hyoid bone"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "426695004",
+    "display" : "Bone tissue of inferior nasal turbinate"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "426047009",
+    "display" : "Bone tissue of innominate bone"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "426076007",
+    "display" : "Bone tissue of interparietal bone"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "425509001",
+    "display" : "Bone tissue of irregular bone"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "425591006",
+    "display" : "Bone tissue of lacrimal bone"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "425475006",
+    "display" : "Bone tissue of long bone"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "427607005",
+    "display" : "Bone tissue of lunate bone"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "425432000",
+    "display" : "Bone tissue of metatarsal bone"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "427102000",
+    "display" : "Bone tissue of middle phalanx of fourth toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "427003008",
+    "display" : "Bone tissue of middle phalanx of index finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "427058006",
+    "display" : "Bone tissue of middle phalanx of little finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "425817002",
+    "display" : "Bone tissue of middle phalanx of little toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "427042008",
+    "display" : "Bone tissue of middle phalanx of middle finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "426949009",
+    "display" : "Bone tissue of middle phalanx of ring finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "426429007",
+    "display" : "Bone tissue of middle phalanx of second toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "426355007",
+    "display" : "Bone tissue of middle phalanx of third toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "426884007",
+    "display" : "Bone tissue of nasal bone"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "427643004",
+    "display" : "Bone tissue of occipital bone"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "426596009",
+    "display" : "Bone tissue of palatine bone"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "425655009",
+    "display" : "Bone tissue of parietal bone"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "427135005",
+    "display" : "Bone tissue of phalanx of fourth toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "425844007",
+    "display" : "Bone tissue of phalanx of great toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "426614004",
+    "display" : "Bone tissue of phalanx of index finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "426492008",
+    "display" : "Bone tissue of phalanx of little finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "426522001",
+    "display" : "Bone tissue of phalanx of little toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "427646007",
+    "display" : "Bone tissue of phalanx of middle finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "427313008",
+    "display" : "Bone tissue of phalanx of ring finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "425714004",
+    "display" : "Bone tissue of phalanx of second toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "425407002",
+    "display" : "Bone tissue of phalanx of third toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "427025002",
+    "display" : "Bone tissue of pisiform bone of hand"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "426097008",
+    "display" : "Bone tissue of pneumatic bone"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "427214004",
+    "display" : "Bone tissue of proximal phalanx of foot"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "425973009",
+    "display" : "Bone tissue of proximal phalanx of fourth toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "426416007",
+    "display" : "Bone tissue of proximal phalanx of great toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "426149005",
+    "display" : "Bone tissue of proximal phalanx of index finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "427622000",
+    "display" : "Bone tissue of proximal phalanx of little finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "426486002",
+    "display" : "Bone tissue of proximal phalanx of little toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "425849002",
+    "display" : "Bone tissue of proximal phalanx of middle finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "425958008",
+    "display" : "Bone tissue of proximal phalanx of ring finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "426526003",
+    "display" : "Bone tissue of proximal phalanx of second toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "426719001",
+    "display" : "Bone tissue of proximal phalanx of third toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "426132003",
+    "display" : "Bone tissue of sacral vertebra"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "426452006",
+    "display" : "Bone tissue of second coccygeal vertebra"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "427379002",
+    "display" : "Bone tissue of second metatarsal"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "425720003",
+    "display" : "Bone tissue of second sacral vertebra"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "425982003",
+    "display" : "Bone tissue of sesamoid bone"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "426671001",
+    "display" : "Bone tissue of sesamoid bone of foot"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "427534002",
+    "display" : "Bone tissue of sesamoid of wrist"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "426072009",
+    "display" : "Bone tissue of short bone"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "426328003",
+    "display" : "Bone tissue of shoulder region"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "427580000",
+    "display" : "Bone tissue of sphenoid bone"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "426441000",
+    "display" : "Bone tissue of temporal bone"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "427279004",
+    "display" : "Bone tissue of third coccygeal vertebra"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "426819006",
+    "display" : "Bone tissue of third metatarsal"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "425794000",
+    "display" : "Bone tissue of third sacral vertebra"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "427641002",
+    "display" : "Bone tissue of trapezoid bone"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "427028000",
+    "display" : "Bone tissue of triangular bone"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "427008004",
+    "display" : "Bone tissue of true rib"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "425888000",
+    "display" : "Bone tissue of vertebra"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "427621007",
+    "display" : "Bone tissue of vomer bone"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "426219002",
+    "display" : "Bone tissue of wormian bone"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "427271001",
+    "display" : "Bone tissue of zygomatic bone"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "3400000",
+    "display" : "Cell of bone"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "32217005",
+    "display" : "Compact bone structure"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "730747005",
+    "display" : "Entire bone tissue of bone organ of distal carpus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "730739005",
+    "display" : "Entire bone tissue of bone organ of proximal carpus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "730756002",
+    "display" : "Entire bone tissue of capitate bone"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "730703004",
+    "display" : "Entire bone tissue of cervical vertebra C7"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "730748000",
+    "display" : "Entire bone tissue of coccygeal vertebra"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "730751007",
+    "display" : "Entire bone tissue of distal phalanx of foot"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "730722008",
+    "display" : "Entire bone tissue of distal phalanx of fourth toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "730675002",
+    "display" : "Entire bone tissue of distal phalanx of great toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "730725005",
+    "display" : "Entire bone tissue of distal phalanx of index finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "730697000",
+    "display" : "Entire bone tissue of distal phalanx of little finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "730694007",
+    "display" : "Entire bone tissue of distal phalanx of little toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "730680006",
+    "display" : "Entire bone tissue of distal phalanx of middle finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "730738002",
+    "display" : "Entire bone tissue of distal phalanx of ring finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "730690003",
+    "display" : "Entire bone tissue of distal phalanx of second toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "730727002",
+    "display" : "Entire bone tissue of distal phalanx of third toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "730743009",
+    "display" : "Entire bone tissue of ethmoid bone"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "730752000",
+    "display" : "Entire bone tissue of false rib"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "730704005",
+    "display" : "Entire bone tissue of fifth metatarsal"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "730758001",
+    "display" : "Entire bone tissue of fifth sacral vertebra"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "730763002",
+    "display" : "Entire bone tissue of first coccygeal vertebra"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "730699002",
+    "display" : "Entire bone tissue of first metatarsal"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "730707003",
+    "display" : "Entire bone tissue of first sacral vertebra"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "730749008",
+    "display" : "Entire bone tissue of flat bone"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "730726006",
+    "display" : "Entire bone tissue of floating rib"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "730755003",
+    "display" : "Entire bone tissue of fourth coccygeal vertebra"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "730720000",
+    "display" : "Entire bone tissue of fourth sacral vertebra"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "730702009",
+    "display" : "Entire bone tissue of frontal bone"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "730742004",
+    "display" : "Entire bone tissue of hyoid bone"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "730719006",
+    "display" : "Entire bone tissue of inferior nasal turbinate"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "730689007",
+    "display" : "Entire bone tissue of innominate bone"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "730692006",
+    "display" : "Entire bone tissue of interparietal bone"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "730674003",
+    "display" : "Entire bone tissue of irregular bone"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "730676001",
+    "display" : "Entire bone tissue of lacrimal bone"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "730673009",
+    "display" : "Entire bone tissue of long bone"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "730760004",
+    "display" : "Entire bone tissue of lunate bone"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "730670007",
+    "display" : "Entire bone tissue of metatarsal bone"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "730736003",
+    "display" : "Entire bone tissue of middle phalanx of fourth toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "730730009",
+    "display" : "Entire bone tissue of middle phalanx of index finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "730735004",
+    "display" : "Entire bone tissue of middle phalanx of little finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "730682003",
+    "display" : "Entire bone tissue of middle phalanx of little toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "730734000",
+    "display" : "Entire bone tissue of middle phalanx of middle finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "730729004",
+    "display" : "Entire bone tissue of middle phalanx of ring finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "730709000",
+    "display" : "Entire bone tissue of middle phalanx of second toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "730706007",
+    "display" : "Entire bone tissue of middle phalanx of third toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "730728007",
+    "display" : "Entire bone tissue of nasal bone"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "730765009",
+    "display" : "Entire bone tissue of occipital bone"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "730716004",
+    "display" : "Entire bone tissue of palatine bone"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "730677005",
+    "display" : "Entire bone tissue of parietal bone"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "730737007",
+    "display" : "Entire bone tissue of phalanx of fourth toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "730683008",
+    "display" : "Entire bone tissue of phalanx of great toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "730717008",
+    "display" : "Entire bone tissue of phalanx of index finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "730713007",
+    "display" : "Entire bone tissue of phalanx of little finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "730714001",
+    "display" : "Entire bone tissue of phalanx of little toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "730766005",
+    "display" : "Entire bone tissue of phalanx of middle finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "730750008",
+    "display" : "Entire bone tissue of phalanx of ring finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "730678000",
+    "display" : "Entire bone tissue of phalanx of second toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "730669006",
+    "display" : "Entire bone tissue of phalanx of third toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "730732001",
+    "display" : "Entire bone tissue of pisiform bone of hand"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "730693001",
+    "display" : "Entire bone tissue of pneumatic bone"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "730740007",
+    "display" : "Entire bone tissue of proximal phalanx of foot"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "730687009",
+    "display" : "Entire bone tissue of proximal phalanx of fourth toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "730708008",
+    "display" : "Entire bone tissue of proximal phalanx of great toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "730696009",
+    "display" : "Entire bone tissue of proximal phalanx of index finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "730762007",
+    "display" : "Entire bone tissue of proximal phalanx of little finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "730712002",
+    "display" : "Entire bone tissue of proximal phalanx of little toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "730684002",
+    "display" : "Entire bone tissue of proximal phalanx of middle finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "730686000",
+    "display" : "Entire bone tissue of proximal phalanx of ring finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "730715000",
+    "display" : "Entire bone tissue of proximal phalanx of second toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "730721001",
+    "display" : "Entire bone tissue of proximal phalanx of third toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "730695008",
+    "display" : "Entire bone tissue of sacral vertebra"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "730711009",
+    "display" : "Entire bone tissue of second coccygeal vertebra"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "730753005",
+    "display" : "Entire bone tissue of second metatarsal"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "730679008",
+    "display" : "Entire bone tissue of second sacral vertebra"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "730688004",
+    "display" : "Entire bone tissue of sesamoid bone"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "730718003",
+    "display" : "Entire bone tissue of sesamoid bone of foot"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "730757006",
+    "display" : "Entire bone tissue of sesamoid of wrist"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "730691004",
+    "display" : "Entire bone tissue of short bone"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "730705006",
+    "display" : "Entire bone tissue of shoulder region"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "730759009",
+    "display" : "Entire bone tissue of sphenoid bone"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "730710005",
+    "display" : "Entire bone tissue of temporal bone"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "730746001",
+    "display" : "Entire bone tissue of third coccygeal vertebra"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "730723003",
+    "display" : "Entire bone tissue of third metatarsal"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "730681005",
+    "display" : "Entire bone tissue of third sacral vertebra"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "730764008",
+    "display" : "Entire bone tissue of trapezoid bone"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "730733006",
+    "display" : "Entire bone tissue of triangular bone"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "730731008",
+    "display" : "Entire bone tissue of true rib"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "730685001",
+    "display" : "Entire bone tissue of vertebra"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "730761000",
+    "display" : "Entire bone tissue of vomer bone"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "730701002",
+    "display" : "Entire bone tissue of wormian bone"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "730745002",
+    "display" : "Entire bone tissue of zygomatic bone"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "361728003",
+    "display" : "Entire compact bone"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727061001",
+    "display" : "Entire interstitial bone"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "729907005",
+    "display" : "Entire lamellar bone tissue"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "450723002",
+    "display" : "Entire lamina dura of tooth socket"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "726883007",
+    "display" : "Entire nonosteonal lamellar bone"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727005007",
+    "display" : "Entire osteoid tissue"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727002005",
+    "display" : "Entire primary osteon"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727173004",
+    "display" : "Entire secondary osteon"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "726895007",
+    "display" : "Entire trabecular substance of bone"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "49402005",
+    "display" : "Interstitial bone"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "309313009",
+    "display" : "Lamellar bone tissue"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "17316003",
+    "display" : "Nonosteonal lamellar bone"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "48156001",
+    "display" : "Osteoblast"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "27770000",
+    "display" : "Osteoclast"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "23821005",
+    "display" : "Osteocyte"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "39365008",
+    "display" : "Osteoid tissue"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "39231009",
+    "display" : "Primary osteon"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "67126003",
+    "display" : "Secondary osteon"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "84112006",
+    "display" : "Structure of bone marrow bony trabeculae"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "450722007",
+    "display" : "Structure of lamina dura of tooth socket"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "20870005",
+    "display" : "Trabecular substance of bone"
+  } ]
+}

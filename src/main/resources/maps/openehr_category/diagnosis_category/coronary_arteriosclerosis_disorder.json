@@ -1,0 +1,150 @@
+{
+  "system" : "SNOMED Clinical Terms",
+  "code" : "53741008",
+  "description" : "",
+  "children" : [ {
+    "system" : "http://snomed.info/sct",
+    "code" : "233844002",
+    "display" : "Accelerated coronary artery disease in transplanted heart"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "791000119109",
+    "display" : "Angina associated with type 2 diabetes mellitus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "15960381000119109",
+    "display" : "Angina co-occurrent and due to arteriosclerosis of coronary artery bypass graft"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "15960141000119102",
+    "display" : "Angina co-occurrent and due to coronary arteriosclerosis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "442421004",
+    "display" : "Arteriosclerosis of arterial coronary artery bypass graft"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "285141000119106",
+    "display" : "Arteriosclerosis of autologous arterial coronary artery bypass graft"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "285151000119108",
+    "display" : "Arteriosclerosis of autologous coronary artery bypass graft"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "442224005",
+    "display" : "Arteriosclerosis of autologous vein coronary artery bypass graft"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "15960581000119102",
+    "display" : "Arteriosclerosis of autologous vein coronary artery bypass graft with angina"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "429673002",
+    "display" : "Arteriosclerosis of coronary artery bypass graft"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "444855007",
+    "display" : "Arteriosclerosis of coronary artery bypass graft of transplanted heart"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "444856008",
+    "display" : "Arteriosclerosis of internal mammary artery coronary artery bypass graft"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "442240008",
+    "display" : "Arteriosclerosis of nonautologous coronary artery bypass graft"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "315348000",
+    "display" : "Asymptomatic coronary heart disease"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "724431008",
+    "display" : "Atherosclerosis of autologous coronary artery bypass graft"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "723862008",
+    "display" : "Atherosclerosis of non-autologous coronary artery bypass graft"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "92517006",
+    "display" : "Calcific coronary arteriosclerosis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "42866003",
+    "display" : "Congenital coronary artery sclerosis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "53741008",
+    "display" : "Coronary arteriosclerosis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "11018701000119109",
+    "display" : "Coronary arteriosclerosis after percutaneous coronary angioplasty"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "427919004",
+    "display" : "Coronary arteriosclerosis due to radiation"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "139011000119104",
+    "display" : "Coronary arteriosclerosis following coronary artery bypass graft"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "16891191000119108",
+    "display" : "Coronary artery disease due to type 1 diabetes mellitus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "16891151000119103",
+    "display" : "Coronary artery disease due to type 2 diabetes mellitus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "443502000",
+    "display" : "Coronary atherosclerosis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "194843003",
+    "display" : "Double coronary vessel disease"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "371804009",
+    "display" : "Left main coronary artery disease"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "371803003",
+    "display" : "Multi vessel coronary artery disease"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "719678003",
+    "display" : "Non-obstructive atherosclerosis of coronary artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "420006002",
+    "display" : "Obliterative coronary artery disease"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "429245005",
+    "display" : "Recurrent coronary arteriosclerosis after percutaneous transluminal coronary angioplasty"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "371805005",
+    "display" : "Significant coronary bypass graft disease"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "194842008",
+    "display" : "Single coronary vessel disease"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "233817007",
+    "display" : "Triple vessel disease of the heart"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "15960661000119107",
+    "display" : "Unstable angina co-occurrent and due to arteriosclerosis of coronary artery bypass graft"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "15960061000119102",
+    "display" : "Unstable angina co-occurrent and due to coronary arteriosclerosis"
+  } ]
+}

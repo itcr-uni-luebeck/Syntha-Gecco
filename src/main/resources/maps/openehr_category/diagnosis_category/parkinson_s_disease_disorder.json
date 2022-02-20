@@ -1,0 +1,42 @@
+{
+  "system" : "SNOMED Clinical Terms",
+  "code" : "49049000",
+  "description" : "",
+  "children" : [ {
+    "system" : "http://snomed.info/sct",
+    "code" : "725146001",
+    "display" : "Atypical juvenile parkinsonism"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "716662004",
+    "display" : "Autosomal dominant late onset Parkinson disease"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "1156822001",
+    "display" : "Autosomal recessive familial Parkinson disease"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "716107009",
+    "display" : "Early onset parkinsonism and intellectual disability syndrome"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "230291001",
+    "display" : "Juvenile Parkinson's disease"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "718685006",
+    "display" : "Orthostatic hypotension co-occurrent and due to Parkinson's disease"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "49049000",
+    "display" : "Parkinson's disease"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "724761004",
+    "display" : "Sporadic Parkinson disease"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "715345007",
+    "display" : "Young onset Parkinson disease"
+  } ]
+}

@@ -1,0 +1,58 @@
+{
+  "category" : 19,
+  "name" : "ApheresisProcedures",
+  "contains" : [ {
+    "system" : "\"http://snomed.info/sct\"",
+    "code" : "\"127788007\"",
+    "display" : null,
+    "childrenOrSelf" : [ {
+      "system" : "http://snomed.info/sct",
+      "code" : "127788007",
+      "display" : "Apheresis"
+    }, {
+      "system" : "http://snomed.info/sct",
+      "code" : "438839005",
+      "display" : "Erythrocytapheresis"
+    }, {
+      "system" : "http://snomed.info/sct",
+      "code" : "83794005",
+      "display" : "Extracorporeal photopheresis"
+    }, {
+      "system" : "http://snomed.info/sct",
+      "code" : "77257005",
+      "display" : "Leukopheresis"
+    }, {
+      "system" : "http://snomed.info/sct",
+      "code" : "233594006",
+      "display" : "Lipopheresis"
+    }, {
+      "system" : "http://snomed.info/sct",
+      "code" : "448955002",
+      "display" : "Low density lipoprotein apheresis"
+    }, {
+      "system" : "http://snomed.info/sct",
+      "code" : "19647005",
+      "display" : "Plasma exchange"
+    }, {
+      "system" : "http://snomed.info/sct",
+      "code" : "20720000",
+      "display" : "Plasmapheresis"
+    }, {
+      "system" : "http://snomed.info/sct",
+      "code" : "233564000",
+      "display" : "Platelet apheresis using HLA matched donors"
+    }, {
+      "system" : "http://snomed.info/sct",
+      "code" : "233565004",
+      "display" : "Platelet apheresis using random donors"
+    }, {
+      "system" : "http://snomed.info/sct",
+      "code" : "72541002",
+      "display" : "Plateletpheresis"
+    }, {
+      "system" : "http://snomed.info/sct",
+      "code" : "225067007",
+      "display" : "Therapeutic plasma exchange"
+    } ]
+  } ]
+}

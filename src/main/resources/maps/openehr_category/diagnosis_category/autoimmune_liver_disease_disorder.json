@@ -1,0 +1,42 @@
+{
+  "system" : "SNOMED Clinical Terms",
+  "code" : "235890007",
+  "description" : "",
+  "children" : [ {
+    "system" : "http://snomed.info/sct",
+    "code" : "408335007",
+    "display" : "Autoimmune hepatitis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "721711009",
+    "display" : "Autoimmune hepatitis type 1"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "721712002",
+    "display" : "Autoimmune hepatitis type 2"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "721713007",
+    "display" : "Autoimmune hepatitis type 3"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "235890007",
+    "display" : "Autoimmune liver disease"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "16098491000119109",
+    "display" : "Chronic autoimmune hepatitis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "19682006",
+    "display" : "Lupus hepatitis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "31712002",
+    "display" : "Primary biliary cholangitis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "715401008",
+    "display" : "Reynolds syndrome"
+  } ]
+}

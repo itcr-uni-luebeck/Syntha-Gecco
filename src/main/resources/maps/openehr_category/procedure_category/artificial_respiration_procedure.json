@@ -1,0 +1,314 @@
+{
+  "system" : "SNOMED Clinical Terms",
+  "code" : "40617009",
+  "description" : "",
+  "children" : [ {
+    "system" : "http://snomed.info/sct",
+    "code" : "243143008",
+    "display" : "Airway pressure release ventilation"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "276732005",
+    "display" : "Apneic oxygenation"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "40617009",
+    "display" : "Artificial respiration"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "243150007",
+    "display" : "Assisted controlled mandatory ventilation"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "8948006",
+    "display" : "Assisted ventilation therapy, pressure or volume preset, initiation and management"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "425447009",
+    "display" : "Bag valve mask ventilation"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "38282001",
+    "display" : "Bennett respirator therapy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "773454006",
+    "display" : "Bird respiratory therapy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "243156001",
+    "display" : "Continuous flow ventilation"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "82433009",
+    "display" : "Continuous negative pressure ventilation treatment"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "448134000",
+    "display" : "Continuous positive airway pressure to nonventilated lung"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "47545007",
+    "display" : "Continuous positive airway pressure ventilation treatment"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "243160003",
+    "display" : "Control of end expiratory pressure"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "243148004",
+    "display" : "Controlled mandatory ventilation"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "243149007",
+    "display" : "Controlled mandatory ventilation with sigh"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "243147009",
+    "display" : "Controlled ventilation"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "26763009",
+    "display" : "Controlled ventilation procedure and therapy, initiation and management"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "281508008",
+    "display" : "Cuirasse ventilation"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "243145001",
+    "display" : "Diaphragmatic augmentation"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "243146000",
+    "display" : "Diaphragmatic augmentation by rocking bed"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "276737004",
+    "display" : "Domiciliary ventilation"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "243142003",
+    "display" : "Dual pressure spontaneous ventilation support"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "76777009",
+    "display" : "Electrophrenic respiration"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "243180002",
+    "display" : "Expired air ventilation"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "243181003",
+    "display" : "Expired air ventilation with airway aid"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "243152004",
+    "display" : "Extended mandatory minute volume ventilation"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "66852000",
+    "display" : "Flow and timed ventilation procedure, initiation and management"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "243158000",
+    "display" : "Fluorocarbon ventilation"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "243154003",
+    "display" : "High frequency jet ventilation"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "243155002",
+    "display" : "High frequency oscillatory ventilation"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "243153009",
+    "display" : "High frequency positive pressure ventilation"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "30050007",
+    "display" : "Inhalation anesthesia, machine system, semi-closed, no rebreathing of primary agent"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "55089006",
+    "display" : "Inspiration mandatory ventilation therapy, initiation and management"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "229308003",
+    "display" : "Intermittent CPAP"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "243159008",
+    "display" : "Intermittent negative pressure ventilation"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "182687005",
+    "display" : "Intermittent positive pressure ventilation"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "408852001",
+    "display" : "Intermittent positive pressure ventilation via bag and mask"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "408853006",
+    "display" : "Intermittent positive pressure ventilation via endotracheal tube"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "4764004",
+    "display" : "Jet ventilation procedure"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "243157005",
+    "display" : "Liquid ventilation"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "243140006",
+    "display" : "Lung inflation by intermittent compression of reservoir bag"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "243151006",
+    "display" : "Mandatory minute volume ventilation"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "229313004",
+    "display" : "Manual hyperinflation"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "243141005",
+    "display" : "Mechanically assisted spontaneous ventilation"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "243182005",
+    "display" : "Mouth to mouth expired air ventilation with airway"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "243183000",
+    "display" : "Mouth to nose expired air ventilation"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "37113006",
+    "display" : "Mouth-to-mouth resuscitation"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "229312009",
+    "display" : "Nasal ventilation therapy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "243172009",
+    "display" : "NEEP decreased - Negative end expiratory pressure decreased"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "243171002",
+    "display" : "NEEP increased - Negative end expiratory pressure increased"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "243170001",
+    "display" : "Negative end expiratory pressure applied"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "34281000175105",
+    "display" : "Nocturnal continuous positive airway pressure"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "34291000175108",
+    "display" : "Nocturnal dual pressure spontaneous ventilation support"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "447837008",
+    "display" : "Noninvasive positive pressure ventilation"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "428311008",
+    "display" : "Noninvasive ventilation"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "243144002",
+    "display" : "Patient triggered inspiratory assistance"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "243161004",
+    "display" : "Positive end expiratory pressure increased"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "243163001",
+    "display" : "Positive end expiratory pressure increased to best PEEP"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "243162006",
+    "display" : "Positive end expiratory pressure increased to optimal PEEP"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "243164007",
+    "display" : "Positive end expiratory pressure reduced"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "243167000",
+    "display" : "Positive end expiratory pressure reduced to best PEEP"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "243166009",
+    "display" : "Positive end expiratory pressure reduced to optimal PEEP"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "45851008",
+    "display" : "Positive end expiratory pressure ventilation therapy, initiation and management"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "243168005",
+    "display" : "Positive end expiratory pressure withdrawn"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "1149092001",
+    "display" : "Positive pressure ventilation"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "286813003",
+    "display" : "Pressure controlled SIMV"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "286812008",
+    "display" : "Pressure controlled ventilation"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "11140008",
+    "display" : "Respiratory assist, manual"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "425696007",
+    "display" : "Respiratory assist, manual, using bag-valve-mask"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "74596007",
+    "display" : "Resuscitation with artificial respiration"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "59427005",
+    "display" : "Synchronized intermittent mandatory ventilation"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "448442005",
+    "display" : "Transtracheal jet ventilation"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "52729008",
+    "display" : "Treatment by iron lung"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "243184006",
+    "display" : "Ventilation with self-inflating bag"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "405609003",
+    "display" : "Volume controlled ventilation"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "870392006",
+    "display" : "Weaning from noninvasive ventilation"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "243169002",
+    "display" : "Zero end expiratory pressure maintained"
+  } ]
+}

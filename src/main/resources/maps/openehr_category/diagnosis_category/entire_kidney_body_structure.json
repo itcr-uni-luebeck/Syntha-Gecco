@@ -1,0 +1,18 @@
+{
+  "system" : "SNOMED Clinical Terms",
+  "code" : "181414000",
+  "description" : "",
+  "children" : [ {
+    "system" : "http://snomed.info/sct",
+    "code" : "181414000",
+    "display" : "Entire kidney"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "362209008",
+    "display" : "Entire left kidney"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "362208000",
+    "display" : "Entire right kidney"
+  } ]
+}

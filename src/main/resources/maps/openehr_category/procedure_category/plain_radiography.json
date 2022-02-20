@@ -1,0 +1,1270 @@
+{
+  "system" : "SNOMED Clinical Terms",
+  "code" : "168537006",
+  "description" : "",
+  "children" : [ {
+    "system" : "http://snomed.info/sct",
+    "code" : "716236004",
+    "display" : "Air double-contrast barium enteroclysis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "168573004",
+    "display" : "Atlantoaxial X-ray"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "711226006",
+    "display" : "Biopsy of bone using X-ray guidance"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "241092006",
+    "display" : "Cervicothoracic junction X-ray"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "711307001",
+    "display" : "Colonoscopy using X-ray guidance"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "833310007",
+    "display" : "Contrast enhanced dual energy spectral mammography"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "726551006",
+    "display" : "Contrast enhanced spectral mammography"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "241128004",
+    "display" : "Dental cyst or other cavity delineation"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "241046008",
+    "display" : "Dental X-ray bitewing"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "241048009",
+    "display" : "Dental X-ray occlusal"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "241047004",
+    "display" : "Dental X-ray periapical"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "373365009",
+    "display" : "Diagnostic radiography of bony orbits"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "37815002",
+    "display" : "Diagnostic radiography of calcaneus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "42869005",
+    "display" : "Diagnostic radiography of chest, combined PA and lateral"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "113094008",
+    "display" : "Diagnostic radiography of chest, lateral"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "22446007",
+    "display" : "Diagnostic radiography of chest, minifilm"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "67071009",
+    "display" : "Diagnostic radiography of chest, oblique, standard"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "68306006",
+    "display" : "Diagnostic radiography of facial bones"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "90805008",
+    "display" : "Diagnostic radiography of lumbar spine"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "26537001",
+    "display" : "Diagnostic radiography of lumbar spine, combined AP and lateral"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "44691001",
+    "display" : "Diagnostic radiography of mastoids"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "87411003",
+    "display" : "Diagnostic radiography of nasal bones"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "75675001",
+    "display" : "Diagnostic radiography of orbits"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "42075002",
+    "display" : "Diagnostic radiography of skull"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "61368000",
+    "display" : "Diagnostic radiography of spine with flexion and extension studies"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "91583001",
+    "display" : "Diagnostic radiography of spine, survey study"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "40372003",
+    "display" : "Diagnostic radiography of temporomandibular joint"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "35443000",
+    "display" : "Diagnostic radiography of thoracolumbar spine, supine and erect for scoliosis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "450566007",
+    "display" : "Digital breast tomosynthesis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "770570005",
+    "display" : "Digital tomosynthesis guided biopsy of bilateral breasts"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "771086002",
+    "display" : "Digital tomosynthesis guided biopsy of breast"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "770569009",
+    "display" : "Digital tomosynthesis guided biopsy of left breast"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "770568001",
+    "display" : "Digital tomosynthesis guided biopsy of right breast"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "723780005",
+    "display" : "Digital tomosynthesis of bilateral breasts"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "723779007",
+    "display" : "Digital tomosynthesis of left breast"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "723778004",
+    "display" : "Digital tomosynthesis of right breast"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "268428008",
+    "display" : "Erect abdominal X-ray"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "241083008",
+    "display" : "Foot X-ray orthopedic/biomechanical examination"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "276015003",
+    "display" : "Forefoot X-ray"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "446181006",
+    "display" : "Forensic X-ray"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "285569006",
+    "display" : "Full mouth periapical radiographs"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "446463003",
+    "display" : "Full mouth x-ray of teeth"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "241062002",
+    "display" : "Gallbladder straight X-ray"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "241110001",
+    "display" : "Genitalia soft tissue X-ray"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "241081005",
+    "display" : "Hindfoot X-ray"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "711225005",
+    "display" : "Injection using X-ray guidance"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "16437371000119102",
+    "display" : "Insertion of indwelling tunneled catheter with cuff by percutaneous approach using radiologic guidance"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "168588009",
+    "display" : "Instability views spine"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "711422005",
+    "display" : "Intravenous pyelogram using X-ray guidance"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "241120006",
+    "display" : "Kymography"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "169058003",
+    "display" : "Kymography - diaphragm"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "169056004",
+    "display" : "Kymography - great vessels"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "169055000",
+    "display" : "Kymography - heart"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "169057008",
+    "display" : "Kymography - lungs"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "271317002",
+    "display" : "Kymography/electrokymography"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "303931008",
+    "display" : "Lung X-ray"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "439324009",
+    "display" : "Mammogram in compression view"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "719868004",
+    "display" : "Mandibular anterior occlusal plain X-ray"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "719870008",
+    "display" : "Mandibular oblique lateral occlusal plain X-ray"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "241050001",
+    "display" : "Mandibular occlusal X-ray"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "719869007",
+    "display" : "Mandibular true occlusal plain X-ray"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "241049001",
+    "display" : "Maxillary occlusal X-ray"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "241079008",
+    "display" : "Metatarsal X-ray"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "716237008",
+    "display" : "Methylcellulose double-contrast barium enteroclysis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "441284005",
+    "display" : "Multidirectional X-ray tomography"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "276478001",
+    "display" : "Odontoid peg X-ray"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "303929004",
+    "display" : "Ophthalmic plain film"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "16452251000119102",
+    "display" : "Percutaneous transcatheter embolization of intracranial vessel using radiologic guidance"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "399208008",
+    "display" : "Plain chest X-ray"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "303927002",
+    "display" : "Plain film of body region"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "303928007",
+    "display" : "Plain film of cavities of head"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "370142005",
+    "display" : "Plain film of head"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "303938002",
+    "display" : "Plain film of neck"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "168537006",
+    "display" : "Plain radiography"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "713021002",
+    "display" : "Plain radiography of pelvis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "168702005",
+    "display" : "Plain X-ray abdomen"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "168565008",
+    "display" : "Plain X-ray base of skull"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "168566009",
+    "display" : "Plain X-ray facial sinuses"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "16522741000119100",
+    "display" : "Plain x-ray for bone length measurement"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "868279006",
+    "display" : "Plain X-ray for measurement of Cobb angle"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "773131009",
+    "display" : "Plain X-ray for ulnar variance view"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "277673007",
+    "display" : "Plain X-ray guidance"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "736675009",
+    "display" : "Plain X-ray guided implantation of neurostimulator into sphenopalatine ganglion"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "428907005",
+    "display" : "Plain X-ray guided wire localization of breast lesion"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "168663008",
+    "display" : "Plain X-ray head of femur"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "168619004",
+    "display" : "Plain X-ray head of humerus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "713565002",
+    "display" : "Plain X-ray of abdomen with contrast"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "6131000087107",
+    "display" : "Plain X-ray of all fingers of left hand"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "6141000087101",
+    "display" : "Plain X-ray of all fingers of right hand"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "6201000087105",
+    "display" : "Plain X-ray of all toes of left foot"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "6211000087107",
+    "display" : "Plain X-ray of all toes of right foot"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "3961000087106",
+    "display" : "Plain X-ray of bilateral acromioclavicular joints"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "3971000087102",
+    "display" : "Plain X-ray of bilateral calcanei"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "3981000087100",
+    "display" : "Plain X-ray of bilateral clavicles"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "3991000087103",
+    "display" : "Plain X-ray of bilateral elbows"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "4001000087105",
+    "display" : "Plain X-ray of bilateral femurs"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "4021000087104",
+    "display" : "Plain X-ray of bilateral forearms"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "4041000087108",
+    "display" : "Plain X-ray of bilateral hands"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "4051000087106",
+    "display" : "Plain X-ray of bilateral hips"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "4061000087109",
+    "display" : "Plain X-ray of bilateral humeri"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "9771000087103",
+    "display" : "Plain X-ray of bilateral lower limbs"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "4071000087100",
+    "display" : "Plain X-ray of bilateral patellae"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "17141000087101",
+    "display" : "Plain X-ray of bilateral sacroiliac joints"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "4091000087101",
+    "display" : "Plain X-ray of bilateral scaphoids"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "4101000087106",
+    "display" : "Plain X-ray of bilateral scapulae"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "4111000087108",
+    "display" : "Plain X-ray of bilateral shoulders"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "4121000087100",
+    "display" : "Plain X-ray of bilateral thumbs"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "4131000087103",
+    "display" : "Plain X-ray of bilateral tibia and bilateral fibula"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "9751000087109",
+    "display" : "Plain X-ray of bilateral upper limbs"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "4141000087109",
+    "display" : "Plain X-ray of bilateral wrists"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "16546531000119101",
+    "display" : "Plain x-ray of bone age"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "712970008",
+    "display" : "Plain X-ray of cervical spine"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "168594001",
+    "display" : "Plain X-ray of clavicle"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "713025006",
+    "display" : "Plain x-ray of elbow"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "491141000119108",
+    "display" : "Plain X-ray of excised tissue of right breast"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "385731000119105",
+    "display" : "Plain X-ray of excised tissue specimen"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "491131000119104",
+    "display" : "Plain X-ray of excised tissue specimen of left breast"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "241075002",
+    "display" : "Plain X-ray of femur"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "786844003",
+    "display" : "Plain X-ray of finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "783544001",
+    "display" : "Plain X-ray of forearm"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "720707009",
+    "display" : "Plain X-ray of gastrointestinal tract with marker capsule for transit study"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "713027003",
+    "display" : "Plain x-ray of hand"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "783628002",
+    "display" : "Plain X-ray of hip"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "713026007",
+    "display" : "Plain x-ray of humerus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "426296008",
+    "display" : "Plain x-ray of joint"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "3461000087100",
+    "display" : "Plain X-ray of left acromioclavicular joint"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "3481000087106",
+    "display" : "Plain X-ray of left calcaneum"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "3501000087100",
+    "display" : "Plain X-ray of left clavicle"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "3521000087106",
+    "display" : "Plain X-ray of left elbow"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "3541000087102",
+    "display" : "Plain X-ray of left femur"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "3581000087107",
+    "display" : "Plain X-ray of left forearm"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "3621000087107",
+    "display" : "Plain X-ray of left hand"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "3641000087103",
+    "display" : "Plain X-ray of left hip"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "3661000087102",
+    "display" : "Plain X-ray of left humerus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "9241000087103",
+    "display" : "Plain X-ray of left lower limb"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "3681000087108",
+    "display" : "Plain X-ray of left patella"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "6151000087103",
+    "display" : "Plain X-ray of left rib"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "3721000087104",
+    "display" : "Plain X-ray of left sacroiliac joint"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "21461000087109",
+    "display" : "Plain X-ray of left salivary gland"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "3841000087104",
+    "display" : "Plain X-ray of left scaphoid"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "3741000087108",
+    "display" : "Plain X-ray of left scapula"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "3761000087109",
+    "display" : "Plain X-ray of left shoulder"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "3781000087103",
+    "display" : "Plain X-ray of left thumb"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "3801000087102",
+    "display" : "Plain X-ray of left tibia and left fibula"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "9201000087101",
+    "display" : "Plain X-ray of left upper limb"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "3821000087108",
+    "display" : "Plain X-ray of left wrist"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "840361000",
+    "display" : "Plain X-ray of lumbar spine"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "168664002",
+    "display" : "Plain X-ray of neck of femur"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "16317761000119107",
+    "display" : "Plain X-ray of optic foramina"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "168669007",
+    "display" : "Plain X-ray of patella"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "716679005",
+    "display" : "Plain x-ray of pelvis and lower extremity"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "395761000119101",
+    "display" : "Plain X-ray of pelvis, anteroposterior view"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "406451000119107",
+    "display" : "Plain X-ray of pelvis, frog leg view"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "3471000087109",
+    "display" : "Plain X-ray of right acromioclavicular joint"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "3491000087108",
+    "display" : "Plain X-ray of right calcaneum"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "3511000087103",
+    "display" : "Plain X-ray of right clavicle"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "3531000087108",
+    "display" : "Plain X-ray of right elbow"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "3551000087104",
+    "display" : "Plain X-ray of right femur"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "3591000087109",
+    "display" : "Plain X-ray of right forearm"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "3631000087109",
+    "display" : "Plain X-ray of right hand"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "3651000087100",
+    "display" : "Plain X-ray of right hip"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "3671000087106",
+    "display" : "Plain X-ray of right humerus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "9251000087100",
+    "display" : "Plain X-ray of right lower limb"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "3691000087105",
+    "display" : "Plain X-ray of right patella"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "6161000087100",
+    "display" : "Plain X-ray of right rib"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "3731000087102",
+    "display" : "Plain X-ray of right sacroiliac joint"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "21231000087103",
+    "display" : "Plain X-ray of right salivary gland"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "3851000087101",
+    "display" : "Plain X-ray of right scaphoid"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "3751000087106",
+    "display" : "Plain X-ray of right scapula"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "3771000087100",
+    "display" : "Plain X-ray of right shoulder"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "3791000087101",
+    "display" : "Plain X-ray of right thumb"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "3811000087100",
+    "display" : "Plain X-ray of right tibia and right fibula"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "9191000087103",
+    "display" : "Plain X-ray of right upper limb"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "3831000087105",
+    "display" : "Plain X-ray of right wrist"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "783627007",
+    "display" : "Plain X-ray of sacroiliac joint"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "241071006",
+    "display" : "Plain X-ray of scaphoid"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "713028008",
+    "display" : "Plain X-ray of scapula"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "783543007",
+    "display" : "Plain X-ray of shoulder"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "16318521000119109",
+    "display" : "Plain X-ray of sinus, occipitomental view"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "395041000119103",
+    "display" : "Plain X-ray of soft tissue of neck"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "783542002",
+    "display" : "Plain X-ray of thumb"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "783631001",
+    "display" : "Plain X-ray of tibia and fibula"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "785711007",
+    "display" : "Plain X-ray of toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "713023004",
+    "display" : "Plain x-ray of upper limb"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "713701007",
+    "display" : "Plain X-ray of ventriculoperitoneal shunt"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "713024005",
+    "display" : "Plain x-ray of wrist"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "16319081000119105",
+    "display" : "Plain X-ray orthodontic cephalogram"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "16319561000119105",
+    "display" : "Plain X-ray orthopantogram"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "168637003",
+    "display" : "Plain X-ray radius"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "168665001",
+    "display" : "Plain X-ray shaft of femur"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "168620005",
+    "display" : "Plain X-ray shaft of humerus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "303937007",
+    "display" : "Plain X-ray techniques"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "448336005",
+    "display" : "Radiofrequency biopsy of breast using X-ray guidance"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "443451004",
+    "display" : "Radiographic imaging of both knees, lateral, sunrise and anteroposterior standing views"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "19490002",
+    "display" : "Radiography of ankle"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "66769009",
+    "display" : "Radiography of cervical spine"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "52221007",
+    "display" : "Radiography of foot"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "37603004",
+    "display" : "Radiography of root canal"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "73771004",
+    "display" : "Radiography of soft tissue of ankle"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "79760008",
+    "display" : "Radiography of spine"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "22891007",
+    "display" : "Radiography of teeth"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "45554006",
+    "display" : "Radiography of thoracic spine"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "52823003",
+    "display" : "Radiologic examination of ankle, anteroposterior and lateral views"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "21613005",
+    "display" : "Radiologic examination of cervical spine, anteroposterior and lateral"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "6728003",
+    "display" : "Radiologic examination of complete spine, anteroposterior and lateral"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "20798004",
+    "display" : "Radiologic examination of foot, anteroposterior and lateral views"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "74016001",
+    "display" : "Radiologic examination of knee"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "30536006",
+    "display" : "Radiologic examination of knee, anteroposterior and lateral views"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "67499007",
+    "display" : "Radiologic examination of knee, standing anteroposterior"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "48816001",
+    "display" : "Radiologic examination of lumbosacral spine, complete, with bending views"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "86392000",
+    "display" : "Radiologic examination of lumbosacral spine, complete, with oblique views"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "396329001",
+    "display" : "Radiologic examination of mastoids complete three or more views per side"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "72508000",
+    "display" : "Radiologic examination of thoracic spine, anteroposterior and lateral"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "7812007",
+    "display" : "Radiologic examination of thoracolumbar spine, anteroposterior and lateral"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "68862002",
+    "display" : "Radiologic examination of thoracolumbar spine, standing"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "241094007",
+    "display" : "Scoliosis survey X-ray"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "171229005",
+    "display" : "Screening chest X-ray"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "716235000",
+    "display" : "Single-contrast barium enteroclysis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "241162004",
+    "display" : "Small bowel barium enema"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "310810003",
+    "display" : "Soft tissue X-ray floor of mouth"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "168745003",
+    "display" : "Soft tissue X-ray thoracic aorta"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "303936003",
+    "display" : "Specific plain X-ray investigations"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "303935004",
+    "display" : "Specific spinal X-ray"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "168731009",
+    "display" : "Standard chest X-ray"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "725936002",
+    "display" : "Stereotactic X-ray guided radiofrequency biopsy of breast"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "168682004",
+    "display" : "Stress X-ray ankle joint"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "168681006",
+    "display" : "Stress X-ray knee"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "241085001",
+    "display" : "Subtalar joint X-ray"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "416733000",
+    "display" : "Supine abdominal X-ray"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "241051002",
+    "display" : "Tangential X-ray of incisor and canine"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "241080006",
+    "display" : "Tarsus X-ray"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "241069006",
+    "display" : "Ulna X-ray"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "719573001",
+    "display" : "Vacuum assisted excision of lesion of breast using stereotactic X-ray guidance"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "433155002",
+    "display" : "X-ray cystometrogram"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "168773001",
+    "display" : "X-ray female external genitalia"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "713564003",
+    "display" : "X-ray guided localization of iodine 125 radioactive seed to breast lesion"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "718674009",
+    "display" : "X-ray guided steroid injection"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "168772006",
+    "display" : "X-ray male external genitalia"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "432778008",
+    "display" : "X-ray of abdomen using mobile image intensifier"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "427961005",
+    "display" : "X-ray of acetabulum"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "426945003",
+    "display" : "X-ray of bone"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "425703002",
+    "display" : "X-ray of both ankles"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "426581005",
+    "display" : "X-ray of both feet"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "426860004",
+    "display" : "X-ray of both knees"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "428665002",
+    "display" : "X-ray of carpometacarpal joint under stress"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "445515006",
+    "display" : "X-ray of cerebrospinal fluid shunt"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "711104001",
+    "display" : "X-ray of cervical and thoracic spine"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "431557005",
+    "display" : "X-ray of cervical spine using mobile image intensifier"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "420233006",
+    "display" : "X-ray of chest and abdomen"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "394421000119103",
+    "display" : "X-ray of chest anteroposterior view"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "383501000119107",
+    "display" : "X-ray of chest apical and lordotic views"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "486261000119109",
+    "display" : "X-ray of chest posteroanterior view"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "703940002",
+    "display" : "X-ray of elbow for bone age"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "241119000",
+    "display" : "X-ray of extracted tooth"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "428603007",
+    "display" : "X-ray of hand and wrist for bone age"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "432848006",
+    "display" : "X-ray of hip using mobile image intensifier"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "426420006",
+    "display" : "X-ray of left ankle"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "426908009",
+    "display" : "X-ray of left foot"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "427019001",
+    "display" : "X-ray of left knee"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "711220000",
+    "display" : "X-ray of limb"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "449617002",
+    "display" : "X-ray of lower leg for bone length measurement"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "449616006",
+    "display" : "X-ray of lower limb for bone length measurement"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "432906003",
+    "display" : "X-ray of lower limb using mobile image intensifier"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "431892005",
+    "display" : "X-ray of lumbar spine and pelvis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "419942003",
+    "display" : "X-ray of lumbar spine and sacroiliac joints"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "431871005",
+    "display" : "X-ray of lumbar spine using mobile image intensifier"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "22791004",
+    "display" : "X-ray of lumbosacral spine"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "440695003",
+    "display" : "X-ray of midfoot"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "431251007",
+    "display" : "X-ray of pelvis using mobile image intensifier"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "708734000",
+    "display" : "X-ray of prostate and seminal vesicles"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "711555002",
+    "display" : "X-ray of rib"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "426721006",
+    "display" : "X-ray of right ankle"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "426311001",
+    "display" : "X-ray of right foot"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "427407003",
+    "display" : "X-ray of right knee"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "432078003",
+    "display" : "X-ray of sacrum using mobile image intensifier"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "711488007",
+    "display" : "X-ray of shunt"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "55965002",
+    "display" : "X-ray of skull"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "439100007",
+    "display" : "X-ray of skull using mobile image intensifier"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "440607000",
+    "display" : "X-ray of teeth in oblique lateral view"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "444634007",
+    "display" : "X-ray of thoracic and lumbar spine"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "432770001",
+    "display" : "X-ray of thoracic spine using mobile image intensifier"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "432769002",
+    "display" : "X-ray of thorax using mobile image intensifier"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "431677006",
+    "display" : "X-ray of upper limb using mobile image intensifier"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "715458009",
+    "display" : "X-ray of whole spine using mobile image intensifier"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "429148001",
+    "display" : "X-ray of zygoma"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "429646003",
+    "display" : "X-ray skeletal survey for multiple myeloma"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "439101006",
+    "display" : "X-ray tomography"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "719485007",
+    "display" : "X-ray tomography of abdomen"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "716830000",
+    "display" : "X-ray tomography of cervical spine"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "718540002",
+    "display" : "X-ray tomography of facial bone"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "717906006",
+    "display" : "X-ray tomography of femur"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "717720005",
+    "display" : "X-ray tomography of hip"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "718337003",
+    "display" : "X-ray tomography of internal auditory canal"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "724168003",
+    "display" : "X-ray tomography of left femur"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "724218001",
+    "display" : "X-ray tomography of left lower limb"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "724089005",
+    "display" : "X-ray tomography of left rib"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "724169006",
+    "display" : "X-ray tomography of left shoulder"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "724087007",
+    "display" : "X-ray tomography of left upper limb"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "718544006",
+    "display" : "X-ray tomography of lower limb"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "718542005",
+    "display" : "X-ray tomography of lumbar spine"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "718543000",
+    "display" : "X-ray tomography of pelvis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "718541003",
+    "display" : "X-ray tomography of pelvis and hip"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "724088002",
+    "display" : "X-ray tomography of pelvis and left hip"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "724219009",
+    "display" : "X-ray tomography of pelvis and right hip"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "724086003",
+    "display" : "X-ray tomography of right femur"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "724217006",
+    "display" : "X-ray tomography of right lower limb"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "724222006",
+    "display" : "X-ray tomography of right rib"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "724216002",
+    "display" : "X-ray tomography of right shoulder"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "725153005",
+    "display" : "X-ray tomography of right upper limb"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "719484006",
+    "display" : "X-ray tomography of shoulder"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "716846008",
+    "display" : "X-ray tomography of skull"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "717912001",
+    "display" : "X-ray tomography of spine"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "718020004",
+    "display" : "X-ray tomography of sternum"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "718324001",
+    "display" : "X-ray tomography of temporomandibular joint"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "718545007",
+    "display" : "X-ray tomography of thoracic spine"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "717957005",
+    "display" : "X-ray tomography of upper limb"
+  } ]
+}

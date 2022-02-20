@@ -1,0 +1,299 @@
+{
+  "templateName" : "GECCO_Medikation",
+  "paths" : [ {
+    "id" : 0,
+    "aqlPath" : "/context/other_context[at0001]/items[at0005]/value|code",
+    "path" : "medikation/context/kategorie|code",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 1,
+    "aqlPath" : "/context/start_time",
+    "path" : "medikation/context/start_time",
+    "type" : "DATETIME"
+  }, {
+    "id" : 2,
+    "aqlPath" : "/context/setting|code",
+    "path" : "medikation/context/setting|code",
+    "type" : "TEXT"
+  }, {
+    "id" : 3,
+    "aqlPath" : "/context/setting|value",
+    "path" : "medikation/context/setting|value",
+    "type" : "TEXT"
+  }, {
+    "id" : 4,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.medication_statement.v0,'COVID-19 Therapie']/data[at0001]/events[at0002]/data[at0003]/items[at0006]/value|code",
+    "path" : "medikation/covid-19_therapie/arzneimittel-name|code",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 5,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.medication_statement.v0,'COVID-19 Therapie']/data[at0001]/events[at0002]/data[at0003]/items[at0008]/value|code",
+    "path" : "medikation/covid-19_therapie/status|code",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 6,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.medication_statement.v0,'COVID-19 Therapie']/data[at0001]/events[at0002]/data[at0003]/items[at0023,'Grund']/value|code",
+    "path" : "medikation/covid-19_therapie/grund|code",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 7,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.medication_statement.v0,'COVID-19 Therapie']/data[at0001]/events[at0002]/time",
+    "path" : "medikation/covid-19_therapie/time",
+    "type" : "DATETIME"
+  }, {
+    "id" : 8,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.medication_statement.v0,'COVID-19 Therapie']/protocol[at0004]/items[openEHR-EHR-CLUSTER.medication_status_fhir.v0,'Status']/items[at0001]/value|code",
+    "path" : "medikation/covid-19_therapie/status2/status|code",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 9,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.medication_statement.v0,'COVID-19 Therapie']/protocol[at0004]/items[openEHR-EHR-CLUSTER.medication_status_fhir.v0,'Status']/items[at0014]/value",
+    "path" : "medikation/covid-19_therapie/status2/kommentar",
+    "type" : "TEXT"
+  }, {
+    "id" : 10,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.medication_statement.v0,'COVID-19 Therapie']/language",
+    "path" : "medikation/covid-19_therapie/language",
+    "type" : "TEXT"
+  }, {
+    "id" : 11,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.medication_statement.v0,'COVID-19 Therapie']/encoding",
+    "path" : "medikation/covid-19_therapie/encoding",
+    "type" : "TEXT"
+  }, {
+    "id" : 12,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.medication_statement.v0,'COVID-19 Therapie']/subject|id",
+    "path" : "medikation/covid-19_therapie/subject|id",
+    "type" : "TEXT"
+  }, {
+    "id" : 13,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.medication_statement.v0,'COVID-19 Therapie']/subject|id_scheme",
+    "path" : "medikation/covid-19_therapie/subject|id_scheme",
+    "type" : "TEXT"
+  }, {
+    "id" : 14,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.medication_statement.v0,'COVID-19 Therapie']/subject|id_namespace",
+    "path" : "medikation/covid-19_therapie/subject|id_namespace",
+    "type" : "TEXT"
+  }, {
+    "id" : 15,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.medication_statement.v0,'COVID-19 Therapie']/subject|name",
+    "path" : "medikation/covid-19_therapie/subject|name",
+    "type" : "TEXT"
+  }, {
+    "id" : 16,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.medication_statement.v0,'ACE-Hemmer']/data[at0001]/events[at0002]/data[at0003]/items[at0006]/value|code",
+    "path" : "medikation/ace-hemmer/arzneimittel-name|code",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 17,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.medication_statement.v0,'ACE-Hemmer']/data[at0001]/events[at0002]/data[at0003]/items[at0008]/value|code",
+    "path" : "medikation/ace-hemmer/status|code",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 18,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.medication_statement.v0,'ACE-Hemmer']/data[at0001]/events[at0002]/data[at0003]/items[at0023,'Grund']/value|code",
+    "path" : "medikation/ace-hemmer/grund|code",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 19,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.medication_statement.v0,'ACE-Hemmer']/data[at0001]/events[at0002]/time",
+    "path" : "medikation/ace-hemmer/time",
+    "type" : "DATETIME"
+  }, {
+    "id" : 20,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.medication_statement.v0,'ACE-Hemmer']/protocol[at0004]/items[openEHR-EHR-CLUSTER.medication_status_fhir.v0,'Status']/items[at0001]/value|code",
+    "path" : "medikation/ace-hemmer/status2/status|code",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 21,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.medication_statement.v0,'ACE-Hemmer']/protocol[at0004]/items[openEHR-EHR-CLUSTER.medication_status_fhir.v0,'Status']/items[at0014]/value",
+    "path" : "medikation/ace-hemmer/status2/kommentar",
+    "type" : "TEXT"
+  }, {
+    "id" : 22,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.medication_statement.v0,'ACE-Hemmer']/language",
+    "path" : "medikation/ace-hemmer/language",
+    "type" : "TEXT"
+  }, {
+    "id" : 23,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.medication_statement.v0,'ACE-Hemmer']/encoding",
+    "path" : "medikation/ace-hemmer/encoding",
+    "type" : "TEXT"
+  }, {
+    "id" : 24,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.medication_statement.v0,'ACE-Hemmer']/subject|id",
+    "path" : "medikation/ace-hemmer/subject|id",
+    "type" : "TEXT"
+  }, {
+    "id" : 25,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.medication_statement.v0,'ACE-Hemmer']/subject|id_scheme",
+    "path" : "medikation/ace-hemmer/subject|id_scheme",
+    "type" : "TEXT"
+  }, {
+    "id" : 26,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.medication_statement.v0,'ACE-Hemmer']/subject|id_namespace",
+    "path" : "medikation/ace-hemmer/subject|id_namespace",
+    "type" : "TEXT"
+  }, {
+    "id" : 27,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.medication_statement.v0,'ACE-Hemmer']/subject|name",
+    "path" : "medikation/ace-hemmer/subject|name",
+    "type" : "TEXT"
+  }, {
+    "id" : 28,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.medication_statement.v0,'Immunglobuline']/data[at0001]/events[at0002]/data[at0003]/items[at0006]/value|code",
+    "path" : "medikation/immunglobuline/arzneimittel-name|code",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 29,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.medication_statement.v0,'Immunglobuline']/data[at0001]/events[at0002]/data[at0003]/items[at0008]/value|code",
+    "path" : "medikation/immunglobuline/status|code",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 30,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.medication_statement.v0,'Immunglobuline']/data[at0001]/events[at0002]/data[at0003]/items[at0023,'Grund']/value|code",
+    "path" : "medikation/immunglobuline/grund|code",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 31,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.medication_statement.v0,'Immunglobuline']/data[at0001]/events[at0002]/time",
+    "path" : "medikation/immunglobuline/time",
+    "type" : "DATETIME"
+  }, {
+    "id" : 32,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.medication_statement.v0,'Immunglobuline']/protocol[at0004]/items[openEHR-EHR-CLUSTER.medication_status_fhir.v0,'Status']/items[at0001]/value|code",
+    "path" : "medikation/immunglobuline/status2/status|code",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 33,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.medication_statement.v0,'Immunglobuline']/protocol[at0004]/items[openEHR-EHR-CLUSTER.medication_status_fhir.v0,'Status']/items[at0014]/value",
+    "path" : "medikation/immunglobuline/status2/kommentar",
+    "type" : "TEXT"
+  }, {
+    "id" : 34,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.medication_statement.v0,'Immunglobuline']/language",
+    "path" : "medikation/immunglobuline/language",
+    "type" : "TEXT"
+  }, {
+    "id" : 35,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.medication_statement.v0,'Immunglobuline']/encoding",
+    "path" : "medikation/immunglobuline/encoding",
+    "type" : "TEXT"
+  }, {
+    "id" : 36,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.medication_statement.v0,'Immunglobuline']/subject|id",
+    "path" : "medikation/immunglobuline/subject|id",
+    "type" : "TEXT"
+  }, {
+    "id" : 37,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.medication_statement.v0,'Immunglobuline']/subject|id_scheme",
+    "path" : "medikation/immunglobuline/subject|id_scheme",
+    "type" : "TEXT"
+  }, {
+    "id" : 38,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.medication_statement.v0,'Immunglobuline']/subject|id_namespace",
+    "path" : "medikation/immunglobuline/subject|id_namespace",
+    "type" : "TEXT"
+  }, {
+    "id" : 39,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.medication_statement.v0,'Immunglobuline']/subject|name",
+    "path" : "medikation/immunglobuline/subject|name",
+    "type" : "TEXT"
+  }, {
+    "id" : 40,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.medication_statement.v0,'Antikoagulanzien']/data[at0001]/events[at0002]/data[at0003]/items[at0006]/value|code",
+    "path" : "medikation/antikoagulanzien/arzneimittel-name|code",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 41,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.medication_statement.v0,'Antikoagulanzien']/data[at0001]/events[at0002]/data[at0003]/items[at0008]/value|code",
+    "path" : "medikation/antikoagulanzien/status|code",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 42,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.medication_statement.v0,'Antikoagulanzien']/data[at0001]/events[at0002]/data[at0003]/items[at0023,'Grund']/value|code",
+    "path" : "medikation/antikoagulanzien/grund|code",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 43,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.medication_statement.v0,'Antikoagulanzien']/data[at0001]/events[at0002]/time",
+    "path" : "medikation/antikoagulanzien/time",
+    "type" : "DATETIME"
+  }, {
+    "id" : 44,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.medication_statement.v0,'Antikoagulanzien']/protocol[at0004]/items[openEHR-EHR-CLUSTER.medication_status_fhir.v0,'Status']/items[at0001]/value|code",
+    "path" : "medikation/antikoagulanzien/status2/status|code",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 45,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.medication_statement.v0,'Antikoagulanzien']/protocol[at0004]/items[openEHR-EHR-CLUSTER.medication_status_fhir.v0,'Status']/items[at0014]/value",
+    "path" : "medikation/antikoagulanzien/status2/kommentar",
+    "type" : "TEXT"
+  }, {
+    "id" : 46,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.medication_statement.v0,'Antikoagulanzien']/language",
+    "path" : "medikation/antikoagulanzien/language",
+    "type" : "TEXT"
+  }, {
+    "id" : 47,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.medication_statement.v0,'Antikoagulanzien']/encoding",
+    "path" : "medikation/antikoagulanzien/encoding",
+    "type" : "TEXT"
+  }, {
+    "id" : 48,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.medication_statement.v0,'Antikoagulanzien']/subject|id",
+    "path" : "medikation/antikoagulanzien/subject|id",
+    "type" : "TEXT"
+  }, {
+    "id" : 49,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.medication_statement.v0,'Antikoagulanzien']/subject|id_scheme",
+    "path" : "medikation/antikoagulanzien/subject|id_scheme",
+    "type" : "TEXT"
+  }, {
+    "id" : 50,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.medication_statement.v0,'Antikoagulanzien']/subject|id_namespace",
+    "path" : "medikation/antikoagulanzien/subject|id_namespace",
+    "type" : "TEXT"
+  }, {
+    "id" : 51,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.medication_statement.v0,'Antikoagulanzien']/subject|name",
+    "path" : "medikation/antikoagulanzien/subject|name",
+    "type" : "TEXT"
+  }, {
+    "id" : 52,
+    "aqlPath" : "/category|code",
+    "path" : "medikation/category|code",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 53,
+    "aqlPath" : "/language",
+    "path" : "medikation/language",
+    "type" : "TEXT"
+  }, {
+    "id" : 54,
+    "aqlPath" : "/territory",
+    "path" : "medikation/territory",
+    "type" : "TEXT"
+  }, {
+    "id" : 55,
+    "aqlPath" : "/composer|id",
+    "path" : "medikation/composer|id",
+    "type" : "TEXT"
+  }, {
+    "id" : 56,
+    "aqlPath" : "/composer|id_scheme",
+    "path" : "medikation/composer|id_scheme",
+    "type" : "TEXT"
+  }, {
+    "id" : 57,
+    "aqlPath" : "/composer|id_namespace",
+    "path" : "medikation/composer|id_namespace",
+    "type" : "TEXT"
+  }, {
+    "id" : 58,
+    "aqlPath" : "/composer|name",
+    "path" : "medikation/composer|name",
+    "type" : "TEXT"
+  } ]
+}

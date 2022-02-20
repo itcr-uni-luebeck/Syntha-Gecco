@@ -1,0 +1,130 @@
+{
+  "system" : "SNOMED Clinical Terms",
+  "code" : "51615001",
+  "description" : "",
+  "children" : [ {
+    "system" : "http://snomed.info/sct",
+    "code" : "789574002",
+    "display" : "Acute exacerbation of idiopathic pulmonary fibrosis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "13274008",
+    "display" : "Atrophic fibrosis of lung"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "14700006",
+    "display" : "Bauxite fibrosis of lung"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "36599006",
+    "display" : "Chronic fibrosis of lung"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "846637007",
+    "display" : "Chronic pulmonary fibrosis caused by chemical vapors"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "196028003",
+    "display" : "Chronic pulmonary fibrosis due to chemical fumes"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "30042003",
+    "display" : "Confluent fibrosis of lung"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "196125002",
+    "display" : "Diffuse interstitial pulmonary fibrosis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "713244007",
+    "display" : "Drug induced pulmonary fibrosis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "426437004",
+    "display" : "Familial idiopathic pulmonary fibrosis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "51615001",
+    "display" : "Fibrosis of lung"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "71193007",
+    "display" : "Fibrosis of lung caused by radiation"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "17385007",
+    "display" : "Graphite fibrosis of lung"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "771306007",
+    "display" : "Hereditary fibrosing poikiloderma, tendon contractures, myopathy, pulmonary fibrosis syndrome"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "361196000",
+    "display" : "Idiopathic hilar fibrosis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "700250006",
+    "display" : "Idiopathic pulmonary fibrosis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "1017197007",
+    "display" : "Interstitial pulmonary fibrosis due to inhalation of drug"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "1017196003",
+    "display" : "Interstitial pulmonary fibrosis due to inhalation of substance"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "90610005",
+    "display" : "Interstitial pulmonary fibrosis of prematurity"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "233726000",
+    "display" : "Localized pulmonary fibrosis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "721977007",
+    "display" : "Lung fibrosis, immunodeficiency, 46,XX gonadal dysgenesis syndrome"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "56841008",
+    "display" : "Massive fibrosis of lung"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "40640008",
+    "display" : "Massive silicotic fibrosis of lung"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "50196008",
+    "display" : "Perialveolar fibrosis of lung"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "3514002",
+    "display" : "Peribronchial fibrosis of lung"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "266368002",
+    "display" : "Post-inflammatory pulmonary fibrosis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "708030004",
+    "display" : "Pulmonary emphysema co-occurrent with fibrosis of lung"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "405570007",
+    "display" : "Pulmonary fibrosis due to and following radiotherapy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "707434003",
+    "display" : "Pulmonary fibrosis due to Hermansky-Pudlak syndrome"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "723829000",
+    "display" : "Pulmonary fibrosis, hepatic hyperplasia, bone marrow hypoplasia syndrome"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "90117007",
+    "display" : "Tuberculous fibrosis of lung"
+  } ]
+}

@@ -1,0 +1,10 @@
+{
+  "system" : "SNOMED Clinical Terms",
+  "code" : "714152005",
+  "description" : "",
+  "children" : [ {
+    "system" : "http://snomed.info/sct",
+    "code" : "714152005",
+    "display" : "Chronic kidney disease stage 5 on dialysis"
+  } ]
+}

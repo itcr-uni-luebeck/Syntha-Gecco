@@ -1,0 +1,104 @@
+{
+  "templateName" : "Klinische Frailty-Skala",
+  "paths" : [ {
+    "id" : 0,
+    "aqlPath" : "/context/other_context[at0001]/items[at0004]/value|code",
+    "path" : "klinische_frailty-skala/context/status|code",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 1,
+    "aqlPath" : "/context/other_context[at0001]/items[at0005]/value",
+    "path" : "klinische_frailty-skala/context/kategorie",
+    "type" : "TEXT"
+  }, {
+    "id" : 2,
+    "aqlPath" : "/context/start_time",
+    "path" : "klinische_frailty-skala/context/start_time",
+    "type" : "DATETIME"
+  }, {
+    "id" : 3,
+    "aqlPath" : "/context/setting|code",
+    "path" : "klinische_frailty-skala/context/setting|code",
+    "type" : "TEXT"
+  }, {
+    "id" : 4,
+    "aqlPath" : "/context/setting|value",
+    "path" : "klinische_frailty-skala/context/setting|value",
+    "type" : "TEXT"
+  }, {
+    "id" : 5,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.clinical_frailty_scale.v1]/data[at0001]/events[at0002]/data[at0003]/items[at0004]/value",
+    "path" : "klinische_frailty-skala/klinische_frailty-skala_cfs/beurteilung",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 6,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.clinical_frailty_scale.v1]/data[at0001]/events[at0002]/time",
+    "path" : "klinische_frailty-skala/klinische_frailty-skala_cfs/time",
+    "type" : "DATETIME"
+  }, {
+    "id" : 7,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.clinical_frailty_scale.v1]/language",
+    "path" : "klinische_frailty-skala/klinische_frailty-skala_cfs/language",
+    "type" : "TEXT"
+  }, {
+    "id" : 8,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.clinical_frailty_scale.v1]/encoding",
+    "path" : "klinische_frailty-skala/klinische_frailty-skala_cfs/encoding",
+    "type" : "TEXT"
+  }, {
+    "id" : 9,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.clinical_frailty_scale.v1]/subject|id",
+    "path" : "klinische_frailty-skala/klinische_frailty-skala_cfs/subject|id",
+    "type" : "TEXT"
+  }, {
+    "id" : 10,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.clinical_frailty_scale.v1]/subject|id_scheme",
+    "path" : "klinische_frailty-skala/klinische_frailty-skala_cfs/subject|id_scheme",
+    "type" : "TEXT"
+  }, {
+    "id" : 11,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.clinical_frailty_scale.v1]/subject|id_namespace",
+    "path" : "klinische_frailty-skala/klinische_frailty-skala_cfs/subject|id_namespace",
+    "type" : "TEXT"
+  }, {
+    "id" : 12,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.clinical_frailty_scale.v1]/subject|name",
+    "path" : "klinische_frailty-skala/klinische_frailty-skala_cfs/subject|name",
+    "type" : "TEXT"
+  }, {
+    "id" : 13,
+    "aqlPath" : "/category|code",
+    "path" : "klinische_frailty-skala/category|code",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 14,
+    "aqlPath" : "/language",
+    "path" : "klinische_frailty-skala/language",
+    "type" : "TEXT"
+  }, {
+    "id" : 15,
+    "aqlPath" : "/territory",
+    "path" : "klinische_frailty-skala/territory",
+    "type" : "TEXT"
+  }, {
+    "id" : 16,
+    "aqlPath" : "/composer|id",
+    "path" : "klinische_frailty-skala/composer|id",
+    "type" : "TEXT"
+  }, {
+    "id" : 17,
+    "aqlPath" : "/composer|id_scheme",
+    "path" : "klinische_frailty-skala/composer|id_scheme",
+    "type" : "TEXT"
+  }, {
+    "id" : 18,
+    "aqlPath" : "/composer|id_namespace",
+    "path" : "klinische_frailty-skala/composer|id_namespace",
+    "type" : "TEXT"
+  }, {
+    "id" : 19,
+    "aqlPath" : "/composer|name",
+    "path" : "klinische_frailty-skala/composer|name",
+    "type" : "TEXT"
+  } ]
+}

@@ -1,0 +1,5606 @@
+{
+  "system" : "SNOMED Clinical Terms",
+  "code" : "119181002",
+  "description" : "",
+  "children" : [ {
+    "system" : "http://snomed.info/sct",
+    "code" : "56244007",
+    "display" : "10 to 19 percent of body surface"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "78777002",
+    "display" : "20 to 29 percent of body surface"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "12423009",
+    "display" : "30 to 39 percent of body surface"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "36849000",
+    "display" : "40 to 49 percent of body surface"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "76152003",
+    "display" : "50 to 59 percent of body surface"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "91551007",
+    "display" : "60 to 69 percent of body surface"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "75324005",
+    "display" : "70 to 79 percent of body surface"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "19738007",
+    "display" : "80 to 89 percent of body surface"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "91035006",
+    "display" : "90 percent of body surface or more"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "312518009",
+    "display" : "Abdominal skin crease"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "397018003",
+    "display" : "Blood vessel structure of skin"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "724041001",
+    "display" : "Breast skin crease"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244162003",
+    "display" : "Central palmar skin"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244190004",
+    "display" : "Central plantar skin"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244024004",
+    "display" : "Cranial dermatome"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244023005",
+    "display" : "Dermatome"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244030004",
+    "display" : "Dermatome of cervical nerve"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244064000",
+    "display" : "Dermatome of coccygeal nerve"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244038006",
+    "display" : "Dermatome of eighth cervical nerve"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244047003",
+    "display" : "Dermatome of eighth thoracic nerve"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244050000",
+    "display" : "Dermatome of eleventh thoracic nerve"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244035009",
+    "display" : "Dermatome of fifth cervical nerve"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244057002",
+    "display" : "Dermatome of fifth lumbar nerve"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244063006",
+    "display" : "Dermatome of fifth sacral nerve"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244044005",
+    "display" : "Dermatome of fifth thoracic nerve"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244031000",
+    "display" : "Dermatome of first cervical nerve"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244053003",
+    "display" : "Dermatome of first lumbar nerve"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244059004",
+    "display" : "Dermatome of first sacral nerve"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244040001",
+    "display" : "Dermatome of first thoracic nerve"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244034008",
+    "display" : "Dermatome of fourth cervical nerve"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244056006",
+    "display" : "Dermatome of fourth lumbar nerve"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244062001",
+    "display" : "Dermatome of fourth sacral nerve"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244043004",
+    "display" : "Dermatome of fourth thoracic nerve"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244052008",
+    "display" : "Dermatome of lumbar nerve"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244028001",
+    "display" : "Dermatome of mandibular nerve"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244027006",
+    "display" : "Dermatome of maxillary nerve"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244048008",
+    "display" : "Dermatome of ninth thoracic nerve"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244026002",
+    "display" : "Dermatome of ophthalmic nerve"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244058007",
+    "display" : "Dermatome of sacral nerve"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244032007",
+    "display" : "Dermatome of second cervical nerve"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244054009",
+    "display" : "Dermatome of second lumbar nerve"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244060009",
+    "display" : "Dermatome of second sacral nerve"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244041002",
+    "display" : "Dermatome of second thoracic nerve"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244037001",
+    "display" : "Dermatome of seventh cervical nerve"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244046007",
+    "display" : "Dermatome of seventh thoracic nerve"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244036005",
+    "display" : "Dermatome of sixth cervical nerve"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244045006",
+    "display" : "Dermatome of sixth thoracic nerve"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244049000",
+    "display" : "Dermatome of tenth thoracic nerve"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244033002",
+    "display" : "Dermatome of third cervical nerve"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244055005",
+    "display" : "Dermatome of third lumbar nerve"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244061008",
+    "display" : "Dermatome of third sacral nerve"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244042009",
+    "display" : "Dermatome of third thoracic nerve"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244039003",
+    "display" : "Dermatome of thoracic nerve"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244025003",
+    "display" : "Dermatome of trigeminal nerve"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244051001",
+    "display" : "Dermatome of twelfth thoracic nerve"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "53534000",
+    "display" : "Dermis structure"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "51025007",
+    "display" : "Dermoepidermal junction"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "264104007",
+    "display" : "Diaper area"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "110489001",
+    "display" : "Dorsal skin of penis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "280388002",
+    "display" : "Elbow skin crease"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "729940001",
+    "display" : "Entire abdominal skin crease"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "731403007",
+    "display" : "Entire apocrine sweat gland bearing skin"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "731381006",
+    "display" : "Entire apocrine sweat gland bearing skin of areola"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "731335006",
+    "display" : "Entire apocrine sweat gland bearing skin of axilla"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "731358009",
+    "display" : "Entire apocrine sweat gland bearing skin of inguinal region"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "731402002",
+    "display" : "Entire apocrine sweat gland bearing skin of perianal area"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "731419000",
+    "display" : "Entire apocrine sweat gland bearing skin of perineum"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "731386001",
+    "display" : "Entire apocrine sweat gland bearing skin of periumbilical area"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "731366000",
+    "display" : "Entire apocrine sweat gland bearing skin of vulva"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "731867001",
+    "display" : "Entire blood vessel of skin"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "320700003",
+    "display" : "Entire capillary of skin"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727880000",
+    "display" : "Entire central palmar skin"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727901000",
+    "display" : "Entire central plantar skin"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "181475006",
+    "display" : "Entire circumorbital skin"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "321185007",
+    "display" : "Entire cleavage lines of skin"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "320991003",
+    "display" : "Entire collagen fibers of skin"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "320601009",
+    "display" : "Entire cristae cutis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "300630005",
+    "display" : "Entire cuticle of nail"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "320101005",
+    "display" : "Entire dermal papilla"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "314292007",
+    "display" : "Entire dermatoglyphic patterns"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "367573004",
+    "display" : "Entire dermatoglyphic patterns of palm"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "367572009",
+    "display" : "Entire dermatoglyphic patterns of sole"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "361696001",
+    "display" : "Entire dermis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727074007",
+    "display" : "Entire dermoepidermal junction"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728649005",
+    "display" : "Entire diaper area"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "301006004",
+    "display" : "Entire distal nail groove"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727339002",
+    "display" : "Entire dorsal skin of penis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "321090007",
+    "display" : "Entire elastic fibers of skin"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727221009",
+    "display" : "Entire epidermal basement zone"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "361694003",
+    "display" : "Entire epidermis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "729537007",
+    "display" : "Entire eyelash follicle"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "730574009",
+    "display" : "Entire facial skin fold"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "729520000",
+    "display" : "Entire flexural skin crease"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727840009",
+    "display" : "Entire glabella skin"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "279034002",
+    "display" : "Entire gland of Montgomery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "714655006",
+    "display" : "Entire gland of Zeis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "360548001",
+    "display" : "Entire glomus body"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "362679004",
+    "display" : "Entire gluteal sulcus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "729375006",
+    "display" : "Entire groin skin crease"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "788229000",
+    "display" : "Entire hair follicle of abdomen"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "788254000",
+    "display" : "Entire hair follicle of ankle"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "788251008",
+    "display" : "Entire hair follicle of anterior naris"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "788230005",
+    "display" : "Entire hair follicle of anterolateral region of thorax"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "788239006",
+    "display" : "Entire hair follicle of anus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "788264009",
+    "display" : "Entire hair follicle of axilla"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "788232002",
+    "display" : "Entire hair follicle of back"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "788243005",
+    "display" : "Entire hair follicle of beard"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "715148001",
+    "display" : "Entire hair follicle of breast"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "788255004",
+    "display" : "Entire hair follicle of buttock"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "788248001",
+    "display" : "Entire hair follicle of cheek"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "788235000",
+    "display" : "Entire hair follicle of chest"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "788249009",
+    "display" : "Entire hair follicle of chin"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "788245003",
+    "display" : "Entire hair follicle of ear"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "788265005",
+    "display" : "Entire hair follicle of elbow"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "788246002",
+    "display" : "Entire hair follicle of external auditory canal"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "788240008",
+    "display" : "Entire hair follicle of external female genitalia"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "788250009",
+    "display" : "Entire hair follicle of external nose"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "788247006",
+    "display" : "Entire hair follicle of face"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "788268007",
+    "display" : "Entire hair follicle of finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "788233007",
+    "display" : "Entire hair follicle of flank"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "788256003",
+    "display" : "Entire hair follicle of foot"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "788266006",
+    "display" : "Entire hair follicle of forearm"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "788267002",
+    "display" : "Entire hair follicle of hand"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "788244004",
+    "display" : "Entire hair follicle of head"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "788257007",
+    "display" : "Entire hair follicle of heel"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "788259005",
+    "display" : "Entire hair follicle of hip"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "788236004",
+    "display" : "Entire hair follicle of inguinal region"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "788260000",
+    "display" : "Entire hair follicle of knee"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "788261001",
+    "display" : "Entire hair follicle of lower leg"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "788253006",
+    "display" : "Entire hair follicle of lower limb"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "787822003",
+    "display" : "Entire hair follicle of nasal septum"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "784418005",
+    "display" : "Entire hair follicle of nasal vestibule"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "788242000",
+    "display" : "Entire hair follicle of neck"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "714642005",
+    "display" : "Entire hair follicle of occipital region of scalp"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "788237008",
+    "display" : "Entire hair follicle of penis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "788238003",
+    "display" : "Entire hair follicle of perineum"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "714640002",
+    "display" : "Entire hair follicle of scalp"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "788241007",
+    "display" : "Entire hair follicle of scrotum"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "788270003",
+    "display" : "Entire hair follicle of shoulder"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "788252001",
+    "display" : "Entire hair follicle of temporal region of face"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "788262008",
+    "display" : "Entire hair follicle of thigh"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "788269004",
+    "display" : "Entire hair follicle of thumb"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "788258002",
+    "display" : "Entire hair follicle of toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "788231009",
+    "display" : "Entire hair follicle of trunk"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "788234001",
+    "display" : "Entire hair follicle of umbilicus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "788271004",
+    "display" : "Entire hair follicle of upper arm"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "788263003",
+    "display" : "Entire hair follicle of upper limb"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "788272006",
+    "display" : "Entire hair follicle of wrist"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "730594000",
+    "display" : "Entire hair-bearing skin"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "300918002",
+    "display" : "Entire hyponychium"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "729374005",
+    "display" : "Entire inframammary skin crease"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "300831006",
+    "display" : "Entire keratogenous zone of nail"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "368268009",
+    "display" : "Entire lateral nail fold"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "1149181000",
+    "display" : "Entire lymphatic vessel and small blood vessel in skin of breast"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "732130008",
+    "display" : "Entire microscopic skin blood vessel"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "785653002",
+    "display" : "Entire microvasculature of skin of face"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "785652007",
+    "display" : "Entire microvasculature of skin of limb"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "785650004",
+    "display" : "Entire microvasculature of skin of lower limb"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "785651000",
+    "display" : "Entire microvasculature of skin of upper limb"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "726869005",
+    "display" : "Entire mucocutaneous junction"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727267009",
+    "display" : "Entire mucocutaneous junction of lip"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727036004",
+    "display" : "Entire mucocutaneous junction of lower lip"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "726892005",
+    "display" : "Entire mucocutaneous junction of upper lip"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "181578005",
+    "display" : "Entire nail bed"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "729843000",
+    "display" : "Entire nail bed of digit of hand"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727648000",
+    "display" : "Entire nail bed of fifth toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727906005",
+    "display" : "Entire nail bed of finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727647005",
+    "display" : "Entire nail bed of fourth toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727644003",
+    "display" : "Entire nail bed of great toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727639005",
+    "display" : "Entire nail bed of index finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "730099001",
+    "display" : "Entire nail bed of lesser toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727642004",
+    "display" : "Entire nail bed of little finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727640007",
+    "display" : "Entire nail bed of middle finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727641006",
+    "display" : "Entire nail bed of ring finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727645002",
+    "display" : "Entire nail bed of second toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727646001",
+    "display" : "Entire nail bed of third toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727643009",
+    "display" : "Entire nail bed of thumb"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727907001",
+    "display" : "Entire nail bed of toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727879003",
+    "display" : "Entire palmar skin crease"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "726069006",
+    "display" : "Entire papillary area"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727622008",
+    "display" : "Entire paraumbilical skin"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727841008",
+    "display" : "Entire perinasal skin"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "729387004",
+    "display" : "Entire periungual skin"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "729388009",
+    "display" : "Entire periungual skin of finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "729391009",
+    "display" : "Entire periungual skin of great toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "729389001",
+    "display" : "Entire periungual skin of thumb"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "729390005",
+    "display" : "Entire periungual skin of toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727902007",
+    "display" : "Entire plantar skin creases"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "731934001",
+    "display" : "Entire pretarsal skin of eyelid"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "368384008",
+    "display" : "Entire proximal nail fold"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "367696005",
+    "display" : "Entire raphe penis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "726084002",
+    "display" : "Entire reticular corium"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "279583006",
+    "display" : "Entire scrotal raphe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "714653004",
+    "display" : "Entire sebaceous gland of eyelid"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "879799008",
+    "display" : "Entire sebaceous gland of lip"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "229445005",
+    "display" : "Entire skin between fourth and fifth toes"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "229536007",
+    "display" : "Entire skin between great toe and second toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "368399008",
+    "display" : "Entire skin between index finger and middle finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "368400001",
+    "display" : "Entire skin between middle finger and ring finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "368401002",
+    "display" : "Entire skin between ring finger and little finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "229624008",
+    "display" : "Entire skin between second and third toes"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "229702004",
+    "display" : "Entire skin between third and fourth toes"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "368398000",
+    "display" : "Entire skin between thumb and index finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "729373004",
+    "display" : "Entire skin crease"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "729376007",
+    "display" : "Entire skin crease of elbow"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "729521001",
+    "display" : "Entire skin crease of knee"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "361707007",
+    "display" : "Entire skin of abdomen"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "731925006",
+    "display" : "Entire skin of Achilles region"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244087008",
+    "display" : "Entire skin of ala nasi"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "368364009",
+    "display" : "Entire skin of all fingers"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "223937001",
+    "display" : "Entire skin of all toes"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "181560000",
+    "display" : "Entire skin of ankle"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "731926007",
+    "display" : "Entire skin of ankle and foot"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "731732006",
+    "display" : "Entire skin of anogenital region"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "368135005",
+    "display" : "Entire skin of antecubital fossa"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "181494001",
+    "display" : "Entire skin of anterior axillary fold"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "312145002",
+    "display" : "Entire skin of anterior axillary line"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "367668004",
+    "display" : "Entire skin of anterior commissure of labia majora"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "181482005",
+    "display" : "Entire skin of anterior portion of neck"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "731927003",
+    "display" : "Entire skin of anterior superior iliac spine region of trunk"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727632001",
+    "display" : "Entire skin of anterior surface of ankle"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727627002",
+    "display" : "Entire skin of anterior surface of elbow"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "181538003",
+    "display" : "Entire skin of anterior surface of forearm"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727629004",
+    "display" : "Entire skin of anterior surface of knee"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "726920007",
+    "display" : "Entire skin of anterior surface of lower leg"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "181548001",
+    "display" : "Entire skin of anterior surface of thigh"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727852002",
+    "display" : "Entire skin of anterior surface of thorax"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "181532002",
+    "display" : "Entire skin of anterior surface of upper arm"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727865006",
+    "display" : "Entire skin of anterolateral surface of arm"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727869000",
+    "display" : "Entire skin of anterolateral surface of elbow"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727892000",
+    "display" : "Entire skin of anterolateral surface of knee"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727850005",
+    "display" : "Entire skin of anterolateral surface of neck"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727888007",
+    "display" : "Entire skin of anterolateral surface of thigh"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727854001",
+    "display" : "Entire skin of anterolateral surface of thorax"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "731933007",
+    "display" : "Entire skin of anteromedial surface of elbow"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727895003",
+    "display" : "Entire skin of anteromedial surface of knee"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "368608000",
+    "display" : "Entire skin of antihelix"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "368612006",
+    "display" : "Entire skin of antitragus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "312579006",
+    "display" : "Entire skin of anus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "181500002",
+    "display" : "Entire skin of areola"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "368604003",
+    "display" : "Entire skin of auricular tubercle"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "361706003",
+    "display" : "Entire skin of axilla"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "731868006",
+    "display" : "Entire skin of axillary fold"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727620000",
+    "display" : "Entire skin of axillary tail of breast"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "181492002",
+    "display" : "Entire skin of back"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "731929000",
+    "display" : "Entire skin of back of lower thoracic region"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "731930005",
+    "display" : "Entire skin of back of upper thoracic region"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727903002",
+    "display" : "Entire skin of border of foot"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727875009",
+    "display" : "Entire skin of border of forearm"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727881001",
+    "display" : "Entire skin of border of hand"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727876005",
+    "display" : "Entire skin of border of wrist"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "181490005",
+    "display" : "Entire skin of breast"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244086004",
+    "display" : "Entire skin of bridge of nose"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "181493007",
+    "display" : "Entire skin of buttock"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244181006",
+    "display" : "Entire skin of calf of leg"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "730298003",
+    "display" : "Entire skin of canthus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "368614007",
+    "display" : "Entire skin of cavity of concha"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "731931009",
+    "display" : "Entire skin of center of anterior chest"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "731917009",
+    "display" : "Entire skin of central region of abdomen"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "181472009",
+    "display" : "Entire skin of cheek"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "181496004",
+    "display" : "Entire skin of chest"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "181474005",
+    "display" : "Entire skin of chin"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244132009",
+    "display" : "Entire skin of clavicular region"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "361374002",
+    "display" : "Entire skin of clitoris"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "287274001",
+    "display" : "Entire skin of coccygeal region"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "368615008",
+    "display" : "Entire skin of concha"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244121009",
+    "display" : "Entire skin of corona of glans penis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "731932002",
+    "display" : "Entire skin of costal region of chest wall"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "368607005",
+    "display" : "Entire skin of crura of antihelix"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "367700002",
+    "display" : "Entire skin of cruro-scrotal fold"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "367667009",
+    "display" : "Entire skin of cruro-vulvar fold"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "368605002",
+    "display" : "Entire skin of crus of helix"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "368613001",
+    "display" : "Entire skin of cymba conchae"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244134005",
+    "display" : "Entire skin of deltoid region"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728888009",
+    "display" : "Entire skin of digit"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "181545003",
+    "display" : "Entire skin of dorsal area of hand"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "181543005",
+    "display" : "Entire skin of dorsal area of wrist"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "218980006",
+    "display" : "Entire skin of dorsal surface of fifth toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "361712008",
+    "display" : "Entire skin of dorsal surface of finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "218778007",
+    "display" : "Entire skin of dorsal surface of fourth toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "218268008",
+    "display" : "Entire skin of dorsal surface of great toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "368266008",
+    "display" : "Entire skin of dorsal surface of index finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "368270000",
+    "display" : "Entire skin of dorsal surface of little finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "368267004",
+    "display" : "Entire skin of dorsal surface of middle finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "368269001",
+    "display" : "Entire skin of dorsal surface of ring finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "218472009",
+    "display" : "Entire skin of dorsal surface of second toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "218676004",
+    "display" : "Entire skin of dorsal surface of third toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "368385009",
+    "display" : "Entire skin of dorsal surface of thumb"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "219284001",
+    "display" : "Entire skin of dorsal surface of toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727884009",
+    "display" : "Entire skin of dorsal surface of web of finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727904008",
+    "display" : "Entire skin of dorsal surface of web of toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "181565005",
+    "display" : "Entire skin of dorsum of foot"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244073008",
+    "display" : "Entire skin of ear"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244077009",
+    "display" : "Entire skin of ear lobule"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727838004",
+    "display" : "Entire skin of eardrum"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "181534001",
+    "display" : "Entire skin of elbow"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727874008",
+    "display" : "Entire skin of elbow flexion crease"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "729701004",
+    "display" : "Entire skin of elbow, skin of forearm and skin of wrist"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "731703008",
+    "display" : "Entire skin of epicanthal fold"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "715649005",
+    "display" : "Entire skin of epicanthus inversus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "715651009",
+    "display" : "Entire skin of epicanthus tarsalis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "181507004",
+    "display" : "Entire skin of epigastric area"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "361704000",
+    "display" : "Entire skin of external auditory canal"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "367701003",
+    "display" : "Entire skin of external genitalia"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727844000",
+    "display" : "Entire skin of external naris"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728307006",
+    "display" : "Entire skin of external nose"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244129006",
+    "display" : "Entire skin of extremity"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "730562005",
+    "display" : "Entire skin of eye region"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244487001",
+    "display" : "Entire skin of eyebrow"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245947005",
+    "display" : "Entire skin of eyelid"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "731869003",
+    "display" : "Entire skin of eyelid and periocular area"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "361703006",
+    "display" : "Entire skin of face"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244123007",
+    "display" : "Entire skin of female genitalia"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "731724003",
+    "display" : "Entire skin of female perineum"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727040008",
+    "display" : "Entire skin of femoral region"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "731935000",
+    "display" : "Entire skin of femoral triangle"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "181574007",
+    "display" : "Entire skin of fifth toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "361711001",
+    "display" : "Entire skin of finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727886006",
+    "display" : "Entire skin of fingers and thumb"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "729392002",
+    "display" : "Entire skin of fingertip"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "181503000",
+    "display" : "Entire skin of flank"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "181529000",
+    "display" : "Entire skin of foot"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "181537008",
+    "display" : "Entire skin of forearm"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "181470001",
+    "display" : "Entire skin of forehead"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727000002",
+    "display" : "Entire skin of foreskin"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "368609008",
+    "display" : "Entire skin of fossa triangularis of ear"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "181573001",
+    "display" : "Entire skin of fourth toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "367671007",
+    "display" : "Entire skin of frenulum of clitoris"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "367695009",
+    "display" : "Entire skin of frenulum of penis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727839007",
+    "display" : "Entire skin of front of face"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "731936004",
+    "display" : "Entire skin of frontal region of scalp"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "367672000",
+    "display" : "Entire skin of glans clitoridis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244120005",
+    "display" : "Entire skin of glans penis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "288377007",
+    "display" : "Entire skin of gluteal fold"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "181569004",
+    "display" : "Entire skin of great toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "181527003",
+    "display" : "Entire skin of hand"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "181484006",
+    "display" : "Entire skin of head"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244067007",
+    "display" : "Entire skin of head and neck"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244185002",
+    "display" : "Entire skin of heel"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "368606001",
+    "display" : "Entire skin of helix"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "181518004",
+    "display" : "Entire skin of hip"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "729738004",
+    "display" : "Entire skin of hip and thigh"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "181508009",
+    "display" : "Entire skin of hypochondriac region"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "181509001",
+    "display" : "Entire skin of hypogastric region"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244161005",
+    "display" : "Entire skin of hypothenar region of palm"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727625005",
+    "display" : "Entire skin of iliac fossa"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "368312003",
+    "display" : "Entire skin of index finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727624009",
+    "display" : "Entire skin of infra-umbilical region"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "725271008",
+    "display" : "Entire skin of infraauricular region"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "180940006",
+    "display" : "Entire skin of infraclavicular region"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "368766009",
+    "display" : "Entire skin of infrapalpebral fold"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "368675001",
+    "display" : "Entire skin of infratemporal region"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "181519007",
+    "display" : "Entire skin of inguinal region"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244194008",
+    "display" : "Entire skin of interdigital space of foot"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244166000",
+    "display" : "Entire skin of interdigital space of hand"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728889001",
+    "display" : "Entire skin of interdigital web"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727862009",
+    "display" : "Entire skin of interlabial groove"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "286592004",
+    "display" : "Entire skin of interscapular region of back"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "368611004",
+    "display" : "Entire skin of intertragal incisure"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "731937008",
+    "display" : "Entire skin of ischial tuberosity subregion of buttock region"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244095007",
+    "display" : "Entire skin of jaw"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727846003",
+    "display" : "Entire skin of jawline"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "181552001",
+    "display" : "Entire skin of knee"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727896002",
+    "display" : "Entire skin of knee flexion crease"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "729739007",
+    "display" : "Entire skin of knee, skin of leg and skin of ankle"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727861002",
+    "display" : "Entire skin of labiofemoral groove"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "368763001",
+    "display" : "Entire skin of labiomental crease"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244124001",
+    "display" : "Entire skin of labium"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244125000",
+    "display" : "Entire skin of labium majus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244126004",
+    "display" : "Entire skin of labium minus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "168932006",
+    "display" : "Entire skin of laryngeal prominence"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727635004",
+    "display" : "Entire skin of lateral aspect of ankle"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727637007",
+    "display" : "Entire skin of lateral border of foot"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727883003",
+    "display" : "Entire skin of lateral border of hand"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244188000",
+    "display" : "Entire skin of lateral border of sole of foot"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727878006",
+    "display" : "Entire skin of lateral border of wrist"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "368772009",
+    "display" : "Entire skin of lateral canthus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "731938003",
+    "display" : "Entire skin of lateral chest wall"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "699905007",
+    "display" : "Entire skin of lateral cubital region of upper limb"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "731939006",
+    "display" : "Entire skin of lateral half of anterior abdominal wall"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "731940008",
+    "display" : "Entire skin of lateral half of face"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727619006",
+    "display" : "Entire skin of lateral half of thoracic segment of trunk"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "731912003",
+    "display" : "Entire skin of lateral malleolus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244153000",
+    "display" : "Entire skin of lateral margin of forearm"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "732098000",
+    "display" : "Entire skin of lateral nose"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "181483000",
+    "display" : "Entire skin of lateral portion of neck"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "311967003",
+    "display" : "Entire skin of lateral region of trunk"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727870004",
+    "display" : "Entire skin of lateral surface of elbow"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "221398009",
+    "display" : "Entire skin of lateral surface of fifth toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "368294000",
+    "display" : "Entire skin of lateral surface of finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "221195001",
+    "display" : "Entire skin of lateral surface of fourth toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "220694005",
+    "display" : "Entire skin of lateral surface of great toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "368286007",
+    "display" : "Entire skin of lateral surface of index finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727631008",
+    "display" : "Entire skin of lateral surface of knee"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "368292001",
+    "display" : "Entire skin of lateral surface of little finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "181558002",
+    "display" : "Entire skin of lateral surface of lower leg"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "368288008",
+    "display" : "Entire skin of lateral surface of middle finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "368290009",
+    "display" : "Entire skin of lateral surface of ring finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "220892007",
+    "display" : "Entire skin of lateral surface of second toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "181551008",
+    "display" : "Entire skin of lateral surface of thigh"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "221095003",
+    "display" : "Entire skin of lateral surface of third toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "368389003",
+    "display" : "Entire skin of lateral surface of thumb"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "221703006",
+    "display" : "Entire skin of lateral surface of toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244138008",
+    "display" : "Entire skin of lateral surface of upper arm"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "699908009",
+    "display" : "Entire skin of left half of neck"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727638002",
+    "display" : "Entire skin of lesser toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244092005",
+    "display" : "Entire skin of lip"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "368362008",
+    "display" : "Entire skin of little finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "731941007",
+    "display" : "Entire skin of lower abdomen"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "286601005",
+    "display" : "Entire skin of lower back"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "731942000",
+    "display" : "Entire skin of lower chest wall"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "181528008",
+    "display" : "Entire skin of lower extremity"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245949008",
+    "display" : "Entire skin of lower eyelid"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244180007",
+    "display" : "Entire skin of lower leg"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "281630002",
+    "display" : "Entire skin of lower lip"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "368113002",
+    "display" : "Entire skin of lower margin of nasal septum"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "304695005",
+    "display" : "Entire skin of lower trunk"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "731943005",
+    "display" : "Entire skin of lumbar region of abdominal wall"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "1149541002",
+    "display" : "Entire skin of lumbar region of back"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "309861007",
+    "display" : "Entire skin of lumbosacral region"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244115005",
+    "display" : "Entire skin of male genitalia"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "731725002",
+    "display" : "Entire skin of male perineum"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "731914002",
+    "display" : "Entire skin of malleolus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "731944004",
+    "display" : "Entire skin of mastoid region"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727634000",
+    "display" : "Entire skin of medial aspect of ankle"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727636003",
+    "display" : "Entire skin of medial border of foot"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727882008",
+    "display" : "Entire skin of medial border of hand"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "217557009",
+    "display" : "Entire skin of medial border of sole of foot"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727877001",
+    "display" : "Entire skin of medial border of wrist"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "368771002",
+    "display" : "Entire skin of medial canthus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "699918004",
+    "display" : "Entire skin of medial cubital region of upper limb"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "731913008",
+    "display" : "Entire skin of medial malleolus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244152005",
+    "display" : "Entire skin of medial margin of forearm"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727873002",
+    "display" : "Entire skin of medial surface of elbow"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "222617006",
+    "display" : "Entire skin of medial surface of fifth toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "368304006",
+    "display" : "Entire skin of medial surface of finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "222414005",
+    "display" : "Entire skin of medial surface of fourth toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "221905005",
+    "display" : "Entire skin of medial surface of great toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "368296003",
+    "display" : "Entire skin of medial surface of index finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727630009",
+    "display" : "Entire skin of medial surface of knee"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "368302005",
+    "display" : "Entire skin of medial surface of little finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "181559005",
+    "display" : "Entire skin of medial surface of lower leg"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "368298002",
+    "display" : "Entire skin of medial surface of middle finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "368300002",
+    "display" : "Entire skin of medial surface of ring finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "222109002",
+    "display" : "Entire skin of medial surface of second toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "181550009",
+    "display" : "Entire skin of medial surface of thigh"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "222313003",
+    "display" : "Entire skin of medial surface of third toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "368391006",
+    "display" : "Entire skin of medial surface of thumb"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "222923004",
+    "display" : "Entire skin of medial surface of toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244142006",
+    "display" : "Entire skin of medial surface of upper arm"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "368334001",
+    "display" : "Entire skin of middle finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "732097005",
+    "display" : "Entire skin of midline nose"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "312441003",
+    "display" : "Entire skin of milk line"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "367673005",
+    "display" : "Entire skin of mons pubis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "731945003",
+    "display" : "Entire skin of nasal vestibule"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727618003",
+    "display" : "Entire skin of nasolabial area"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "368112007",
+    "display" : "Entire skin of nasolabial fold"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "729924004",
+    "display" : "Entire skin of natal cleft"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "361705004",
+    "display" : "Entire skin of neck"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "181499006",
+    "display" : "Entire skin of nipple"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244085000",
+    "display" : "Entire skin of nose"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "181481003",
+    "display" : "Entire skin of nuchal region"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "399900006",
+    "display" : "Entire skin of obverse of pinna"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727248005",
+    "display" : "Entire skin of occipital region"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244148005",
+    "display" : "Entire skin of olecranal region"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "181544004",
+    "display" : "Entire skin of palmar area of hand"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "181542000",
+    "display" : "Entire skin of palmar area of wrist"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "181546002",
+    "display" : "Entire skin of palmar surface of finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "368277002",
+    "display" : "Entire skin of palmar surface of index finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "368283004",
+    "display" : "Entire skin of palmar surface of little finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "368279004",
+    "display" : "Entire skin of palmar surface of middle finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "368281002",
+    "display" : "Entire skin of palmar surface of ring finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "368387001",
+    "display" : "Entire skin of palmar surface of thumb"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727885005",
+    "display" : "Entire skin of palmar surface of web of finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "368770001",
+    "display" : "Entire skin of palpebral margins"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "726899001",
+    "display" : "Entire skin of parietal region"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "181517009",
+    "display" : "Entire skin of pelvis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "361709005",
+    "display" : "Entire skin of penis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "181522009",
+    "display" : "Entire skin of perianal area"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "361708002",
+    "display" : "Entire skin of perineum"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "181476007",
+    "display" : "Entire skin of perioral region of face"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244094006",
+    "display" : "Entire skin of philtrum"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "314387007",
+    "display" : "Entire skin of pinna"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "400139009",
+    "display" : "Entire skin of pinnal sulcus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "220200003",
+    "display" : "Entire skin of plantar surface of fifth toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "219994003",
+    "display" : "Entire skin of plantar surface of fourth toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "219486002",
+    "display" : "Entire skin of plantar surface of great toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "219690009",
+    "display" : "Entire skin of plantar surface of second toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "219892003",
+    "display" : "Entire skin of plantar surface of third toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "220494001",
+    "display" : "Entire skin of plantar surface of toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727905009",
+    "display" : "Entire skin of plantar surface of web of toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727848002",
+    "display" : "Entire skin of point of chin"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "181554000",
+    "display" : "Entire skin of popliteal fossa"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244080005",
+    "display" : "Entire skin of postauricular region"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "181495000",
+    "display" : "Entire skin of posterior axillary fold"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "312315008",
+    "display" : "Entire skin of posterior axillary line"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "367669007",
+    "display" : "Entire skin of posterior commissure of labia majora"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "699923004",
+    "display" : "Entire skin of posterior cubital region of upper limb"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "731946002",
+    "display" : "Entire skin of posterior superior iliac crest region of back"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727633006",
+    "display" : "Entire skin of posterior surface of ankle"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727628007",
+    "display" : "Entire skin of posterior surface of elbow"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "181539006",
+    "display" : "Entire skin of posterior surface of forearm"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727047006",
+    "display" : "Entire skin of posterior surface of lower leg"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "181549009",
+    "display" : "Entire skin of posterior surface of thigh"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727856004",
+    "display" : "Entire skin of posterior surface of thorax"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "181533007",
+    "display" : "Entire skin of posterior surface of upper arm"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727866007",
+    "display" : "Entire skin of posterolateral surface of arm"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727871000",
+    "display" : "Entire skin of posterolateral surface of elbow"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727893005",
+    "display" : "Entire skin of posterolateral surface of knee"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727851009",
+    "display" : "Entire skin of posterolateral surface of neck"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727889004",
+    "display" : "Entire skin of posterolateral surface of thigh"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727855000",
+    "display" : "Entire skin of posterolateral surface of thorax"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727868008",
+    "display" : "Entire skin of posteromedial surface of arm"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727872007",
+    "display" : "Entire skin of posteromedial surface of elbow"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727894004",
+    "display" : "Entire skin of posteromedial surface of knee"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727891007",
+    "display" : "Entire skin of posteromedial surface of thigh"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "279080000",
+    "display" : "Entire skin of preauricular region"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "367670008",
+    "display" : "Entire skin of prepuce of clitoris"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "731947006",
+    "display" : "Entire skin of renal area of posterior abdominal wall"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "700013000",
+    "display" : "Entire skin of right half of neck"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727837009",
+    "display" : "Entire skin of rim of external ear"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "368348001",
+    "display" : "Entire skin of ring finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "399987007",
+    "display" : "Entire skin of root of nose"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727859006",
+    "display" : "Entire skin of root of penis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "181515001",
+    "display" : "Entire skin of sacral region"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "290600004",
+    "display" : "Entire skin of sacrococcygeal region"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "731674009",
+    "display" : "Entire skin of scalp"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "731871003",
+    "display" : "Entire skin of scalp and neck"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "368610003",
+    "display" : "Entire skin of scaphoid fossa of external ear"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "181516000",
+    "display" : "Entire skin of scapular region of back"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "361710000",
+    "display" : "Entire skin of scrotum"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "181571004",
+    "display" : "Entire skin of second toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727842001",
+    "display" : "Entire skin of septum of nose"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727860001",
+    "display" : "Entire skin of shaft of penis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "181557007",
+    "display" : "Entire skin of shin"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244131002",
+    "display" : "Entire skin of shoulder"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "731948001",
+    "display" : "Entire skin of shoulder and upper arm"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727847007",
+    "display" : "Entire skin of side of chin"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727836000",
+    "display" : "Entire skin of side of face"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727845004",
+    "display" : "Entire skin of side of jaw"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727843006",
+    "display" : "Entire skin of side of nose"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "181566006",
+    "display" : "Entire skin of sole of foot"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "368602004",
+    "display" : "Entire skin of spine of helix"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244102001",
+    "display" : "Entire skin of submandibular area"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "726981008",
+    "display" : "Entire skin of submental area"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727312005",
+    "display" : "Entire skin of suboccipital region"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "731949009",
+    "display" : "Entire skin of superior iliac crest region of trunk"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "280908006",
+    "display" : "Entire skin of supraclavicular region of neck"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244103006",
+    "display" : "Entire skin of suprasternal notch"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "400041007",
+    "display" : "Entire skin of supratip of nose"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727623003",
+    "display" : "Entire skin of supraumbilical region"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "368603009",
+    "display" : "Entire skin of tail of helix"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "699932002",
+    "display" : "Entire skin of temple region of head"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "699933007",
+    "display" : "Entire skin of temporal region of head"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244160006",
+    "display" : "Entire skin of thenar region of palm"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "181547006",
+    "display" : "Entire skin of thigh"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "181572006",
+    "display" : "Entire skin of third toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "731961001",
+    "display" : "Entire skin of thoracic region of back"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "280423005",
+    "display" : "Entire skin of thumb"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244090002",
+    "display" : "Entire skin of tip of nose"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "181530005",
+    "display" : "Entire skin of toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244076000",
+    "display" : "Entire skin of tragus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "181489001",
+    "display" : "Entire skin of trunk"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "368071009",
+    "display" : "Entire skin of umbilical region"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244112008",
+    "display" : "Entire skin of umbilicus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "731951008",
+    "display" : "Entire skin of upper abdomen"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "181531009",
+    "display" : "Entire skin of upper arm"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "304890003",
+    "display" : "Entire skin of upper back"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "731952001",
+    "display" : "Entire skin of upper chest wall"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244130001",
+    "display" : "Entire skin of upper extremity"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245948000",
+    "display" : "Entire skin of upper eyelid"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "281629007",
+    "display" : "Entire skin of upper lip"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "731953006",
+    "display" : "Entire skin of upper thigh region"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "304504005",
+    "display" : "Entire skin of upper trunk"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727283009",
+    "display" : "Entire skin of vermilion border"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727141005",
+    "display" : "Entire skin of vertex"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "731954000",
+    "display" : "Entire skin of waist region of trunk"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "181540008",
+    "display" : "Entire skin of wrist"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "731955004",
+    "display" : "Entire skin of wrist and hand"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "368764007",
+    "display" : "Entire skin of zygomatic region"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727863004",
+    "display" : "Entire skin over acromion"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727898001",
+    "display" : "Entire skin over ball of foot"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727864005",
+    "display" : "Entire skin over biceps"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727890008",
+    "display" : "Entire skin over hamstrings"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727900004",
+    "display" : "Entire skin over head of metatarsal bone"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727899009",
+    "display" : "Entire skin over instep of foot"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727897006",
+    "display" : "Entire skin over malleoli"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727887002",
+    "display" : "Entire skin over quadriceps"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727867003",
+    "display" : "Entire skin over triceps"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244066003",
+    "display" : "Entire skin region"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "732129003",
+    "display" : "Entire skin structure under microscope"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727849005",
+    "display" : "Entire skin under chin"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728494008",
+    "display" : "Entire skin xenograft"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "57510009",
+    "display" : "Entire small arteriole of dermis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "320204006",
+    "display" : "Entire small blood vessel of dermis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "318439008",
+    "display" : "Entire small subcutaneous artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "318535004",
+    "display" : "Entire small subcutaneous blood vessel (organ)"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "10617000",
+    "display" : "Entire small subcutaneous vein"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "15494004",
+    "display" : "Entire small venule of dermis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "770864006",
+    "display" : "Entire sterile matrix of nail"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727853007",
+    "display" : "Entire sternal skin"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "361695002",
+    "display" : "Entire stratum corneum"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "419481005",
+    "display" : "Entire stratum germinativum"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "418563001",
+    "display" : "Entire stratum granulosum"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "419156002",
+    "display" : "Entire stratum lucidum"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "420086000",
+    "display" : "Entire stratum spinosum"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "287877003",
+    "display" : "Entire subcutaneous tissue of gluteal fold"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727148004",
+    "display" : "Entire subepidermal region"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "320800008",
+    "display" : "Entire sucquet-Hoyer anastomosis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "320501002",
+    "display" : "Entire sulci cutis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "730098009",
+    "display" : "Entire surface feature of skin"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "729921007",
+    "display" : "Entire sweat gland bearing skin"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "729914007",
+    "display" : "Entire sweat gland bearing skin of axilla"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "729922000",
+    "display" : "Entire sweat gland bearing skin of groin"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "729582006",
+    "display" : "Entire sweat gland bearing skin of male perineum"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "321282004",
+    "display" : "Entire tension lines of skin"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "730839002",
+    "display" : "Entire toruli tactiles"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "726863006",
+    "display" : "Entire transplanted skin"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727340000",
+    "display" : "Entire ventral skin of penis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "730860008",
+    "display" : "Entire Xiphisternal skin"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "75608000",
+    "display" : "Epidermal basement zone"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "55988001",
+    "display" : "Epidermis structure"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "370620008",
+    "display" : "Facial skin fold"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "280909003",
+    "display" : "Flexural skin crease"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244083007",
+    "display" : "Glabella skin"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "89508007",
+    "display" : "Gluteal sulcus structure"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "280387007",
+    "display" : "Groin skin crease"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "280956000",
+    "display" : "Hair follicle of eyelid"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "373649004",
+    "display" : "Hair-bearing skin"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "280386003",
+    "display" : "Inframammary skin crease"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "113341005",
+    "display" : "Less than 10 percent of body surface"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "360599008",
+    "display" : "Microscopic skin vascular structure"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "14811009",
+    "display" : "Mucocutaneous junction"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "85193007",
+    "display" : "Mucocutaneous junction of lip"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "46005001",
+    "display" : "Mucocutaneous junction of lower lip"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "20043004",
+    "display" : "Mucocutaneous junction of upper lip"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "764801008",
+    "display" : "Nail bed of right thumb"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "56820002",
+    "display" : "Nail bed structure"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244159001",
+    "display" : "Palmar skin crease"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "3255000",
+    "display" : "Papillary area"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "181504006",
+    "display" : "Paraumbilical skin"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "123957003",
+    "display" : "Percent of body surface"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244084001",
+    "display" : "Perinasal skin"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "280419002",
+    "display" : "Periungual skin of finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "758680002",
+    "display" : "Periungual skin of finger of left hand"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "758681003",
+    "display" : "Periungual skin of finger of right hand"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "280422000",
+    "display" : "Periungual skin of great toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "764469002",
+    "display" : "Periungual skin of left thumb"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "764470001",
+    "display" : "Periungual skin of right thumb"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "280420008",
+    "display" : "Periungual skin of thumb"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "280421007",
+    "display" : "Periungual skin of toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "761980007",
+    "display" : "Periungual skin of toe of left foot"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "761981006",
+    "display" : "Periungual skin of toe of right foot"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "280418005",
+    "display" : "Periungual skin structure"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244192007",
+    "display" : "Plantar skin creases"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "699898004",
+    "display" : "Pretarsal skin structure of eyelid"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "356000",
+    "display" : "Reticular corium"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "280385004",
+    "display" : "Skin crease"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "280910008",
+    "display" : "Skin crease of knee"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244098009",
+    "display" : "Skin of angle of jaw"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "181561001",
+    "display" : "Skin of anterior surface of ankle"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "181535000",
+    "display" : "Skin of anterior surface of elbow"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "181553006",
+    "display" : "Skin of anterior surface of knee"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "25763004",
+    "display" : "Skin of anterior surface of lower leg"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244106003",
+    "display" : "Skin of anterior surface of thorax"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244143001",
+    "display" : "Skin of anterolateral surface of elbow"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244175003",
+    "display" : "Skin of anterolateral surface of knee"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244104000",
+    "display" : "Skin of anterolateral surface of neck"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244171007",
+    "display" : "Skin of anterolateral surface of thigh"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244109005",
+    "display" : "Skin of anterolateral surface of thorax"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244178001",
+    "display" : "Skin of anteromedial surface of knee"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "181501003",
+    "display" : "Skin of axillary tail of breast"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244193002",
+    "display" : "Skin of border of foot"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244151003",
+    "display" : "Skin of border of forearm"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244163008",
+    "display" : "Skin of border of hand"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244155007",
+    "display" : "Skin of border of wrist"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "360913002",
+    "display" : "Skin of canthus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "279064005",
+    "display" : "Skin of digit"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "6279005",
+    "display" : "Skin of dorsal surface of finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244167009",
+    "display" : "Skin of dorsal surface of web of finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244195009",
+    "display" : "Skin of dorsal surface of web of toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244079007",
+    "display" : "Skin of eardrum"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244149002",
+    "display" : "Skin of elbow flexion crease"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "86409001",
+    "display" : "Skin of external auditory canal"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244091003",
+    "display" : "Skin of external naris"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245501006",
+    "display" : "Skin of external nose"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "362916000",
+    "display" : "Skin of eye region"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "46570004",
+    "display" : "Skin of femoral region"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "56213003",
+    "display" : "Skin of finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "722144005",
+    "display" : "Skin of finger of left hand"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "722145006",
+    "display" : "Skin of finger of right hand"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "280424004",
+    "display" : "Skin of fingertip"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "39059001",
+    "display" : "Skin of foreskin"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244082002",
+    "display" : "Skin of front of face"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "304624002",
+    "display" : "Skin of hip and/or thigh"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "181510006",
+    "display" : "Skin of iliac fossa"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "181506008",
+    "display" : "Skin of infra-umbilical region"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "279065006",
+    "display" : "Skin of interdigital web"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244128003",
+    "display" : "Skin of interlabial groove"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244097004",
+    "display" : "Skin of jawline"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "304625001",
+    "display" : "Skin of knee and/or leg and/or ankle"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244179009",
+    "display" : "Skin of knee flexion crease"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244127008",
+    "display" : "Skin of labiofemoral groove"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "181564009",
+    "display" : "Skin of lateral aspect of ankle"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "181568007",
+    "display" : "Skin of lateral border of foot"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244165001",
+    "display" : "Skin of lateral border of hand"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244157004",
+    "display" : "Skin of lateral border of wrist"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "181498003",
+    "display" : "Skin of lateral half of thoracic segment of trunk"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "314395006",
+    "display" : "Skin of lateral nose structure"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244144007",
+    "display" : "Skin of lateral surface of elbow"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "181556003",
+    "display" : "Skin of lateral surface of knee"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "181570003",
+    "display" : "Skin of lesser toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "181563003",
+    "display" : "Skin of medial aspect of ankle"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "181567002",
+    "display" : "Skin of medial border of foot"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244164002",
+    "display" : "Skin of medial border of hand"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244156008",
+    "display" : "Skin of medial border of wrist"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244147000",
+    "display" : "Skin of medial surface of elbow"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "181555004",
+    "display" : "Skin of medial surface of knee"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "314394005",
+    "display" : "Skin of midline nose structure"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "181473004",
+    "display" : "Skin of nasolabial area"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "311454008",
+    "display" : "Skin of natal cleft"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "79951008",
+    "display" : "Skin of occipital region"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244168004",
+    "display" : "Skin of palmar surface of web of finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "21672008",
+    "display" : "Skin of parietal region"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "281727004",
+    "display" : "Skin of part of abdomen"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "281746003",
+    "display" : "Skin of part of ankle"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "303978009",
+    "display" : "Skin of part of ankle and foot"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "281731005",
+    "display" : "Skin of part of anogenital region"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "281720002",
+    "display" : "Skin of part of anterior surface of neck"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "281724006",
+    "display" : "Skin of part of anterolateral surface of thorax"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "360930000",
+    "display" : "Skin of part of antihelix"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "281732003",
+    "display" : "Skin of part of axilla"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "281722005",
+    "display" : "Skin of part of back"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "281725007",
+    "display" : "Skin of part of breast"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "281718000",
+    "display" : "Skin of part of chin"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "360590007",
+    "display" : "Skin of part of concha"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "281747007",
+    "display" : "Skin of part of digit"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "281642007",
+    "display" : "Skin of part of dorsal surface of hand"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "281711006",
+    "display" : "Skin of part of ear"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "281736000",
+    "display" : "Skin of part of elbow"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "284538001",
+    "display" : "Skin of part of eye region"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "360576009",
+    "display" : "Skin of part of eyelid"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "281709002",
+    "display" : "Skin of part of face"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "281684004",
+    "display" : "Skin of part of female external genitalia"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "361024006",
+    "display" : "Skin of part of fifth toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "281645009",
+    "display" : "Skin of part of finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "281643002",
+    "display" : "Skin of part of finger web"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "281743006",
+    "display" : "Skin of part of foot"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "281737009",
+    "display" : "Skin of part of forearm"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "281713009",
+    "display" : "Skin of part of forehead"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "361023000",
+    "display" : "Skin of part of fourth toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "281712004",
+    "display" : "Skin of part of front of face"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "281726008",
+    "display" : "Skin of part of front of thorax"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "281679005",
+    "display" : "Skin of part of genitalia"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "281683005",
+    "display" : "Skin of part of glans of penis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "361018000",
+    "display" : "Skin of part of great toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "281640004",
+    "display" : "Skin of part of hand"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "281708005",
+    "display" : "Skin of part of head"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "281707000",
+    "display" : "Skin of part of head and neck"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "360588006",
+    "display" : "Skin of part of helix"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "361027004",
+    "display" : "Skin of part of index finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "281748002",
+    "display" : "Skin of part of interdigital web"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "281716001",
+    "display" : "Skin of part of jaw"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "281741008",
+    "display" : "Skin of part of knee"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "761968004",
+    "display" : "Skin of part of left foot"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "764707001",
+    "display" : "Skin of part of left forearm"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "764560000",
+    "display" : "Skin of part of left lower limb"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "314412006",
+    "display" : "Skin of part of lesser toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "314403009",
+    "display" : "Skin of part of limb"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "281715002",
+    "display" : "Skin of part of lip"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "361031005",
+    "display" : "Skin of part of little finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "281742001",
+    "display" : "Skin of part of lower leg"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "281739007",
+    "display" : "Skin of part of lower limb"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "281680008",
+    "display" : "Skin of part of male external genitalia"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "361029001",
+    "display" : "Skin of part of middle finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "284539009",
+    "display" : "Skin of part of mouth region"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "281719008",
+    "display" : "Skin of part of neck"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "281714003",
+    "display" : "Skin of part of nose"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "281641000",
+    "display" : "Skin of part of palmar surface of hand"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "281730006",
+    "display" : "Skin of part of pelvic region"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "281681007",
+    "display" : "Skin of part of penis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "281744000",
+    "display" : "Skin of part of plantar surface of foot"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "761969007",
+    "display" : "Skin of part of right foot"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "764708006",
+    "display" : "Skin of part of right forearm"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "764561001",
+    "display" : "Skin of part of right lower limb"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "361030006",
+    "display" : "Skin of part of ring finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "361020002",
+    "display" : "Skin of part of second toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "281682000",
+    "display" : "Skin of part of shaft of penis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "281734002",
+    "display" : "Skin of part of shoulder"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "303979001",
+    "display" : "Skin of part of shoulder and upper arm"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "281710007",
+    "display" : "Skin of part of side of face"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "281740009",
+    "display" : "Skin of part of thigh"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "361021003",
+    "display" : "Skin of part of third toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "281723000",
+    "display" : "Skin of part of thorax"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "281646005",
+    "display" : "Skin of part of thumb"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "314406001",
+    "display" : "Skin of part of toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "281721003",
+    "display" : "Skin of part of trunk"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "281729001",
+    "display" : "Skin of part of umbilicus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "281735001",
+    "display" : "Skin of part of upper arm"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "281733008",
+    "display" : "Skin of part of upper limb"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "281745004",
+    "display" : "Skin of part of web of toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "281738004",
+    "display" : "Skin of part of wrist"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "303976008",
+    "display" : "Skin of part of wrist and hand"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "35900000",
+    "display" : "Skin of penis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "110488009",
+    "display" : "Skin of perioral region of face"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244196005",
+    "display" : "Skin of plantar surface of web of toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244100009",
+    "display" : "Skin of point of chin"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "181562008",
+    "display" : "Skin of posterior surface of ankle"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "181536004",
+    "display" : "Skin of posterior surface of elbow"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "47224004",
+    "display" : "Skin of posterior surface of lower leg"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244111001",
+    "display" : "Skin of posterior surface of thorax"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244145008",
+    "display" : "Skin of posterolateral surface of elbow"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244176002",
+    "display" : "Skin of posterolateral surface of knee"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244105004",
+    "display" : "Skin of posterolateral surface of neck"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244172000",
+    "display" : "Skin of posterolateral surface of thigh"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244110000",
+    "display" : "Skin of posterolateral surface of thorax"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244141004",
+    "display" : "Skin of posteromedial surface of arm"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244146009",
+    "display" : "Skin of posteromedial surface of elbow"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244177006",
+    "display" : "Skin of posteromedial surface of knee"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244174004",
+    "display" : "Skin of posteromedial surface of thigh"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244074002",
+    "display" : "Skin of rim of external ear"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244117002",
+    "display" : "Skin of root of penis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244088003",
+    "display" : "Skin of septum of nose"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244118007",
+    "display" : "Skin of shaft of penis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244099001",
+    "display" : "Skin of side of chin"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244072003",
+    "display" : "Skin of side of face"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244096008",
+    "display" : "Skin of side of jaw"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244089006",
+    "display" : "Skin of side of nose"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "34926004",
+    "display" : "Skin of submental area"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "90568000",
+    "display" : "Skin of suboccipital region"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "181505007",
+    "display" : "Skin of supraumbilical region"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "87320006",
+    "display" : "Skin of vermilion border"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "61719002",
+    "display" : "Skin of vertex"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244135006",
+    "display" : "Skin over acromion"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244186001",
+    "display" : "Skin over ball of foot"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244136007",
+    "display" : "Skin over biceps"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244173005",
+    "display" : "Skin over hamstrings"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244189008",
+    "display" : "Skin over head of metatarsal bone"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244187005",
+    "display" : "Skin over instep of foot"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244182004",
+    "display" : "Skin over malleoli"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244170008",
+    "display" : "Skin over quadriceps"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244140003",
+    "display" : "Skin over triceps"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "119181002",
+    "display" : "Skin part"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "37579005",
+    "display" : "Skin structure between index finger and middle finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "83673003",
+    "display" : "Skin structure between middle finger and ring finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "71664008",
+    "display" : "Skin structure between ring finger and little finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "47239003",
+    "display" : "Skin structure between thumb and index finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "75093004",
+    "display" : "Skin structure of abdomen"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "699609003",
+    "display" : "Skin structure of Achilles region"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "68598004",
+    "display" : "Skin structure of ala nasi"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "22599004",
+    "display" : "Skin structure of all fingers"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "72715006",
+    "display" : "Skin structure of all toes"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "67269001",
+    "display" : "Skin structure of ankle"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "699819006",
+    "display" : "Skin structure of ankle and/or foot"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "280158000",
+    "display" : "Skin structure of anogenital region"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "17957002",
+    "display" : "Skin structure of antecubital fossa"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "19306000",
+    "display" : "Skin structure of anterior axillary fold"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "113181008",
+    "display" : "Skin structure of anterior axillary line"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "91030001",
+    "display" : "Skin structure of anterior commissure of labia majora"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "11584001",
+    "display" : "Skin structure of anterior portion of neck"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "699890006",
+    "display" : "Skin structure of anterior superior iliac spine region of trunk"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "70559009",
+    "display" : "Skin structure of anterior surface of forearm"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "61248009",
+    "display" : "Skin structure of anterior surface of thigh"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "45981001",
+    "display" : "Skin structure of anterior surface of upper arm"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "181491009",
+    "display" : "Skin structure of anterior trunk"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244137003",
+    "display" : "Skin structure of anterolateral region of upper arm"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "699896000",
+    "display" : "Skin structure of anteromedial surface of elbow"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "33294007",
+    "display" : "Skin structure of antihelix"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "38407007",
+    "display" : "Skin structure of antitragus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "59112000",
+    "display" : "Skin structure of anus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "72005009",
+    "display" : "Skin structure of areola"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "56966008",
+    "display" : "Skin structure of auricular tubercle"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "76261009",
+    "display" : "Skin structure of axilla"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "399895007",
+    "display" : "Skin structure of axillary fold"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "66643007",
+    "display" : "Skin structure of back"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "699892003",
+    "display" : "Skin structure of back of lower thoracic region"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "699893008",
+    "display" : "Skin structure of back of upper thoracic region"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "82038008",
+    "display" : "Skin structure of breast"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "14292005",
+    "display" : "Skin structure of bridge of nose"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "22180002",
+    "display" : "Skin structure of buttock"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "51059006",
+    "display" : "Skin structure of calf of leg"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "784570009",
+    "display" : "Skin structure of canthus of left eye"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "784569008",
+    "display" : "Skin structure of canthus of right eye"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "51098001",
+    "display" : "Skin structure of cavity of concha"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "699894002",
+    "display" : "Skin structure of center of anterior chest"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "421878005",
+    "display" : "Skin structure of central region of abdomen"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "36141000",
+    "display" : "Skin structure of cheek"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "74160004",
+    "display" : "Skin structure of chest"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "23747009",
+    "display" : "Skin structure of chin"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "91009005",
+    "display" : "Skin structure of clavicular region"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "29353003",
+    "display" : "Skin structure of clitoris"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "22115004",
+    "display" : "Skin structure of coccygeal region"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "21439001",
+    "display" : "Skin structure of concha"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "36441008",
+    "display" : "Skin structure of corona of glans penis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "699895001",
+    "display" : "Skin structure of costal region of chest wall"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "26461005",
+    "display" : "Skin structure of crura of antihelix"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "34918007",
+    "display" : "Skin structure of cruro-scrotal fold"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "87706001",
+    "display" : "Skin structure of cruro-vulvar fold"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "57726007",
+    "display" : "Skin structure of crus of helix"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "44767003",
+    "display" : "Skin structure of cymba conchae"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "23547007",
+    "display" : "Skin structure of deltoid region"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244169007",
+    "display" : "Skin structure of digit of hand"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "699897009",
+    "display" : "Skin structure of distal plantar part of heel"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "21548009",
+    "display" : "Skin structure of dorsal area of hand"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "52876008",
+    "display" : "Skin structure of dorsal area of wrist"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "43022006",
+    "display" : "Skin structure of dorsal surface of fifth toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "68055007",
+    "display" : "Skin structure of dorsal surface of fourth toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "84600006",
+    "display" : "Skin structure of dorsal surface of great toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "37314006",
+    "display" : "Skin structure of dorsal surface of index finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "43870001",
+    "display" : "Skin structure of dorsal surface of little finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "40206004",
+    "display" : "Skin structure of dorsal surface of middle finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "71888007",
+    "display" : "Skin structure of dorsal surface of ring finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "51669004",
+    "display" : "Skin structure of dorsal surface of second toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "79081003",
+    "display" : "Skin structure of dorsal surface of third toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "66624007",
+    "display" : "Skin structure of dorsal surface of thumb"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "51479008",
+    "display" : "Skin structure of dorsal surface of toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "22266000",
+    "display" : "Skin structure of dorsum of foot"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "789136004",
+    "display" : "Skin structure of dorsum of left hand"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "870718008",
+    "display" : "Skin structure of dorsum of nose"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "789137008",
+    "display" : "Skin structure of dorsum of right hand"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "1902009",
+    "display" : "Skin structure of ear"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "2059009",
+    "display" : "Skin structure of ear lobule"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "74757004",
+    "display" : "Skin structure of elbow"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "74824007",
+    "display" : "Skin structure of epicanthal fold"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "715648002",
+    "display" : "Skin structure of epicanthus inversus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "715650005",
+    "display" : "Skin structure of epicanthus tarsalis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "30598005",
+    "display" : "Skin structure of epigastric area"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "60944009",
+    "display" : "Skin structure of external genitalia"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "116370005",
+    "display" : "Skin structure of extremity"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "367577003",
+    "display" : "Skin structure of eyebrow"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "51360009",
+    "display" : "Skin structure of eyelid"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "399996007",
+    "display" : "Skin structure of eyelid and periocular area"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "73897004",
+    "display" : "Skin structure of face"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "19938000",
+    "display" : "Skin structure of female genitalia"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "243991008",
+    "display" : "Skin structure of female perineum"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "699899007",
+    "display" : "Skin structure of femoral triangle"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "44419009",
+    "display" : "Skin structure of fifth toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "34284005",
+    "display" : "Skin structure of flank"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "60496002",
+    "display" : "Skin structure of foot"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "5742000",
+    "display" : "Skin structure of forearm"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "68698007",
+    "display" : "Skin structure of forehead"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "82858008",
+    "display" : "Skin structure of fossa triangularis of ear"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "33007003",
+    "display" : "Skin structure of fourth toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "2484000",
+    "display" : "Skin structure of frenulum of clitoris"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "74742006",
+    "display" : "Skin structure of frenulum of penis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "699900002",
+    "display" : "Skin structure of frontal region of scalp"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "65469002",
+    "display" : "Skin structure of glans clitoridis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "7991003",
+    "display" : "Skin structure of glans penis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "63029009",
+    "display" : "Skin structure of gluteal fold"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "50276005",
+    "display" : "Skin structure of great toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "771122000",
+    "display" : "Skin structure of great toe of left foot"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "771123005",
+    "display" : "Skin structure of great toe of right foot"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "33712006",
+    "display" : "Skin structure of hand"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "70762009",
+    "display" : "Skin structure of head"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "58308009",
+    "display" : "Skin structure of head and/or neck"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "84607009",
+    "display" : "Skin structure of heel"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "79313003",
+    "display" : "Skin structure of helix"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "49812005",
+    "display" : "Skin structure of hip"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "42105000",
+    "display" : "Skin structure of hypochondriac region"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "367578008",
+    "display" : "Skin structure of hypogastric region"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "89784008",
+    "display" : "Skin structure of hypothenar region of palm"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "49996006",
+    "display" : "Skin structure of index finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "699902005",
+    "display" : "Skin structure of inferior part of scrotum"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "725169003",
+    "display" : "Skin structure of infraauricular region"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "66288003",
+    "display" : "Skin structure of infraclavicular region"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "17018007",
+    "display" : "Skin structure of infrapalpebral fold"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "40207008",
+    "display" : "Skin structure of infratemporal region"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "39687006",
+    "display" : "Skin structure of inguinal region"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "47960000",
+    "display" : "Skin structure of interdigital web of foot"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "73939002",
+    "display" : "Skin structure of interdigital web of hand"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "11482004",
+    "display" : "Skin structure of interscapular region of back"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "45591000",
+    "display" : "Skin structure of intertragal incisure"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "699903000",
+    "display" : "Skin structure of ischial tuberosity subregion of buttock region"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "764875003",
+    "display" : "Skin structure of ischial tuberosity subregion of left buttock region"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "764876002",
+    "display" : "Skin structure of ischial tuberosity subregion of right buttock region"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "41935005",
+    "display" : "Skin structure of jaw"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "63464009",
+    "display" : "Skin structure of knee"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "51215006",
+    "display" : "Skin structure of labiomental crease"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "73058008",
+    "display" : "Skin structure of labium"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "128252004",
+    "display" : "Skin structure of labium majus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "128253009",
+    "display" : "Skin structure of labium minus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "17697002",
+    "display" : "Skin structure of laryngeal prominence"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "35739000",
+    "display" : "Skin structure of lateral border of sole of foot"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "37671003",
+    "display" : "Skin structure of lateral canthus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "699904006",
+    "display" : "Skin structure of lateral chest wall"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "699906008",
+    "display" : "Skin structure of lateral half of anterior abdominal wall"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "699907004",
+    "display" : "Skin structure of lateral half of face"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "418079008",
+    "display" : "Skin structure of lateral malleolus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "20086004",
+    "display" : "Skin structure of lateral margin of forearm"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "699909001",
+    "display" : "Skin structure of lateral part of heel"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "699910006",
+    "display" : "Skin structure of lateral part of lower limb"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "699911005",
+    "display" : "Skin structure of lateral part of scrotum"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "5272005",
+    "display" : "Skin structure of lateral portion of neck"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "24415007",
+    "display" : "Skin structure of lateral region of trunk"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "59023003",
+    "display" : "Skin structure of lateral surface of fifth toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "5697001",
+    "display" : "Skin structure of lateral surface of finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "47921002",
+    "display" : "Skin structure of lateral surface of fourth toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "55085000",
+    "display" : "Skin structure of lateral surface of great toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "21194004",
+    "display" : "Skin structure of lateral surface of index finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "84649004",
+    "display" : "Skin structure of lateral surface of little finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "15651003",
+    "display" : "Skin structure of lateral surface of lower leg"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "79921002",
+    "display" : "Skin structure of lateral surface of middle finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "76258008",
+    "display" : "Skin structure of lateral surface of ring finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "113184000",
+    "display" : "Skin structure of lateral surface of second toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "80001000",
+    "display" : "Skin structure of lateral surface of thigh"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "19570009",
+    "display" : "Skin structure of lateral surface of third toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "19601002",
+    "display" : "Skin structure of lateral surface of thumb"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "47984008",
+    "display" : "Skin structure of lateral surface of toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "58930001",
+    "display" : "Skin structure of lateral surface of upper arm"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "771124004",
+    "display" : "Skin structure of left ankle"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "764473004",
+    "display" : "Skin structure of left axilla"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "846687000",
+    "display" : "Skin structure of left clavicular region"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "761965001",
+    "display" : "Skin structure of left ear"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "770847008",
+    "display" : "Skin structure of left elbow region"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "719882004",
+    "display" : "Skin structure of left eyelid"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "865989001",
+    "display" : "Skin structure of left eyelid and periocular area"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "773972005",
+    "display" : "Skin structure of left forearm"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "789221006",
+    "display" : "Skin structure of left half of chest"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "699912003",
+    "display" : "Skin structure of left half of neck"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "762099003",
+    "display" : "Skin structure of left hand"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "770850006",
+    "display" : "Skin structure of left index finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "771097002",
+    "display" : "Skin structure of left little finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "719884003",
+    "display" : "Skin structure of left lower eyelid"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "723972007",
+    "display" : "Skin structure of left lower leg"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "720402002",
+    "display" : "Skin structure of left lower limb"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "736467009",
+    "display" : "Skin structure of left postauricular region"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "771101006",
+    "display" : "Skin structure of left shoulder"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "774019004",
+    "display" : "Skin structure of left thumb"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "788805003",
+    "display" : "Skin structure of left upper arm"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "866189009",
+    "display" : "Skin structure of left upper eyelid and periocular area"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "719798002",
+    "display" : "Skin structure of left upper limb"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "771099004",
+    "display" : "Skin structure of left wrist"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "771118005",
+    "display" : "Skin structure of lesser toe of left foot"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "771121007",
+    "display" : "Skin structure of lesser toe of right foot"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "88089004",
+    "display" : "Skin structure of lip"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "73624001",
+    "display" : "Skin structure of little finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "699914002",
+    "display" : "Skin structure of lower abdomen"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "113182001",
+    "display" : "Skin structure of lower back"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "699915001",
+    "display" : "Skin structure of lower chest wall"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "40069000",
+    "display" : "Skin structure of lower eyelid"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "75144006",
+    "display" : "Skin structure of lower leg"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "371304004",
+    "display" : "Skin structure of lower limb"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "66934001",
+    "display" : "Skin structure of lower lip"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "40021003",
+    "display" : "Skin structure of lower margin of nasal septum"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "58403004",
+    "display" : "Skin structure of lower trunk"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "699916000",
+    "display" : "Skin structure of lumbar region of abdominal wall"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "1149540001",
+    "display" : "Skin structure of lumbar region of back"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "51301006",
+    "display" : "Skin structure of lumbosacral region"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "14225003",
+    "display" : "Skin structure of male genitalia"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "243992001",
+    "display" : "Skin structure of male perineum"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "419975006",
+    "display" : "Skin structure of malleolus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "699917009",
+    "display" : "Skin structure of mastoid region"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "52953006",
+    "display" : "Skin structure of medial border of sole of foot"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "27887005",
+    "display" : "Skin structure of medial canthus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "418380001",
+    "display" : "Skin structure of medial malleolus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "60428009",
+    "display" : "Skin structure of medial margin of forearm"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "699919007",
+    "display" : "Skin structure of medial part of heel"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "699920001",
+    "display" : "Skin structure of medial part of lower limb"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "7726008",
+    "display" : "Skin structure of medial surface of fifth toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "61592007",
+    "display" : "Skin structure of medial surface of finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "71852002",
+    "display" : "Skin structure of medial surface of fourth toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "86911002",
+    "display" : "Skin structure of medial surface of great toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "67481004",
+    "display" : "Skin structure of medial surface of index finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "15829009",
+    "display" : "Skin structure of medial surface of little finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "58226009",
+    "display" : "Skin structure of medial surface of lower leg"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "9348007",
+    "display" : "Skin structure of medial surface of middle finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "91405009",
+    "display" : "Skin structure of medial surface of ring finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "31974000",
+    "display" : "Skin structure of medial surface of second toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "73958006",
+    "display" : "Skin structure of medial surface of thigh"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "19517003",
+    "display" : "Skin structure of medial surface of third toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "66420006",
+    "display" : "Skin structure of medial surface of thumb"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "74436006",
+    "display" : "Skin structure of medial surface of toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "88260007",
+    "display" : "Skin structure of medial surface of upper arm"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "26839009",
+    "display" : "Skin structure of middle finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "36073009",
+    "display" : "Skin structure of milk line"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "13408007",
+    "display" : "Skin structure of mons pubis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "699921002",
+    "display" : "Skin structure of nasal vestibule"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "37108007",
+    "display" : "Skin structure of nasolabial fold"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "43081002",
+    "display" : "Skin structure of neck"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "54468004",
+    "display" : "Skin structure of nipple"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "113179006",
+    "display" : "Skin structure of nose"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "4658004",
+    "display" : "Skin structure of nuchal region"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "399953002",
+    "display" : "Skin structure of obverse of pinna"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "367579000",
+    "display" : "Skin structure of olecranal region"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "70887009",
+    "display" : "Skin structure of palmar area of hand"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "24527008",
+    "display" : "Skin structure of palmar area of wrist"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "70103008",
+    "display" : "Skin structure of palmar surface of finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "48856004",
+    "display" : "Skin structure of palmar surface of index finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "43825009",
+    "display" : "Skin structure of palmar surface of little finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "65271000",
+    "display" : "Skin structure of palmar surface of middle finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "28404007",
+    "display" : "Skin structure of palmar surface of ring finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "72331001",
+    "display" : "Skin structure of palmar surface of thumb"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "19701007",
+    "display" : "Skin structure of palpebral margins"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "281644008",
+    "display" : "Skin structure of part of digit of hand"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "762090004",
+    "display" : "Skin structure of part of digit of left hand"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "762091000",
+    "display" : "Skin structure of part of digit of right hand"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "82654007",
+    "display" : "Skin structure of pelvis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "21308002",
+    "display" : "Skin structure of perianal area"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "48014002",
+    "display" : "Skin structure of perineum"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "84365009",
+    "display" : "Skin structure of philtrum"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "44737009",
+    "display" : "Skin structure of pinna"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "400025006",
+    "display" : "Skin structure of pinnal sulcus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "699922009",
+    "display" : "Skin structure of plantar part of heel"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "699913008",
+    "display" : "Skin structure of plantar part of longitudinal arch of foot"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "43148001",
+    "display" : "Skin structure of plantar surface of fifth toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "81563004",
+    "display" : "Skin structure of plantar surface of fourth toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "83031007",
+    "display" : "Skin structure of plantar surface of great toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "34016008",
+    "display" : "Skin structure of plantar surface of second toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "76707005",
+    "display" : "Skin structure of plantar surface of third toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "23764007",
+    "display" : "Skin structure of plantar surface of toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "84507004",
+    "display" : "Skin structure of popliteal fossa"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "24483006",
+    "display" : "Skin structure of postauricular region"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "21377006",
+    "display" : "Skin structure of posterior axillary fold"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "29231003",
+    "display" : "Skin structure of posterior axillary line"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "19245008",
+    "display" : "Skin structure of posterior commissure of labia majora"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "699924005",
+    "display" : "Skin structure of posterior part of heel"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "699925006",
+    "display" : "Skin structure of posterior part of lower limb"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "699926007",
+    "display" : "Skin structure of posterior part of scrotum"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "699927003",
+    "display" : "Skin structure of posterior superior iliac crest region of back"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "41550009",
+    "display" : "Skin structure of posterior surface of forearm"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "4578000",
+    "display" : "Skin structure of posterior surface of thigh"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "72939005",
+    "display" : "Skin structure of posterior surface of upper arm"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244139000",
+    "display" : "Skin structure of posterolateral region of upper arm"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "86719006",
+    "display" : "Skin structure of preauricular region"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "76723005",
+    "display" : "Skin structure of prepuce of clitoris"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "699928008",
+    "display" : "Skin structure of renal area of posterior abdominal wall"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "771125003",
+    "display" : "Skin structure of right ankle"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "764474005",
+    "display" : "Skin structure of right axilla"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "846688005",
+    "display" : "Skin structure of right clavicular region"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "720985009",
+    "display" : "Skin structure of right ear"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "770848003",
+    "display" : "Skin structure of right elbow region"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "719881006",
+    "display" : "Skin structure of right eyelid"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "865990005",
+    "display" : "Skin structure of right eyelid and periocular area"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "773973000",
+    "display" : "Skin structure of right forearm"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "789222004",
+    "display" : "Skin structure of right half of chest"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "699929000",
+    "display" : "Skin structure of right half of neck"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "762100006",
+    "display" : "Skin structure of right hand"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "770852003",
+    "display" : "Skin structure of right index finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "771098007",
+    "display" : "Skin structure of right little finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "719883009",
+    "display" : "Skin structure of right lower eyelid"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "723971000",
+    "display" : "Skin structure of right lower leg"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "720399003",
+    "display" : "Skin structure of right lower limb"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "736466000",
+    "display" : "Skin structure of right postauricular region"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "771102004",
+    "display" : "Skin structure of right shoulder"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "774020005",
+    "display" : "Skin structure of right thumb"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "788804004",
+    "display" : "Skin structure of right upper arm"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "866188001",
+    "display" : "Skin structure of right upper eyelid and periocular area"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "719799005",
+    "display" : "Skin structure of right upper limb"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "771100007",
+    "display" : "Skin structure of right wrist"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "113183006",
+    "display" : "Skin structure of ring finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "400033007",
+    "display" : "Skin structure of root of nose"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "51027004",
+    "display" : "Skin structure of sacral region"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "50938007",
+    "display" : "Skin structure of sacrococcygeal region"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "43067004",
+    "display" : "Skin structure of scalp"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "400056003",
+    "display" : "Skin structure of scalp and/or neck"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "20166000",
+    "display" : "Skin structure of scaphoid fossa of external ear"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "45980000",
+    "display" : "Skin structure of scapular region of back"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "81992007",
+    "display" : "Skin structure of scrotum"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "78747008",
+    "display" : "Skin structure of second toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "18096008",
+    "display" : "Skin structure of shin"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "76552005",
+    "display" : "Skin structure of shoulder"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "699930005",
+    "display" : "Skin structure of shoulder and upper arm"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "37136002",
+    "display" : "Skin structure of sole of foot"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "25987008",
+    "display" : "Skin structure of spine of helix"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "34799006",
+    "display" : "Skin structure of submandibular area"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "699931009",
+    "display" : "Skin structure of superior iliac crest region of trunk"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "76072005",
+    "display" : "Skin structure of supraclavicular region of neck"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "113180009",
+    "display" : "Skin structure of suprasternal notch"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "400203006",
+    "display" : "Skin structure of supratip of nose"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "89342002",
+    "display" : "Skin structure of tail of helix"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244081009",
+    "display" : "Skin structure of temple"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "16621002",
+    "display" : "Skin structure of temporal region"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "26795005",
+    "display" : "Skin structure of thenar region of palm"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "371305003",
+    "display" : "Skin structure of thigh"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "26887004",
+    "display" : "Skin structure of third toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "711568005",
+    "display" : "Skin structure of thoracic region of back"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "59354007",
+    "display" : "Skin structure of thumb"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "79283007",
+    "display" : "Skin structure of tip of nose"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "52034004",
+    "display" : "Skin structure of toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "761990004",
+    "display" : "Skin structure of toe of left foot"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "761991000",
+    "display" : "Skin structure of toe of right foot"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "79502000",
+    "display" : "Skin structure of tragus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "86381001",
+    "display" : "Skin structure of trunk"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "79956003",
+    "display" : "Skin structure of umbilical region"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "315003",
+    "display" : "Skin structure of umbilicus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "699935000",
+    "display" : "Skin structure of upper abdomen"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "371309009",
+    "display" : "Skin structure of upper arm"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "74358007",
+    "display" : "Skin structure of upper back"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "699936004",
+    "display" : "Skin structure of upper chest wall"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "41310005",
+    "display" : "Skin structure of upper eyelid"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "866187006",
+    "display" : "Skin structure of upper eyelid and periocular area"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "371311000",
+    "display" : "Skin structure of upper limb"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "16251004",
+    "display" : "Skin structure of upper lip"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "699937008",
+    "display" : "Skin structure of upper thigh region"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "54440003",
+    "display" : "Skin structure of upper trunk"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "699939006",
+    "display" : "Skin structure of waist region of trunk"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "24785000",
+    "display" : "Skin structure of wrist"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "699940008",
+    "display" : "Skin structure of wrist and hand"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "33049008",
+    "display" : "Skin structure of zygomatic region"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "450693000",
+    "display" : "Skin structure over greater trochanter of hip"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "711569002",
+    "display" : "Skin structure over iliac crest"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "360598000",
+    "display" : "Skin structure under microscope"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244101008",
+    "display" : "Skin under chin"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "256446005",
+    "display" : "Skin xenograft"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244029009",
+    "display" : "Spinal dermatome"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244107007",
+    "display" : "Sternal skin"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "20281003",
+    "display" : "Stratum corneum structure"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "62650009",
+    "display" : "Stratum germinativum"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "49874001",
+    "display" : "Stratum granulosum"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "15887008",
+    "display" : "Stratum lucidum structure"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "4360006",
+    "display" : "Stratum spinosum"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "424873002",
+    "display" : "Structure of apocrine sweat gland bearing skin"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "424062008",
+    "display" : "Structure of apocrine sweat gland bearing skin of areola"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "422792007",
+    "display" : "Structure of apocrine sweat gland bearing skin of axilla"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "423187005",
+    "display" : "Structure of apocrine sweat gland bearing skin of inguinal region"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "424827004",
+    "display" : "Structure of apocrine sweat gland bearing skin of perianal area"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "425370002",
+    "display" : "Structure of apocrine sweat gland bearing skin of perineum"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "424250002",
+    "display" : "Structure of apocrine sweat gland bearing skin of periumbilical area"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "423383003",
+    "display" : "Structure of apocrine sweat gland bearing skin of vulva"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "49094006",
+    "display" : "Structure of capillary of skin"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "26803003",
+    "display" : "Structure of circumorbital skin"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "19537004",
+    "display" : "Structure of cleavage lines of skin"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "76455009",
+    "display" : "Structure of collagen fibers of skin"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "105579006",
+    "display" : "Structure of cristae cutis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "6620001",
+    "display" : "Structure of cuticle of nail"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "89986003",
+    "display" : "Structure of dermal papilla"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "42235004",
+    "display" : "Structure of dermatoglyphic patterns"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "321472003",
+    "display" : "Structure of dermatoglyphic patterns of palm"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "321373007",
+    "display" : "Structure of dermatoglyphic patterns of sole"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "89008001",
+    "display" : "Structure of distal nail groove"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "55696009",
+    "display" : "Structure of elastic fibers of skin"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "51858004",
+    "display" : "Structure of gland of Montgomery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "714654005",
+    "display" : "Structure of gland of Zeis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "63761000",
+    "display" : "Structure of glomus body"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "788207004",
+    "display" : "Structure of hair follicle of abdomen"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "788215001",
+    "display" : "Structure of hair follicle of ankle"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "788228008",
+    "display" : "Structure of hair follicle of anterior naris"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "788189005",
+    "display" : "Structure of hair follicle of anterolateral region of thorax"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "788195006",
+    "display" : "Structure of hair follicle of anus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "788205007",
+    "display" : "Structure of hair follicle of axilla"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "788227003",
+    "display" : "Structure of hair follicle of back"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "771985001",
+    "display" : "Structure of hair follicle of beard"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "715147006",
+    "display" : "Structure of hair follicle of breast"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "788218004",
+    "display" : "Structure of hair follicle of buttock"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "788190001",
+    "display" : "Structure of hair follicle of cheek"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "788203000",
+    "display" : "Structure of hair follicle of chest"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "788184000",
+    "display" : "Structure of hair follicle of chin"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "788209001",
+    "display" : "Structure of hair follicle of ear"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "788224005",
+    "display" : "Structure of hair follicle of elbow"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "788194005",
+    "display" : "Structure of hair follicle of external auditory canal"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "788193004",
+    "display" : "Structure of hair follicle of external female genitalia"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "788219007",
+    "display" : "Structure of hair follicle of external nose"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "788183006",
+    "display" : "Structure of hair follicle of face"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "788226007",
+    "display" : "Structure of hair follicle of finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "788216000",
+    "display" : "Structure of hair follicle of flank"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "788196007",
+    "display" : "Structure of hair follicle of foot"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "788204006",
+    "display" : "Structure of hair follicle of forearm"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "788200002",
+    "display" : "Structure of hair follicle of hand"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "788182001",
+    "display" : "Structure of hair follicle of head"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "788217009",
+    "display" : "Structure of hair follicle of heel"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "788221002",
+    "display" : "Structure of hair follicle of hip"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "788212003",
+    "display" : "Structure of hair follicle of inguinal region"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "788223004",
+    "display" : "Structure of hair follicle of knee"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "894098003",
+    "display" : "Structure of hair follicle of left ankle"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "890514003",
+    "display" : "Structure of hair follicle of left forearm"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "894100003",
+    "display" : "Structure of hair follicle of left hand"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "894104007",
+    "display" : "Structure of hair follicle of left hip"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "788213008",
+    "display" : "Structure of hair follicle of left thigh"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "788197003",
+    "display" : "Structure of hair follicle of lower leg"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "788187007",
+    "display" : "Structure of hair follicle of lower limb"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "785803006",
+    "display" : "Structure of hair follicle of nasal septum"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "784417000",
+    "display" : "Structure of hair follicle of nasal vestibule"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "788185004",
+    "display" : "Structure of hair follicle of neck"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "714641003",
+    "display" : "Structure of hair follicle of occipital region of scalp"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "788198008",
+    "display" : "Structure of hair follicle of penis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "788202005",
+    "display" : "Structure of hair follicle of perineum"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "894099006",
+    "display" : "Structure of hair follicle of right ankle"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "890515002",
+    "display" : "Structure of hair follicle of right forearm"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "894101004",
+    "display" : "Structure of hair follicle of right hand"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "894105008",
+    "display" : "Structure of hair follicle of right hip"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "788214002",
+    "display" : "Structure of hair follicle of right thigh"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "714639004",
+    "display" : "Structure of hair follicle of scalp"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "788199000",
+    "display" : "Structure of hair follicle of scrotum"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "788206008",
+    "display" : "Structure of hair follicle of shoulder"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "788211005",
+    "display" : "Structure of hair follicle of temporal region of face"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "788208009",
+    "display" : "Structure of hair follicle of thigh"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "788201003",
+    "display" : "Structure of hair follicle of thumb"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "788220001",
+    "display" : "Structure of hair follicle of toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "788188002",
+    "display" : "Structure of hair follicle of trunk"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "788210006",
+    "display" : "Structure of hair follicle of umbilicus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "788222009",
+    "display" : "Structure of hair follicle of upper arm"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "788186003",
+    "display" : "Structure of hair follicle of upper limb"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "788225006",
+    "display" : "Structure of hair follicle of wrist"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "89699003",
+    "display" : "Structure of hyponychium"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "66333004",
+    "display" : "Structure of keratogenous zone of nail"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "16465000",
+    "display" : "Structure of lateral nail fold"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "1149179002",
+    "display" : "Structure of lymphatic vessel and/or small blood vessel in skin of breast"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "785648007",
+    "display" : "Structure of microvasculature of skin of face"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "785676004",
+    "display" : "Structure of microvasculature of skin of left lower limb"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "785647002",
+    "display" : "Structure of microvasculature of skin of limb"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "785649004",
+    "display" : "Structure of microvasculature of skin of lower limb"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "785675000",
+    "display" : "Structure of microvasculature of skin of right lower limb"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "785646006",
+    "display" : "Structure of microvasculature of skin of upper limb"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "306865002",
+    "display" : "Structure of nail bed of digit of hand"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "762097001",
+    "display" : "Structure of nail bed of digit of left hand"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "762098006",
+    "display" : "Structure of nail bed of digit of right hand"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "181602003",
+    "display" : "Structure of nail bed of fifth toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244199003",
+    "display" : "Structure of nail bed of finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "181601005",
+    "display" : "Structure of nail bed of fourth toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "181598000",
+    "display" : "Structure of nail bed of great toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "788768008",
+    "display" : "Structure of nail bed of great toe of left foot"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "788769000",
+    "display" : "Structure of nail bed of great toe of right foot"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "181586005",
+    "display" : "Structure of nail bed of index finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "789292009",
+    "display" : "Structure of nail bed of index finger of left hand"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "789293004",
+    "display" : "Structure of nail bed of index finger of right hand"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "764800009",
+    "display" : "Structure of nail bed of left thumb"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "314413001",
+    "display" : "Structure of nail bed of lesser toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "788770004",
+    "display" : "Structure of nail bed of lesser toe of left foot"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "788771000",
+    "display" : "Structure of nail bed of lesser toe of right foot"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "181589003",
+    "display" : "Structure of nail bed of little finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "789294005",
+    "display" : "Structure of nail bed of little finger of left hand"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "789295006",
+    "display" : "Structure of nail bed of little finger of right hand"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "181587001",
+    "display" : "Structure of nail bed of middle finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "789234007",
+    "display" : "Structure of nail bed of middle finger of left hand"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "789274001",
+    "display" : "Structure of nail bed of middle finger of right hand"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "181588006",
+    "display" : "Structure of nail bed of ring finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "789276004",
+    "display" : "Structure of nail bed of ring finger of left hand"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "789275000",
+    "display" : "Structure of nail bed of ring finger of right hand"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "181599008",
+    "display" : "Structure of nail bed of second toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "181600006",
+    "display" : "Structure of nail bed of third toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "181590007",
+    "display" : "Structure of nail bed of thumb"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244200000",
+    "display" : "Structure of nail bed of toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "774057004",
+    "display" : "Structure of nail bed of toe of left foot"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "774058009",
+    "display" : "Structure of nail bed of toe of right foot"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "18968000",
+    "display" : "Structure of proximal nail fold"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "12129002",
+    "display" : "Structure of raphe penis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "60236003",
+    "display" : "Structure of scrotal raphe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "714652009",
+    "display" : "Structure of sebaceous gland of eyelid"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "721068002",
+    "display" : "Structure of sebaceous gland of left eyelid"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "878873003",
+    "display" : "Structure of sebaceous gland of lip"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "721067007",
+    "display" : "Structure of sebaceous gland of right eyelid"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "113185004",
+    "display" : "Structure of skin between fourth and fifth toes"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "82475005",
+    "display" : "Structure of skin between great toe and second toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "58389003",
+    "display" : "Structure of skin between second and third toes"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "45078009",
+    "display" : "Structure of skin between third and fourth toes"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "699888005",
+    "display" : "Structure of skin of anterior part of lower limb"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "699889002",
+    "display" : "Structure of skin of anterior part of scrotum"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "773204002",
+    "display" : "Structure of skin of helix of left ear"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "773203008",
+    "display" : "Structure of skin of helix of right ear"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "722157002",
+    "display" : "Structure of skin of left breast"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "758671002",
+    "display" : "Structure of skin of left external auditory canal"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "781033006",
+    "display" : "Structure of skin of left foot"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "787203002",
+    "display" : "Structure of skin of left hip"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "726002000",
+    "display" : "Structure of skin of left knee"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "788575007",
+    "display" : "Structure of skin of left middle finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "788571003",
+    "display" : "Structure of skin of left ring finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "774103008",
+    "display" : "Structure of skin of left thigh"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "721046007",
+    "display" : "Structure of skin of left upper eyelid"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "782451002",
+    "display" : "Structure of skin of palmar area of left hand"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "782450001",
+    "display" : "Structure of skin of palmar area of right hand"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "722158007",
+    "display" : "Structure of skin of right breast"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "758672009",
+    "display" : "Structure of skin of right external auditory canal"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "781034000",
+    "display" : "Structure of skin of right foot"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "787204008",
+    "display" : "Structure of skin of right hip"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "726003005",
+    "display" : "Structure of skin of right knee"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "788569003",
+    "display" : "Structure of skin of right middle finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "788573000",
+    "display" : "Structure of skin of right ring finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "774101005",
+    "display" : "Structure of skin of right thigh"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "721045006",
+    "display" : "Structure of skin of right upper eyelid"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "761974004",
+    "display" : "Structure of skin of sole of left foot"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "761975003",
+    "display" : "Structure of skin of sole of right foot"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "20795001",
+    "display" : "Structure of skin region"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "320303003",
+    "display" : "Structure of small arteriole of dermis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "77749008",
+    "display" : "Structure of small blood vessel of dermis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "18658008",
+    "display" : "Structure of small subcutaneous artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "23757005",
+    "display" : "Structure of small subcutaneous blood vessel (organ)"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "318634006",
+    "display" : "Structure of small subcutaneous vein"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "320401000",
+    "display" : "Structure of small venule of dermis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "770829002",
+    "display" : "Structure of sterile matrix of nail"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "367574005",
+    "display" : "Structure of Sucquet-Hoyer anastomosis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "27170006",
+    "display" : "Structure of sulci cutis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "782445007",
+    "display" : "Structure of sweat gland bearing skin of face"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "782449001",
+    "display" : "Structure of sweat gland bearing skin of palm of hand"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "782454005",
+    "display" : "Structure of sweat gland bearing skin of palm of left hand"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "782452009",
+    "display" : "Structure of sweat gland bearing skin of palm of right hand"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "782446008",
+    "display" : "Structure of sweat gland bearing skin of sole of foot"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "782448009",
+    "display" : "Structure of sweat gland bearing skin of sole of left foot"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "782447004",
+    "display" : "Structure of sweat gland bearing skin of sole of right foot"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "49294001",
+    "display" : "Structure of tension lines of skin"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "40666006",
+    "display" : "Subcutaneous tissue structure of gluteal fold"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "63034008",
+    "display" : "Subepidermal region"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "314411004",
+    "display" : "Surface feature of skin"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "310887008",
+    "display" : "Sweat gland bearing skin"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "310811004",
+    "display" : "Sweat gland bearing skin of axilla"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "310888003",
+    "display" : "Sweat gland bearing skin of groin"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "288322003",
+    "display" : "Sweat gland bearing skin of male perineum"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "110484006",
+    "display" : "Toruli tactiles"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "13853000",
+    "display" : "Transplanted skin"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "110490005",
+    "display" : "Ventral skin of penis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244108002",
+    "display" : "Xiphisternal skin"
+  } ]
+}

@@ -1,0 +1,534 @@
+{
+  "system" : "SNOMED Clinical Terms",
+  "code" : "399957001",
+  "description" : "",
+  "children" : [ {
+    "system" : "http://snomed.info/sct",
+    "code" : "289923007",
+    "display" : "Acquired renal artery stenosis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "243286001",
+    "display" : "Acute mesenteric arterial occlusion"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "735574006",
+    "display" : "Acute occlusion of artery of lower limb"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "723870003",
+    "display" : "Acute occlusion of artery of lower limb co-occurrent and due to thromboembolus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "723872006",
+    "display" : "Acute occlusion of artery of lower limb due to thrombosis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "735572005",
+    "display" : "Acute occlusion of artery of upper limb"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "733126003",
+    "display" : "Acute occlusion of artery of upper limb caused by thromboembolus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "733127007",
+    "display" : "Acute occlusion of artery of upper limb caused by thrombus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "51677000",
+    "display" : "Atheroembolism of renal arteries"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "425527003",
+    "display" : "Atheromatous embolus of lower limb"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "427567003",
+    "display" : "Atheromatous embolus of upper limb"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "302910002",
+    "display" : "Atherosclerotic renal artery stenosis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "297136002",
+    "display" : "Axillary artery embolus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "16012711000119107",
+    "display" : "Bilateral atheroembolism of lower limbs"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "425414000",
+    "display" : "Bilateral renal artery stenosis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "15967301000119102",
+    "display" : "Bilateral subclavian artery stenosis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "16013071000119105",
+    "display" : "Bilateral thrombosis of common femoral arteries"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "16013191000119107",
+    "display" : "Bilateral thrombosis of femoral arteries"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "233974006",
+    "display" : "Brachial artery embolus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "297146000",
+    "display" : "Brachial artery thrombosis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "698816006",
+    "display" : "Chronic occlusion of artery of extremity"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "312828005",
+    "display" : "Common femoral artery occlusion"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "312829002",
+    "display" : "Common femoral artery stenosis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "297149007",
+    "display" : "Common femoral artery thrombosis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "312825008",
+    "display" : "Common iliac artery occlusion"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "233967001",
+    "display" : "Common iliac artery stenosis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "297150007",
+    "display" : "Common iliac artery thrombosis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "271432005",
+    "display" : "Congenital renal artery stenosis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "93388003",
+    "display" : "Congenital stenosis of subclavian artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "297162006",
+    "display" : "Crural artery thrombosis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "300919005",
+    "display" : "Digital arterial thrombosis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "195325004",
+    "display" : "Embolism and thrombosis of the anterior tibial artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "195341003",
+    "display" : "Embolism and thrombosis of the axillary artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "195319003",
+    "display" : "Embolism and thrombosis of the brachial artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "195326003",
+    "display" : "Embolism and thrombosis of the dorsalis pedis artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "195323006",
+    "display" : "Embolism and thrombosis of the femoral artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "195324000",
+    "display" : "Embolism and thrombosis of the popliteal artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "195327007",
+    "display" : "Embolism and thrombosis of the posterior tibial artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "195320009",
+    "display" : "Embolism and thrombosis of the radial artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "195339004",
+    "display" : "Embolism and thrombosis of the subclavian artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "195321008",
+    "display" : "Embolism and thrombosis of the ulnar artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "195335005",
+    "display" : "Embolism and/or thrombosis of the common iliac artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "16012511000119101",
+    "display" : "Embolism of artery of left lower limb"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "16009431000119100",
+    "display" : "Embolism of artery of left upper limb"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "16012551000119100",
+    "display" : "Embolism of artery of right lower limb"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "16009271000119101",
+    "display" : "Embolism of artery of right upper limb"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "80383008",
+    "display" : "Embolism of iliac artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "16012591000119105",
+    "display" : "Embolism of left popliteal artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "16012671000119108",
+    "display" : "Embolism of right popliteal artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "312826009",
+    "display" : "External iliac artery occlusion"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "233968006",
+    "display" : "External iliac artery stenosis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "297151006",
+    "display" : "External iliac artery thrombosis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "233973000",
+    "display" : "Femoral artery embolus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "314188009",
+    "display" : "Femoral artery occlusion"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "52156004",
+    "display" : "Femoral artery thrombosis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "302300004",
+    "display" : "Femoral popliteal occlusion"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "314187004",
+    "display" : "Iliac artery occlusion"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "312496009",
+    "display" : "Iliac artery stenosis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "297140006",
+    "display" : "Inferior mesenteric artery embolus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "297152004",
+    "display" : "Internal iliac artery thrombosis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "312378004",
+    "display" : "Lower limb arterial embolus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "405545007",
+    "display" : "Mesenteric artery stenosis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "276500007",
+    "display" : "Mesenteric embolus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "724441006",
+    "display" : "Non-atherosclerotic chronic arterial occlusive disease"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "10749961000119104",
+    "display" : "Occlusion of aortoiliac artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "431706008",
+    "display" : "Occlusion of artery of upper extremity"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "16005471000119100",
+    "display" : "Occlusion of distal artery of left upper limb"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "16005391000119108",
+    "display" : "Occlusion of distal artery of right upper limb"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "306849003",
+    "display" : "Occlusion of femorofemoral crossover bypass graft"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "306848006",
+    "display" : "Occlusion of femoropopliteal bypass graft"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "16014671000119100",
+    "display" : "Occlusion of left femoral artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "16014791000119105",
+    "display" : "Occlusion of left popliteal artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "405557003",
+    "display" : "Occlusion of lower limb artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "306852006",
+    "display" : "Occlusion of renal artery bypass graft"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "116291000119103",
+    "display" : "Occlusion of renal artery due to embolism"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "16014871000119101",
+    "display" : "Occlusion of right femoral artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "16014711000119101",
+    "display" : "Occlusion of right popliteal artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "427592000",
+    "display" : "Occlusion of superior mesenteric artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "235842000",
+    "display" : "Occlusive mesenteric ischemia"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "286959000",
+    "display" : "Peripheral arterial embolism"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "399957001",
+    "display" : "Peripheral arterial occlusive disease"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "297141005",
+    "display" : "Popliteal artery embolus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "314189001",
+    "display" : "Popliteal artery occlusion"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "87239004",
+    "display" : "Popliteal artery thrombosis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "312380005",
+    "display" : "Post-radiological embolism of lower limb artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "312377009",
+    "display" : "Post-radiological embolism of upper limb artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "297153009",
+    "display" : "Profunda femoris artery thrombosis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "95580006",
+    "display" : "Renal artery embolism"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "236488005",
+    "display" : "Renal artery occlusion"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "302233006",
+    "display" : "Renal artery stenosis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "282664001",
+    "display" : "Renal artery stenosis of unknown cause"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "16011391000119108",
+    "display" : "Stenosis of artery of left lower limb"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "16011431000119103",
+    "display" : "Stenosis of artery of right lower limb"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "18000001000004101",
+    "display" : "Stenosis of left subclavian artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "405556007",
+    "display" : "Stenosis of lower limb artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "15967341000119100",
+    "display" : "Stenosis of right subclavian artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "297135003",
+    "display" : "Subclavian artery embolus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "300921000",
+    "display" : "Subclavian artery stenosis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "297154003",
+    "display" : "Subclavian artery thrombosis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "312827000",
+    "display" : "Superficial femoral artery occlusion"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "233969003",
+    "display" : "Superficial femoral artery stenosis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "297155002",
+    "display" : "Superficial femoral artery thrombosis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "196999001",
+    "display" : "Superior mesenteric artery embolus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "197000003",
+    "display" : "Superior mesenteric artery thrombosis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "60989005",
+    "display" : "Thromboembolism of renal arteries"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "1010730002",
+    "display" : "Thromboembolus of artery of lower limb"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "1010729007",
+    "display" : "Thromboembolus of artery of upper limb"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "734299002",
+    "display" : "Thromboembolus of external iliac artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "734298005",
+    "display" : "Thromboembolus of internal iliac artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "90958004",
+    "display" : "Thrombosis of arteries of lower extremity"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "33591000",
+    "display" : "Thrombosis of arteries of the extremities"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "31529002",
+    "display" : "Thrombosis of arteries of upper extremity"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "16012831000119109",
+    "display" : "Thrombosis of artery of left lower extremity"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "16007871000119108",
+    "display" : "Thrombosis of artery of left upper extremity"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "16012791000119103",
+    "display" : "Thrombosis of artery of right lower extremity"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "16007751000119109",
+    "display" : "Thrombosis of artery of right upper extremity"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "15972541000119104",
+    "display" : "Thrombosis of bilateral iliac arteries"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "82453008",
+    "display" : "Thrombosis of iliac artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "16013151000119102",
+    "display" : "Thrombosis of left common femoral artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "16012991000119101",
+    "display" : "Thrombosis of left femoral artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "15972461000119101",
+    "display" : "Thrombosis of left iliac artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "16012911000119105",
+    "display" : "Thrombosis of left popliteal artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "243410003",
+    "display" : "Thrombosis of mesenteric artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "95579008",
+    "display" : "Thrombosis of renal artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "16013111000119103",
+    "display" : "Thrombosis of right common femoral artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "16013031000119107",
+    "display" : "Thrombosis of right femoral artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "15972501000119101",
+    "display" : "Thrombosis of right iliac artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "16012951000119106",
+    "display" : "Thrombosis of right popliteal artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "427184002",
+    "display" : "Thrombosis of ulnar artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "713825007",
+    "display" : "Transplant renal artery stenosis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "312375001",
+    "display" : "Upper limb arterial embolus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "405588004",
+    "display" : "Upper limb artery stenosis"
+  } ]
+}

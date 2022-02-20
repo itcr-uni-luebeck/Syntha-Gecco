@@ -1,0 +1,104 @@
+{
+  "templateName" : "Schwangerschaftsstatus",
+  "paths" : [ {
+    "id" : 0,
+    "aqlPath" : "/context/other_context[at0001]/items[at0004]/value|code",
+    "path" : "schwangerschaftsstatus/context/status|code",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 1,
+    "aqlPath" : "/context/other_context[at0001]/items[at0005]/value",
+    "path" : "schwangerschaftsstatus/context/kategorie",
+    "type" : "TEXT"
+  }, {
+    "id" : 2,
+    "aqlPath" : "/context/start_time",
+    "path" : "schwangerschaftsstatus/context/start_time",
+    "type" : "DATETIME"
+  }, {
+    "id" : 3,
+    "aqlPath" : "/context/setting|code",
+    "path" : "schwangerschaftsstatus/context/setting|code",
+    "type" : "TEXT"
+  }, {
+    "id" : 4,
+    "aqlPath" : "/context/setting|value",
+    "path" : "schwangerschaftsstatus/context/setting|value",
+    "type" : "TEXT"
+  }, {
+    "id" : 5,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.pregnancy_status.v0]/data[at0001]/events[at0002]/data[at0003]/items[at0011]/value|code",
+    "path" : "schwangerschaftsstatus/schwangerschaftsstatus/status|code",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 6,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.pregnancy_status.v0]/data[at0001]/events[at0002]/time",
+    "path" : "schwangerschaftsstatus/schwangerschaftsstatus/time",
+    "type" : "DATETIME"
+  }, {
+    "id" : 7,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.pregnancy_status.v0]/language",
+    "path" : "schwangerschaftsstatus/schwangerschaftsstatus/language",
+    "type" : "TEXT"
+  }, {
+    "id" : 8,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.pregnancy_status.v0]/encoding",
+    "path" : "schwangerschaftsstatus/schwangerschaftsstatus/encoding",
+    "type" : "TEXT"
+  }, {
+    "id" : 9,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.pregnancy_status.v0]/subject|id",
+    "path" : "schwangerschaftsstatus/schwangerschaftsstatus/subject|id",
+    "type" : "TEXT"
+  }, {
+    "id" : 10,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.pregnancy_status.v0]/subject|id_scheme",
+    "path" : "schwangerschaftsstatus/schwangerschaftsstatus/subject|id_scheme",
+    "type" : "TEXT"
+  }, {
+    "id" : 11,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.pregnancy_status.v0]/subject|id_namespace",
+    "path" : "schwangerschaftsstatus/schwangerschaftsstatus/subject|id_namespace",
+    "type" : "TEXT"
+  }, {
+    "id" : 12,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.pregnancy_status.v0]/subject|name",
+    "path" : "schwangerschaftsstatus/schwangerschaftsstatus/subject|name",
+    "type" : "TEXT"
+  }, {
+    "id" : 13,
+    "aqlPath" : "/category|code",
+    "path" : "schwangerschaftsstatus/category|code",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 14,
+    "aqlPath" : "/language",
+    "path" : "schwangerschaftsstatus/language",
+    "type" : "TEXT"
+  }, {
+    "id" : 15,
+    "aqlPath" : "/territory",
+    "path" : "schwangerschaftsstatus/territory",
+    "type" : "TEXT"
+  }, {
+    "id" : 16,
+    "aqlPath" : "/composer|id",
+    "path" : "schwangerschaftsstatus/composer|id",
+    "type" : "TEXT"
+  }, {
+    "id" : 17,
+    "aqlPath" : "/composer|id_scheme",
+    "path" : "schwangerschaftsstatus/composer|id_scheme",
+    "type" : "TEXT"
+  }, {
+    "id" : 18,
+    "aqlPath" : "/composer|id_namespace",
+    "path" : "schwangerschaftsstatus/composer|id_namespace",
+    "type" : "TEXT"
+  }, {
+    "id" : 19,
+    "aqlPath" : "/composer|name",
+    "path" : "schwangerschaftsstatus/composer|name",
+    "type" : "TEXT"
+  } ]
+}

@@ -1,0 +1,24 @@
+{
+  "entry" : [
+    {
+      "rxnorm" : "1659263",
+      "codes" : [
+        {
+          "system" : "http://fhir.de/CodeSystem/dimdi/atc",
+          "code" : "B01AB01",
+          "display" : "Heparin"
+        }
+      ]
+    },
+    {
+      "rxnorm" : "854228",
+      "codes" : [
+        {
+          "system" : "http://fhir.de/CodeSystem/dimdi/atc",
+          "code" : "B01AB05",
+          "display" : "Enoxaparin"
+        }
+      ]
+    }
+  ]
+}

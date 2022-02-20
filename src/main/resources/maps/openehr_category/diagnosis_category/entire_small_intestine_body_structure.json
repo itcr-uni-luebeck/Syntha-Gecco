@@ -1,0 +1,10 @@
+{
+  "system" : "SNOMED Clinical Terms",
+  "code" : "181250005",
+  "description" : "",
+  "children" : [ {
+    "system" : "http://snomed.info/sct",
+    "code" : "181250005",
+    "display" : "Entire small intestine"
+  } ]
+}

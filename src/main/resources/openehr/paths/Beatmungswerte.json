@@ -1,0 +1,109 @@
+{
+  "templateName" : "Beatmungswerte",
+  "paths" : [ {
+    "id" : 0,
+    "aqlPath" : "/context/other_context[at0001]/items[at0004]/value|code",
+    "path" : "beatmungswerte/context/status|code",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 1,
+    "aqlPath" : "/context/other_context[at0001]/items[at0005]/value",
+    "path" : "beatmungswerte/context/kategorie",
+    "type" : "TEXT"
+  }, {
+    "id" : 2,
+    "aqlPath" : "/context/start_time",
+    "path" : "beatmungswerte/context/start_time",
+    "type" : "DATETIME"
+  }, {
+    "id" : 3,
+    "aqlPath" : "/context/setting|code",
+    "path" : "beatmungswerte/context/setting|code",
+    "type" : "TEXT"
+  }, {
+    "id" : 4,
+    "aqlPath" : "/context/setting|value",
+    "path" : "beatmungswerte/context/setting|value",
+    "type" : "TEXT"
+  }, {
+    "id" : 5,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.ventilator_vital_signs.v0]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.inspired_oxygen.v1]/items[at0053,'Inspiratorische Sauerstofffraktion']/value|numerator",
+    "path" : "beatmungswerte/beobachtungen_am_beatmungsgerät/eingeatmeter_sauerstoff/inspiratorische_sauerstofffraktion|numerator",
+    "type" : "DECIMAL"
+  }, {
+    "id" : 6,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.ventilator_vital_signs.v0]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.inspired_oxygen.v1]/items[at0053,'Inspiratorische Sauerstofffraktion']/value|denominator",
+    "path" : "beatmungswerte/beobachtungen_am_beatmungsgerät/eingeatmeter_sauerstoff/inspiratorische_sauerstofffraktion|denominator",
+    "type" : "DECIMAL"
+  }, {
+    "id" : 7,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.ventilator_vital_signs.v0]/data[at0001]/events[at0002]/time",
+    "path" : "beatmungswerte/beobachtungen_am_beatmungsgerät/time",
+    "type" : "DATETIME"
+  }, {
+    "id" : 8,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.ventilator_vital_signs.v0]/language",
+    "path" : "beatmungswerte/beobachtungen_am_beatmungsgerät/language",
+    "type" : "TEXT"
+  }, {
+    "id" : 9,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.ventilator_vital_signs.v0]/encoding",
+    "path" : "beatmungswerte/beobachtungen_am_beatmungsgerät/encoding",
+    "type" : "TEXT"
+  }, {
+    "id" : 10,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.ventilator_vital_signs.v0]/subject|id",
+    "path" : "beatmungswerte/beobachtungen_am_beatmungsgerät/subject|id",
+    "type" : "TEXT"
+  }, {
+    "id" : 11,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.ventilator_vital_signs.v0]/subject|id_scheme",
+    "path" : "beatmungswerte/beobachtungen_am_beatmungsgerät/subject|id_scheme",
+    "type" : "TEXT"
+  }, {
+    "id" : 12,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.ventilator_vital_signs.v0]/subject|id_namespace",
+    "path" : "beatmungswerte/beobachtungen_am_beatmungsgerät/subject|id_namespace",
+    "type" : "TEXT"
+  }, {
+    "id" : 13,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.ventilator_vital_signs.v0]/subject|name",
+    "path" : "beatmungswerte/beobachtungen_am_beatmungsgerät/subject|name",
+    "type" : "TEXT"
+  }, {
+    "id" : 14,
+    "aqlPath" : "/category|code",
+    "path" : "beatmungswerte/category|code",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 15,
+    "aqlPath" : "/language",
+    "path" : "beatmungswerte/language",
+    "type" : "TEXT"
+  }, {
+    "id" : 16,
+    "aqlPath" : "/territory",
+    "path" : "beatmungswerte/territory",
+    "type" : "TEXT"
+  }, {
+    "id" : 17,
+    "aqlPath" : "/composer|id",
+    "path" : "beatmungswerte/composer|id",
+    "type" : "TEXT"
+  }, {
+    "id" : 18,
+    "aqlPath" : "/composer|id_scheme",
+    "path" : "beatmungswerte/composer|id_scheme",
+    "type" : "TEXT"
+  }, {
+    "id" : 19,
+    "aqlPath" : "/composer|id_namespace",
+    "path" : "beatmungswerte/composer|id_namespace",
+    "type" : "TEXT"
+  }, {
+    "id" : 20,
+    "aqlPath" : "/composer|name",
+    "path" : "beatmungswerte/composer|name",
+    "type" : "TEXT"
+  } ]
+}

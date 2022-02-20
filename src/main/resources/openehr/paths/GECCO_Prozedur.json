@@ -1,0 +1,229 @@
+{
+  "templateName" : "GECCO_Prozedur",
+  "paths" : [ {
+    "id" : 0,
+    "aqlPath" : "/context/other_context[at0001]/items[at0005]/value|code",
+    "path" : "gecco_prozedur/context/kategorie|code",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 1,
+    "aqlPath" : "/context/start_time",
+    "path" : "gecco_prozedur/context/start_time",
+    "type" : "DATETIME"
+  }, {
+    "id" : 2,
+    "aqlPath" : "/context/setting|code",
+    "path" : "gecco_prozedur/context/setting|code",
+    "type" : "TEXT"
+  }, {
+    "id" : 3,
+    "aqlPath" : "/context/setting|value",
+    "path" : "gecco_prozedur/context/setting|value",
+    "type" : "TEXT"
+  }, {
+    "id" : 4,
+    "aqlPath" : "/content[openEHR-EHR-ACTION.procedure.v1]/ism_transition/current_state|code",
+    "path" : "gecco_prozedur/prozedur/ism_transition/current_state|code",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 5,
+    "aqlPath" : "/content[openEHR-EHR-ACTION.procedure.v1]/ism_transition/transition|code",
+    "path" : "gecco_prozedur/prozedur/ism_transition/transition|code",
+    "type" : "TEXT"
+  }, {
+    "id" : 6,
+    "aqlPath" : "/content[openEHR-EHR-ACTION.procedure.v1]/ism_transition/transition|value",
+    "path" : "gecco_prozedur/prozedur/ism_transition/transition|value",
+    "type" : "TEXT"
+  }, {
+    "id" : 7,
+    "aqlPath" : "/content[openEHR-EHR-ACTION.procedure.v1]/ism_transition/careflow_step|code",
+    "path" : "gecco_prozedur/prozedur/ism_transition/careflow_step|code",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 8,
+    "aqlPath" : "/content[openEHR-EHR-ACTION.procedure.v1]/description[at0001]/items[at0002]/value|code",
+    "path" : "gecco_prozedur/prozedur/name_der_prozedur|code",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 9,
+    "aqlPath" : "/content[openEHR-EHR-ACTION.procedure.v1]/description[at0001]/items[at0070]/value",
+    "path" : "gecco_prozedur/prozedur/indikation",
+    "type" : "TEXT"
+  }, {
+    "id" : 10,
+    "aqlPath" : "/content[openEHR-EHR-ACTION.procedure.v1]/description[at0001]/items[at0063]/value|code",
+    "path" : "gecco_prozedur/prozedur/körperstelle|code",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 11,
+    "aqlPath" : "/content[openEHR-EHR-ACTION.procedure.v1]/description[at0001]/items[openEHR-EHR-CLUSTER.device.v1]/items[at0001]/value|code",
+    "path" : "gecco_prozedur/prozedur/medizingerät/gerätename|code",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 12,
+    "aqlPath" : "/content[openEHR-EHR-ACTION.procedure.v1]/description[at0001]/items[at0067]/value|code",
+    "path" : "gecco_prozedur/prozedur/art_der_prozedur|code",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 13,
+    "aqlPath" : "/content[openEHR-EHR-ACTION.procedure.v1]/description[at0001]/items[at0014,'Durchführungsabsicht']/value",
+    "path" : "gecco_prozedur/prozedur/durchführungsabsicht",
+    "type" : "TEXT"
+  }, {
+    "id" : 14,
+    "aqlPath" : "/content[openEHR-EHR-ACTION.procedure.v1]/description[at0001]/items[at0005]/value",
+    "path" : "gecco_prozedur/prozedur/kommentar",
+    "type" : "TEXT"
+  }, {
+    "id" : 15,
+    "aqlPath" : "/content[openEHR-EHR-ACTION.procedure.v1]/time",
+    "path" : "gecco_prozedur/prozedur/time",
+    "type" : "DATETIME"
+  }, {
+    "id" : 16,
+    "aqlPath" : "/content[openEHR-EHR-ACTION.procedure.v1]/language",
+    "path" : "gecco_prozedur/prozedur/language",
+    "type" : "TEXT"
+  }, {
+    "id" : 17,
+    "aqlPath" : "/content[openEHR-EHR-ACTION.procedure.v1]/encoding",
+    "path" : "gecco_prozedur/prozedur/encoding",
+    "type" : "TEXT"
+  }, {
+    "id" : 18,
+    "aqlPath" : "/content[openEHR-EHR-ACTION.procedure.v1]/subject|id",
+    "path" : "gecco_prozedur/prozedur/subject|id",
+    "type" : "TEXT"
+  }, {
+    "id" : 19,
+    "aqlPath" : "/content[openEHR-EHR-ACTION.procedure.v1]/subject|id_scheme",
+    "path" : "gecco_prozedur/prozedur/subject|id_scheme",
+    "type" : "TEXT"
+  }, {
+    "id" : 20,
+    "aqlPath" : "/content[openEHR-EHR-ACTION.procedure.v1]/subject|id_namespace",
+    "path" : "gecco_prozedur/prozedur/subject|id_namespace",
+    "type" : "TEXT"
+  }, {
+    "id" : 21,
+    "aqlPath" : "/content[openEHR-EHR-ACTION.procedure.v1]/subject|name",
+    "path" : "gecco_prozedur/prozedur/subject|name",
+    "type" : "TEXT"
+  }, {
+    "id" : 22,
+    "aqlPath" : "/content[openEHR-EHR-EVALUATION.exclusion_specific.v1,'Nicht durchgeführte Prozedur']/data[at0001]/items[at0002]/value",
+    "path" : "gecco_prozedur/nicht_durchgeführte_prozedur/aussage_über_den_ausschluss",
+    "type" : "TEXT"
+  }, {
+    "id" : 23,
+    "aqlPath" : "/content[openEHR-EHR-EVALUATION.exclusion_specific.v1,'Nicht durchgeführte Prozedur']/data[at0001]/items[at0003,'Eingriff']/value|code",
+    "path" : "gecco_prozedur/nicht_durchgeführte_prozedur/eingriff|code",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 24,
+    "aqlPath" : "/content[openEHR-EHR-EVALUATION.exclusion_specific.v1,'Nicht durchgeführte Prozedur']/language",
+    "path" : "gecco_prozedur/nicht_durchgeführte_prozedur/language",
+    "type" : "TEXT"
+  }, {
+    "id" : 25,
+    "aqlPath" : "/content[openEHR-EHR-EVALUATION.exclusion_specific.v1,'Nicht durchgeführte Prozedur']/encoding",
+    "path" : "gecco_prozedur/nicht_durchgeführte_prozedur/encoding",
+    "type" : "TEXT"
+  }, {
+    "id" : 26,
+    "aqlPath" : "/content[openEHR-EHR-EVALUATION.exclusion_specific.v1,'Nicht durchgeführte Prozedur']/subject|id",
+    "path" : "gecco_prozedur/nicht_durchgeführte_prozedur/subject|id",
+    "type" : "TEXT"
+  }, {
+    "id" : 27,
+    "aqlPath" : "/content[openEHR-EHR-EVALUATION.exclusion_specific.v1,'Nicht durchgeführte Prozedur']/subject|id_scheme",
+    "path" : "gecco_prozedur/nicht_durchgeführte_prozedur/subject|id_scheme",
+    "type" : "TEXT"
+  }, {
+    "id" : 28,
+    "aqlPath" : "/content[openEHR-EHR-EVALUATION.exclusion_specific.v1,'Nicht durchgeführte Prozedur']/subject|id_namespace",
+    "path" : "gecco_prozedur/nicht_durchgeführte_prozedur/subject|id_namespace",
+    "type" : "TEXT"
+  }, {
+    "id" : 29,
+    "aqlPath" : "/content[openEHR-EHR-EVALUATION.exclusion_specific.v1,'Nicht durchgeführte Prozedur']/subject|name",
+    "path" : "gecco_prozedur/nicht_durchgeführte_prozedur/subject|name",
+    "type" : "TEXT"
+  }, {
+    "id" : 30,
+    "aqlPath" : "/content[openEHR-EHR-EVALUATION.absence.v2,'Unbekannte Prozedur']/data[at0001]/items[at0002,'Unbekannte Prozedur']/value|code",
+    "path" : "gecco_prozedur/unbekannte_prozedur/unbekannte_prozedur|code",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 31,
+    "aqlPath" : "/content[openEHR-EHR-EVALUATION.absence.v2,'Unbekannte Prozedur']/data[at0001]/items[at0005,'Aussage über die fehlende Information']/value",
+    "path" : "gecco_prozedur/unbekannte_prozedur/aussage_über_die_fehlende_information",
+    "type" : "TEXT"
+  }, {
+    "id" : 32,
+    "aqlPath" : "/content[openEHR-EHR-EVALUATION.absence.v2,'Unbekannte Prozedur']/language",
+    "path" : "gecco_prozedur/unbekannte_prozedur/language",
+    "type" : "TEXT"
+  }, {
+    "id" : 33,
+    "aqlPath" : "/content[openEHR-EHR-EVALUATION.absence.v2,'Unbekannte Prozedur']/encoding",
+    "path" : "gecco_prozedur/unbekannte_prozedur/encoding",
+    "type" : "TEXT"
+  }, {
+    "id" : 34,
+    "aqlPath" : "/content[openEHR-EHR-EVALUATION.absence.v2,'Unbekannte Prozedur']/subject|id",
+    "path" : "gecco_prozedur/unbekannte_prozedur/subject|id",
+    "type" : "TEXT"
+  }, {
+    "id" : 35,
+    "aqlPath" : "/content[openEHR-EHR-EVALUATION.absence.v2,'Unbekannte Prozedur']/subject|id_scheme",
+    "path" : "gecco_prozedur/unbekannte_prozedur/subject|id_scheme",
+    "type" : "TEXT"
+  }, {
+    "id" : 36,
+    "aqlPath" : "/content[openEHR-EHR-EVALUATION.absence.v2,'Unbekannte Prozedur']/subject|id_namespace",
+    "path" : "gecco_prozedur/unbekannte_prozedur/subject|id_namespace",
+    "type" : "TEXT"
+  }, {
+    "id" : 37,
+    "aqlPath" : "/content[openEHR-EHR-EVALUATION.absence.v2,'Unbekannte Prozedur']/subject|name",
+    "path" : "gecco_prozedur/unbekannte_prozedur/subject|name",
+    "type" : "TEXT"
+  }, {
+    "id" : 38,
+    "aqlPath" : "/category|code",
+    "path" : "gecco_prozedur/category|code",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 39,
+    "aqlPath" : "/language",
+    "path" : "gecco_prozedur/language",
+    "type" : "TEXT"
+  }, {
+    "id" : 40,
+    "aqlPath" : "/territory",
+    "path" : "gecco_prozedur/territory",
+    "type" : "TEXT"
+  }, {
+    "id" : 41,
+    "aqlPath" : "/composer|id",
+    "path" : "gecco_prozedur/composer|id",
+    "type" : "TEXT"
+  }, {
+    "id" : 42,
+    "aqlPath" : "/composer|id_scheme",
+    "path" : "gecco_prozedur/composer|id_scheme",
+    "type" : "TEXT"
+  }, {
+    "id" : 43,
+    "aqlPath" : "/composer|id_namespace",
+    "path" : "gecco_prozedur/composer|id_namespace",
+    "type" : "TEXT"
+  }, {
+    "id" : 44,
+    "aqlPath" : "/composer|name",
+    "path" : "gecco_prozedur/composer|name",
+    "type" : "TEXT"
+  } ]
+}

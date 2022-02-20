@@ -1,0 +1,58 @@
+{
+  "system" : "SNOMED Clinical Terms",
+  "code" : "190905008",
+  "description" : "",
+  "children" : [ {
+    "system" : "http://snomed.info/sct",
+    "code" : "762270003",
+    "display" : "Atypical cystic fibrosis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "762269004",
+    "display" : "Classical cystic fibrosis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "190905008",
+    "display" : "Cystic fibrosis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "235978006",
+    "display" : "Cystic fibrosis of pancreas"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "86555001",
+    "display" : "Cystic fibrosis of the lung"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "720401009",
+    "display" : "Cystic fibrosis with gastritis and megaloblastic anemia syndrome"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "86092005",
+    "display" : "Cystic fibrosis with meconium ileus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "81423003",
+    "display" : "Cystic fibrosis without meconium ileus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "426705001",
+    "display" : "Diabetes mellitus associated with cystic fibrosis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "707766007",
+    "display" : "Exocrine pancreatic manifestation co-occurrent and due to cystic fibrosis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "725052002",
+    "display" : "Fetal cystic fibrosis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "716088000",
+    "display" : "Follicular hamartoma with alopecia and cystic fibrosis syndrome"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "762271004",
+    "display" : "Subclinical cystic fibrosis"
+  } ]
+}

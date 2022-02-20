@@ -1,0 +1,18 @@
+{
+  "category" : 20,
+  "name": "PronePosition",
+  "contains": [
+    {
+      "system" : "\"http://snomed.info/sct\"",
+      "code" : "\"431182000\"",
+      "display" : "Placing subject in prone position",
+      "childrenOrSelf" : [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "431182000",
+          "display": "Placing subject in prone position"
+        }
+      ]
+    }
+  ]
+}

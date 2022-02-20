@@ -1,0 +1,104 @@
+{
+  "templateName" : "DNR-Anordnung",
+  "paths" : [ {
+    "id" : 0,
+    "aqlPath" : "/context/other_context[at0001]/items[at0004]/value|code",
+    "path" : "dnr-anordnung/context/status|code",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 1,
+    "aqlPath" : "/context/other_context[at0001]/items[at0005]/value",
+    "path" : "dnr-anordnung/context/kategorie",
+    "type" : "TEXT"
+  }, {
+    "id" : 2,
+    "aqlPath" : "/context/start_time",
+    "path" : "dnr-anordnung/context/start_time",
+    "type" : "DATETIME"
+  }, {
+    "id" : 3,
+    "aqlPath" : "/context/setting|code",
+    "path" : "dnr-anordnung/context/setting|code",
+    "type" : "TEXT"
+  }, {
+    "id" : 4,
+    "aqlPath" : "/context/setting|value",
+    "path" : "dnr-anordnung/context/setting|value",
+    "type" : "TEXT"
+  }, {
+    "id" : 5,
+    "aqlPath" : "/content[openEHR-EHR-EVALUATION.advance_care_directive.v1,'DNR-Anordnung']/data[at0001]/items[at0005]/value",
+    "path" : "dnr-anordnung/dnr-anordnung/art_der_richtlinie",
+    "type" : "TEXT"
+  }, {
+    "id" : 6,
+    "aqlPath" : "/content[openEHR-EHR-EVALUATION.advance_care_directive.v1,'DNR-Anordnung']/data[at0001]/items[at0006]/value|code",
+    "path" : "dnr-anordnung/dnr-anordnung/beschreibung|code",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 7,
+    "aqlPath" : "/content[openEHR-EHR-EVALUATION.advance_care_directive.v1,'DNR-Anordnung']/language",
+    "path" : "dnr-anordnung/dnr-anordnung/language",
+    "type" : "TEXT"
+  }, {
+    "id" : 8,
+    "aqlPath" : "/content[openEHR-EHR-EVALUATION.advance_care_directive.v1,'DNR-Anordnung']/encoding",
+    "path" : "dnr-anordnung/dnr-anordnung/encoding",
+    "type" : "TEXT"
+  }, {
+    "id" : 9,
+    "aqlPath" : "/content[openEHR-EHR-EVALUATION.advance_care_directive.v1,'DNR-Anordnung']/subject|id",
+    "path" : "dnr-anordnung/dnr-anordnung/subject|id",
+    "type" : "TEXT"
+  }, {
+    "id" : 10,
+    "aqlPath" : "/content[openEHR-EHR-EVALUATION.advance_care_directive.v1,'DNR-Anordnung']/subject|id_scheme",
+    "path" : "dnr-anordnung/dnr-anordnung/subject|id_scheme",
+    "type" : "TEXT"
+  }, {
+    "id" : 11,
+    "aqlPath" : "/content[openEHR-EHR-EVALUATION.advance_care_directive.v1,'DNR-Anordnung']/subject|id_namespace",
+    "path" : "dnr-anordnung/dnr-anordnung/subject|id_namespace",
+    "type" : "TEXT"
+  }, {
+    "id" : 12,
+    "aqlPath" : "/content[openEHR-EHR-EVALUATION.advance_care_directive.v1,'DNR-Anordnung']/subject|name",
+    "path" : "dnr-anordnung/dnr-anordnung/subject|name",
+    "type" : "TEXT"
+  }, {
+    "id" : 13,
+    "aqlPath" : "/category|code",
+    "path" : "dnr-anordnung/category|code",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 14,
+    "aqlPath" : "/language",
+    "path" : "dnr-anordnung/language",
+    "type" : "TEXT"
+  }, {
+    "id" : 15,
+    "aqlPath" : "/territory",
+    "path" : "dnr-anordnung/territory",
+    "type" : "TEXT"
+  }, {
+    "id" : 16,
+    "aqlPath" : "/composer|id",
+    "path" : "dnr-anordnung/composer|id",
+    "type" : "TEXT"
+  }, {
+    "id" : 17,
+    "aqlPath" : "/composer|id_scheme",
+    "path" : "dnr-anordnung/composer|id_scheme",
+    "type" : "TEXT"
+  }, {
+    "id" : 18,
+    "aqlPath" : "/composer|id_namespace",
+    "path" : "dnr-anordnung/composer|id_namespace",
+    "type" : "TEXT"
+  }, {
+    "id" : 19,
+    "aqlPath" : "/composer|name",
+    "path" : "dnr-anordnung/composer|name",
+    "type" : "TEXT"
+  } ]
+}

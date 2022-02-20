@@ -1,0 +1,62 @@
+{
+  "system" : "SNOMED Clinical Terms",
+  "code" : "46635009",
+  "description" : "",
+  "children" : [ {
+    "system" : "http://snomed.info/sct",
+    "code" : "31321000119102",
+    "display" : "Diabetes mellitus type 1 without retinopathy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "368521000119107",
+    "display" : "Disorder of nerve co-occurrent and due to type 1 diabetes mellitus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "23045005",
+    "display" : "Insulin dependent diabetes mellitus type 1A"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "28032008",
+    "display" : "Insulin dependent diabetes mellitus type 1B"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "722454003",
+    "display" : "Intellectual disability, craniofacial dysmorphism, hypogonadism, diabetes mellitus syndrome"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "426875007",
+    "display" : "Latent autoimmune diabetes mellitus in adult"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "199229001",
+    "display" : "Pre-existing type 1 diabetes mellitus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "609564002",
+    "display" : "Pre-existing type 1 diabetes mellitus in pregnancy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "609566000",
+    "display" : "Pregnancy and type 1 diabetes mellitus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "46635009",
+    "display" : "Type 1 diabetes mellitus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "190372001",
+    "display" : "Type 1 diabetes mellitus maturity onset"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "190368000",
+    "display" : "Type 1 diabetes mellitus with ulcer"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "313435000",
+    "display" : "Type 1 diabetes mellitus without complication"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "703137001",
+    "display" : "Type I diabetes mellitus in remission"
+  } ]
+}

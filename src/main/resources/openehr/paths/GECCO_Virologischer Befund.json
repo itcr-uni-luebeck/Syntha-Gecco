@@ -1,0 +1,284 @@
+{
+  "templateName" : "GECCO_Virologischer Befund",
+  "paths" : [ {
+    "id" : 0,
+    "aqlPath" : "/context/other_context[at0001,'Tree']/items[at0004]/value|code",
+    "path" : "gecco_virologischer_befund/context/status|code",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 1,
+    "aqlPath" : "/context/other_context[at0001,'Tree']/items[at0005,'Kategorie']/value",
+    "path" : "gecco_virologischer_befund/context/kategorie",
+    "type" : "TEXT"
+  }, {
+    "id" : 2,
+    "aqlPath" : "/context/other_context[at0001,'Tree']/items[at0005,'Kategorie (LOINC)']/value",
+    "path" : "gecco_virologischer_befund/context/kategorie_loinc",
+    "type" : "TEXT"
+  }, {
+    "id" : 3,
+    "aqlPath" : "/context/start_time",
+    "path" : "gecco_virologischer_befund/context/start_time",
+    "type" : "DATETIME"
+  }, {
+    "id" : 4,
+    "aqlPath" : "/context/setting|code",
+    "path" : "gecco_virologischer_befund/context/setting|code",
+    "type" : "TEXT"
+  }, {
+    "id" : 5,
+    "aqlPath" : "/context/setting|value",
+    "path" : "gecco_virologischer_befund/context/setting|value",
+    "type" : "TEXT"
+  }, {
+    "id" : 6,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1,'Befund']/data[at0001]/events[at0002]/data[at0003]/items[at0005]/value",
+    "path" : "gecco_virologischer_befund/befund/labortest-bezeichnung",
+    "type" : "TEXT"
+  }, {
+    "id" : 7,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1,'Befund']/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_panel.v0]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Pro Analyt']/items[at0024,'Virusnachweistest']/value",
+    "path" : "gecco_virologischer_befund/befund/labortest-panel/pro_analyt/virusnachweistest",
+    "type" : "TEXT"
+  }, {
+    "id" : 8,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1,'Befund']/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_panel.v0]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Pro Analyt']/items[at0001,'Nachweis']/value",
+    "path" : "gecco_virologischer_befund/befund/labortest-panel/pro_analyt/nachweis",
+    "type" : "TEXT"
+  }, {
+    "id" : 9,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1,'Befund']/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_panel.v0]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Pro Analyt']/items[at0028]/Testmethode|code",
+    "path" : "gecco_virologischer_befund/befund/labortest-panel/pro_analyt/testmethode/coded_text_value|code",
+    "type" : "TEXT"
+  }, {
+    "id" : 10,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1,'Befund']/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_panel.v0]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Pro Analyt']/items[at0028]/Testmethode|value",
+    "path" : "gecco_virologischer_befund/befund/labortest-panel/pro_analyt/testmethode/coded_text_value|value",
+    "type" : "TEXT"
+  }, {
+    "id" : 11,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1,'Befund']/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_panel.v0]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Pro Analyt']/items[at0028]/Testmethode",
+    "path" : "gecco_virologischer_befund/befund/labortest-panel/pro_analyt/testmethode/text_value",
+    "type" : "TEXT"
+  }, {
+    "id" : 12,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1,'Befund']/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_panel.v0]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Pro Analyt']/items[at0028]/Testmethode",
+    "path" : "gecco_virologischer_befund/befund/labortest-panel/pro_analyt/testmethode/multimedia_value",
+    "type" : "TEXT"
+  }, {
+    "id" : 13,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1,'Befund']/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_panel.v0]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Pro Analyt']/items[at0028]/Testmethode|value",
+    "path" : "gecco_virologischer_befund/befund/labortest-panel/pro_analyt/testmethode/parsable_value|value",
+    "type" : "TEXT"
+  }, {
+    "id" : 14,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1,'Befund']/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_panel.v0]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Pro Analyt']/items[at0028]/Testmethode|formalism",
+    "path" : "gecco_virologischer_befund/befund/labortest-panel/pro_analyt/testmethode/parsable_value|formalism",
+    "type" : "TEXT"
+  }, {
+    "id" : 15,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1,'Befund']/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_panel.v0]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Pro Analyt']/items[at0028]/Testmethode|code",
+    "path" : "gecco_virologischer_befund/befund/labortest-panel/pro_analyt/testmethode/state_value|code",
+    "type" : "TEXT"
+  }, {
+    "id" : 16,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1,'Befund']/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_panel.v0]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Pro Analyt']/items[at0028]/Testmethode|value",
+    "path" : "gecco_virologischer_befund/befund/labortest-panel/pro_analyt/testmethode/state_value|value",
+    "type" : "TEXT"
+  }, {
+    "id" : 17,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1,'Befund']/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_panel.v0]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Pro Analyt']/items[at0028]/Testmethode",
+    "path" : "gecco_virologischer_befund/befund/labortest-panel/pro_analyt/testmethode/boolean_value",
+    "type" : "BOOLEAN"
+  }, {
+    "id" : 18,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1,'Befund']/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_panel.v0]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Pro Analyt']/items[at0028]/Testmethode|id",
+    "path" : "gecco_virologischer_befund/befund/labortest-panel/pro_analyt/testmethode/identifier_value|id",
+    "type" : "TEXT"
+  }, {
+    "id" : 19,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1,'Befund']/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_panel.v0]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Pro Analyt']/items[at0028]/Testmethode|type",
+    "path" : "gecco_virologischer_befund/befund/labortest-panel/pro_analyt/testmethode/identifier_value|type",
+    "type" : "TEXT"
+  }, {
+    "id" : 20,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1,'Befund']/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_panel.v0]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Pro Analyt']/items[at0028]/Testmethode|issuer",
+    "path" : "gecco_virologischer_befund/befund/labortest-panel/pro_analyt/testmethode/identifier_value|issuer",
+    "type" : "TEXT"
+  }, {
+    "id" : 21,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1,'Befund']/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_panel.v0]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Pro Analyt']/items[at0028]/Testmethode|assigner",
+    "path" : "gecco_virologischer_befund/befund/labortest-panel/pro_analyt/testmethode/identifier_value|assigner",
+    "type" : "TEXT"
+  }, {
+    "id" : 22,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1,'Befund']/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_panel.v0]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Pro Analyt']/items[at0028]/Testmethode",
+    "path" : "gecco_virologischer_befund/befund/labortest-panel/pro_analyt/testmethode/uri_value",
+    "type" : "TEXT"
+  }, {
+    "id" : 23,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1,'Befund']/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_panel.v0]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Pro Analyt']/items[at0028]/Testmethode",
+    "path" : "gecco_virologischer_befund/befund/labortest-panel/pro_analyt/testmethode/ehr_uri_value",
+    "type" : "TEXT"
+  }, {
+    "id" : 24,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1,'Befund']/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_panel.v0]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Pro Analyt']/items[at0028]/Testmethode|year",
+    "path" : "gecco_virologischer_befund/befund/labortest-panel/pro_analyt/testmethode/duration_value|year",
+    "type" : "INTEGER"
+  }, {
+    "id" : 25,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1,'Befund']/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_panel.v0]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Pro Analyt']/items[at0028]/Testmethode|month",
+    "path" : "gecco_virologischer_befund/befund/labortest-panel/pro_analyt/testmethode/duration_value|month",
+    "type" : "INTEGER"
+  }, {
+    "id" : 26,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1,'Befund']/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_panel.v0]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Pro Analyt']/items[at0028]/Testmethode|day",
+    "path" : "gecco_virologischer_befund/befund/labortest-panel/pro_analyt/testmethode/duration_value|day",
+    "type" : "INTEGER"
+  }, {
+    "id" : 27,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1,'Befund']/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_panel.v0]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Pro Analyt']/items[at0028]/Testmethode|week",
+    "path" : "gecco_virologischer_befund/befund/labortest-panel/pro_analyt/testmethode/duration_value|week",
+    "type" : "INTEGER"
+  }, {
+    "id" : 28,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1,'Befund']/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_panel.v0]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Pro Analyt']/items[at0028]/Testmethode|hour",
+    "path" : "gecco_virologischer_befund/befund/labortest-panel/pro_analyt/testmethode/duration_value|hour",
+    "type" : "INTEGER"
+  }, {
+    "id" : 29,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1,'Befund']/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_panel.v0]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Pro Analyt']/items[at0028]/Testmethode|minute",
+    "path" : "gecco_virologischer_befund/befund/labortest-panel/pro_analyt/testmethode/duration_value|minute",
+    "type" : "INTEGER"
+  }, {
+    "id" : 30,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1,'Befund']/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_panel.v0]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Pro Analyt']/items[at0028]/Testmethode|second",
+    "path" : "gecco_virologischer_befund/befund/labortest-panel/pro_analyt/testmethode/duration_value|second",
+    "type" : "INTEGER"
+  }, {
+    "id" : 31,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1,'Befund']/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_panel.v0]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Pro Analyt']/items[at0028]/Testmethode|magnitude",
+    "path" : "gecco_virologischer_befund/befund/labortest-panel/pro_analyt/testmethode/quantity_value|magnitude",
+    "type" : "DECIMAL"
+  }, {
+    "id" : 32,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1,'Befund']/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_panel.v0]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Pro Analyt']/items[at0028]/Testmethode|unit",
+    "path" : "gecco_virologischer_befund/befund/labortest-panel/pro_analyt/testmethode/quantity_value|unit",
+    "type" : "TEXT"
+  }, {
+    "id" : 33,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1,'Befund']/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_panel.v0]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Pro Analyt']/items[at0028]/Testmethode",
+    "path" : "gecco_virologischer_befund/befund/labortest-panel/pro_analyt/testmethode/count_value",
+    "type" : "INTEGER"
+  }, {
+    "id" : 34,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1,'Befund']/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_panel.v0]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Pro Analyt']/items[at0028]/Testmethode|numerator",
+    "path" : "gecco_virologischer_befund/befund/labortest-panel/pro_analyt/testmethode/proportion_value|numerator",
+    "type" : "DECIMAL"
+  }, {
+    "id" : 35,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1,'Befund']/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_panel.v0]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Pro Analyt']/items[at0028]/Testmethode|denominator",
+    "path" : "gecco_virologischer_befund/befund/labortest-panel/pro_analyt/testmethode/proportion_value|denominator",
+    "type" : "DECIMAL"
+  }, {
+    "id" : 36,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1,'Befund']/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_panel.v0]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Pro Analyt']/items[at0028]/Testmethode",
+    "path" : "gecco_virologischer_befund/befund/labortest-panel/pro_analyt/testmethode/date_time_value",
+    "type" : "DATETIME"
+  }, {
+    "id" : 37,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1,'Befund']/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_panel.v0]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Pro Analyt']/items[at0028]/Testmethode",
+    "path" : "gecco_virologischer_befund/befund/labortest-panel/pro_analyt/testmethode/date_value",
+    "type" : "DATE"
+  }, {
+    "id" : 38,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1,'Befund']/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_panel.v0]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Pro Analyt']/items[at0028]/Testmethode",
+    "path" : "gecco_virologischer_befund/befund/labortest-panel/pro_analyt/testmethode/time_value",
+    "type" : "TIME"
+  }, {
+    "id" : 39,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1,'Befund']/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_panel.v0]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Pro Analyt']/items[at0028]/Testmethode",
+    "path" : "gecco_virologischer_befund/befund/labortest-panel/pro_analyt/testmethode/ordinal_value",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 40,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1,'Befund']/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_panel.v0]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Pro Analyt']/items[at0028]/Testmethode",
+    "path" : "gecco_virologischer_befund/befund/labortest-panel/pro_analyt/testmethode/scale_value",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 41,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1,'Befund']/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_panel.v0]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Pro Analyt']/items[at0005]/value",
+    "path" : "gecco_virologischer_befund/befund/labortest-panel/pro_analyt/ergebnis-status",
+    "type" : "TEXT"
+  }, {
+    "id" : 42,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1,'Befund']/data[at0001]/events[at0002]/time",
+    "path" : "gecco_virologischer_befund/befund/time",
+    "type" : "DATETIME"
+  }, {
+    "id" : 43,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1,'Befund']/language",
+    "path" : "gecco_virologischer_befund/befund/language",
+    "type" : "TEXT"
+  }, {
+    "id" : 44,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1,'Befund']/encoding",
+    "path" : "gecco_virologischer_befund/befund/encoding",
+    "type" : "TEXT"
+  }, {
+    "id" : 45,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1,'Befund']/subject|id",
+    "path" : "gecco_virologischer_befund/befund/subject|id",
+    "type" : "TEXT"
+  }, {
+    "id" : 46,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1,'Befund']/subject|id_scheme",
+    "path" : "gecco_virologischer_befund/befund/subject|id_scheme",
+    "type" : "TEXT"
+  }, {
+    "id" : 47,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1,'Befund']/subject|id_namespace",
+    "path" : "gecco_virologischer_befund/befund/subject|id_namespace",
+    "type" : "TEXT"
+  }, {
+    "id" : 48,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1,'Befund']/subject|name",
+    "path" : "gecco_virologischer_befund/befund/subject|name",
+    "type" : "TEXT"
+  }, {
+    "id" : 49,
+    "aqlPath" : "/category|code",
+    "path" : "gecco_virologischer_befund/category|code",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 50,
+    "aqlPath" : "/language",
+    "path" : "gecco_virologischer_befund/language",
+    "type" : "TEXT"
+  }, {
+    "id" : 51,
+    "aqlPath" : "/territory",
+    "path" : "gecco_virologischer_befund/territory",
+    "type" : "TEXT"
+  }, {
+    "id" : 52,
+    "aqlPath" : "/composer|id",
+    "path" : "gecco_virologischer_befund/composer|id",
+    "type" : "TEXT"
+  }, {
+    "id" : 53,
+    "aqlPath" : "/composer|id_scheme",
+    "path" : "gecco_virologischer_befund/composer|id_scheme",
+    "type" : "TEXT"
+  }, {
+    "id" : 54,
+    "aqlPath" : "/composer|id_namespace",
+    "path" : "gecco_virologischer_befund/composer|id_namespace",
+    "type" : "TEXT"
+  }, {
+    "id" : 55,
+    "aqlPath" : "/composer|name",
+    "path" : "gecco_virologischer_befund/composer|name",
+    "type" : "TEXT"
+  } ]
+}

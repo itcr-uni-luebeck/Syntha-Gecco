@@ -1,0 +1,98 @@
+{
+  "system" : "SNOMED Clinical Terms",
+  "code" : "10295004",
+  "description" : "",
+  "children" : [ {
+    "system" : "http://snomed.info/sct",
+    "code" : "708198006",
+    "display" : "Chronic active hepatitis C"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "50167007",
+    "display" : "Chronic active type B viral hepatitis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "66870002",
+    "display" : "Chronic active viral hepatitis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "1116000",
+    "display" : "Chronic aggressive type B viral hepatitis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "89789003",
+    "display" : "Chronic aggressive viral hepatitis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "128302006",
+    "display" : "Chronic hepatitis C"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "768127002",
+    "display" : "Chronic hepatitis C caused by Hepatitis C virus genotype 1"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "768289009",
+    "display" : "Chronic hepatitis C caused by Hepatitis C virus genotype 1a"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "768288001",
+    "display" : "Chronic hepatitis C caused by Hepatitis C virus genotype 1b"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "768125005",
+    "display" : "Chronic hepatitis C caused by Hepatitis C virus genotype 2"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "768006009",
+    "display" : "Chronic hepatitis C caused by Hepatitis C virus genotype 3"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "768126006",
+    "display" : "Chronic hepatitis C caused by Hepatitis C virus genotype 4"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "767810006",
+    "display" : "Chronic hepatitis C caused by hepatitis C virus genotype 5"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "767809001",
+    "display" : "Chronic hepatitis C caused by hepatitis C virus genotype 6"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "838377003",
+    "display" : "Chronic hepatitis C co-occurrent with human immunodeficiency virus infection"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "703866000",
+    "display" : "Chronic hepatitis C with stage 2 fibrosis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "450880008",
+    "display" : "Chronic hepatitis E"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "38662009",
+    "display" : "Chronic persistent type B viral hepatitis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "60037002",
+    "display" : "Chronic persistent viral hepatitis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "61977001",
+    "display" : "Chronic type B viral hepatitis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "10295004",
+    "display" : "Chronic viral hepatitis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "235869004",
+    "display" : "Chronic viral hepatitis B with hepatitis D"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "713966008",
+    "display" : "Occult chronic type B viral hepatitis"
+  } ]
+}

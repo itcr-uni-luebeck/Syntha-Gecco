@@ -1,0 +1,1034 @@
+{
+  "system" : "SNOMED Clinical Terms",
+  "code" : "119206002",
+  "description" : "",
+  "children" : [ {
+    "system" : "http://snomed.info/sct",
+    "code" : "7832008",
+    "display" : "Abdominal aorta structure"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "278965003",
+    "display" : "Anatomic ventriculoaortic junction"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "119203005",
+    "display" : "Aorta part"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "57034009",
+    "display" : "Aortic arch structure"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "86405007",
+    "display" : "Aortic internal elastic membrane"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "24996002",
+    "display" : "Aortic tunica adventitia"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "84206009",
+    "display" : "Aortic tunica intima structure"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "48467007",
+    "display" : "Aortic tunica media"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "314263008",
+    "display" : "Aorticopulmonary body"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "119205003",
+    "display" : "Arterial part"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "54247002",
+    "display" : "Ascending aorta structure"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "119206002",
+    "display" : "Blood vessel part"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "277724007",
+    "display" : "Cardiac valve of Vieussens"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "119204004",
+    "display" : "Coronary artery part"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "281130003",
+    "display" : "Descending aorta structure"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244231007",
+    "display" : "Entire abdominal aorta"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "342399007",
+    "display" : "Entire anatomic arteriovenous anastomosis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728884006",
+    "display" : "Entire anatomic ventriculoaortic junction"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "181300001",
+    "display" : "Entire aortic arch"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244232000",
+    "display" : "Entire aortic bifurcation"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727275003",
+    "display" : "Entire aortic internal elastic membrane"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "197677000",
+    "display" : "Entire aortic isthmus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "731437004",
+    "display" : "Entire aortic sinotubular junction"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "726918009",
+    "display" : "Entire aortic tunica adventitia"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "362031007",
+    "display" : "Entire aortic tunica intima"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727057007",
+    "display" : "Entire aortic tunica media"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "730055005",
+    "display" : "Entire aorticopulmonary body"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "181299009",
+    "display" : "Entire ascending aorta"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728780008",
+    "display" : "Entire cardiac valve of Vieussens"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "261399002",
+    "display" : "Entire descending aorta"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "193386003",
+    "display" : "Entire descending segment of anterior descending branch of left coronary artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "181301002",
+    "display" : "Entire descending thoracic aorta"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "193304002",
+    "display" : "Entire distal portion of anterior descending branch of left coronary artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "193684007",
+    "display" : "Entire distal portion of circumflex branch of left coronary artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "194066003",
+    "display" : "Entire distal portion of right coronary artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "730648009",
+    "display" : "Entire external elastic membrane of artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "273304006",
+    "display" : "Entire extrahepatic part of main portal vein"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "243897006",
+    "display" : "Entire glomerular capillary basement membrane"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "360548001",
+    "display" : "Entire glomus body"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728885007",
+    "display" : "Entire hemodynamic ventriculoaortic junction"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "67435004",
+    "display" : "Entire hepatic sinusoid"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "181304005",
+    "display" : "Entire infrarenal aorta"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "304373004",
+    "display" : "Entire intrahepatic part of main portal vein"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "197932000",
+    "display" : "Entire juxtaductal region of aortic arch"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "819966000",
+    "display" : "Entire juxtarenal aorta"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727915003",
+    "display" : "Entire left aortic arch"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "726829009",
+    "display" : "Entire left coronary artery main stem"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727323009",
+    "display" : "Entire left posterior descending circumflex coronary artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "264066009",
+    "display" : "Entire left sinus of Valsalva"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "198009004",
+    "display" : "Entire ligamentum arteriosum"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "193467007",
+    "display" : "Entire mid portion of anterior descending branch of left coronary artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "361327006",
+    "display" : "Entire mid portion of circumflex branch of left coronary"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "450961005",
+    "display" : "Entire mid portion of right coronary artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "312553002",
+    "display" : "Entire ostium of coronary artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "312554008",
+    "display" : "Entire ostium of left coronary artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "312555009",
+    "display" : "Entire ostium of right coronary artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "276159005",
+    "display" : "Entire paraaortic body"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "871538004",
+    "display" : "Entire pararenal aorta"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "197852003",
+    "display" : "Entire postductal region of aortic arch"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "264150005",
+    "display" : "Entire posterior descending branch of right coronary artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "731436008",
+    "display" : "Entire posterior descending coronary artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "264873000",
+    "display" : "Entire posterior sinus of Valsalva"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "197773005",
+    "display" : "Entire preductal region of aortic arch"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "193229006",
+    "display" : "Entire proximal portion of anterior descending branch of left coronary artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "193619006",
+    "display" : "Entire proximal portion of circumflex branch of left coronary artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "194000007",
+    "display" : "Entire proximal portion of right coronary artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727914004",
+    "display" : "Entire right aortic arch"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727922006",
+    "display" : "Entire right dominant posterior descending artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "264177001",
+    "display" : "Entire right sinus of Valsalva"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "277732004",
+    "display" : "Entire sinus of Valsalva"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "726028002",
+    "display" : "Entire splenic sinusoids"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "320800008",
+    "display" : "Entire sucquet-Hoyer anastomosis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "362032000",
+    "display" : "Entire supraaortic valve area"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "181303004",
+    "display" : "Entire suprarenal aorta"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "362033005",
+    "display" : "Entire terminal aorta"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "302510009",
+    "display" : "Entire thoracic aorta"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "731438009",
+    "display" : "Entire transverse aortic arch"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727406001",
+    "display" : "Entire tunica adventitia of artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "726857002",
+    "display" : "Entire tunica adventitia of vein"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727010006",
+    "display" : "Entire tunica intima of artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "789096003",
+    "display" : "Entire tunica intima of basilar sinus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "789205001",
+    "display" : "Entire tunica intima of cavernous sinus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "789209007",
+    "display" : "Entire tunica intima of confluence of sinuses"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "789207009",
+    "display" : "Entire tunica intima of dural sinus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "816974003",
+    "display" : "Entire tunica intima of external iliac artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "789203008",
+    "display" : "Entire tunica intima of inferior sagittal sinus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "789238005",
+    "display" : "Entire tunica intima of lateral venous sinus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "789201005",
+    "display" : "Entire tunica intima of superior sagittal sinus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "816976001",
+    "display" : "Entire tunica intima of systemic blood vessel"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "726091004",
+    "display" : "Entire tunica intima of vein"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727284003",
+    "display" : "Entire tunica intima of vessel"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727261005",
+    "display" : "Entire tunica media of artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727019007",
+    "display" : "Entire tunica media of vein"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "277723001",
+    "display" : "Entire valve of coronary sinus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "277722006",
+    "display" : "Entire valve of inferior vena cava"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "337116000",
+    "display" : "Entire valve of vein"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "7524009",
+    "display" : "Entire vasa vasorum"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727614001",
+    "display" : "Entire vascular body"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728883000",
+    "display" : "Entire ventriculoaortic junction"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "731549001",
+    "display" : "Entire wall of abdominal aorta"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "731561009",
+    "display" : "Entire wall of anterior cerebral artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "731562002",
+    "display" : "Entire wall of anterior spinal artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "731547004",
+    "display" : "Entire wall of aorta"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "731622006",
+    "display" : "Entire wall of aortic arch"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "710868007",
+    "display" : "Entire wall of artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "731554005",
+    "display" : "Entire wall of artery of head, neck and brain"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "731550001",
+    "display" : "Entire wall of artery of lower extremity"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "731552009",
+    "display" : "Entire wall of artery of upper extremity"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "731623001",
+    "display" : "Entire wall of ascending aorta"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "788478007",
+    "display" : "Entire wall of basilar artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "770911008",
+    "display" : "Entire wall of blood vessel"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "731556007",
+    "display" : "Entire wall of carotid artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "787205009",
+    "display" : "Entire wall of celiac artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "731560005",
+    "display" : "Entire wall of cerebral artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "870634002",
+    "display" : "Entire wall of cervical artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "731620003",
+    "display" : "Entire wall of coronary artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "726666000",
+    "display" : "Entire wall of descending aorta"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "731624007",
+    "display" : "Entire wall of descending thoracic aorta"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "731551002",
+    "display" : "Entire wall of femoral artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "731558008",
+    "display" : "Entire wall of iliac artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "731625008",
+    "display" : "Entire wall of internal carotid artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "860701005",
+    "display" : "Entire wall of intracranial artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "731559000",
+    "display" : "Entire wall of mesenteric artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "731555006",
+    "display" : "Entire wall of precerebral artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "731553004",
+    "display" : "Entire wall of pulmonary artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "731621004",
+    "display" : "Entire wall of renal artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "731548009",
+    "display" : "Entire wall of thoracic aorta"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "362059008",
+    "display" : "Entire wall of vein"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "731557003",
+    "display" : "Entire wall of vertebral artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "414165007",
+    "display" : "External elastic membrane of artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "278966002",
+    "display" : "Hemodynamic ventriculoaortic junction"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244230008",
+    "display" : "Left aortic arch"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "3227004",
+    "display" : "Left coronary artery main stem"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "91753007",
+    "display" : "Mid portion of circumflex branch of left coronary artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "372226003",
+    "display" : "Part of main portal vein"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244229003",
+    "display" : "Right aortic arch"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244259008",
+    "display" : "Right dominant posterior descending artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "360511005",
+    "display" : "Segment of circumflex coronary artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "360487004",
+    "display" : "Segment of coronary artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "360509001",
+    "display" : "Segment of left anterior descending artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "360513008",
+    "display" : "Segment of right coronary artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "9081000",
+    "display" : "Splenic sinusoids"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "36686001",
+    "display" : "Structure of anatomic arteriovenous anastomosis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "73166001",
+    "display" : "Structure of aortic bifurcation"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "88593004",
+    "display" : "Structure of aortic isthmus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "443167003",
+    "display" : "Structure of aortic sinotubular junction"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "43023001",
+    "display" : "Structure of descending segment of anterior descending branch of left coronary artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "32672002",
+    "display" : "Structure of descending thoracic aorta"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "36672000",
+    "display" : "Structure of distal portion of anterior descending branch of left coronary artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "6511003",
+    "display" : "Structure of distal portion of circumflex branch of left coronary artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "41879009",
+    "display" : "Structure of distal portion of right coronary artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "65611003",
+    "display" : "Structure of extrahepatic part of main portal vein"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "45892004",
+    "display" : "Structure of glomerular capillary basement membrane"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "63761000",
+    "display" : "Structure of glomus body"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "271942000",
+    "display" : "Structure of hepatic sinusoid"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "28205006",
+    "display" : "Structure of infrarenal aorta"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "34154005",
+    "display" : "Structure of intrahepatic part of main portal vein"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "17525005",
+    "display" : "Structure of juxtaductal region of aortic arch"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "819962003",
+    "display" : "Structure of juxtarenal aorta"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "91760001",
+    "display" : "Structure of left posterior descending circumflex coronary artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "36371001",
+    "display" : "Structure of left sinus of Valsalva"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "2160002",
+    "display" : "Structure of ligamentum arteriosum"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "91748002",
+    "display" : "Structure of mid portion of anterior descending branch of left coronary artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "450960006",
+    "display" : "Structure of mid portion of right coronary artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "55537005",
+    "display" : "Structure of ostium of coronary artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "76862008",
+    "display" : "Structure of ostium of left coronary artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "56789007",
+    "display" : "Structure of ostium of right coronary artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "90769006",
+    "display" : "Structure of paraaortic body"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "871537009",
+    "display" : "Structure of pararenal aorta"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "60835009",
+    "display" : "Structure of postductal region of aortic arch"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "53655008",
+    "display" : "Structure of posterior descending branch of right coronary artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "443113009",
+    "display" : "Structure of posterior descending coronary artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "24865005",
+    "display" : "Structure of posterior sinus of Valsalva"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "75397005",
+    "display" : "Structure of preductal region of aortic arch"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "68787002",
+    "display" : "Structure of proximal portion of anterior descending branch of left coronary artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "52433000",
+    "display" : "Structure of proximal portion of circumflex branch of left coronary artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "91083009",
+    "display" : "Structure of proximal portion of right coronary artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "89093001",
+    "display" : "Structure of right sinus of Valsalva"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "81128002",
+    "display" : "Structure of sinus of Valsalva"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "367574005",
+    "display" : "Structure of Sucquet-Hoyer anastomosis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "1918003",
+    "display" : "Structure of suprarenal aorta"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "443281009",
+    "display" : "Structure of transverse aortic arch"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "789095004",
+    "display" : "Structure of tunica intima of basilar sinus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "789204002",
+    "display" : "Structure of tunica intima of cavernous sinus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "789208004",
+    "display" : "Structure of tunica intima of confluence of sinuses"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "789206000",
+    "display" : "Structure of tunica intima of dural sinus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "816973009",
+    "display" : "Structure of tunica intima of external iliac artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "789202003",
+    "display" : "Structure of tunica intima of inferior sagittal sinus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "789236009",
+    "display" : "Structure of tunica intima of lateral venous sinus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "789200006",
+    "display" : "Structure of tunica intima of superior sagittal sinus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "816975002",
+    "display" : "Structure of tunica intima of systemic blood vessel"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "48955001",
+    "display" : "Structure of valve of coronary sinus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "61995003",
+    "display" : "Structure of valve of inferior vena cava"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "72139006",
+    "display" : "Structure of valve of vein"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "340365001",
+    "display" : "Structure of vasa vasorum"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "711496002",
+    "display" : "Structure of wall of abdominal aorta"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "711522007",
+    "display" : "Structure of wall of anterior cerebral artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "711523002",
+    "display" : "Structure of wall of anterior spinal artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "711493005",
+    "display" : "Structure of wall of aorta"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "713321006",
+    "display" : "Structure of wall of aortic arch"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "711514000",
+    "display" : "Structure of wall of artery of head, neck and/or brain"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "711510009",
+    "display" : "Structure of wall of artery of lower extremity"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "711512001",
+    "display" : "Structure of wall of artery of upper extremity"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "713322004",
+    "display" : "Structure of wall of ascending aorta"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "788477002",
+    "display" : "Structure of wall of basilar artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "770910009",
+    "display" : "Structure of wall of blood vessel"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "711516003",
+    "display" : "Structure of wall of carotid artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "787114008",
+    "display" : "Structure of wall of celiac artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "711521000",
+    "display" : "Structure of wall of cerebral artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "870633008",
+    "display" : "Structure of wall of cervical artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "713317004",
+    "display" : "Structure of wall of coronary artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "726665001",
+    "display" : "Structure of wall of descending aorta"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "713323009",
+    "display" : "Structure of wall of descending thoracic aorta"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "720808008",
+    "display" : "Structure of wall of external carotid artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "711511008",
+    "display" : "Structure of wall of femoral artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "895093001",
+    "display" : "Structure of wall of hepatic artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "711519005",
+    "display" : "Structure of wall of iliac artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "713324003",
+    "display" : "Structure of wall of internal carotid artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "860700006",
+    "display" : "Structure of wall of intracranial artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "895089007",
+    "display" : "Structure of wall of left brachial artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "723629003",
+    "display" : "Structure of wall of left carotid artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "787111000",
+    "display" : "Structure of wall of left femoral artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "762106000",
+    "display" : "Structure of wall of left iliac artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "895091004",
+    "display" : "Structure of wall of left popliteal artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "764131000",
+    "display" : "Structure of wall of left renal artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "764156006",
+    "display" : "Structure of wall of left subclavian artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "723549002",
+    "display" : "Structure of wall of left vertebral artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "711520004",
+    "display" : "Structure of wall of mesenteric artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "711515004",
+    "display" : "Structure of wall of precerebral artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "711513006",
+    "display" : "Structure of wall of pulmonary artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "713319001",
+    "display" : "Structure of wall of renal artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "895090003",
+    "display" : "Structure of wall of right brachial artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "723548005",
+    "display" : "Structure of wall of right carotid artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "787112007",
+    "display" : "Structure of wall of right femoral artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "762105001",
+    "display" : "Structure of wall of right iliac artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "895092006",
+    "display" : "Structure of wall of right popliteal artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "764130004",
+    "display" : "Structure of wall of right renal artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "764158007",
+    "display" : "Structure of wall of right subclavian artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "723628006",
+    "display" : "Structure of wall of right vertebral artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "764155005",
+    "display" : "Structure of wall of subclavian artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "711494004",
+    "display" : "Structure of wall of thoracic aorta"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "29600002",
+    "display" : "Structure of wall of vein"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "711517007",
+    "display" : "Structure of wall of vertebral artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "8128003",
+    "display" : "Supraaortic valve area structure"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "12424003",
+    "display" : "Terminal aorta structure"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "113262008",
+    "display" : "Thoracic aorta structure"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "113261001",
+    "display" : "Tunica adventitia of artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "13202006",
+    "display" : "Tunica adventitia of vein"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "40022005",
+    "display" : "Tunica intima of artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "2436009",
+    "display" : "Tunica intima of vein"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "87483006",
+    "display" : "Tunica intima of vessel"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "84300001",
+    "display" : "Tunica media of artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "42049001",
+    "display" : "Tunica media of vein"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "181383001",
+    "display" : "Vascular body"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "120579003",
+    "display" : "Vein part"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "278964004",
+    "display" : "Ventriculoaortic junction"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "710863003",
+    "display" : "Wall of artery"
+  } ]
+}
