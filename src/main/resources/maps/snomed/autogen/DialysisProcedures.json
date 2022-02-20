@@ -1,0 +1,258 @@
+{
+  "category": 18,
+  "name" : "DialysisProcedures",
+  "contains" : [ {
+    "system" : "\"http://snomed.info/sct\"",
+    "code" : "\"108241001\"",
+    "display" : null,
+    "childrenOrSelf" : [ {
+      "system" : "http://snomed.info/sct",
+      "code" : "14130001000004103",
+      "display" : "Aquapheresis"
+    }, {
+      "system" : "http://snomed.info/sct",
+      "code" : "786452006",
+      "display" : "Arteriovenous extracorporeal membrane oxygenation"
+    }, {
+      "system" : "http://snomed.info/sct",
+      "code" : "428648006",
+      "display" : "Automated peritoneal dialysis"
+    }, {
+      "system" : "http://snomed.info/sct",
+      "code" : "225230008",
+      "display" : "Chronic peritoneal dialysis"
+    }, {
+      "system" : "http://snomed.info/sct",
+      "code" : "238318009",
+      "display" : "Continuous ambulatory peritoneal dialysis"
+    }, {
+      "system" : "http://snomed.info/sct",
+      "code" : "233589006",
+      "display" : "Continuous arteriovenous hemodiafiltration"
+    }, {
+      "system" : "http://snomed.info/sct",
+      "code" : "233579007",
+      "display" : "Continuous arteriovenous hemodialysis"
+    }, {
+      "system" : "http://snomed.info/sct",
+      "code" : "233584001",
+      "display" : "Continuous arteriovenous hemofiltration"
+    }, {
+      "system" : "http://snomed.info/sct",
+      "code" : "238319001",
+      "display" : "Continuous cycling peritoneal dialysis"
+    }, {
+      "system" : "http://snomed.info/sct",
+      "code" : "233588003",
+      "display" : "Continuous hemodiafiltration"
+    }, {
+      "system" : "http://snomed.info/sct",
+      "code" : "233578004",
+      "display" : "Continuous hemodialysis"
+    }, {
+      "system" : "http://snomed.info/sct",
+      "code" : "233583007",
+      "display" : "Continuous hemofiltration"
+    }, {
+      "system" : "http://snomed.info/sct",
+      "code" : "714749008",
+      "display" : "Continuous renal replacement therapy"
+    }, {
+      "system" : "http://snomed.info/sct",
+      "code" : "233590002",
+      "display" : "Continuous venovenous hemodiafiltration"
+    }, {
+      "system" : "http://snomed.info/sct",
+      "code" : "233580005",
+      "display" : "Continuous venovenous hemodialysis"
+    }, {
+      "system" : "http://snomed.info/sct",
+      "code" : "233585000",
+      "display" : "Continuous venovenous hemofiltration"
+    }, {
+      "system" : "http://snomed.info/sct",
+      "code" : "108241001",
+      "display" : "Dialysis procedure"
+    }, {
+      "system" : "http://snomed.info/sct",
+      "code" : "708933000",
+      "display" : "Emergency hemodiafiltration"
+    }, {
+      "system" : "http://snomed.info/sct",
+      "code" : "708932005",
+      "display" : "Emergency hemodialysis"
+    }, {
+      "system" : "http://snomed.info/sct",
+      "code" : "715743002",
+      "display" : "Emergency hemofiltration"
+    }, {
+      "system" : "http://snomed.info/sct",
+      "code" : "3257008",
+      "display" : "Empty and measure peritoneal dialysis fluid"
+    }, {
+      "system" : "http://snomed.info/sct",
+      "code" : "427053002",
+      "display" : "Extracorporeal albumin hemodialysis"
+    }, {
+      "system" : "http://snomed.info/sct",
+      "code" : "182749009",
+      "display" : "Extracorporeal blood irradiation"
+    }, {
+      "system" : "http://snomed.info/sct",
+      "code" : "233574002",
+      "display" : "Extracorporeal carbon dioxide removal"
+    }, {
+      "system" : "http://snomed.info/sct",
+      "code" : "233572003",
+      "display" : "Extracorporeal gas exchange"
+    }, {
+      "system" : "http://snomed.info/sct",
+      "code" : "341939001",
+      "display" : "Extracorporeal hemofiltration"
+    }, {
+      "system" : "http://snomed.info/sct",
+      "code" : "288182009",
+      "display" : "Extracorporeal kidney"
+    }, {
+      "system" : "http://snomed.info/sct",
+      "code" : "233573008",
+      "display" : "Extracorporeal membrane oxygenation"
+    }, {
+      "system" : "http://snomed.info/sct",
+      "code" : "233586004",
+      "display" : "Hemodiafiltration"
+    }, {
+      "system" : "http://snomed.info/sct",
+      "code" : "302497006",
+      "display" : "Hemodialysis"
+    }, {
+      "system" : "http://snomed.info/sct",
+      "code" : "67970008",
+      "display" : "Hemodialysis, maintenance at home"
+    }, {
+      "system" : "http://snomed.info/sct",
+      "code" : "34897002",
+      "display" : "Hemodialysis, maintenance in hospital"
+    }, {
+      "system" : "http://snomed.info/sct",
+      "code" : "68341005",
+      "display" : "Hemodialysis, supervision at home"
+    }, {
+      "system" : "http://snomed.info/sct",
+      "code" : "233581009",
+      "display" : "Hemofiltration"
+    }, {
+      "system" : "http://snomed.info/sct",
+      "code" : "381000124105",
+      "display" : "Increase dialyzer size for hemodialysis"
+    }, {
+      "system" : "http://snomed.info/sct",
+      "code" : "57274006",
+      "display" : "Initial hemodialysis"
+    }, {
+      "system" : "http://snomed.info/sct",
+      "code" : "233587008",
+      "display" : "Intermittent hemodiafiltration"
+    }, {
+      "system" : "http://snomed.info/sct",
+      "code" : "233575001",
+      "display" : "Intermittent hemodialysis"
+    }, {
+      "system" : "http://snomed.info/sct",
+      "code" : "233577009",
+      "display" : "Intermittent hemodialysis with continuous ultrafiltration"
+    }, {
+      "system" : "http://snomed.info/sct",
+      "code" : "233576000",
+      "display" : "Intermittent hemodialysis with sequential ultrafiltration"
+    }, {
+      "system" : "http://snomed.info/sct",
+      "code" : "233582002",
+      "display" : "Intermittent hemofiltration"
+    }, {
+      "system" : "http://snomed.info/sct",
+      "code" : "238321006",
+      "display" : "Intermittent peritoneal dialysis"
+    }, {
+      "system" : "http://snomed.info/sct",
+      "code" : "182753006",
+      "display" : "Intestinal dialysis"
+    }, {
+      "system" : "http://snomed.info/sct",
+      "code" : "233595007",
+      "display" : "Intravenous gas exchange"
+    }, {
+      "system" : "http://snomed.info/sct",
+      "code" : "708930002",
+      "display" : "Maintenance hemodiafiltration"
+    }, {
+      "system" : "http://snomed.info/sct",
+      "code" : "708931003",
+      "display" : "Maintenance hemodialysis"
+    }, {
+      "system" : "http://snomed.info/sct",
+      "code" : "708934006",
+      "display" : "Maintenance hemofiltration"
+    }, {
+      "system" : "http://snomed.info/sct",
+      "code" : "238323009",
+      "display" : "Night-time intermittent peritoneal dialysis"
+    }, {
+      "system" : "http://snomed.info/sct",
+      "code" : "71192002",
+      "display" : "Peritoneal dialysis"
+    }, {
+      "system" : "http://snomed.info/sct",
+      "code" : "73257006",
+      "display" : "Peritoneal dialysis catheter maintenance"
+    }, {
+      "system" : "http://snomed.info/sct",
+      "code" : "14684005",
+      "display" : "Peritoneal dialysis excluding cannulation"
+    }, {
+      "system" : "http://snomed.info/sct",
+      "code" : "676002",
+      "display" : "Peritoneal dialysis including cannulation"
+    }, {
+      "system" : "http://snomed.info/sct",
+      "code" : "233592005",
+      "display" : "Plasma filtration"
+    }, {
+      "system" : "http://snomed.info/sct",
+      "code" : "895382009",
+      "display" : "Prolonged intermittent renal replacement therapy"
+    }, {
+      "system" : "http://snomed.info/sct",
+      "code" : "265764009",
+      "display" : "Renal dialysis"
+    }, {
+      "system" : "http://snomed.info/sct",
+      "code" : "225231007",
+      "display" : "Stab peritoneal dialysis"
+    }, {
+      "system" : "http://snomed.info/sct",
+      "code" : "11932001",
+      "display" : "Stabilizing hemodialysis"
+    }, {
+      "system" : "http://snomed.info/sct",
+      "code" : "698074000",
+      "display" : "Sustained low-efficiency dialysis"
+    }, {
+      "system" : "http://snomed.info/sct",
+      "code" : "238322004",
+      "display" : "Tidal peritoneal dialysis"
+    }, {
+      "system" : "http://snomed.info/sct",
+      "code" : "182750009",
+      "display" : "Ultrafiltration"
+    }, {
+      "system" : "http://snomed.info/sct",
+      "code" : "786451004",
+      "display" : "Venoarterial extracorporeal membrane oxygenation"
+    }, {
+      "system" : "http://snomed.info/sct",
+      "code" : "786453001",
+      "display" : "Venovenous extracorporeal membrane oxygenation"
+    } ]
+  } ]
+}

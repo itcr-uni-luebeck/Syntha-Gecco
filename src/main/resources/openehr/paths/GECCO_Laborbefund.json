@@ -1,0 +1,664 @@
+{
+  "templateName" : "GECCO_Laborbefund",
+  "paths" : [ {
+    "id" : 0,
+    "aqlPath" : "/context/other_context[at0001]/items[at0004]/value|code",
+    "path" : "laborbefund/context/status|code",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 1,
+    "aqlPath" : "/context/other_context[at0001]/items[at0005]/value",
+    "path" : "laborbefund/context/kategorie",
+    "type" : "TEXT"
+  }, {
+    "id" : 2,
+    "aqlPath" : "/context/start_time",
+    "path" : "laborbefund/context/start_time",
+    "type" : "DATETIME"
+  }, {
+    "id" : 3,
+    "aqlPath" : "/context/setting|code",
+    "path" : "laborbefund/context/setting|code",
+    "type" : "TEXT"
+  }, {
+    "id" : 4,
+    "aqlPath" : "/context/setting|value",
+    "path" : "laborbefund/context/setting|value",
+    "type" : "TEXT"
+  }, {
+    "id" : 5,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[at0005,'Labortest-Kategorie']/value|code",
+    "path" : "laborbefund/laborergebnis/labortest-kategorie|code",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 6,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.specimen.v1]/items[at0029]/value",
+    "path" : "laborbefund/laborergebnis/probe/probenart",
+    "type" : "TEXT"
+  }, {
+    "id" : 7,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.specimen.v1]/items[at0001]/value|id",
+    "path" : "laborbefund/laborergebnis/probe/laborprobenidentifikator|id",
+    "type" : "TEXT"
+  }, {
+    "id" : 8,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.specimen.v1]/items[at0001]/value|type",
+    "path" : "laborbefund/laborergebnis/probe/laborprobenidentifikator|type",
+    "type" : "TEXT"
+  }, {
+    "id" : 9,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.specimen.v1]/items[at0001]/value|issuer",
+    "path" : "laborbefund/laborergebnis/probe/laborprobenidentifikator|issuer",
+    "type" : "TEXT"
+  }, {
+    "id" : 10,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.specimen.v1]/items[at0001]/value|assigner",
+    "path" : "laborbefund/laborergebnis/probe/laborprobenidentifikator|assigner",
+    "type" : "TEXT"
+  }, {
+    "id" : 11,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.specimen.v1]/items[at0088]/value|id",
+    "path" : "laborbefund/laborergebnis/probe/externer_identifikator|id",
+    "type" : "TEXT"
+  }, {
+    "id" : 12,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.specimen.v1]/items[at0088]/value|type",
+    "path" : "laborbefund/laborergebnis/probe/externer_identifikator|type",
+    "type" : "TEXT"
+  }, {
+    "id" : 13,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.specimen.v1]/items[at0088]/value|issuer",
+    "path" : "laborbefund/laborergebnis/probe/externer_identifikator|issuer",
+    "type" : "TEXT"
+  }, {
+    "id" : 14,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.specimen.v1]/items[at0088]/value|assigner",
+    "path" : "laborbefund/laborergebnis/probe/externer_identifikator|assigner",
+    "type" : "TEXT"
+  }, {
+    "id" : 15,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.specimen.v1]/items[at0034]/value",
+    "path" : "laborbefund/laborergebnis/probe/zeitpunkt_des_probeneingangs",
+    "type" : "DATETIME"
+  }, {
+    "id" : 16,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.specimen.v1]/items[at0008]/value",
+    "path" : "laborbefund/laborergebnis/probe/probenentahmebedingung",
+    "type" : "TEXT"
+  }, {
+    "id" : 17,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.specimen.v1]/items[at0007]/value",
+    "path" : "laborbefund/laborergebnis/probe/probenentnahmemethode",
+    "type" : "TEXT"
+  }, {
+    "id" : 18,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.specimen.v1]/items[at0087,'Körperstelle']/value",
+    "path" : "laborbefund/laborergebnis/probe/körperstelle",
+    "type" : "TEXT"
+  }, {
+    "id" : 19,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.specimen.v1]/items[at0015]/value",
+    "path" : "laborbefund/laborergebnis/probe/zeitpunkt_der_probenentnahme/date_time_value",
+    "type" : "DATETIME"
+  }, {
+    "id" : 20,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.specimen.v1]/items[at0015]/value/lower",
+    "path" : "laborbefund/laborergebnis/probe/zeitpunkt_der_probenentnahme/interval_of_date_time_value/lower",
+    "type" : "DATETIME"
+  }, {
+    "id" : 21,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.specimen.v1]/items[at0015]/value/upper",
+    "path" : "laborbefund/laborergebnis/probe/zeitpunkt_der_probenentnahme/interval_of_date_time_value/upper",
+    "type" : "DATETIME"
+  }, {
+    "id" : 22,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.specimen.v1]/items[at0070]/value|id",
+    "path" : "laborbefund/laborergebnis/probe/identifikator_des_probennehmers|id",
+    "type" : "TEXT"
+  }, {
+    "id" : 23,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.specimen.v1]/items[at0070]/value|type",
+    "path" : "laborbefund/laborergebnis/probe/identifikator_des_probennehmers|type",
+    "type" : "TEXT"
+  }, {
+    "id" : 24,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.specimen.v1]/items[at0070]/value|issuer",
+    "path" : "laborbefund/laborergebnis/probe/identifikator_des_probennehmers|issuer",
+    "type" : "TEXT"
+  }, {
+    "id" : 25,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.specimen.v1]/items[at0070]/value|assigner",
+    "path" : "laborbefund/laborergebnis/probe/identifikator_des_probennehmers|assigner",
+    "type" : "TEXT"
+  }, {
+    "id" : 26,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.specimen.v1]/items[at0003]/value|id",
+    "path" : "laborbefund/laborergebnis/probe/identifikator_der_übergeordneten_probe|id",
+    "type" : "TEXT"
+  }, {
+    "id" : 27,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.specimen.v1]/items[at0003]/value|type",
+    "path" : "laborbefund/laborergebnis/probe/identifikator_der_übergeordneten_probe|type",
+    "type" : "TEXT"
+  }, {
+    "id" : 28,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.specimen.v1]/items[at0003]/value|issuer",
+    "path" : "laborbefund/laborergebnis/probe/identifikator_der_übergeordneten_probe|issuer",
+    "type" : "TEXT"
+  }, {
+    "id" : 29,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.specimen.v1]/items[at0003]/value|assigner",
+    "path" : "laborbefund/laborergebnis/probe/identifikator_der_übergeordneten_probe|assigner",
+    "type" : "TEXT"
+  }, {
+    "id" : 30,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.specimen.v1]/items[at0041]/value|code",
+    "path" : "laborbefund/laborergebnis/probe/eignung_zum_testen|code",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 31,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.specimen.v1]/items[at0041]/value|other",
+    "path" : "laborbefund/laborergebnis/probe/eignung_zum_testen|other",
+    "type" : "TEXT"
+  }, {
+    "id" : 32,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.specimen.v1]/items[at0045]/value",
+    "path" : "laborbefund/laborergebnis/probe/kommentar",
+    "type" : "TEXT"
+  }, {
+    "id" : 33,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Pro Laboranalyt']/items[at0024]/value",
+    "path" : "laborbefund/laborergebnis/pro_laboranalyt/bezeichnung_des_analyts",
+    "type" : "TEXT"
+  }, {
+    "id" : 34,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Pro Laboranalyt']/items[at0001,'Messwert']/value",
+    "path" : "laborbefund/laborergebnis/pro_laboranalyt/messwert/text_value",
+    "type" : "TEXT"
+  }, {
+    "id" : 35,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Pro Laboranalyt']/items[at0001,'Messwert']/value|magnitude",
+    "path" : "laborbefund/laborergebnis/pro_laboranalyt/messwert/quantity_value|magnitude",
+    "type" : "DECIMAL"
+  }, {
+    "id" : 36,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Pro Laboranalyt']/items[at0001,'Messwert']/value|unit",
+    "path" : "laborbefund/laborergebnis/pro_laboranalyt/messwert/quantity_value|unit",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 37,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Pro Laboranalyt']/items[at0004,'Interpretation']/value",
+    "path" : "laborbefund/laborergebnis/pro_laboranalyt/interpretation",
+    "type" : "TEXT"
+  }, {
+    "id" : 38,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Pro Laboranalyt']/items[at0028]/Testmethode|code",
+    "path" : "laborbefund/laborergebnis/pro_laboranalyt/testmethode/coded_text_value|code",
+    "type" : "TEXT"
+  }, {
+    "id" : 39,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Pro Laboranalyt']/items[at0028]/Testmethode|value",
+    "path" : "laborbefund/laborergebnis/pro_laboranalyt/testmethode/coded_text_value|value",
+    "type" : "TEXT"
+  }, {
+    "id" : 40,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Pro Laboranalyt']/items[at0028]/Testmethode",
+    "path" : "laborbefund/laborergebnis/pro_laboranalyt/testmethode/text_value",
+    "type" : "TEXT"
+  }, {
+    "id" : 41,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Pro Laboranalyt']/items[at0028]/Testmethode",
+    "path" : "laborbefund/laborergebnis/pro_laboranalyt/testmethode/multimedia_value",
+    "type" : "TEXT"
+  }, {
+    "id" : 42,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Pro Laboranalyt']/items[at0028]/Testmethode|value",
+    "path" : "laborbefund/laborergebnis/pro_laboranalyt/testmethode/parsable_value|value",
+    "type" : "TEXT"
+  }, {
+    "id" : 43,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Pro Laboranalyt']/items[at0028]/Testmethode|formalism",
+    "path" : "laborbefund/laborergebnis/pro_laboranalyt/testmethode/parsable_value|formalism",
+    "type" : "TEXT"
+  }, {
+    "id" : 44,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Pro Laboranalyt']/items[at0028]/Testmethode|code",
+    "path" : "laborbefund/laborergebnis/pro_laboranalyt/testmethode/state_value|code",
+    "type" : "TEXT"
+  }, {
+    "id" : 45,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Pro Laboranalyt']/items[at0028]/Testmethode|value",
+    "path" : "laborbefund/laborergebnis/pro_laboranalyt/testmethode/state_value|value",
+    "type" : "TEXT"
+  }, {
+    "id" : 46,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Pro Laboranalyt']/items[at0028]/Testmethode",
+    "path" : "laborbefund/laborergebnis/pro_laboranalyt/testmethode/boolean_value",
+    "type" : "BOOLEAN"
+  }, {
+    "id" : 47,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Pro Laboranalyt']/items[at0028]/Testmethode|id",
+    "path" : "laborbefund/laborergebnis/pro_laboranalyt/testmethode/identifier_value|id",
+    "type" : "TEXT"
+  }, {
+    "id" : 48,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Pro Laboranalyt']/items[at0028]/Testmethode|type",
+    "path" : "laborbefund/laborergebnis/pro_laboranalyt/testmethode/identifier_value|type",
+    "type" : "TEXT"
+  }, {
+    "id" : 49,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Pro Laboranalyt']/items[at0028]/Testmethode|issuer",
+    "path" : "laborbefund/laborergebnis/pro_laboranalyt/testmethode/identifier_value|issuer",
+    "type" : "TEXT"
+  }, {
+    "id" : 50,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Pro Laboranalyt']/items[at0028]/Testmethode|assigner",
+    "path" : "laborbefund/laborergebnis/pro_laboranalyt/testmethode/identifier_value|assigner",
+    "type" : "TEXT"
+  }, {
+    "id" : 51,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Pro Laboranalyt']/items[at0028]/Testmethode",
+    "path" : "laborbefund/laborergebnis/pro_laboranalyt/testmethode/uri_value",
+    "type" : "TEXT"
+  }, {
+    "id" : 52,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Pro Laboranalyt']/items[at0028]/Testmethode",
+    "path" : "laborbefund/laborergebnis/pro_laboranalyt/testmethode/ehr_uri_value",
+    "type" : "TEXT"
+  }, {
+    "id" : 53,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Pro Laboranalyt']/items[at0028]/Testmethode|year",
+    "path" : "laborbefund/laborergebnis/pro_laboranalyt/testmethode/duration_value|year",
+    "type" : "INTEGER"
+  }, {
+    "id" : 54,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Pro Laboranalyt']/items[at0028]/Testmethode|month",
+    "path" : "laborbefund/laborergebnis/pro_laboranalyt/testmethode/duration_value|month",
+    "type" : "INTEGER"
+  }, {
+    "id" : 55,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Pro Laboranalyt']/items[at0028]/Testmethode|day",
+    "path" : "laborbefund/laborergebnis/pro_laboranalyt/testmethode/duration_value|day",
+    "type" : "INTEGER"
+  }, {
+    "id" : 56,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Pro Laboranalyt']/items[at0028]/Testmethode|week",
+    "path" : "laborbefund/laborergebnis/pro_laboranalyt/testmethode/duration_value|week",
+    "type" : "INTEGER"
+  }, {
+    "id" : 57,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Pro Laboranalyt']/items[at0028]/Testmethode|hour",
+    "path" : "laborbefund/laborergebnis/pro_laboranalyt/testmethode/duration_value|hour",
+    "type" : "INTEGER"
+  }, {
+    "id" : 58,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Pro Laboranalyt']/items[at0028]/Testmethode|minute",
+    "path" : "laborbefund/laborergebnis/pro_laboranalyt/testmethode/duration_value|minute",
+    "type" : "INTEGER"
+  }, {
+    "id" : 59,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Pro Laboranalyt']/items[at0028]/Testmethode|second",
+    "path" : "laborbefund/laborergebnis/pro_laboranalyt/testmethode/duration_value|second",
+    "type" : "INTEGER"
+  }, {
+    "id" : 60,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Pro Laboranalyt']/items[at0028]/Testmethode|magnitude",
+    "path" : "laborbefund/laborergebnis/pro_laboranalyt/testmethode/quantity_value|magnitude",
+    "type" : "DECIMAL"
+  }, {
+    "id" : 61,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Pro Laboranalyt']/items[at0028]/Testmethode|unit",
+    "path" : "laborbefund/laborergebnis/pro_laboranalyt/testmethode/quantity_value|unit",
+    "type" : "TEXT"
+  }, {
+    "id" : 62,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Pro Laboranalyt']/items[at0028]/Testmethode",
+    "path" : "laborbefund/laborergebnis/pro_laboranalyt/testmethode/count_value",
+    "type" : "INTEGER"
+  }, {
+    "id" : 63,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Pro Laboranalyt']/items[at0028]/Testmethode|numerator",
+    "path" : "laborbefund/laborergebnis/pro_laboranalyt/testmethode/proportion_value|numerator",
+    "type" : "DECIMAL"
+  }, {
+    "id" : 64,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Pro Laboranalyt']/items[at0028]/Testmethode|denominator",
+    "path" : "laborbefund/laborergebnis/pro_laboranalyt/testmethode/proportion_value|denominator",
+    "type" : "DECIMAL"
+  }, {
+    "id" : 65,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Pro Laboranalyt']/items[at0028]/Testmethode",
+    "path" : "laborbefund/laborergebnis/pro_laboranalyt/testmethode/date_time_value",
+    "type" : "DATETIME"
+  }, {
+    "id" : 66,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Pro Laboranalyt']/items[at0028]/Testmethode",
+    "path" : "laborbefund/laborergebnis/pro_laboranalyt/testmethode/date_value",
+    "type" : "DATE"
+  }, {
+    "id" : 67,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Pro Laboranalyt']/items[at0028]/Testmethode",
+    "path" : "laborbefund/laborergebnis/pro_laboranalyt/testmethode/time_value",
+    "type" : "TIME"
+  }, {
+    "id" : 68,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Pro Laboranalyt']/items[at0028]/Testmethode",
+    "path" : "laborbefund/laborergebnis/pro_laboranalyt/testmethode/ordinal_value",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 69,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Pro Laboranalyt']/items[at0028]/Testmethode",
+    "path" : "laborbefund/laborergebnis/pro_laboranalyt/testmethode/scale_value",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 70,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Pro Laboranalyt']/items[at0025]/value",
+    "path" : "laborbefund/laborergebnis/pro_laboranalyt/zeitpunkt_der_validierung",
+    "type" : "DATETIME"
+  }, {
+    "id" : 71,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Pro Laboranalyt']/items[at0005]/value|code",
+    "path" : "laborbefund/laborergebnis/pro_laboranalyt/ergebnis-status|code",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 72,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Pro Laboranalyt']/items[at0005]/value|other",
+    "path" : "laborbefund/laborergebnis/pro_laboranalyt/ergebnis-status|other",
+    "type" : "TEXT"
+  }, {
+    "id" : 73,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Pro Laboranalyt']/items[at0006]/value",
+    "path" : "laborbefund/laborergebnis/pro_laboranalyt/zeitpunkt_ergebnis-status",
+    "type" : "DATETIME"
+  }, {
+    "id" : 74,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Pro Laboranalyt']/items[at0026,'Probe ID']/value|id",
+    "path" : "laborbefund/laborergebnis/pro_laboranalyt/probe_id/identifier_value|id",
+    "type" : "TEXT"
+  }, {
+    "id" : 75,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Pro Laboranalyt']/items[at0026,'Probe ID']/value|type",
+    "path" : "laborbefund/laborergebnis/pro_laboranalyt/probe_id/identifier_value|type",
+    "type" : "TEXT"
+  }, {
+    "id" : 76,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Pro Laboranalyt']/items[at0026,'Probe ID']/value|issuer",
+    "path" : "laborbefund/laborergebnis/pro_laboranalyt/probe_id/identifier_value|issuer",
+    "type" : "TEXT"
+  }, {
+    "id" : 77,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Pro Laboranalyt']/items[at0026,'Probe ID']/value|assigner",
+    "path" : "laborbefund/laborergebnis/pro_laboranalyt/probe_id/identifier_value|assigner",
+    "type" : "TEXT"
+  }, {
+    "id" : 78,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Pro Laboranalyt']/items[at0026,'Probe ID']/value",
+    "path" : "laborbefund/laborergebnis/pro_laboranalyt/probe_id/uri_value",
+    "type" : "TEXT"
+  }, {
+    "id" : 79,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Pro Laboranalyt']/items[at0003]/value",
+    "path" : "laborbefund/laborergebnis/pro_laboranalyt/kommentar",
+    "type" : "TEXT"
+  }, {
+    "id" : 80,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[at0057]/value",
+    "path" : "laborbefund/laborergebnis/schlussfolgerung",
+    "type" : "TEXT"
+  }, {
+    "id" : 81,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/time",
+    "path" : "laborbefund/laborergebnis/time",
+    "type" : "DATETIME"
+  }, {
+    "id" : 82,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/protocol[at0004]/items[at0094]/items[at0062,'Identifikation der Laboranforderung']/value|id",
+    "path" : "laborbefund/laborergebnis/details_der_testanforderung/identifikation_der_laboranforderung/identifier_value|id",
+    "type" : "TEXT"
+  }, {
+    "id" : 83,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/protocol[at0004]/items[at0094]/items[at0062,'Identifikation der Laboranforderung']/value|type",
+    "path" : "laborbefund/laborergebnis/details_der_testanforderung/identifikation_der_laboranforderung/identifier_value|type",
+    "type" : "TEXT"
+  }, {
+    "id" : 84,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/protocol[at0004]/items[at0094]/items[at0062,'Identifikation der Laboranforderung']/value|issuer",
+    "path" : "laborbefund/laborergebnis/details_der_testanforderung/identifikation_der_laboranforderung/identifier_value|issuer",
+    "type" : "TEXT"
+  }, {
+    "id" : 85,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/protocol[at0004]/items[at0094]/items[at0062,'Identifikation der Laboranforderung']/value|assigner",
+    "path" : "laborbefund/laborergebnis/details_der_testanforderung/identifikation_der_laboranforderung/identifier_value|assigner",
+    "type" : "TEXT"
+  }, {
+    "id" : 86,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/protocol[at0004]/items[at0094]/items[at0062,'Identifikation der Laboranforderung']/value",
+    "path" : "laborbefund/laborergebnis/details_der_testanforderung/identifikation_der_laboranforderung/text_value",
+    "type" : "TEXT"
+  }, {
+    "id" : 87,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/protocol[at0004]/items[at0121]/Testmethode|code",
+    "path" : "laborbefund/laborergebnis/testmethode/coded_text_value|code",
+    "type" : "TEXT"
+  }, {
+    "id" : 88,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/protocol[at0004]/items[at0121]/Testmethode|value",
+    "path" : "laborbefund/laborergebnis/testmethode/coded_text_value|value",
+    "type" : "TEXT"
+  }, {
+    "id" : 89,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/protocol[at0004]/items[at0121]/Testmethode",
+    "path" : "laborbefund/laborergebnis/testmethode/text_value",
+    "type" : "TEXT"
+  }, {
+    "id" : 90,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/protocol[at0004]/items[at0121]/Testmethode",
+    "path" : "laborbefund/laborergebnis/testmethode/multimedia_value",
+    "type" : "TEXT"
+  }, {
+    "id" : 91,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/protocol[at0004]/items[at0121]/Testmethode|value",
+    "path" : "laborbefund/laborergebnis/testmethode/parsable_value|value",
+    "type" : "TEXT"
+  }, {
+    "id" : 92,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/protocol[at0004]/items[at0121]/Testmethode|formalism",
+    "path" : "laborbefund/laborergebnis/testmethode/parsable_value|formalism",
+    "type" : "TEXT"
+  }, {
+    "id" : 93,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/protocol[at0004]/items[at0121]/Testmethode|code",
+    "path" : "laborbefund/laborergebnis/testmethode/state_value|code",
+    "type" : "TEXT"
+  }, {
+    "id" : 94,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/protocol[at0004]/items[at0121]/Testmethode|value",
+    "path" : "laborbefund/laborergebnis/testmethode/state_value|value",
+    "type" : "TEXT"
+  }, {
+    "id" : 95,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/protocol[at0004]/items[at0121]/Testmethode",
+    "path" : "laborbefund/laborergebnis/testmethode/boolean_value",
+    "type" : "BOOLEAN"
+  }, {
+    "id" : 96,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/protocol[at0004]/items[at0121]/Testmethode|id",
+    "path" : "laborbefund/laborergebnis/testmethode/identifier_value|id",
+    "type" : "TEXT"
+  }, {
+    "id" : 97,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/protocol[at0004]/items[at0121]/Testmethode|type",
+    "path" : "laborbefund/laborergebnis/testmethode/identifier_value|type",
+    "type" : "TEXT"
+  }, {
+    "id" : 98,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/protocol[at0004]/items[at0121]/Testmethode|issuer",
+    "path" : "laborbefund/laborergebnis/testmethode/identifier_value|issuer",
+    "type" : "TEXT"
+  }, {
+    "id" : 99,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/protocol[at0004]/items[at0121]/Testmethode|assigner",
+    "path" : "laborbefund/laborergebnis/testmethode/identifier_value|assigner",
+    "type" : "TEXT"
+  }, {
+    "id" : 100,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/protocol[at0004]/items[at0121]/Testmethode",
+    "path" : "laborbefund/laborergebnis/testmethode/uri_value",
+    "type" : "TEXT"
+  }, {
+    "id" : 101,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/protocol[at0004]/items[at0121]/Testmethode",
+    "path" : "laborbefund/laborergebnis/testmethode/ehr_uri_value",
+    "type" : "TEXT"
+  }, {
+    "id" : 102,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/protocol[at0004]/items[at0121]/Testmethode|year",
+    "path" : "laborbefund/laborergebnis/testmethode/duration_value|year",
+    "type" : "INTEGER"
+  }, {
+    "id" : 103,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/protocol[at0004]/items[at0121]/Testmethode|month",
+    "path" : "laborbefund/laborergebnis/testmethode/duration_value|month",
+    "type" : "INTEGER"
+  }, {
+    "id" : 104,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/protocol[at0004]/items[at0121]/Testmethode|day",
+    "path" : "laborbefund/laborergebnis/testmethode/duration_value|day",
+    "type" : "INTEGER"
+  }, {
+    "id" : 105,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/protocol[at0004]/items[at0121]/Testmethode|week",
+    "path" : "laborbefund/laborergebnis/testmethode/duration_value|week",
+    "type" : "INTEGER"
+  }, {
+    "id" : 106,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/protocol[at0004]/items[at0121]/Testmethode|hour",
+    "path" : "laborbefund/laborergebnis/testmethode/duration_value|hour",
+    "type" : "INTEGER"
+  }, {
+    "id" : 107,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/protocol[at0004]/items[at0121]/Testmethode|minute",
+    "path" : "laborbefund/laborergebnis/testmethode/duration_value|minute",
+    "type" : "INTEGER"
+  }, {
+    "id" : 108,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/protocol[at0004]/items[at0121]/Testmethode|second",
+    "path" : "laborbefund/laborergebnis/testmethode/duration_value|second",
+    "type" : "INTEGER"
+  }, {
+    "id" : 109,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/protocol[at0004]/items[at0121]/Testmethode|magnitude",
+    "path" : "laborbefund/laborergebnis/testmethode/quantity_value|magnitude",
+    "type" : "DECIMAL"
+  }, {
+    "id" : 110,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/protocol[at0004]/items[at0121]/Testmethode|unit",
+    "path" : "laborbefund/laborergebnis/testmethode/quantity_value|unit",
+    "type" : "TEXT"
+  }, {
+    "id" : 111,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/protocol[at0004]/items[at0121]/Testmethode",
+    "path" : "laborbefund/laborergebnis/testmethode/count_value",
+    "type" : "INTEGER"
+  }, {
+    "id" : 112,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/protocol[at0004]/items[at0121]/Testmethode|numerator",
+    "path" : "laborbefund/laborergebnis/testmethode/proportion_value|numerator",
+    "type" : "DECIMAL"
+  }, {
+    "id" : 113,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/protocol[at0004]/items[at0121]/Testmethode|denominator",
+    "path" : "laborbefund/laborergebnis/testmethode/proportion_value|denominator",
+    "type" : "DECIMAL"
+  }, {
+    "id" : 114,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/protocol[at0004]/items[at0121]/Testmethode",
+    "path" : "laborbefund/laborergebnis/testmethode/date_time_value",
+    "type" : "DATETIME"
+  }, {
+    "id" : 115,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/protocol[at0004]/items[at0121]/Testmethode",
+    "path" : "laborbefund/laborergebnis/testmethode/date_value",
+    "type" : "DATE"
+  }, {
+    "id" : 116,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/protocol[at0004]/items[at0121]/Testmethode",
+    "path" : "laborbefund/laborergebnis/testmethode/time_value",
+    "type" : "TIME"
+  }, {
+    "id" : 117,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/protocol[at0004]/items[at0121]/Testmethode",
+    "path" : "laborbefund/laborergebnis/testmethode/ordinal_value",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 118,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/protocol[at0004]/items[at0121]/Testmethode",
+    "path" : "laborbefund/laborergebnis/testmethode/scale_value",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 119,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/language",
+    "path" : "laborbefund/laborergebnis/language",
+    "type" : "TEXT"
+  }, {
+    "id" : 120,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/encoding",
+    "path" : "laborbefund/laborergebnis/encoding",
+    "type" : "TEXT"
+  }, {
+    "id" : 121,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/subject|id",
+    "path" : "laborbefund/laborergebnis/subject|id",
+    "type" : "TEXT"
+  }, {
+    "id" : 122,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/subject|id_scheme",
+    "path" : "laborbefund/laborergebnis/subject|id_scheme",
+    "type" : "TEXT"
+  }, {
+    "id" : 123,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/subject|id_namespace",
+    "path" : "laborbefund/laborergebnis/subject|id_namespace",
+    "type" : "TEXT"
+  }, {
+    "id" : 124,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/subject|name",
+    "path" : "laborbefund/laborergebnis/subject|name",
+    "type" : "TEXT"
+  }, {
+    "id" : 125,
+    "aqlPath" : "/category|code",
+    "path" : "laborbefund/category|code",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 126,
+    "aqlPath" : "/language",
+    "path" : "laborbefund/language",
+    "type" : "TEXT"
+  }, {
+    "id" : 127,
+    "aqlPath" : "/territory",
+    "path" : "laborbefund/territory",
+    "type" : "TEXT"
+  }, {
+    "id" : 128,
+    "aqlPath" : "/composer|id",
+    "path" : "laborbefund/composer|id",
+    "type" : "TEXT"
+  }, {
+    "id" : 129,
+    "aqlPath" : "/composer|id_scheme",
+    "path" : "laborbefund/composer|id_scheme",
+    "type" : "TEXT"
+  }, {
+    "id" : 130,
+    "aqlPath" : "/composer|id_namespace",
+    "path" : "laborbefund/composer|id_namespace",
+    "type" : "TEXT"
+  }, {
+    "id" : 131,
+    "aqlPath" : "/composer|name",
+    "path" : "laborbefund/composer|name",
+    "type" : "TEXT"
+  } ]
+}

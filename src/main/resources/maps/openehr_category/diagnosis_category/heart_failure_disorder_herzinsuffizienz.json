@@ -1,0 +1,438 @@
+{
+  "system" : "SNOMED Clinical Terms",
+  "code" : "84114007",
+  "description" : "",
+  "children" : [ {
+    "system" : "http://snomed.info/sct",
+    "code" : "153931000119109",
+    "display" : "Acute combined systolic and diastolic heart failure"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "10633002",
+    "display" : "Acute congestive heart failure"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "49584005",
+    "display" : "Acute cor pulmonale"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "15964661000119102",
+    "display" : "Acute cor pulmonale due to septic pulmonary embolism"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "443343001",
+    "display" : "Acute diastolic heart failure"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "698296002",
+    "display" : "Acute exacerbation of chronic congestive heart failure"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "56675007",
+    "display" : "Acute heart failure"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "722095005",
+    "display" : "Acute kidney injury due to circulatory failure"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "195114002",
+    "display" : "Acute left ventricular failure"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "74960003",
+    "display" : "Acute left-sided congestive heart failure"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "364006",
+    "display" : "Acute left-sided heart failure"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "153951000119103",
+    "display" : "Acute on chronic combined systolic and diastolic heart failure"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "443344007",
+    "display" : "Acute on chronic diastolic heart failure"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "16838951000119100",
+    "display" : "Acute on chronic right-sided congestive heart failure"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "443253003",
+    "display" : "Acute on chronic systolic heart failure"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "80479009",
+    "display" : "Acute right-sided congestive heart failure"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "359617009",
+    "display" : "Acute right-sided heart failure"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "443254009",
+    "display" : "Acute systolic heart failure"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "78862003",
+    "display" : "Ayerza's syndrome"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "194767001",
+    "display" : "Benign hypertensive heart disease with congestive cardiac failure"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "13839000",
+    "display" : "Bernheim's syndrome"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "92506005",
+    "display" : "Biventricular congestive heart failure"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "71892000",
+    "display" : "Cardiac asthma"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "55565007",
+    "display" : "Cardiac failure after obstetrical surgery AND/OR other procedure including delivery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "5053004",
+    "display" : "Cardiac insufficiency due to prosthesis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "89819002",
+    "display" : "Cardiac insufficiency during AND/OR resulting from a procedure"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "60856006",
+    "display" : "Cardiac insufficiency following cardiac surgery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "445236007",
+    "display" : "Cardiorenal syndrome"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "410431009",
+    "display" : "Cardiorespiratory failure"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "153941000119100",
+    "display" : "Chronic combined systolic and diastolic heart failure"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "88805009",
+    "display" : "Chronic congestive heart failure"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "79955004",
+    "display" : "Chronic cor pulmonale"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "441530006",
+    "display" : "Chronic diastolic heart failure"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "48447003",
+    "display" : "Chronic heart failure"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "5375005",
+    "display" : "Chronic left-sided congestive heart failure"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "111283005",
+    "display" : "Chronic left-sided heart failure"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "66989003",
+    "display" : "Chronic right-sided congestive heart failure"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "10335000",
+    "display" : "Chronic right-sided heart failure"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "441481004",
+    "display" : "Chronic systolic heart failure"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "195112003",
+    "display" : "Compensated cardiac failure"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "206586007",
+    "display" : "Congenital cardiac failure"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "42343007",
+    "display" : "Congestive heart failure"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "72481000119103",
+    "display" : "Congestive heart failure as early postoperative complication"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "101281000119107",
+    "display" : "Congestive heart failure due to cardiomyopathy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "426263006",
+    "display" : "Congestive heart failure due to left ventricular systolic dysfunction"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "426611007",
+    "display" : "Congestive heart failure due to valvular disease"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "717840005",
+    "display" : "Congestive heart failure stage B"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "15629591000119103",
+    "display" : "Congestive heart failure stage B due to ischemic cardiomyopathy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "67441000119101",
+    "display" : "Congestive heart failure stage C"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "15629541000119106",
+    "display" : "Congestive heart failure stage C due to ischemic cardiomyopathy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "67431000119105",
+    "display" : "Congestive heart failure stage D"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "23341000119109",
+    "display" : "Congestive heart failure with right heart failure"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "82523003",
+    "display" : "Congestive rheumatic heart failure"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "83291003",
+    "display" : "Cor pulmonale"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "195111005",
+    "display" : "Decompensated cardiac failure"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "424404003",
+    "display" : "Decompensated chronic heart failure"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "418304008",
+    "display" : "Diastolic heart failure"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "120891000119109",
+    "display" : "Diastolic heart failure stage C"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "120881000119106",
+    "display" : "Diastolic heart failure stage D"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "16253001",
+    "display" : "Dilated peripartum cardiomyopathy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "96311000119109",
+    "display" : "Exacerbation of congestive heart failure"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "462172006",
+    "display" : "Fetal heart failure"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "704242009",
+    "display" : "Fetal heart failure due to extracardiac disease"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "462174007",
+    "display" : "Fetal heart failure with myocardial hypertrophy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "462175008",
+    "display" : "Fetal heart failure with redistribution of cardiac output"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "84114007",
+    "display" : "Heart failure"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "233924009",
+    "display" : "Heart failure as a complication of care"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "471880001",
+    "display" : "Heart failure due to end stage congenital heart disease"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "898208007",
+    "display" : "Heart failure due to thyrotoxicosis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "788950000",
+    "display" : "Heart failure with mid range ejection fraction"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "446221000",
+    "display" : "Heart failure with normal ejection fraction"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "703272007",
+    "display" : "Heart failure with reduced ejection fraction"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "703275009",
+    "display" : "Heart failure with reduced ejection fraction due to cardiomyopathy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "703273002",
+    "display" : "Heart failure with reduced ejection fraction due to coronary artery disease"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "703276005",
+    "display" : "Heart failure with reduced ejection fraction due to heart valve disease"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "703274008",
+    "display" : "Heart failure with reduced ejection fraction due to myocarditis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "10091002",
+    "display" : "High output heart failure"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "15781000119107",
+    "display" : "Hypertensive heart AND chronic kidney disease with congestive heart failure"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "194779001",
+    "display" : "Hypertensive heart and renal disease with (congestive) heart failure"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "194781004",
+    "display" : "Hypertensive heart and renal disease with both (congestive) heart failure and renal failure"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "5148006",
+    "display" : "Hypertensive heart disease with congestive heart failure"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "46113002",
+    "display" : "Hypertensive heart failure"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "1010447000",
+    "display" : "Illegal abortion complicated by cardiac failure"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "609507007",
+    "display" : "Induced termination of pregnancy complicated by cardiac failure"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "45650007",
+    "display" : "Kyphoscoliotic heart disease"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "85232009",
+    "display" : "Left heart failure"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "1010444007",
+    "display" : "Legal abortion complicated by cardiac failure"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "44088000",
+    "display" : "Low cardiac output syndrome"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "25544003",
+    "display" : "Low output heart failure"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "871617000",
+    "display" : "Low output heart failure due to and following Fontan operation"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "83105008",
+    "display" : "Malignant hypertensive heart disease with congestive heart failure"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "276514007",
+    "display" : "Neonatal cardiac failure"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "722919003",
+    "display" : "Neonatal cardiac failure due to decreased left ventricular output"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "724550005",
+    "display" : "Neonatal cardiac failure due to pulmonary overperfusion"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "62377009",
+    "display" : "Postpartum cardiomyopathy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "33644002",
+    "display" : "Postvalvulotomy syndrome"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "314206003",
+    "display" : "Refractory heart failure"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "43736008",
+    "display" : "Rheumatic left ventricular failure"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "44313006",
+    "display" : "Right heart failure secondary to left heart failure"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "367363000",
+    "display" : "Right ventricular failure"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "15964701000119109",
+    "display" : "Saddle embolus of pulmonary artery with acute cor pulmonale"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "277638005",
+    "display" : "Sepsis-associated left ventricular failure"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "277639002",
+    "display" : "Sepsis-associated right ventricular failure"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "698594003",
+    "display" : "Symptomatic congestive heart failure"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "417996009",
+    "display" : "Systolic heart failure"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "120861000119102",
+    "display" : "Systolic heart failure stage C"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "15629741000119102",
+    "display" : "Systolic heart failure stage C due to ischemic cardiomyopathy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "120851000119104",
+    "display" : "Systolic heart failure stage D"
+  } ]
+}

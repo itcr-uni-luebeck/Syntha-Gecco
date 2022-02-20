@@ -1,0 +1,10 @@
+{
+  "system" : "SNOMED Clinical Terms",
+  "code" : "181254001",
+  "description" : "",
+  "children" : [ {
+    "system" : "http://snomed.info/sct",
+    "code" : "181254001",
+    "display" : "Entire large intestine"
+  } ]
+}

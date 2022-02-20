@@ -1,0 +1,318 @@
+{
+  "templateId" : "DNR-Anordnung",
+  "version" : "2.3",
+  "defaultLanguage" : "de",
+  "languages" : [ "de" ],
+  "tree" : {
+    "id" : "dnr-anordnung",
+    "name" : "DNR-Anordnung",
+    "localizedName" : "DNR-Anordnung",
+    "rmType" : "COMPOSITION",
+    "nodeId" : "openEHR-EHR-COMPOSITION.registereintrag.v1",
+    "min" : 1,
+    "max" : 1,
+    "localizedNames" : {
+      "de" : "DNR-Anordnung"
+    },
+    "localizedDescriptions" : {
+      "de" : "Generische Zusammenstellung zur Darstellung eines Datensatzes für Forschungszwecke. "
+    },
+    "aqlPath" : "",
+    "children" : [ {
+      "id" : "context",
+      "rmType" : "EVENT_CONTEXT",
+      "nodeId" : "",
+      "min" : 1,
+      "max" : 1,
+      "aqlPath" : "/context",
+      "children" : [ {
+        "id" : "status",
+        "name" : "Status",
+        "localizedName" : "Status",
+        "rmType" : "DV_CODED_TEXT",
+        "nodeId" : "at0004",
+        "min" : 1,
+        "max" : 1,
+        "localizedNames" : {
+          "de" : "Status"
+        },
+        "localizedDescriptions" : {
+          "de" : "Status der gelieferten Daten für den Registereintrag. Hinweis: Dies ist nicht der Status einzelner Komponenten."
+        },
+        "aqlPath" : "/context/other_context[at0001]/items[at0004]/value",
+        "inputs" : [ {
+          "suffix" : "code",
+          "type" : "CODED_TEXT",
+          "list" : [ {
+            "value" : "entworfen",
+            "label" : "entworfen",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "vorgeschlagen",
+            "label" : "vorgeschlagen",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "aktiv",
+            "label" : "aktiv",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "verworfen",
+            "label" : "verworfen",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "inaktiv",
+            "label" : "inaktiv",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "Eingabefehler",
+            "label" : "Eingabefehler",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          } ],
+          "terminology" : "http://hl7.org/fhir/consent-state-codes"
+        } ]
+      }, {
+        "id" : "kategorie",
+        "name" : "Kategorie",
+        "localizedName" : "Kategorie",
+        "rmType" : "DV_TEXT",
+        "nodeId" : "at0005",
+        "min" : 1,
+        "max" : -1,
+        "localizedNames" : {
+          "de" : "Kategorie"
+        },
+        "localizedDescriptions" : {
+          "de" : "Die Klassifikation des Registereintrags (z.B. Typ der Observation des FHIR-Profils)."
+        },
+        "aqlPath" : "/context/other_context[at0001]/items[at0005]/value",
+        "inputs" : [ {
+          "type" : "TEXT",
+          "list" : [ {
+            "value" : "http://terminology.hl7.org/CodeSystem/consentcategorycodes::dnr::Do Not Resuscitate",
+            "label" : "http://terminology.hl7.org/CodeSystem/consentcategorycodes::dnr::Do Not Resuscitate"
+          } ],
+          "listOpen" : true
+        } ]
+      }, {
+        "id" : "start_time",
+        "name" : "Start_time",
+        "rmType" : "DV_DATE_TIME",
+        "min" : 1,
+        "max" : 1,
+        "aqlPath" : "/context/start_time",
+        "inputs" : [ {
+          "type" : "DATETIME"
+        } ],
+        "inContext" : true
+      }, {
+        "id" : "setting",
+        "name" : "Setting",
+        "rmType" : "DV_CODED_TEXT",
+        "min" : 1,
+        "max" : 1,
+        "aqlPath" : "/context/setting",
+        "inputs" : [ {
+          "suffix" : "code",
+          "type" : "TEXT"
+        }, {
+          "suffix" : "value",
+          "type" : "TEXT"
+        } ],
+        "inContext" : true
+      } ]
+    }, {
+      "id" : "dnr-anordnung",
+      "name" : "DNR-Anordnung",
+      "localizedName" : "DNR-Anordnung",
+      "rmType" : "EVALUATION",
+      "nodeId" : "openEHR-EHR-EVALUATION.advance_care_directive.v1",
+      "min" : 1,
+      "max" : 1,
+      "localizedNames" : {
+        "de" : "DNR-Anordnung"
+      },
+      "localizedDescriptions" : {
+        "de" : "Ein Framework zur Kommunikation der Präferenzen einer Person für zukünftige medizinische Behandlung und Pflege."
+      },
+      "annotations" : {
+        "adr" : "Advanced Care Directive"
+      },
+      "aqlPath" : "/content[openEHR-EHR-EVALUATION.advance_care_directive.v1,'DNR-Anordnung']",
+      "children" : [ {
+        "id" : "art_der_richtlinie",
+        "name" : "Art der Richtlinie",
+        "localizedName" : "Art der Richtlinie",
+        "rmType" : "DV_TEXT",
+        "nodeId" : "at0005",
+        "min" : 1,
+        "max" : 1,
+        "localizedNames" : {
+          "de" : "Art der Richtlinie"
+        },
+        "localizedDescriptions" : {
+          "de" : "Die Art der Patientenverfügung."
+        },
+        "annotations" : {
+          "comment" : "Eine kurze schriftliche Beschreibung der Art der Patientenverfügung. Eine Kodierung mit einer Terminologie wird, bevorzugt. Es wird erwartet, dass diese weitgehend lokalisiert ist, um die lokale Politik und Gesetzgebung widerzuspiegeln.\r\n\r\nIn den Niederlanden beispielsweise umfassen die Arten von Patientenverfügungen unter anderem \"Behandlungsverbot\", \" Behandlungsverbot mit Beendigung des abgeschlossenen Lebens\", \"Euthanasieantrag\" und \"Lebenserklärung\".\r\n\r\nIm Vereinigten Königreich gehören zu den Arten von Patientenverfügungen im Rahmen der medizinischen Versorgung die \"Vorabentscheidung\", die \"Patientenverfügung\" und die \" Voraberklärung\".\r\n \r\n"
+        },
+        "aqlPath" : "/content[openEHR-EHR-EVALUATION.advance_care_directive.v1,'DNR-Anordnung']/data[at0001]/items[at0005]/value",
+        "inputs" : [ {
+          "type" : "TEXT",
+          "list" : [ {
+            "value" : "http://terminology.hl7.org/CodeSystem/consentcategorycodes::dnr::Do No Resusciate",
+            "label" : "http://terminology.hl7.org/CodeSystem/consentcategorycodes::dnr::Do No Resusciate"
+          } ],
+          "listOpen" : false
+        } ]
+      }, {
+        "id" : "beschreibung",
+        "name" : "Beschreibung",
+        "localizedName" : "Beschreibung",
+        "rmType" : "DV_CODED_TEXT",
+        "nodeId" : "at0006",
+        "min" : 1,
+        "max" : 1,
+        "localizedNames" : {
+          "de" : "Beschreibung"
+        },
+        "localizedDescriptions" : {
+          "de" : "Beschreibung der allgemeinen Patientenverfügung."
+        },
+        "annotations" : {
+          "comment" : "Kann verwendet werden, um eine Übersicht über die gesamte Patientenverfügung zu erfassen, die durch strukturierte Daten unterstützt werden kann. Angaben zu bestimmten strukturierten Befunden können unter Verwendung von CLUSTER-Archetypen in den Slot \"Einzelheiten zur Richtlinie\" aufgenommen werden. Dieses Datenelement kann verwendet werden, um Altdaten zu erfassen, die nicht in einem strukturierten Format verfügbar sind.\r\n"
+        },
+        "aqlPath" : "/content[openEHR-EHR-EVALUATION.advance_care_directive.v1,'DNR-Anordnung']/data[at0001]/items[at0006]/value",
+        "inputs" : [ {
+          "suffix" : "code",
+          "type" : "CODED_TEXT",
+          "list" : [ {
+            "value" : "304252001",
+            "label" : "For resuscitation (finding)",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "304253006",
+            "label" : "Not for resuscitation (finding)",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "261665006",
+            "label" : "Unknown (qualifier value)",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          } ],
+          "terminology" : "SNOMED Clinical Terms"
+        } ]
+      }, {
+        "id" : "language",
+        "name" : "Language",
+        "rmType" : "CODE_PHRASE",
+        "min" : 1,
+        "max" : 1,
+        "aqlPath" : "/content[openEHR-EHR-EVALUATION.advance_care_directive.v1,'DNR-Anordnung']/language",
+        "inContext" : true
+      }, {
+        "id" : "encoding",
+        "name" : "Encoding",
+        "rmType" : "CODE_PHRASE",
+        "min" : 1,
+        "max" : 1,
+        "aqlPath" : "/content[openEHR-EHR-EVALUATION.advance_care_directive.v1,'DNR-Anordnung']/encoding",
+        "inContext" : true
+      }, {
+        "id" : "subject",
+        "name" : "Subject",
+        "rmType" : "PARTY_PROXY",
+        "min" : 1,
+        "max" : 1,
+        "aqlPath" : "/content[openEHR-EHR-EVALUATION.advance_care_directive.v1,'DNR-Anordnung']/subject",
+        "inputs" : [ {
+          "suffix" : "id",
+          "type" : "TEXT"
+        }, {
+          "suffix" : "id_scheme",
+          "type" : "TEXT"
+        }, {
+          "suffix" : "id_namespace",
+          "type" : "TEXT"
+        }, {
+          "suffix" : "name",
+          "type" : "TEXT"
+        } ],
+        "inContext" : true
+      } ]
+    }, {
+      "id" : "category",
+      "rmType" : "DV_CODED_TEXT",
+      "nodeId" : "",
+      "min" : 1,
+      "max" : 1,
+      "aqlPath" : "/category",
+      "inputs" : [ {
+        "suffix" : "code",
+        "type" : "CODED_TEXT",
+        "list" : [ {
+          "value" : "433",
+          "label" : "event",
+          "localizedLabels" : {
+            "de" : ""
+          }
+        } ],
+        "terminology" : "openehr"
+      } ],
+      "inContext" : true
+    }, {
+      "id" : "language",
+      "name" : "Language",
+      "rmType" : "CODE_PHRASE",
+      "min" : 1,
+      "max" : 1,
+      "aqlPath" : "/language",
+      "inContext" : true
+    }, {
+      "id" : "territory",
+      "name" : "Territory",
+      "rmType" : "CODE_PHRASE",
+      "min" : 1,
+      "max" : 1,
+      "aqlPath" : "/territory",
+      "inContext" : true
+    }, {
+      "id" : "composer",
+      "name" : "Composer",
+      "rmType" : "PARTY_PROXY",
+      "min" : 1,
+      "max" : 1,
+      "aqlPath" : "/composer",
+      "inputs" : [ {
+        "suffix" : "id",
+        "type" : "TEXT"
+      }, {
+        "suffix" : "id_scheme",
+        "type" : "TEXT"
+      }, {
+        "suffix" : "id_namespace",
+        "type" : "TEXT"
+      }, {
+        "suffix" : "name",
+        "type" : "TEXT"
+      } ],
+      "inContext" : true
+    } ]
+  }
+}

@@ -1,0 +1,2722 @@
+{
+  "templateId" : "GECCO_Medikation",
+  "semVer" : "1.0.0",
+  "version" : "2.3",
+  "defaultLanguage" : "de",
+  "languages" : [ "de" ],
+  "tree" : {
+    "id" : "medikation",
+    "name" : "Medikation",
+    "localizedName" : "Medikation",
+    "rmType" : "COMPOSITION",
+    "nodeId" : "openEHR-EHR-COMPOSITION.registereintrag.v1",
+    "min" : 1,
+    "max" : 1,
+    "localizedNames" : {
+      "de" : "Medikation"
+    },
+    "localizedDescriptions" : {
+      "de" : "Generische Zusammenstellung zur Darstellung eines Datensatzes für Forschungszwecke. "
+    },
+    "aqlPath" : "",
+    "children" : [ {
+      "id" : "context",
+      "rmType" : "EVENT_CONTEXT",
+      "nodeId" : "",
+      "min" : 1,
+      "max" : 1,
+      "aqlPath" : "/context",
+      "children" : [ {
+        "id" : "kategorie",
+        "name" : "Kategorie",
+        "localizedName" : "Kategorie",
+        "rmType" : "DV_CODED_TEXT",
+        "nodeId" : "at0005",
+        "min" : 0,
+        "max" : 1,
+        "localizedNames" : {
+          "de" : "Kategorie"
+        },
+        "localizedDescriptions" : {
+          "de" : "Die Klassifikation des Registereintrags (z.B. Typ der Observation des FHIR-Profils)."
+        },
+        "aqlPath" : "/context/other_context[at0001]/items[at0005]/value",
+        "inputs" : [ {
+          "suffix" : "code",
+          "type" : "CODED_TEXT",
+          "list" : [ {
+            "value" : "inpatient",
+            "label" : "Inpatient",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "outpatient",
+            "label" : "Outpatient",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "community",
+            "label" : "Community",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "patientspecified",
+            "label" : "Patient Specified",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          } ],
+          "terminology" : "HL7 FHIR"
+        } ]
+      }, {
+        "id" : "start_time",
+        "name" : "Start_time",
+        "rmType" : "DV_DATE_TIME",
+        "min" : 1,
+        "max" : 1,
+        "aqlPath" : "/context/start_time",
+        "inputs" : [ {
+          "type" : "DATETIME"
+        } ],
+        "inContext" : true
+      }, {
+        "id" : "setting",
+        "name" : "Setting",
+        "rmType" : "DV_CODED_TEXT",
+        "min" : 1,
+        "max" : 1,
+        "aqlPath" : "/context/setting",
+        "inputs" : [ {
+          "suffix" : "code",
+          "type" : "TEXT"
+        }, {
+          "suffix" : "value",
+          "type" : "TEXT"
+        } ],
+        "inContext" : true
+      } ]
+    }, {
+      "id" : "covid-19_therapie",
+      "name" : "COVID-19 Therapie",
+      "localizedName" : "COVID-19 Therapie",
+      "rmType" : "OBSERVATION",
+      "nodeId" : "openEHR-EHR-OBSERVATION.medication_statement.v0",
+      "min" : 0,
+      "max" : 1,
+      "localizedNames" : {
+        "de" : "COVID-19 Therapie"
+      },
+      "localizedDescriptions" : {
+        "de" : "Eine Snapshot-Ansicht über die Anwendung eines bestimmten Medikaments."
+      },
+      "aqlPath" : "/content[openEHR-EHR-OBSERVATION.medication_statement.v0,'COVID-19 Therapie']",
+      "children" : [ {
+        "id" : "arzneimittel-name",
+        "name" : "Arzneimittel-Name",
+        "localizedName" : "Arzneimittel-Name",
+        "rmType" : "DV_CODED_TEXT",
+        "nodeId" : "at0006",
+        "min" : 1,
+        "max" : 1,
+        "localizedNames" : {
+          "de" : "Arzneimittel-Name"
+        },
+        "localizedDescriptions" : {
+          "de" : "Name des Medikaments, des Impfstoffs oder eines anderen therapeutischen / verschreibungsfähigen Mittels."
+        },
+        "annotations" : {
+          "comment" : "Es wird dringend empfohlen, das „Arzneimittel“ mit einer Terminologie zu codieren, die nach Möglichkeit Entscheidungsunterstützung auslösen kann. Das Ausmaß der Codierung kann vom einfachen generischen oder Handelsnamen des Medikamentes bis hin zu strukturierten Angaben über die tatsächlich zu verwendende Medikamentenpackung variieren. Die Freitexteingabe sollte nur verwendet werden, wenn keine geeignete Terminologie verfügbar ist.",
+          "fhir" : "medicationCodeableConcept",
+          "terminology2" : "http://snomed.info/sct",
+          "terminology1" : "http://fhir.de/CodeSystem/dimdi/atc"
+        },
+        "aqlPath" : "/content[openEHR-EHR-OBSERVATION.medication_statement.v0,'COVID-19 Therapie']/data[at0001]/events[at0002]/data[at0003]/items[at0006]/value",
+        "inputs" : [ {
+          "suffix" : "code",
+          "type" : "CODED_TEXT",
+          "list" : [ {
+            "value" : "768759001",
+            "label" : "Product containing steroid (product)",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "413591007",
+            "label" : "Product containing atazanavir (medicinal product)",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "424096001",
+            "label" : "Product containing darunavir (medicinal product)",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "14728000",
+            "label" : "Product containing chloroquine (medicinal product)",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "83490000",
+            "label" : "Product containing hydroxychloroquine (medicinal product)",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "96138006",
+            "label" : "Product containing ivermectin (medicinal product)",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "134573001",
+            "label" : "Product containing lopinavir and ritonavir (medicinal product)",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "78025001",
+            "label" : "Product containing ganciclovir (medicinal product)",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "386142008",
+            "label" : "Product containing oseltamivir (medicinal product)",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "870518005",
+            "label" : "Product containing remdesivir (medicinal product)",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "35063004",
+            "label" : "Product containing ribavirin (medicinal product)",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "444649004",
+            "label" : "Product containing tocilizumab (medicinal product)",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "763522001",
+            "label" : "Product containing sarilumab (medicinal product)",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "416587008",
+            "label" : "Product containing calcineurin inhibitor (product)",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "416897008",
+            "label" : "Product containing tumor necrosis factor alpha inhibitor (product)",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "430817009",
+            "label" : "Product containing interleukin 1 receptor antagonist (product)",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "703779004",
+            "label" : "Product containing ruxolitinib (medicinal product)",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "73133000",
+            "label" : "Product containing colchicine (medicinal product)",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "768865007",
+            "label" : "Product containing interferon (product)",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "88519001",
+            "label" : "Product containing calcifediol (medicinal product)",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "764877006",
+            "label" : "Product containing zinc (medicinal product)",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "41549009",
+            "label" : "Product containing angiotensin-converting enzyme inhibitor (product)",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          } ],
+          "terminology" : "SNOMED CT"
+        } ]
+      }, {
+        "id" : "status",
+        "name" : "Status",
+        "localizedName" : "Status",
+        "rmType" : "DV_CODED_TEXT",
+        "nodeId" : "at0008",
+        "min" : 0,
+        "max" : 1,
+        "localizedNames" : {
+          "de" : "Status"
+        },
+        "localizedDescriptions" : {
+          "de" : "Der Status der Anwendung des Medikaments."
+        },
+        "annotations" : {
+          "comment" : "Zum Beispiel: Das Medikament wird immer noch aktiv eingenommen oder eine Antibiotikatherapie wurde abgeschlossen."
+        },
+        "aqlPath" : "/content[openEHR-EHR-OBSERVATION.medication_statement.v0,'COVID-19 Therapie']/data[at0001]/events[at0002]/data[at0003]/items[at0008]/value",
+        "inputs" : [ {
+          "suffix" : "code",
+          "type" : "CODED_TEXT",
+          "list" : [ {
+            "value" : "at0009",
+            "label" : "Vorgesehen",
+            "localizedLabels" : {
+              "de" : "Vorgesehen"
+            },
+            "localizedDescriptions" : {
+              "de" : "Das Medikament soll in Zukunft zu einem nicht festgelegten Zeitpunkt angewendet werden."
+            }
+          }, {
+            "value" : "at0010",
+            "label" : "Geplant",
+            "localizedLabels" : {
+              "de" : "Geplant"
+            },
+            "localizedDescriptions" : {
+              "de" : "Das Medikament soll zu einem späteren Zeitpunkt eingenommen werden."
+            }
+          }, {
+            "value" : "at0011",
+            "label" : "Aktiv",
+            "localizedLabels" : {
+              "de" : "Aktiv"
+            },
+            "localizedDescriptions" : {
+              "de" : "Das Medikament wird derzeit angewendet."
+            }
+          }, {
+            "value" : "at0012",
+            "label" : "Abgeschlossen",
+            "localizedLabels" : {
+              "de" : "Abgeschlossen"
+            },
+            "localizedDescriptions" : {
+              "de" : "Das Medikament wird nicht mehr angewendet."
+            }
+          }, {
+            "value" : "at0013",
+            "label" : "Verschoben",
+            "localizedLabels" : {
+              "de" : "Verschoben"
+            },
+            "localizedDescriptions" : {
+              "de" : "Die Anwendung des Medikaments ist geplant, der Beginn wurde jedoch vorübergehend verzögert."
+            }
+          }, {
+            "value" : "at0014",
+            "label" : "Widerrufen",
+            "localizedLabels" : {
+              "de" : "Widerrufen"
+            },
+            "localizedDescriptions" : {
+              "de" : "Das Medikament sollte angewendet werden, wurde jedoch vor Beginn abgesagt."
+            }
+          }, {
+            "value" : "at0015",
+            "label" : "Unterbrochen",
+            "localizedLabels" : {
+              "de" : "Unterbrochen"
+            },
+            "localizedDescriptions" : {
+              "de" : "Die Medikamentenanwendung wurde begonnen, aber vorübergehend ausgesetzt."
+            }
+          }, {
+            "value" : "at0016",
+            "label" : "Abgebrochen",
+            "localizedLabels" : {
+              "de" : "Abgebrochen"
+            },
+            "localizedDescriptions" : {
+              "de" : "Die Medikamentenanwendung wurde begonnen und dann eingestellt."
+            }
+          }, {
+            "value" : "at0017",
+            "label" : "Unbekannt",
+            "localizedLabels" : {
+              "de" : "Unbekannt"
+            },
+            "localizedDescriptions" : {
+              "de" : "Der Status der Medikamentenanwendung ist nicht bekannt."
+            }
+          } ]
+        } ]
+      }, {
+        "id" : "grund",
+        "name" : "Grund",
+        "localizedName" : "Grund",
+        "rmType" : "DV_CODED_TEXT",
+        "nodeId" : "at0023",
+        "min" : 0,
+        "max" : 1,
+        "localizedNames" : {
+          "de" : "Grund"
+        },
+        "localizedDescriptions" : {
+          "de" : "Der klinische Grund für die Anwendung des Medikaments."
+        },
+        "annotations" : {
+          "comment" : "Zum Beispiel: \"Angina\". Die Codierung der klinischen Indikation mit einer Terminologie wird nach Möglichkeit bevorzugt. Dieses Datenelement kann mehrfach vorkommen.",
+          "fhir" : "reasonCode",
+          "terminology" : "http://snomed.info/sct"
+        },
+        "aqlPath" : "/content[openEHR-EHR-OBSERVATION.medication_statement.v0,'COVID-19 Therapie']/data[at0001]/events[at0002]/data[at0003]/items[at0023,'Grund']/value",
+        "inputs" : [ {
+          "suffix" : "code",
+          "type" : "CODED_TEXT",
+          "list" : [ {
+            "value" : "421974008",
+            "label" : "Adjunct - intent (qualifier value)",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "373846009",
+            "label" : "Adjuvant - intent (qualifier value)",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "373808002",
+            "label" : "Curative - procedure intent (qualifier value)",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "373847000",
+            "label" : "Neo-adjuvant - intent (qualifier value)",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "360271000",
+            "label" : "Prophylaxis - procedure intent (qualifier value)",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "399707004",
+            "label" : "Supportive - procedure intent (qualifier value)",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          } ],
+          "terminology" : "SNOMED CT"
+        } ]
+      }, {
+        "id" : "time",
+        "name" : "Time",
+        "rmType" : "DV_DATE_TIME",
+        "min" : 1,
+        "max" : 1,
+        "aqlPath" : "/content[openEHR-EHR-OBSERVATION.medication_statement.v0,'COVID-19 Therapie']/data[at0001]/events[at0002]/time",
+        "inputs" : [ {
+          "type" : "DATETIME"
+        } ],
+        "inContext" : true
+      }, {
+        "id" : "status2",
+        "name" : "Status",
+        "localizedName" : "Status",
+        "rmType" : "CLUSTER",
+        "nodeId" : "openEHR-EHR-CLUSTER.medication_status_fhir.v0",
+        "min" : 1,
+        "max" : 1,
+        "dependsOn" : [ "grund", "arzneimittel-name", "status" ],
+        "localizedNames" : {
+          "de" : "Status"
+        },
+        "localizedDescriptions" : {
+          "de" : "Ein Code, der die Beurteilung des Patienten oder einer anderen Beurteilungsquelle über den Status des angewendeten Medikaments darstellt, mit dem sich diese Angabe befasst. Im Allgemeinen wird dies aktiv oder abgeschlossen sein."
+        },
+        "aqlPath" : "/content[openEHR-EHR-OBSERVATION.medication_statement.v0,'COVID-19 Therapie']/protocol[at0004]/items[openEHR-EHR-CLUSTER.medication_status_fhir.v0,'Status']",
+        "children" : [ {
+          "id" : "status",
+          "name" : "Status",
+          "localizedName" : "Status",
+          "rmType" : "DV_CODED_TEXT",
+          "nodeId" : "at0001",
+          "min" : 1,
+          "max" : 1,
+          "localizedNames" : {
+            "de" : "Status"
+          },
+          "localizedDescriptions" : {
+            "de" : "Status der Einnahme des Medikamentes im Verlauf oder nach dem Ende der Therapie bzw. der Nachsorge."
+          },
+          "aqlPath" : "/content[openEHR-EHR-OBSERVATION.medication_statement.v0,'COVID-19 Therapie']/protocol[at0004]/items[openEHR-EHR-CLUSTER.medication_status_fhir.v0,'Status']/items[at0001]/value",
+          "inputs" : [ {
+            "suffix" : "code",
+            "type" : "CODED_TEXT",
+            "list" : [ {
+              "value" : "at0002",
+              "label" : "Aktiv",
+              "localizedLabels" : {
+                "de" : "Aktiv"
+              },
+              "localizedDescriptions" : {
+                "de" : "Das Medikament wird noch angewendet."
+              }
+            }, {
+              "value" : "at0003",
+              "label" : "Abgeschlossen",
+              "localizedLabels" : {
+                "de" : "Abgeschlossen"
+              },
+              "localizedDescriptions" : {
+                "de" : "Das Medikament wird nicht mehr angewendet."
+              }
+            }, {
+              "value" : "at0004",
+              "label" : "Fehlerhafte Anwendung",
+              "localizedLabels" : {
+                "de" : "Fehlerhafte Anwendung"
+              },
+              "localizedDescriptions" : {
+                "de" : "Einige der Aktionen, die im Medikation Statement enthalten sind, können bereits stattgefunden haben. Beispielsweise kann der Patient einen Teil der Medikamente eingenommen haben."
+              }
+            }, {
+              "value" : "at0005",
+              "label" : "Beabsichtigt",
+              "localizedLabels" : {
+                "de" : "Beabsichtigt"
+              },
+              "localizedDescriptions" : {
+                "de" : "Die Medikation kann irgendwann in der Zukunft angewendet werden."
+              }
+            }, {
+              "value" : "at0006",
+              "label" : "Gestoppt",
+              "localizedLabels" : {
+                "de" : "Gestoppt"
+              },
+              "localizedDescriptions" : {
+                "de" : "Die im Medikation Statement implizierten Aktionen wurden dauerhaft gestoppt, bevor alle von ihnen eingetreten sind. Dies sollte nicht verwendet werden, wenn Medikation Statement versehentlich eingegeben wurde."
+              }
+            }, {
+              "value" : "at0007",
+              "label" : "Angehalten",
+              "localizedLabels" : {
+                "de" : "Angehalten"
+              },
+              "localizedDescriptions" : {
+                "de" : "Die im Medikation Statement implizierten Aktionen wurden vorübergehend gestoppt, werden aber voraussichtlich später fortgesetzt. Kann auch als \"ausgesetzt\" bezeichnet werden."
+              }
+            }, {
+              "value" : "at0008",
+              "label" : "Unbekannt",
+              "localizedLabels" : {
+                "de" : "Unbekannt"
+              },
+              "localizedDescriptions" : {
+                "de" : "Der Status des Medikaments ist derzeit nicht bekannt."
+              }
+            }, {
+              "value" : "at0009",
+              "label" : "Nicht genommen",
+              "localizedLabels" : {
+                "de" : "Nicht genommen"
+              },
+              "localizedDescriptions" : {
+                "de" : "Das Medikament wurde vom Patienten nicht angewendet."
+              }
+            } ]
+          } ]
+        }, {
+          "id" : "kommentar",
+          "name" : "Kommentar",
+          "localizedName" : "Kommentar",
+          "rmType" : "DV_TEXT",
+          "nodeId" : "at0014",
+          "min" : 0,
+          "max" : -1,
+          "localizedNames" : {
+            "de" : "Kommentar"
+          },
+          "localizedDescriptions" : {
+            "de" : "Zusätzliche Informationen über die Medikation, die nicht in anderen Bereichen dargestellt wurden."
+          },
+          "aqlPath" : "/content[openEHR-EHR-OBSERVATION.medication_statement.v0,'COVID-19 Therapie']/protocol[at0004]/items[openEHR-EHR-CLUSTER.medication_status_fhir.v0,'Status']/items[at0014]/value",
+          "inputs" : [ {
+            "type" : "TEXT"
+          } ]
+        } ]
+      }, {
+        "id" : "language",
+        "name" : "Language",
+        "rmType" : "CODE_PHRASE",
+        "min" : 1,
+        "max" : 1,
+        "aqlPath" : "/content[openEHR-EHR-OBSERVATION.medication_statement.v0,'COVID-19 Therapie']/language",
+        "inContext" : true
+      }, {
+        "id" : "encoding",
+        "name" : "Encoding",
+        "rmType" : "CODE_PHRASE",
+        "min" : 1,
+        "max" : 1,
+        "aqlPath" : "/content[openEHR-EHR-OBSERVATION.medication_statement.v0,'COVID-19 Therapie']/encoding",
+        "inContext" : true
+      }, {
+        "id" : "subject",
+        "name" : "Subject",
+        "rmType" : "PARTY_PROXY",
+        "min" : 1,
+        "max" : 1,
+        "aqlPath" : "/content[openEHR-EHR-OBSERVATION.medication_statement.v0,'COVID-19 Therapie']/subject",
+        "inputs" : [ {
+          "suffix" : "id",
+          "type" : "TEXT"
+        }, {
+          "suffix" : "id_scheme",
+          "type" : "TEXT"
+        }, {
+          "suffix" : "id_namespace",
+          "type" : "TEXT"
+        }, {
+          "suffix" : "name",
+          "type" : "TEXT"
+        } ],
+        "inContext" : true
+      } ]
+    }, {
+      "id" : "ace-hemmer",
+      "name" : "ACE-Hemmer",
+      "localizedName" : "ACE-Hemmer",
+      "rmType" : "OBSERVATION",
+      "nodeId" : "openEHR-EHR-OBSERVATION.medication_statement.v0",
+      "min" : 0,
+      "max" : 1,
+      "localizedNames" : {
+        "de" : "ACE-Hemmer"
+      },
+      "localizedDescriptions" : {
+        "de" : "Eine Snapshot-Ansicht über die Anwendung eines bestimmten Medikaments."
+      },
+      "aqlPath" : "/content[openEHR-EHR-OBSERVATION.medication_statement.v0,'ACE-Hemmer']",
+      "children" : [ {
+        "id" : "arzneimittel-name",
+        "name" : "Arzneimittel-Name",
+        "localizedName" : "Arzneimittel-Name",
+        "rmType" : "DV_CODED_TEXT",
+        "nodeId" : "at0006",
+        "min" : 1,
+        "max" : 1,
+        "localizedNames" : {
+          "de" : "Arzneimittel-Name"
+        },
+        "localizedDescriptions" : {
+          "de" : "Name des Medikaments, des Impfstoffs oder eines anderen therapeutischen / verschreibungsfähigen Mittels."
+        },
+        "annotations" : {
+          "comment" : "Es wird dringend empfohlen, das „Arzneimittel“ mit einer Terminologie zu codieren, die nach Möglichkeit Entscheidungsunterstützung auslösen kann. Das Ausmaß der Codierung kann vom einfachen generischen oder Handelsnamen des Medikamentes bis hin zu strukturierten Angaben über die tatsächlich zu verwendende Medikamentenpackung variieren. Die Freitexteingabe sollte nur verwendet werden, wenn keine geeignete Terminologie verfügbar ist.",
+          "fhir" : "medicationCodeableConcept",
+          "terminology2" : "http://snomed.info/sct",
+          "terminology1" : "http://fhir.de/CodeSystem/dimdi/atc"
+        },
+        "aqlPath" : "/content[openEHR-EHR-OBSERVATION.medication_statement.v0,'ACE-Hemmer']/data[at0001]/events[at0002]/data[at0003]/items[at0006]/value",
+        "inputs" : [ {
+          "suffix" : "code",
+          "type" : "CODED_TEXT",
+          "list" : [ {
+            "value" : "C09A",
+            "label" : "ACE-HEMMER, REIN",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "C09AA",
+            "label" : "ACE-Hemmer, rein",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "C09AA01",
+            "label" : "Captopril",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "C09AA02",
+            "label" : "Enalapril",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "C09AA03",
+            "label" : "Lisinopril",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "C09AA04",
+            "label" : "Perindopril",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "C09AA05",
+            "label" : "Ramipril",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "C09AA06",
+            "label" : "Quinapril",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "C09AA07",
+            "label" : "Benazepril",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "C09AA08",
+            "label" : "Cilazapril",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "C09AA09",
+            "label" : "Fosinopril",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "C09AA10",
+            "label" : "Trandolapril",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "C09AA11",
+            "label" : "Spirapril",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "C09AA12",
+            "label" : "Delapril",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "C09AA13",
+            "label" : "Moexipril",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "C09AA14",
+            "label" : "Temocapril",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "C09AA15",
+            "label" : "Zofenopril",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "C09AA16",
+            "label" : "Imidapril",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "C09B",
+            "label" : "ACE-HEMMER, KOMBINATIONEN",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "C09BA",
+            "label" : "ACE-Hemmer und Diuretika",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "C09BA01",
+            "label" : "Captopril und Diuretika",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "C09BA02",
+            "label" : "Enalapril und Diuretika",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "C09BA03",
+            "label" : "Lisinopril und Diuretika",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "C09BA04",
+            "label" : "Perindopril und Diuretika",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "C09BA05",
+            "label" : "Ramipril und Diuretika",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "C09BA06",
+            "label" : "Quinapril und Diuretika",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "C09BA07",
+            "label" : "Benazepril und Diuretika",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "C09BA08",
+            "label" : "Cilazapril und Diuretika",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "C09BA09",
+            "label" : "Fosinopril und Diuretika",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "C09BA12",
+            "label" : "Delapril und Diuretika",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "C09BA13",
+            "label" : "Moexipril und Diuretika",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "C09BA15",
+            "label" : "Zofenopril und Diuretika",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "C09BA21",
+            "label" : "Captopril und Hydrochlorothiazid",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "C09BA22",
+            "label" : "Enalapril und Hydrochlorothiazid",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "C09BA23",
+            "label" : "Lisinopril und Hydrochlorothiazid",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "C09BA25",
+            "label" : "Ramipril und Hydrochlorothiazid",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "C09BA26",
+            "label" : "Quinapril und Hydrochlorothiazid",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "C09BA27",
+            "label" : "Benazepril und Hydrochlorothiazid",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "C09BA28",
+            "label" : "Cilazapril und Hydrochlorothiazid",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "C09BA29",
+            "label" : "Fosinopril und Hydrochlorothiazid",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "C09BA33",
+            "label" : "Moexipril und Hydrochlorothiazid",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "C09BA35",
+            "label" : "Zofenopril und Hydrochlorothiazid",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "C09BA54",
+            "label" : "Perindopril und Indapamid",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "C09BA55",
+            "label" : "Ramipril und Piretanid",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "C09BB",
+            "label" : "ACE-Hemmer und Calciumkanalblocker",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "C09BB02",
+            "label" : "Enalapril und Lercanidipin",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "C09BB03",
+            "label" : "Lisinopril und Amlodipin",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "C09BB04",
+            "label" : "Perindopril und Amlodipin",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "C09BB05",
+            "label" : "Ramipril und Felodipin",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "C09BB06",
+            "label" : "Enalapril und Nitrendipin",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "C09BB07",
+            "label" : "Ramipril und Amlodipin",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "C09BB10",
+            "label" : "Trandolapril und Verapamil",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "C09BB12",
+            "label" : "Delapril und Manidipin",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "C09BX",
+            "label" : "ACE-Hemmer, andere Kombinationen",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "C09BX01",
+            "label" : "Perindopril, Amlodipin und Indapamid",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "C09BX02",
+            "label" : "Perindopril und Bisoprolol",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "C09BX03",
+            "label" : "Ramipril, Amlodipin und Hydrochlorothiazid",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "C09BX04",
+            "label" : "Perindopril, Bisoprolol und Amlodipin",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          } ],
+          "terminology" : "ATC"
+        } ]
+      }, {
+        "id" : "status",
+        "name" : "Status",
+        "localizedName" : "Status",
+        "rmType" : "DV_CODED_TEXT",
+        "nodeId" : "at0008",
+        "min" : 0,
+        "max" : 1,
+        "localizedNames" : {
+          "de" : "Status"
+        },
+        "localizedDescriptions" : {
+          "de" : "Der Status der Anwendung des Medikaments."
+        },
+        "annotations" : {
+          "comment" : "Zum Beispiel: Das Medikament wird immer noch aktiv eingenommen oder eine Antibiotikatherapie wurde abgeschlossen."
+        },
+        "aqlPath" : "/content[openEHR-EHR-OBSERVATION.medication_statement.v0,'ACE-Hemmer']/data[at0001]/events[at0002]/data[at0003]/items[at0008]/value",
+        "inputs" : [ {
+          "suffix" : "code",
+          "type" : "CODED_TEXT",
+          "list" : [ {
+            "value" : "at0009",
+            "label" : "Vorgesehen",
+            "localizedLabels" : {
+              "de" : "Vorgesehen"
+            },
+            "localizedDescriptions" : {
+              "de" : "Das Medikament soll in Zukunft zu einem nicht festgelegten Zeitpunkt angewendet werden."
+            }
+          }, {
+            "value" : "at0010",
+            "label" : "Geplant",
+            "localizedLabels" : {
+              "de" : "Geplant"
+            },
+            "localizedDescriptions" : {
+              "de" : "Das Medikament soll zu einem späteren Zeitpunkt eingenommen werden."
+            }
+          }, {
+            "value" : "at0011",
+            "label" : "Aktiv",
+            "localizedLabels" : {
+              "de" : "Aktiv"
+            },
+            "localizedDescriptions" : {
+              "de" : "Das Medikament wird derzeit angewendet."
+            }
+          }, {
+            "value" : "at0012",
+            "label" : "Abgeschlossen",
+            "localizedLabels" : {
+              "de" : "Abgeschlossen"
+            },
+            "localizedDescriptions" : {
+              "de" : "Das Medikament wird nicht mehr angewendet."
+            }
+          }, {
+            "value" : "at0013",
+            "label" : "Verschoben",
+            "localizedLabels" : {
+              "de" : "Verschoben"
+            },
+            "localizedDescriptions" : {
+              "de" : "Die Anwendung des Medikaments ist geplant, der Beginn wurde jedoch vorübergehend verzögert."
+            }
+          }, {
+            "value" : "at0014",
+            "label" : "Widerrufen",
+            "localizedLabels" : {
+              "de" : "Widerrufen"
+            },
+            "localizedDescriptions" : {
+              "de" : "Das Medikament sollte angewendet werden, wurde jedoch vor Beginn abgesagt."
+            }
+          }, {
+            "value" : "at0015",
+            "label" : "Unterbrochen",
+            "localizedLabels" : {
+              "de" : "Unterbrochen"
+            },
+            "localizedDescriptions" : {
+              "de" : "Die Medikamentenanwendung wurde begonnen, aber vorübergehend ausgesetzt."
+            }
+          }, {
+            "value" : "at0016",
+            "label" : "Abgebrochen",
+            "localizedLabels" : {
+              "de" : "Abgebrochen"
+            },
+            "localizedDescriptions" : {
+              "de" : "Die Medikamentenanwendung wurde begonnen und dann eingestellt."
+            }
+          }, {
+            "value" : "at0017",
+            "label" : "Unbekannt",
+            "localizedLabels" : {
+              "de" : "Unbekannt"
+            },
+            "localizedDescriptions" : {
+              "de" : "Der Status der Medikamentenanwendung ist nicht bekannt."
+            }
+          } ]
+        } ]
+      }, {
+        "id" : "grund",
+        "name" : "Grund",
+        "localizedName" : "Grund",
+        "rmType" : "DV_CODED_TEXT",
+        "nodeId" : "at0023",
+        "min" : 0,
+        "max" : 1,
+        "localizedNames" : {
+          "de" : "Grund"
+        },
+        "localizedDescriptions" : {
+          "de" : "Der klinische Grund für die Anwendung des Medikaments."
+        },
+        "annotations" : {
+          "comment" : "Zum Beispiel: \"Angina\". Die Codierung der klinischen Indikation mit einer Terminologie wird nach Möglichkeit bevorzugt. Dieses Datenelement kann mehrfach vorkommen.",
+          "fhir" : "reasonCode",
+          "terminology" : "http://snomed.info/sct"
+        },
+        "aqlPath" : "/content[openEHR-EHR-OBSERVATION.medication_statement.v0,'ACE-Hemmer']/data[at0001]/events[at0002]/data[at0003]/items[at0023,'Grund']/value",
+        "inputs" : [ {
+          "suffix" : "code",
+          "type" : "CODED_TEXT",
+          "list" : [ {
+            "value" : "421974008",
+            "label" : "Adjunct - intent (qualifier value)",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "373846009",
+            "label" : "Adjuvant - intent (qualifier value)",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "373808002",
+            "label" : "Curative - procedure intent (qualifier value)",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "373847000",
+            "label" : "Neo-adjuvant - intent (qualifier value)",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "360271000",
+            "label" : "Prophylaxis - procedure intent (qualifier value)",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "399707004",
+            "label" : "Supportive - procedure intent (qualifier value)",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          } ],
+          "terminology" : "SNOMED CT"
+        } ]
+      }, {
+        "id" : "time",
+        "name" : "Time",
+        "rmType" : "DV_DATE_TIME",
+        "min" : 1,
+        "max" : 1,
+        "aqlPath" : "/content[openEHR-EHR-OBSERVATION.medication_statement.v0,'ACE-Hemmer']/data[at0001]/events[at0002]/time",
+        "inputs" : [ {
+          "type" : "DATETIME"
+        } ],
+        "inContext" : true
+      }, {
+        "id" : "status2",
+        "name" : "Status",
+        "localizedName" : "Status",
+        "rmType" : "CLUSTER",
+        "nodeId" : "openEHR-EHR-CLUSTER.medication_status_fhir.v0",
+        "min" : 1,
+        "max" : 1,
+        "dependsOn" : [ "grund", "arzneimittel-name", "status" ],
+        "localizedNames" : {
+          "de" : "Status"
+        },
+        "localizedDescriptions" : {
+          "de" : "Ein Code, der die Beurteilung des Patienten oder einer anderen Beurteilungsquelle über den Status des angewendeten Medikaments darstellt, mit dem sich diese Angabe befasst. Im Allgemeinen wird dies aktiv oder abgeschlossen sein."
+        },
+        "aqlPath" : "/content[openEHR-EHR-OBSERVATION.medication_statement.v0,'ACE-Hemmer']/protocol[at0004]/items[openEHR-EHR-CLUSTER.medication_status_fhir.v0,'Status']",
+        "children" : [ {
+          "id" : "status",
+          "name" : "Status",
+          "localizedName" : "Status",
+          "rmType" : "DV_CODED_TEXT",
+          "nodeId" : "at0001",
+          "min" : 1,
+          "max" : 1,
+          "localizedNames" : {
+            "de" : "Status"
+          },
+          "localizedDescriptions" : {
+            "de" : "Status der Einnahme des Medikamentes im Verlauf oder nach dem Ende der Therapie bzw. der Nachsorge."
+          },
+          "aqlPath" : "/content[openEHR-EHR-OBSERVATION.medication_statement.v0,'ACE-Hemmer']/protocol[at0004]/items[openEHR-EHR-CLUSTER.medication_status_fhir.v0,'Status']/items[at0001]/value",
+          "inputs" : [ {
+            "suffix" : "code",
+            "type" : "CODED_TEXT",
+            "list" : [ {
+              "value" : "at0002",
+              "label" : "Aktiv",
+              "localizedLabels" : {
+                "de" : "Aktiv"
+              },
+              "localizedDescriptions" : {
+                "de" : "Das Medikament wird noch angewendet."
+              }
+            }, {
+              "value" : "at0003",
+              "label" : "Abgeschlossen",
+              "localizedLabels" : {
+                "de" : "Abgeschlossen"
+              },
+              "localizedDescriptions" : {
+                "de" : "Das Medikament wird nicht mehr angewendet."
+              }
+            }, {
+              "value" : "at0004",
+              "label" : "Fehlerhafte Anwendung",
+              "localizedLabels" : {
+                "de" : "Fehlerhafte Anwendung"
+              },
+              "localizedDescriptions" : {
+                "de" : "Einige der Aktionen, die im Medikation Statement enthalten sind, können bereits stattgefunden haben. Beispielsweise kann der Patient einen Teil der Medikamente eingenommen haben."
+              }
+            }, {
+              "value" : "at0005",
+              "label" : "Beabsichtigt",
+              "localizedLabels" : {
+                "de" : "Beabsichtigt"
+              },
+              "localizedDescriptions" : {
+                "de" : "Die Medikation kann irgendwann in der Zukunft angewendet werden."
+              }
+            }, {
+              "value" : "at0006",
+              "label" : "Gestoppt",
+              "localizedLabels" : {
+                "de" : "Gestoppt"
+              },
+              "localizedDescriptions" : {
+                "de" : "Die im Medikation Statement implizierten Aktionen wurden dauerhaft gestoppt, bevor alle von ihnen eingetreten sind. Dies sollte nicht verwendet werden, wenn Medikation Statement versehentlich eingegeben wurde."
+              }
+            }, {
+              "value" : "at0007",
+              "label" : "Angehalten",
+              "localizedLabels" : {
+                "de" : "Angehalten"
+              },
+              "localizedDescriptions" : {
+                "de" : "Die im Medikation Statement implizierten Aktionen wurden vorübergehend gestoppt, werden aber voraussichtlich später fortgesetzt. Kann auch als \"ausgesetzt\" bezeichnet werden."
+              }
+            }, {
+              "value" : "at0008",
+              "label" : "Unbekannt",
+              "localizedLabels" : {
+                "de" : "Unbekannt"
+              },
+              "localizedDescriptions" : {
+                "de" : "Der Status des Medikaments ist derzeit nicht bekannt."
+              }
+            }, {
+              "value" : "at0009",
+              "label" : "Nicht genommen",
+              "localizedLabels" : {
+                "de" : "Nicht genommen"
+              },
+              "localizedDescriptions" : {
+                "de" : "Das Medikament wurde vom Patienten nicht angewendet."
+              }
+            } ]
+          } ]
+        }, {
+          "id" : "kommentar",
+          "name" : "Kommentar",
+          "localizedName" : "Kommentar",
+          "rmType" : "DV_TEXT",
+          "nodeId" : "at0014",
+          "min" : 0,
+          "max" : -1,
+          "localizedNames" : {
+            "de" : "Kommentar"
+          },
+          "localizedDescriptions" : {
+            "de" : "Zusätzliche Informationen über die Medikation, die nicht in anderen Bereichen dargestellt wurden."
+          },
+          "aqlPath" : "/content[openEHR-EHR-OBSERVATION.medication_statement.v0,'ACE-Hemmer']/protocol[at0004]/items[openEHR-EHR-CLUSTER.medication_status_fhir.v0,'Status']/items[at0014]/value",
+          "inputs" : [ {
+            "type" : "TEXT"
+          } ]
+        } ]
+      }, {
+        "id" : "language",
+        "name" : "Language",
+        "rmType" : "CODE_PHRASE",
+        "min" : 1,
+        "max" : 1,
+        "aqlPath" : "/content[openEHR-EHR-OBSERVATION.medication_statement.v0,'ACE-Hemmer']/language",
+        "inContext" : true
+      }, {
+        "id" : "encoding",
+        "name" : "Encoding",
+        "rmType" : "CODE_PHRASE",
+        "min" : 1,
+        "max" : 1,
+        "aqlPath" : "/content[openEHR-EHR-OBSERVATION.medication_statement.v0,'ACE-Hemmer']/encoding",
+        "inContext" : true
+      }, {
+        "id" : "subject",
+        "name" : "Subject",
+        "rmType" : "PARTY_PROXY",
+        "min" : 1,
+        "max" : 1,
+        "aqlPath" : "/content[openEHR-EHR-OBSERVATION.medication_statement.v0,'ACE-Hemmer']/subject",
+        "inputs" : [ {
+          "suffix" : "id",
+          "type" : "TEXT"
+        }, {
+          "suffix" : "id_scheme",
+          "type" : "TEXT"
+        }, {
+          "suffix" : "id_namespace",
+          "type" : "TEXT"
+        }, {
+          "suffix" : "name",
+          "type" : "TEXT"
+        } ],
+        "inContext" : true
+      } ]
+    }, {
+      "id" : "immunglobuline",
+      "name" : "Immunglobuline",
+      "localizedName" : "Immunglobuline",
+      "rmType" : "OBSERVATION",
+      "nodeId" : "openEHR-EHR-OBSERVATION.medication_statement.v0",
+      "min" : 0,
+      "max" : 1,
+      "localizedNames" : {
+        "de" : "Immunglobuline"
+      },
+      "localizedDescriptions" : {
+        "de" : "Eine Snapshot-Ansicht über die Anwendung eines bestimmten Medikaments."
+      },
+      "aqlPath" : "/content[openEHR-EHR-OBSERVATION.medication_statement.v0,'Immunglobuline']",
+      "children" : [ {
+        "id" : "arzneimittel-name",
+        "name" : "Arzneimittel-Name",
+        "localizedName" : "Arzneimittel-Name",
+        "rmType" : "DV_CODED_TEXT",
+        "nodeId" : "at0006",
+        "min" : 1,
+        "max" : 1,
+        "localizedNames" : {
+          "de" : "Arzneimittel-Name"
+        },
+        "localizedDescriptions" : {
+          "de" : "Name des Medikaments, des Impfstoffs oder eines anderen therapeutischen / verschreibungsfähigen Mittels."
+        },
+        "annotations" : {
+          "comment" : "Es wird dringend empfohlen, das „Arzneimittel“ mit einer Terminologie zu codieren, die nach Möglichkeit Entscheidungsunterstützung auslösen kann. Das Ausmaß der Codierung kann vom einfachen generischen oder Handelsnamen des Medikamentes bis hin zu strukturierten Angaben über die tatsächlich zu verwendende Medikamentenpackung variieren. Die Freitexteingabe sollte nur verwendet werden, wenn keine geeignete Terminologie verfügbar ist.",
+          "fhir" : "medicationCodeableConcept",
+          "terminology2" : "http://snomed.info/sct",
+          "terminology1" : "http://fhir.de/CodeSystem/dimdi/atc"
+        },
+        "aqlPath" : "/content[openEHR-EHR-OBSERVATION.medication_statement.v0,'Immunglobuline']/data[at0001]/events[at0002]/data[at0003]/items[at0006]/value",
+        "inputs" : [ {
+          "suffix" : "code",
+          "type" : "CODED_TEXT",
+          "list" : [ {
+            "value" : "J06B",
+            "label" : "IMMUNGLOBULINE",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "J06BA",
+            "label" : "Immunglobuline, normal human",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "J06BA01",
+            "label" : "Immunglobuline, normal human, zur extravasalen Anwendung",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "J06BA02",
+            "label" : "Immunglobuline, normal human, zur intravasalen Anwendung",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "J06BB",
+            "label" : "Spezifische Immunglobuline",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "J06BB01",
+            "label" : "Anti-D(rh)-Immunglobulin",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "J06BB02",
+            "label" : "Tetanus-Immunglobulin",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "J06BB03",
+            "label" : "Varicella/Zoster-Immunglobulin",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "J06BB04",
+            "label" : "Hepatitis-B-Immunglobulin",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "J06BB05",
+            "label" : "Tollwut-Immunglobulin",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "J06BB06",
+            "label" : "Röteln-Immunglobulin",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "J06BB07",
+            "label" : "Kuhpocken-Immunglobulin",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "J06BB08",
+            "label" : "Staphylococcus-Immunglobulin",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "J06BB09",
+            "label" : "Cytomegalievirus-Immunglobulin",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "J06BB10",
+            "label" : "Diphtherie-Immunglobulin",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "J06BB11",
+            "label" : "Hepatitis-A-Immunglobulin",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "J06BB12",
+            "label" : "FSME-Immunglobulin",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "J06BB13",
+            "label" : "Pertussis-Immunglobulin",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "J06BB14",
+            "label" : "Masern-Immunglobulin",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "J06BB15",
+            "label" : "Mumps-Immunglobulin",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "J06BB16",
+            "label" : "Palivizumab",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "J06BB17",
+            "label" : "Motavizumab",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "J06BB18",
+            "label" : "Raxibacumab",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "J06BB19",
+            "label" : "Anthrax-Immunglobulin",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "J06BB21",
+            "label" : "Bezlotoxumab",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "J06BB22",
+            "label" : "Obiltoxaximab",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "J06BB30",
+            "label" : "Kombinationen",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "J06BC",
+            "label" : "Andere Immunglobuline",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "J06BC01",
+            "label" : "Nebacumab",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "J06BC10",
+            "label" : "Andere Immunglobuline",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          } ],
+          "terminology" : "ATC"
+        } ]
+      }, {
+        "id" : "status",
+        "name" : "Status",
+        "localizedName" : "Status",
+        "rmType" : "DV_CODED_TEXT",
+        "nodeId" : "at0008",
+        "min" : 0,
+        "max" : 1,
+        "localizedNames" : {
+          "de" : "Status"
+        },
+        "localizedDescriptions" : {
+          "de" : "Der Status der Anwendung des Medikaments."
+        },
+        "annotations" : {
+          "comment" : "Zum Beispiel: Das Medikament wird immer noch aktiv eingenommen oder eine Antibiotikatherapie wurde abgeschlossen."
+        },
+        "aqlPath" : "/content[openEHR-EHR-OBSERVATION.medication_statement.v0,'Immunglobuline']/data[at0001]/events[at0002]/data[at0003]/items[at0008]/value",
+        "inputs" : [ {
+          "suffix" : "code",
+          "type" : "CODED_TEXT",
+          "list" : [ {
+            "value" : "at0009",
+            "label" : "Vorgesehen",
+            "localizedLabels" : {
+              "de" : "Vorgesehen"
+            },
+            "localizedDescriptions" : {
+              "de" : "Das Medikament soll in Zukunft zu einem nicht festgelegten Zeitpunkt angewendet werden."
+            }
+          }, {
+            "value" : "at0010",
+            "label" : "Geplant",
+            "localizedLabels" : {
+              "de" : "Geplant"
+            },
+            "localizedDescriptions" : {
+              "de" : "Das Medikament soll zu einem späteren Zeitpunkt eingenommen werden."
+            }
+          }, {
+            "value" : "at0011",
+            "label" : "Aktiv",
+            "localizedLabels" : {
+              "de" : "Aktiv"
+            },
+            "localizedDescriptions" : {
+              "de" : "Das Medikament wird derzeit angewendet."
+            }
+          }, {
+            "value" : "at0012",
+            "label" : "Abgeschlossen",
+            "localizedLabels" : {
+              "de" : "Abgeschlossen"
+            },
+            "localizedDescriptions" : {
+              "de" : "Das Medikament wird nicht mehr angewendet."
+            }
+          }, {
+            "value" : "at0013",
+            "label" : "Verschoben",
+            "localizedLabels" : {
+              "de" : "Verschoben"
+            },
+            "localizedDescriptions" : {
+              "de" : "Die Anwendung des Medikaments ist geplant, der Beginn wurde jedoch vorübergehend verzögert."
+            }
+          }, {
+            "value" : "at0014",
+            "label" : "Widerrufen",
+            "localizedLabels" : {
+              "de" : "Widerrufen"
+            },
+            "localizedDescriptions" : {
+              "de" : "Das Medikament sollte angewendet werden, wurde jedoch vor Beginn abgesagt."
+            }
+          }, {
+            "value" : "at0015",
+            "label" : "Unterbrochen",
+            "localizedLabels" : {
+              "de" : "Unterbrochen"
+            },
+            "localizedDescriptions" : {
+              "de" : "Die Medikamentenanwendung wurde begonnen, aber vorübergehend ausgesetzt."
+            }
+          }, {
+            "value" : "at0016",
+            "label" : "Abgebrochen",
+            "localizedLabels" : {
+              "de" : "Abgebrochen"
+            },
+            "localizedDescriptions" : {
+              "de" : "Die Medikamentenanwendung wurde begonnen und dann eingestellt."
+            }
+          }, {
+            "value" : "at0017",
+            "label" : "Unbekannt",
+            "localizedLabels" : {
+              "de" : "Unbekannt"
+            },
+            "localizedDescriptions" : {
+              "de" : "Der Status der Medikamentenanwendung ist nicht bekannt."
+            }
+          } ]
+        } ]
+      }, {
+        "id" : "grund",
+        "name" : "Grund",
+        "localizedName" : "Grund",
+        "rmType" : "DV_CODED_TEXT",
+        "nodeId" : "at0023",
+        "min" : 0,
+        "max" : 1,
+        "localizedNames" : {
+          "de" : "Grund"
+        },
+        "localizedDescriptions" : {
+          "de" : "Der klinische Grund für die Anwendung des Medikaments."
+        },
+        "annotations" : {
+          "comment" : "Zum Beispiel: \"Angina\". Die Codierung der klinischen Indikation mit einer Terminologie wird nach Möglichkeit bevorzugt. Dieses Datenelement kann mehrfach vorkommen.",
+          "fhir" : "reasonCode",
+          "terminology" : "http://snomed.info/sct"
+        },
+        "aqlPath" : "/content[openEHR-EHR-OBSERVATION.medication_statement.v0,'Immunglobuline']/data[at0001]/events[at0002]/data[at0003]/items[at0023,'Grund']/value",
+        "inputs" : [ {
+          "suffix" : "code",
+          "type" : "CODED_TEXT",
+          "list" : [ {
+            "value" : "421974008",
+            "label" : "Adjunct - intent (qualifier value)",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "373846009",
+            "label" : "Adjuvant - intent (qualifier value)",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "373808002",
+            "label" : "Curative - procedure intent (qualifier value)",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "373847000",
+            "label" : "Neo-adjuvant - intent (qualifier value)",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "360271000",
+            "label" : "Prophylaxis - procedure intent (qualifier value)",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "399707004",
+            "label" : "Supportive - procedure intent (qualifier value)",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          } ],
+          "terminology" : "SNOMED CT"
+        } ]
+      }, {
+        "id" : "time",
+        "name" : "Time",
+        "rmType" : "DV_DATE_TIME",
+        "min" : 1,
+        "max" : 1,
+        "aqlPath" : "/content[openEHR-EHR-OBSERVATION.medication_statement.v0,'Immunglobuline']/data[at0001]/events[at0002]/time",
+        "inputs" : [ {
+          "type" : "DATETIME"
+        } ],
+        "inContext" : true
+      }, {
+        "id" : "status2",
+        "name" : "Status",
+        "localizedName" : "Status",
+        "rmType" : "CLUSTER",
+        "nodeId" : "openEHR-EHR-CLUSTER.medication_status_fhir.v0",
+        "min" : 1,
+        "max" : 1,
+        "dependsOn" : [ "grund", "arzneimittel-name", "status" ],
+        "localizedNames" : {
+          "de" : "Status"
+        },
+        "localizedDescriptions" : {
+          "de" : "Ein Code, der die Beurteilung des Patienten oder einer anderen Beurteilungsquelle über den Status des angewendeten Medikaments darstellt, mit dem sich diese Angabe befasst. Im Allgemeinen wird dies aktiv oder abgeschlossen sein."
+        },
+        "aqlPath" : "/content[openEHR-EHR-OBSERVATION.medication_statement.v0,'Immunglobuline']/protocol[at0004]/items[openEHR-EHR-CLUSTER.medication_status_fhir.v0,'Status']",
+        "children" : [ {
+          "id" : "status",
+          "name" : "Status",
+          "localizedName" : "Status",
+          "rmType" : "DV_CODED_TEXT",
+          "nodeId" : "at0001",
+          "min" : 1,
+          "max" : 1,
+          "localizedNames" : {
+            "de" : "Status"
+          },
+          "localizedDescriptions" : {
+            "de" : "Status der Einnahme des Medikamentes im Verlauf oder nach dem Ende der Therapie bzw. der Nachsorge."
+          },
+          "aqlPath" : "/content[openEHR-EHR-OBSERVATION.medication_statement.v0,'Immunglobuline']/protocol[at0004]/items[openEHR-EHR-CLUSTER.medication_status_fhir.v0,'Status']/items[at0001]/value",
+          "inputs" : [ {
+            "suffix" : "code",
+            "type" : "CODED_TEXT",
+            "list" : [ {
+              "value" : "at0002",
+              "label" : "Aktiv",
+              "localizedLabels" : {
+                "de" : "Aktiv"
+              },
+              "localizedDescriptions" : {
+                "de" : "Das Medikament wird noch angewendet."
+              }
+            }, {
+              "value" : "at0003",
+              "label" : "Abgeschlossen",
+              "localizedLabels" : {
+                "de" : "Abgeschlossen"
+              },
+              "localizedDescriptions" : {
+                "de" : "Das Medikament wird nicht mehr angewendet."
+              }
+            }, {
+              "value" : "at0004",
+              "label" : "Fehlerhafte Anwendung",
+              "localizedLabels" : {
+                "de" : "Fehlerhafte Anwendung"
+              },
+              "localizedDescriptions" : {
+                "de" : "Einige der Aktionen, die im Medikation Statement enthalten sind, können bereits stattgefunden haben. Beispielsweise kann der Patient einen Teil der Medikamente eingenommen haben."
+              }
+            }, {
+              "value" : "at0005",
+              "label" : "Beabsichtigt",
+              "localizedLabels" : {
+                "de" : "Beabsichtigt"
+              },
+              "localizedDescriptions" : {
+                "de" : "Die Medikation kann irgendwann in der Zukunft angewendet werden."
+              }
+            }, {
+              "value" : "at0006",
+              "label" : "Gestoppt",
+              "localizedLabels" : {
+                "de" : "Gestoppt"
+              },
+              "localizedDescriptions" : {
+                "de" : "Die im Medikation Statement implizierten Aktionen wurden dauerhaft gestoppt, bevor alle von ihnen eingetreten sind. Dies sollte nicht verwendet werden, wenn Medikation Statement versehentlich eingegeben wurde."
+              }
+            }, {
+              "value" : "at0007",
+              "label" : "Angehalten",
+              "localizedLabels" : {
+                "de" : "Angehalten"
+              },
+              "localizedDescriptions" : {
+                "de" : "Die im Medikation Statement implizierten Aktionen wurden vorübergehend gestoppt, werden aber voraussichtlich später fortgesetzt. Kann auch als \"ausgesetzt\" bezeichnet werden."
+              }
+            }, {
+              "value" : "at0008",
+              "label" : "Unbekannt",
+              "localizedLabels" : {
+                "de" : "Unbekannt"
+              },
+              "localizedDescriptions" : {
+                "de" : "Der Status des Medikaments ist derzeit nicht bekannt."
+              }
+            }, {
+              "value" : "at0009",
+              "label" : "Nicht genommen",
+              "localizedLabels" : {
+                "de" : "Nicht genommen"
+              },
+              "localizedDescriptions" : {
+                "de" : "Das Medikament wurde vom Patienten nicht angewendet."
+              }
+            } ]
+          } ]
+        }, {
+          "id" : "kommentar",
+          "name" : "Kommentar",
+          "localizedName" : "Kommentar",
+          "rmType" : "DV_TEXT",
+          "nodeId" : "at0014",
+          "min" : 0,
+          "max" : -1,
+          "localizedNames" : {
+            "de" : "Kommentar"
+          },
+          "localizedDescriptions" : {
+            "de" : "Zusätzliche Informationen über die Medikation, die nicht in anderen Bereichen dargestellt wurden."
+          },
+          "aqlPath" : "/content[openEHR-EHR-OBSERVATION.medication_statement.v0,'Immunglobuline']/protocol[at0004]/items[openEHR-EHR-CLUSTER.medication_status_fhir.v0,'Status']/items[at0014]/value",
+          "inputs" : [ {
+            "type" : "TEXT"
+          } ]
+        } ]
+      }, {
+        "id" : "language",
+        "name" : "Language",
+        "rmType" : "CODE_PHRASE",
+        "min" : 1,
+        "max" : 1,
+        "aqlPath" : "/content[openEHR-EHR-OBSERVATION.medication_statement.v0,'Immunglobuline']/language",
+        "inContext" : true
+      }, {
+        "id" : "encoding",
+        "name" : "Encoding",
+        "rmType" : "CODE_PHRASE",
+        "min" : 1,
+        "max" : 1,
+        "aqlPath" : "/content[openEHR-EHR-OBSERVATION.medication_statement.v0,'Immunglobuline']/encoding",
+        "inContext" : true
+      }, {
+        "id" : "subject",
+        "name" : "Subject",
+        "rmType" : "PARTY_PROXY",
+        "min" : 1,
+        "max" : 1,
+        "aqlPath" : "/content[openEHR-EHR-OBSERVATION.medication_statement.v0,'Immunglobuline']/subject",
+        "inputs" : [ {
+          "suffix" : "id",
+          "type" : "TEXT"
+        }, {
+          "suffix" : "id_scheme",
+          "type" : "TEXT"
+        }, {
+          "suffix" : "id_namespace",
+          "type" : "TEXT"
+        }, {
+          "suffix" : "name",
+          "type" : "TEXT"
+        } ],
+        "inContext" : true
+      } ]
+    }, {
+      "id" : "antikoagulanzien",
+      "name" : "Antikoagulanzien",
+      "localizedName" : "Antikoagulanzien",
+      "rmType" : "OBSERVATION",
+      "nodeId" : "openEHR-EHR-OBSERVATION.medication_statement.v0",
+      "min" : 0,
+      "max" : 1,
+      "localizedNames" : {
+        "de" : "Antikoagulanzien"
+      },
+      "localizedDescriptions" : {
+        "de" : "Eine Snapshot-Ansicht über die Anwendung eines bestimmten Medikaments."
+      },
+      "aqlPath" : "/content[openEHR-EHR-OBSERVATION.medication_statement.v0,'Antikoagulanzien']",
+      "children" : [ {
+        "id" : "arzneimittel-name",
+        "name" : "Arzneimittel-Name",
+        "localizedName" : "Arzneimittel-Name",
+        "rmType" : "DV_CODED_TEXT",
+        "nodeId" : "at0006",
+        "min" : 1,
+        "max" : 1,
+        "localizedNames" : {
+          "de" : "Arzneimittel-Name"
+        },
+        "localizedDescriptions" : {
+          "de" : "Name des Medikaments, des Impfstoffs oder eines anderen therapeutischen / verschreibungsfähigen Mittels."
+        },
+        "annotations" : {
+          "comment" : "Es wird dringend empfohlen, das „Arzneimittel“ mit einer Terminologie zu codieren, die nach Möglichkeit Entscheidungsunterstützung auslösen kann. Das Ausmaß der Codierung kann vom einfachen generischen oder Handelsnamen des Medikamentes bis hin zu strukturierten Angaben über die tatsächlich zu verwendende Medikamentenpackung variieren. Die Freitexteingabe sollte nur verwendet werden, wenn keine geeignete Terminologie verfügbar ist.",
+          "fhir" : "medicationCodeableConcept",
+          "terminology2" : "http://snomed.info/sct",
+          "terminology1" : "http://fhir.de/CodeSystem/dimdi/atc"
+        },
+        "aqlPath" : "/content[openEHR-EHR-OBSERVATION.medication_statement.v0,'Antikoagulanzien']/data[at0001]/events[at0002]/data[at0003]/items[at0006]/value",
+        "inputs" : [ {
+          "suffix" : "code",
+          "type" : "CODED_TEXT",
+          "list" : [ {
+            "value" : "B01AB",
+            "label" : "Heparingruppe",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "B01AB01",
+            "label" : "Heparin",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "B01AB02",
+            "label" : "Antithrombin III, Antithrombin alfa",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "B01AB04",
+            "label" : "Dalteparin",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "B01AB05",
+            "label" : "Enoxaparin",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "B01AB06",
+            "label" : "Nadroparin",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "B01AB07",
+            "label" : "Parnaparin",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "B01AB08",
+            "label" : "Reviparin",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "B01AB09",
+            "label" : "Danaparoid",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "B01AB10",
+            "label" : "Tinzaparin",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "B01AB11",
+            "label" : "Sulodexid",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "B01AB12",
+            "label" : "Bemiparin",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "B01AB13",
+            "label" : "Certoparin",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "B01AB51",
+            "label" : "Heparin, Kombinationen",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "B01AB63",
+            "label" : "Certoparin, Kombinationen",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "B01AE03",
+            "label" : "Argatroban",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "B01AC",
+            "label" : "Thrombozytenaggregationshemmer, exkl. Heparin",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "B01AC01",
+            "label" : "Ditazol",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "B01AC02",
+            "label" : "Cloricromen",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "B01AC03",
+            "label" : "Picotamid",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "B01AC04",
+            "label" : "Clopidogrel",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "B01AC05",
+            "label" : "Ticlopidin",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "B01AC06",
+            "label" : "Acetylsalicylsäure",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "B01AC07",
+            "label" : "Dipyridamol",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "B01AC08",
+            "label" : "Carbasalat calcium",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "B01AC09",
+            "label" : "Epoprostenol",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "B01AC10",
+            "label" : "Indobufen",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "B01AC11",
+            "label" : "Iloprost",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "B01AC12",
+            "label" : "Sulfinpyrazon",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "B01AC13",
+            "label" : "Abciximab",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "B01AC15",
+            "label" : "Aloxiprin",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "B01AC16",
+            "label" : "Eptifibatid",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "B01AC17",
+            "label" : "Tirofiban",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "B01AC18",
+            "label" : "Triflusal",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "B01AC19",
+            "label" : "Beraprost",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "B01AC21",
+            "label" : "Treprostinil",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "B01AC22",
+            "label" : "Prasugrel",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "B01AC23",
+            "label" : "Cilostazol",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "B01AC24",
+            "label" : "Ticagrelor",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "B01AC25",
+            "label" : "Cangrelor",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "B01AC26",
+            "label" : "Vorapaxar",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "B01AC27",
+            "label" : "Selexipag",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "B01AC30",
+            "label" : "Kombinationen",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "B01AC34",
+            "label" : "Clopidogrel und Acetylsalicylsäure",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "B01AC36",
+            "label" : "Dipyridamol und Acetylsalicylsäure",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "B01AC56",
+            "label" : "Acetylsalicylsäure, Kombinationen mit Protonenpumpenhemmern",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "B01AC86",
+            "label" : "Acetylsalicylsäure und Esomeprazol",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "B01AA04",
+            "label" : "Phenprocoumon",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "B01AF",
+            "label" : "Direkte Faktor-Xa-Inhibitoren",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "B01AF01",
+            "label" : "Rivaroxaban",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "B01AF02",
+            "label" : "Apixaban",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "B01AF03",
+            "label" : "Edoxaban",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "B01AF04",
+            "label" : "Betrixaban",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "B01AE",
+            "label" : "Direkte Thrombininhibitoren",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "B01AE01",
+            "label" : "Desirudin",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "B01AE02",
+            "label" : "Lepirudin",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "B01AE03",
+            "label" : "Argatroban",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "B01AE04",
+            "label" : "Melagatran",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "B01AE05",
+            "label" : "Ximelagatran",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "B01AE06",
+            "label" : "Bivalirudin",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "B01AE07",
+            "label" : "Dabigatranetexilat",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          } ],
+          "terminology" : "ATC"
+        } ]
+      }, {
+        "id" : "status",
+        "name" : "Status",
+        "localizedName" : "Status",
+        "rmType" : "DV_CODED_TEXT",
+        "nodeId" : "at0008",
+        "min" : 0,
+        "max" : 1,
+        "localizedNames" : {
+          "de" : "Status"
+        },
+        "localizedDescriptions" : {
+          "de" : "Der Status der Anwendung des Medikaments."
+        },
+        "annotations" : {
+          "comment" : "Zum Beispiel: Das Medikament wird immer noch aktiv eingenommen oder eine Antibiotikatherapie wurde abgeschlossen."
+        },
+        "aqlPath" : "/content[openEHR-EHR-OBSERVATION.medication_statement.v0,'Antikoagulanzien']/data[at0001]/events[at0002]/data[at0003]/items[at0008]/value",
+        "inputs" : [ {
+          "suffix" : "code",
+          "type" : "CODED_TEXT",
+          "list" : [ {
+            "value" : "at0009",
+            "label" : "Vorgesehen",
+            "localizedLabels" : {
+              "de" : "Vorgesehen"
+            },
+            "localizedDescriptions" : {
+              "de" : "Das Medikament soll in Zukunft zu einem nicht festgelegten Zeitpunkt angewendet werden."
+            }
+          }, {
+            "value" : "at0010",
+            "label" : "Geplant",
+            "localizedLabels" : {
+              "de" : "Geplant"
+            },
+            "localizedDescriptions" : {
+              "de" : "Das Medikament soll zu einem späteren Zeitpunkt eingenommen werden."
+            }
+          }, {
+            "value" : "at0011",
+            "label" : "Aktiv",
+            "localizedLabels" : {
+              "de" : "Aktiv"
+            },
+            "localizedDescriptions" : {
+              "de" : "Das Medikament wird derzeit angewendet."
+            }
+          }, {
+            "value" : "at0012",
+            "label" : "Abgeschlossen",
+            "localizedLabels" : {
+              "de" : "Abgeschlossen"
+            },
+            "localizedDescriptions" : {
+              "de" : "Das Medikament wird nicht mehr angewendet."
+            }
+          }, {
+            "value" : "at0013",
+            "label" : "Verschoben",
+            "localizedLabels" : {
+              "de" : "Verschoben"
+            },
+            "localizedDescriptions" : {
+              "de" : "Die Anwendung des Medikaments ist geplant, der Beginn wurde jedoch vorübergehend verzögert."
+            }
+          }, {
+            "value" : "at0014",
+            "label" : "Widerrufen",
+            "localizedLabels" : {
+              "de" : "Widerrufen"
+            },
+            "localizedDescriptions" : {
+              "de" : "Das Medikament sollte angewendet werden, wurde jedoch vor Beginn abgesagt."
+            }
+          }, {
+            "value" : "at0015",
+            "label" : "Unterbrochen",
+            "localizedLabels" : {
+              "de" : "Unterbrochen"
+            },
+            "localizedDescriptions" : {
+              "de" : "Die Medikamentenanwendung wurde begonnen, aber vorübergehend ausgesetzt."
+            }
+          }, {
+            "value" : "at0016",
+            "label" : "Abgebrochen",
+            "localizedLabels" : {
+              "de" : "Abgebrochen"
+            },
+            "localizedDescriptions" : {
+              "de" : "Die Medikamentenanwendung wurde begonnen und dann eingestellt."
+            }
+          }, {
+            "value" : "at0017",
+            "label" : "Unbekannt",
+            "localizedLabels" : {
+              "de" : "Unbekannt"
+            },
+            "localizedDescriptions" : {
+              "de" : "Der Status der Medikamentenanwendung ist nicht bekannt."
+            }
+          } ]
+        } ]
+      }, {
+        "id" : "grund",
+        "name" : "Grund",
+        "localizedName" : "Grund",
+        "rmType" : "DV_CODED_TEXT",
+        "nodeId" : "at0023",
+        "min" : 0,
+        "max" : 1,
+        "localizedNames" : {
+          "de" : "Grund"
+        },
+        "localizedDescriptions" : {
+          "de" : "Der klinische Grund für die Anwendung des Medikaments."
+        },
+        "annotations" : {
+          "comment" : "Zum Beispiel: \"Angina\". Die Codierung der klinischen Indikation mit einer Terminologie wird nach Möglichkeit bevorzugt. Dieses Datenelement kann mehrfach vorkommen.",
+          "fhir" : "reasonCode",
+          "terminology" : "http://snomed.info/sct"
+        },
+        "aqlPath" : "/content[openEHR-EHR-OBSERVATION.medication_statement.v0,'Antikoagulanzien']/data[at0001]/events[at0002]/data[at0003]/items[at0023,'Grund']/value",
+        "inputs" : [ {
+          "suffix" : "code",
+          "type" : "CODED_TEXT",
+          "list" : [ {
+            "value" : "421974008",
+            "label" : "Adjunct - intent (qualifier value)",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "373846009",
+            "label" : "Adjuvant - intent (qualifier value)",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "373808002",
+            "label" : "Curative - procedure intent (qualifier value)",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "373847000",
+            "label" : "Neo-adjuvant - intent (qualifier value)",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "360271000",
+            "label" : "Prophylaxis - procedure intent (qualifier value)",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "399707004",
+            "label" : "Supportive - procedure intent (qualifier value)",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          } ],
+          "terminology" : "SNOMED CT"
+        } ]
+      }, {
+        "id" : "time",
+        "name" : "Time",
+        "rmType" : "DV_DATE_TIME",
+        "min" : 1,
+        "max" : 1,
+        "aqlPath" : "/content[openEHR-EHR-OBSERVATION.medication_statement.v0,'Antikoagulanzien']/data[at0001]/events[at0002]/time",
+        "inputs" : [ {
+          "type" : "DATETIME"
+        } ],
+        "inContext" : true
+      }, {
+        "id" : "status2",
+        "name" : "Status",
+        "localizedName" : "Status",
+        "rmType" : "CLUSTER",
+        "nodeId" : "openEHR-EHR-CLUSTER.medication_status_fhir.v0",
+        "min" : 1,
+        "max" : 1,
+        "dependsOn" : [ "grund", "arzneimittel-name", "status" ],
+        "localizedNames" : {
+          "de" : "Status"
+        },
+        "localizedDescriptions" : {
+          "de" : "Ein Code, der die Beurteilung des Patienten oder einer anderen Beurteilungsquelle über den Status des angewendeten Medikaments darstellt, mit dem sich diese Angabe befasst. Im Allgemeinen wird dies aktiv oder abgeschlossen sein."
+        },
+        "aqlPath" : "/content[openEHR-EHR-OBSERVATION.medication_statement.v0,'Antikoagulanzien']/protocol[at0004]/items[openEHR-EHR-CLUSTER.medication_status_fhir.v0,'Status']",
+        "children" : [ {
+          "id" : "status",
+          "name" : "Status",
+          "localizedName" : "Status",
+          "rmType" : "DV_CODED_TEXT",
+          "nodeId" : "at0001",
+          "min" : 1,
+          "max" : 1,
+          "localizedNames" : {
+            "de" : "Status"
+          },
+          "localizedDescriptions" : {
+            "de" : "Status der Einnahme des Medikamentes im Verlauf oder nach dem Ende der Therapie bzw. der Nachsorge."
+          },
+          "aqlPath" : "/content[openEHR-EHR-OBSERVATION.medication_statement.v0,'Antikoagulanzien']/protocol[at0004]/items[openEHR-EHR-CLUSTER.medication_status_fhir.v0,'Status']/items[at0001]/value",
+          "inputs" : [ {
+            "suffix" : "code",
+            "type" : "CODED_TEXT",
+            "list" : [ {
+              "value" : "at0002",
+              "label" : "Aktiv",
+              "localizedLabels" : {
+                "de" : "Aktiv"
+              },
+              "localizedDescriptions" : {
+                "de" : "Das Medikament wird noch angewendet."
+              }
+            }, {
+              "value" : "at0003",
+              "label" : "Abgeschlossen",
+              "localizedLabels" : {
+                "de" : "Abgeschlossen"
+              },
+              "localizedDescriptions" : {
+                "de" : "Das Medikament wird nicht mehr angewendet."
+              }
+            }, {
+              "value" : "at0004",
+              "label" : "Fehlerhafte Anwendung",
+              "localizedLabels" : {
+                "de" : "Fehlerhafte Anwendung"
+              },
+              "localizedDescriptions" : {
+                "de" : "Einige der Aktionen, die im Medikation Statement enthalten sind, können bereits stattgefunden haben. Beispielsweise kann der Patient einen Teil der Medikamente eingenommen haben."
+              }
+            }, {
+              "value" : "at0005",
+              "label" : "Beabsichtigt",
+              "localizedLabels" : {
+                "de" : "Beabsichtigt"
+              },
+              "localizedDescriptions" : {
+                "de" : "Die Medikation kann irgendwann in der Zukunft angewendet werden."
+              }
+            }, {
+              "value" : "at0006",
+              "label" : "Gestoppt",
+              "localizedLabels" : {
+                "de" : "Gestoppt"
+              },
+              "localizedDescriptions" : {
+                "de" : "Die im Medikation Statement implizierten Aktionen wurden dauerhaft gestoppt, bevor alle von ihnen eingetreten sind. Dies sollte nicht verwendet werden, wenn Medikation Statement versehentlich eingegeben wurde."
+              }
+            }, {
+              "value" : "at0007",
+              "label" : "Angehalten",
+              "localizedLabels" : {
+                "de" : "Angehalten"
+              },
+              "localizedDescriptions" : {
+                "de" : "Die im Medikation Statement implizierten Aktionen wurden vorübergehend gestoppt, werden aber voraussichtlich später fortgesetzt. Kann auch als \"ausgesetzt\" bezeichnet werden."
+              }
+            }, {
+              "value" : "at0008",
+              "label" : "Unbekannt",
+              "localizedLabels" : {
+                "de" : "Unbekannt"
+              },
+              "localizedDescriptions" : {
+                "de" : "Der Status des Medikaments ist derzeit nicht bekannt."
+              }
+            }, {
+              "value" : "at0009",
+              "label" : "Nicht genommen",
+              "localizedLabels" : {
+                "de" : "Nicht genommen"
+              },
+              "localizedDescriptions" : {
+                "de" : "Das Medikament wurde vom Patienten nicht angewendet."
+              }
+            } ]
+          } ]
+        }, {
+          "id" : "kommentar",
+          "name" : "Kommentar",
+          "localizedName" : "Kommentar",
+          "rmType" : "DV_TEXT",
+          "nodeId" : "at0014",
+          "min" : 0,
+          "max" : -1,
+          "localizedNames" : {
+            "de" : "Kommentar"
+          },
+          "localizedDescriptions" : {
+            "de" : "Zusätzliche Informationen über die Medikation, die nicht in anderen Bereichen dargestellt wurden."
+          },
+          "aqlPath" : "/content[openEHR-EHR-OBSERVATION.medication_statement.v0,'Antikoagulanzien']/protocol[at0004]/items[openEHR-EHR-CLUSTER.medication_status_fhir.v0,'Status']/items[at0014]/value",
+          "inputs" : [ {
+            "type" : "TEXT"
+          } ]
+        } ]
+      }, {
+        "id" : "language",
+        "name" : "Language",
+        "rmType" : "CODE_PHRASE",
+        "min" : 1,
+        "max" : 1,
+        "aqlPath" : "/content[openEHR-EHR-OBSERVATION.medication_statement.v0,'Antikoagulanzien']/language",
+        "inContext" : true
+      }, {
+        "id" : "encoding",
+        "name" : "Encoding",
+        "rmType" : "CODE_PHRASE",
+        "min" : 1,
+        "max" : 1,
+        "aqlPath" : "/content[openEHR-EHR-OBSERVATION.medication_statement.v0,'Antikoagulanzien']/encoding",
+        "inContext" : true
+      }, {
+        "id" : "subject",
+        "name" : "Subject",
+        "rmType" : "PARTY_PROXY",
+        "min" : 1,
+        "max" : 1,
+        "aqlPath" : "/content[openEHR-EHR-OBSERVATION.medication_statement.v0,'Antikoagulanzien']/subject",
+        "inputs" : [ {
+          "suffix" : "id",
+          "type" : "TEXT"
+        }, {
+          "suffix" : "id_scheme",
+          "type" : "TEXT"
+        }, {
+          "suffix" : "id_namespace",
+          "type" : "TEXT"
+        }, {
+          "suffix" : "name",
+          "type" : "TEXT"
+        } ],
+        "inContext" : true
+      } ]
+    }, {
+      "id" : "category",
+      "rmType" : "DV_CODED_TEXT",
+      "nodeId" : "",
+      "min" : 1,
+      "max" : 1,
+      "aqlPath" : "/category",
+      "inputs" : [ {
+        "suffix" : "code",
+        "type" : "CODED_TEXT",
+        "list" : [ {
+          "value" : "433",
+          "label" : "event",
+          "localizedLabels" : {
+            "de" : ""
+          }
+        } ],
+        "terminology" : "openehr"
+      } ],
+      "inContext" : true
+    }, {
+      "id" : "language",
+      "name" : "Language",
+      "rmType" : "CODE_PHRASE",
+      "min" : 1,
+      "max" : 1,
+      "aqlPath" : "/language",
+      "inContext" : true
+    }, {
+      "id" : "territory",
+      "name" : "Territory",
+      "rmType" : "CODE_PHRASE",
+      "min" : 1,
+      "max" : 1,
+      "aqlPath" : "/territory",
+      "inContext" : true
+    }, {
+      "id" : "composer",
+      "name" : "Composer",
+      "rmType" : "PARTY_PROXY",
+      "min" : 1,
+      "max" : 1,
+      "aqlPath" : "/composer",
+      "inputs" : [ {
+        "suffix" : "id",
+        "type" : "TEXT"
+      }, {
+        "suffix" : "id_scheme",
+        "type" : "TEXT"
+      }, {
+        "suffix" : "id_namespace",
+        "type" : "TEXT"
+      }, {
+        "suffix" : "name",
+        "type" : "TEXT"
+      } ],
+      "inContext" : true
+    } ]
+  }
+}

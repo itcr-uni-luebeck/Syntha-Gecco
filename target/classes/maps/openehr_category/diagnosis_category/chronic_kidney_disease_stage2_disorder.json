@@ -1,0 +1,42 @@
+{
+  "system" : "SNOMED Clinical Terms",
+  "code" : "431856006",
+  "description" : "",
+  "children" : [ {
+    "system" : "http://snomed.info/sct",
+    "code" : "431856006",
+    "display" : "Chronic kidney disease stage 2"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "284981000119102",
+    "display" : "Chronic kidney disease stage 2 due to benign hypertension"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "368431000119106",
+    "display" : "Chronic kidney disease stage 2 due to drug induced diabetes mellitus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "129181000119109",
+    "display" : "Chronic kidney disease stage 2 due to hypertension"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "90731000119103",
+    "display" : "Chronic kidney disease stage 2 due to type 1 diabetes mellitus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "741000119101",
+    "display" : "Chronic kidney disease stage 2 due to type 2 diabetes mellitus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "140131000119102",
+    "display" : "Hypertension in chronic kidney disease stage 2 due to type 2 diabetes mellitus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "96741000119109",
+    "display" : "Hypertensive heart AND chronic kidney disease stage 2"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "285861000119100",
+    "display" : "Malignant hypertensive chronic kidney disease stage 2"
+  } ]
+}

@@ -1,0 +1,38 @@
+{
+  "system" : "SNOMED Clinical Terms",
+  "code" : "431855005",
+  "description" : "",
+  "children" : [ {
+    "system" : "http://snomed.info/sct",
+    "code" : "431855005",
+    "display" : "Chronic kidney disease stage 1"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "284971000119100",
+    "display" : "Chronic kidney disease stage 1 due to benign hypertension"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "368421000119108",
+    "display" : "Chronic kidney disease stage 1 due to drug induced diabetes mellitus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "117681000119102",
+    "display" : "Chronic kidney disease stage 1 due to hypertension"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "90721000119101",
+    "display" : "Chronic kidney disease stage 1 due to type 1 diabetes mellitus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "751000119104",
+    "display" : "Chronic kidney disease stage 1 due to type 2 diabetes mellitus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "96751000119106",
+    "display" : "Hypertensive heart AND chronic kidney disease stage 1"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "285851000119102",
+    "display" : "Malignant hypertensive chronic kidney disease stage 1"
+  } ]
+}

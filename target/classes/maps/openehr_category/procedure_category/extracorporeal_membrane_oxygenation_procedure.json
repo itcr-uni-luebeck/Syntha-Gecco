@@ -1,0 +1,22 @@
+{
+  "system" : "SNOMED Clinical Terms",
+  "code" : "233573008",
+  "description" : "",
+  "children" : [ {
+    "system" : "http://snomed.info/sct",
+    "code" : "786452006",
+    "display" : "Arteriovenous extracorporeal membrane oxygenation"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "233573008",
+    "display" : "Extracorporeal membrane oxygenation"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "786451004",
+    "display" : "Venoarterial extracorporeal membrane oxygenation"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "786453001",
+    "display" : "Venovenous extracorporeal membrane oxygenation"
+  } ]
+}

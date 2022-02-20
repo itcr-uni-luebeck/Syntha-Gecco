@@ -1,0 +1,824 @@
+{
+  "templateName" : "Befund der Blutgasanalyse",
+  "paths" : [ {
+    "id" : 0,
+    "aqlPath" : "/context/other_context[at0001]/items[at0004]/value|code",
+    "path" : "befund_der_blutgasanalyse/context/status|code",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 1,
+    "aqlPath" : "/context/other_context[at0001]/items[at0005]/value",
+    "path" : "befund_der_blutgasanalyse/context/kategorie",
+    "type" : "TEXT"
+  }, {
+    "id" : 2,
+    "aqlPath" : "/context/start_time",
+    "path" : "befund_der_blutgasanalyse/context/start_time",
+    "type" : "DATETIME"
+  }, {
+    "id" : 3,
+    "aqlPath" : "/context/setting|code",
+    "path" : "befund_der_blutgasanalyse/context/setting|code",
+    "type" : "TEXT"
+  }, {
+    "id" : 4,
+    "aqlPath" : "/context/setting|value",
+    "path" : "befund_der_blutgasanalyse/context/setting|value",
+    "type" : "TEXT"
+  }, {
+    "id" : 5,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[at0005]/value|code",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/labortest-bezeichnung|code",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 6,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Kohlendioxidpartialdruck']/items[at0024]/value|code",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/kohlendioxidpartialdruck/bezeichnung_des_analyts|code",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 7,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Kohlendioxidpartialdruck']/items[at0001]/value|magnitude",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/kohlendioxidpartialdruck/analyt-ergebnis|magnitude",
+    "type" : "DECIMAL"
+  }, {
+    "id" : 8,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Kohlendioxidpartialdruck']/items[at0001]/value|unit",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/kohlendioxidpartialdruck/analyt-ergebnis|unit",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 9,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Kohlendioxidpartialdruck']/items[at0028]/Testmethode|code",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/kohlendioxidpartialdruck/testmethode/coded_text_value|code",
+    "type" : "TEXT"
+  }, {
+    "id" : 10,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Kohlendioxidpartialdruck']/items[at0028]/Testmethode|value",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/kohlendioxidpartialdruck/testmethode/coded_text_value|value",
+    "type" : "TEXT"
+  }, {
+    "id" : 11,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Kohlendioxidpartialdruck']/items[at0028]/Testmethode",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/kohlendioxidpartialdruck/testmethode/text_value",
+    "type" : "TEXT"
+  }, {
+    "id" : 12,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Kohlendioxidpartialdruck']/items[at0028]/Testmethode",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/kohlendioxidpartialdruck/testmethode/multimedia_value",
+    "type" : "TEXT"
+  }, {
+    "id" : 13,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Kohlendioxidpartialdruck']/items[at0028]/Testmethode|value",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/kohlendioxidpartialdruck/testmethode/parsable_value|value",
+    "type" : "TEXT"
+  }, {
+    "id" : 14,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Kohlendioxidpartialdruck']/items[at0028]/Testmethode|formalism",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/kohlendioxidpartialdruck/testmethode/parsable_value|formalism",
+    "type" : "TEXT"
+  }, {
+    "id" : 15,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Kohlendioxidpartialdruck']/items[at0028]/Testmethode|code",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/kohlendioxidpartialdruck/testmethode/state_value|code",
+    "type" : "TEXT"
+  }, {
+    "id" : 16,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Kohlendioxidpartialdruck']/items[at0028]/Testmethode|value",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/kohlendioxidpartialdruck/testmethode/state_value|value",
+    "type" : "TEXT"
+  }, {
+    "id" : 17,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Kohlendioxidpartialdruck']/items[at0028]/Testmethode",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/kohlendioxidpartialdruck/testmethode/boolean_value",
+    "type" : "BOOLEAN"
+  }, {
+    "id" : 18,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Kohlendioxidpartialdruck']/items[at0028]/Testmethode|id",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/kohlendioxidpartialdruck/testmethode/identifier_value|id",
+    "type" : "TEXT"
+  }, {
+    "id" : 19,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Kohlendioxidpartialdruck']/items[at0028]/Testmethode|type",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/kohlendioxidpartialdruck/testmethode/identifier_value|type",
+    "type" : "TEXT"
+  }, {
+    "id" : 20,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Kohlendioxidpartialdruck']/items[at0028]/Testmethode|issuer",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/kohlendioxidpartialdruck/testmethode/identifier_value|issuer",
+    "type" : "TEXT"
+  }, {
+    "id" : 21,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Kohlendioxidpartialdruck']/items[at0028]/Testmethode|assigner",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/kohlendioxidpartialdruck/testmethode/identifier_value|assigner",
+    "type" : "TEXT"
+  }, {
+    "id" : 22,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Kohlendioxidpartialdruck']/items[at0028]/Testmethode",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/kohlendioxidpartialdruck/testmethode/uri_value",
+    "type" : "TEXT"
+  }, {
+    "id" : 23,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Kohlendioxidpartialdruck']/items[at0028]/Testmethode",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/kohlendioxidpartialdruck/testmethode/ehr_uri_value",
+    "type" : "TEXT"
+  }, {
+    "id" : 24,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Kohlendioxidpartialdruck']/items[at0028]/Testmethode|year",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/kohlendioxidpartialdruck/testmethode/duration_value|year",
+    "type" : "INTEGER"
+  }, {
+    "id" : 25,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Kohlendioxidpartialdruck']/items[at0028]/Testmethode|month",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/kohlendioxidpartialdruck/testmethode/duration_value|month",
+    "type" : "INTEGER"
+  }, {
+    "id" : 26,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Kohlendioxidpartialdruck']/items[at0028]/Testmethode|day",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/kohlendioxidpartialdruck/testmethode/duration_value|day",
+    "type" : "INTEGER"
+  }, {
+    "id" : 27,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Kohlendioxidpartialdruck']/items[at0028]/Testmethode|week",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/kohlendioxidpartialdruck/testmethode/duration_value|week",
+    "type" : "INTEGER"
+  }, {
+    "id" : 28,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Kohlendioxidpartialdruck']/items[at0028]/Testmethode|hour",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/kohlendioxidpartialdruck/testmethode/duration_value|hour",
+    "type" : "INTEGER"
+  }, {
+    "id" : 29,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Kohlendioxidpartialdruck']/items[at0028]/Testmethode|minute",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/kohlendioxidpartialdruck/testmethode/duration_value|minute",
+    "type" : "INTEGER"
+  }, {
+    "id" : 30,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Kohlendioxidpartialdruck']/items[at0028]/Testmethode|second",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/kohlendioxidpartialdruck/testmethode/duration_value|second",
+    "type" : "INTEGER"
+  }, {
+    "id" : 31,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Kohlendioxidpartialdruck']/items[at0028]/Testmethode|magnitude",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/kohlendioxidpartialdruck/testmethode/quantity_value|magnitude",
+    "type" : "DECIMAL"
+  }, {
+    "id" : 32,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Kohlendioxidpartialdruck']/items[at0028]/Testmethode|unit",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/kohlendioxidpartialdruck/testmethode/quantity_value|unit",
+    "type" : "TEXT"
+  }, {
+    "id" : 33,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Kohlendioxidpartialdruck']/items[at0028]/Testmethode",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/kohlendioxidpartialdruck/testmethode/count_value",
+    "type" : "INTEGER"
+  }, {
+    "id" : 34,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Kohlendioxidpartialdruck']/items[at0028]/Testmethode|numerator",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/kohlendioxidpartialdruck/testmethode/proportion_value|numerator",
+    "type" : "DECIMAL"
+  }, {
+    "id" : 35,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Kohlendioxidpartialdruck']/items[at0028]/Testmethode|denominator",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/kohlendioxidpartialdruck/testmethode/proportion_value|denominator",
+    "type" : "DECIMAL"
+  }, {
+    "id" : 36,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Kohlendioxidpartialdruck']/items[at0028]/Testmethode",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/kohlendioxidpartialdruck/testmethode/date_time_value",
+    "type" : "DATETIME"
+  }, {
+    "id" : 37,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Kohlendioxidpartialdruck']/items[at0028]/Testmethode",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/kohlendioxidpartialdruck/testmethode/date_value",
+    "type" : "DATE"
+  }, {
+    "id" : 38,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Kohlendioxidpartialdruck']/items[at0028]/Testmethode",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/kohlendioxidpartialdruck/testmethode/time_value",
+    "type" : "TIME"
+  }, {
+    "id" : 39,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Kohlendioxidpartialdruck']/items[at0028]/Testmethode",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/kohlendioxidpartialdruck/testmethode/ordinal_value",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 40,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Kohlendioxidpartialdruck']/items[at0028]/Testmethode",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/kohlendioxidpartialdruck/testmethode/scale_value",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 41,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Kohlendioxidpartialdruck']/items[at0005]/value",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/kohlendioxidpartialdruck/ergebnis-status",
+    "type" : "TEXT"
+  }, {
+    "id" : 42,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Sauerstoffpartialdruck']/items[at0024]/value|code",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/sauerstoffpartialdruck/bezeichnung_des_analyts|code",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 43,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Sauerstoffpartialdruck']/items[at0001]/value|magnitude",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/sauerstoffpartialdruck/analyt-ergebnis|magnitude",
+    "type" : "DECIMAL"
+  }, {
+    "id" : 44,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Sauerstoffpartialdruck']/items[at0001]/value|unit",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/sauerstoffpartialdruck/analyt-ergebnis|unit",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 45,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Sauerstoffpartialdruck']/items[at0028]/Testmethode|code",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/sauerstoffpartialdruck/testmethode/coded_text_value|code",
+    "type" : "TEXT"
+  }, {
+    "id" : 46,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Sauerstoffpartialdruck']/items[at0028]/Testmethode|value",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/sauerstoffpartialdruck/testmethode/coded_text_value|value",
+    "type" : "TEXT"
+  }, {
+    "id" : 47,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Sauerstoffpartialdruck']/items[at0028]/Testmethode",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/sauerstoffpartialdruck/testmethode/text_value",
+    "type" : "TEXT"
+  }, {
+    "id" : 48,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Sauerstoffpartialdruck']/items[at0028]/Testmethode",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/sauerstoffpartialdruck/testmethode/multimedia_value",
+    "type" : "TEXT"
+  }, {
+    "id" : 49,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Sauerstoffpartialdruck']/items[at0028]/Testmethode|value",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/sauerstoffpartialdruck/testmethode/parsable_value|value",
+    "type" : "TEXT"
+  }, {
+    "id" : 50,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Sauerstoffpartialdruck']/items[at0028]/Testmethode|formalism",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/sauerstoffpartialdruck/testmethode/parsable_value|formalism",
+    "type" : "TEXT"
+  }, {
+    "id" : 51,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Sauerstoffpartialdruck']/items[at0028]/Testmethode|code",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/sauerstoffpartialdruck/testmethode/state_value|code",
+    "type" : "TEXT"
+  }, {
+    "id" : 52,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Sauerstoffpartialdruck']/items[at0028]/Testmethode|value",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/sauerstoffpartialdruck/testmethode/state_value|value",
+    "type" : "TEXT"
+  }, {
+    "id" : 53,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Sauerstoffpartialdruck']/items[at0028]/Testmethode",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/sauerstoffpartialdruck/testmethode/boolean_value",
+    "type" : "BOOLEAN"
+  }, {
+    "id" : 54,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Sauerstoffpartialdruck']/items[at0028]/Testmethode|id",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/sauerstoffpartialdruck/testmethode/identifier_value|id",
+    "type" : "TEXT"
+  }, {
+    "id" : 55,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Sauerstoffpartialdruck']/items[at0028]/Testmethode|type",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/sauerstoffpartialdruck/testmethode/identifier_value|type",
+    "type" : "TEXT"
+  }, {
+    "id" : 56,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Sauerstoffpartialdruck']/items[at0028]/Testmethode|issuer",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/sauerstoffpartialdruck/testmethode/identifier_value|issuer",
+    "type" : "TEXT"
+  }, {
+    "id" : 57,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Sauerstoffpartialdruck']/items[at0028]/Testmethode|assigner",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/sauerstoffpartialdruck/testmethode/identifier_value|assigner",
+    "type" : "TEXT"
+  }, {
+    "id" : 58,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Sauerstoffpartialdruck']/items[at0028]/Testmethode",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/sauerstoffpartialdruck/testmethode/uri_value",
+    "type" : "TEXT"
+  }, {
+    "id" : 59,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Sauerstoffpartialdruck']/items[at0028]/Testmethode",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/sauerstoffpartialdruck/testmethode/ehr_uri_value",
+    "type" : "TEXT"
+  }, {
+    "id" : 60,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Sauerstoffpartialdruck']/items[at0028]/Testmethode|year",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/sauerstoffpartialdruck/testmethode/duration_value|year",
+    "type" : "INTEGER"
+  }, {
+    "id" : 61,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Sauerstoffpartialdruck']/items[at0028]/Testmethode|month",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/sauerstoffpartialdruck/testmethode/duration_value|month",
+    "type" : "INTEGER"
+  }, {
+    "id" : 62,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Sauerstoffpartialdruck']/items[at0028]/Testmethode|day",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/sauerstoffpartialdruck/testmethode/duration_value|day",
+    "type" : "INTEGER"
+  }, {
+    "id" : 63,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Sauerstoffpartialdruck']/items[at0028]/Testmethode|week",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/sauerstoffpartialdruck/testmethode/duration_value|week",
+    "type" : "INTEGER"
+  }, {
+    "id" : 64,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Sauerstoffpartialdruck']/items[at0028]/Testmethode|hour",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/sauerstoffpartialdruck/testmethode/duration_value|hour",
+    "type" : "INTEGER"
+  }, {
+    "id" : 65,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Sauerstoffpartialdruck']/items[at0028]/Testmethode|minute",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/sauerstoffpartialdruck/testmethode/duration_value|minute",
+    "type" : "INTEGER"
+  }, {
+    "id" : 66,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Sauerstoffpartialdruck']/items[at0028]/Testmethode|second",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/sauerstoffpartialdruck/testmethode/duration_value|second",
+    "type" : "INTEGER"
+  }, {
+    "id" : 67,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Sauerstoffpartialdruck']/items[at0028]/Testmethode|magnitude",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/sauerstoffpartialdruck/testmethode/quantity_value|magnitude",
+    "type" : "DECIMAL"
+  }, {
+    "id" : 68,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Sauerstoffpartialdruck']/items[at0028]/Testmethode|unit",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/sauerstoffpartialdruck/testmethode/quantity_value|unit",
+    "type" : "TEXT"
+  }, {
+    "id" : 69,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Sauerstoffpartialdruck']/items[at0028]/Testmethode",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/sauerstoffpartialdruck/testmethode/count_value",
+    "type" : "INTEGER"
+  }, {
+    "id" : 70,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Sauerstoffpartialdruck']/items[at0028]/Testmethode|numerator",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/sauerstoffpartialdruck/testmethode/proportion_value|numerator",
+    "type" : "DECIMAL"
+  }, {
+    "id" : 71,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Sauerstoffpartialdruck']/items[at0028]/Testmethode|denominator",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/sauerstoffpartialdruck/testmethode/proportion_value|denominator",
+    "type" : "DECIMAL"
+  }, {
+    "id" : 72,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Sauerstoffpartialdruck']/items[at0028]/Testmethode",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/sauerstoffpartialdruck/testmethode/date_time_value",
+    "type" : "DATETIME"
+  }, {
+    "id" : 73,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Sauerstoffpartialdruck']/items[at0028]/Testmethode",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/sauerstoffpartialdruck/testmethode/date_value",
+    "type" : "DATE"
+  }, {
+    "id" : 74,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Sauerstoffpartialdruck']/items[at0028]/Testmethode",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/sauerstoffpartialdruck/testmethode/time_value",
+    "type" : "TIME"
+  }, {
+    "id" : 75,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Sauerstoffpartialdruck']/items[at0028]/Testmethode",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/sauerstoffpartialdruck/testmethode/ordinal_value",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 76,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Sauerstoffpartialdruck']/items[at0028]/Testmethode",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/sauerstoffpartialdruck/testmethode/scale_value",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 77,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Sauerstoffpartialdruck']/items[at0005]/value",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/sauerstoffpartialdruck/ergebnis-status",
+    "type" : "TEXT"
+  }, {
+    "id" : 78,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'pH-Wert']/items[at0024]/value|code",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/ph-wert/bezeichnung_des_analyts|code",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 79,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'pH-Wert']/items[at0001]/value|magnitude",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/ph-wert/analyt-ergebnis|magnitude",
+    "type" : "DECIMAL"
+  }, {
+    "id" : 80,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'pH-Wert']/items[at0001]/value|unit",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/ph-wert/analyt-ergebnis|unit",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 81,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'pH-Wert']/items[at0028]/Testmethode|code",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/ph-wert/testmethode/coded_text_value|code",
+    "type" : "TEXT"
+  }, {
+    "id" : 82,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'pH-Wert']/items[at0028]/Testmethode|value",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/ph-wert/testmethode/coded_text_value|value",
+    "type" : "TEXT"
+  }, {
+    "id" : 83,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'pH-Wert']/items[at0028]/Testmethode",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/ph-wert/testmethode/text_value",
+    "type" : "TEXT"
+  }, {
+    "id" : 84,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'pH-Wert']/items[at0028]/Testmethode",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/ph-wert/testmethode/multimedia_value",
+    "type" : "TEXT"
+  }, {
+    "id" : 85,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'pH-Wert']/items[at0028]/Testmethode|value",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/ph-wert/testmethode/parsable_value|value",
+    "type" : "TEXT"
+  }, {
+    "id" : 86,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'pH-Wert']/items[at0028]/Testmethode|formalism",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/ph-wert/testmethode/parsable_value|formalism",
+    "type" : "TEXT"
+  }, {
+    "id" : 87,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'pH-Wert']/items[at0028]/Testmethode|code",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/ph-wert/testmethode/state_value|code",
+    "type" : "TEXT"
+  }, {
+    "id" : 88,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'pH-Wert']/items[at0028]/Testmethode|value",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/ph-wert/testmethode/state_value|value",
+    "type" : "TEXT"
+  }, {
+    "id" : 89,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'pH-Wert']/items[at0028]/Testmethode",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/ph-wert/testmethode/boolean_value",
+    "type" : "BOOLEAN"
+  }, {
+    "id" : 90,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'pH-Wert']/items[at0028]/Testmethode|id",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/ph-wert/testmethode/identifier_value|id",
+    "type" : "TEXT"
+  }, {
+    "id" : 91,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'pH-Wert']/items[at0028]/Testmethode|type",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/ph-wert/testmethode/identifier_value|type",
+    "type" : "TEXT"
+  }, {
+    "id" : 92,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'pH-Wert']/items[at0028]/Testmethode|issuer",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/ph-wert/testmethode/identifier_value|issuer",
+    "type" : "TEXT"
+  }, {
+    "id" : 93,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'pH-Wert']/items[at0028]/Testmethode|assigner",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/ph-wert/testmethode/identifier_value|assigner",
+    "type" : "TEXT"
+  }, {
+    "id" : 94,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'pH-Wert']/items[at0028]/Testmethode",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/ph-wert/testmethode/uri_value",
+    "type" : "TEXT"
+  }, {
+    "id" : 95,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'pH-Wert']/items[at0028]/Testmethode",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/ph-wert/testmethode/ehr_uri_value",
+    "type" : "TEXT"
+  }, {
+    "id" : 96,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'pH-Wert']/items[at0028]/Testmethode|year",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/ph-wert/testmethode/duration_value|year",
+    "type" : "INTEGER"
+  }, {
+    "id" : 97,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'pH-Wert']/items[at0028]/Testmethode|month",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/ph-wert/testmethode/duration_value|month",
+    "type" : "INTEGER"
+  }, {
+    "id" : 98,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'pH-Wert']/items[at0028]/Testmethode|day",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/ph-wert/testmethode/duration_value|day",
+    "type" : "INTEGER"
+  }, {
+    "id" : 99,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'pH-Wert']/items[at0028]/Testmethode|week",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/ph-wert/testmethode/duration_value|week",
+    "type" : "INTEGER"
+  }, {
+    "id" : 100,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'pH-Wert']/items[at0028]/Testmethode|hour",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/ph-wert/testmethode/duration_value|hour",
+    "type" : "INTEGER"
+  }, {
+    "id" : 101,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'pH-Wert']/items[at0028]/Testmethode|minute",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/ph-wert/testmethode/duration_value|minute",
+    "type" : "INTEGER"
+  }, {
+    "id" : 102,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'pH-Wert']/items[at0028]/Testmethode|second",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/ph-wert/testmethode/duration_value|second",
+    "type" : "INTEGER"
+  }, {
+    "id" : 103,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'pH-Wert']/items[at0028]/Testmethode|magnitude",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/ph-wert/testmethode/quantity_value|magnitude",
+    "type" : "DECIMAL"
+  }, {
+    "id" : 104,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'pH-Wert']/items[at0028]/Testmethode|unit",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/ph-wert/testmethode/quantity_value|unit",
+    "type" : "TEXT"
+  }, {
+    "id" : 105,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'pH-Wert']/items[at0028]/Testmethode",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/ph-wert/testmethode/count_value",
+    "type" : "INTEGER"
+  }, {
+    "id" : 106,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'pH-Wert']/items[at0028]/Testmethode|numerator",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/ph-wert/testmethode/proportion_value|numerator",
+    "type" : "DECIMAL"
+  }, {
+    "id" : 107,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'pH-Wert']/items[at0028]/Testmethode|denominator",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/ph-wert/testmethode/proportion_value|denominator",
+    "type" : "DECIMAL"
+  }, {
+    "id" : 108,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'pH-Wert']/items[at0028]/Testmethode",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/ph-wert/testmethode/date_time_value",
+    "type" : "DATETIME"
+  }, {
+    "id" : 109,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'pH-Wert']/items[at0028]/Testmethode",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/ph-wert/testmethode/date_value",
+    "type" : "DATE"
+  }, {
+    "id" : 110,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'pH-Wert']/items[at0028]/Testmethode",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/ph-wert/testmethode/time_value",
+    "type" : "TIME"
+  }, {
+    "id" : 111,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'pH-Wert']/items[at0028]/Testmethode",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/ph-wert/testmethode/ordinal_value",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 112,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'pH-Wert']/items[at0028]/Testmethode",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/ph-wert/testmethode/scale_value",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 113,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'pH-Wert']/items[at0005]/value",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/ph-wert/ergebnis-status",
+    "type" : "TEXT"
+  }, {
+    "id" : 114,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Sauerstoffsättigung']/items[at0024]/value|code",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/sauerstoffsättigung/bezeichnung_des_analyts|code",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 115,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Sauerstoffsättigung']/items[at0001]/value|magnitude",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/sauerstoffsättigung/analyt-ergebnis|magnitude",
+    "type" : "DECIMAL"
+  }, {
+    "id" : 116,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Sauerstoffsättigung']/items[at0001]/value|unit",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/sauerstoffsättigung/analyt-ergebnis|unit",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 117,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Sauerstoffsättigung']/items[at0028]/Testmethode|code",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/sauerstoffsättigung/testmethode/coded_text_value|code",
+    "type" : "TEXT"
+  }, {
+    "id" : 118,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Sauerstoffsättigung']/items[at0028]/Testmethode|value",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/sauerstoffsättigung/testmethode/coded_text_value|value",
+    "type" : "TEXT"
+  }, {
+    "id" : 119,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Sauerstoffsättigung']/items[at0028]/Testmethode",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/sauerstoffsättigung/testmethode/text_value",
+    "type" : "TEXT"
+  }, {
+    "id" : 120,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Sauerstoffsättigung']/items[at0028]/Testmethode",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/sauerstoffsättigung/testmethode/multimedia_value",
+    "type" : "TEXT"
+  }, {
+    "id" : 121,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Sauerstoffsättigung']/items[at0028]/Testmethode|value",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/sauerstoffsättigung/testmethode/parsable_value|value",
+    "type" : "TEXT"
+  }, {
+    "id" : 122,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Sauerstoffsättigung']/items[at0028]/Testmethode|formalism",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/sauerstoffsättigung/testmethode/parsable_value|formalism",
+    "type" : "TEXT"
+  }, {
+    "id" : 123,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Sauerstoffsättigung']/items[at0028]/Testmethode|code",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/sauerstoffsättigung/testmethode/state_value|code",
+    "type" : "TEXT"
+  }, {
+    "id" : 124,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Sauerstoffsättigung']/items[at0028]/Testmethode|value",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/sauerstoffsättigung/testmethode/state_value|value",
+    "type" : "TEXT"
+  }, {
+    "id" : 125,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Sauerstoffsättigung']/items[at0028]/Testmethode",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/sauerstoffsättigung/testmethode/boolean_value",
+    "type" : "BOOLEAN"
+  }, {
+    "id" : 126,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Sauerstoffsättigung']/items[at0028]/Testmethode|id",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/sauerstoffsättigung/testmethode/identifier_value|id",
+    "type" : "TEXT"
+  }, {
+    "id" : 127,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Sauerstoffsättigung']/items[at0028]/Testmethode|type",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/sauerstoffsättigung/testmethode/identifier_value|type",
+    "type" : "TEXT"
+  }, {
+    "id" : 128,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Sauerstoffsättigung']/items[at0028]/Testmethode|issuer",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/sauerstoffsättigung/testmethode/identifier_value|issuer",
+    "type" : "TEXT"
+  }, {
+    "id" : 129,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Sauerstoffsättigung']/items[at0028]/Testmethode|assigner",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/sauerstoffsättigung/testmethode/identifier_value|assigner",
+    "type" : "TEXT"
+  }, {
+    "id" : 130,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Sauerstoffsättigung']/items[at0028]/Testmethode",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/sauerstoffsättigung/testmethode/uri_value",
+    "type" : "TEXT"
+  }, {
+    "id" : 131,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Sauerstoffsättigung']/items[at0028]/Testmethode",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/sauerstoffsättigung/testmethode/ehr_uri_value",
+    "type" : "TEXT"
+  }, {
+    "id" : 132,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Sauerstoffsättigung']/items[at0028]/Testmethode|year",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/sauerstoffsättigung/testmethode/duration_value|year",
+    "type" : "INTEGER"
+  }, {
+    "id" : 133,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Sauerstoffsättigung']/items[at0028]/Testmethode|month",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/sauerstoffsättigung/testmethode/duration_value|month",
+    "type" : "INTEGER"
+  }, {
+    "id" : 134,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Sauerstoffsättigung']/items[at0028]/Testmethode|day",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/sauerstoffsättigung/testmethode/duration_value|day",
+    "type" : "INTEGER"
+  }, {
+    "id" : 135,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Sauerstoffsättigung']/items[at0028]/Testmethode|week",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/sauerstoffsättigung/testmethode/duration_value|week",
+    "type" : "INTEGER"
+  }, {
+    "id" : 136,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Sauerstoffsättigung']/items[at0028]/Testmethode|hour",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/sauerstoffsättigung/testmethode/duration_value|hour",
+    "type" : "INTEGER"
+  }, {
+    "id" : 137,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Sauerstoffsättigung']/items[at0028]/Testmethode|minute",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/sauerstoffsättigung/testmethode/duration_value|minute",
+    "type" : "INTEGER"
+  }, {
+    "id" : 138,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Sauerstoffsättigung']/items[at0028]/Testmethode|second",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/sauerstoffsättigung/testmethode/duration_value|second",
+    "type" : "INTEGER"
+  }, {
+    "id" : 139,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Sauerstoffsättigung']/items[at0028]/Testmethode|magnitude",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/sauerstoffsättigung/testmethode/quantity_value|magnitude",
+    "type" : "DECIMAL"
+  }, {
+    "id" : 140,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Sauerstoffsättigung']/items[at0028]/Testmethode|unit",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/sauerstoffsättigung/testmethode/quantity_value|unit",
+    "type" : "TEXT"
+  }, {
+    "id" : 141,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Sauerstoffsättigung']/items[at0028]/Testmethode",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/sauerstoffsättigung/testmethode/count_value",
+    "type" : "INTEGER"
+  }, {
+    "id" : 142,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Sauerstoffsättigung']/items[at0028]/Testmethode|numerator",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/sauerstoffsättigung/testmethode/proportion_value|numerator",
+    "type" : "DECIMAL"
+  }, {
+    "id" : 143,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Sauerstoffsättigung']/items[at0028]/Testmethode|denominator",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/sauerstoffsättigung/testmethode/proportion_value|denominator",
+    "type" : "DECIMAL"
+  }, {
+    "id" : 144,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Sauerstoffsättigung']/items[at0028]/Testmethode",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/sauerstoffsättigung/testmethode/date_time_value",
+    "type" : "DATETIME"
+  }, {
+    "id" : 145,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Sauerstoffsättigung']/items[at0028]/Testmethode",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/sauerstoffsättigung/testmethode/date_value",
+    "type" : "DATE"
+  }, {
+    "id" : 146,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Sauerstoffsättigung']/items[at0028]/Testmethode",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/sauerstoffsättigung/testmethode/time_value",
+    "type" : "TIME"
+  }, {
+    "id" : 147,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Sauerstoffsättigung']/items[at0028]/Testmethode",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/sauerstoffsättigung/testmethode/ordinal_value",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 148,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Sauerstoffsättigung']/items[at0028]/Testmethode",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/sauerstoffsättigung/testmethode/scale_value",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 149,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/data[at0003]/items[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,'Sauerstoffsättigung']/items[at0005]/value",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/sauerstoffsättigung/ergebnis-status",
+    "type" : "TEXT"
+  }, {
+    "id" : 150,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/data[at0001]/events[at0002]/time",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/time",
+    "type" : "DATETIME"
+  }, {
+    "id" : 151,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/language",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/language",
+    "type" : "TEXT"
+  }, {
+    "id" : 152,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/encoding",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/encoding",
+    "type" : "TEXT"
+  }, {
+    "id" : 153,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/subject|id",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/subject|id",
+    "type" : "TEXT"
+  }, {
+    "id" : 154,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/subject|id_scheme",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/subject|id_scheme",
+    "type" : "TEXT"
+  }, {
+    "id" : 155,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/subject|id_namespace",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/subject|id_namespace",
+    "type" : "TEXT"
+  }, {
+    "id" : 156,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]/subject|name",
+    "path" : "befund_der_blutgasanalyse/laborergebnis/subject|name",
+    "type" : "TEXT"
+  }, {
+    "id" : 157,
+    "aqlPath" : "/category|code",
+    "path" : "befund_der_blutgasanalyse/category|code",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 158,
+    "aqlPath" : "/language",
+    "path" : "befund_der_blutgasanalyse/language",
+    "type" : "TEXT"
+  }, {
+    "id" : 159,
+    "aqlPath" : "/territory",
+    "path" : "befund_der_blutgasanalyse/territory",
+    "type" : "TEXT"
+  }, {
+    "id" : 160,
+    "aqlPath" : "/composer|id",
+    "path" : "befund_der_blutgasanalyse/composer|id",
+    "type" : "TEXT"
+  }, {
+    "id" : 161,
+    "aqlPath" : "/composer|id_scheme",
+    "path" : "befund_der_blutgasanalyse/composer|id_scheme",
+    "type" : "TEXT"
+  }, {
+    "id" : 162,
+    "aqlPath" : "/composer|id_namespace",
+    "path" : "befund_der_blutgasanalyse/composer|id_namespace",
+    "type" : "TEXT"
+  }, {
+    "id" : 163,
+    "aqlPath" : "/composer|name",
+    "path" : "befund_der_blutgasanalyse/composer|name",
+    "type" : "TEXT"
+  } ]
+}

@@ -1,0 +1,99 @@
+{
+  "templateName" : "GECCO_Entlassungsdaten",
+  "paths" : [ {
+    "id" : 0,
+    "aqlPath" : "/context/other_context[at0001]/items[at0004]/value|code",
+    "path" : "entlassungsdaten/context/status|code",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 1,
+    "aqlPath" : "/context/other_context[at0001]/items[at0005]/value",
+    "path" : "entlassungsdaten/context/kategorie",
+    "type" : "TEXT"
+  }, {
+    "id" : 2,
+    "aqlPath" : "/context/start_time",
+    "path" : "entlassungsdaten/context/start_time",
+    "type" : "DATETIME"
+  }, {
+    "id" : 3,
+    "aqlPath" : "/context/setting|code",
+    "path" : "entlassungsdaten/context/setting|code",
+    "type" : "TEXT"
+  }, {
+    "id" : 4,
+    "aqlPath" : "/context/setting|value",
+    "path" : "entlassungsdaten/context/setting|value",
+    "type" : "TEXT"
+  }, {
+    "id" : 5,
+    "aqlPath" : "/content[openEHR-EHR-ADMIN_ENTRY.discharge_summary.v0,'Entlassungsart']/data[at0001]/items[at0040]/value|code",
+    "path" : "entlassungsdaten/entlassungsart/art_der_entlassung|code",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 6,
+    "aqlPath" : "/content[openEHR-EHR-ADMIN_ENTRY.discharge_summary.v0,'Entlassungsart']/language",
+    "path" : "entlassungsdaten/entlassungsart/language",
+    "type" : "TEXT"
+  }, {
+    "id" : 7,
+    "aqlPath" : "/content[openEHR-EHR-ADMIN_ENTRY.discharge_summary.v0,'Entlassungsart']/encoding",
+    "path" : "entlassungsdaten/entlassungsart/encoding",
+    "type" : "TEXT"
+  }, {
+    "id" : 8,
+    "aqlPath" : "/content[openEHR-EHR-ADMIN_ENTRY.discharge_summary.v0,'Entlassungsart']/subject|id",
+    "path" : "entlassungsdaten/entlassungsart/subject|id",
+    "type" : "TEXT"
+  }, {
+    "id" : 9,
+    "aqlPath" : "/content[openEHR-EHR-ADMIN_ENTRY.discharge_summary.v0,'Entlassungsart']/subject|id_scheme",
+    "path" : "entlassungsdaten/entlassungsart/subject|id_scheme",
+    "type" : "TEXT"
+  }, {
+    "id" : 10,
+    "aqlPath" : "/content[openEHR-EHR-ADMIN_ENTRY.discharge_summary.v0,'Entlassungsart']/subject|id_namespace",
+    "path" : "entlassungsdaten/entlassungsart/subject|id_namespace",
+    "type" : "TEXT"
+  }, {
+    "id" : 11,
+    "aqlPath" : "/content[openEHR-EHR-ADMIN_ENTRY.discharge_summary.v0,'Entlassungsart']/subject|name",
+    "path" : "entlassungsdaten/entlassungsart/subject|name",
+    "type" : "TEXT"
+  }, {
+    "id" : 12,
+    "aqlPath" : "/category|code",
+    "path" : "entlassungsdaten/category|code",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 13,
+    "aqlPath" : "/language",
+    "path" : "entlassungsdaten/language",
+    "type" : "TEXT"
+  }, {
+    "id" : 14,
+    "aqlPath" : "/territory",
+    "path" : "entlassungsdaten/territory",
+    "type" : "TEXT"
+  }, {
+    "id" : 15,
+    "aqlPath" : "/composer|id",
+    "path" : "entlassungsdaten/composer|id",
+    "type" : "TEXT"
+  }, {
+    "id" : 16,
+    "aqlPath" : "/composer|id_scheme",
+    "path" : "entlassungsdaten/composer|id_scheme",
+    "type" : "TEXT"
+  }, {
+    "id" : 17,
+    "aqlPath" : "/composer|id_namespace",
+    "path" : "entlassungsdaten/composer|id_namespace",
+    "type" : "TEXT"
+  }, {
+    "id" : 18,
+    "aqlPath" : "/composer|name",
+    "path" : "entlassungsdaten/composer|name",
+    "type" : "TEXT"
+  } ]
+}

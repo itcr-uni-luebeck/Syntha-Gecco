@@ -1,0 +1,334 @@
+{
+  "system" : "SNOMED Clinical Terms",
+  "code" : "41845008",
+  "description" : "",
+  "children" : [ {
+    "system" : "http://snomed.info/sct",
+    "code" : "422258005",
+    "display" : "Bone structure of auditory ossicle"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "421793000",
+    "display" : "Bone structure of incus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "420329002",
+    "display" : "Bone structure of malleus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "422057008",
+    "display" : "Bone structure of stapes"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "41845008",
+    "display" : "Ear ossicle structure"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "368936007",
+    "display" : "Entire annular ligament of base of stapes"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "368923007",
+    "display" : "Entire anterior ligament of malleus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "368933004",
+    "display" : "Entire anterior limb of stapes"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "368922002",
+    "display" : "Entire anterior process of malleus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "362558008",
+    "display" : "Entire articulation of auditory ossicles"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "279685009",
+    "display" : "Entire base of stapes"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "368856009",
+    "display" : "Entire body of incus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "731919007",
+    "display" : "Entire bone of auditory ossicle"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "731916000",
+    "display" : "Entire bone of incus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "731915001",
+    "display" : "Entire bone of malleus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "731918004",
+    "display" : "Entire bone of stapes"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "368926004",
+    "display" : "Entire head of malleus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "368932009",
+    "display" : "Entire head of stapes"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "264089001",
+    "display" : "Entire incudomallear articulation"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "264028006",
+    "display" : "Entire incudostapedial articulation"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "272649008",
+    "display" : "Entire incus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "368925000",
+    "display" : "Entire lateral ligament of malleus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "368921009",
+    "display" : "Entire lateral process of malleus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "368928003",
+    "display" : "Entire lenticular process of incus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "731176005",
+    "display" : "Entire ligament of incus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "731175009",
+    "display" : "Entire ligament of malleus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "264490000",
+    "display" : "Entire long process of incus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "264090005",
+    "display" : "Entire malleus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "264091009",
+    "display" : "Entire manubrium of malleus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "362560005",
+    "display" : "Entire membrane of stapes"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "368927008",
+    "display" : "Entire neck of malleus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "368935006",
+    "display" : "Entire neck of stapes"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "181184001",
+    "display" : "Entire ossicle of ear"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "362559000",
+    "display" : "Entire ossicular ligament"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "368931002",
+    "display" : "Entire posterior ligament of incus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "368934005",
+    "display" : "Entire posterior limb of stapes"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "730054009",
+    "display" : "Entire process of incus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "730196005",
+    "display" : "Entire process of malleus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "368929006",
+    "display" : "Entire short process of incus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "264199009",
+    "display" : "Entire stapes"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728670004",
+    "display" : "Entire stapes superstructure"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "368930001",
+    "display" : "Entire superior ligament of incus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "368924001",
+    "display" : "Entire superior ligament of malleus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "368920005",
+    "display" : "Entire tympanostapedial syndesmosis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "35395007",
+    "display" : "Incus structure"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "34080009",
+    "display" : "Malleus structure"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "26868005",
+    "display" : "Ossicular ligament structure"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "314255007",
+    "display" : "Process of incus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "360505007",
+    "display" : "Process of malleus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "22718006",
+    "display" : "Stapes structure"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "264200007",
+    "display" : "Stapes superstructure"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "25614005",
+    "display" : "Structure of annular ligament of base of stapes"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "42282006",
+    "display" : "Structure of anterior ligament of malleus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "90759000",
+    "display" : "Structure of anterior limb of stapes"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "76016004",
+    "display" : "Structure of anterior process of malleus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "7999001",
+    "display" : "Structure of articulations of auditory ossicles"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "763856002",
+    "display" : "Structure of articulations of auditory ossicles of left ear"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "763857006",
+    "display" : "Structure of articulations of auditory ossicles of right ear"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "59498008",
+    "display" : "Structure of base of stapes"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "17586009",
+    "display" : "Structure of body of incus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "77554002",
+    "display" : "Structure of head of malleus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "77141004",
+    "display" : "Structure of head of stapes"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "113329003",
+    "display" : "Structure of incudomallear articulation"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "18757006",
+    "display" : "Structure of incudostapedial articulation"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "77795001",
+    "display" : "Structure of lateral ligament of malleus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "62466004",
+    "display" : "Structure of lateral process of malleus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "59417004",
+    "display" : "Structure of lenticular process of incus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "314256008",
+    "display" : "Structure of ligament of incus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "314254006",
+    "display" : "Structure of ligament of malleus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "29333002",
+    "display" : "Structure of long process of incus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "75913003",
+    "display" : "Structure of manubrium of malleus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "34176001",
+    "display" : "Structure of membrane of stapes"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "33741002",
+    "display" : "Structure of neck of malleus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "113330008",
+    "display" : "Structure of neck of stapes"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "778040008",
+    "display" : "Structure of ossicle of left ear"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "778041007",
+    "display" : "Structure of ossicle of right ear"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "64391002",
+    "display" : "Structure of posterior ligament of incus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "1425000",
+    "display" : "Structure of posterior limb of stapes"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "54510003",
+    "display" : "Structure of short process of incus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "83394008",
+    "display" : "Structure of superior ligament of incus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "62181004",
+    "display" : "Structure of superior ligament of malleus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "90020001",
+    "display" : "Structure of tympanostapedial syndesmosis"
+  } ]
+}

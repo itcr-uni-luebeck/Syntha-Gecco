@@ -1,0 +1,30 @@
+{
+  "system" : "SNOMED Clinical Terms",
+  "code" : "440140008",
+  "description" : "",
+  "children" : [ {
+    "system" : "http://snomed.info/sct",
+    "code" : "440140008",
+    "display" : "History of cerebrovascular accident with residual deficit"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "141831000119101",
+    "display" : "History of embolic stroke with deficits"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "141811000119106",
+    "display" : "History of hemorrhagic cerebrovascular accident with residual deficit"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "140701000119108",
+    "display" : "History of hemorrhagic stroke with hemiparesis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "140711000119106",
+    "display" : "History of hemorrhagic stroke with hemiplegia"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "141821000119104",
+    "display" : "History of ischemic cerebrovascular accident with residual deficit"
+  } ]
+}

@@ -1,0 +1,998 @@
+{
+  "system" : "SNOMED Clinical Terms",
+  "code" : "84757009",
+  "description" : "",
+  "children" : [ {
+    "system" : "http://snomed.info/sct",
+    "code" : "230438007",
+    "display" : "Acquired epileptic aphasia"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "764453009",
+    "display" : "Action myoclonus renal failure syndrome"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "766044005",
+    "display" : "Acute encephalopathy with biphasic seizures and late reduced diffusion"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "361268000",
+    "display" : "Alcohol-induced epilepsy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "788417006",
+    "display" : "Alopecia, epilepsy, intellectual disability syndrome Moynahan type"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "230391003",
+    "display" : "Amygdalo-hippocampal epilepsy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "230397004",
+    "display" : "Anterior frontopolar epilepsy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "230454005",
+    "display" : "Aquagenic epilepsy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "720519003",
+    "display" : "Atherosclerosis, deafness, diabetes, epilepsy, nephropathy syndrome"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "8291000119107",
+    "display" : "Atonic epilepsy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "187931000119106",
+    "display" : "Atypical absence epilepsy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "765216006",
+    "display" : "Audiogenic epilepsy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "771448004",
+    "display" : "Autism epilepsy syndrome due to branched chain ketoacid dehydrogenase kinase deficiency"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "733623005",
+    "display" : "Autism spectrum disorder, epilepsy, arthrogryposis syndrome"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "784377008",
+    "display" : "Autosomal dominant epilepsy with auditory features"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "698021005",
+    "display" : "Autosomal dominant nocturnal frontal lobe epilepsy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "773498006",
+    "display" : "Autosomal recessive cerebellar ataxia, epilepsy, intellectual disability syndrome due to TUD deficiency"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "770898002",
+    "display" : "Autosomal recessive cerebellar ataxia, epilepsy, intellectual disability syndrome due to WWOX deficiency"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "230384001",
+    "display" : "Benign atypical partial epilepsy in childhood"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "434551000124106",
+    "display" : "Benign childhood epilepsy with centrotemporal spikes, non-refractory"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "434541000124109",
+    "display" : "Benign childhood epilepsy with centrotemporal spikes, refractory"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "770405003",
+    "display" : "Benign familial mesial temporal lobe epilepsy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "15523002",
+    "display" : "Benign focal epilepsy of childhood"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "230382002",
+    "display" : "Benign frontal epilepsy of childhood"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "770622009",
+    "display" : "Benign infantile focal epilepsy with midline spikes and waves during sleep"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "192990004",
+    "display" : "Benign myoclonic epilepsy in infancy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "38281008",
+    "display" : "Benign neonatal convulsions"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "230410004",
+    "display" : "Benign neonatal familial convulsions"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "230411000",
+    "display" : "Benign non-familial neonatal convulsions"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "230387008",
+    "display" : "Benign occipital epilepsy of childhood - early onset variant"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "230388003",
+    "display" : "Benign occipital epilepsy of childhood - late onset variant"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "770623004",
+    "display" : "Benign occipital lobe epilepsy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "770624005",
+    "display" : "Benign partial epilepsy of infancy with complex partial seizures"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "771141002",
+    "display" : "Benign partial epilepsy with secondarily generalized seizures in infancy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "230383007",
+    "display" : "Benign psychomotor epilepsy of childhood"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "44145005",
+    "display" : "Benign Rolandic epilepsy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "722386009",
+    "display" : "Celiac disease with epilepsy and cerebral calcification syndrome"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "49776008",
+    "display" : "Centrencephalic epilepsy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "50866000",
+    "display" : "Childhood absence epilepsy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "230386004",
+    "display" : "Childhood epilepsy with occipital paroxysms"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "39745004",
+    "display" : "Chronic progressive epilepsia partialis continua"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "230405003",
+    "display" : "Chronic progressive epilepsia partialis continua of childhood"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "230396008",
+    "display" : "Cingulate epilepsy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "84171000119106",
+    "display" : "Complex partial seizure of frontal lobe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "84181000119109",
+    "display" : "Complex partial seizure of occipital lobe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "84161000119100",
+    "display" : "Complex partial seizure of parietal lobe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "84191000119107",
+    "display" : "Complex partial seizure of temporal lobe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "230460005",
+    "display" : "Complex partial status epilepticus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "782772000",
+    "display" : "Congenital muscular dystrophy with intellectual disability and severe epilepsy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "771142009",
+    "display" : "Cortical dysplasia with focal epilepsy syndrome"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "230415009",
+    "display" : "Cryptogenic generalized epilepsy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "778063003",
+    "display" : "Cryptogenic late-onset epileptic spasms"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "230419003",
+    "display" : "Cryptogenic Lennox-Gastaut syndrome"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "230427007",
+    "display" : "Cryptogenic myoclonic epilepsy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "230416005",
+    "display" : "Cryptogenic West syndrome"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "193021002",
+    "display" : "Cursive (running) epilepsy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "230453004",
+    "display" : "Decision-making epilepsy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "721088003",
+    "display" : "DEND syndrome"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "782737003",
+    "display" : "Diffuse cerebral and cerebellar atrophy, intractable seizures, progressive microcephaly syndrome"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "230399001",
+    "display" : "Dorsolateral epilepsy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "230441003",
+    "display" : "Drug-induced epilepsy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "230429005",
+    "display" : "Early infantile epileptic encephalopathy with suppression bursts"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "770431001",
+    "display" : "Early-onset epileptic encephalopathy and intellectual disability due to GRIN2A mutation"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "773548008",
+    "display" : "Early-onset epileptic encephalopathy, cortical blindness, intellectual disability, facial dysmorphism syndrome"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "733082001",
+    "display" : "Early-onset Lafora body disease"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "771469002",
+    "display" : "Early-onset spastic ataxia, myoclonic epilepsy, neuropathy syndrome"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "230450001",
+    "display" : "Eating epilepsy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "241006",
+    "display" : "Epilepsia partialis continua"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "84757009",
+    "display" : "Epilepsy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "442481002",
+    "display" : "Epilepsy characterized by intractable complex partial seizures"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "724988000",
+    "display" : "Epilepsy co-occurrent and due to degenerative brain disorder"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "724992007",
+    "display" : "Epilepsy co-occurrent and due to dementia"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "724991000",
+    "display" : "Epilepsy co-occurrent and due to demyelinating disorder"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "724989008",
+    "display" : "Epilepsy co-occurrent and due to mesial temporal sclerosis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "724787004",
+    "display" : "Epilepsy due to cerebrovascular accident"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "724990004",
+    "display" : "Epilepsy due to immune disorder"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "724549005",
+    "display" : "Epilepsy due to infectious disease of central nervous system"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "860804005",
+    "display" : "Epilepsy due to infectious encephalitis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "860806007",
+    "display" : "Epilepsy due to infectious meningitis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "724789001",
+    "display" : "Epilepsy due to intracranial tumor"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "860815000",
+    "display" : "Epilepsy due to neonatal central nervous system infection"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "724786008",
+    "display" : "Epilepsy due to perinatal anoxic-ischemic brain injury"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "724785007",
+    "display" : "Epilepsy due to perinatal stroke"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "10750951000119106",
+    "display" : "Epilepsy in mother complicating childbirth"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "100941000119100",
+    "display" : "Epilepsy in mother complicating pregnancy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "733195008",
+    "display" : "Epilepsy of infancy with migrating focal seizures"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "733032006",
+    "display" : "Epilepsy telangiectasia syndrome"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "230435005",
+    "display" : "Epilepsy undetermined whether focal or generalized"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "230439004",
+    "display" : "Epilepsy with continuous spike wave during slow-wave sleep"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "230414008",
+    "display" : "Epilepsy with grand mal seizures on awakening"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "733031004",
+    "display" : "Epilepsy, microcephaly, skeletal dysplasia syndrome"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "422513000",
+    "display" : "Epilepsy, not refractory"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "82381000119103",
+    "display" : "Epileptic dementia with behavioral disturbance"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "723125008",
+    "display" : "Epileptic encephalopathy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "726702005",
+    "display" : "Epileptic encephalopathy with global cerebral demyelination"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "111498005",
+    "display" : "Extratemporal epilepsy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "230447004",
+    "display" : "Eyelid myoclonus with absences"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "764522009",
+    "display" : "Familial focal epilepsy with variable foci"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "784372002",
+    "display" : "Familial mesial temporal lobe epilepsy with febrile seizures"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "783739005",
+    "display" : "Familial temporal lobe epilepsy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "725413002",
+    "display" : "Febrile infection related epilepsy syndrome"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "716706009",
+    "display" : "Female restricted epilepsy with intellectual disability syndrome"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "230394006",
+    "display" : "Frontal lobe epilepsy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "65120008",
+    "display" : "Generalized convulsive epilepsy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "19598007",
+    "display" : "Generalized epilepsy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "715629001",
+    "display" : "Generalized epilepsy and paroxysmal dyskinesia syndrome"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "699688008",
+    "display" : "Generalized epilepsy with febrile seizures plus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "698760002",
+    "display" : "Generalized non-convulsive absence epilepsy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "192979009",
+    "display" : "Generalized non-convulsive epilepsy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "13973009",
+    "display" : "Grand mal status"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "230407006",
+    "display" : "Hemiplegia-hemiconvulsion-epilepsy syndrome"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "763534009",
+    "display" : "Hot water reflex epilepsy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "785726009",
+    "display" : "Hyperekplexia epilepsy syndrome"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "715534008",
+    "display" : "ICCA syndrome"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "36803009",
+    "display" : "Idiopathic generalized epilepsy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "230428002",
+    "display" : "Idiopathic myoclonic epilepsy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "724274009",
+    "display" : "Infant epilepsy with migrant focal crisis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "771223000",
+    "display" : "Infantile epileptic dyskinetic encephalopathy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "770438007",
+    "display" : "Infantile spasm and broad thumb syndrome"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "290871000119101",
+    "display" : "Infantile spasms co-occurrent with status epilepticus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "773421009",
+    "display" : "Infantile-onset mesial temporal lobe epilepsy with severe cognitive regression"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "84211000119108",
+    "display" : "Intractable complex partial parietal lobe epilepsy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "290741000119102",
+    "display" : "Intractable idiopathic partial epilepsy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "84221000119101",
+    "display" : "Intractable partial frontal lobe epilepsy with impairment of consciousness"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "84231000119103",
+    "display" : "Intractable partial occipital lobe epilepsy with impairment of consciousness"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "84201000119105",
+    "display" : "Intractable partial temporal lobe epilepsy with impairment of consciousness"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "119001000119108",
+    "display" : "Intractable simple partial epilepsy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "307357004",
+    "display" : "Jacksonian, focal or motor epilepsy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "716278005",
+    "display" : "Jeavons syndrome"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "230413002",
+    "display" : "Juvenile absence epilepsy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "6204001",
+    "display" : "Juvenile myoclonic epilepsy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "778001003",
+    "display" : "KCNQ2-related epileptic encephalopathy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "109478007",
+    "display" : "Kohlschutter's syndrome"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "230425004",
+    "display" : "Lafora disease"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "230393000",
+    "display" : "Lateral temporal epilepsy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "230418006",
+    "display" : "Lennox-Gastaut syndrome"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "230408001",
+    "display" : "Localization-related cryptogenic epilepsy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "230381009",
+    "display" : "Localization-related epilepsy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "278510009",
+    "display" : "Localization-related idiopathic epilepsy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "230390002",
+    "display" : "Localization-related symptomatic epilepsy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "230406002",
+    "display" : "Localization-related symptomatic epilepsy with specific precipitant"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "230444006",
+    "display" : "Menstrual epilepsy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "770643005",
+    "display" : "Mesial temporal lobe epilepsy with hippocampal sclerosis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "193003000",
+    "display" : "Mesiobasal limbic epilepsy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "763802009",
+    "display" : "Micturition induced epilepsy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "267592003",
+    "display" : "Motor cortex epilepsy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "307356008",
+    "display" : "Motor epilepsy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "773643006",
+    "display" : "Multiple congenital anomalies, hypotonia, seizures syndrome type 2"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "230422001",
+    "display" : "Myoclonic absence epilepsy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "192845009",
+    "display" : "Myoclonic encephalopathy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "778047006",
+    "display" : "Myoclonic epilepsy in non-progressive encephalopathy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "230412007",
+    "display" : "Myoclonic epilepsy of early childhood"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "230443000",
+    "display" : "Narcotic withdrawal epilepsy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "770758009",
+    "display" : "New-onset refractory status epilepticus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "230445007",
+    "display" : "Nocturnal epilepsy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "230459000",
+    "display" : "Non-convulsive simple partial status epilepticus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "230457003",
+    "display" : "Non-convulsive status epilepticus with three per second spike wave"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "230458008",
+    "display" : "Non-convulsive status epilepticus without three per second spike wave"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "230401007",
+    "display" : "Non-progressive Kozhevnikow syndrome"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "442512002",
+    "display" : "Nonconvulsive status epilepticus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "230404004",
+    "display" : "Occipital lobe epilepsy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "230400008",
+    "display" : "Opercular epilepsy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "230398009",
+    "display" : "Orbitofrontal epilepsy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "763827002",
+    "display" : "Orgasm induced epilepsy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "230403005",
+    "display" : "Parietal lobe epilepsy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "773497001",
+    "display" : "Partial corpus callosum agenesis, cerebellar vermis hypoplasia with posterior fossa cysts syndrome"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "193009001",
+    "display" : "Partial epilepsy with autonomic symptoms"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "192999003",
+    "display" : "Partial epilepsy with impairment of consciousness"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "14401000119109",
+    "display" : "Partial frontal lobe epilepsy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "20121000119105",
+    "display" : "Partial occipital lobe epilepsy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "21391000119102",
+    "display" : "Partial parietal lobe epilepsy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "766815007",
+    "display" : "Perioral myoclonia with absences"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "7033004",
+    "display" : "Petit mal status"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "95208000",
+    "display" : "Photogenic epilepsy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "237612000",
+    "display" : "Photomyoclonus, diabetes mellitus, deafness, nephropathy and cerebral dysfunction"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "698764006",
+    "display" : "Post infectious grand mal epilepsy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "698767004",
+    "display" : "Post-cerebrovascular accident epilepsy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "75023009",
+    "display" : "Post-traumatic epilepsy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "698763000",
+    "display" : "Postoperative status epilepticus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "47391000119107",
+    "display" : "Primary generalized absence epilepsy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "230389006",
+    "display" : "Primary inherited reading epilepsy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "782825008",
+    "display" : "Primary microcephaly, epilepsy, permanent neonatal diabetes syndrome"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "267581004",
+    "display" : "Progressive myoclonic epilepsy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "783064000",
+    "display" : "Progressive myoclonic epilepsy type 3"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "783055005",
+    "display" : "Progressive myoclonic epilepsy type 5"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "783062001",
+    "display" : "Progressive myoclonic epilepsy type 6"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "783139000",
+    "display" : "Progressive myoclonic epilepsy type 8"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "763349002",
+    "display" : "Progressive myoclonic epilepsy with dystonia"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "702326000",
+    "display" : "Progressive myoclonus epilepsy with ataxia"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "361123003",
+    "display" : "Psychomotor epilepsy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "193002005",
+    "display" : "Psychosensory epilepsy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "724576005",
+    "display" : "Pyridoxal 5-phosphate dependent epilepsy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "734434007",
+    "display" : "Pyridoxine-dependent epilepsy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "230191005",
+    "display" : "Rasmussen syndrome"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "767254005",
+    "display" : "Recurrent benign focal seizures of childhood"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "79745005",
+    "display" : "Reflex epilepsy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "422873003",
+    "display" : "Refractory epilepsia partialis continua"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "445355009",
+    "display" : "Refractory epilepsy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "425237009",
+    "display" : "Refractory frontal lobe epilepsy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "3371000119106",
+    "display" : "Refractory generalized convulsive epilepsy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "441678004",
+    "display" : "Refractory generalized nonconvulsive epilepsy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "710046001",
+    "display" : "Refractory idiopathic generalized epilepsy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "290881000119103",
+    "display" : "Refractory infantile spasms co-occurrent with status epilepticus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "698761003",
+    "display" : "Refractory juvenile myoclonic epilepsy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "422724001",
+    "display" : "Refractory localization-related epilepsy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "698762005",
+    "display" : "Refractory myoclonic epilepsy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "425054007",
+    "display" : "Refractory occipital lobe epilepsy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "425349008",
+    "display" : "Refractory parietal lobe epilepsy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "40816002",
+    "display" : "Retropulsion petit mal"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "230392005",
+    "display" : "Rhinencephalic epilepsy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "765093009",
+    "display" : "Rolandic epilepsy, speech dyspraxia syndrome"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "322112361000132104",
+    "display" : "Scar epilepsy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "765170001",
+    "display" : "SCN8A-related epilepsy with encephalopathy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "230440002",
+    "display" : "Secondary reading epilepsy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "230455006",
+    "display" : "Self-induced non-photosensitive epilepsy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "723676007",
+    "display" : "Severe intellectual disability, epilepsy, anal anomaly, distal phalangeal hypoplasia syndrome"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "230437002",
+    "display" : "Severe myoclonic epilepsy in infancy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "193008009",
+    "display" : "Somatosensory epilepsy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "703524005",
+    "display" : "Spinal muscular atrophy with progressive myoclonic epilepsy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "763632004",
+    "display" : "Startle epilepsy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "230456007",
+    "display" : "Status epilepticus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "290671000119100",
+    "display" : "Status epilepticus due to complex partial epileptic seizure"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "290691000119104",
+    "display" : "Status epilepticus due to generalized idiopathic epilepsy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "290711000119101",
+    "display" : "Status epilepticus due to intractable idiopathic generalized epilepsy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "290681000119102",
+    "display" : "Status epilepticus due to refractory complex partial seizures"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "290721000119108",
+    "display" : "Status epilepticus due to refractory epilepsy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "290761000119103",
+    "display" : "Status epilepticus due to refractory simple partial epilepsy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "291311000119108",
+    "display" : "Status epilepticus in benign Rolandic epilepsy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "413101007",
+    "display" : "Stress-induced epilepsy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "768666006",
+    "display" : "STXBP1 encephalopathy with epilepsy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "230395007",
+    "display" : "Supplementary motor epilepsy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "71831005",
+    "display" : "Symptomatic generalized epilepsy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "230420009",
+    "display" : "Symptomatic Lennox-Gastaut syndrome"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "230430000",
+    "display" : "Symptomatic myoclonic epilepsy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "230417001",
+    "display" : "Symptomatic West syndrome"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "780827006",
+    "display" : "SYNGAP1-related intellectual disability"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "193000002",
+    "display" : "Temporal lobe epilepsy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "763622006",
+    "display" : "Thinking epilepsy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "352818000",
+    "display" : "Tonic-clonic epilepsy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "230452009",
+    "display" : "Toothbrushing epilepsy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "230423006",
+    "display" : "Unverricht-Lundborg syndrome"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "2198002",
+    "display" : "Visceral epilepsy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "39194005",
+    "display" : "Visual epilepsy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "193010006",
+    "display" : "Visual reflex epilepsy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "28055006",
+    "display" : "West syndrome"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "230448009",
+    "display" : "Writing epilepsy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "717223008",
+    "display" : "X-linked epilepsy with learning disability and behavior disorder syndrome"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "725163002",
+    "display" : "X-linked spasticity, intellectual disability, epilepsy syndrome"
+  } ]
+}

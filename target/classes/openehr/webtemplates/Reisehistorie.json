@@ -1,0 +1,1425 @@
+{
+  "templateId" : "Reisehistorie",
+  "version" : "2.3",
+  "defaultLanguage" : "de",
+  "languages" : [ "de" ],
+  "tree" : {
+    "id" : "reisehistorie",
+    "name" : "Reisehistorie",
+    "localizedName" : "Reisehistorie",
+    "rmType" : "COMPOSITION",
+    "nodeId" : "openEHR-EHR-COMPOSITION.registereintrag.v1",
+    "min" : 1,
+    "max" : 1,
+    "localizedNames" : {
+      "de" : "Reisehistorie"
+    },
+    "localizedDescriptions" : {
+      "de" : "Generische Zusammenstellung zur Darstellung eines Datensatzes für Forschungszwecke. "
+    },
+    "aqlPath" : "",
+    "children" : [ {
+      "id" : "context",
+      "rmType" : "EVENT_CONTEXT",
+      "nodeId" : "",
+      "min" : 1,
+      "max" : 1,
+      "aqlPath" : "/context",
+      "children" : [ {
+        "id" : "status",
+        "name" : "Status",
+        "localizedName" : "Status",
+        "rmType" : "DV_CODED_TEXT",
+        "nodeId" : "at0004",
+        "min" : 1,
+        "max" : 1,
+        "localizedNames" : {
+          "de" : "Status"
+        },
+        "localizedDescriptions" : {
+          "de" : "Status der gelieferten Daten für den Registereintrag. Hinweis: Dies ist nicht der Status einzelner Komponenten."
+        },
+        "aqlPath" : "/context/other_context[at0001]/items[at0004]/value",
+        "inputs" : [ {
+          "suffix" : "code",
+          "type" : "CODED_TEXT",
+          "list" : [ {
+            "value" : "at0010",
+            "label" : "registriert",
+            "localizedLabels" : {
+              "de" : "registriert"
+            },
+            "localizedDescriptions" : {
+              "de" : "*"
+            }
+          }, {
+            "value" : "at0011",
+            "label" : "vorläufig",
+            "localizedLabels" : {
+              "de" : "vorläufig"
+            },
+            "localizedDescriptions" : {
+              "de" : "*"
+            }
+          }, {
+            "value" : "at0012",
+            "label" : "final",
+            "localizedLabels" : {
+              "de" : "final"
+            },
+            "localizedDescriptions" : {
+              "de" : "*"
+            }
+          }, {
+            "value" : "at0013",
+            "label" : "geändert",
+            "localizedLabels" : {
+              "de" : "geändert"
+            },
+            "localizedDescriptions" : {
+              "de" : "*"
+            }
+          } ]
+        } ]
+      }, {
+        "id" : "kategorie",
+        "name" : "Kategorie",
+        "localizedName" : "Kategorie",
+        "rmType" : "DV_TEXT",
+        "nodeId" : "at0005",
+        "min" : 1,
+        "max" : -1,
+        "localizedNames" : {
+          "de" : "Kategorie"
+        },
+        "localizedDescriptions" : {
+          "de" : "Die Klassifikation des Registereintrags (z.B. Typ der Observation des FHIR-Profils)."
+        },
+        "aqlPath" : "/context/other_context[at0001]/items[at0005]/value",
+        "inputs" : [ {
+          "type" : "TEXT",
+          "list" : [ {
+            "value" : "[http://terminology.hl7.org/CodeSystem/observation-category]::social-history::Social History",
+            "label" : "[http://terminology.hl7.org/CodeSystem/observation-category]::social-history::Social History"
+          } ],
+          "listOpen" : false
+        } ]
+      }, {
+        "id" : "start_time",
+        "name" : "Start_time",
+        "rmType" : "DV_DATE_TIME",
+        "min" : 1,
+        "max" : 1,
+        "aqlPath" : "/context/start_time",
+        "inputs" : [ {
+          "type" : "DATETIME"
+        } ],
+        "inContext" : true
+      }, {
+        "id" : "setting",
+        "name" : "Setting",
+        "rmType" : "DV_CODED_TEXT",
+        "min" : 1,
+        "max" : 1,
+        "aqlPath" : "/context/setting",
+        "inputs" : [ {
+          "suffix" : "code",
+          "type" : "TEXT"
+        }, {
+          "suffix" : "value",
+          "type" : "TEXT"
+        } ],
+        "inContext" : true
+      } ]
+    }, {
+      "id" : "reisehistorie",
+      "name" : "Reisehistorie",
+      "localizedName" : "Reisehistorie",
+      "rmType" : "ADMIN_ENTRY",
+      "nodeId" : "openEHR-EHR-ADMIN_ENTRY.travel_event.v0",
+      "min" : 0,
+      "max" : 1,
+      "localizedNames" : {
+        "de" : "Reisehistorie"
+      },
+      "localizedDescriptions" : {
+        "de" : "*Details about a specific trip or travel event. (en)"
+      },
+      "annotations" : {
+        "8691-8" : "History of Travel",
+        "443846001" : "Detail of history of travel (observable entity)"
+      },
+      "aqlPath" : "/content[openEHR-EHR-ADMIN_ENTRY.travel_event.v0,'Reisehistorie']",
+      "children" : [ {
+        "id" : "reise_angetreten",
+        "name" : "Reise angetreten?",
+        "localizedName" : "Reise angetreten?",
+        "rmType" : "DV_CODED_TEXT",
+        "nodeId" : "at0022",
+        "min" : 0,
+        "max" : 1,
+        "localizedNames" : {
+          "de" : "Reise angetreten?"
+        },
+        "localizedDescriptions" : {
+          "de" : "Beschreibung der gesamten Reise, insbesondere über mögliche Gesundheitsrisiken."
+        },
+        "aqlPath" : "/content[openEHR-EHR-ADMIN_ENTRY.travel_event.v0,'Reisehistorie']/data[at0001]/items[at0022,'Reise angetreten?']/value",
+        "inputs" : [ {
+          "suffix" : "code",
+          "type" : "CODED_TEXT",
+          "list" : [ {
+            "value" : "373066001",
+            "label" : "Yes (qualifier value)",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          } ],
+          "terminology" : "SNOMED Clinical Terms"
+        } ]
+      }, {
+        "id" : "bestimmtes_reiseziel",
+        "name" : "Bestimmtes Reiseziel",
+        "localizedName" : "Bestimmtes Reiseziel",
+        "rmType" : "CLUSTER",
+        "nodeId" : "at0010",
+        "min" : 0,
+        "max" : -1,
+        "localizedNames" : {
+          "de" : "Bestimmtes Reiseziel"
+        },
+        "localizedDescriptions" : {
+          "de" : "Angaben zu einem einzelnen Ort, der auf einer Reise besucht wurde."
+        },
+        "aqlPath" : "/content[openEHR-EHR-ADMIN_ENTRY.travel_event.v0,'Reisehistorie']/data[at0001]/items[at0010]",
+        "children" : [ {
+          "id" : "land",
+          "name" : "Land",
+          "localizedName" : "Land",
+          "rmType" : "DV_TEXT",
+          "nodeId" : "at0011",
+          "min" : 0,
+          "max" : 1,
+          "localizedNames" : {
+            "de" : "Land"
+          },
+          "localizedDescriptions" : {
+            "de" : "Das besuchte Land."
+          },
+          "annotations" : {
+            "94651-7" : "Country of travel"
+          },
+          "aqlPath" : "/content[openEHR-EHR-ADMIN_ENTRY.travel_event.v0,'Reisehistorie']/data[at0001]/items[at0010]/items[at0011]/value",
+          "inputs" : [ {
+            "type" : "TEXT",
+            "list" : [ {
+              "value" : "urn:iso:std:iso:3166::AD::Andorra",
+              "label" : "urn:iso:std:iso:3166::AD::Andorra"
+            }, {
+              "value" : "urn:iso:std:iso:3166::AE::United Arab Emirates",
+              "label" : "urn:iso:std:iso:3166::AE::United Arab Emirates"
+            }, {
+              "value" : "urn:iso:std:iso:3166::AF::Afghanistan",
+              "label" : "urn:iso:std:iso:3166::AF::Afghanistan"
+            }, {
+              "value" : "urn:iso:std:iso:3166::AG::Antigua and Barbuda",
+              "label" : "urn:iso:std:iso:3166::AG::Antigua and Barbuda"
+            }, {
+              "value" : "urn:iso:std:iso:3166::AI::Anguilla",
+              "label" : "urn:iso:std:iso:3166::AI::Anguilla"
+            }, {
+              "value" : "urn:iso:std:iso:3166::AL::Albania",
+              "label" : "urn:iso:std:iso:3166::AL::Albania"
+            }, {
+              "value" : "urn:iso:std:iso:3166::AM::Armenia",
+              "label" : "urn:iso:std:iso:3166::AM::Armenia"
+            }, {
+              "value" : "urn:iso:std:iso:3166::AO::Angola",
+              "label" : "urn:iso:std:iso:3166::AO::Angola"
+            }, {
+              "value" : "urn:iso:std:iso:3166::AQ::Antarctica",
+              "label" : "urn:iso:std:iso:3166::AQ::Antarctica"
+            }, {
+              "value" : "urn:iso:std:iso:3166::AR::Argentina",
+              "label" : "urn:iso:std:iso:3166::AR::Argentina"
+            }, {
+              "value" : "urn:iso:std:iso:3166::AS::American Samoa",
+              "label" : "urn:iso:std:iso:3166::AS::American Samoa"
+            }, {
+              "value" : "urn:iso:std:iso:3166::AT::Austria",
+              "label" : "urn:iso:std:iso:3166::AT::Austria"
+            }, {
+              "value" : "urn:iso:std:iso:3166::AU::Australia",
+              "label" : "urn:iso:std:iso:3166::AU::Australia"
+            }, {
+              "value" : "urn:iso:std:iso:3166::AW::Aruba",
+              "label" : "urn:iso:std:iso:3166::AW::Aruba"
+            }, {
+              "value" : "urn:iso:std:iso:3166::AX::Åland Islands",
+              "label" : "urn:iso:std:iso:3166::AX::Åland Islands"
+            }, {
+              "value" : "urn:iso:std:iso:3166::AZ::Azerbaijan",
+              "label" : "urn:iso:std:iso:3166::AZ::Azerbaijan"
+            }, {
+              "value" : "urn:iso:std:iso:3166::BA::Bosnia and Herzegovina",
+              "label" : "urn:iso:std:iso:3166::BA::Bosnia and Herzegovina"
+            }, {
+              "value" : "urn:iso:std:iso:3166::BB::Barbados",
+              "label" : "urn:iso:std:iso:3166::BB::Barbados"
+            }, {
+              "value" : "urn:iso:std:iso:3166::BD::Bangladesh",
+              "label" : "urn:iso:std:iso:3166::BD::Bangladesh"
+            }, {
+              "value" : "urn:iso:std:iso:3166::BE::Belgium",
+              "label" : "urn:iso:std:iso:3166::BE::Belgium"
+            }, {
+              "value" : "urn:iso:std:iso:3166::BF::Burkina Faso",
+              "label" : "urn:iso:std:iso:3166::BF::Burkina Faso"
+            }, {
+              "value" : "urn:iso:std:iso:3166::BG::Bulgaria",
+              "label" : "urn:iso:std:iso:3166::BG::Bulgaria"
+            }, {
+              "value" : "urn:iso:std:iso:3166::BH::Bahrain",
+              "label" : "urn:iso:std:iso:3166::BH::Bahrain"
+            }, {
+              "value" : "urn:iso:std:iso:3166::BI::Burundi",
+              "label" : "urn:iso:std:iso:3166::BI::Burundi"
+            }, {
+              "value" : "urn:iso:std:iso:3166::BJ::Benin",
+              "label" : "urn:iso:std:iso:3166::BJ::Benin"
+            }, {
+              "value" : "urn:iso:std:iso:3166::BL::Saint Barthélemy",
+              "label" : "urn:iso:std:iso:3166::BL::Saint Barthélemy"
+            }, {
+              "value" : "urn:iso:std:iso:3166::BM::Bermuda",
+              "label" : "urn:iso:std:iso:3166::BM::Bermuda"
+            }, {
+              "value" : "urn:iso:std:iso:3166::BN::Brunei Darussalam",
+              "label" : "urn:iso:std:iso:3166::BN::Brunei Darussalam"
+            }, {
+              "value" : "urn:iso:std:iso:3166::BO::Bolivia, Plurinational State of",
+              "label" : "urn:iso:std:iso:3166::BO::Bolivia, Plurinational State of"
+            }, {
+              "value" : "urn:iso:std:iso:3166::BQ::Bonaire, Sint Eustatius and Saba",
+              "label" : "urn:iso:std:iso:3166::BQ::Bonaire, Sint Eustatius and Saba"
+            }, {
+              "value" : "urn:iso:std:iso:3166::BR::Brazil",
+              "label" : "urn:iso:std:iso:3166::BR::Brazil"
+            }, {
+              "value" : "urn:iso:std:iso:3166::BS::Bahamas",
+              "label" : "urn:iso:std:iso:3166::BS::Bahamas"
+            }, {
+              "value" : "urn:iso:std:iso:3166::BT::Bhutan",
+              "label" : "urn:iso:std:iso:3166::BT::Bhutan"
+            }, {
+              "value" : "urn:iso:std:iso:3166::BV::Bouvet Island",
+              "label" : "urn:iso:std:iso:3166::BV::Bouvet Island"
+            }, {
+              "value" : "urn:iso:std:iso:3166::BW::Botswana",
+              "label" : "urn:iso:std:iso:3166::BW::Botswana"
+            }, {
+              "value" : "urn:iso:std:iso:3166::BY::Belarus",
+              "label" : "urn:iso:std:iso:3166::BY::Belarus"
+            }, {
+              "value" : "urn:iso:std:iso:3166::BZ::Belize",
+              "label" : "urn:iso:std:iso:3166::BZ::Belize"
+            }, {
+              "value" : "urn:iso:std:iso:3166::CA::Canada",
+              "label" : "urn:iso:std:iso:3166::CA::Canada"
+            }, {
+              "value" : "urn:iso:std:iso:3166::CC::Cocos (Keeling) Islands",
+              "label" : "urn:iso:std:iso:3166::CC::Cocos (Keeling) Islands"
+            }, {
+              "value" : "urn:iso:std:iso:3166::CD::Congo, the Democratic Republic of the",
+              "label" : "urn:iso:std:iso:3166::CD::Congo, the Democratic Republic of the"
+            }, {
+              "value" : "urn:iso:std:iso:3166::CF::Central African Republic",
+              "label" : "urn:iso:std:iso:3166::CF::Central African Republic"
+            }, {
+              "value" : "urn:iso:std:iso:3166::CG::Congo",
+              "label" : "urn:iso:std:iso:3166::CG::Congo"
+            }, {
+              "value" : "urn:iso:std:iso:3166::CH::Switzerland",
+              "label" : "urn:iso:std:iso:3166::CH::Switzerland"
+            }, {
+              "value" : "urn:iso:std:iso:3166::CI::Côte d''Ivoire",
+              "label" : "urn:iso:std:iso:3166::CI::Côte d''Ivoire"
+            }, {
+              "value" : "urn:iso:std:iso:3166::CK::Cook Islands",
+              "label" : "urn:iso:std:iso:3166::CK::Cook Islands"
+            }, {
+              "value" : "urn:iso:std:iso:3166::CL::Chile",
+              "label" : "urn:iso:std:iso:3166::CL::Chile"
+            }, {
+              "value" : "urn:iso:std:iso:3166::CM::Cameroon",
+              "label" : "urn:iso:std:iso:3166::CM::Cameroon"
+            }, {
+              "value" : "urn:iso:std:iso:3166::CN::China",
+              "label" : "urn:iso:std:iso:3166::CN::China"
+            }, {
+              "value" : "urn:iso:std:iso:3166::CO::Colombia",
+              "label" : "urn:iso:std:iso:3166::CO::Colombia"
+            }, {
+              "value" : "urn:iso:std:iso:3166::CR::Costa Rica",
+              "label" : "urn:iso:std:iso:3166::CR::Costa Rica"
+            }, {
+              "value" : "urn:iso:std:iso:3166::CU::Cuba",
+              "label" : "urn:iso:std:iso:3166::CU::Cuba"
+            }, {
+              "value" : "urn:iso:std:iso:3166::CV::Cabo Verde",
+              "label" : "urn:iso:std:iso:3166::CV::Cabo Verde"
+            }, {
+              "value" : "urn:iso:std:iso:3166::CW::Curaçao",
+              "label" : "urn:iso:std:iso:3166::CW::Curaçao"
+            }, {
+              "value" : "urn:iso:std:iso:3166::CX::Christmas Island",
+              "label" : "urn:iso:std:iso:3166::CX::Christmas Island"
+            }, {
+              "value" : "urn:iso:std:iso:3166::CY::Cyprus",
+              "label" : "urn:iso:std:iso:3166::CY::Cyprus"
+            }, {
+              "value" : "urn:iso:std:iso:3166::CZ::Czechia",
+              "label" : "urn:iso:std:iso:3166::CZ::Czechia"
+            }, {
+              "value" : "urn:iso:std:iso:3166::DE::Germany",
+              "label" : "urn:iso:std:iso:3166::DE::Germany"
+            }, {
+              "value" : "urn:iso:std:iso:3166::DJ::Djibouti",
+              "label" : "urn:iso:std:iso:3166::DJ::Djibouti"
+            }, {
+              "value" : "urn:iso:std:iso:3166::DK::Denmark",
+              "label" : "urn:iso:std:iso:3166::DK::Denmark"
+            }, {
+              "value" : "urn:iso:std:iso:3166::DM::Dominica",
+              "label" : "urn:iso:std:iso:3166::DM::Dominica"
+            }, {
+              "value" : "urn:iso:std:iso:3166::DO::Dominican Republic",
+              "label" : "urn:iso:std:iso:3166::DO::Dominican Republic"
+            }, {
+              "value" : "urn:iso:std:iso:3166::DZ::Algeria",
+              "label" : "urn:iso:std:iso:3166::DZ::Algeria"
+            }, {
+              "value" : "urn:iso:std:iso:3166::EC::Ecuador",
+              "label" : "urn:iso:std:iso:3166::EC::Ecuador"
+            }, {
+              "value" : "urn:iso:std:iso:3166::EE::Estonia",
+              "label" : "urn:iso:std:iso:3166::EE::Estonia"
+            }, {
+              "value" : "urn:iso:std:iso:3166::EG::Egypt",
+              "label" : "urn:iso:std:iso:3166::EG::Egypt"
+            }, {
+              "value" : "urn:iso:std:iso:3166::EH::Western Sahara",
+              "label" : "urn:iso:std:iso:3166::EH::Western Sahara"
+            }, {
+              "value" : "urn:iso:std:iso:3166::ER::Eritrea",
+              "label" : "urn:iso:std:iso:3166::ER::Eritrea"
+            }, {
+              "value" : "urn:iso:std:iso:3166::ES::Spain",
+              "label" : "urn:iso:std:iso:3166::ES::Spain"
+            }, {
+              "value" : "urn:iso:std:iso:3166::ET::Ethiopia",
+              "label" : "urn:iso:std:iso:3166::ET::Ethiopia"
+            }, {
+              "value" : "urn:iso:std:iso:3166::FI::Finland",
+              "label" : "urn:iso:std:iso:3166::FI::Finland"
+            }, {
+              "value" : "urn:iso:std:iso:3166::FJ::Fiji",
+              "label" : "urn:iso:std:iso:3166::FJ::Fiji"
+            }, {
+              "value" : "urn:iso:std:iso:3166::FK::Falkland Islands (Malvinas)",
+              "label" : "urn:iso:std:iso:3166::FK::Falkland Islands (Malvinas)"
+            }, {
+              "value" : "urn:iso:std:iso:3166::FM::Micronesia, Federated States of",
+              "label" : "urn:iso:std:iso:3166::FM::Micronesia, Federated States of"
+            }, {
+              "value" : "urn:iso:std:iso:3166::FO::Faroe Islands",
+              "label" : "urn:iso:std:iso:3166::FO::Faroe Islands"
+            }, {
+              "value" : "urn:iso:std:iso:3166::FR::France",
+              "label" : "urn:iso:std:iso:3166::FR::France"
+            }, {
+              "value" : "urn:iso:std:iso:3166::GA::Gabon",
+              "label" : "urn:iso:std:iso:3166::GA::Gabon"
+            }, {
+              "value" : "urn:iso:std:iso:3166::GB::United Kingdom of Great Britain and Northern Ireland",
+              "label" : "urn:iso:std:iso:3166::GB::United Kingdom of Great Britain and Northern Ireland"
+            }, {
+              "value" : "urn:iso:std:iso:3166::GD::Grenada",
+              "label" : "urn:iso:std:iso:3166::GD::Grenada"
+            }, {
+              "value" : "urn:iso:std:iso:3166::GE::Georgia",
+              "label" : "urn:iso:std:iso:3166::GE::Georgia"
+            }, {
+              "value" : "urn:iso:std:iso:3166::GF::French Guiana",
+              "label" : "urn:iso:std:iso:3166::GF::French Guiana"
+            }, {
+              "value" : "urn:iso:std:iso:3166::GG::Guernsey",
+              "label" : "urn:iso:std:iso:3166::GG::Guernsey"
+            }, {
+              "value" : "urn:iso:std:iso:3166::GH::Ghana",
+              "label" : "urn:iso:std:iso:3166::GH::Ghana"
+            }, {
+              "value" : "urn:iso:std:iso:3166::GI::Gibraltar",
+              "label" : "urn:iso:std:iso:3166::GI::Gibraltar"
+            }, {
+              "value" : "urn:iso:std:iso:3166::GL::Greenland",
+              "label" : "urn:iso:std:iso:3166::GL::Greenland"
+            }, {
+              "value" : "urn:iso:std:iso:3166::GM::Gambia",
+              "label" : "urn:iso:std:iso:3166::GM::Gambia"
+            }, {
+              "value" : "urn:iso:std:iso:3166::GN::Guinea",
+              "label" : "urn:iso:std:iso:3166::GN::Guinea"
+            }, {
+              "value" : "urn:iso:std:iso:3166::GP::Guadeloupe",
+              "label" : "urn:iso:std:iso:3166::GP::Guadeloupe"
+            }, {
+              "value" : "urn:iso:std:iso:3166::GQ::Equatorial Guinea",
+              "label" : "urn:iso:std:iso:3166::GQ::Equatorial Guinea"
+            }, {
+              "value" : "urn:iso:std:iso:3166::GR::Greece",
+              "label" : "urn:iso:std:iso:3166::GR::Greece"
+            }, {
+              "value" : "urn:iso:std:iso:3166::GS::South Georgia and the South Sandwich Islands",
+              "label" : "urn:iso:std:iso:3166::GS::South Georgia and the South Sandwich Islands"
+            }, {
+              "value" : "urn:iso:std:iso:3166::GT::Guatemala",
+              "label" : "urn:iso:std:iso:3166::GT::Guatemala"
+            }, {
+              "value" : "urn:iso:std:iso:3166::GU::Guam",
+              "label" : "urn:iso:std:iso:3166::GU::Guam"
+            }, {
+              "value" : "urn:iso:std:iso:3166::GW::Guinea-Bissau",
+              "label" : "urn:iso:std:iso:3166::GW::Guinea-Bissau"
+            }, {
+              "value" : "urn:iso:std:iso:3166::GY::Guyana",
+              "label" : "urn:iso:std:iso:3166::GY::Guyana"
+            }, {
+              "value" : "urn:iso:std:iso:3166::HK::Hong Kong",
+              "label" : "urn:iso:std:iso:3166::HK::Hong Kong"
+            }, {
+              "value" : "urn:iso:std:iso:3166::HM::Heard Island and McDonald Islands",
+              "label" : "urn:iso:std:iso:3166::HM::Heard Island and McDonald Islands"
+            }, {
+              "value" : "urn:iso:std:iso:3166::HN::Honduras",
+              "label" : "urn:iso:std:iso:3166::HN::Honduras"
+            }, {
+              "value" : "urn:iso:std:iso:3166::HR::Croatia",
+              "label" : "urn:iso:std:iso:3166::HR::Croatia"
+            }, {
+              "value" : "urn:iso:std:iso:3166::HT::Haiti",
+              "label" : "urn:iso:std:iso:3166::HT::Haiti"
+            }, {
+              "value" : "urn:iso:std:iso:3166::HU::Hungary",
+              "label" : "urn:iso:std:iso:3166::HU::Hungary"
+            }, {
+              "value" : "urn:iso:std:iso:3166::ID::Indonesia",
+              "label" : "urn:iso:std:iso:3166::ID::Indonesia"
+            }, {
+              "value" : "urn:iso:std:iso:3166::IE::Ireland",
+              "label" : "urn:iso:std:iso:3166::IE::Ireland"
+            }, {
+              "value" : "urn:iso:std:iso:3166::IL::Israel",
+              "label" : "urn:iso:std:iso:3166::IL::Israel"
+            }, {
+              "value" : "urn:iso:std:iso:3166::IM::Isle of Man",
+              "label" : "urn:iso:std:iso:3166::IM::Isle of Man"
+            }, {
+              "value" : "urn:iso:std:iso:3166::IN::India",
+              "label" : "urn:iso:std:iso:3166::IN::India"
+            }, {
+              "value" : "urn:iso:std:iso:3166::IO::British Indian Ocean Territory",
+              "label" : "urn:iso:std:iso:3166::IO::British Indian Ocean Territory"
+            }, {
+              "value" : "urn:iso:std:iso:3166::IQ::Iraq",
+              "label" : "urn:iso:std:iso:3166::IQ::Iraq"
+            }, {
+              "value" : "urn:iso:std:iso:3166::IR::Iran, Islamic Republic of",
+              "label" : "urn:iso:std:iso:3166::IR::Iran, Islamic Republic of"
+            }, {
+              "value" : "urn:iso:std:iso:3166::IS::Iceland",
+              "label" : "urn:iso:std:iso:3166::IS::Iceland"
+            }, {
+              "value" : "urn:iso:std:iso:3166::IT::Italy",
+              "label" : "urn:iso:std:iso:3166::IT::Italy"
+            }, {
+              "value" : "urn:iso:std:iso:3166::JE::Jersey",
+              "label" : "urn:iso:std:iso:3166::JE::Jersey"
+            }, {
+              "value" : "urn:iso:std:iso:3166::JM::Jamaica",
+              "label" : "urn:iso:std:iso:3166::JM::Jamaica"
+            }, {
+              "value" : "urn:iso:std:iso:3166::JO::Jordan",
+              "label" : "urn:iso:std:iso:3166::JO::Jordan"
+            }, {
+              "value" : "urn:iso:std:iso:3166::JP::Japan",
+              "label" : "urn:iso:std:iso:3166::JP::Japan"
+            }, {
+              "value" : "urn:iso:std:iso:3166::KE::Kenya",
+              "label" : "urn:iso:std:iso:3166::KE::Kenya"
+            }, {
+              "value" : "urn:iso:std:iso:3166::KG::Kyrgyzstan",
+              "label" : "urn:iso:std:iso:3166::KG::Kyrgyzstan"
+            }, {
+              "value" : "urn:iso:std:iso:3166::KH::Cambodia",
+              "label" : "urn:iso:std:iso:3166::KH::Cambodia"
+            }, {
+              "value" : "urn:iso:std:iso:3166::KI::Kiribati",
+              "label" : "urn:iso:std:iso:3166::KI::Kiribati"
+            }, {
+              "value" : "urn:iso:std:iso:3166::KM::Comoros",
+              "label" : "urn:iso:std:iso:3166::KM::Comoros"
+            }, {
+              "value" : "urn:iso:std:iso:3166::KN::Saint Kitts and Nevis",
+              "label" : "urn:iso:std:iso:3166::KN::Saint Kitts and Nevis"
+            }, {
+              "value" : "urn:iso:std:iso:3166::KP::Korea, Democratic People''s Republic of",
+              "label" : "urn:iso:std:iso:3166::KP::Korea, Democratic People''s Republic of"
+            }, {
+              "value" : "urn:iso:std:iso:3166::KR::Korea, Republic of",
+              "label" : "urn:iso:std:iso:3166::KR::Korea, Republic of"
+            }, {
+              "value" : "urn:iso:std:iso:3166::KW::Kuwait",
+              "label" : "urn:iso:std:iso:3166::KW::Kuwait"
+            }, {
+              "value" : "urn:iso:std:iso:3166::KY::Cayman Islands",
+              "label" : "urn:iso:std:iso:3166::KY::Cayman Islands"
+            }, {
+              "value" : "urn:iso:std:iso:3166::KZ::Kazakhstan",
+              "label" : "urn:iso:std:iso:3166::KZ::Kazakhstan"
+            }, {
+              "value" : "urn:iso:std:iso:3166::LA::Lao People''s Democratic Republic",
+              "label" : "urn:iso:std:iso:3166::LA::Lao People''s Democratic Republic"
+            }, {
+              "value" : "urn:iso:std:iso:3166::LB::Lebanon",
+              "label" : "urn:iso:std:iso:3166::LB::Lebanon"
+            }, {
+              "value" : "urn:iso:std:iso:3166::LC::Saint Lucia",
+              "label" : "urn:iso:std:iso:3166::LC::Saint Lucia"
+            }, {
+              "value" : "urn:iso:std:iso:3166::LI::Liechtenstein",
+              "label" : "urn:iso:std:iso:3166::LI::Liechtenstein"
+            }, {
+              "value" : "urn:iso:std:iso:3166::LK::Sri Lanka",
+              "label" : "urn:iso:std:iso:3166::LK::Sri Lanka"
+            }, {
+              "value" : "urn:iso:std:iso:3166::LR::Liberia",
+              "label" : "urn:iso:std:iso:3166::LR::Liberia"
+            }, {
+              "value" : "urn:iso:std:iso:3166::LS::Lesotho",
+              "label" : "urn:iso:std:iso:3166::LS::Lesotho"
+            }, {
+              "value" : "urn:iso:std:iso:3166::LT::Lithuania",
+              "label" : "urn:iso:std:iso:3166::LT::Lithuania"
+            }, {
+              "value" : "urn:iso:std:iso:3166::LU::Luxembourg",
+              "label" : "urn:iso:std:iso:3166::LU::Luxembourg"
+            }, {
+              "value" : "urn:iso:std:iso:3166::LV::Latvia",
+              "label" : "urn:iso:std:iso:3166::LV::Latvia"
+            }, {
+              "value" : "urn:iso:std:iso:3166::LY::Libya",
+              "label" : "urn:iso:std:iso:3166::LY::Libya"
+            }, {
+              "value" : "urn:iso:std:iso:3166::MA::Morocco",
+              "label" : "urn:iso:std:iso:3166::MA::Morocco"
+            }, {
+              "value" : "urn:iso:std:iso:3166::MC::Monaco",
+              "label" : "urn:iso:std:iso:3166::MC::Monaco"
+            }, {
+              "value" : "urn:iso:std:iso:3166::MD::Moldova, Republic of",
+              "label" : "urn:iso:std:iso:3166::MD::Moldova, Republic of"
+            }, {
+              "value" : "urn:iso:std:iso:3166::ME::Montenegro",
+              "label" : "urn:iso:std:iso:3166::ME::Montenegro"
+            }, {
+              "value" : "urn:iso:std:iso:3166::MF::Saint Martin (French part)",
+              "label" : "urn:iso:std:iso:3166::MF::Saint Martin (French part)"
+            }, {
+              "value" : "urn:iso:std:iso:3166::MG::Madagascar",
+              "label" : "urn:iso:std:iso:3166::MG::Madagascar"
+            }, {
+              "value" : "urn:iso:std:iso:3166::MH::Marshall Islands",
+              "label" : "urn:iso:std:iso:3166::MH::Marshall Islands"
+            }, {
+              "value" : "urn:iso:std:iso:3166::MK::Macedonia, the former Yugoslav Republic of",
+              "label" : "urn:iso:std:iso:3166::MK::Macedonia, the former Yugoslav Republic of"
+            }, {
+              "value" : "urn:iso:std:iso:3166::ML::Mali",
+              "label" : "urn:iso:std:iso:3166::ML::Mali"
+            }, {
+              "value" : "urn:iso:std:iso:3166::MM::Myanmar",
+              "label" : "urn:iso:std:iso:3166::MM::Myanmar"
+            }, {
+              "value" : "urn:iso:std:iso:3166::MN::Mongolia",
+              "label" : "urn:iso:std:iso:3166::MN::Mongolia"
+            }, {
+              "value" : "urn:iso:std:iso:3166::MO::Macao",
+              "label" : "urn:iso:std:iso:3166::MO::Macao"
+            }, {
+              "value" : "urn:iso:std:iso:3166::MP::Northern Mariana Islands",
+              "label" : "urn:iso:std:iso:3166::MP::Northern Mariana Islands"
+            }, {
+              "value" : "urn:iso:std:iso:3166::MQ::Martinique",
+              "label" : "urn:iso:std:iso:3166::MQ::Martinique"
+            }, {
+              "value" : "urn:iso:std:iso:3166::MR::Mauritania",
+              "label" : "urn:iso:std:iso:3166::MR::Mauritania"
+            }, {
+              "value" : "urn:iso:std:iso:3166::MS::Montserrat",
+              "label" : "urn:iso:std:iso:3166::MS::Montserrat"
+            }, {
+              "value" : "urn:iso:std:iso:3166::MT::Malta",
+              "label" : "urn:iso:std:iso:3166::MT::Malta"
+            }, {
+              "value" : "urn:iso:std:iso:3166::MU::Mauritius",
+              "label" : "urn:iso:std:iso:3166::MU::Mauritius"
+            }, {
+              "value" : "urn:iso:std:iso:3166::MV::Maldives",
+              "label" : "urn:iso:std:iso:3166::MV::Maldives"
+            }, {
+              "value" : "urn:iso:std:iso:3166::MW::Malawi",
+              "label" : "urn:iso:std:iso:3166::MW::Malawi"
+            }, {
+              "value" : "urn:iso:std:iso:3166::MX::Mexico",
+              "label" : "urn:iso:std:iso:3166::MX::Mexico"
+            }, {
+              "value" : "urn:iso:std:iso:3166::MY::Malaysia",
+              "label" : "urn:iso:std:iso:3166::MY::Malaysia"
+            }, {
+              "value" : "urn:iso:std:iso:3166::MZ::Mozambique",
+              "label" : "urn:iso:std:iso:3166::MZ::Mozambique"
+            }, {
+              "value" : "urn:iso:std:iso:3166::NA::Namibia",
+              "label" : "urn:iso:std:iso:3166::NA::Namibia"
+            }, {
+              "value" : "urn:iso:std:iso:3166::NC::New Caledonia",
+              "label" : "urn:iso:std:iso:3166::NC::New Caledonia"
+            }, {
+              "value" : "urn:iso:std:iso:3166::NE::Niger",
+              "label" : "urn:iso:std:iso:3166::NE::Niger"
+            }, {
+              "value" : "urn:iso:std:iso:3166::NF::Norfolk Island",
+              "label" : "urn:iso:std:iso:3166::NF::Norfolk Island"
+            }, {
+              "value" : "urn:iso:std:iso:3166::NG::Nigeria",
+              "label" : "urn:iso:std:iso:3166::NG::Nigeria"
+            }, {
+              "value" : "urn:iso:std:iso:3166::NI::Nicaragua",
+              "label" : "urn:iso:std:iso:3166::NI::Nicaragua"
+            }, {
+              "value" : "urn:iso:std:iso:3166::NL::Netherlands",
+              "label" : "urn:iso:std:iso:3166::NL::Netherlands"
+            }, {
+              "value" : "urn:iso:std:iso:3166::NO::Norway",
+              "label" : "urn:iso:std:iso:3166::NO::Norway"
+            }, {
+              "value" : "urn:iso:std:iso:3166::NP::Nepal",
+              "label" : "urn:iso:std:iso:3166::NP::Nepal"
+            }, {
+              "value" : "urn:iso:std:iso:3166::NR::Nauru",
+              "label" : "urn:iso:std:iso:3166::NR::Nauru"
+            }, {
+              "value" : "urn:iso:std:iso:3166::NU::Niue",
+              "label" : "urn:iso:std:iso:3166::NU::Niue"
+            }, {
+              "value" : "urn:iso:std:iso:3166::NZ::New Zealand",
+              "label" : "urn:iso:std:iso:3166::NZ::New Zealand"
+            }, {
+              "value" : "urn:iso:std:iso:3166::OM::Oman",
+              "label" : "urn:iso:std:iso:3166::OM::Oman"
+            }, {
+              "value" : "urn:iso:std:iso:3166::PA::Panama",
+              "label" : "urn:iso:std:iso:3166::PA::Panama"
+            }, {
+              "value" : "urn:iso:std:iso:3166::PE::Peru",
+              "label" : "urn:iso:std:iso:3166::PE::Peru"
+            }, {
+              "value" : "urn:iso:std:iso:3166::PF::French Polynesia",
+              "label" : "urn:iso:std:iso:3166::PF::French Polynesia"
+            }, {
+              "value" : "urn:iso:std:iso:3166::PG::Papua New Guinea",
+              "label" : "urn:iso:std:iso:3166::PG::Papua New Guinea"
+            }, {
+              "value" : "urn:iso:std:iso:3166::PH::Philippines",
+              "label" : "urn:iso:std:iso:3166::PH::Philippines"
+            }, {
+              "value" : "urn:iso:std:iso:3166::PK::Pakistan",
+              "label" : "urn:iso:std:iso:3166::PK::Pakistan"
+            }, {
+              "value" : "urn:iso:std:iso:3166::PL::Poland",
+              "label" : "urn:iso:std:iso:3166::PL::Poland"
+            }, {
+              "value" : "urn:iso:std:iso:3166::PM::Saint Pierre and Miquelon",
+              "label" : "urn:iso:std:iso:3166::PM::Saint Pierre and Miquelon"
+            }, {
+              "value" : "urn:iso:std:iso:3166::PN::Pitcairn",
+              "label" : "urn:iso:std:iso:3166::PN::Pitcairn"
+            }, {
+              "value" : "urn:iso:std:iso:3166::PR::Puerto Rico",
+              "label" : "urn:iso:std:iso:3166::PR::Puerto Rico"
+            }, {
+              "value" : "urn:iso:std:iso:3166::PS::Palestine, State of",
+              "label" : "urn:iso:std:iso:3166::PS::Palestine, State of"
+            }, {
+              "value" : "urn:iso:std:iso:3166::PT::Portugal",
+              "label" : "urn:iso:std:iso:3166::PT::Portugal"
+            }, {
+              "value" : "urn:iso:std:iso:3166::PW::Palau",
+              "label" : "urn:iso:std:iso:3166::PW::Palau"
+            }, {
+              "value" : "urn:iso:std:iso:3166::PY::Paraguay",
+              "label" : "urn:iso:std:iso:3166::PY::Paraguay"
+            }, {
+              "value" : "urn:iso:std:iso:3166::QA::Qatar",
+              "label" : "urn:iso:std:iso:3166::QA::Qatar"
+            }, {
+              "value" : "urn:iso:std:iso:3166::RE::Réunion",
+              "label" : "urn:iso:std:iso:3166::RE::Réunion"
+            }, {
+              "value" : "urn:iso:std:iso:3166::RO::Romania",
+              "label" : "urn:iso:std:iso:3166::RO::Romania"
+            }, {
+              "value" : "urn:iso:std:iso:3166::RS::Serbia",
+              "label" : "urn:iso:std:iso:3166::RS::Serbia"
+            }, {
+              "value" : "urn:iso:std:iso:3166::RU::Russian Federation",
+              "label" : "urn:iso:std:iso:3166::RU::Russian Federation"
+            }, {
+              "value" : "urn:iso:std:iso:3166::RW::Rwanda",
+              "label" : "urn:iso:std:iso:3166::RW::Rwanda"
+            }, {
+              "value" : "urn:iso:std:iso:3166::SA::Saudi Arabia",
+              "label" : "urn:iso:std:iso:3166::SA::Saudi Arabia"
+            }, {
+              "value" : "urn:iso:std:iso:3166::SB::Solomon Islands",
+              "label" : "urn:iso:std:iso:3166::SB::Solomon Islands"
+            }, {
+              "value" : "urn:iso:std:iso:3166::SC::Seychelles",
+              "label" : "urn:iso:std:iso:3166::SC::Seychelles"
+            }, {
+              "value" : "urn:iso:std:iso:3166::SD::Sudan",
+              "label" : "urn:iso:std:iso:3166::SD::Sudan"
+            }, {
+              "value" : "urn:iso:std:iso:3166::SE::Sweden",
+              "label" : "urn:iso:std:iso:3166::SE::Sweden"
+            }, {
+              "value" : "urn:iso:std:iso:3166::SG::Singapore",
+              "label" : "urn:iso:std:iso:3166::SG::Singapore"
+            }, {
+              "value" : "urn:iso:std:iso:3166::SH::Saint Helena, Ascension and Tristan da Cunha",
+              "label" : "urn:iso:std:iso:3166::SH::Saint Helena, Ascension and Tristan da Cunha"
+            }, {
+              "value" : "urn:iso:std:iso:3166::SI::Slovenia",
+              "label" : "urn:iso:std:iso:3166::SI::Slovenia"
+            }, {
+              "value" : "urn:iso:std:iso:3166::SJ::Svalbard and Jan Mayen",
+              "label" : "urn:iso:std:iso:3166::SJ::Svalbard and Jan Mayen"
+            }, {
+              "value" : "urn:iso:std:iso:3166::SK::Slovakia",
+              "label" : "urn:iso:std:iso:3166::SK::Slovakia"
+            }, {
+              "value" : "urn:iso:std:iso:3166::SL::Sierra Leone",
+              "label" : "urn:iso:std:iso:3166::SL::Sierra Leone"
+            }, {
+              "value" : "urn:iso:std:iso:3166::SM::San Marino",
+              "label" : "urn:iso:std:iso:3166::SM::San Marino"
+            }, {
+              "value" : "urn:iso:std:iso:3166::SN::Senegal",
+              "label" : "urn:iso:std:iso:3166::SN::Senegal"
+            }, {
+              "value" : "urn:iso:std:iso:3166::SO::Somalia",
+              "label" : "urn:iso:std:iso:3166::SO::Somalia"
+            }, {
+              "value" : "urn:iso:std:iso:3166::SR::Suriname",
+              "label" : "urn:iso:std:iso:3166::SR::Suriname"
+            }, {
+              "value" : "urn:iso:std:iso:3166::SS::South Sudan",
+              "label" : "urn:iso:std:iso:3166::SS::South Sudan"
+            }, {
+              "value" : "urn:iso:std:iso:3166::ST::Sao Tome and Principe",
+              "label" : "urn:iso:std:iso:3166::ST::Sao Tome and Principe"
+            }, {
+              "value" : "urn:iso:std:iso:3166::SV::El Salvador",
+              "label" : "urn:iso:std:iso:3166::SV::El Salvador"
+            }, {
+              "value" : "urn:iso:std:iso:3166::SX::Sint Maarten (Dutch part)",
+              "label" : "urn:iso:std:iso:3166::SX::Sint Maarten (Dutch part)"
+            }, {
+              "value" : "urn:iso:std:iso:3166::SY::Syrian Arab Republic",
+              "label" : "urn:iso:std:iso:3166::SY::Syrian Arab Republic"
+            }, {
+              "value" : "urn:iso:std:iso:3166::SZ::Swaziland",
+              "label" : "urn:iso:std:iso:3166::SZ::Swaziland"
+            }, {
+              "value" : "urn:iso:std:iso:3166::TC::Turks and Caicos Islands",
+              "label" : "urn:iso:std:iso:3166::TC::Turks and Caicos Islands"
+            }, {
+              "value" : "urn:iso:std:iso:3166::TD::Chad",
+              "label" : "urn:iso:std:iso:3166::TD::Chad"
+            }, {
+              "value" : "urn:iso:std:iso:3166::TF::French Southern Territories",
+              "label" : "urn:iso:std:iso:3166::TF::French Southern Territories"
+            }, {
+              "value" : "urn:iso:std:iso:3166::TG::Togo",
+              "label" : "urn:iso:std:iso:3166::TG::Togo"
+            }, {
+              "value" : "urn:iso:std:iso:3166::TH::Thailand",
+              "label" : "urn:iso:std:iso:3166::TH::Thailand"
+            }, {
+              "value" : "urn:iso:std:iso:3166::TJ::Tajikistan",
+              "label" : "urn:iso:std:iso:3166::TJ::Tajikistan"
+            }, {
+              "value" : "urn:iso:std:iso:3166::TK::Tokelau",
+              "label" : "urn:iso:std:iso:3166::TK::Tokelau"
+            }, {
+              "value" : "urn:iso:std:iso:3166::TL::Timor-Leste",
+              "label" : "urn:iso:std:iso:3166::TL::Timor-Leste"
+            }, {
+              "value" : "urn:iso:std:iso:3166::TM::Turkmenistan",
+              "label" : "urn:iso:std:iso:3166::TM::Turkmenistan"
+            }, {
+              "value" : "urn:iso:std:iso:3166::TN::Tunisia",
+              "label" : "urn:iso:std:iso:3166::TN::Tunisia"
+            }, {
+              "value" : "urn:iso:std:iso:3166::TO::Tonga",
+              "label" : "urn:iso:std:iso:3166::TO::Tonga"
+            }, {
+              "value" : "urn:iso:std:iso:3166::TR::Turkey",
+              "label" : "urn:iso:std:iso:3166::TR::Turkey"
+            }, {
+              "value" : "urn:iso:std:iso:3166::TT::Trinidad and Tobago",
+              "label" : "urn:iso:std:iso:3166::TT::Trinidad and Tobago"
+            }, {
+              "value" : "urn:iso:std:iso:3166::TV::Tuvalu",
+              "label" : "urn:iso:std:iso:3166::TV::Tuvalu"
+            }, {
+              "value" : "urn:iso:std:iso:3166::TW::Taiwan, Province of China",
+              "label" : "urn:iso:std:iso:3166::TW::Taiwan, Province of China"
+            }, {
+              "value" : "urn:iso:std:iso:3166::TZ::Tanzania, United Republic of",
+              "label" : "urn:iso:std:iso:3166::TZ::Tanzania, United Republic of"
+            }, {
+              "value" : "urn:iso:std:iso:3166::UA::Ukraine",
+              "label" : "urn:iso:std:iso:3166::UA::Ukraine"
+            }, {
+              "value" : "urn:iso:std:iso:3166::UG::Uganda",
+              "label" : "urn:iso:std:iso:3166::UG::Uganda"
+            }, {
+              "value" : "urn:iso:std:iso:3166::UM::United States Minor Outlying Islands",
+              "label" : "urn:iso:std:iso:3166::UM::United States Minor Outlying Islands"
+            }, {
+              "value" : "urn:iso:std:iso:3166::US::United States of America",
+              "label" : "urn:iso:std:iso:3166::US::United States of America"
+            }, {
+              "value" : "urn:iso:std:iso:3166::UY::Uruguay",
+              "label" : "urn:iso:std:iso:3166::UY::Uruguay"
+            }, {
+              "value" : "urn:iso:std:iso:3166::UZ::Uzbekistan",
+              "label" : "urn:iso:std:iso:3166::UZ::Uzbekistan"
+            }, {
+              "value" : "urn:iso:std:iso:3166::VA::Holy See",
+              "label" : "urn:iso:std:iso:3166::VA::Holy See"
+            }, {
+              "value" : "urn:iso:std:iso:3166::VC::Saint Vincent and the Grenadines",
+              "label" : "urn:iso:std:iso:3166::VC::Saint Vincent and the Grenadines"
+            }, {
+              "value" : "urn:iso:std:iso:3166::VE::Venezuela, Bolivarian Republic of",
+              "label" : "urn:iso:std:iso:3166::VE::Venezuela, Bolivarian Republic of"
+            }, {
+              "value" : "urn:iso:std:iso:3166::VG::Virgin Islands, British",
+              "label" : "urn:iso:std:iso:3166::VG::Virgin Islands, British"
+            }, {
+              "value" : "urn:iso:std:iso:3166::VI::Virgin Islands,",
+              "label" : "urn:iso:std:iso:3166::VI::Virgin Islands,"
+            }, {
+              "value" : "urn:iso:std:iso:3166::VN::Viet Nam",
+              "label" : "urn:iso:std:iso:3166::VN::Viet Nam"
+            }, {
+              "value" : "urn:iso:std:iso:3166::VU::Vanuatu",
+              "label" : "urn:iso:std:iso:3166::VU::Vanuatu"
+            }, {
+              "value" : "urn:iso:std:iso:3166::WF::Wallis and Futuna",
+              "label" : "urn:iso:std:iso:3166::WF::Wallis and Futuna"
+            }, {
+              "value" : "urn:iso:std:iso:3166::WS::Samoa",
+              "label" : "urn:iso:std:iso:3166::WS::Samoa"
+            }, {
+              "value" : "urn:iso:std:iso:3166::YE::Yemen",
+              "label" : "urn:iso:std:iso:3166::YE::Yemen"
+            }, {
+              "value" : "urn:iso:std:iso:3166::YT::Mayotte",
+              "label" : "urn:iso:std:iso:3166::YT::Mayotte"
+            }, {
+              "value" : "urn:iso:std:iso:3166::ZA::South Africa",
+              "label" : "urn:iso:std:iso:3166::ZA::South Africa"
+            }, {
+              "value" : "urn:iso:std:iso:3166::ZM::Zambia",
+              "label" : "urn:iso:std:iso:3166::ZM::Zambia"
+            }, {
+              "value" : "urn:iso:std:iso:3166::ZW::Zimbabwe",
+              "label" : "urn:iso:std:iso:3166::ZW::Zimbabwe"
+            } ],
+            "listOpen" : false
+          } ]
+        }, {
+          "id" : "bundesland_region",
+          "name" : "Bundesland / Region",
+          "localizedName" : "Bundesland / Region",
+          "rmType" : "DV_TEXT",
+          "nodeId" : "at0012",
+          "min" : 0,
+          "max" : 1,
+          "localizedNames" : {
+            "de" : "Bundesland / Region"
+          },
+          "localizedDescriptions" : {
+            "de" : "Die besuchte Region."
+          },
+          "annotations" : {
+            "82754-3" : "State of travel",
+            "comment" : "Verschiedene Regionen innerhalb desselben Landes können benannt werden, wenn sie möglicherweise unterschiedliche Gesundheitsrisiken darstellen."
+          },
+          "aqlPath" : "/content[openEHR-EHR-ADMIN_ENTRY.travel_event.v0,'Reisehistorie']/data[at0001]/items[at0010]/items[at0012]/value",
+          "inputs" : [ {
+            "type" : "TEXT",
+            "list" : [ {
+              "value" : "urn:iso:std:iso:3166-2:de::DE-BW::Baden-Württemberg",
+              "label" : "urn:iso:std:iso:3166-2:de::DE-BW::Baden-Württemberg"
+            }, {
+              "value" : "urn:iso:std:iso:3166-2:de::DE-BY::Bayern",
+              "label" : "urn:iso:std:iso:3166-2:de::DE-BY::Bayern"
+            }, {
+              "value" : "urn:iso:std:iso:3166-2:de::DE-BE::Berlin",
+              "label" : "urn:iso:std:iso:3166-2:de::DE-BE::Berlin"
+            }, {
+              "value" : "urn:iso:std:iso:3166-2:de::DE-BB::Brandenburg",
+              "label" : "urn:iso:std:iso:3166-2:de::DE-BB::Brandenburg"
+            }, {
+              "value" : "urn:iso:std:iso:3166-2:de::DE-HB::Bremen",
+              "label" : "urn:iso:std:iso:3166-2:de::DE-HB::Bremen"
+            }, {
+              "value" : "urn:iso:std:iso:3166-2:de::DE-HH::Hamburg",
+              "label" : "urn:iso:std:iso:3166-2:de::DE-HH::Hamburg"
+            }, {
+              "value" : "urn:iso:std:iso:3166-2:de::DE-HE::Hessen",
+              "label" : "urn:iso:std:iso:3166-2:de::DE-HE::Hessen"
+            }, {
+              "value" : "urn:iso:std:iso:3166-2:de::DE-MV::Mecklenburg-Vorpommern",
+              "label" : "urn:iso:std:iso:3166-2:de::DE-MV::Mecklenburg-Vorpommern"
+            }, {
+              "value" : "urn:iso:std:iso:3166-2:de::DE-NI::Niedersachsen",
+              "label" : "urn:iso:std:iso:3166-2:de::DE-NI::Niedersachsen"
+            }, {
+              "value" : "urn:iso:std:iso:3166-2:de::DE-NW::Nordrhein-Westfalen",
+              "label" : "urn:iso:std:iso:3166-2:de::DE-NW::Nordrhein-Westfalen"
+            }, {
+              "value" : "urn:iso:std:iso:3166-2:de::DE-RP::Rheinland-Pfalz",
+              "label" : "urn:iso:std:iso:3166-2:de::DE-RP::Rheinland-Pfalz"
+            }, {
+              "value" : "urn:iso:std:iso:3166-2:de::DE-SL::Saarland",
+              "label" : "urn:iso:std:iso:3166-2:de::DE-SL::Saarland"
+            }, {
+              "value" : "urn:iso:std:iso:3166-2:de::DE-SN::Sachsen",
+              "label" : "urn:iso:std:iso:3166-2:de::DE-SN::Sachsen"
+            }, {
+              "value" : "urn:iso:std:iso:3166-2:de::DE-ST::Sachsen-Anhalt",
+              "label" : "urn:iso:std:iso:3166-2:de::DE-ST::Sachsen-Anhalt"
+            }, {
+              "value" : "urn:iso:std:iso:3166-2:de::DE-SH::Schleswig-Holstein",
+              "label" : "urn:iso:std:iso:3166-2:de::DE-SH::Schleswig-Holstein"
+            }, {
+              "value" : "urn:iso:std:iso:3166-2:de::DE-TH::Thüringen",
+              "label" : "urn:iso:std:iso:3166-2:de::DE-TH::Thüringen"
+            } ],
+            "listOpen" : false
+          } ]
+        }, {
+          "id" : "stadt",
+          "name" : "Stadt",
+          "localizedName" : "Stadt",
+          "rmType" : "DV_TEXT",
+          "nodeId" : "at0013",
+          "min" : 0,
+          "max" : 1,
+          "localizedNames" : {
+            "de" : "Stadt"
+          },
+          "localizedDescriptions" : {
+            "de" : "Die besuchte Stadt."
+          },
+          "annotations" : {
+            "comment" : "Verschiedene Städte innerhalb desselben Landes oder derselben Region können benannt werden, wenn sie möglicherweise unterschiedliche Gesundheitsrisiken darstellen.",
+            "94653-3" : "City of travel"
+          },
+          "aqlPath" : "/content[openEHR-EHR-ADMIN_ENTRY.travel_event.v0,'Reisehistorie']/data[at0001]/items[at0010]/items[at0013]/value",
+          "inputs" : [ {
+            "type" : "TEXT"
+          } ]
+        }, {
+          "id" : "einreisedatum",
+          "name" : "Einreisedatum",
+          "localizedName" : "Einreisedatum",
+          "rmType" : "DV_DATE_TIME",
+          "nodeId" : "at0014",
+          "min" : 0,
+          "max" : 1,
+          "localizedNames" : {
+            "de" : "Einreisedatum"
+          },
+          "localizedDescriptions" : {
+            "de" : "Datum der Einreise in den identifizierten Ort."
+          },
+          "annotations" : {
+            "82752-7" : "Date travel started"
+          },
+          "aqlPath" : "/content[openEHR-EHR-ADMIN_ENTRY.travel_event.v0,'Reisehistorie']/data[at0001]/items[at0010]/items[at0014]/value",
+          "inputs" : [ {
+            "type" : "DATETIME"
+          } ]
+        }, {
+          "id" : "abfahrtsdatum",
+          "name" : "Abfahrtsdatum",
+          "localizedName" : "Abfahrtsdatum",
+          "rmType" : "DV_DATE_TIME",
+          "nodeId" : "at0015",
+          "min" : 0,
+          "max" : 1,
+          "localizedNames" : {
+            "de" : "Abfahrtsdatum"
+          },
+          "localizedDescriptions" : {
+            "de" : "Datum an dem der identifizierte Ort verlassen wurde."
+          },
+          "annotations" : {
+            "91560-3" : "Date of departure from travel destination"
+          },
+          "aqlPath" : "/content[openEHR-EHR-ADMIN_ENTRY.travel_event.v0,'Reisehistorie']/data[at0001]/items[at0010]/items[at0015]/value",
+          "inputs" : [ {
+            "type" : "DATETIME"
+          } ]
+        } ]
+      }, {
+        "id" : "language",
+        "name" : "Language",
+        "rmType" : "CODE_PHRASE",
+        "min" : 1,
+        "max" : 1,
+        "aqlPath" : "/content[openEHR-EHR-ADMIN_ENTRY.travel_event.v0,'Reisehistorie']/language",
+        "inContext" : true
+      }, {
+        "id" : "encoding",
+        "name" : "Encoding",
+        "rmType" : "CODE_PHRASE",
+        "min" : 1,
+        "max" : 1,
+        "aqlPath" : "/content[openEHR-EHR-ADMIN_ENTRY.travel_event.v0,'Reisehistorie']/encoding",
+        "inContext" : true
+      }, {
+        "id" : "subject",
+        "name" : "Subject",
+        "rmType" : "PARTY_PROXY",
+        "min" : 1,
+        "max" : 1,
+        "aqlPath" : "/content[openEHR-EHR-ADMIN_ENTRY.travel_event.v0,'Reisehistorie']/subject",
+        "inputs" : [ {
+          "suffix" : "id",
+          "type" : "TEXT"
+        }, {
+          "suffix" : "id_scheme",
+          "type" : "TEXT"
+        }, {
+          "suffix" : "id_namespace",
+          "type" : "TEXT"
+        }, {
+          "suffix" : "name",
+          "type" : "TEXT"
+        } ],
+        "inContext" : true
+      } ]
+    }, {
+      "id" : "keine_reisehistorie",
+      "name" : "Keine Reisehistorie",
+      "localizedName" : "Keine Reisehistorie",
+      "rmType" : "EVALUATION",
+      "nodeId" : "openEHR-EHR-EVALUATION.exclusion_specific.v1",
+      "min" : 0,
+      "max" : 1,
+      "localizedNames" : {
+        "de" : "Keine Reisehistorie"
+      },
+      "localizedDescriptions" : {
+        "de" : "Ein Bericht über den Ausschluss eines/r Problems/Diagnose, familiäre Krankengeschichte, Medikation, Nebenwirkung/Allergens oder eines anderen klinischen Ereignisses, welche/s zur Zeit nicht oder noch nie vorhanden war."
+      },
+      "aqlPath" : "/content[openEHR-EHR-EVALUATION.exclusion_specific.v1,'Keine Reisehistorie']",
+      "children" : [ {
+        "id" : "aussage_über_den_ausschluss",
+        "name" : "Aussage über den Ausschluss",
+        "localizedName" : "Aussage über den Ausschluss",
+        "rmType" : "DV_CODED_TEXT",
+        "nodeId" : "at0002",
+        "min" : 1,
+        "max" : 1,
+        "localizedNames" : {
+          "de" : "Aussage über den Ausschluss"
+        },
+        "localizedDescriptions" : {
+          "de" : "Ein Bericht über den Ausschluss eines/r bestimmten Problems/Diagnose, familiäre Krankengeschichte, Medikation, Verfahren, Nebenwirkung oder eines anderen klinischen Ereignisses."
+        },
+        "annotations" : {
+          "comment" : "Diese Beschreibung muss in Verbindung mit dem Datenelement \"ausgeschlossene Kategorie\" verwendet werden. Zum Beispiel: Dieses Datenelement kann zur Erfassung einer allgemeinen Aussage, wie z.B. \"keine bekannte Vorgeschichte über...\" verwendet werden. Die \"ausgeschlossene Kategorie\" spezifiziert die Aussage, in dem eine Zuordnung zu z.B. Diagnose oder Medikation vorgenommen werden kann. Wird bereits die \"ausgeschlossene Kategorie\" dafür genutzt, durch eine präkoordinierte Bezeichnung das Vorliegen von Diabetes in der familiären Krankengeschichte auszuschließen, ist der Eintrag in diesem Datenelement redundant. \r\n"
+        },
+        "aqlPath" : "/content[openEHR-EHR-EVALUATION.exclusion_specific.v1,'Keine Reisehistorie']/data[at0001]/items[at0002]/value",
+        "inputs" : [ {
+          "suffix" : "code",
+          "type" : "CODED_TEXT",
+          "list" : [ {
+            "value" : "373067005",
+            "label" : "No (qualifier value)",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          } ],
+          "terminology" : "SNOMED Clinical Terms"
+        } ]
+      }, {
+        "id" : "problem_diagnose",
+        "name" : "Problem/Diagnose",
+        "localizedName" : "Problem/Diagnose",
+        "rmType" : "DV_CODED_TEXT",
+        "nodeId" : "at0003",
+        "min" : 1,
+        "max" : 1,
+        "localizedNames" : {
+          "de" : "Problem/Diagnose"
+        },
+        "localizedDescriptions" : {
+          "de" : "Das Problem oder die Diagnose, auf die sich die Ausschlussaussage bezieht. Zum Beispiel: \"Diabetes\", \"COPD\" oder \"Asthma\"."
+        },
+        "annotations" : {
+          "comment" : "Dieses Item kann unterschiedlich genutzt werden. Zum Beispiel: \"Familiäre Vorgeschichte Diabetes\":\r\n\r\n(1) Einschränkung des Namens der \"ausgeschlossenen Kategorie\" zur Laufzeit über einen \"Name constraint\" (in diesem Fall \"familiäre Probleme/Diagnosen\") und Speicherung von \"Diabetes\" als Wert dieses Datenelements. \r\noder\r\n(2) Belegung des Wertes mit Hilfe von präkoordinierten Benennungen, z.B. \"keine familiäre Diabetes-Vorgeschichte\".\r\n\r\nDie Kodierung des Datenelements \"ausgeschlossene Kategorie\", z.B. durch präkoordinierte Benennungen oder Terminologien, ist wünschenswert.\r\n\r\nWird das Datenelement wie in Beispiel (2) kodiert, ist eine weitere Spezifikation im Feld \"Aussage über den Ausschluss\" nicht notwendig."
+        },
+        "aqlPath" : "/content[openEHR-EHR-EVALUATION.exclusion_specific.v1,'Keine Reisehistorie']/data[at0001]/items[at0003,'Problem/Diagnose']/value",
+        "inputs" : [ {
+          "suffix" : "code",
+          "type" : "CODED_TEXT",
+          "list" : [ {
+            "value" : "8691-8",
+            "label" : "History of Travel",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          } ],
+          "terminology" : "LOINC"
+        } ]
+      }, {
+        "id" : "language",
+        "name" : "Language",
+        "rmType" : "CODE_PHRASE",
+        "min" : 1,
+        "max" : 1,
+        "aqlPath" : "/content[openEHR-EHR-EVALUATION.exclusion_specific.v1,'Keine Reisehistorie']/language",
+        "inContext" : true
+      }, {
+        "id" : "encoding",
+        "name" : "Encoding",
+        "rmType" : "CODE_PHRASE",
+        "min" : 1,
+        "max" : 1,
+        "aqlPath" : "/content[openEHR-EHR-EVALUATION.exclusion_specific.v1,'Keine Reisehistorie']/encoding",
+        "inContext" : true
+      }, {
+        "id" : "subject",
+        "name" : "Subject",
+        "rmType" : "PARTY_PROXY",
+        "min" : 1,
+        "max" : 1,
+        "aqlPath" : "/content[openEHR-EHR-EVALUATION.exclusion_specific.v1,'Keine Reisehistorie']/subject",
+        "inputs" : [ {
+          "suffix" : "id",
+          "type" : "TEXT"
+        }, {
+          "suffix" : "id_scheme",
+          "type" : "TEXT"
+        }, {
+          "suffix" : "id_namespace",
+          "type" : "TEXT"
+        }, {
+          "suffix" : "name",
+          "type" : "TEXT"
+        } ],
+        "inContext" : true
+      } ]
+    }, {
+      "id" : "unbekannte_reisehistorie",
+      "name" : "Unbekannte Reisehistorie",
+      "localizedName" : "Unbekannte Reisehistorie",
+      "rmType" : "EVALUATION",
+      "nodeId" : "openEHR-EHR-EVALUATION.absence.v2",
+      "min" : 0,
+      "max" : 1,
+      "localizedNames" : {
+        "de" : "Unbekannte Reisehistorie"
+      },
+      "localizedDescriptions" : {
+        "de" : "Aussage darüber, dass bestimmte Gesundheitsinformationen zum Zeitpukt der Erfassung nicht in der Krankenakte oder einem Schriftstück erfasst werden können, da keine Kenntnisse darüber vorhanden sind."
+      },
+      "aqlPath" : "/content[openEHR-EHR-EVALUATION.absence.v2,'Unbekannte Reisehistorie']",
+      "children" : [ {
+        "id" : "fehlende_information",
+        "name" : "Fehlende Information",
+        "localizedName" : "Fehlende Information",
+        "rmType" : "DV_CODED_TEXT",
+        "nodeId" : "at0002",
+        "min" : 1,
+        "max" : 1,
+        "localizedNames" : {
+          "de" : "Fehlende Information"
+        },
+        "localizedDescriptions" : {
+          "de" : "Positive Aussage, dass keine Informationen verfügbar sind."
+        },
+        "annotations" : {
+          "comment" : "Zum Beispiel: \"Es liegen keine Informationen über Nebenwirkungen vor\"; \"Es liegen keine Informationen über Probleme oder Diagnosen vor\"; \"Es liegen keine Informationen über vorangegangene Verfahren vor\"; oder \"Es liegen keine Informationen über verwendete Medikamente vor\"."
+        },
+        "aqlPath" : "/content[openEHR-EHR-EVALUATION.absence.v2,'Unbekannte Reisehistorie']/data[at0001]/items[at0002,'Fehlende Information']/value",
+        "inputs" : [ {
+          "suffix" : "code",
+          "type" : "CODED_TEXT",
+          "list" : [ {
+            "value" : "8691-8",
+            "label" : "History of Travel",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          } ],
+          "terminology" : "LOINC"
+        } ]
+      }, {
+        "id" : "aussage_über_die_fehlende_information",
+        "name" : "Aussage über die fehlende Information",
+        "localizedName" : "Aussage über die fehlende Information",
+        "rmType" : "DV_CODED_TEXT",
+        "nodeId" : "at0005",
+        "min" : 1,
+        "max" : 1,
+        "localizedNames" : {
+          "de" : "Aussage über die fehlende Information"
+        },
+        "localizedDescriptions" : {
+          "de" : "Beschreibung des Grundes, warum keine Informationen vorhanden sind."
+        },
+        "annotations" : {
+          "comment" : "Zum Beispiel: Der Patient ist bewusstlos oder weigert sich Informationen preiszugeben. Die Codierung mit einer Terminologie wird empfohlen, wenn möglich."
+        },
+        "aqlPath" : "/content[openEHR-EHR-EVALUATION.absence.v2,'Unbekannte Reisehistorie']/data[at0001]/items[at0005,'Aussage über die fehlende Information']/value",
+        "inputs" : [ {
+          "suffix" : "code",
+          "type" : "CODED_TEXT",
+          "list" : [ {
+            "value" : "261665006",
+            "label" : "Unknown (qualifier value)",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          } ],
+          "terminology" : "SNOMED Clinical Terms"
+        } ]
+      }, {
+        "id" : "language",
+        "name" : "Language",
+        "rmType" : "CODE_PHRASE",
+        "min" : 1,
+        "max" : 1,
+        "aqlPath" : "/content[openEHR-EHR-EVALUATION.absence.v2,'Unbekannte Reisehistorie']/language",
+        "inContext" : true
+      }, {
+        "id" : "encoding",
+        "name" : "Encoding",
+        "rmType" : "CODE_PHRASE",
+        "min" : 1,
+        "max" : 1,
+        "aqlPath" : "/content[openEHR-EHR-EVALUATION.absence.v2,'Unbekannte Reisehistorie']/encoding",
+        "inContext" : true
+      }, {
+        "id" : "subject",
+        "name" : "Subject",
+        "rmType" : "PARTY_PROXY",
+        "min" : 1,
+        "max" : 1,
+        "aqlPath" : "/content[openEHR-EHR-EVALUATION.absence.v2,'Unbekannte Reisehistorie']/subject",
+        "inputs" : [ {
+          "suffix" : "id",
+          "type" : "TEXT"
+        }, {
+          "suffix" : "id_scheme",
+          "type" : "TEXT"
+        }, {
+          "suffix" : "id_namespace",
+          "type" : "TEXT"
+        }, {
+          "suffix" : "name",
+          "type" : "TEXT"
+        } ],
+        "inContext" : true
+      } ]
+    }, {
+      "id" : "category",
+      "rmType" : "DV_CODED_TEXT",
+      "nodeId" : "",
+      "min" : 1,
+      "max" : 1,
+      "aqlPath" : "/category",
+      "inputs" : [ {
+        "suffix" : "code",
+        "type" : "CODED_TEXT",
+        "list" : [ {
+          "value" : "433",
+          "label" : "event",
+          "localizedLabels" : {
+            "de" : ""
+          }
+        } ],
+        "terminology" : "openehr"
+      } ],
+      "inContext" : true
+    }, {
+      "id" : "language",
+      "name" : "Language",
+      "rmType" : "CODE_PHRASE",
+      "min" : 1,
+      "max" : 1,
+      "aqlPath" : "/language",
+      "inContext" : true
+    }, {
+      "id" : "territory",
+      "name" : "Territory",
+      "rmType" : "CODE_PHRASE",
+      "min" : 1,
+      "max" : 1,
+      "aqlPath" : "/territory",
+      "inContext" : true
+    }, {
+      "id" : "composer",
+      "name" : "Composer",
+      "rmType" : "PARTY_PROXY",
+      "min" : 1,
+      "max" : 1,
+      "aqlPath" : "/composer",
+      "inputs" : [ {
+        "suffix" : "id",
+        "type" : "TEXT"
+      }, {
+        "suffix" : "id_scheme",
+        "type" : "TEXT"
+      }, {
+        "suffix" : "id_namespace",
+        "type" : "TEXT"
+      }, {
+        "suffix" : "name",
+        "type" : "TEXT"
+      } ],
+      "inContext" : true
+    } ]
+  }
+}

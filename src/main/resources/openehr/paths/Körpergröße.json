@@ -1,0 +1,109 @@
+{
+  "templateName" : "Körpergröße",
+  "paths" : [ {
+    "id" : 0,
+    "aqlPath" : "/context/other_context[at0001]/items[at0004]/value|code",
+    "path" : "körpergröße/context/status|code",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 1,
+    "aqlPath" : "/context/other_context[at0001]/items[at0005]/value",
+    "path" : "körpergröße/context/kategorie",
+    "type" : "TEXT"
+  }, {
+    "id" : 2,
+    "aqlPath" : "/context/start_time",
+    "path" : "körpergröße/context/start_time",
+    "type" : "DATETIME"
+  }, {
+    "id" : 3,
+    "aqlPath" : "/context/setting|code",
+    "path" : "körpergröße/context/setting|code",
+    "type" : "TEXT"
+  }, {
+    "id" : 4,
+    "aqlPath" : "/context/setting|value",
+    "path" : "körpergröße/context/setting|value",
+    "type" : "TEXT"
+  }, {
+    "id" : 5,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.height.v2]/data[at0001]/events[at0002]/data[at0003]/items[at0004]/value|magnitude",
+    "path" : "körpergröße/größe_länge/größe_länge|magnitude",
+    "type" : "DECIMAL"
+  }, {
+    "id" : 6,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.height.v2]/data[at0001]/events[at0002]/data[at0003]/items[at0004]/value|unit",
+    "path" : "körpergröße/größe_länge/größe_länge|unit",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 7,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.height.v2]/data[at0001]/events[at0002]/time",
+    "path" : "körpergröße/größe_länge/time",
+    "type" : "DATETIME"
+  }, {
+    "id" : 8,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.height.v2]/language",
+    "path" : "körpergröße/größe_länge/language",
+    "type" : "TEXT"
+  }, {
+    "id" : 9,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.height.v2]/encoding",
+    "path" : "körpergröße/größe_länge/encoding",
+    "type" : "TEXT"
+  }, {
+    "id" : 10,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.height.v2]/subject|id",
+    "path" : "körpergröße/größe_länge/subject|id",
+    "type" : "TEXT"
+  }, {
+    "id" : 11,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.height.v2]/subject|id_scheme",
+    "path" : "körpergröße/größe_länge/subject|id_scheme",
+    "type" : "TEXT"
+  }, {
+    "id" : 12,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.height.v2]/subject|id_namespace",
+    "path" : "körpergröße/größe_länge/subject|id_namespace",
+    "type" : "TEXT"
+  }, {
+    "id" : 13,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.height.v2]/subject|name",
+    "path" : "körpergröße/größe_länge/subject|name",
+    "type" : "TEXT"
+  }, {
+    "id" : 14,
+    "aqlPath" : "/category|code",
+    "path" : "körpergröße/category|code",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 15,
+    "aqlPath" : "/language",
+    "path" : "körpergröße/language",
+    "type" : "TEXT"
+  }, {
+    "id" : 16,
+    "aqlPath" : "/territory",
+    "path" : "körpergröße/territory",
+    "type" : "TEXT"
+  }, {
+    "id" : 17,
+    "aqlPath" : "/composer|id",
+    "path" : "körpergröße/composer|id",
+    "type" : "TEXT"
+  }, {
+    "id" : 18,
+    "aqlPath" : "/composer|id_scheme",
+    "path" : "körpergröße/composer|id_scheme",
+    "type" : "TEXT"
+  }, {
+    "id" : 19,
+    "aqlPath" : "/composer|id_namespace",
+    "path" : "körpergröße/composer|id_namespace",
+    "type" : "TEXT"
+  }, {
+    "id" : 20,
+    "aqlPath" : "/composer|name",
+    "path" : "körpergröße/composer|name",
+    "type" : "TEXT"
+  } ]
+}

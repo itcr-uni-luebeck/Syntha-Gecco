@@ -1,0 +1,302 @@
+{
+  "system" : "SNOMED Clinical Terms",
+  "code" : "8935007",
+  "description" : "",
+  "children" : [ {
+    "system" : "http://snomed.info/sct",
+    "code" : "244426007",
+    "display" : "Anterior fossa meninges"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "28838006",
+    "display" : "Brain dura mater structure"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244427003",
+    "display" : "Cerebellar meninges"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "180952004",
+    "display" : "Cerebellopontine angle meninges"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "8935007",
+    "display" : "Cerebral meninges structure"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "36405008",
+    "display" : "Cranial pia mater structure"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "32967008",
+    "display" : "Diaphragma sellae"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727971001",
+    "display" : "Entire anterior fossa meninges"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "369270007",
+    "display" : "Entire basal meninges"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "309321003",
+    "display" : "Entire brain dura mater"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727972008",
+    "display" : "Entire cerebellar meninges"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "362300009",
+    "display" : "Entire cerebral meninges"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "42214001",
+    "display" : "Entire choroid plexus of fourth ventricle"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "70064002",
+    "display" : "Entire choroid plexus of lateral ventricle"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "61576002",
+    "display" : "Entire choroid plexus of third ventricle"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "362306003",
+    "display" : "Entire cranial pia mater"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "730824003",
+    "display" : "Entire diaphragma sellae"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "280380009",
+    "display" : "Entire falx cerebelli"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "279275004",
+    "display" : "Entire falx cerebri"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727965007",
+    "display" : "Entire frontal meninges"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727969001",
+    "display" : "Entire greater sphenoid wing meninges"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727076009",
+    "display" : "Entire intracranial arachnoid"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727521005",
+    "display" : "Entire intraventricular meninges of brain"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727970000",
+    "display" : "Entire lesser sphenoid wing meninges"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727185007",
+    "display" : "Entire meninges of cerebral convex surface"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727519000",
+    "display" : "Entire meninges of clivus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727974009",
+    "display" : "Entire meninges of convexity"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727520006",
+    "display" : "Entire meninges of foramen magnum"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727518008",
+    "display" : "Entire middle fossa meninges"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727968009",
+    "display" : "Entire occipital meninges"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727975005",
+    "display" : "Entire orbital meninges"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727973003",
+    "display" : "Entire parasagittal meninges"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727967004",
+    "display" : "Entire parietal meninges"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "730862000",
+    "display" : "Entire Petroclival meninges"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "389113001",
+    "display" : "Entire pia mater of optic nerve sheath"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "729371002",
+    "display" : "Entire posterior fossa meninges"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727517003",
+    "display" : "Entire suprasellar meninges"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "362321009",
+    "display" : "Entire tela choroidea of fourth ventricle"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "362319004",
+    "display" : "Entire tela choroidea of lateral ventricle"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "362320005",
+    "display" : "Entire tela choroidea of third ventricle"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727966008",
+    "display" : "Entire temporal meninges"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244428008",
+    "display" : "Entire tentorium cerebelli"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "729372009",
+    "display" : "Entire vault meninges"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244419007",
+    "display" : "Frontal meninges"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244424005",
+    "display" : "Greater sphenoid wing meninges"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "51429005",
+    "display" : "Intracranial arachnoid"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "180955002",
+    "display" : "Intraventricular meninges of brain"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244425006",
+    "display" : "Lesser sphenoid wing meninges"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "68850001",
+    "display" : "Meninges of cerebral convex surface"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "180953009",
+    "display" : "Meninges of clivus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244431009",
+    "display" : "Meninges of convexity"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "180954003",
+    "display" : "Meninges of foramen magnum"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "180951006",
+    "display" : "Middle fossa meninges"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244423004",
+    "display" : "Occipital meninges"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244432002",
+    "display" : "Orbital meninges"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244430005",
+    "display" : "Parasagittal meninges"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244421002",
+    "display" : "Parietal meninges"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244429000",
+    "display" : "Petroclival meninges"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "280376004",
+    "display" : "Posterior fossa meninges"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "180949007",
+    "display" : "Region of brain meninges"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "113298000",
+    "display" : "Structure of basal meninges"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "369274003",
+    "display" : "Structure of choroid plexus of fourth ventricle"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "369272004",
+    "display" : "Structure of choroid plexus of lateral ventricle"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "369273009",
+    "display" : "Structure of choroid plexus of third ventricle"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "81084000",
+    "display" : "Structure of falx cerebelli"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "80401008",
+    "display" : "Structure of falx cerebri"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "389107005",
+    "display" : "Structure of pia mater of optic nerve sheath"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "43926006",
+    "display" : "Structure of tela choroidea of fourth ventricle"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "17168001",
+    "display" : "Structure of tela choroidea of lateral ventricle"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "27155005",
+    "display" : "Structure of tela choroidea of third ventricle"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "4566004",
+    "display" : "Structure of tentorium cerebelli"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "180950007",
+    "display" : "Suprasellar meninges"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244420001",
+    "display" : "Temporal meninges"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "280379006",
+    "display" : "Vault meninges"
+  } ]
+}

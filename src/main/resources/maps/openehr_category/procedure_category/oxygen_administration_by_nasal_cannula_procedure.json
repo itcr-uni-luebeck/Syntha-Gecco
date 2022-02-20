@@ -1,0 +1,10 @@
+{
+  "system" : "SNOMED Clinical Terms",
+  "code" : "371907003",
+  "description" : "",
+  "children" : [ {
+    "system" : "http://snomed.info/sct",
+    "code" : "371907003",
+    "display" : "Oxygen administration by nasal cannula"
+  } ]
+}

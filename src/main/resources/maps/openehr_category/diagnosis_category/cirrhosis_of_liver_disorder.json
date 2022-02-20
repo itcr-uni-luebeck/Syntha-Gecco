@@ -1,0 +1,242 @@
+{
+  "system" : "SNOMED Clinical Terms",
+  "code" : "19943007",
+  "description" : "",
+  "children" : [ {
+    "system" : "http://snomed.info/sct",
+    "code" : "123717006",
+    "display" : "Advanced cirrhosis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "420054005",
+    "display" : "Alcoholic cirrhosis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "197303009",
+    "display" : "Bacterial portal cirrhosis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "1761006",
+    "display" : "Biliary cirrhosis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "197310003",
+    "display" : "Biliary cirrhosis of children"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "197296006",
+    "display" : "Capsular portal cirrhosis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "74669004",
+    "display" : "Cardiac cirrhosis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "266470007",
+    "display" : "Cardiac portal cirrhosis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "123606000",
+    "display" : "Cholangiolitic cirrhosis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "266468003",
+    "display" : "Cirrhosis - non-alcoholic"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "19943007",
+    "display" : "Cirrhosis of liver"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "725939009",
+    "display" : "Cirrhosis of liver caused by amiodarone"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "725938001",
+    "display" : "Cirrhosis of liver caused by methotrexate"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "725940006",
+    "display" : "Cirrhosis of liver caused by methyldopa"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "871619002",
+    "display" : "Cirrhosis of liver due to and following cardiac procedure"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "831000119103",
+    "display" : "Cirrhosis of liver due to chronic hepatitis C"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "103611000119102",
+    "display" : "Cirrhosis of liver due to hepatitis B"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "735733008",
+    "display" : "Cirrhosis of liver with primary sclerosing cholangitis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "271440004",
+    "display" : "Cirrhosis secondary to cholestasis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "725416005",
+    "display" : "Cirrhotic cardiomyopathy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "37688005",
+    "display" : "Clonorchiasis with biliary cirrhosis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "45256007",
+    "display" : "Cruveilhier-Baumgarten syndrome"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "89580002",
+    "display" : "Cryptogenic cirrhosis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "716203000",
+    "display" : "Decompensated cirrhosis of liver"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "197293003",
+    "display" : "Diffuse nodular cirrhosis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "425413006",
+    "display" : "Drug-induced cirrhosis of liver"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "371139006",
+    "display" : "Early cirrhosis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "197294009",
+    "display" : "Fatty portal cirrhosis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "76301009",
+    "display" : "Florid cirrhosis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "536002",
+    "display" : "Glissonian cirrhosis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "235897005",
+    "display" : "Hypoxia-associated cirrhosis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "715864007",
+    "display" : "Idiopathic copper associated cirrhosis of liver"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "6183001",
+    "display" : "Indian childhood cirrhosis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "235896001",
+    "display" : "Infectious cirrhosis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "266471006",
+    "display" : "Juvenile portal cirrhosis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "235895002",
+    "display" : "Laennec's cirrhosis, non-alcoholic"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "123716002",
+    "display" : "Latent cirrhosis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "1010616001",
+    "display" : "Liver cirrhosis due to classical cystic fibrosis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "43904005",
+    "display" : "Macronodular cirrhosis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "21861000",
+    "display" : "Micronodular cirrhosis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "15999000",
+    "display" : "Mixed micro and macronodular cirrhosis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "266469006",
+    "display" : "Multilobular portal cirrhosis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "699189004",
+    "display" : "North American Indian childhood cirrhosis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "123605001",
+    "display" : "Nutritional cirrhosis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "109819003",
+    "display" : "Obstructive biliary cirrhosis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "33144001",
+    "display" : "Parasitic cirrhosis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "78208005",
+    "display" : "Pigment cirrhosis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "197299004",
+    "display" : "Pigmentary portal cirrhosis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "419728003",
+    "display" : "Portal cirrhosis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "27156006",
+    "display" : "Posthepatitic cirrhosis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "86454000",
+    "display" : "Postnecrotic cirrhosis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "31712002",
+    "display" : "Primary biliary cholangitis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "715401008",
+    "display" : "Reynolds syndrome"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "12368000",
+    "display" : "Secondary biliary cirrhosis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "16070004",
+    "display" : "Syphilitic cirrhosis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "197305002",
+    "display" : "Syphilitic portal cirrhosis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "123604002",
+    "display" : "Toxic cirrhosis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "197301006",
+    "display" : "Toxic portal cirrhosis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "197291001",
+    "display" : "Unilobular portal cirrhosis"
+  } ]
+}

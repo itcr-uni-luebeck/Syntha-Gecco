@@ -1,0 +1,230 @@
+{
+  "system" : "SNOMED Clinical Terms",
+  "code" : "257277002",
+  "description" : "",
+  "children" : [ {
+    "system" : "http://snomed.info/sct",
+    "code" : "230679002",
+    "display" : "Abnormality of synaptic vesicles"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "230671004",
+    "display" : "Acetylcholine resynthesis deficiency"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "230301006",
+    "display" : "Akinetic-rigid form of Huntington's disease"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "63135006",
+    "display" : "Amyotonia congenita"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "67725009",
+    "display" : "Antibiotic-induced neuromuscular blocking"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "787172004",
+    "display" : "Childhood-onset autosomal recessive myopathy with external ophthalmoplegia"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "230673001",
+    "display" : "Congenital end-plate acetylcholine receptor deficiency"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "230677000",
+    "display" : "Congenital end-plate acetylcholinesterase deficiency"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "230672006",
+    "display" : "Congenital myasthenic syndrome"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "763688008",
+    "display" : "Deafness, encephaloneuropathy, obesity, valvulopathy syndrome"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "230678005",
+    "display" : "Decrease of motor end-plate potential amplitude without acetylcholine receptor deficiency"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "771261002",
+    "display" : "Digital extensor muscle aplasia with polyneuropathy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "65242001",
+    "display" : "Drug-induced myasthenia"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "722432000",
+    "display" : "Duane anomaly, myopathy, scoliosis syndrome"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "608874000",
+    "display" : "Eaton Lambert syndrome with underlying malignancy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "292991000119106",
+    "display" : "Eaton Lambert syndrome without underlying malignancy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "56989000",
+    "display" : "Eaton-Lambert syndrome"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "763352005",
+    "display" : "Familial dyskinesia and facial myokymia"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "230670003",
+    "display" : "Familial infantile myasthenia"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "230686005",
+    "display" : "Generalized myasthenia"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "87842000",
+    "display" : "Generalized neuromuscular exhaustion syndrome"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "230669004",
+    "display" : "Genetically determined myasthenia"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "58756001",
+    "display" : "Huntington's chorea"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "1156827007",
+    "display" : "Inverse Marcus-Gunn phenomenon"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "5127009",
+    "display" : "Jaw-winking syndrome"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "230299004",
+    "display" : "Juvenile onset Huntington's disease"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "193207007",
+    "display" : "Juvenile or adult myasthenia gravis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "230300007",
+    "display" : "Late onset Huntington's disease"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "91637004",
+    "display" : "Myasthenia gravis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "230685009",
+    "display" : "Myasthenia gravis associated with thymoma"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "77461000119109",
+    "display" : "Myasthenia gravis with exacerbation"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "77471000119103",
+    "display" : "Myasthenia gravis without exacerbation"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "31839002",
+    "display" : "Myasthenia gravis, adult form"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "55051001",
+    "display" : "Myasthenia gravis, juvenile form"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "80976008",
+    "display" : "Myasthenic crisis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "257277002",
+    "display" : "Myoneural disorder"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "230687001",
+    "display" : "Myopathy in myasthenia gravis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "205294008",
+    "display" : "Neonatal hypotonia"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "82178003",
+    "display" : "Neonatal myasthenia gravis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "363222009",
+    "display" : "Neonatal neuromuscular disorder"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "230684008",
+    "display" : "Ocular myasthenia"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "414927004",
+    "display" : "Ocular myasthenia with strabismus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "277190002",
+    "display" : "Pelagic paralysis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "230682007",
+    "display" : "Penicillamine-induced myasthenia"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "774154008",
+    "display" : "Periodic paralysis with later-onset distal motor neuropathy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "774153002",
+    "display" : "Periodic paralysis with transient compartment-like syndrome"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "782752005",
+    "display" : "Peripheral neuropathy, myopathy, hoarseness, hearing loss syndrome"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "193206003",
+    "display" : "Persistent neonatal myasthenia gravis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "230674007",
+    "display" : "Pseudomyopathic myasthenia"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "230676009",
+    "display" : "Putative defect in acetylcholine synthesis or packaging"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "423753005",
+    "display" : "Reflex blepharospasm"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "770596007",
+    "display" : "Rippling muscle disease with myasthenia gravis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "29145002",
+    "display" : "Schwartz-Jampel syndrome"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "717266001",
+    "display" : "Sensory ataxic neuropathy with dysarthria and ophthalmoparesis syndrome"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "230675008",
+    "display" : "Slow channel syndrome"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "230683002",
+    "display" : "Transient neonatal myasthenia"
+  } ]
+}

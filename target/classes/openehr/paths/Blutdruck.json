@@ -1,0 +1,119 @@
+{
+  "templateName" : "Blutdruck",
+  "paths" : [ {
+    "id" : 0,
+    "aqlPath" : "/context/other_context[at0001]/items[at0004]/value|code",
+    "path" : "blutdruck/context/status|code",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 1,
+    "aqlPath" : "/context/other_context[at0001]/items[at0005]/value",
+    "path" : "blutdruck/context/kategorie",
+    "type" : "TEXT"
+  }, {
+    "id" : 2,
+    "aqlPath" : "/context/start_time",
+    "path" : "blutdruck/context/start_time",
+    "type" : "DATETIME"
+  }, {
+    "id" : 3,
+    "aqlPath" : "/context/setting|code",
+    "path" : "blutdruck/context/setting|code",
+    "type" : "TEXT"
+  }, {
+    "id" : 4,
+    "aqlPath" : "/context/setting|value",
+    "path" : "blutdruck/context/setting|value",
+    "type" : "TEXT"
+  }, {
+    "id" : 5,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.blood_pressure.v2]/data[at0001]/events[at0006]/data[at0003]/items[at0004]/value|magnitude",
+    "path" : "blutdruck/blutdruck/systolisch|magnitude",
+    "type" : "DECIMAL"
+  }, {
+    "id" : 6,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.blood_pressure.v2]/data[at0001]/events[at0006]/data[at0003]/items[at0004]/value|unit",
+    "path" : "blutdruck/blutdruck/systolisch|unit",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 7,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.blood_pressure.v2]/data[at0001]/events[at0006]/data[at0003]/items[at0005]/value|magnitude",
+    "path" : "blutdruck/blutdruck/diastolisch|magnitude",
+    "type" : "DECIMAL"
+  }, {
+    "id" : 8,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.blood_pressure.v2]/data[at0001]/events[at0006]/data[at0003]/items[at0005]/value|unit",
+    "path" : "blutdruck/blutdruck/diastolisch|unit",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 9,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.blood_pressure.v2]/data[at0001]/events[at0006]/time",
+    "path" : "blutdruck/blutdruck/time",
+    "type" : "DATETIME"
+  }, {
+    "id" : 10,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.blood_pressure.v2]/language",
+    "path" : "blutdruck/blutdruck/language",
+    "type" : "TEXT"
+  }, {
+    "id" : 11,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.blood_pressure.v2]/encoding",
+    "path" : "blutdruck/blutdruck/encoding",
+    "type" : "TEXT"
+  }, {
+    "id" : 12,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.blood_pressure.v2]/subject|id",
+    "path" : "blutdruck/blutdruck/subject|id",
+    "type" : "TEXT"
+  }, {
+    "id" : 13,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.blood_pressure.v2]/subject|id_scheme",
+    "path" : "blutdruck/blutdruck/subject|id_scheme",
+    "type" : "TEXT"
+  }, {
+    "id" : 14,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.blood_pressure.v2]/subject|id_namespace",
+    "path" : "blutdruck/blutdruck/subject|id_namespace",
+    "type" : "TEXT"
+  }, {
+    "id" : 15,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.blood_pressure.v2]/subject|name",
+    "path" : "blutdruck/blutdruck/subject|name",
+    "type" : "TEXT"
+  }, {
+    "id" : 16,
+    "aqlPath" : "/category|code",
+    "path" : "blutdruck/category|code",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 17,
+    "aqlPath" : "/language",
+    "path" : "blutdruck/language",
+    "type" : "TEXT"
+  }, {
+    "id" : 18,
+    "aqlPath" : "/territory",
+    "path" : "blutdruck/territory",
+    "type" : "TEXT"
+  }, {
+    "id" : 19,
+    "aqlPath" : "/composer|id",
+    "path" : "blutdruck/composer|id",
+    "type" : "TEXT"
+  }, {
+    "id" : 20,
+    "aqlPath" : "/composer|id_scheme",
+    "path" : "blutdruck/composer|id_scheme",
+    "type" : "TEXT"
+  }, {
+    "id" : 21,
+    "aqlPath" : "/composer|id_namespace",
+    "path" : "blutdruck/composer|id_namespace",
+    "type" : "TEXT"
+  }, {
+    "id" : 22,
+    "aqlPath" : "/composer|name",
+    "path" : "blutdruck/composer|name",
+    "type" : "TEXT"
+  } ]
+}

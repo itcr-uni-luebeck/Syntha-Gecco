@@ -1,0 +1,42 @@
+{
+  "system" : "SNOMED Clinical Terms",
+  "code" : "431857002",
+  "description" : "",
+  "children" : [ {
+    "system" : "http://snomed.info/sct",
+    "code" : "431857002",
+    "display" : "Chronic kidney disease stage 4"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "285001000119105",
+    "display" : "Chronic kidney disease stage 4 due to benign hypertension"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "368451000119100",
+    "display" : "Chronic kidney disease stage 4 due to drug induced diabetes mellitus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "129151000119102",
+    "display" : "Chronic kidney disease stage 4 due to hypertension"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "90751000119109",
+    "display" : "Chronic kidney disease stage 4 due to type 1 diabetes mellitus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "721000119107",
+    "display" : "Chronic kidney disease stage 4 due to type 2 diabetes mellitus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "140111000119107",
+    "display" : "Hypertension in chronic kidney disease stage 4 due to type 2 diabetes mellitus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "96721000119103",
+    "display" : "Hypertensive heart AND chronic kidney disease stage 4"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "285881000119109",
+    "display" : "Malignant hypertensive chronic kidney disease stage 4"
+  } ]
+}

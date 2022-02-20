@@ -1,0 +1,766 @@
+{
+  "system" : "SNOMED Clinical Terms",
+  "code" : "128283000",
+  "description" : "",
+  "children" : [ {
+    "system" : "http://snomed.info/sct",
+    "code" : "230648001",
+    "display" : "Abdominal cutaneous nerve entrapment syndrome"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "783161005",
+    "display" : "ABri amyloidosis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "230372003",
+    "display" : "Acute relapsing multiple sclerosis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "783258000",
+    "display" : "ADan amyloidosis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "785302009",
+    "display" : "Adult-onset autosomal recessive cerebellar ataxia"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "725464001",
+    "display" : "Adult-onset chronic progressive external ophthalmoplegia with mitochondrial myopathy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "230301006",
+    "display" : "Akinetic-rigid form of Huntington's disease"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "81854007",
+    "display" : "Alexander's disease"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "784341001",
+    "display" : "Amyotrophic lateral sclerosis type 4"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "838276009",
+    "display" : "Amyotrophic lateral sclerosis, parkinsonism, dementia complex"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "789657008",
+    "display" : "ATPase cation transporting 13A2 related juvenile neuronal ceroid lipofuscinosis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "1156790008",
+    "display" : "Atypical progressive supranuclear palsy syndrome"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "784391002",
+    "display" : "Autosomal dominant adult-onset proximal spinal muscular atrophy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "782829002",
+    "display" : "Autosomal dominant Charcot-Marie-Tooth disease type 2O"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "773393001",
+    "display" : "Autosomal dominant Charcot-Marie-Tooth disease type 2Q"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "827115000",
+    "display" : "Autosomal dominant progressive external ophthalmoplegia"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "1156857003",
+    "display" : "Autosomal dominant progressive external ophthalmoplegia type 1"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "1156858008",
+    "display" : "Autosomal dominant progressive external ophthalmoplegia type 2"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "1156855006",
+    "display" : "Autosomal dominant progressive external ophthalmoplegia type 3"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "1156856007",
+    "display" : "Autosomal dominant progressive external ophthalmoplegia type 4"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "1156853004",
+    "display" : "Autosomal dominant progressive external ophthalmoplegia type 5"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "785305006",
+    "display" : "Autosomal dominant spastic paraplegia type 8"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "773498006",
+    "display" : "Autosomal recessive cerebellar ataxia, epilepsy, intellectual disability syndrome due to TUD deficiency"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "783060009",
+    "display" : "Autosomal recessive cerebellar ataxia, psychomotor delay syndrome"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "773414009",
+    "display" : "Autosomal recessive intermediate Charcot-Marie-Tooth disease type C"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "771302009",
+    "display" : "Autosomal recessive lower motor neuron disease with childhood onset"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "827117008",
+    "display" : "Autosomal recessive progressive external ophthalmoplegia"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "723825006",
+    "display" : "Autosomal recessive spastic paraplegia type 55"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "723826007",
+    "display" : "Autosomal recessive spastic paraplegia type 57"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "230256009",
+    "display" : "Benign monomelic amyotrophy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "81981006",
+    "display" : "Benign multirecurrent endothelioleukocytal meningitis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "719521002",
+    "display" : "Benign paroxysmal torticollis of infancy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "344261000119101",
+    "display" : "Bilateral progressive external ophthalmoplegia"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "715984007",
+    "display" : "Boucher Neuhäuser syndrome"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "715624006",
+    "display" : "CANOMAD syndrome"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "771307003",
+    "display" : "Charcot-Marie-Tooth disease type 2B5"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "782826009",
+    "display" : "Charcot-Marie-Tooth disease type 2P"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "787172004",
+    "display" : "Childhood-onset autosomal recessive myopathy with external ophthalmoplegia"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "785301002",
+    "display" : "Childhood-onset autosomal recessive slowly progressive spinocerebellar ataxia"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "773492007",
+    "display" : "Childhood-onset spasticity with hyperglycinemia"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "84306007",
+    "display" : "Chronic adhesive pachymeningitis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "191475009",
+    "display" : "Chronic alcoholic brain syndrome"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "17258002",
+    "display" : "Chronic anoxic encephalopathy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "78689005",
+    "display" : "Chronic brain syndrome"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "15139001",
+    "display" : "Chronic brain-hydrocephalus syndrome"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "312923002",
+    "display" : "Chronic central serous chorioretinopathy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "314007004",
+    "display" : "Chronic central serous retinopathy with diffuse retinal pigment epithelial detachment"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "230144003",
+    "display" : "Chronic echovirus meningoencephalitis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "52702003",
+    "display" : "Chronic fatigue syndrome"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "716771000",
+    "display" : "Chronic hiccup"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "698744001",
+    "display" : "Chronic incomplete quadriplegia due to spinal cord lesion between fifth and seventh cervical vertebra"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "698742002",
+    "display" : "Chronic incomplete quadriplegia due to spinal cord lesion between first and fourth cervical vertebra"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "846660004",
+    "display" : "Chronic infectious disease of central nervous system"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "128209004",
+    "display" : "Chronic inflammatory demyelinating polyradiculoneuropathy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "230564004",
+    "display" : "Chronic inflammatory demyelinating polyradiculoneuropathy with central nervous system demyelination"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "304831001",
+    "display" : "Chronic intracranial subdural hematoma"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "124171000119105",
+    "display" : "Chronic intractable migraine without aura"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "230154004",
+    "display" : "Chronic lymphocytic meningitis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "21664006",
+    "display" : "Chronic meningitis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "95657009",
+    "display" : "Chronic mixed headache syndrome"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "7794004",
+    "display" : "Chronic motor tic disorder"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "128283000",
+    "display" : "Chronic nervous system disorder"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "27195007",
+    "display" : "Chronic non-psychotic brain syndrome"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "609382000",
+    "display" : "Chronic non-traumatic intracranial subdural hemorrhage"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "425919003",
+    "display" : "Chronic organic mental disorder"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "193184006",
+    "display" : "Chronic painful neuropathy due to diabetes mellitus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "230575000",
+    "display" : "Chronic painful polyneuropathy due to diabetes mellitus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "762595001",
+    "display" : "Chronic painful polyneuropathy following chemotherapy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "698754002",
+    "display" : "Chronic paralysis due to lesion of spinal cord"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "698292000",
+    "display" : "Chronic paraplegia"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "39745004",
+    "display" : "Chronic progressive epilepsia partialis continua"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "230405003",
+    "display" : "Chronic progressive epilepsia partialis continua of childhood"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "3456001",
+    "display" : "Chronic progressive non-hereditary chorea"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "95651005",
+    "display" : "Chronic progressive paraparesis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "722986000",
+    "display" : "Chronic venous infarction of spinal cord"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "230179001",
+    "display" : "Chronic viral encephalitis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "73462009",
+    "display" : "Chronic vocal tic disorder"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "128200000",
+    "display" : "Complex regional pain syndrome"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "734987002",
+    "display" : "Complex regional pain syndrome of foot"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "734989004",
+    "display" : "Complex regional pain syndrome of hand"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "734988007",
+    "display" : "Complex regional pain syndrome of knee"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "734986006",
+    "display" : "Complex regional pain syndrome of lower limb"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "712537009",
+    "display" : "Complex regional pain syndrome of upper limb"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "734947007",
+    "display" : "Complex regional pain syndrome type I"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "293951000119107",
+    "display" : "Complex regional pain syndrome type I of bilateral lower limbs"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "293921000119104",
+    "display" : "Complex regional pain syndrome type I of bilateral upper limbs"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "293931000119101",
+    "display" : "Complex regional pain syndrome type I of left lower limb"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "293941000119105",
+    "display" : "Complex regional pain syndrome type I of left upper limb"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "293961000119109",
+    "display" : "Complex regional pain syndrome type I of right lower limb"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "293971000119103",
+    "display" : "Complex regional pain syndrome type I of right upper limb"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "291781000119103",
+    "display" : "Complex regional pain syndrome type II of left lower limb"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "291761000119107",
+    "display" : "Complex regional pain syndrome type II of left upper limb"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "291791000119100",
+    "display" : "Complex regional pain syndrome type II of right lower limb"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "291771000119101",
+    "display" : "Complex regional pain syndrome type II of right upper limb"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "408751001",
+    "display" : "Complex regional pain syndrome, type II"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "408749000",
+    "display" : "Complex regional pain syndrome, type II, lower limb"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "408750000",
+    "display" : "Complex regional pain syndrome, type II, upper limb"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "719102004",
+    "display" : "Congenital cataract with ataxia and deafness syndrome"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "783176002",
+    "display" : "Congenital muscular dystrophy with cerebellar involvement"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "783174004",
+    "display" : "Congenital muscular dystrophy with intellectual disability"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "782772000",
+    "display" : "Congenital muscular dystrophy with intellectual disability and severe epilepsy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "783179009",
+    "display" : "Cranio-cervical dystonia with laryngeal and upper limb involvement"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "82959004",
+    "display" : "Dementia paralytica juvenilis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "724783000",
+    "display" : "Demyelination of central nervous system co-occurrent and due to Behcet disease"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "770630005",
+    "display" : "Distal hereditary motor neuropathy type 1"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "771081007",
+    "display" : "Distal hereditary motor neuropathy type 7"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "771514002",
+    "display" : "Early-onset progressive neurodegeneration, blindness, ataxia, spasticity syndrome"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "771469002",
+    "display" : "Early-onset spastic ataxia, myoclonic epilepsy, neuropathy syndrome"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "254132000",
+    "display" : "Endosteal hyperostoses with cerebellar hypoplasia"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "230335009",
+    "display" : "Facial tic disorder"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "774206008",
+    "display" : "Fatal post-viral neurodegenerative disorder"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "722982003",
+    "display" : "Frequent episodic tension-type headache"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "782690007",
+    "display" : "Gemignani syndrome"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "51928006",
+    "display" : "General paresis - neurosyphilis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "230338006",
+    "display" : "Gestural tic disorder"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "56453003",
+    "display" : "Hereditary cerebral amyloid angiopathy, Dutch type"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "45639009",
+    "display" : "Hereditary cerebral amyloid angiopathy, Icelandic type"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "724357007",
+    "display" : "Hereditary cerebral hemorrhage with amyloidosis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "771143004",
+    "display" : "Hereditary motor and sensory neuropathy type 5"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "771144005",
+    "display" : "Hereditary motor and sensory neuropathy with acrodystrophy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "770939009",
+    "display" : "Huntington disease-like 3"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "58756001",
+    "display" : "Huntington's chorea"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "763739002",
+    "display" : "Idiopathic recurrent stupor"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "770725000",
+    "display" : "Infantile cerebral and cerebellar atrophy with postnatal progressive microcephaly"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "724226009",
+    "display" : "Infantile osteopetrosis with neuroaxonal dysplasia syndrome"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "230748005",
+    "display" : "Intermittently raised pressure hydrocephalus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "230299004",
+    "display" : "Juvenile onset Huntington's disease"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "230300007",
+    "display" : "Late onset Huntington's disease"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "716380002",
+    "display" : "Logopenic progressive aphasia"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "783618006",
+    "display" : "Lower motor neuron syndrome with late-adult onset"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "785809005",
+    "display" : "Mills syndrome"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "718214007",
+    "display" : "Mitochondrial neurogastrointestinal encephalomyopathy syndrome"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "785298001",
+    "display" : "Muscle eye brain disease with bilateral multicystic leukodystrophy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "111505001",
+    "display" : "Muscle-eye-brain disease, congenital muscular dystrophy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "230426003",
+    "display" : "Myoclonic epilepsy with ragged red fibers"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "703526007",
+    "display" : "Neuronal ceroid lipofuscinosis 8"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "230279005",
+    "display" : "Non-Alzheimer's progressive dysphasia"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "72585000",
+    "display" : "Parkinsonian syndrome with idiopathic orthostatic hypotension"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "230310003",
+    "display" : "Paroxysmal dystonia"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "715564000",
+    "display" : "Paroxysmal dystonic choreoathetosis with episodic ataxia and spasticity"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "724072002",
+    "display" : "Paroxysmal exertion-induced dyskinesia"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "782752005",
+    "display" : "Peripheral neuropathy, myopathy, hoarseness, hearing loss syndrome"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "723151005",
+    "display" : "Permanent vegetative state"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "785723001",
+    "display" : "Persistent idiopathic facial pain"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "193206003",
+    "display" : "Persistent neonatal myasthenia gravis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "24473007",
+    "display" : "Persistent vegetative state"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "31097004",
+    "display" : "Post poliomyelitis syndrome"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "428700003",
+    "display" : "Primary progressive multiple sclerosis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "716281000",
+    "display" : "Primary progressive non fluent aphasia"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "230278002",
+    "display" : "Progressive aphasia"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "230280008",
+    "display" : "Progressive aphasia in Alzheimer's disease"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "230240004",
+    "display" : "Progressive cerebellar ataxia with hypogonadism"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "80328002",
+    "display" : "Progressive cone-rod dystrophy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "442511009",
+    "display" : "Progressive encephalopathy with edema, hypsarrhythmia and optic atrophy syndrome"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "770678005",
+    "display" : "Progressive encephalopathy with edema, hypsarrhythmia, and optic atrophy-like syndrome"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "46252003",
+    "display" : "Progressive external ophthalmoplegia"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "764733009",
+    "display" : "Progressive external ophthalmoplegia, myopathy, emaciation syndrome"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "737228009",
+    "display" : "Progressive focal cortical atrophy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "816984002",
+    "display" : "Progressive multiple sclerosis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "88923002",
+    "display" : "Progressive muscular atrophy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "783064000",
+    "display" : "Progressive myoclonic epilepsy type 3"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "783055005",
+    "display" : "Progressive myoclonic epilepsy type 5"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "783062001",
+    "display" : "Progressive myoclonic epilepsy type 6"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "783139000",
+    "display" : "Progressive myoclonic epilepsy type 8"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "771305006",
+    "display" : "Progressive polyneuropathy with bilateral striatal necrosis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "724778008",
+    "display" : "Progressive relapsing multiple sclerosis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "192976002",
+    "display" : "Progressive supranuclear palsy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "1156763004",
+    "display" : "Progressive supranuclear palsy corticobasal syndrome"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "1156764005",
+    "display" : "Progressive supranuclear palsy parkinsonism syndrome"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "1156761002",
+    "display" : "Progressive supranuclear palsy progressive non fluent aphasia"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "84438001",
+    "display" : "Pure autonomic failure"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "202830000",
+    "display" : "Recurrent atlantoaxial subluxation with myelopathy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "767254005",
+    "display" : "Recurrent benign focal seizures of childhood"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "116401000119105",
+    "display" : "Recurrent complex partial epilepsy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "44433009",
+    "display" : "Recurrent transient tic disorder"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "783787000",
+    "display" : "Retinal vasculopathy with cerebral leukoencephalopathy and systemic manifestations"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "68618008",
+    "display" : "Rett's disorder"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "230314007",
+    "display" : "Sandifer syndrome"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "425500002",
+    "display" : "Secondary progressive multiple sclerosis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "230288001",
+    "display" : "Semantic dementia"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "717266001",
+    "display" : "Sensory ataxic neuropathy with dysarthria and ophthalmoparesis syndrome"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "773555005",
+    "display" : "Severe neurodegenerative syndrome with lipodystrophy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "725139005",
+    "display" : "Spastic paraplegia, optic atrophy, neuropathy syndrome"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "789674008",
+    "display" : "SPOAN and SPOAN-related disorder"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "719205008",
+    "display" : "Spondylometaphyseal dysplasia with cone-rod dystrophy syndrome"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "782951006",
+    "display" : "Thoracic dysplasia and hydrocephalus syndrome"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "359686005",
+    "display" : "Van Bogaert's sclerosing leukoencephalitis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "111504002",
+    "display" : "Walker-Warburg congenital muscular dystrophy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "827172005",
+    "display" : "X-linked progressive cerebellar ataxia"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "771475006",
+    "display" : "Young adult-onset distal hereditary motor neuropathy"
+  } ]
+}

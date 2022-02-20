@@ -1,0 +1,99 @@
+{
+  "entry" : [
+    {
+      "rxnorm" : "198440",
+      "codes" : [
+        {
+          "system" : "http://fhir.de/CodeSystem/dimdi/atc",
+          "code" : "N02BE01",
+          "display" : "Paracetamol"
+        }
+      ]
+    },
+    {
+      "rxnorm" : "242969",
+      "codes" : [
+        {
+          "system" : "http://fhir.de/CodeSystem/dimdi/atc",
+          "code" : "C01CA03",
+          "display" : "Norephinephrine"
+        }
+      ]
+    },
+    {
+      "rxnorm" : "360110",
+      "codes" : [
+        {
+          "system" : "http://fhir.de/CodeSystem/dimdi/atc",
+          "code" : "L04AA10",
+          "display" : "Sirolimus"
+        }
+      ]
+    },
+    {
+      "rxnorm" : "597730",
+      "codes" : [
+        {
+          "system" : "http://fhir.de/CodeSystem/dimdi/atc",
+          "code" : "J05AR10",
+          "display" : "Lopinavir und Ritonavir"
+        }
+      ]
+    },
+    {
+      "rxnorm" : "2284960",
+      "codes" : [
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "870518005",
+          "display" : "Product containing remdesivir (medicinal product)"
+        }
+      ]
+    },
+    {
+      "rxnorm" : "1657981",
+      "codes" : [
+        {
+          "system" : "http://fhir.de/CodeSystem/dimdi/atc",
+          "code" : "L04AC07",
+          "display" : "Toclizumab"
+        }
+      ]
+    },
+    {
+      "rxnorm" : "979092",
+      "codes" : [
+        {
+          "system" : "http://fhir.de/CodeSystem/dimdi/atc",
+          "code" : "P01BA02",
+          "display" : "Hydroxychloroquine"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "83490000",
+          "display" : "Product containing hydroxychloroquine (medicinal product)"
+        }
+      ]
+    },
+    {
+      "rxnorm" : "1116758",
+      "codes" : [
+        {
+          "system" : "http://fhir.de/CodeSystem/dimdi/atc",
+          "code" : "P01BA01",
+          "display" : "Chloroquine"
+        }
+      ]
+    },
+    {
+      "rxnorm" : "727711",
+      "codes" : [
+        {
+          "system" : "http://fhir.de/CodeSystem/dimdi/atc",
+          "code" : "L04AC03",
+          "display" : "Anakinra"
+        }
+      ]
+    }
+  ]
+}

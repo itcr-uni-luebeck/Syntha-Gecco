@@ -1,0 +1,1548 @@
+{
+  "templateId" : "GECCO_Diagnose",
+  "version" : "2.3",
+  "defaultLanguage" : "de",
+  "languages" : [ "de" ],
+  "tree" : {
+    "id" : "gecco_diagnose",
+    "name" : "GECCO_Diagnose",
+    "localizedName" : "GECCO_Diagnose",
+    "rmType" : "COMPOSITION",
+    "nodeId" : "openEHR-EHR-COMPOSITION.registereintrag.v1",
+    "min" : 1,
+    "max" : 1,
+    "localizedNames" : {
+      "de" : "GECCO_Diagnose"
+    },
+    "localizedDescriptions" : {
+      "de" : "Generische Zusammenstellung zur Darstellung eines Datensatzes für Forschungszwecke. "
+    },
+    "aqlPath" : "",
+    "children" : [ {
+      "id" : "context",
+      "rmType" : "EVENT_CONTEXT",
+      "nodeId" : "",
+      "min" : 1,
+      "max" : 1,
+      "aqlPath" : "/context",
+      "children" : [ {
+        "id" : "status",
+        "name" : "Status",
+        "localizedName" : "Status",
+        "rmType" : "DV_CODED_TEXT",
+        "nodeId" : "at0004",
+        "min" : 0,
+        "max" : 1,
+        "localizedNames" : {
+          "de" : "Status"
+        },
+        "localizedDescriptions" : {
+          "de" : "Status der gelieferten Daten für den Registereintrag. Hinweis: Dies ist nicht der Status einzelner Komponenten."
+        },
+        "aqlPath" : "/context/other_context[at0001]/items[at0004]/value",
+        "inputs" : [ {
+          "suffix" : "code",
+          "type" : "CODED_TEXT",
+          "list" : [ {
+            "value" : "at0010",
+            "label" : "registriert",
+            "localizedLabels" : {
+              "de" : "registriert"
+            },
+            "localizedDescriptions" : {
+              "de" : "*"
+            }
+          }, {
+            "value" : "at0011",
+            "label" : "vorläufig",
+            "localizedLabels" : {
+              "de" : "vorläufig"
+            },
+            "localizedDescriptions" : {
+              "de" : "*"
+            }
+          }, {
+            "value" : "at0012",
+            "label" : "final",
+            "localizedLabels" : {
+              "de" : "final"
+            },
+            "localizedDescriptions" : {
+              "de" : "*"
+            }
+          }, {
+            "value" : "at0013",
+            "label" : "geändert",
+            "localizedLabels" : {
+              "de" : "geändert"
+            },
+            "localizedDescriptions" : {
+              "de" : "*"
+            }
+          } ]
+        } ]
+      }, {
+        "id" : "kategorie",
+        "name" : "Kategorie",
+        "localizedName" : "Kategorie",
+        "rmType" : "DV_CODED_TEXT",
+        "nodeId" : "at0005",
+        "min" : 1,
+        "max" : 1,
+        "localizedNames" : {
+          "de" : "Kategorie"
+        },
+        "localizedDescriptions" : {
+          "de" : "Die Klassifikation des Registereintrags (z.B. Typ der Observation des FHIR-Profils)."
+        },
+        "aqlPath" : "/context/other_context[at0001]/items[at0005]/value",
+        "inputs" : [ {
+          "suffix" : "code",
+          "type" : "CODED_TEXT",
+          "list" : [ {
+            "value" : "418112009",
+            "label" : "pulmonaryMedicine",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "722414000",
+            "label" : "vascularMedicine",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "b",
+            "label" : "hepatology",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "394810000",
+            "label" : "rheumatoloty",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "408480009",
+            "label" : "immunology",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "394807007",
+            "label" : "infectiousDiseases",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "408475000",
+            "label" : "Diabetic Medicine",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "394593009",
+            "label" : "Oncology",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "394584008",
+            "label" : "Gastroenterology",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "788415003",
+            "label" : "Transplant medicine",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "116223007",
+            "label" : "Complication (disorder)",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "394591006",
+            "label" : "Neurology",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "394587001",
+            "label" : "Psychiatry",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "394589003",
+            "label" : "Nephrology (qualifier value)",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "404989005",
+            "label" : "Ventilation status (observable entity)",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          } ],
+          "terminology" : "SNOMED Clinical Terms"
+        } ]
+      }, {
+        "id" : "start_time",
+        "name" : "Start_time",
+        "rmType" : "DV_DATE_TIME",
+        "min" : 1,
+        "max" : 1,
+        "aqlPath" : "/context/start_time",
+        "inputs" : [ {
+          "type" : "DATETIME"
+        } ],
+        "inContext" : true
+      }, {
+        "id" : "setting",
+        "name" : "Setting",
+        "rmType" : "DV_CODED_TEXT",
+        "min" : 1,
+        "max" : 1,
+        "aqlPath" : "/context/setting",
+        "inputs" : [ {
+          "suffix" : "code",
+          "type" : "TEXT"
+        }, {
+          "suffix" : "value",
+          "type" : "TEXT"
+        } ],
+        "inContext" : true
+      } ]
+    }, {
+      "id" : "vorliegende_diagnose",
+      "name" : "Vorliegende Diagnose",
+      "localizedName" : "Vorliegende Diagnose",
+      "rmType" : "EVALUATION",
+      "nodeId" : "openEHR-EHR-EVALUATION.problem_diagnosis.v1",
+      "min" : 0,
+      "max" : 1,
+      "localizedNames" : {
+        "de" : "Vorliegende Diagnose"
+      },
+      "localizedDescriptions" : {
+        "de" : "Angaben über einen einzelnen identifizierten Gesundheitszustand, eine Verletzung, eine Behinderung oder ein Problem, welches das körperliche, geistige und/oder soziale Wohlergehen einer Einzelperson beeinträchtigt."
+      },
+      "annotations" : {
+        "410605003" : "Confirmed present (qualifier value)",
+        "comment" : "Eine klare Abgrenzung zwischen Problem und Diagnose ist in der Praxis nicht einfach zu erreichen. Für die Zwecke der klinischen Dokumentation mit diesem Archetyp werden Problem und Diagnose als ein Kontinuum betrachtet, mit zunehmendem Detaillierungsgrad und unterstützenden Beweisen, die in der Regel dem Etikett \"Diagnose\" Gewicht verleihen."
+      },
+      "aqlPath" : "/content[openEHR-EHR-EVALUATION.problem_diagnosis.v1,'Vorliegende Diagnose']",
+      "children" : [ {
+        "id" : "name_des_problems_der_diagnose",
+        "name" : "Name des Problems/ der Diagnose",
+        "localizedName" : "Name des Problems/ der Diagnose",
+        "rmType" : "DV_TEXT",
+        "nodeId" : "at0002",
+        "min" : 1,
+        "max" : 1,
+        "localizedNames" : {
+          "de" : "Name des Problems/ der Diagnose"
+        },
+        "localizedDescriptions" : {
+          "de" : "Namentliche Identifikation des Problems oder der Diagnose."
+        },
+        "annotations" : {
+          "comment" : "Wo möglich, ist die Kodierung des Problems oder der Diagnose über eine Terminologie zu bevorzugen."
+        },
+        "aqlPath" : "/content[openEHR-EHR-EVALUATION.problem_diagnosis.v1,'Vorliegende Diagnose']/data[at0001]/items[at0002]/value",
+        "inputs" : [ {
+          "type" : "TEXT",
+          "list" : [ {
+            "value" : "SNOMED Clinical Terms::195967001::Asthma (disorder)",
+            "label" : "SNOMED Clinical Terms::195967001::Asthma (disorder)"
+          }, {
+            "value" : "SNOMED Clinical Terms::13645005::Chronic obstructive lung disease (disorder)",
+            "label" : "SNOMED Clinical Terms::13645005::Chronic obstructive lung disease (disorder)"
+          }, {
+            "value" : "SNOMED Clinical Terms::51615001::Fibrosis of lung (disorder) Lungenfibrose",
+            "label" : "SNOMED Clinical Terms::51615001::Fibrosis of lung (disorder) Lungenfibrose"
+          }, {
+            "value" : "SNOMED Clinical Terms::70995007::Pulmonary hypertension (disorder)",
+            "label" : "SNOMED Clinical Terms::70995007::Pulmonary hypertension (disorder)"
+          }, {
+            "value" : "SNOMED Clinical Terms::190966007::Extreme obesity with alveolar hypoventilation (disorder)",
+            "label" : "SNOMED Clinical Terms::190966007::Extreme obesity with alveolar hypoventilation (disorder)"
+          }, {
+            "value" : "SNOMED Clinical Terms::73430006::Sleep apnea (disorder)",
+            "label" : "SNOMED Clinical Terms::73430006::Sleep apnea (disorder)"
+          }, {
+            "value" : "SNOMED Clinical Terms::78275009::Obstructive sleep apnea syndrome (disorder)",
+            "label" : "SNOMED Clinical Terms::78275009::Obstructive sleep apnea syndrome (disorder)"
+          }, {
+            "value" : "SNOMED Clinical Terms::190905008::Cystic fibrosis (disorder) Cystische Fibrose",
+            "label" : "SNOMED Clinical Terms::190905008::Cystic fibrosis (disorder) Cystische Fibrose"
+          }, {
+            "value" : "SNOMED Clinical Terms::38341003::Hypertensive disorder, systemic arterial (disorder)",
+            "label" : "SNOMED Clinical Terms::38341003::Hypertensive disorder, systemic arterial (disorder)"
+          }, {
+            "value" : "SNOMED Clinical Terms::417662000:246090004=22298006::|History of clinical finding in subject (situation)|:|Associated finding (attribute)|=|Myocardial infarction (disorder)| Zustand nach Herzinfarkt",
+            "label" : "SNOMED Clinical Terms::417662000:246090004=22298006::|History of clinical finding in subject (situation)|:|Associated finding (attribute)|=|Myocardial infarction (disorder)| Zustand nach Herzinfarkt"
+          }, {
+            "value" : "SNOMED Clinical Terms::698247007::Cardiac arrhythmia (disorder) Herzrhythmusstörungen",
+            "label" : "SNOMED Clinical Terms::698247007::Cardiac arrhythmia (disorder) Herzrhythmusstörungen"
+          }, {
+            "value" : "SNOMED Clinical Terms::84114007::Heart failure (disorder) Herzinsuffizienz",
+            "label" : "SNOMED Clinical Terms::84114007::Heart failure (disorder) Herzinsuffizienz"
+          }, {
+            "value" : "SNOMED Clinical Terms::399957001::Peripheral arterial occlusive disease (disorder)",
+            "label" : "SNOMED Clinical Terms::399957001::Peripheral arterial occlusive disease (disorder)"
+          }, {
+            "value" : "SNOMED Clinical Terms::416940007:363589002=81266008::|Past history of procedure (situation)|:|Associated procedure (attribute)|=|Heart revascularization (procedure)|",
+            "label" : "SNOMED Clinical Terms::416940007:363589002=81266008::|Past history of procedure (situation)|:|Associated procedure (attribute)|=|Heart revascularization (procedure)|"
+          }, {
+            "value" : "SNOMED Clinical Terms::53741008::Coronary arteriosclerosis (disorder)",
+            "label" : "SNOMED Clinical Terms::53741008::Coronary arteriosclerosis (disorder)"
+          }, {
+            "value" : "SNOMED Clinical Terms::64586002::Carotid artery stenosis (disorder)",
+            "label" : "SNOMED Clinical Terms::64586002::Carotid artery stenosis (disorder)"
+          }, {
+            "value" : "SNOMED Clinical Terms::197321007::Steatosis of liver (disorder)",
+            "label" : "SNOMED Clinical Terms::197321007::Steatosis of liver (disorder)"
+          }, {
+            "value" : "SNOMED Clinical Terms::19943007::Cirrhosis of liver (disorder)",
+            "label" : "SNOMED Clinical Terms::19943007::Cirrhosis of liver (disorder)"
+          }, {
+            "value" : "SNOMED Clinical Terms::10295004::Chronic viral hepatitis (disorder)",
+            "label" : "SNOMED Clinical Terms::10295004::Chronic viral hepatitis (disorder)"
+          }, {
+            "value" : "SNOMED Clinical Terms::235890007::Autoimmune liver disease (disorder)",
+            "label" : "SNOMED Clinical Terms::235890007::Autoimmune liver disease (disorder)"
+          }, {
+            "value" : "SNOMED Clinical Terms::24526004::Inflammatory bowel disease (disorder)",
+            "label" : "SNOMED Clinical Terms::24526004::Inflammatory bowel disease (disorder)"
+          }, {
+            "value" : "SNOMED Clinical Terms::69896004::Rheumatoid arthritis (disorder)",
+            "label" : "SNOMED Clinical Terms::69896004::Rheumatoid arthritis (disorder)"
+          }, {
+            "value" : "SNOMED Clinical Terms::105969002::Disorder of connective tissue (disorder",
+            "label" : "SNOMED Clinical Terms::105969002::Disorder of connective tissue (disorder"
+          }, {
+            "value" : "SNOMED Clinical Terms::31996006::Vasculitis (disorder)",
+            "label" : "SNOMED Clinical Terms::31996006::Vasculitis (disorder)"
+          }, {
+            "value" : "SNOMED Clinical Terms::36138009::Congenital immunodeficiency disease (disorder)",
+            "label" : "SNOMED Clinical Terms::36138009::Congenital immunodeficiency disease (disorder)"
+          }, {
+            "value" : "SNOMED Clinical Terms::302509004::Entire heart (body structure)",
+            "label" : "SNOMED Clinical Terms::302509004::Entire heart (body structure)"
+          }, {
+            "value" : "SNOMED Clinical Terms::181216001::Entire lung (body structure)",
+            "label" : "SNOMED Clinical Terms::181216001::Entire lung (body structure)"
+          }, {
+            "value" : "SNOMED Clinical Terms::181268008::Entire liver (body structure)",
+            "label" : "SNOMED Clinical Terms::181268008::Entire liver (body structure)"
+          }, {
+            "value" : "SNOMED Clinical Terms::181414000::Entire kidney (body structure)",
+            "label" : "SNOMED Clinical Terms::181414000::Entire kidney (body structure)"
+          }, {
+            "value" : "SNOMED Clinical Terms::181277001::Entire pancreas (body structure)",
+            "label" : "SNOMED Clinical Terms::181277001::Entire pancreas (body structure)"
+          }, {
+            "value" : "SNOMED Clinical Terms::113276009::Intestinal structure (body structure)",
+            "label" : "SNOMED Clinical Terms::113276009::Intestinal structure (body structure)"
+          }, {
+            "value" : "SNOMED Clinical Terms::181250005::Entire small intestine (body structure)",
+            "label" : "SNOMED Clinical Terms::181250005::Entire small intestine (body structure)"
+          }, {
+            "value" : "SNOMED Clinical Terms::181254001::Entire large intestine (body structure)",
+            "label" : "SNOMED Clinical Terms::181254001::Entire large intestine (body structure)"
+          }, {
+            "value" : "SNOMED Clinical Terms::119181002::Skin part (body structure)",
+            "label" : "SNOMED Clinical Terms::119181002::Skin part (body structure)"
+          }, {
+            "value" : "SNOMED Clinical Terms::181162001::Entire cornea (body structure)",
+            "label" : "SNOMED Clinical Terms::181162001::Entire cornea (body structure)"
+          }, {
+            "value" : "SNOMED Clinical Terms::41845008::Ear ossicle structure (body structure)",
+            "label" : "SNOMED Clinical Terms::41845008::Ear ossicle structure (body structure)"
+          }, {
+            "value" : "SNOMED Clinical Terms::181285005::Entire heart valve (body structure)",
+            "label" : "SNOMED Clinical Terms::181285005::Entire heart valve (body structure)"
+          }, {
+            "value" : "SNOMED Clinical Terms::119206002::Blood vessel part (body structure)",
+            "label" : "SNOMED Clinical Terms::119206002::Blood vessel part (body structure)"
+          }, {
+            "value" : "SNOMED Clinical Terms::8935007::Cerebral meninges structure (body structure)",
+            "label" : "SNOMED Clinical Terms::8935007::Cerebral meninges structure (body structure)"
+          }, {
+            "value" : "SNOMED Clinical Terms::3138006::Bone (tissue) structure (body structure)",
+            "label" : "SNOMED Clinical Terms::3138006::Bone (tissue) structure (body structure)"
+          }, {
+            "value" : "SNOMED Clinical Terms::309312004::Cartilage tissue (body structure)",
+            "label" : "SNOMED Clinical Terms::309312004::Cartilage tissue (body structure)"
+          }, {
+            "value" : "SNOMED Clinical Terms::13024002::Tendon structure (body structure)",
+            "label" : "SNOMED Clinical Terms::13024002::Tendon structure (body structure)"
+          }, {
+            "value" : "SNOMED Clinical Terms::46635009::Diabetes mellitus type 1 (disorder)",
+            "label" : "SNOMED Clinical Terms::46635009::Diabetes mellitus type 1 (disorder)"
+          }, {
+            "value" : "SNOMED Clinical Terms::44054006::Diabetes mellitus type 2 (disorder)",
+            "label" : "SNOMED Clinical Terms::44054006::Diabetes mellitus type 2 (disorder)"
+          }, {
+            "value" : "SNOMED Clinical Terms::237599002::Insulin treated type 2 diabetes mellitus (disorder)",
+            "label" : "SNOMED Clinical Terms::237599002::Insulin treated type 2 diabetes mellitus (disorder)"
+          }, {
+            "value" : "SNOMED Clinical Terms::8801005::Secondary diabetes mellitus (disorder)",
+            "label" : "SNOMED Clinical Terms::8801005::Secondary diabetes mellitus (disorder)"
+          }, {
+            "value" : "SNOMED Clinical Terms::128283000::Chronic nervous system disorder (disorder)",
+            "label" : "SNOMED Clinical Terms::128283000::Chronic nervous system disorder (disorder)"
+          }, {
+            "value" : "SNOMED Clinical Terms::74732009::Mental disorder (disorder)",
+            "label" : "SNOMED Clinical Terms::74732009::Mental disorder (disorder)"
+          }, {
+            "value" : "SNOMED Clinical Terms::197480006::Anxiety disorder (disorder)",
+            "label" : "SNOMED Clinical Terms::197480006::Anxiety disorder (disorder)"
+          }, {
+            "value" : "SNOMED Clinical Terms::35489007::Depressive disorder (disorder)",
+            "label" : "SNOMED Clinical Terms::35489007::Depressive disorder (disorder)"
+          }, {
+            "value" : "SNOMED Clinical Terms::69322001::Psychotic disorder (disorder)",
+            "label" : "SNOMED Clinical Terms::69322001::Psychotic disorder (disorder)"
+          }, {
+            "value" : "SNOMED Clinical Terms::49049000::Parkinson's disease (disorder)",
+            "label" : "SNOMED Clinical Terms::49049000::Parkinson's disease (disorder)"
+          }, {
+            "value" : "SNOMED Clinical Terms::52448006::Dementia (disorder)",
+            "label" : "SNOMED Clinical Terms::52448006::Dementia (disorder)"
+          }, {
+            "value" : "SNOMED Clinical Terms::24700007::Multiple sclerosis (disorder)",
+            "label" : "SNOMED Clinical Terms::24700007::Multiple sclerosis (disorder)"
+          }, {
+            "value" : "SNOMED Clinical Terms::257277002::Combined disorder of muscle AND peripheral nerve (disorder)",
+            "label" : "SNOMED Clinical Terms::257277002::Combined disorder of muscle AND peripheral nerve (disorder)"
+          }, {
+            "value" : "SNOMED Clinical Terms::84757009::Epilepsy (disorder)",
+            "label" : "SNOMED Clinical Terms::84757009::Epilepsy (disorder)"
+          }, {
+            "value" : "SNOMED Clinical Terms::37796009::Migraine (disorder)",
+            "label" : "SNOMED Clinical Terms::37796009::Migraine (disorder)"
+          }, {
+            "value" : "SNOMED Clinical Terms::440140008::History of cerebrovascular accident with residual deficit (situation)",
+            "label" : "SNOMED Clinical Terms::440140008::History of cerebrovascular accident with residual deficit (situation)"
+          }, {
+            "value" : "SNOMED Clinical Terms::429993008::History of cerebrovascular accident without residual deficits (situation",
+            "label" : "SNOMED Clinical Terms::429993008::History of cerebrovascular accident without residual deficits (situation"
+          }, {
+            "value" : "SNOMED Clinical Terms::714152005::Chronic kidney disease stage 5 on dialysis (disorder)",
+            "label" : "SNOMED Clinical Terms::714152005::Chronic kidney disease stage 5 on dialysis (disorder)"
+          }, {
+            "value" : "SNOMED Clinical Terms::431855005::Chronic kidney disease stage 1 (disorder)",
+            "label" : "SNOMED Clinical Terms::431855005::Chronic kidney disease stage 1 (disorder)"
+          }, {
+            "value" : "SNOMED Clinical Terms::431856006::Chronic kidney disease stage 2 (disorder)",
+            "label" : "SNOMED Clinical Terms::431856006::Chronic kidney disease stage 2 (disorder)"
+          }, {
+            "value" : "SNOMED Clinical Terms::433144002::Chronic kidney disease stage 3 (disorder)",
+            "label" : "SNOMED Clinical Terms::433144002::Chronic kidney disease stage 3 (disorder)"
+          }, {
+            "value" : "SNOMED Clinical Terms::431857002::Chronic kidney disease stage 4 (disorder)",
+            "label" : "SNOMED Clinical Terms::431857002::Chronic kidney disease stage 4 (disorder)"
+          }, {
+            "value" : "SNOMED Clinical Terms::433146000::Chronic kidney disease stage 5 (disorder)",
+            "label" : "SNOMED Clinical Terms::433146000::Chronic kidney disease stage 5 (disorder)"
+          }, {
+            "value" : "SNOMED Clinical Terms::709044004::Chronic kidney disease (disorder)",
+            "label" : "SNOMED Clinical Terms::709044004::Chronic kidney disease (disorder)"
+          }, {
+            "value" : "SNOMED Clinical Terms::86406008::Human immunodeficiency virus infection",
+            "label" : "SNOMED Clinical Terms::86406008::Human immunodeficiency virus infection"
+          }, {
+            "value" : "SNOMED Clinical Terms::363346000::Malignant neoplastic disease",
+            "label" : "SNOMED Clinical Terms::363346000::Malignant neoplastic disease"
+          }, {
+            "value" : "SNOMED Clinical Terms::40845000::Gastrointestinal ulcer",
+            "label" : "SNOMED Clinical Terms::40845000::Gastrointestinal ulcer"
+          } ],
+          "listOpen" : false
+        } ]
+      }, {
+        "id" : "körperstelle",
+        "name" : "Körperstelle",
+        "localizedName" : "Körperstelle",
+        "rmType" : "CLUSTER",
+        "nodeId" : "openEHR-EHR-CLUSTER.anatomical_location.v1",
+        "min" : 0,
+        "max" : -1,
+        "localizedNames" : {
+          "de" : "Körperstelle"
+        },
+        "localizedDescriptions" : {
+          "de" : "Eine physische Stelle am oder innerhalb des menschlichen Körpers."
+        },
+        "aqlPath" : "/content[openEHR-EHR-EVALUATION.problem_diagnosis.v1,'Vorliegende Diagnose']/data[at0001]/items[openEHR-EHR-CLUSTER.anatomical_location.v1,'Körperstelle']",
+        "children" : [ {
+          "id" : "name_der_körperstelle",
+          "name" : "Name der Körperstelle",
+          "localizedName" : "Name der Körperstelle",
+          "rmType" : "DV_CODED_TEXT",
+          "nodeId" : "at0001",
+          "min" : 1,
+          "max" : 1,
+          "localizedNames" : {
+            "de" : "Name der Körperstelle"
+          },
+          "localizedDescriptions" : {
+            "de" : "Identifikation einer einzelnen physischen Stelle entweder am oder innerhalb des menschlichen Körpers."
+          },
+          "annotations" : {
+            "comment" : "Dieses Datenelement ist der einzige verpflichtend auszufüllende Datenpunkt in diesem Archetypen und sollte als primärer Datenpunkt verwendet werden, um eine anatomische Lokalisation mit einem häufig verwendeten Namen aufzuzeichnen. Es wird dringend empfohlen, dass der Name der Körperstelle so genau aufgezeichnet wird, wie es anatomisch möglich ist. Zum Beispiel: zeichne \"oberes Augenlid\" auf und nicht \"Augenlid\" mit \"oberer\" als Qualifier; \"fünfte Rippe\" statt \"Rippe\" mit einem numerischen Qualifier. Verwenden Sie die anderen Datenelemente für Lateralität, Sichtweise, Region und anatomische Linie, um mehr Details anzugeben. \r\n\r\nDieses Datenelement sollte mit einer Terminologie kodiert werden, die nach Möglichkeit Entscheidungsunterstützung auslösen kann - ein geeignetes Termset für die Verwendung hier könnte aus einzelnen Konzepten oder einer Liste von vorab abgestimmten Begriffen zusammengesetzt sein. Freitext sollte nur verwendet werden, wenn keine entsprechende Terminologie vorhanden ist. \r\n\r\nWenn der Name der Körperstelle bereits im übergeordneten Archetyp angegeben ist, kann dieses Datenelement redundant sein. Alternativ wurde ein Anwendungsfall ermittelt, bei dem der Wert in dieses Element dupliziert sein könnte, um semantische Abfragen unter Verwendung dieses Archetyps und nicht das Datenelement innerhalb des übergeordneten Elements zu unterstützen."
+          },
+          "aqlPath" : "/content[openEHR-EHR-EVALUATION.problem_diagnosis.v1,'Vorliegende Diagnose']/data[at0001]/items[openEHR-EHR-CLUSTER.anatomical_location.v1,'Körperstelle']/items[at0001]/value",
+          "inputs" : [ {
+            "suffix" : "code",
+            "type" : "CODED_TEXT",
+            "list" : [ {
+              "value" : "302509004",
+              "label" : "Entire heart (body structure)",
+              "localizedLabels" : {
+                "de" : ""
+              }
+            }, {
+              "value" : "181216001",
+              "label" : "Entire lung (body structure)",
+              "localizedLabels" : {
+                "de" : ""
+              }
+            }, {
+              "value" : "181268008",
+              "label" : "Entire liver (body structure)",
+              "localizedLabels" : {
+                "de" : ""
+              }
+            }, {
+              "value" : "181414000",
+              "label" : "Entire kidney (body structure)",
+              "localizedLabels" : {
+                "de" : ""
+              }
+            }, {
+              "value" : "181277001",
+              "label" : "Entire pancreas (body structure)",
+              "localizedLabels" : {
+                "de" : ""
+              }
+            }, {
+              "value" : "181250005",
+              "label" : "Entire small intestine (body structure)",
+              "localizedLabels" : {
+                "de" : ""
+              }
+            }, {
+              "value" : "181254001",
+              "label" : "Entire large intestine (body structure)",
+              "localizedLabels" : {
+                "de" : ""
+              }
+            }, {
+              "value" : "119181002",
+              "label" : "Skin part (body structure)",
+              "localizedLabels" : {
+                "de" : ""
+              }
+            }, {
+              "value" : "181162001",
+              "label" : "Entire cornea (body structure)",
+              "localizedLabels" : {
+                "de" : ""
+              }
+            }, {
+              "value" : "41845008",
+              "label" : "Ear ossicle structure (body structure)",
+              "localizedLabels" : {
+                "de" : ""
+              }
+            }, {
+              "value" : "181285005",
+              "label" : "Entire heart valve (body structure)",
+              "localizedLabels" : {
+                "de" : ""
+              }
+            }, {
+              "value" : "119206002",
+              "label" : "Blood vessel part (body structure)",
+              "localizedLabels" : {
+                "de" : ""
+              }
+            }, {
+              "value" : "8935007",
+              "label" : "Cerebral meninges structure (body structure)",
+              "localizedLabels" : {
+                "de" : ""
+              }
+            }, {
+              "value" : "3138006",
+              "label" : "Bone (tissue) structure (body structure)",
+              "localizedLabels" : {
+                "de" : ""
+              }
+            }, {
+              "value" : "309312004",
+              "label" : "Cartilage tissue (body structure)",
+              "localizedLabels" : {
+                "de" : ""
+              }
+            }, {
+              "value" : "13024002",
+              "label" : "Tendon structure (body structure)",
+              "localizedLabels" : {
+                "de" : ""
+              }
+            } ],
+            "terminology" : "SNOMED Clinical Terms"
+          } ]
+        }, {
+          "id" : "lateralität",
+          "name" : "Lateralität",
+          "localizedName" : "Lateralität",
+          "rmType" : "DV_CODED_TEXT",
+          "nodeId" : "at0002",
+          "min" : 0,
+          "max" : 1,
+          "localizedNames" : {
+            "de" : "Lateralität"
+          },
+          "localizedDescriptions" : {
+            "de" : "Die Seite des Körpers, an der sich die identifizierte Körperstelle befindet."
+          },
+          "annotations" : {
+            "comment" : "Wenn die identifizierte Körperstelle keine Seitenlage aufweist, sollte dieses Datenelement keinen Wert haben. Wenn das Datenelement \"Name der Körperstelle\" präkoordinierte Bezeichnungen verwendet, die eine Seitenlokalisation einschließt, dann ist dieses Datenelement redundant."
+          },
+          "aqlPath" : "/content[openEHR-EHR-EVALUATION.problem_diagnosis.v1,'Vorliegende Diagnose']/data[at0001]/items[openEHR-EHR-CLUSTER.anatomical_location.v1,'Körperstelle']/items[at0002]/value",
+          "inputs" : [ {
+            "suffix" : "code",
+            "type" : "CODED_TEXT",
+            "list" : [ {
+              "value" : "at0003",
+              "label" : "Links",
+              "localizedLabels" : {
+                "de" : "Links"
+              },
+              "localizedDescriptions" : {
+                "de" : "Die linke Körperseite."
+              },
+              "termBindings" : {
+                "SNOMED-CT" : {
+                  "value" : "[SNOMED-CT::7771000]",
+                  "terminologyId" : "SNOMED-CT"
+                }
+              }
+            }, {
+              "value" : "at0004",
+              "label" : "Rechts",
+              "localizedLabels" : {
+                "de" : "Rechts"
+              },
+              "localizedDescriptions" : {
+                "de" : "Die rechte Körperseite."
+              },
+              "termBindings" : {
+                "SNOMED-CT" : {
+                  "value" : "[SNOMED-CT::24028007]",
+                  "terminologyId" : "SNOMED-CT"
+                }
+              }
+            } ]
+          } ],
+          "termBindings" : {
+            "SNOMED-CT" : {
+              "value" : "[SNOMED-CT::272741003]",
+              "terminologyId" : "SNOMED-CT"
+            }
+          }
+        } ]
+      }, {
+        "id" : "ursache",
+        "name" : "Ursache",
+        "localizedName" : "Ursache",
+        "rmType" : "DV_TEXT",
+        "nodeId" : "at0078",
+        "min" : 0,
+        "max" : -1,
+        "localizedNames" : {
+          "de" : "Ursache"
+        },
+        "localizedDescriptions" : {
+          "de" : "Die Ursache, eine Reihe von Ursachen oder eine Art und Weise der Verursachung des Problems oder der Diagnose."
+        },
+        "annotations" : {
+          "comment" : "Auch bekannt als „Ätiologie“. Die Codierung mit einer externen Terminologie wird nach Möglichkeit bevorzugt."
+        },
+        "aqlPath" : "/content[openEHR-EHR-EVALUATION.problem_diagnosis.v1,'Vorliegende Diagnose']/data[at0001]/items[at0078]/value",
+        "inputs" : [ {
+          "type" : "TEXT"
+        } ]
+      }, {
+        "id" : "datum_zeitpunkt_des_auftretens_der_erstdiagnose",
+        "name" : "Datum/ Zeitpunkt des Auftretens/ der Erstdiagnose",
+        "localizedName" : "Datum/ Zeitpunkt des Auftretens/ der Erstdiagnose",
+        "rmType" : "DV_DATE_TIME",
+        "nodeId" : "at0077",
+        "min" : 0,
+        "max" : 1,
+        "localizedNames" : {
+          "de" : "Datum/ Zeitpunkt des Auftretens/ der Erstdiagnose"
+        },
+        "localizedDescriptions" : {
+          "de" : "Geschätzte oder exakte Zeit (bzw. Datum), zu der die Krankheitsanzeichen oder Symptome zum ersten mal beobachtet wurden."
+        },
+        "annotations" : {
+          "comment" : "Datumswerte, die als \"Alter zu Beginn\" erfasst/importiert werden, sollten anhand des Geburtsdatums der Person in ein Datum umgewandelt werden."
+        },
+        "aqlPath" : "/content[openEHR-EHR-EVALUATION.problem_diagnosis.v1,'Vorliegende Diagnose']/data[at0001]/items[at0077]/value",
+        "inputs" : [ {
+          "type" : "DATETIME"
+        } ]
+      }, {
+        "id" : "schweregrad",
+        "name" : "Schweregrad",
+        "localizedName" : "Schweregrad",
+        "rmType" : "DV_CODED_TEXT",
+        "nodeId" : "at0005",
+        "min" : 0,
+        "max" : 1,
+        "localizedNames" : {
+          "de" : "Schweregrad"
+        },
+        "localizedDescriptions" : {
+          "de" : "Eine Gesamtbeurteilung des Schweregrades des Problems oder der Diagnose."
+        },
+        "annotations" : {
+          "comment" : "Ist der Schweregrad über vordefinierte Codes im Element \"Name des Problems/ der Diagnose\" enthalten, wird dieses Datenelement überflüssig. Hinweis: Eine spezifischere Einstufung des Schweregrads kann mit Hilfe des SLOTs \"Spezifische Angaben\" angegeben werden."
+        },
+        "aqlPath" : "/content[openEHR-EHR-EVALUATION.problem_diagnosis.v1,'Vorliegende Diagnose']/data[at0001]/items[at0005]/value",
+        "inputs" : [ {
+          "suffix" : "code",
+          "type" : "CODED_TEXT",
+          "list" : [ {
+            "value" : "255604002",
+            "label" : "Mild (qualifier value)",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "371923003",
+            "label" : "Mild to moderate (qualifier value)",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "6736007",
+            "label" : "Moderate (severity modifier) (qualifier value)",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "371924009",
+            "label" : "Moderate to severe (qualifier value)",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "24484000",
+            "label" : "Severe (severity modifier) (qualifier value)",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "442452003",
+            "label" : "Life threatening severity (qualifier value)",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "277022003",
+            "label" : "Remission phase (qualifier value)",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "399166001",
+            "label" : "Fatal (qualifier value)",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          }, {
+            "value" : "261665006",
+            "label" : "Unknown (qualifier value)",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          } ],
+          "terminology" : "SNOMED Clinical Terms"
+        } ]
+      }, {
+        "id" : "datum_zeitpunkt_der_genesung",
+        "name" : "Datum/Zeitpunkt der Genesung",
+        "localizedName" : "Datum/Zeitpunkt der Genesung",
+        "rmType" : "DV_DATE_TIME",
+        "nodeId" : "at0030",
+        "min" : 0,
+        "max" : 1,
+        "localizedNames" : {
+          "de" : "Datum/Zeitpunkt der Genesung"
+        },
+        "localizedDescriptions" : {
+          "de" : "Geschätzte oder exakte Zeit (bzw. Datum), zu der von einer medizinischen Fachkraft die Genesung oder die Remission des Problems oder der Diagnose festgestellt wurde."
+        },
+        "annotations" : {
+          "comment" : "Unvollständige Datumsangaben sind zulässig. Wenn der Patient unter einem Jahr alt ist, dann ist das vollständige Datum oder ein Minimum von Monat und Jahr notwendig, um genaue Altersberechnungen zu ermöglichen - z.B. wenn es zur Entscheidungsunterstützung verwendet wird. Datumswerte, die als \"Alter zum Zeitpunkt der Genesung\" erfasst/importiert werden, sollten anhand des Geburtsdatums der Person in ein Datum umgewandelt werden."
+        },
+        "aqlPath" : "/content[openEHR-EHR-EVALUATION.problem_diagnosis.v1,'Vorliegende Diagnose']/data[at0001]/items[at0030]/value",
+        "inputs" : [ {
+          "type" : "DATETIME"
+        } ]
+      }, {
+        "id" : "kommentar",
+        "name" : "Kommentar",
+        "localizedName" : "Kommentar",
+        "rmType" : "DV_TEXT",
+        "nodeId" : "at0069",
+        "min" : 0,
+        "max" : 1,
+        "localizedNames" : {
+          "de" : "Kommentar"
+        },
+        "localizedDescriptions" : {
+          "de" : "Ergänzende Beschreibung des Problems oder der Diagnose, die nicht anderweitig erfasst wurde."
+        },
+        "aqlPath" : "/content[openEHR-EHR-EVALUATION.problem_diagnosis.v1,'Vorliegende Diagnose']/data[at0001]/items[at0069]/value",
+        "inputs" : [ {
+          "type" : "TEXT"
+        } ]
+      }, {
+        "id" : "language",
+        "name" : "Language",
+        "rmType" : "CODE_PHRASE",
+        "min" : 1,
+        "max" : 1,
+        "aqlPath" : "/content[openEHR-EHR-EVALUATION.problem_diagnosis.v1,'Vorliegende Diagnose']/language",
+        "inContext" : true
+      }, {
+        "id" : "encoding",
+        "name" : "Encoding",
+        "rmType" : "CODE_PHRASE",
+        "min" : 1,
+        "max" : 1,
+        "aqlPath" : "/content[openEHR-EHR-EVALUATION.problem_diagnosis.v1,'Vorliegende Diagnose']/encoding",
+        "inContext" : true
+      }, {
+        "id" : "subject",
+        "name" : "Subject",
+        "rmType" : "PARTY_PROXY",
+        "min" : 1,
+        "max" : 1,
+        "aqlPath" : "/content[openEHR-EHR-EVALUATION.problem_diagnosis.v1,'Vorliegende Diagnose']/subject",
+        "inputs" : [ {
+          "suffix" : "id",
+          "type" : "TEXT"
+        }, {
+          "suffix" : "id_scheme",
+          "type" : "TEXT"
+        }, {
+          "suffix" : "id_namespace",
+          "type" : "TEXT"
+        }, {
+          "suffix" : "name",
+          "type" : "TEXT"
+        } ],
+        "inContext" : true
+      } ]
+    }, {
+      "id" : "ausgeschlossene_diagnose",
+      "name" : "Ausgeschlossene Diagnose",
+      "localizedName" : "Ausgeschlossene Diagnose",
+      "rmType" : "EVALUATION",
+      "nodeId" : "openEHR-EHR-EVALUATION.exclusion_specific.v1",
+      "min" : 0,
+      "max" : 1,
+      "localizedNames" : {
+        "de" : "Ausgeschlossene Diagnose"
+      },
+      "localizedDescriptions" : {
+        "de" : "Ein Bericht über den Ausschluss eines/r Problems/Diagnose, familiäre Krankengeschichte, Medikation, Nebenwirkung/Allergens oder eines anderen klinischen Ereignisses, welche/s zur Zeit nicht oder noch nie vorhanden war."
+      },
+      "aqlPath" : "/content[openEHR-EHR-EVALUATION.exclusion_specific.v1,'Ausgeschlossene Diagnose']",
+      "children" : [ {
+        "id" : "aussage_über_den_ausschluss",
+        "name" : "Aussage über den Ausschluss",
+        "localizedName" : "Aussage über den Ausschluss",
+        "rmType" : "DV_CODED_TEXT",
+        "nodeId" : "at0002",
+        "min" : 1,
+        "max" : 1,
+        "localizedNames" : {
+          "de" : "Aussage über den Ausschluss"
+        },
+        "localizedDescriptions" : {
+          "de" : "Ein Bericht über den Ausschluss eines/r bestimmten Problems/Diagnose, familiäre Krankengeschichte, Medikation, Verfahren, Nebenwirkung oder eines anderen klinischen Ereignisses."
+        },
+        "annotations" : {
+          "comment" : "Diese Beschreibung muss in Verbindung mit dem Datenelement \"ausgeschlossene Kategorie\" verwendet werden. Zum Beispiel: Dieses Datenelement kann zur Erfassung einer allgemeinen Aussage, wie z.B. \"keine bekannte Vorgeschichte über...\" verwendet werden. Die \"ausgeschlossene Kategorie\" spezifiziert die Aussage, in dem eine Zuordnung zu z.B. Diagnose oder Medikation vorgenommen werden kann. Wird bereits die \"ausgeschlossene Kategorie\" dafür genutzt, durch eine präkoordinierte Bezeichnung das Vorliegen von Diabetes in der familiären Krankengeschichte auszuschließen, ist der Eintrag in diesem Datenelement redundant. \r\n"
+        },
+        "aqlPath" : "/content[openEHR-EHR-EVALUATION.exclusion_specific.v1,'Ausgeschlossene Diagnose']/data[at0001]/items[at0002]/value",
+        "inputs" : [ {
+          "suffix" : "code",
+          "type" : "CODED_TEXT",
+          "list" : [ {
+            "value" : "410594000",
+            "label" : "Known absent (qualifier value)",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          } ],
+          "terminology" : "SNOMED Clinical Terms"
+        } ]
+      }, {
+        "id" : "problem_diagnose",
+        "name" : "Problem/Diagnose",
+        "localizedName" : "Problem/Diagnose",
+        "rmType" : "DV_TEXT",
+        "nodeId" : "at0003",
+        "min" : 1,
+        "max" : 1,
+        "localizedNames" : {
+          "de" : "Problem/Diagnose"
+        },
+        "localizedDescriptions" : {
+          "de" : "Das Problem oder die Diagnose, auf die sich die Ausschlussaussage bezieht. Zum Beispiel: \"Diabetes\", \"COPD\" oder \"Asthma\"."
+        },
+        "annotations" : {
+          "comment" : "Dieses Item kann unterschiedlich genutzt werden. Zum Beispiel: \"Familiäre Vorgeschichte Diabetes\":\r\n\r\n(1) Einschränkung des Namens der \"ausgeschlossenen Kategorie\" zur Laufzeit über einen \"Name constraint\" (in diesem Fall \"familiäre Probleme/Diagnosen\") und Speicherung von \"Diabetes\" als Wert dieses Datenelements. \r\noder\r\n(2) Belegung des Wertes mit Hilfe von präkoordinierten Benennungen, z.B. \"keine familiäre Diabetes-Vorgeschichte\".\r\n\r\nDie Kodierung des Datenelements \"ausgeschlossene Kategorie\", z.B. durch präkoordinierte Benennungen oder Terminologien, ist wünschenswert.\r\n\r\nWird das Datenelement wie in Beispiel (2) kodiert, ist eine weitere Spezifikation im Feld \"Aussage über den Ausschluss\" nicht notwendig."
+        },
+        "aqlPath" : "/content[openEHR-EHR-EVALUATION.exclusion_specific.v1,'Ausgeschlossene Diagnose']/data[at0001]/items[at0003,'Problem/Diagnose']/value",
+        "inputs" : [ {
+          "type" : "TEXT",
+          "list" : [ {
+            "value" : "SNOMED Clinical Terms::195967001::Asthma (disorder)",
+            "label" : "SNOMED Clinical Terms::195967001::Asthma (disorder)"
+          }, {
+            "value" : "SNOMED Clinical Terms::13645005::Chronic obstructive lung disease (disorder)",
+            "label" : "SNOMED Clinical Terms::13645005::Chronic obstructive lung disease (disorder)"
+          }, {
+            "value" : "SNOMED Clinical Terms::51615001::Fibrosis of lung (disorder) Lungenfibrose",
+            "label" : "SNOMED Clinical Terms::51615001::Fibrosis of lung (disorder) Lungenfibrose"
+          }, {
+            "value" : "SNOMED Clinical Terms::70995007::Pulmonary hypertension (disorder)",
+            "label" : "SNOMED Clinical Terms::70995007::Pulmonary hypertension (disorder)"
+          }, {
+            "value" : "SNOMED Clinical Terms::190966007::Extreme obesity with alveolar hypoventilation (disorder)",
+            "label" : "SNOMED Clinical Terms::190966007::Extreme obesity with alveolar hypoventilation (disorder)"
+          }, {
+            "value" : "SNOMED Clinical Terms::73430006::Sleep apnea (disorder)",
+            "label" : "SNOMED Clinical Terms::73430006::Sleep apnea (disorder)"
+          }, {
+            "value" : "SNOMED Clinical Terms::78275009::Obstructive sleep apnea syndrome (disorder)",
+            "label" : "SNOMED Clinical Terms::78275009::Obstructive sleep apnea syndrome (disorder)"
+          }, {
+            "value" : "SNOMED Clinical Terms::190905008::Cystic fibrosis (disorder) Cystische Fibrose",
+            "label" : "SNOMED Clinical Terms::190905008::Cystic fibrosis (disorder) Cystische Fibrose"
+          }, {
+            "value" : "SNOMED Clinical Terms::38341003::Hypertensive disorder, systemic arterial (disorder)",
+            "label" : "SNOMED Clinical Terms::38341003::Hypertensive disorder, systemic arterial (disorder)"
+          }, {
+            "value" : "SNOMED Clinical Terms::417662000:246090004=22298006::|History of clinical finding in subject (situation)|:|Associated finding (attribute)|=|Myocardial infarction (disorder)| Zustand nach Herzinfarkt",
+            "label" : "SNOMED Clinical Terms::417662000:246090004=22298006::|History of clinical finding in subject (situation)|:|Associated finding (attribute)|=|Myocardial infarction (disorder)| Zustand nach Herzinfarkt"
+          }, {
+            "value" : "SNOMED Clinical Terms::698247007::Cardiac arrhythmia (disorder) Herzrhythmusstörungen",
+            "label" : "SNOMED Clinical Terms::698247007::Cardiac arrhythmia (disorder) Herzrhythmusstörungen"
+          }, {
+            "value" : "SNOMED Clinical Terms::84114007::Heart failure (disorder) Herzinsuffizienz",
+            "label" : "SNOMED Clinical Terms::84114007::Heart failure (disorder) Herzinsuffizienz"
+          }, {
+            "value" : "SNOMED Clinical Terms::399957001::Peripheral arterial occlusive disease (disorder)",
+            "label" : "SNOMED Clinical Terms::399957001::Peripheral arterial occlusive disease (disorder)"
+          }, {
+            "value" : "SNOMED Clinical Terms::416940007:363589002=81266008::|Past history of procedure (situation)|:|Associated procedure (attribute)|=|Heart revascularization (procedure)|",
+            "label" : "SNOMED Clinical Terms::416940007:363589002=81266008::|Past history of procedure (situation)|:|Associated procedure (attribute)|=|Heart revascularization (procedure)|"
+          }, {
+            "value" : "SNOMED Clinical Terms::53741008::Coronary arteriosclerosis (disorder)",
+            "label" : "SNOMED Clinical Terms::53741008::Coronary arteriosclerosis (disorder)"
+          }, {
+            "value" : "SNOMED Clinical Terms::64586002::Carotid artery stenosis (disorder)",
+            "label" : "SNOMED Clinical Terms::64586002::Carotid artery stenosis (disorder)"
+          }, {
+            "value" : "SNOMED Clinical Terms::197321007::Steatosis of liver (disorder)",
+            "label" : "SNOMED Clinical Terms::197321007::Steatosis of liver (disorder)"
+          }, {
+            "value" : "SNOMED Clinical Terms::19943007::Cirrhosis of liver (disorder)",
+            "label" : "SNOMED Clinical Terms::19943007::Cirrhosis of liver (disorder)"
+          }, {
+            "value" : "SNOMED Clinical Terms::10295004::Chronic viral hepatitis (disorder)",
+            "label" : "SNOMED Clinical Terms::10295004::Chronic viral hepatitis (disorder)"
+          }, {
+            "value" : "SNOMED Clinical Terms::235890007::Autoimmune liver disease (disorder)",
+            "label" : "SNOMED Clinical Terms::235890007::Autoimmune liver disease (disorder)"
+          }, {
+            "value" : "SNOMED Clinical Terms::24526004::Inflammatory bowel disease (disorder)",
+            "label" : "SNOMED Clinical Terms::24526004::Inflammatory bowel disease (disorder)"
+          }, {
+            "value" : "SNOMED Clinical Terms::69896004::Rheumatoid arthritis (disorder)",
+            "label" : "SNOMED Clinical Terms::69896004::Rheumatoid arthritis (disorder)"
+          }, {
+            "value" : "SNOMED Clinical Terms::105969002::Disorder of connective tissue (disorder",
+            "label" : "SNOMED Clinical Terms::105969002::Disorder of connective tissue (disorder"
+          }, {
+            "value" : "SNOMED Clinical Terms::31996006::Vasculitis (disorder)",
+            "label" : "SNOMED Clinical Terms::31996006::Vasculitis (disorder)"
+          }, {
+            "value" : "SNOMED Clinical Terms::36138009::Congenital immunodeficiency disease (disorder)",
+            "label" : "SNOMED Clinical Terms::36138009::Congenital immunodeficiency disease (disorder)"
+          }, {
+            "value" : "SNOMED Clinical Terms::302509004::Entire heart (body structure)",
+            "label" : "SNOMED Clinical Terms::302509004::Entire heart (body structure)"
+          }, {
+            "value" : "SNOMED Clinical Terms::181216001::Entire lung (body structure)",
+            "label" : "SNOMED Clinical Terms::181216001::Entire lung (body structure)"
+          }, {
+            "value" : "SNOMED Clinical Terms::181268008::Entire liver (body structure)",
+            "label" : "SNOMED Clinical Terms::181268008::Entire liver (body structure)"
+          }, {
+            "value" : "SNOMED Clinical Terms::181414000::Entire kidney (body structure)",
+            "label" : "SNOMED Clinical Terms::181414000::Entire kidney (body structure)"
+          }, {
+            "value" : "SNOMED Clinical Terms::181277001::Entire pancreas (body structure)",
+            "label" : "SNOMED Clinical Terms::181277001::Entire pancreas (body structure)"
+          }, {
+            "value" : "SNOMED Clinical Terms::113276009::Intestinal structure (body structure)",
+            "label" : "SNOMED Clinical Terms::113276009::Intestinal structure (body structure)"
+          }, {
+            "value" : "SNOMED Clinical Terms::181250005::Entire small intestine (body structure)",
+            "label" : "SNOMED Clinical Terms::181250005::Entire small intestine (body structure)"
+          }, {
+            "value" : "SNOMED Clinical Terms::181254001::Entire large intestine (body structure)",
+            "label" : "SNOMED Clinical Terms::181254001::Entire large intestine (body structure)"
+          }, {
+            "value" : "SNOMED Clinical Terms::119181002::Skin part (body structure)",
+            "label" : "SNOMED Clinical Terms::119181002::Skin part (body structure)"
+          }, {
+            "value" : "SNOMED Clinical Terms::181162001::Entire cornea (body structure)",
+            "label" : "SNOMED Clinical Terms::181162001::Entire cornea (body structure)"
+          }, {
+            "value" : "SNOMED Clinical Terms::41845008::Ear ossicle structure (body structure)",
+            "label" : "SNOMED Clinical Terms::41845008::Ear ossicle structure (body structure)"
+          }, {
+            "value" : "SNOMED Clinical Terms::181285005::Entire heart valve (body structure)",
+            "label" : "SNOMED Clinical Terms::181285005::Entire heart valve (body structure)"
+          }, {
+            "value" : "SNOMED Clinical Terms::119206002::Blood vessel part (body structure)",
+            "label" : "SNOMED Clinical Terms::119206002::Blood vessel part (body structure)"
+          }, {
+            "value" : "SNOMED Clinical Terms::8935007::Cerebral meninges structure (body structure)",
+            "label" : "SNOMED Clinical Terms::8935007::Cerebral meninges structure (body structure)"
+          }, {
+            "value" : "SNOMED Clinical Terms::3138006::Bone (tissue) structure (body structure)",
+            "label" : "SNOMED Clinical Terms::3138006::Bone (tissue) structure (body structure)"
+          }, {
+            "value" : "SNOMED Clinical Terms::309312004::Cartilage tissue (body structure)",
+            "label" : "SNOMED Clinical Terms::309312004::Cartilage tissue (body structure)"
+          }, {
+            "value" : "SNOMED Clinical Terms::13024002::Tendon structure (body structure)",
+            "label" : "SNOMED Clinical Terms::13024002::Tendon structure (body structure)"
+          }, {
+            "value" : "SNOMED Clinical Terms::46635009::Diabetes mellitus type 1 (disorder)",
+            "label" : "SNOMED Clinical Terms::46635009::Diabetes mellitus type 1 (disorder)"
+          }, {
+            "value" : "SNOMED Clinical Terms::44054006::Diabetes mellitus type 2 (disorder)",
+            "label" : "SNOMED Clinical Terms::44054006::Diabetes mellitus type 2 (disorder)"
+          }, {
+            "value" : "SNOMED Clinical Terms::237599002::Insulin treated type 2 diabetes mellitus (disorder)",
+            "label" : "SNOMED Clinical Terms::237599002::Insulin treated type 2 diabetes mellitus (disorder)"
+          }, {
+            "value" : "SNOMED Clinical Terms::8801005::Secondary diabetes mellitus (disorder)",
+            "label" : "SNOMED Clinical Terms::8801005::Secondary diabetes mellitus (disorder)"
+          }, {
+            "value" : "SNOMED Clinical Terms::128283000::Chronic nervous system disorder (disorder)",
+            "label" : "SNOMED Clinical Terms::128283000::Chronic nervous system disorder (disorder)"
+          }, {
+            "value" : "SNOMED Clinical Terms::74732009::Mental disorder (disorder)",
+            "label" : "SNOMED Clinical Terms::74732009::Mental disorder (disorder)"
+          }, {
+            "value" : "SNOMED Clinical Terms::197480006::Anxiety disorder (disorder)",
+            "label" : "SNOMED Clinical Terms::197480006::Anxiety disorder (disorder)"
+          }, {
+            "value" : "SNOMED Clinical Terms::35489007::Depressive disorder (disorder)",
+            "label" : "SNOMED Clinical Terms::35489007::Depressive disorder (disorder)"
+          }, {
+            "value" : "SNOMED Clinical Terms::69322001::Psychotic disorder (disorder)",
+            "label" : "SNOMED Clinical Terms::69322001::Psychotic disorder (disorder)"
+          }, {
+            "value" : "SNOMED Clinical Terms::49049000::Parkinson's disease (disorder)",
+            "label" : "SNOMED Clinical Terms::49049000::Parkinson's disease (disorder)"
+          }, {
+            "value" : "SNOMED Clinical Terms::52448006::Dementia (disorder)",
+            "label" : "SNOMED Clinical Terms::52448006::Dementia (disorder)"
+          }, {
+            "value" : "SNOMED Clinical Terms::24700007::Multiple sclerosis (disorder)",
+            "label" : "SNOMED Clinical Terms::24700007::Multiple sclerosis (disorder)"
+          }, {
+            "value" : "SNOMED Clinical Terms::257277002::Combined disorder of muscle AND peripheral nerve (disorder)",
+            "label" : "SNOMED Clinical Terms::257277002::Combined disorder of muscle AND peripheral nerve (disorder)"
+          }, {
+            "value" : "SNOMED Clinical Terms::84757009::Epilepsy (disorder)",
+            "label" : "SNOMED Clinical Terms::84757009::Epilepsy (disorder)"
+          }, {
+            "value" : "SNOMED Clinical Terms::37796009::Migraine (disorder)",
+            "label" : "SNOMED Clinical Terms::37796009::Migraine (disorder)"
+          }, {
+            "value" : "SNOMED Clinical Terms::440140008::History of cerebrovascular accident with residual deficit (situation)",
+            "label" : "SNOMED Clinical Terms::440140008::History of cerebrovascular accident with residual deficit (situation)"
+          }, {
+            "value" : "SNOMED Clinical Terms::429993008::History of cerebrovascular accident without residual deficits (situation",
+            "label" : "SNOMED Clinical Terms::429993008::History of cerebrovascular accident without residual deficits (situation"
+          }, {
+            "value" : "SNOMED Clinical Terms::714152005::Chronic kidney disease stage 5 on dialysis (disorder)",
+            "label" : "SNOMED Clinical Terms::714152005::Chronic kidney disease stage 5 on dialysis (disorder)"
+          }, {
+            "value" : "SNOMED Clinical Terms::431855005::Chronic kidney disease stage 1 (disorder)",
+            "label" : "SNOMED Clinical Terms::431855005::Chronic kidney disease stage 1 (disorder)"
+          }, {
+            "value" : "SNOMED Clinical Terms::431856006::Chronic kidney disease stage 2 (disorder)",
+            "label" : "SNOMED Clinical Terms::431856006::Chronic kidney disease stage 2 (disorder)"
+          }, {
+            "value" : "SNOMED Clinical Terms::433144002::Chronic kidney disease stage 3 (disorder)",
+            "label" : "SNOMED Clinical Terms::433144002::Chronic kidney disease stage 3 (disorder)"
+          }, {
+            "value" : "SNOMED Clinical Terms::431857002::Chronic kidney disease stage 4 (disorder)",
+            "label" : "SNOMED Clinical Terms::431857002::Chronic kidney disease stage 4 (disorder)"
+          }, {
+            "value" : "SNOMED Clinical Terms::433146000::Chronic kidney disease stage 5 (disorder)",
+            "label" : "SNOMED Clinical Terms::433146000::Chronic kidney disease stage 5 (disorder)"
+          }, {
+            "value" : "SNOMED Clinical Terms::709044004::Chronic kidney disease (disorder)",
+            "label" : "SNOMED Clinical Terms::709044004::Chronic kidney disease (disorder)"
+          }, {
+            "value" : "SNOMED Clinical Terms::86406008::Human immunodeficiency virus infection",
+            "label" : "SNOMED Clinical Terms::86406008::Human immunodeficiency virus infection"
+          }, {
+            "value" : "SNOMED Clinical Terms::363346000::Malignant neoplastic disease",
+            "label" : "SNOMED Clinical Terms::363346000::Malignant neoplastic disease"
+          }, {
+            "value" : "SNOMED Clinical Terms::40845000::Gastrointestinal ulcer",
+            "label" : "SNOMED Clinical Terms::40845000::Gastrointestinal ulcer"
+          } ],
+          "listOpen" : false
+        } ]
+      }, {
+        "id" : "language",
+        "name" : "Language",
+        "rmType" : "CODE_PHRASE",
+        "min" : 1,
+        "max" : 1,
+        "aqlPath" : "/content[openEHR-EHR-EVALUATION.exclusion_specific.v1,'Ausgeschlossene Diagnose']/language",
+        "inContext" : true
+      }, {
+        "id" : "encoding",
+        "name" : "Encoding",
+        "rmType" : "CODE_PHRASE",
+        "min" : 1,
+        "max" : 1,
+        "aqlPath" : "/content[openEHR-EHR-EVALUATION.exclusion_specific.v1,'Ausgeschlossene Diagnose']/encoding",
+        "inContext" : true
+      }, {
+        "id" : "subject",
+        "name" : "Subject",
+        "rmType" : "PARTY_PROXY",
+        "min" : 1,
+        "max" : 1,
+        "aqlPath" : "/content[openEHR-EHR-EVALUATION.exclusion_specific.v1,'Ausgeschlossene Diagnose']/subject",
+        "inputs" : [ {
+          "suffix" : "id",
+          "type" : "TEXT"
+        }, {
+          "suffix" : "id_scheme",
+          "type" : "TEXT"
+        }, {
+          "suffix" : "id_namespace",
+          "type" : "TEXT"
+        }, {
+          "suffix" : "name",
+          "type" : "TEXT"
+        } ],
+        "inContext" : true
+      } ]
+    }, {
+      "id" : "unbekannte_diagnose",
+      "name" : "Unbekannte Diagnose",
+      "localizedName" : "Unbekannte Diagnose",
+      "rmType" : "EVALUATION",
+      "nodeId" : "openEHR-EHR-EVALUATION.absence.v2",
+      "min" : 0,
+      "max" : 1,
+      "localizedNames" : {
+        "de" : "Unbekannte Diagnose"
+      },
+      "localizedDescriptions" : {
+        "de" : "Aussage darüber, dass bestimmte Gesundheitsinformationen zum Zeitpukt der Erfassung nicht in der Krankenakte oder einem Schriftstück erfasst werden können, da keine Kenntnisse darüber vorhanden sind."
+      },
+      "aqlPath" : "/content[openEHR-EHR-EVALUATION.absence.v2,'Unbekannte Diagnose']",
+      "children" : [ {
+        "id" : "unbekannte_diagnose",
+        "name" : "Unbekannte Diagnose",
+        "localizedName" : "Unbekannte Diagnose",
+        "rmType" : "DV_TEXT",
+        "nodeId" : "at0002",
+        "min" : 1,
+        "max" : 1,
+        "localizedNames" : {
+          "de" : "Unbekannte Diagnose"
+        },
+        "localizedDescriptions" : {
+          "de" : "Positive Aussage, dass keine Informationen verfügbar sind."
+        },
+        "annotations" : {
+          "comment" : "Zum Beispiel: \"Es liegen keine Informationen über Nebenwirkungen vor\"; \"Es liegen keine Informationen über Probleme oder Diagnosen vor\"; \"Es liegen keine Informationen über vorangegangene Verfahren vor\"; oder \"Es liegen keine Informationen über verwendete Medikamente vor\"."
+        },
+        "aqlPath" : "/content[openEHR-EHR-EVALUATION.absence.v2,'Unbekannte Diagnose']/data[at0001]/items[at0002,'Unbekannte Diagnose']/value",
+        "inputs" : [ {
+          "type" : "TEXT",
+          "list" : [ {
+            "value" : "SNOMED Clinical Terms::195967001::Asthma (disorder)",
+            "label" : "SNOMED Clinical Terms::195967001::Asthma (disorder)"
+          }, {
+            "value" : "SNOMED Clinical Terms::13645005::Chronic obstructive lung disease (disorder)",
+            "label" : "SNOMED Clinical Terms::13645005::Chronic obstructive lung disease (disorder)"
+          }, {
+            "value" : "SNOMED Clinical Terms::51615001::Fibrosis of lung (disorder) Lungenfibrose",
+            "label" : "SNOMED Clinical Terms::51615001::Fibrosis of lung (disorder) Lungenfibrose"
+          }, {
+            "value" : "SNOMED Clinical Terms::70995007::Pulmonary hypertension (disorder)",
+            "label" : "SNOMED Clinical Terms::70995007::Pulmonary hypertension (disorder)"
+          }, {
+            "value" : "SNOMED Clinical Terms::190966007::Extreme obesity with alveolar hypoventilation (disorder)",
+            "label" : "SNOMED Clinical Terms::190966007::Extreme obesity with alveolar hypoventilation (disorder)"
+          }, {
+            "value" : "SNOMED Clinical Terms::73430006::Sleep apnea (disorder)",
+            "label" : "SNOMED Clinical Terms::73430006::Sleep apnea (disorder)"
+          }, {
+            "value" : "SNOMED Clinical Terms::78275009::Obstructive sleep apnea syndrome (disorder)",
+            "label" : "SNOMED Clinical Terms::78275009::Obstructive sleep apnea syndrome (disorder)"
+          }, {
+            "value" : "SNOMED Clinical Terms::190905008::Cystic fibrosis (disorder) Cystische Fibrose",
+            "label" : "SNOMED Clinical Terms::190905008::Cystic fibrosis (disorder) Cystische Fibrose"
+          }, {
+            "value" : "SNOMED Clinical Terms::38341003::Hypertensive disorder, systemic arterial (disorder)",
+            "label" : "SNOMED Clinical Terms::38341003::Hypertensive disorder, systemic arterial (disorder)"
+          }, {
+            "value" : "SNOMED Clinical Terms::417662000:246090004=22298006::|History of clinical finding in subject (situation)|:|Associated finding (attribute)|=|Myocardial infarction (disorder)| Zustand nach Herzinfarkt",
+            "label" : "SNOMED Clinical Terms::417662000:246090004=22298006::|History of clinical finding in subject (situation)|:|Associated finding (attribute)|=|Myocardial infarction (disorder)| Zustand nach Herzinfarkt"
+          }, {
+            "value" : "SNOMED Clinical Terms::698247007::Cardiac arrhythmia (disorder) Herzrhythmusstörungen",
+            "label" : "SNOMED Clinical Terms::698247007::Cardiac arrhythmia (disorder) Herzrhythmusstörungen"
+          }, {
+            "value" : "SNOMED Clinical Terms::84114007::Heart failure (disorder) Herzinsuffizienz",
+            "label" : "SNOMED Clinical Terms::84114007::Heart failure (disorder) Herzinsuffizienz"
+          }, {
+            "value" : "SNOMED Clinical Terms::399957001::Peripheral arterial occlusive disease (disorder)",
+            "label" : "SNOMED Clinical Terms::399957001::Peripheral arterial occlusive disease (disorder)"
+          }, {
+            "value" : "SNOMED Clinical Terms::416940007:363589002=81266008::|Past history of procedure (situation)|:|Associated procedure (attribute)|=|Heart revascularization (procedure)|",
+            "label" : "SNOMED Clinical Terms::416940007:363589002=81266008::|Past history of procedure (situation)|:|Associated procedure (attribute)|=|Heart revascularization (procedure)|"
+          }, {
+            "value" : "SNOMED Clinical Terms::53741008::Coronary arteriosclerosis (disorder)",
+            "label" : "SNOMED Clinical Terms::53741008::Coronary arteriosclerosis (disorder)"
+          }, {
+            "value" : "SNOMED Clinical Terms::64586002::Carotid artery stenosis (disorder)",
+            "label" : "SNOMED Clinical Terms::64586002::Carotid artery stenosis (disorder)"
+          }, {
+            "value" : "SNOMED Clinical Terms::197321007::Steatosis of liver (disorder)",
+            "label" : "SNOMED Clinical Terms::197321007::Steatosis of liver (disorder)"
+          }, {
+            "value" : "SNOMED Clinical Terms::19943007::Cirrhosis of liver (disorder)",
+            "label" : "SNOMED Clinical Terms::19943007::Cirrhosis of liver (disorder)"
+          }, {
+            "value" : "SNOMED Clinical Terms::10295004::Chronic viral hepatitis (disorder)",
+            "label" : "SNOMED Clinical Terms::10295004::Chronic viral hepatitis (disorder)"
+          }, {
+            "value" : "SNOMED Clinical Terms::235890007::Autoimmune liver disease (disorder)",
+            "label" : "SNOMED Clinical Terms::235890007::Autoimmune liver disease (disorder)"
+          }, {
+            "value" : "SNOMED Clinical Terms::24526004::Inflammatory bowel disease (disorder)",
+            "label" : "SNOMED Clinical Terms::24526004::Inflammatory bowel disease (disorder)"
+          }, {
+            "value" : "SNOMED Clinical Terms::69896004::Rheumatoid arthritis (disorder)",
+            "label" : "SNOMED Clinical Terms::69896004::Rheumatoid arthritis (disorder)"
+          }, {
+            "value" : "SNOMED Clinical Terms::105969002::Disorder of connective tissue (disorder",
+            "label" : "SNOMED Clinical Terms::105969002::Disorder of connective tissue (disorder"
+          }, {
+            "value" : "SNOMED Clinical Terms::31996006::Vasculitis (disorder)",
+            "label" : "SNOMED Clinical Terms::31996006::Vasculitis (disorder)"
+          }, {
+            "value" : "SNOMED Clinical Terms::36138009::Congenital immunodeficiency disease (disorder)",
+            "label" : "SNOMED Clinical Terms::36138009::Congenital immunodeficiency disease (disorder)"
+          }, {
+            "value" : "SNOMED Clinical Terms::302509004::Entire heart (body structure)",
+            "label" : "SNOMED Clinical Terms::302509004::Entire heart (body structure)"
+          }, {
+            "value" : "SNOMED Clinical Terms::181216001::Entire lung (body structure)",
+            "label" : "SNOMED Clinical Terms::181216001::Entire lung (body structure)"
+          }, {
+            "value" : "SNOMED Clinical Terms::181268008::Entire liver (body structure)",
+            "label" : "SNOMED Clinical Terms::181268008::Entire liver (body structure)"
+          }, {
+            "value" : "SNOMED Clinical Terms::181414000::Entire kidney (body structure)",
+            "label" : "SNOMED Clinical Terms::181414000::Entire kidney (body structure)"
+          }, {
+            "value" : "SNOMED Clinical Terms::181277001::Entire pancreas (body structure)",
+            "label" : "SNOMED Clinical Terms::181277001::Entire pancreas (body structure)"
+          }, {
+            "value" : "SNOMED Clinical Terms::113276009::Intestinal structure (body structure)",
+            "label" : "SNOMED Clinical Terms::113276009::Intestinal structure (body structure)"
+          }, {
+            "value" : "SNOMED Clinical Terms::181250005::Entire small intestine (body structure)",
+            "label" : "SNOMED Clinical Terms::181250005::Entire small intestine (body structure)"
+          }, {
+            "value" : "SNOMED Clinical Terms::181254001::Entire large intestine (body structure)",
+            "label" : "SNOMED Clinical Terms::181254001::Entire large intestine (body structure)"
+          }, {
+            "value" : "SNOMED Clinical Terms::119181002::Skin part (body structure)",
+            "label" : "SNOMED Clinical Terms::119181002::Skin part (body structure)"
+          }, {
+            "value" : "SNOMED Clinical Terms::181162001::Entire cornea (body structure)",
+            "label" : "SNOMED Clinical Terms::181162001::Entire cornea (body structure)"
+          }, {
+            "value" : "SNOMED Clinical Terms::41845008::Ear ossicle structure (body structure)",
+            "label" : "SNOMED Clinical Terms::41845008::Ear ossicle structure (body structure)"
+          }, {
+            "value" : "SNOMED Clinical Terms::181285005::Entire heart valve (body structure)",
+            "label" : "SNOMED Clinical Terms::181285005::Entire heart valve (body structure)"
+          }, {
+            "value" : "SNOMED Clinical Terms::119206002::Blood vessel part (body structure)",
+            "label" : "SNOMED Clinical Terms::119206002::Blood vessel part (body structure)"
+          }, {
+            "value" : "SNOMED Clinical Terms::8935007::Cerebral meninges structure (body structure)",
+            "label" : "SNOMED Clinical Terms::8935007::Cerebral meninges structure (body structure)"
+          }, {
+            "value" : "SNOMED Clinical Terms::3138006::Bone (tissue) structure (body structure)",
+            "label" : "SNOMED Clinical Terms::3138006::Bone (tissue) structure (body structure)"
+          }, {
+            "value" : "SNOMED Clinical Terms::309312004::Cartilage tissue (body structure)",
+            "label" : "SNOMED Clinical Terms::309312004::Cartilage tissue (body structure)"
+          }, {
+            "value" : "SNOMED Clinical Terms::13024002::Tendon structure (body structure)",
+            "label" : "SNOMED Clinical Terms::13024002::Tendon structure (body structure)"
+          }, {
+            "value" : "SNOMED Clinical Terms::46635009::Diabetes mellitus type 1 (disorder)",
+            "label" : "SNOMED Clinical Terms::46635009::Diabetes mellitus type 1 (disorder)"
+          }, {
+            "value" : "SNOMED Clinical Terms::44054006::Diabetes mellitus type 2 (disorder)",
+            "label" : "SNOMED Clinical Terms::44054006::Diabetes mellitus type 2 (disorder)"
+          }, {
+            "value" : "SNOMED Clinical Terms::237599002::Insulin treated type 2 diabetes mellitus (disorder)",
+            "label" : "SNOMED Clinical Terms::237599002::Insulin treated type 2 diabetes mellitus (disorder)"
+          }, {
+            "value" : "SNOMED Clinical Terms::8801005::Secondary diabetes mellitus (disorder)",
+            "label" : "SNOMED Clinical Terms::8801005::Secondary diabetes mellitus (disorder)"
+          }, {
+            "value" : "SNOMED Clinical Terms::128283000::Chronic nervous system disorder (disorder)",
+            "label" : "SNOMED Clinical Terms::128283000::Chronic nervous system disorder (disorder)"
+          }, {
+            "value" : "SNOMED Clinical Terms::74732009::Mental disorder (disorder)",
+            "label" : "SNOMED Clinical Terms::74732009::Mental disorder (disorder)"
+          }, {
+            "value" : "SNOMED Clinical Terms::197480006::Anxiety disorder (disorder)",
+            "label" : "SNOMED Clinical Terms::197480006::Anxiety disorder (disorder)"
+          }, {
+            "value" : "SNOMED Clinical Terms::35489007::Depressive disorder (disorder)",
+            "label" : "SNOMED Clinical Terms::35489007::Depressive disorder (disorder)"
+          }, {
+            "value" : "SNOMED Clinical Terms::69322001::Psychotic disorder (disorder)",
+            "label" : "SNOMED Clinical Terms::69322001::Psychotic disorder (disorder)"
+          }, {
+            "value" : "SNOMED Clinical Terms::49049000::Parkinson's disease (disorder)",
+            "label" : "SNOMED Clinical Terms::49049000::Parkinson's disease (disorder)"
+          }, {
+            "value" : "SNOMED Clinical Terms::52448006::Dementia (disorder)",
+            "label" : "SNOMED Clinical Terms::52448006::Dementia (disorder)"
+          }, {
+            "value" : "SNOMED Clinical Terms::24700007::Multiple sclerosis (disorder)",
+            "label" : "SNOMED Clinical Terms::24700007::Multiple sclerosis (disorder)"
+          }, {
+            "value" : "SNOMED Clinical Terms::257277002::Combined disorder of muscle AND peripheral nerve (disorder)",
+            "label" : "SNOMED Clinical Terms::257277002::Combined disorder of muscle AND peripheral nerve (disorder)"
+          }, {
+            "value" : "SNOMED Clinical Terms::84757009::Epilepsy (disorder)",
+            "label" : "SNOMED Clinical Terms::84757009::Epilepsy (disorder)"
+          }, {
+            "value" : "SNOMED Clinical Terms::37796009::Migraine (disorder)",
+            "label" : "SNOMED Clinical Terms::37796009::Migraine (disorder)"
+          }, {
+            "value" : "SNOMED Clinical Terms::440140008::History of cerebrovascular accident with residual deficit (situation)",
+            "label" : "SNOMED Clinical Terms::440140008::History of cerebrovascular accident with residual deficit (situation)"
+          }, {
+            "value" : "SNOMED Clinical Terms::429993008::History of cerebrovascular accident without residual deficits (situation",
+            "label" : "SNOMED Clinical Terms::429993008::History of cerebrovascular accident without residual deficits (situation"
+          }, {
+            "value" : "SNOMED Clinical Terms::714152005::Chronic kidney disease stage 5 on dialysis (disorder)",
+            "label" : "SNOMED Clinical Terms::714152005::Chronic kidney disease stage 5 on dialysis (disorder)"
+          }, {
+            "value" : "SNOMED Clinical Terms::431855005::Chronic kidney disease stage 1 (disorder)",
+            "label" : "SNOMED Clinical Terms::431855005::Chronic kidney disease stage 1 (disorder)"
+          }, {
+            "value" : "SNOMED Clinical Terms::431856006::Chronic kidney disease stage 2 (disorder)",
+            "label" : "SNOMED Clinical Terms::431856006::Chronic kidney disease stage 2 (disorder)"
+          }, {
+            "value" : "SNOMED Clinical Terms::433144002::Chronic kidney disease stage 3 (disorder)",
+            "label" : "SNOMED Clinical Terms::433144002::Chronic kidney disease stage 3 (disorder)"
+          }, {
+            "value" : "SNOMED Clinical Terms::431857002::Chronic kidney disease stage 4 (disorder)",
+            "label" : "SNOMED Clinical Terms::431857002::Chronic kidney disease stage 4 (disorder)"
+          }, {
+            "value" : "SNOMED Clinical Terms::433146000::Chronic kidney disease stage 5 (disorder)",
+            "label" : "SNOMED Clinical Terms::433146000::Chronic kidney disease stage 5 (disorder)"
+          }, {
+            "value" : "SNOMED Clinical Terms::709044004::Chronic kidney disease (disorder)",
+            "label" : "SNOMED Clinical Terms::709044004::Chronic kidney disease (disorder)"
+          }, {
+            "value" : "SNOMED Clinical Terms::86406008::Human immunodeficiency virus infection",
+            "label" : "SNOMED Clinical Terms::86406008::Human immunodeficiency virus infection"
+          }, {
+            "value" : "SNOMED Clinical Terms::363346000::Malignant neoplastic disease",
+            "label" : "SNOMED Clinical Terms::363346000::Malignant neoplastic disease"
+          }, {
+            "value" : "SNOMED Clinical Terms::40845000::Gastrointestinal ulcer",
+            "label" : "SNOMED Clinical Terms::40845000::Gastrointestinal ulcer"
+          } ],
+          "listOpen" : false
+        } ]
+      }, {
+        "id" : "aussage_über_die_fehlende_information",
+        "name" : "Aussage über die fehlende Information",
+        "localizedName" : "Aussage über die fehlende Information",
+        "rmType" : "DV_CODED_TEXT",
+        "nodeId" : "at0005",
+        "min" : 1,
+        "max" : 1,
+        "localizedNames" : {
+          "de" : "Aussage über die fehlende Information"
+        },
+        "localizedDescriptions" : {
+          "de" : "Beschreibung des Grundes, warum keine Informationen vorhanden sind."
+        },
+        "annotations" : {
+          "comment" : "Zum Beispiel: Der Patient ist bewusstlos oder weigert sich Informationen preiszugeben. Die Codierung mit einer Terminologie wird empfohlen, wenn möglich."
+        },
+        "aqlPath" : "/content[openEHR-EHR-EVALUATION.absence.v2,'Unbekannte Diagnose']/data[at0001]/items[at0005,'Aussage über die fehlende Information']/value",
+        "inputs" : [ {
+          "suffix" : "code",
+          "type" : "CODED_TEXT",
+          "list" : [ {
+            "value" : "Unknown (qualifier value)",
+            "label" : "Unknown (qualifier value)",
+            "localizedLabels" : {
+              "de" : ""
+            }
+          } ],
+          "terminology" : "SNOMED Clinical Terms"
+        } ]
+      }, {
+        "id" : "language",
+        "name" : "Language",
+        "rmType" : "CODE_PHRASE",
+        "min" : 1,
+        "max" : 1,
+        "aqlPath" : "/content[openEHR-EHR-EVALUATION.absence.v2,'Unbekannte Diagnose']/language",
+        "inContext" : true
+      }, {
+        "id" : "encoding",
+        "name" : "Encoding",
+        "rmType" : "CODE_PHRASE",
+        "min" : 1,
+        "max" : 1,
+        "aqlPath" : "/content[openEHR-EHR-EVALUATION.absence.v2,'Unbekannte Diagnose']/encoding",
+        "inContext" : true
+      }, {
+        "id" : "subject",
+        "name" : "Subject",
+        "rmType" : "PARTY_PROXY",
+        "min" : 1,
+        "max" : 1,
+        "aqlPath" : "/content[openEHR-EHR-EVALUATION.absence.v2,'Unbekannte Diagnose']/subject",
+        "inputs" : [ {
+          "suffix" : "id",
+          "type" : "TEXT"
+        }, {
+          "suffix" : "id_scheme",
+          "type" : "TEXT"
+        }, {
+          "suffix" : "id_namespace",
+          "type" : "TEXT"
+        }, {
+          "suffix" : "name",
+          "type" : "TEXT"
+        } ],
+        "inContext" : true
+      } ]
+    }, {
+      "id" : "category",
+      "rmType" : "DV_CODED_TEXT",
+      "nodeId" : "",
+      "min" : 1,
+      "max" : 1,
+      "aqlPath" : "/category",
+      "inputs" : [ {
+        "suffix" : "code",
+        "type" : "CODED_TEXT",
+        "list" : [ {
+          "value" : "433",
+          "label" : "event",
+          "localizedLabels" : {
+            "de" : ""
+          }
+        } ],
+        "terminology" : "openehr"
+      } ],
+      "inContext" : true
+    }, {
+      "id" : "language",
+      "name" : "Language",
+      "rmType" : "CODE_PHRASE",
+      "min" : 1,
+      "max" : 1,
+      "aqlPath" : "/language",
+      "inContext" : true
+    }, {
+      "id" : "territory",
+      "name" : "Territory",
+      "rmType" : "CODE_PHRASE",
+      "min" : 1,
+      "max" : 1,
+      "aqlPath" : "/territory",
+      "inContext" : true
+    }, {
+      "id" : "composer",
+      "name" : "Composer",
+      "rmType" : "PARTY_PROXY",
+      "min" : 1,
+      "max" : 1,
+      "aqlPath" : "/composer",
+      "inputs" : [ {
+        "suffix" : "id",
+        "type" : "TEXT"
+      }, {
+        "suffix" : "id_scheme",
+        "type" : "TEXT"
+      }, {
+        "suffix" : "id_namespace",
+        "type" : "TEXT"
+      }, {
+        "suffix" : "name",
+        "type" : "TEXT"
+      } ],
+      "inContext" : true
+    } ]
+  }
+}

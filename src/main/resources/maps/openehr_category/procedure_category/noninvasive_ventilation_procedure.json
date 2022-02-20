@@ -1,0 +1,18 @@
+{
+  "system" : "SNOMED Clinical Terms",
+  "code" : "428311008",
+  "description" : "",
+  "children" : [ {
+    "system" : "http://snomed.info/sct",
+    "code" : "447837008",
+    "display" : "Noninvasive positive pressure ventilation"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "428311008",
+    "display" : "Noninvasive ventilation"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "870392006",
+    "display" : "Weaning from noninvasive ventilation"
+  } ]
+}

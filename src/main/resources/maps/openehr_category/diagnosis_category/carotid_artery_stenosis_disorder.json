@@ -1,0 +1,42 @@
+{
+  "system" : "SNOMED Clinical Terms",
+  "code" : "64586002",
+  "description" : "",
+  "children" : [ {
+    "system" : "http://snomed.info/sct",
+    "code" : "787044009",
+    "display" : "Bilateral stenosis of carotid arteries"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "64586002",
+    "display" : "Carotid artery stenosis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "99451000119105",
+    "display" : "Cerebral infarction due to stenosis of carotid artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "93396008",
+    "display" : "Congenital stenosis of carotid artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "233964008",
+    "display" : "Internal carotid artery stenosis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "285191000119103",
+    "display" : "Left carotid artery stenosis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "724097003",
+    "display" : "Moyamoya angiopathy, short stature, facial dysmorphism, hypergonadotropic hypogonadism syndrome"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "285201000119100",
+    "display" : "Right carotid artery stenosis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "9611000119107",
+    "display" : "Symptomatic carotid artery stenosis"
+  } ]
+}

@@ -1,0 +1,154 @@
+{
+  "system" : "SNOMED Clinical Terms",
+  "code" : "8801005",
+  "description" : "",
+  "children" : [ {
+    "system" : "http://snomed.info/sct",
+    "code" : "720519003",
+    "display" : "Atherosclerosis, deafness, diabetes, epilepsy, nephropathy syndrome"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "70694009",
+    "display" : "Diabetes mellitus AND insipidus with optic atrophy AND deafness"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "426705001",
+    "display" : "Diabetes mellitus associated with cystic fibrosis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "5969009",
+    "display" : "Diabetes mellitus associated with genetic syndrome"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "59079001",
+    "display" : "Diabetes mellitus associated with hormonal etiology"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "51002006",
+    "display" : "Diabetes mellitus associated with pancreatic disease"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "42954008",
+    "display" : "Diabetes mellitus associated with receptor abnormality"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "737212004",
+    "display" : "Diabetes mellitus caused by chemical"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "427089005",
+    "display" : "Diabetes mellitus due to cystic fibrosis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "75682002",
+    "display" : "Diabetes mellitus due to insulin receptor antibodies"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "91352004",
+    "display" : "Diabetes mellitus due to structurally abnormal insulin"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "276560009",
+    "display" : "Diabetes mellitus in neonate small for gestational age"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "408540003",
+    "display" : "Diabetes mellitus induced by non-steroid drugs"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "413183008",
+    "display" : "Diabetes mellitus induced by non-steroid drugs without complication"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "237619009",
+    "display" : "Diabetes-deafness syndrome maternally transmitted"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "5368009",
+    "display" : "Drug-induced diabetes mellitus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "2751001",
+    "display" : "Fibrocalculous pancreatic diabetes"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "75524006",
+    "display" : "Malnutrition related diabetes mellitus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "237600004",
+    "display" : "Malnutrition-related diabetes mellitus - fibrocalculous"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "190410002",
+    "display" : "Malnutrition-related diabetes mellitus with peripheral circulatory complications"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "190407009",
+    "display" : "Malnutrition-related diabetes mellitus with renal complications"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "190412005",
+    "display" : "Malnutrition-related diabetes mellitus without complications"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "237617006",
+    "display" : "Megaloblastic anemia, thiamine-responsive, with diabetes mellitus and sensorineural deafness"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "783722008",
+    "display" : "Myopathy and diabetes mellitus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "237612000",
+    "display" : "Photomyoclonus, diabetes mellitus, deafness, nephropathy and cerebral dysfunction"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "445260006",
+    "display" : "Posttransplant diabetes mellitus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "199231005",
+    "display" : "Pre-existing malnutrition-related diabetes mellitus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "1142044000",
+    "display" : "Pre-existing malnutrition-related diabetes mellitus in pregnancy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "782755007",
+    "display" : "Primary microcephaly, mild intellectual disability, young-onset diabetes syndrome"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "57886004",
+    "display" : "Protein-deficient diabetes mellitus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "33559001",
+    "display" : "Rabson-Mendenhall syndrome"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "8801005",
+    "display" : "Secondary diabetes mellitus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "237601000",
+    "display" : "Secondary endocrine diabetes mellitus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "190447002",
+    "display" : "Steroid-induced diabetes"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "190416008",
+    "display" : "Steroid-induced diabetes mellitus without complication"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "734022008",
+    "display" : "Wolfram-like syndrome"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "816067005",
+    "display" : "Woodhouse Sakati syndrome"
+  } ]
+}

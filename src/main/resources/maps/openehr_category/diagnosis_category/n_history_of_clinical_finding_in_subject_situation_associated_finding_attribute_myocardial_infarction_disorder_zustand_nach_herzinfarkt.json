@@ -1,0 +1,34 @@
+{
+  "system" : "SNOMED Clinical Terms",
+  "code" : "417662000:246090004=22298006",
+  "description" : "",
+  "children" : [ {
+    "system" : "http://snomed.info/sct",
+    "code" : "103011000119106",
+    "display" : "Coronary arteriosclerosis in patient with history of previous myocardial infarction"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "161503005",
+    "display" : "H/O: myocardial infarct at greater than 60"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "161502000",
+    "display" : "H/O: myocardial infarct at less than 60"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "308065005",
+    "display" : "H/O: Myocardial infarction in last year"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "399211009",
+    "display" : "History of myocardial infarction"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "461000119108",
+    "display" : "History of myocardial infarction in last eight weeks"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "428752002",
+    "display" : "Recent myocardial infarction"
+  } ]
+}

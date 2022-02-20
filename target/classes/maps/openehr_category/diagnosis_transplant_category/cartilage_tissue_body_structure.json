@@ -1,0 +1,22 @@
+{
+  "system" : "SNOMED Clinical Terms",
+  "code" : "309312004",
+  "description" : "",
+  "children" : [ {
+    "system" : "http://snomed.info/sct",
+    "code" : "309312004",
+    "display" : "Cartilage tissue"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "729906001",
+    "display" : "Entire cartilage tissue"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727200009",
+    "display" : "Entire ground substance of cartilage"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "71538009",
+    "display" : "Ground substance of cartilage"
+  } ]
+}

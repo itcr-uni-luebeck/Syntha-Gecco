@@ -1,0 +1,109 @@
+{
+  "templateName" : "Körpergewicht",
+  "paths" : [ {
+    "id" : 0,
+    "aqlPath" : "/context/other_context[at0001]/items[at0004]/value|code",
+    "path" : "körpergewicht/context/status|code",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 1,
+    "aqlPath" : "/context/other_context[at0001]/items[at0005]/value",
+    "path" : "körpergewicht/context/kategorie",
+    "type" : "TEXT"
+  }, {
+    "id" : 2,
+    "aqlPath" : "/context/start_time",
+    "path" : "körpergewicht/context/start_time",
+    "type" : "DATETIME"
+  }, {
+    "id" : 3,
+    "aqlPath" : "/context/setting|code",
+    "path" : "körpergewicht/context/setting|code",
+    "type" : "TEXT"
+  }, {
+    "id" : 4,
+    "aqlPath" : "/context/setting|value",
+    "path" : "körpergewicht/context/setting|value",
+    "type" : "TEXT"
+  }, {
+    "id" : 5,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.body_weight.v2]/data[at0002]/events[at0003]/data[at0001]/items[at0004]/value|magnitude",
+    "path" : "körpergewicht/körpergewicht/gewicht|magnitude",
+    "type" : "DECIMAL"
+  }, {
+    "id" : 6,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.body_weight.v2]/data[at0002]/events[at0003]/data[at0001]/items[at0004]/value|unit",
+    "path" : "körpergewicht/körpergewicht/gewicht|unit",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 7,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.body_weight.v2]/data[at0002]/events[at0003]/time",
+    "path" : "körpergewicht/körpergewicht/time",
+    "type" : "DATETIME"
+  }, {
+    "id" : 8,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.body_weight.v2]/language",
+    "path" : "körpergewicht/körpergewicht/language",
+    "type" : "TEXT"
+  }, {
+    "id" : 9,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.body_weight.v2]/encoding",
+    "path" : "körpergewicht/körpergewicht/encoding",
+    "type" : "TEXT"
+  }, {
+    "id" : 10,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.body_weight.v2]/subject|id",
+    "path" : "körpergewicht/körpergewicht/subject|id",
+    "type" : "TEXT"
+  }, {
+    "id" : 11,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.body_weight.v2]/subject|id_scheme",
+    "path" : "körpergewicht/körpergewicht/subject|id_scheme",
+    "type" : "TEXT"
+  }, {
+    "id" : 12,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.body_weight.v2]/subject|id_namespace",
+    "path" : "körpergewicht/körpergewicht/subject|id_namespace",
+    "type" : "TEXT"
+  }, {
+    "id" : 13,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.body_weight.v2]/subject|name",
+    "path" : "körpergewicht/körpergewicht/subject|name",
+    "type" : "TEXT"
+  }, {
+    "id" : 14,
+    "aqlPath" : "/category|code",
+    "path" : "körpergewicht/category|code",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 15,
+    "aqlPath" : "/language",
+    "path" : "körpergewicht/language",
+    "type" : "TEXT"
+  }, {
+    "id" : 16,
+    "aqlPath" : "/territory",
+    "path" : "körpergewicht/territory",
+    "type" : "TEXT"
+  }, {
+    "id" : 17,
+    "aqlPath" : "/composer|id",
+    "path" : "körpergewicht/composer|id",
+    "type" : "TEXT"
+  }, {
+    "id" : 18,
+    "aqlPath" : "/composer|id_scheme",
+    "path" : "körpergewicht/composer|id_scheme",
+    "type" : "TEXT"
+  }, {
+    "id" : 19,
+    "aqlPath" : "/composer|id_namespace",
+    "path" : "körpergewicht/composer|id_namespace",
+    "type" : "TEXT"
+  }, {
+    "id" : 20,
+    "aqlPath" : "/composer|name",
+    "path" : "körpergewicht/composer|name",
+    "type" : "TEXT"
+  } ]
+}

@@ -1,0 +1,394 @@
+{
+  "system" : "SNOMED Clinical Terms",
+  "code" : "709044004",
+  "description" : "",
+  "children" : [ {
+    "system" : "http://snomed.info/sct",
+    "code" : "236433006",
+    "display" : "Acute-on-chronic renal failure"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "691421000119108",
+    "display" : "Anemia co-occurrent and due to chronic kidney disease stage 3"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "707324008",
+    "display" : "Anemia in end stage renal disease"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "49708008",
+    "display" : "Anemia of chronic renal failure"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "1801000119106",
+    "display" : "Anemia, pre-end stage renal disease on erythropoietin protocol"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "709044004",
+    "display" : "Chronic kidney disease"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "284961000119106",
+    "display" : "Chronic kidney disease due to benign hypertension"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "104931000119100",
+    "display" : "Chronic kidney disease due to hypertension"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "722150000",
+    "display" : "Chronic kidney disease due to systemic infection"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "722467000",
+    "display" : "Chronic kidney disease due to traumatic loss of kidney"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "96441000119101",
+    "display" : "Chronic kidney disease due to type 1 diabetes mellitus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "771000119108",
+    "display" : "Chronic kidney disease due to type 2 diabetes mellitus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "722098007",
+    "display" : "Chronic kidney disease following donor nephrectomy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "722149000",
+    "display" : "Chronic kidney disease following excision of renal neoplasm"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "713313000",
+    "display" : "Chronic kidney disease mineral and bone disorder"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "431855005",
+    "display" : "Chronic kidney disease stage 1"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "284971000119100",
+    "display" : "Chronic kidney disease stage 1 due to benign hypertension"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "368421000119108",
+    "display" : "Chronic kidney disease stage 1 due to drug induced diabetes mellitus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "117681000119102",
+    "display" : "Chronic kidney disease stage 1 due to hypertension"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "90721000119101",
+    "display" : "Chronic kidney disease stage 1 due to type 1 diabetes mellitus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "751000119104",
+    "display" : "Chronic kidney disease stage 1 due to type 2 diabetes mellitus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "431856006",
+    "display" : "Chronic kidney disease stage 2"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "284981000119102",
+    "display" : "Chronic kidney disease stage 2 due to benign hypertension"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "368431000119106",
+    "display" : "Chronic kidney disease stage 2 due to drug induced diabetes mellitus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "129181000119109",
+    "display" : "Chronic kidney disease stage 2 due to hypertension"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "90731000119103",
+    "display" : "Chronic kidney disease stage 2 due to type 1 diabetes mellitus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "741000119101",
+    "display" : "Chronic kidney disease stage 2 due to type 2 diabetes mellitus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "433144002",
+    "display" : "Chronic kidney disease stage 3"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "284991000119104",
+    "display" : "Chronic kidney disease stage 3 due to benign hypertension"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "368441000119102",
+    "display" : "Chronic kidney disease stage 3 due to drug induced diabetes mellitus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "129171000119106",
+    "display" : "Chronic kidney disease stage 3 due to hypertension"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "90741000119107",
+    "display" : "Chronic kidney disease stage 3 due to type 1 diabetes mellitus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "731000119105",
+    "display" : "Chronic kidney disease stage 3 due to type 2 diabetes mellitus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "700378005",
+    "display" : "Chronic kidney disease stage 3A"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "700379002",
+    "display" : "Chronic kidney disease stage 3B"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "431857002",
+    "display" : "Chronic kidney disease stage 4"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "285001000119105",
+    "display" : "Chronic kidney disease stage 4 due to benign hypertension"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "368451000119100",
+    "display" : "Chronic kidney disease stage 4 due to drug induced diabetes mellitus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "129151000119102",
+    "display" : "Chronic kidney disease stage 4 due to hypertension"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "90751000119109",
+    "display" : "Chronic kidney disease stage 4 due to type 1 diabetes mellitus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "721000119107",
+    "display" : "Chronic kidney disease stage 4 due to type 2 diabetes mellitus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "433146000",
+    "display" : "Chronic kidney disease stage 5"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "285011000119108",
+    "display" : "Chronic kidney disease stage 5 due to benign hypertension"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "368461000119103",
+    "display" : "Chronic kidney disease stage 5 due to drug induced diabetes mellitus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "129161000119100",
+    "display" : "Chronic kidney disease stage 5 due to hypertension"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "90761000119106",
+    "display" : "Chronic kidney disease stage 5 due to type 1 diabetes mellitus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "711000119100",
+    "display" : "Chronic kidney disease stage 5 due to type 2 diabetes mellitus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "714152005",
+    "display" : "Chronic kidney disease stage 5 on dialysis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "714153000",
+    "display" : "Chronic kidney disease stage 5 with transplant"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "897308007",
+    "display" : "Chronic kidney disease with osteoporosis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "57557005",
+    "display" : "Chronic milk alkali syndrome"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "425369003",
+    "display" : "Chronic progressive renal failure"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "90688005",
+    "display" : "Chronic renal failure"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "723190009",
+    "display" : "Chronic renal insufficiency"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "712487000",
+    "display" : "End stage renal disease due to benign hypertension"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "111411000119103",
+    "display" : "End stage renal disease due to hypertension"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "368471000119109",
+    "display" : "End stage renal disease on dialysis due to drug induced diabetes mellitus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "153891000119101",
+    "display" : "End stage renal disease on dialysis due to hypertension"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "90771000119100",
+    "display" : "End stage renal disease on dialysis due to type 1 diabetes mellitus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "90791000119104",
+    "display" : "End stage renal disease on dialysis due to type 2 diabetes mellitus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "236435004",
+    "display" : "End stage renal failure on dialysis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "236434000",
+    "display" : "End stage renal failure untreated by renal replacement therapy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "236436003",
+    "display" : "End stage renal failure with renal transplant"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "46177005",
+    "display" : "End-stage renal disease"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "704667004",
+    "display" : "Hypertension concurrent and due to end stage renal disease on dialysis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "128001000119105",
+    "display" : "Hypertension concurrent and due to end stage renal disease on dialysis due to type 1 diabetes mellitus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "127991000119101",
+    "display" : "Hypertension concurrent and due to end stage renal disease on dialysis due to type 2 diabetes mellitus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "71701000119105",
+    "display" : "Hypertension in chronic kidney disease due to type 1 diabetes mellitus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "71421000119105",
+    "display" : "Hypertension in chronic kidney disease due to type 2 diabetes mellitus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "140131000119102",
+    "display" : "Hypertension in chronic kidney disease stage 2 due to type 2 diabetes mellitus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "140121000119100",
+    "display" : "Hypertension in chronic kidney disease stage 3 due to type 2 diabetes mellitus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "140111000119107",
+    "display" : "Hypertension in chronic kidney disease stage 4 due to type 2 diabetes mellitus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "140101000119109",
+    "display" : "Hypertension in chronic kidney disease stage 5 due to type 2 diabetes mellitus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "8501000119104",
+    "display" : "Hypertensive heart and chronic kidney disease"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "96701000119107",
+    "display" : "Hypertensive heart AND chronic kidney disease on dialysis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "96751000119106",
+    "display" : "Hypertensive heart AND chronic kidney disease stage 1"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "96741000119109",
+    "display" : "Hypertensive heart AND chronic kidney disease stage 2"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "96731000119100",
+    "display" : "Hypertensive heart AND chronic kidney disease stage 3"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "96721000119103",
+    "display" : "Hypertensive heart AND chronic kidney disease stage 4"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "96711000119105",
+    "display" : "Hypertensive heart AND chronic kidney disease stage 5"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "776416004",
+    "display" : "Hyperuricemia, pulmonary hypertension, renal failure, alkalosis syndrome"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "285831000119108",
+    "display" : "Malignant hypertensive chronic kidney disease"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "285851000119102",
+    "display" : "Malignant hypertensive chronic kidney disease stage 1"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "285861000119100",
+    "display" : "Malignant hypertensive chronic kidney disease stage 2"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "285871000119106",
+    "display" : "Malignant hypertensive chronic kidney disease stage 3"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "285881000119109",
+    "display" : "Malignant hypertensive chronic kidney disease stage 4"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "153851000119106",
+    "display" : "Malignant hypertensive chronic kidney disease stage 5"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "285841000119104",
+    "display" : "Malignant hypertensive end stage renal disease"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "286371000119107",
+    "display" : "Malignant hypertensive end stage renal disease on dialysis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "708975004",
+    "display" : "Mixed renal osteodystrophy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "118781000119108",
+    "display" : "Pre-existing hypertensive chronic kidney disease in mother complicating pregnancy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "10757401000119104",
+    "display" : "Pre-existing hypertensive heart and chronic kidney disease in mother complicating childbirth"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "10757481000119107",
+    "display" : "Pre-existing hypertensive heart and chronic kidney disease in mother complicating pregnancy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "16726004",
+    "display" : "Renal osteodystrophy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "897310009",
+    "display" : "Renal osteodystrophy with high bone turnover"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "897312001",
+    "display" : "Renal osteodystrophy with low bone turnover"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "897311008",
+    "display" : "Renal osteodystrophy with normal bone turnover"
+  } ]
+}

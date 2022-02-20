@@ -1,0 +1,109 @@
+{
+  "templateName" : "Atemfrequenz",
+  "paths" : [ {
+    "id" : 0,
+    "aqlPath" : "/context/other_context[at0001]/items[at0004]/value|code",
+    "path" : "atemfrequenz/context/status|code",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 1,
+    "aqlPath" : "/context/other_context[at0001]/items[at0005]/value",
+    "path" : "atemfrequenz/context/kategorie",
+    "type" : "TEXT"
+  }, {
+    "id" : 2,
+    "aqlPath" : "/context/start_time",
+    "path" : "atemfrequenz/context/start_time",
+    "type" : "DATETIME"
+  }, {
+    "id" : 3,
+    "aqlPath" : "/context/setting|code",
+    "path" : "atemfrequenz/context/setting|code",
+    "type" : "TEXT"
+  }, {
+    "id" : 4,
+    "aqlPath" : "/context/setting|value",
+    "path" : "atemfrequenz/context/setting|value",
+    "type" : "TEXT"
+  }, {
+    "id" : 5,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.respiration.v2]/data[at0001]/events[at0002]/data[at0003]/items[at0004]/value|magnitude",
+    "path" : "atemfrequenz/atemfrequenz/messwert|magnitude",
+    "type" : "DECIMAL"
+  }, {
+    "id" : 6,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.respiration.v2]/data[at0001]/events[at0002]/data[at0003]/items[at0004]/value|unit",
+    "path" : "atemfrequenz/atemfrequenz/messwert|unit",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 7,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.respiration.v2]/data[at0001]/events[at0002]/time",
+    "path" : "atemfrequenz/atemfrequenz/time",
+    "type" : "DATETIME"
+  }, {
+    "id" : 8,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.respiration.v2]/language",
+    "path" : "atemfrequenz/atemfrequenz/language",
+    "type" : "TEXT"
+  }, {
+    "id" : 9,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.respiration.v2]/encoding",
+    "path" : "atemfrequenz/atemfrequenz/encoding",
+    "type" : "TEXT"
+  }, {
+    "id" : 10,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.respiration.v2]/subject|id",
+    "path" : "atemfrequenz/atemfrequenz/subject|id",
+    "type" : "TEXT"
+  }, {
+    "id" : 11,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.respiration.v2]/subject|id_scheme",
+    "path" : "atemfrequenz/atemfrequenz/subject|id_scheme",
+    "type" : "TEXT"
+  }, {
+    "id" : 12,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.respiration.v2]/subject|id_namespace",
+    "path" : "atemfrequenz/atemfrequenz/subject|id_namespace",
+    "type" : "TEXT"
+  }, {
+    "id" : 13,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.respiration.v2]/subject|name",
+    "path" : "atemfrequenz/atemfrequenz/subject|name",
+    "type" : "TEXT"
+  }, {
+    "id" : 14,
+    "aqlPath" : "/category|code",
+    "path" : "atemfrequenz/category|code",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 15,
+    "aqlPath" : "/language",
+    "path" : "atemfrequenz/language",
+    "type" : "TEXT"
+  }, {
+    "id" : 16,
+    "aqlPath" : "/territory",
+    "path" : "atemfrequenz/territory",
+    "type" : "TEXT"
+  }, {
+    "id" : 17,
+    "aqlPath" : "/composer|id",
+    "path" : "atemfrequenz/composer|id",
+    "type" : "TEXT"
+  }, {
+    "id" : 18,
+    "aqlPath" : "/composer|id_scheme",
+    "path" : "atemfrequenz/composer|id_scheme",
+    "type" : "TEXT"
+  }, {
+    "id" : 19,
+    "aqlPath" : "/composer|id_namespace",
+    "path" : "atemfrequenz/composer|id_namespace",
+    "type" : "TEXT"
+  }, {
+    "id" : 20,
+    "aqlPath" : "/composer|name",
+    "path" : "atemfrequenz/composer|name",
+    "type" : "TEXT"
+  } ]
+}

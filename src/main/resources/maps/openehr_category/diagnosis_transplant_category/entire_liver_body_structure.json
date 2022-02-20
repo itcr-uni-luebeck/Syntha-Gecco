@@ -1,0 +1,14 @@
+{
+  "system" : "SNOMED Clinical Terms",
+  "code" : "181268008",
+  "description" : "",
+  "children" : [ {
+    "system" : "http://snomed.info/sct",
+    "code" : "181268008",
+    "display" : "Entire liver"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "272508003",
+    "display" : "Entire transplanted liver"
+  } ]
+}

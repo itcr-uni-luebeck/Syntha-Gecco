@@ -1,0 +1,98 @@
+{
+  "system" : "SNOMED Clinical Terms",
+  "code" : "24526004",
+  "description" : "",
+  "children" : [ {
+    "system" : "http://snomed.info/sct",
+    "code" : "1085901000119101",
+    "display" : "Abscess of intestine co-occurrent and due to Crohn's disease"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "1085751000119100",
+    "display" : "Abscess of intestine co-occurrent and due to Crohn's disease of large intestine"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "1085801000119106",
+    "display" : "Abscess of intestine co-occurrent and due to Crohn's disease of small and large intestine"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "1085851000119105",
+    "display" : "Abscess of intestine co-occurrent and due to Crohn's disease of small intestine"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "721702009",
+    "display" : "Crohn disease of anal canal"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "733157003",
+    "display" : "Crohn disease of appendix"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "50440006",
+    "display" : "Crohn's disease of colon"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "56287005",
+    "display" : "Crohn's disease of duodenum"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "38106008",
+    "display" : "Crohn's disease of ileum"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "397173003",
+    "display" : "Crohn's disease of intestine"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "91390005",
+    "display" : "Crohn's disease of jejunum"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "7620006",
+    "display" : "Crohn's disease of large bowel"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "3815005",
+    "display" : "Crohn's disease of rectum"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "71833008",
+    "display" : "Crohn's disease of small AND large intestines"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "56689002",
+    "display" : "Crohn's disease of small intestine"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "196977009",
+    "display" : "Crohn's disease of terminal ileum"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "414153008",
+    "display" : "Exacerbation of Crohn's disease of large intestine"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "414154002",
+    "display" : "Exacerbation of Crohn's disease of small intestine"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "359664009",
+    "display" : "Idiopathic chronic inflammatory bowel disease"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "24526004",
+    "display" : "Inflammatory bowel disease"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "721686000",
+    "display" : "Inflammatory polyps co-occurrent and due to inflammatory bowel disease"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "788718000",
+    "display" : "Iritis co-occurrent with inflammatory bowel disease"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "697969008",
+    "display" : "Ulcerative colitis in remission"
+  } ]
+}

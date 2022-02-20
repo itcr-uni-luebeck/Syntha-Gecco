@@ -1,0 +1,214 @@
+{
+  "templateName" : "GECCO_Diagnose",
+  "paths" : [ {
+    "id" : 0,
+    "aqlPath" : "/context/other_context[at0001]/items[at0004]/value|code",
+    "path" : "gecco_diagnose/context/status|code",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 1,
+    "aqlPath" : "/context/other_context[at0001]/items[at0005]/value|code",
+    "path" : "gecco_diagnose/context/kategorie|code",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 2,
+    "aqlPath" : "/context/start_time",
+    "path" : "gecco_diagnose/context/start_time",
+    "type" : "DATETIME"
+  }, {
+    "id" : 3,
+    "aqlPath" : "/context/setting|code",
+    "path" : "gecco_diagnose/context/setting|code",
+    "type" : "TEXT"
+  }, {
+    "id" : 4,
+    "aqlPath" : "/context/setting|value",
+    "path" : "gecco_diagnose/context/setting|value",
+    "type" : "TEXT"
+  }, {
+    "id" : 5,
+    "aqlPath" : "/content[openEHR-EHR-EVALUATION.problem_diagnosis.v1,'Vorliegende Diagnose']/data[at0001]/items[at0002]/value",
+    "path" : "gecco_diagnose/vorliegende_diagnose/name_des_problems_der_diagnose",
+    "type" : "TEXT"
+  }, {
+    "id" : 6,
+    "aqlPath" : "/content[openEHR-EHR-EVALUATION.problem_diagnosis.v1,'Vorliegende Diagnose']/data[at0001]/items[openEHR-EHR-CLUSTER.anatomical_location.v1,'Körperstelle']/items[at0001]/value|code",
+    "path" : "gecco_diagnose/vorliegende_diagnose/körperstelle/name_der_körperstelle|code",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 7,
+    "aqlPath" : "/content[openEHR-EHR-EVALUATION.problem_diagnosis.v1,'Vorliegende Diagnose']/data[at0001]/items[openEHR-EHR-CLUSTER.anatomical_location.v1,'Körperstelle']/items[at0002]/value|code",
+    "path" : "gecco_diagnose/vorliegende_diagnose/körperstelle/lateralität|code",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 8,
+    "aqlPath" : "/content[openEHR-EHR-EVALUATION.problem_diagnosis.v1,'Vorliegende Diagnose']/data[at0001]/items[at0078]/value",
+    "path" : "gecco_diagnose/vorliegende_diagnose/ursache",
+    "type" : "TEXT"
+  }, {
+    "id" : 9,
+    "aqlPath" : "/content[openEHR-EHR-EVALUATION.problem_diagnosis.v1,'Vorliegende Diagnose']/data[at0001]/items[at0077]/value",
+    "path" : "gecco_diagnose/vorliegende_diagnose/datum_zeitpunkt_des_auftretens_der_erstdiagnose",
+    "type" : "DATETIME"
+  }, {
+    "id" : 10,
+    "aqlPath" : "/content[openEHR-EHR-EVALUATION.problem_diagnosis.v1,'Vorliegende Diagnose']/data[at0001]/items[at0005]/value|code",
+    "path" : "gecco_diagnose/vorliegende_diagnose/schweregrad|code",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 11,
+    "aqlPath" : "/content[openEHR-EHR-EVALUATION.problem_diagnosis.v1,'Vorliegende Diagnose']/data[at0001]/items[at0030]/value",
+    "path" : "gecco_diagnose/vorliegende_diagnose/datum_zeitpunkt_der_genesung",
+    "type" : "DATETIME"
+  }, {
+    "id" : 12,
+    "aqlPath" : "/content[openEHR-EHR-EVALUATION.problem_diagnosis.v1,'Vorliegende Diagnose']/data[at0001]/items[at0069]/value",
+    "path" : "gecco_diagnose/vorliegende_diagnose/kommentar",
+    "type" : "TEXT"
+  }, {
+    "id" : 13,
+    "aqlPath" : "/content[openEHR-EHR-EVALUATION.problem_diagnosis.v1,'Vorliegende Diagnose']/language",
+    "path" : "gecco_diagnose/vorliegende_diagnose/language",
+    "type" : "TEXT"
+  }, {
+    "id" : 14,
+    "aqlPath" : "/content[openEHR-EHR-EVALUATION.problem_diagnosis.v1,'Vorliegende Diagnose']/encoding",
+    "path" : "gecco_diagnose/vorliegende_diagnose/encoding",
+    "type" : "TEXT"
+  }, {
+    "id" : 15,
+    "aqlPath" : "/content[openEHR-EHR-EVALUATION.problem_diagnosis.v1,'Vorliegende Diagnose']/subject|id",
+    "path" : "gecco_diagnose/vorliegende_diagnose/subject|id",
+    "type" : "TEXT"
+  }, {
+    "id" : 16,
+    "aqlPath" : "/content[openEHR-EHR-EVALUATION.problem_diagnosis.v1,'Vorliegende Diagnose']/subject|id_scheme",
+    "path" : "gecco_diagnose/vorliegende_diagnose/subject|id_scheme",
+    "type" : "TEXT"
+  }, {
+    "id" : 17,
+    "aqlPath" : "/content[openEHR-EHR-EVALUATION.problem_diagnosis.v1,'Vorliegende Diagnose']/subject|id_namespace",
+    "path" : "gecco_diagnose/vorliegende_diagnose/subject|id_namespace",
+    "type" : "TEXT"
+  }, {
+    "id" : 18,
+    "aqlPath" : "/content[openEHR-EHR-EVALUATION.problem_diagnosis.v1,'Vorliegende Diagnose']/subject|name",
+    "path" : "gecco_diagnose/vorliegende_diagnose/subject|name",
+    "type" : "TEXT"
+  }, {
+    "id" : 19,
+    "aqlPath" : "/content[openEHR-EHR-EVALUATION.exclusion_specific.v1,'Ausgeschlossene Diagnose']/data[at0001]/items[at0002]/value|code",
+    "path" : "gecco_diagnose/ausgeschlossene_diagnose/aussage_über_den_ausschluss|code",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 20,
+    "aqlPath" : "/content[openEHR-EHR-EVALUATION.exclusion_specific.v1,'Ausgeschlossene Diagnose']/data[at0001]/items[at0003,'Problem/Diagnose']/value",
+    "path" : "gecco_diagnose/ausgeschlossene_diagnose/problem_diagnose",
+    "type" : "TEXT"
+  }, {
+    "id" : 21,
+    "aqlPath" : "/content[openEHR-EHR-EVALUATION.exclusion_specific.v1,'Ausgeschlossene Diagnose']/language",
+    "path" : "gecco_diagnose/ausgeschlossene_diagnose/language",
+    "type" : "TEXT"
+  }, {
+    "id" : 22,
+    "aqlPath" : "/content[openEHR-EHR-EVALUATION.exclusion_specific.v1,'Ausgeschlossene Diagnose']/encoding",
+    "path" : "gecco_diagnose/ausgeschlossene_diagnose/encoding",
+    "type" : "TEXT"
+  }, {
+    "id" : 23,
+    "aqlPath" : "/content[openEHR-EHR-EVALUATION.exclusion_specific.v1,'Ausgeschlossene Diagnose']/subject|id",
+    "path" : "gecco_diagnose/ausgeschlossene_diagnose/subject|id",
+    "type" : "TEXT"
+  }, {
+    "id" : 24,
+    "aqlPath" : "/content[openEHR-EHR-EVALUATION.exclusion_specific.v1,'Ausgeschlossene Diagnose']/subject|id_scheme",
+    "path" : "gecco_diagnose/ausgeschlossene_diagnose/subject|id_scheme",
+    "type" : "TEXT"
+  }, {
+    "id" : 25,
+    "aqlPath" : "/content[openEHR-EHR-EVALUATION.exclusion_specific.v1,'Ausgeschlossene Diagnose']/subject|id_namespace",
+    "path" : "gecco_diagnose/ausgeschlossene_diagnose/subject|id_namespace",
+    "type" : "TEXT"
+  }, {
+    "id" : 26,
+    "aqlPath" : "/content[openEHR-EHR-EVALUATION.exclusion_specific.v1,'Ausgeschlossene Diagnose']/subject|name",
+    "path" : "gecco_diagnose/ausgeschlossene_diagnose/subject|name",
+    "type" : "TEXT"
+  }, {
+    "id" : 27,
+    "aqlPath" : "/content[openEHR-EHR-EVALUATION.absence.v2,'Unbekannte Diagnose']/data[at0001]/items[at0002,'Unbekannte Diagnose']/value",
+    "path" : "gecco_diagnose/unbekannte_diagnose/unbekannte_diagnose",
+    "type" : "TEXT"
+  }, {
+    "id" : 28,
+    "aqlPath" : "/content[openEHR-EHR-EVALUATION.absence.v2,'Unbekannte Diagnose']/data[at0001]/items[at0005,'Aussage über die fehlende Information']/value|code",
+    "path" : "gecco_diagnose/unbekannte_diagnose/aussage_über_die_fehlende_information|code",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 29,
+    "aqlPath" : "/content[openEHR-EHR-EVALUATION.absence.v2,'Unbekannte Diagnose']/language",
+    "path" : "gecco_diagnose/unbekannte_diagnose/language",
+    "type" : "TEXT"
+  }, {
+    "id" : 30,
+    "aqlPath" : "/content[openEHR-EHR-EVALUATION.absence.v2,'Unbekannte Diagnose']/encoding",
+    "path" : "gecco_diagnose/unbekannte_diagnose/encoding",
+    "type" : "TEXT"
+  }, {
+    "id" : 31,
+    "aqlPath" : "/content[openEHR-EHR-EVALUATION.absence.v2,'Unbekannte Diagnose']/subject|id",
+    "path" : "gecco_diagnose/unbekannte_diagnose/subject|id",
+    "type" : "TEXT"
+  }, {
+    "id" : 32,
+    "aqlPath" : "/content[openEHR-EHR-EVALUATION.absence.v2,'Unbekannte Diagnose']/subject|id_scheme",
+    "path" : "gecco_diagnose/unbekannte_diagnose/subject|id_scheme",
+    "type" : "TEXT"
+  }, {
+    "id" : 33,
+    "aqlPath" : "/content[openEHR-EHR-EVALUATION.absence.v2,'Unbekannte Diagnose']/subject|id_namespace",
+    "path" : "gecco_diagnose/unbekannte_diagnose/subject|id_namespace",
+    "type" : "TEXT"
+  }, {
+    "id" : 34,
+    "aqlPath" : "/content[openEHR-EHR-EVALUATION.absence.v2,'Unbekannte Diagnose']/subject|name",
+    "path" : "gecco_diagnose/unbekannte_diagnose/subject|name",
+    "type" : "TEXT"
+  }, {
+    "id" : 35,
+    "aqlPath" : "/category|code",
+    "path" : "gecco_diagnose/category|code",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 36,
+    "aqlPath" : "/language",
+    "path" : "gecco_diagnose/language",
+    "type" : "TEXT"
+  }, {
+    "id" : 37,
+    "aqlPath" : "/territory",
+    "path" : "gecco_diagnose/territory",
+    "type" : "TEXT"
+  }, {
+    "id" : 38,
+    "aqlPath" : "/composer|id",
+    "path" : "gecco_diagnose/composer|id",
+    "type" : "TEXT"
+  }, {
+    "id" : 39,
+    "aqlPath" : "/composer|id_scheme",
+    "path" : "gecco_diagnose/composer|id_scheme",
+    "type" : "TEXT"
+  }, {
+    "id" : 40,
+    "aqlPath" : "/composer|id_namespace",
+    "path" : "gecco_diagnose/composer|id_namespace",
+    "type" : "TEXT"
+  }, {
+    "id" : 41,
+    "aqlPath" : "/composer|name",
+    "path" : "gecco_diagnose/composer|name",
+    "type" : "TEXT"
+  } ]
+}

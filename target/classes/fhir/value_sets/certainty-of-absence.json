@@ -1,0 +1,51 @@
+{
+  "resourceType": "ValueSet",
+  "id": "1.2.276.0.76.11.524--20200618143847",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+    ]
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+      "valuePeriod": {
+        "start": "2020-06-18T14:38:47+02:00"
+      }
+    }
+  ],
+  "url": "https://www.netzwerk-universitaetsmedizin.de/fhir/ValueSet/certainty-of-absence",
+  "identifier": [
+    {
+      "use": "official",
+      "system": "http://art-decor.org/ns/oids/vs",
+      "value": "1.2.276.0.76.11.524"
+    }
+  ],
+  "version": "1.0",
+  "name": "CertaintyOfAbsence",
+  "title": "Certainty of Absence",
+  "status": "active",
+  "experimental": false,
+  "publisher": "Charité",
+  "description": "Captures the degree certainty of the non-existence of a condition.",
+  "immutable": false,
+  "copyright": "This artefact includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyright of the International Health Terminology Standards Development Organisation (IHTSDO). Implementers of these artefacts must have the appropriate SNOMED CT Affiliate license - for more information contact http://www.snomed.org/snomed-ct/getsnomed-ct or info@snomed.org.",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "410594000",
+            "display": "Definitely NOT present (qualifier value)"
+          },
+          {
+            "code": "723511001",
+            "display": "Refuted (qualifier value)"
+          }
+        ]
+      }
+    ]
+  }
+}

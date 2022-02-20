@@ -1,0 +1,204 @@
+{
+  "templateName" : "Reisehistorie",
+  "paths" : [ {
+    "id" : 0,
+    "aqlPath" : "/context/other_context[at0001]/items[at0004]/value|code",
+    "path" : "reisehistorie/context/status|code",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 1,
+    "aqlPath" : "/context/other_context[at0001]/items[at0005]/value",
+    "path" : "reisehistorie/context/kategorie",
+    "type" : "TEXT"
+  }, {
+    "id" : 2,
+    "aqlPath" : "/context/start_time",
+    "path" : "reisehistorie/context/start_time",
+    "type" : "DATETIME"
+  }, {
+    "id" : 3,
+    "aqlPath" : "/context/setting|code",
+    "path" : "reisehistorie/context/setting|code",
+    "type" : "TEXT"
+  }, {
+    "id" : 4,
+    "aqlPath" : "/context/setting|value",
+    "path" : "reisehistorie/context/setting|value",
+    "type" : "TEXT"
+  }, {
+    "id" : 5,
+    "aqlPath" : "/content[openEHR-EHR-ADMIN_ENTRY.travel_event.v0,'Reisehistorie']/data[at0001]/items[at0022,'Reise angetreten?']/value|code",
+    "path" : "reisehistorie/reisehistorie/reise_angetreten|code",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 6,
+    "aqlPath" : "/content[openEHR-EHR-ADMIN_ENTRY.travel_event.v0,'Reisehistorie']/data[at0001]/items[at0010]/items[at0011]/value",
+    "path" : "reisehistorie/reisehistorie/bestimmtes_reiseziel/land",
+    "type" : "TEXT"
+  }, {
+    "id" : 7,
+    "aqlPath" : "/content[openEHR-EHR-ADMIN_ENTRY.travel_event.v0,'Reisehistorie']/data[at0001]/items[at0010]/items[at0012]/value",
+    "path" : "reisehistorie/reisehistorie/bestimmtes_reiseziel/bundesland_region",
+    "type" : "TEXT"
+  }, {
+    "id" : 8,
+    "aqlPath" : "/content[openEHR-EHR-ADMIN_ENTRY.travel_event.v0,'Reisehistorie']/data[at0001]/items[at0010]/items[at0013]/value",
+    "path" : "reisehistorie/reisehistorie/bestimmtes_reiseziel/stadt",
+    "type" : "TEXT"
+  }, {
+    "id" : 9,
+    "aqlPath" : "/content[openEHR-EHR-ADMIN_ENTRY.travel_event.v0,'Reisehistorie']/data[at0001]/items[at0010]/items[at0014]/value",
+    "path" : "reisehistorie/reisehistorie/bestimmtes_reiseziel/einreisedatum",
+    "type" : "DATETIME"
+  }, {
+    "id" : 10,
+    "aqlPath" : "/content[openEHR-EHR-ADMIN_ENTRY.travel_event.v0,'Reisehistorie']/data[at0001]/items[at0010]/items[at0015]/value",
+    "path" : "reisehistorie/reisehistorie/bestimmtes_reiseziel/abfahrtsdatum",
+    "type" : "DATETIME"
+  }, {
+    "id" : 11,
+    "aqlPath" : "/content[openEHR-EHR-ADMIN_ENTRY.travel_event.v0,'Reisehistorie']/language",
+    "path" : "reisehistorie/reisehistorie/language",
+    "type" : "TEXT"
+  }, {
+    "id" : 12,
+    "aqlPath" : "/content[openEHR-EHR-ADMIN_ENTRY.travel_event.v0,'Reisehistorie']/encoding",
+    "path" : "reisehistorie/reisehistorie/encoding",
+    "type" : "TEXT"
+  }, {
+    "id" : 13,
+    "aqlPath" : "/content[openEHR-EHR-ADMIN_ENTRY.travel_event.v0,'Reisehistorie']/subject|id",
+    "path" : "reisehistorie/reisehistorie/subject|id",
+    "type" : "TEXT"
+  }, {
+    "id" : 14,
+    "aqlPath" : "/content[openEHR-EHR-ADMIN_ENTRY.travel_event.v0,'Reisehistorie']/subject|id_scheme",
+    "path" : "reisehistorie/reisehistorie/subject|id_scheme",
+    "type" : "TEXT"
+  }, {
+    "id" : 15,
+    "aqlPath" : "/content[openEHR-EHR-ADMIN_ENTRY.travel_event.v0,'Reisehistorie']/subject|id_namespace",
+    "path" : "reisehistorie/reisehistorie/subject|id_namespace",
+    "type" : "TEXT"
+  }, {
+    "id" : 16,
+    "aqlPath" : "/content[openEHR-EHR-ADMIN_ENTRY.travel_event.v0,'Reisehistorie']/subject|name",
+    "path" : "reisehistorie/reisehistorie/subject|name",
+    "type" : "TEXT"
+  }, {
+    "id" : 17,
+    "aqlPath" : "/content[openEHR-EHR-EVALUATION.exclusion_specific.v1,'Keine Reisehistorie']/data[at0001]/items[at0002]/value|code",
+    "path" : "reisehistorie/keine_reisehistorie/aussage_über_den_ausschluss|code",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 18,
+    "aqlPath" : "/content[openEHR-EHR-EVALUATION.exclusion_specific.v1,'Keine Reisehistorie']/data[at0001]/items[at0003,'Problem/Diagnose']/value|code",
+    "path" : "reisehistorie/keine_reisehistorie/problem_diagnose|code",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 19,
+    "aqlPath" : "/content[openEHR-EHR-EVALUATION.exclusion_specific.v1,'Keine Reisehistorie']/language",
+    "path" : "reisehistorie/keine_reisehistorie/language",
+    "type" : "TEXT"
+  }, {
+    "id" : 20,
+    "aqlPath" : "/content[openEHR-EHR-EVALUATION.exclusion_specific.v1,'Keine Reisehistorie']/encoding",
+    "path" : "reisehistorie/keine_reisehistorie/encoding",
+    "type" : "TEXT"
+  }, {
+    "id" : 21,
+    "aqlPath" : "/content[openEHR-EHR-EVALUATION.exclusion_specific.v1,'Keine Reisehistorie']/subject|id",
+    "path" : "reisehistorie/keine_reisehistorie/subject|id",
+    "type" : "TEXT"
+  }, {
+    "id" : 22,
+    "aqlPath" : "/content[openEHR-EHR-EVALUATION.exclusion_specific.v1,'Keine Reisehistorie']/subject|id_scheme",
+    "path" : "reisehistorie/keine_reisehistorie/subject|id_scheme",
+    "type" : "TEXT"
+  }, {
+    "id" : 23,
+    "aqlPath" : "/content[openEHR-EHR-EVALUATION.exclusion_specific.v1,'Keine Reisehistorie']/subject|id_namespace",
+    "path" : "reisehistorie/keine_reisehistorie/subject|id_namespace",
+    "type" : "TEXT"
+  }, {
+    "id" : 24,
+    "aqlPath" : "/content[openEHR-EHR-EVALUATION.exclusion_specific.v1,'Keine Reisehistorie']/subject|name",
+    "path" : "reisehistorie/keine_reisehistorie/subject|name",
+    "type" : "TEXT"
+  }, {
+    "id" : 25,
+    "aqlPath" : "/content[openEHR-EHR-EVALUATION.absence.v2,'Unbekannte Reisehistorie']/data[at0001]/items[at0002,'Fehlende Information']/value|code",
+    "path" : "reisehistorie/unbekannte_reisehistorie/fehlende_information|code",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 26,
+    "aqlPath" : "/content[openEHR-EHR-EVALUATION.absence.v2,'Unbekannte Reisehistorie']/data[at0001]/items[at0005,'Aussage über die fehlende Information']/value|code",
+    "path" : "reisehistorie/unbekannte_reisehistorie/aussage_über_die_fehlende_information|code",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 27,
+    "aqlPath" : "/content[openEHR-EHR-EVALUATION.absence.v2,'Unbekannte Reisehistorie']/language",
+    "path" : "reisehistorie/unbekannte_reisehistorie/language",
+    "type" : "TEXT"
+  }, {
+    "id" : 28,
+    "aqlPath" : "/content[openEHR-EHR-EVALUATION.absence.v2,'Unbekannte Reisehistorie']/encoding",
+    "path" : "reisehistorie/unbekannte_reisehistorie/encoding",
+    "type" : "TEXT"
+  }, {
+    "id" : 29,
+    "aqlPath" : "/content[openEHR-EHR-EVALUATION.absence.v2,'Unbekannte Reisehistorie']/subject|id",
+    "path" : "reisehistorie/unbekannte_reisehistorie/subject|id",
+    "type" : "TEXT"
+  }, {
+    "id" : 30,
+    "aqlPath" : "/content[openEHR-EHR-EVALUATION.absence.v2,'Unbekannte Reisehistorie']/subject|id_scheme",
+    "path" : "reisehistorie/unbekannte_reisehistorie/subject|id_scheme",
+    "type" : "TEXT"
+  }, {
+    "id" : 31,
+    "aqlPath" : "/content[openEHR-EHR-EVALUATION.absence.v2,'Unbekannte Reisehistorie']/subject|id_namespace",
+    "path" : "reisehistorie/unbekannte_reisehistorie/subject|id_namespace",
+    "type" : "TEXT"
+  }, {
+    "id" : 32,
+    "aqlPath" : "/content[openEHR-EHR-EVALUATION.absence.v2,'Unbekannte Reisehistorie']/subject|name",
+    "path" : "reisehistorie/unbekannte_reisehistorie/subject|name",
+    "type" : "TEXT"
+  }, {
+    "id" : 33,
+    "aqlPath" : "/category|code",
+    "path" : "reisehistorie/category|code",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 34,
+    "aqlPath" : "/language",
+    "path" : "reisehistorie/language",
+    "type" : "TEXT"
+  }, {
+    "id" : 35,
+    "aqlPath" : "/territory",
+    "path" : "reisehistorie/territory",
+    "type" : "TEXT"
+  }, {
+    "id" : 36,
+    "aqlPath" : "/composer|id",
+    "path" : "reisehistorie/composer|id",
+    "type" : "TEXT"
+  }, {
+    "id" : 37,
+    "aqlPath" : "/composer|id_scheme",
+    "path" : "reisehistorie/composer|id_scheme",
+    "type" : "TEXT"
+  }, {
+    "id" : 38,
+    "aqlPath" : "/composer|id_namespace",
+    "path" : "reisehistorie/composer|id_namespace",
+    "type" : "TEXT"
+  }, {
+    "id" : 39,
+    "aqlPath" : "/composer|name",
+    "path" : "reisehistorie/composer|name",
+    "type" : "TEXT"
+  } ]
+}

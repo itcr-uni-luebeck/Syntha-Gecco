@@ -1,0 +1,204 @@
+{
+  "templateName" : "Symptom",
+  "paths" : [ {
+    "id" : 0,
+    "aqlPath" : "/context/other_context[at0001]/items[at0004]/value|code",
+    "path" : "covid-19_symptom/context/status|code",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 1,
+    "aqlPath" : "/context/other_context[at0001]/items[at0005]/value|code",
+    "path" : "covid-19_symptom/context/kategorie|code",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 2,
+    "aqlPath" : "/context/start_time",
+    "path" : "covid-19_symptom/context/start_time",
+    "type" : "DATETIME"
+  }, {
+    "id" : 3,
+    "aqlPath" : "/context/setting|code",
+    "path" : "covid-19_symptom/context/setting|code",
+    "type" : "TEXT"
+  }, {
+    "id" : 4,
+    "aqlPath" : "/context/setting|value",
+    "path" : "covid-19_symptom/context/setting|value",
+    "type" : "TEXT"
+  }, {
+    "id" : 5,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.symptom_sign.v0,'Vorliegendes Symptom']/data[at0190]/events[at0191]/data[at0192]/items[at0001]/value|code",
+    "path" : "covid-19_symptom/vorliegendes_symptom/name_des_symptoms_krankheitsanzeichens|code",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 6,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.symptom_sign.v0,'Vorliegendes Symptom']/data[at0190]/events[at0191]/data[at0192]/items[at0151]/value",
+    "path" : "covid-19_symptom/vorliegendes_symptom/anatomische_lokalisation",
+    "type" : "TEXT"
+  }, {
+    "id" : 7,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.symptom_sign.v0,'Vorliegendes Symptom']/data[at0190]/events[at0191]/data[at0192]/items[at0152]/value",
+    "path" : "covid-19_symptom/vorliegendes_symptom/beginn_der_episode",
+    "type" : "DATETIME"
+  }, {
+    "id" : 8,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.symptom_sign.v0,'Vorliegendes Symptom']/data[at0190]/events[at0191]/data[at0192]/items[at0021]/value|code",
+    "path" : "covid-19_symptom/vorliegendes_symptom/schweregrad|code",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 9,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.symptom_sign.v0,'Vorliegendes Symptom']/data[at0190]/events[at0191]/data[at0192]/items[at0161]/value",
+    "path" : "covid-19_symptom/vorliegendes_symptom/datum_uhrzeit_des_rückgangs",
+    "type" : "DATETIME"
+  }, {
+    "id" : 10,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.symptom_sign.v0,'Vorliegendes Symptom']/data[at0190]/events[at0191]/time",
+    "path" : "covid-19_symptom/vorliegendes_symptom/time",
+    "type" : "DATETIME"
+  }, {
+    "id" : 11,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.symptom_sign.v0,'Vorliegendes Symptom']/language",
+    "path" : "covid-19_symptom/vorliegendes_symptom/language",
+    "type" : "TEXT"
+  }, {
+    "id" : 12,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.symptom_sign.v0,'Vorliegendes Symptom']/encoding",
+    "path" : "covid-19_symptom/vorliegendes_symptom/encoding",
+    "type" : "TEXT"
+  }, {
+    "id" : 13,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.symptom_sign.v0,'Vorliegendes Symptom']/subject|id",
+    "path" : "covid-19_symptom/vorliegendes_symptom/subject|id",
+    "type" : "TEXT"
+  }, {
+    "id" : 14,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.symptom_sign.v0,'Vorliegendes Symptom']/subject|id_scheme",
+    "path" : "covid-19_symptom/vorliegendes_symptom/subject|id_scheme",
+    "type" : "TEXT"
+  }, {
+    "id" : 15,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.symptom_sign.v0,'Vorliegendes Symptom']/subject|id_namespace",
+    "path" : "covid-19_symptom/vorliegendes_symptom/subject|id_namespace",
+    "type" : "TEXT"
+  }, {
+    "id" : 16,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.symptom_sign.v0,'Vorliegendes Symptom']/subject|name",
+    "path" : "covid-19_symptom/vorliegendes_symptom/subject|name",
+    "type" : "TEXT"
+  }, {
+    "id" : 17,
+    "aqlPath" : "/content[openEHR-EHR-EVALUATION.exclusion_specific.v1,'Ausgeschlossenes Symptom']/data[at0001]/items[at0002]/value|code",
+    "path" : "covid-19_symptom/ausgeschlossenes_symptom/aussage_über_den_ausschluss|code",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 18,
+    "aqlPath" : "/content[openEHR-EHR-EVALUATION.exclusion_specific.v1,'Ausgeschlossenes Symptom']/data[at0001]/items[at0003,'Problem/Diagnose']/value|code",
+    "path" : "covid-19_symptom/ausgeschlossenes_symptom/problem_diagnose|code",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 19,
+    "aqlPath" : "/content[openEHR-EHR-EVALUATION.exclusion_specific.v1,'Ausgeschlossenes Symptom']/language",
+    "path" : "covid-19_symptom/ausgeschlossenes_symptom/language",
+    "type" : "TEXT"
+  }, {
+    "id" : 20,
+    "aqlPath" : "/content[openEHR-EHR-EVALUATION.exclusion_specific.v1,'Ausgeschlossenes Symptom']/encoding",
+    "path" : "covid-19_symptom/ausgeschlossenes_symptom/encoding",
+    "type" : "TEXT"
+  }, {
+    "id" : 21,
+    "aqlPath" : "/content[openEHR-EHR-EVALUATION.exclusion_specific.v1,'Ausgeschlossenes Symptom']/subject|id",
+    "path" : "covid-19_symptom/ausgeschlossenes_symptom/subject|id",
+    "type" : "TEXT"
+  }, {
+    "id" : 22,
+    "aqlPath" : "/content[openEHR-EHR-EVALUATION.exclusion_specific.v1,'Ausgeschlossenes Symptom']/subject|id_scheme",
+    "path" : "covid-19_symptom/ausgeschlossenes_symptom/subject|id_scheme",
+    "type" : "TEXT"
+  }, {
+    "id" : 23,
+    "aqlPath" : "/content[openEHR-EHR-EVALUATION.exclusion_specific.v1,'Ausgeschlossenes Symptom']/subject|id_namespace",
+    "path" : "covid-19_symptom/ausgeschlossenes_symptom/subject|id_namespace",
+    "type" : "TEXT"
+  }, {
+    "id" : 24,
+    "aqlPath" : "/content[openEHR-EHR-EVALUATION.exclusion_specific.v1,'Ausgeschlossenes Symptom']/subject|name",
+    "path" : "covid-19_symptom/ausgeschlossenes_symptom/subject|name",
+    "type" : "TEXT"
+  }, {
+    "id" : 25,
+    "aqlPath" : "/content[openEHR-EHR-EVALUATION.absence.v2,'Unbekanntes Symptom']/data[at0001]/items[at0002,'Unbekanntes Symptom']/value|code",
+    "path" : "covid-19_symptom/unbekanntes_symptom/unbekanntes_symptom|code",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 26,
+    "aqlPath" : "/content[openEHR-EHR-EVALUATION.absence.v2,'Unbekanntes Symptom']/data[at0001]/items[at0005,'Aussage über die fehlende Information']/value|code",
+    "path" : "covid-19_symptom/unbekanntes_symptom/aussage_über_die_fehlende_information|code",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 27,
+    "aqlPath" : "/content[openEHR-EHR-EVALUATION.absence.v2,'Unbekanntes Symptom']/language",
+    "path" : "covid-19_symptom/unbekanntes_symptom/language",
+    "type" : "TEXT"
+  }, {
+    "id" : 28,
+    "aqlPath" : "/content[openEHR-EHR-EVALUATION.absence.v2,'Unbekanntes Symptom']/encoding",
+    "path" : "covid-19_symptom/unbekanntes_symptom/encoding",
+    "type" : "TEXT"
+  }, {
+    "id" : 29,
+    "aqlPath" : "/content[openEHR-EHR-EVALUATION.absence.v2,'Unbekanntes Symptom']/subject|id",
+    "path" : "covid-19_symptom/unbekanntes_symptom/subject|id",
+    "type" : "TEXT"
+  }, {
+    "id" : 30,
+    "aqlPath" : "/content[openEHR-EHR-EVALUATION.absence.v2,'Unbekanntes Symptom']/subject|id_scheme",
+    "path" : "covid-19_symptom/unbekanntes_symptom/subject|id_scheme",
+    "type" : "TEXT"
+  }, {
+    "id" : 31,
+    "aqlPath" : "/content[openEHR-EHR-EVALUATION.absence.v2,'Unbekanntes Symptom']/subject|id_namespace",
+    "path" : "covid-19_symptom/unbekanntes_symptom/subject|id_namespace",
+    "type" : "TEXT"
+  }, {
+    "id" : 32,
+    "aqlPath" : "/content[openEHR-EHR-EVALUATION.absence.v2,'Unbekanntes Symptom']/subject|name",
+    "path" : "covid-19_symptom/unbekanntes_symptom/subject|name",
+    "type" : "TEXT"
+  }, {
+    "id" : 33,
+    "aqlPath" : "/category|code",
+    "path" : "covid-19_symptom/category|code",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 34,
+    "aqlPath" : "/language",
+    "path" : "covid-19_symptom/language",
+    "type" : "TEXT"
+  }, {
+    "id" : 35,
+    "aqlPath" : "/territory",
+    "path" : "covid-19_symptom/territory",
+    "type" : "TEXT"
+  }, {
+    "id" : 36,
+    "aqlPath" : "/composer|id",
+    "path" : "covid-19_symptom/composer|id",
+    "type" : "TEXT"
+  }, {
+    "id" : 37,
+    "aqlPath" : "/composer|id_scheme",
+    "path" : "covid-19_symptom/composer|id_scheme",
+    "type" : "TEXT"
+  }, {
+    "id" : 38,
+    "aqlPath" : "/composer|id_namespace",
+    "path" : "covid-19_symptom/composer|id_namespace",
+    "type" : "TEXT"
+  }, {
+    "id" : 39,
+    "aqlPath" : "/composer|name",
+    "path" : "covid-19_symptom/composer|name",
+    "type" : "TEXT"
+  } ]
+}

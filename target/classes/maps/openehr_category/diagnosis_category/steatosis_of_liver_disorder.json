@@ -1,0 +1,50 @@
+{
+  "system" : "SNOMED Clinical Terms",
+  "code" : "197321007",
+  "description" : "",
+  "children" : [ {
+    "system" : "http://snomed.info/sct",
+    "code" : "716379000",
+    "display" : "Acute fatty liver of pregnancy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "50325005",
+    "display" : "Alcoholic fatty liver"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "765482002",
+    "display" : "Alcoholic steatohepatitis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "197294009",
+    "display" : "Fatty portal cirrhosis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "197315008",
+    "display" : "Non-alcoholic fatty liver"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "722866000",
+    "display" : "Non-alcoholic fatty liver disease without non-alcoholic steatohepatitis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "442685003",
+    "display" : "Nonalcoholic steatohepatitis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "442191002",
+    "display" : "Steatohepatitis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "197321007",
+    "display" : "Steatosis of liver"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "713529007",
+    "display" : "Steatosis of liver caused by retroviral protease inhibitor"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "773649005",
+    "display" : "Transient infantile hypertriglyceridemia and hepatosteatosis"
+  } ]
+}

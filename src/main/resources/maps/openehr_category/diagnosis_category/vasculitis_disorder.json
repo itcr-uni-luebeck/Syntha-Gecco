@@ -1,0 +1,1402 @@
+{
+  "system" : "SNOMED Clinical Terms",
+  "code" : "31996006",
+  "description" : "",
+  "children" : [ {
+    "system" : "http://snomed.info/sct",
+    "code" : "75053002",
+    "display" : "Acute febrile mucocutaneous lymph node syndrome"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "402856005",
+    "display" : "Acute hemorrhagic edema of childhood"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "2367005",
+    "display" : "Acute hemorrhagic gastritis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "1155919006",
+    "display" : "Acute rheumatic aortitis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "722191003",
+    "display" : "Antineutrophil cytoplasmic antibody positive vasculitis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "70933002",
+    "display" : "Aortitis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "8901009",
+    "display" : "Arteriolitis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "52089001",
+    "display" : "Arteritis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "427213005",
+    "display" : "Autoimmune vasculitis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "1144919009",
+    "display" : "Behcet disease of eye"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "1144914004",
+    "display" : "Behcet disease of skin"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "239922003",
+    "display" : "Behcet's disease with multisystem involvement"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "239921005",
+    "display" : "Behcet's disease with organ/system involvement"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "310701003",
+    "display" : "Behcet's syndrome"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "57484009",
+    "display" : "Behcet's syndrome, complete type"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "53485006",
+    "display" : "Behcet's syndrome, incomplete type"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "54034003",
+    "display" : "Behcet's syndrome, intestinal type"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "21542005",
+    "display" : "Behcet's syndrome, neurologic type"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "3275009",
+    "display" : "Behcet's syndrome, vascular type"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "403443000",
+    "display" : "Behçet's disease affecting oral mucosa"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "58144006",
+    "display" : "Benign cutaneous periarteritis nodosa"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "16012191000119104",
+    "display" : "Bilateral deep femoral vein thrombophlebitis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "16012031000119104",
+    "display" : "Bilateral femoral vein thrombophlebitis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "15968901000119104",
+    "display" : "Bilateral iliac vein thrombophlebitis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "16025511000119103",
+    "display" : "Bilateral jugular vein thrombophlebitis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "16014591000119103",
+    "display" : "Bilateral lower limb superficial vein thrombophlebitis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "16014311000119102",
+    "display" : "Bilateral lower limb vein thrombophlebitis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "343801000119100",
+    "display" : "Bilateral retinal vasculitis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "16012311000119106",
+    "display" : "Bilateral tibial vein thrombophlebitis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "16006111000119107",
+    "display" : "Bilateral upper limb superficial vein thrombophlebitis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "16006351000119106",
+    "display" : "Bilateral upper limb vein thrombophlebitis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "85461008",
+    "display" : "Capillaritis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "402746001",
+    "display" : "Capillaritis due to drug"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "28366008",
+    "display" : "Cerebral arteritis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "703311009",
+    "display" : "Cerebral arteritis due to infectious disease"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "230732009",
+    "display" : "Cerebral arteritis in giant cell arteritis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "230731002",
+    "display" : "Cerebral arteritis in systemic vasculitis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "711435001",
+    "display" : "Chronic migratory panniculitis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "197712008",
+    "display" : "Chronic nephritic syndrome, diffuse endocapillary proliferative glomerulonephritis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "257812009",
+    "display" : "Chronic peri-aortitis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "405810005",
+    "display" : "Cogan's syndrome"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "62827000",
+    "display" : "Coronary arteritis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "190815001",
+    "display" : "Cryoglobulinemic vasculitis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "718217000",
+    "display" : "Cutaneous leukocytoclastic angiitis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "239926000",
+    "display" : "Cutaneous polyarteritis nodosa"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "840455002",
+    "display" : "Cutaneous vasculitis due to childhood type dermatomyositis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "16750002",
+    "display" : "Deep thrombophlebitis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "724783000",
+    "display" : "Demyelination of central nervous system co-occurrent and due to Behcet disease"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "3704008",
+    "display" : "Diffuse endocapillary proliferative glomerulonephritis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "1144809002",
+    "display" : "Disorder of respiratory system due to microscopic polyangiitis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "403616000",
+    "display" : "Drug-induced lymphocytic vasculitis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "402659000",
+    "display" : "Drug-induced necrotizing vasculitis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "54122009",
+    "display" : "Eales' disease"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "41486008",
+    "display" : "Eczematid-like purpura of Doucas and Kapetanakis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "33806008",
+    "display" : "Endarteritis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "302728008",
+    "display" : "Endarteritis deformans"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "302930003",
+    "display" : "Endarteritis obliterans"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "54771008",
+    "display" : "Endophlebitis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "55734000",
+    "display" : "Endophlebitis of basilar sinus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "73390009",
+    "display" : "Endophlebitis of cavernous venous sinus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "61687004",
+    "display" : "Endophlebitis of inferior sagittal sinus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "87937009",
+    "display" : "Endophlebitis of intracranial venous sinus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "16061002",
+    "display" : "Endophlebitis of lateral venous sinus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "75138007",
+    "display" : "Endophlebitis of superior sagittal sinus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "80901002",
+    "display" : "Endophlebitis of torcular Herophili"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "82275008",
+    "display" : "Eosinophilic granulomatosis with polyangiitis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "427356003",
+    "display" : "Eosinophilic vasculitis of skin"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "76097009",
+    "display" : "Erythema nodosum migrans"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "403189002",
+    "display" : "Erythrocyanosis with nodules"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "239947001",
+    "display" : "Essential mixed cryoglobulinemia"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "254757003",
+    "display" : "Extracellular cholesterosis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "238783008",
+    "display" : "Familial pigmented purpuric eruption"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "414297000",
+    "display" : "Frosted branch angiitis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "239938009",
+    "display" : "Giant cell arteritis with polymyalgia rheumatica"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "239939001",
+    "display" : "Giant cell arteritis without polymyalgia rheumatica"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "101711000119105",
+    "display" : "Glomerulonephritis co-occurrent and due to antineutrophil cytoplasmic antibody positive vasculitis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "402958005",
+    "display" : "Gonococcal bacteremia-induced pustular vasculitis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "238786000",
+    "display" : "Gougerot-Ruiter purpura"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "195353004",
+    "display" : "Granulomatosis with polyangiitis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "235000001",
+    "display" : "Granulomatosis with polyangiitis of gingiva"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "232460001",
+    "display" : "Granulomatosis with polyangiitis of larynx"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "232369001",
+    "display" : "Granulomatosis with polyangiitis of nose"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "239936008",
+    "display" : "Granulomatosis with polyangiitis with multisystem involvement"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "230734005",
+    "display" : "Granulomatous angiitis of central nervous system"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "409506009",
+    "display" : "Hemorrhagic gastroenteritis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "367531000119106",
+    "display" : "Hereditary diffuse endocapillary proliferative glomerulonephritis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "9177003",
+    "display" : "Histiocytic vasculitis of skin"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "721226005",
+    "display" : "Hughes Stovin syndrome"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "60555002",
+    "display" : "Hypersensitivity angiitis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "239945009",
+    "display" : "Hypocomplementemic urticarial vasculitis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "239937004",
+    "display" : "Idiopathic aortitis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "238780006",
+    "display" : "Idiopathic capillaritis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "762302008",
+    "display" : "Immune complex small vessel vasculitis caused by drug"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "1144932004",
+    "display" : "Immune complex small vessel vasculitis due to infectious disease"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "191306005",
+    "display" : "Immunoglobulin A vasculitis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "238806009",
+    "display" : "Infantile acute hemorrhagic edema"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "459064009",
+    "display" : "Infectious endarteritis of arterial duct"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "312383007",
+    "display" : "Infective aortitis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "459163001",
+    "display" : "Infective endarteritis at site of aortic coarctation"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "459173004",
+    "display" : "Infective endarteritis at site of aortopulmonary window"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "710944000",
+    "display" : "Inflammation of fetal umbilical artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "314186008",
+    "display" : "Inflammatory abdominal aortic aneurysm"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "737184001",
+    "display" : "Interstitial lung disease with systemic vasculitis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "302878004",
+    "display" : "Intracranial septic thrombophlebitis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "312586003",
+    "display" : "Intracranial thrombophlebitis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "783090002",
+    "display" : "IRVAN syndrome"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "230733004",
+    "display" : "Isolated angiitis of central nervous system"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "1149218009",
+    "display" : "Isolated nailfold rheumatoid vasculitis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "707436001",
+    "display" : "Isolated pulmonary capillaritis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "238781005",
+    "display" : "Itching purpura"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "195363007",
+    "display" : "Juvenile polyarteritis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "722020006",
+    "display" : "Juvenile temporal arteritis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "15968861000119105",
+    "display" : "Left iliac vein thrombophlebitis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "16014631000119103",
+    "display" : "Left lower limb vein thrombophlebitis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "961792901000119102",
+    "display" : "Left peroneal vein thrombophlebitis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "16024311000119107",
+    "display" : "Left subclavian vein thrombophlebitis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "238782003",
+    "display" : "Lichen aureus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "239935007",
+    "display" : "Limited granulomatosis with polyangiitis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "51696001",
+    "display" : "Lipogranulomatosis subcutanea of Rothmann and Makai"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "186317009",
+    "display" : "Listerial cerebral arteritis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "238762002",
+    "display" : "Livedoid vasculitis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "762537007",
+    "display" : "Livedoid vasculitis of lower limb due to varicose veins of lower limb"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "402664001",
+    "display" : "Localized cutaneous vasculitis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "403511003",
+    "display" : "Lupus erythematosus-associated necrotizing vasculitis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "403510002",
+    "display" : "Lupus erythematosus-associated urticarial vasculitis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "239944008",
+    "display" : "Lupus vasculitis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "46286007",
+    "display" : "Lymphocytic vasculitis of skin"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "1144805008",
+    "display" : "Microscopic polyangiitis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "361278002",
+    "display" : "Mondor's phlebitis of the penis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "399980009",
+    "display" : "Necrotizing arteritis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "402655006",
+    "display" : "Necrotizing cutaneous vasculitis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "870336006",
+    "display" : "Necrotizing cutaneous vasculitis due to childhood type dermatomyositis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "11791001",
+    "display" : "Necrotizing vasculitis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "402662002",
+    "display" : "Necrotizing vasculitis due to mixed cryoglobulinemia"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "402859003",
+    "display" : "Necrotizing vasculitis of undetermined etiology"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "402657003",
+    "display" : "Necrotizing vasculitis secondary to connective tissue disease"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "402660005",
+    "display" : "Necrotizing vasculitis secondary to infection"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "64832003",
+    "display" : "Neutrophilic vasculitis of skin"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "55275006",
+    "display" : "Nodular vasculitis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "402855009",
+    "display" : "Normocomplementemic urticarial vasculitis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "231847000",
+    "display" : "Orbital thrombophlebitis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "402661009",
+    "display" : "Paraneoplastic vasculitis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "67486009",
+    "display" : "Pelvic thrombophlebitis in puerperium"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "76805007",
+    "display" : "Periarteritis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "36675003",
+    "display" : "Periphlebitis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "714818009",
+    "display" : "Persistent hematuria co-occurrent and due to diffuse endocapillary proliferative glomerulonephritis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "61599003",
+    "display" : "Phlebitis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "213308006",
+    "display" : "Phlebitis after infusion"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "213218003",
+    "display" : "Phlebitis as a complication of care"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "192764007",
+    "display" : "Phlebitis cavernous sinus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "789668008",
+    "display" : "Phlebitis due to procedure"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "789669000",
+    "display" : "Phlebitis during procedure"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "789666007",
+    "display" : "Phlebitis following perfusion"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "789667003",
+    "display" : "Phlebitis following transfusion"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "1148583001",
+    "display" : "Phlebitis in pregnancy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "237343001",
+    "display" : "Phlebitis in puerperium"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "15705007",
+    "display" : "Phlebitis of basilar sinus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "77535002",
+    "display" : "Phlebitis of deep femoral vein"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "25114006",
+    "display" : "Phlebitis of deep veins of lower extremity"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "770112002",
+    "display" : "Phlebitis of dorsal venous arch of foot"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "35979000",
+    "display" : "Phlebitis of femoropopliteal vein"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "31295000",
+    "display" : "Phlebitis of iliac vein"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "32112006",
+    "display" : "Phlebitis of inferior sagittal sinus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "18058007",
+    "display" : "Phlebitis of intracranial venous sinus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "88755007",
+    "display" : "Phlebitis of lateral venous sinus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "312588002",
+    "display" : "Phlebitis of lower limb vein"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "195405004",
+    "display" : "Phlebitis of popliteal vein"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "85514005",
+    "display" : "Phlebitis of portal vein"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "72565004",
+    "display" : "Phlebitis of superficial veins of lower extremity"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "192765008",
+    "display" : "Phlebitis of superior longitudinal sinus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "4262001",
+    "display" : "Phlebitis of superior sagittal sinus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "195406003",
+    "display" : "Phlebitis of the anterior tibial vein"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "195421009",
+    "display" : "Phlebitis of the common iliac vein"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "195423007",
+    "display" : "Phlebitis of the external iliac vein"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "195404000",
+    "display" : "Phlebitis of the femoral vein"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "195422002",
+    "display" : "Phlebitis of the internal iliac vein"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "195408002",
+    "display" : "Phlebitis of the posterior tibial vein"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "58309001",
+    "display" : "Phlebitis of tibial vein"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "60706008",
+    "display" : "Phlebitis of torcular Herophili"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "20343006",
+    "display" : "Pigmented purpuric lichenoid dermatitis of Gougerot and Blum"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "239931003",
+    "display" : "Polyangiitis overlap syndrome"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "20258000",
+    "display" : "Polyarteritis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "155441006",
+    "display" : "Polyarteritis nodosa"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "239927009",
+    "display" : "Polyarteritis nodosa with multi-organ involvement"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "239925001",
+    "display" : "Polyarteritis nodosa with single organ involvement"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "444819004",
+    "display" : "Polyarteritis of kidney"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "67656006",
+    "display" : "Portal pyemia"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "24805007",
+    "display" : "Portal thrombophlebitis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "239946005",
+    "display" : "Postinfective immunoglobulin A vasculitis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "195299000",
+    "display" : "Presenile gangrene"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "699814001",
+    "display" : "Primary angiitis of central nervous system"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "703312002",
+    "display" : "Primary cerebral arteritis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "238785001",
+    "display" : "Primary cutaneous vasculitis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "239924002",
+    "display" : "Primary necrotizing systemic vasculitis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "407529009",
+    "display" : "Primary systemic arteritis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "407530004",
+    "display" : "Primary systemic vasculitis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "64146000",
+    "display" : "Progressive pigmentary dermatosis of Schamberg"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "17993000",
+    "display" : "Pulmonary arteritis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "707437005",
+    "display" : "Pulmonary capillaritis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "76846002",
+    "display" : "Pulmonary endarteritis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "56231002",
+    "display" : "Purpura annularis telangiectodes of Majocchi"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "402663007",
+    "display" : "Pustular vasculitis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "234047000",
+    "display" : "Radiation thrombophlebitis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "714817004",
+    "display" : "Recurrent hematuria co-occurrent and due to diffuse endocapillary proliferative glomerulonephritis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "234048005",
+    "display" : "Recurrent idiopathic thrombophlebitis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "95578000",
+    "display" : "Renal vasculitis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "417019000",
+    "display" : "Retinal arteriolitis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "11255009",
+    "display" : "Retinal arteritis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "86191000",
+    "display" : "Retinal endarteritis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "7089008",
+    "display" : "Retinal phlebitis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "77628002",
+    "display" : "Retinal vasculitis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "416703007",
+    "display" : "Retinal vasculitis due to polyarteritis nodosa"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "417303004",
+    "display" : "Retinal vasculitis due to systemic lupus erythematosus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "338031000119109",
+    "display" : "Retinal vasculitis of left eye"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "332421000119101",
+    "display" : "Retinal vasculitis of right eye"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "38877003",
+    "display" : "Rheumatoid aortitis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "399923009",
+    "display" : "Rheumatoid arteritis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "402433007",
+    "display" : "Rheumatoid arthritis with nailfold/finger-pulp infarcts"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "239943002",
+    "display" : "Rheumatoid necrotizing vasculitis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "400054000",
+    "display" : "Rheumatoid vasculitis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "15968821000119100",
+    "display" : "Right iliac vein thrombophlebitis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "16014471000119103",
+    "display" : "Right lower limb vein thrombophlebitis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "104346171000119109",
+    "display" : "Right peroneal vein thrombophlebitis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "16024351000119108",
+    "display" : "Right subclavian vein thrombophlebitis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "234039000",
+    "display" : "Saphenous vein phlebitis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "234040003",
+    "display" : "Saphenous vein thrombophlebitis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "403518009",
+    "display" : "Scleroderma-associated necrotizing vasculitis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "239948006",
+    "display" : "Secondary aortitis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "238787009",
+    "display" : "Secondary cutaneous vasculitis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "234019004",
+    "display" : "Secondary systemic vasculitis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "56780006",
+    "display" : "Segmental hyalinizing vasculitis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "417544004",
+    "display" : "Segmental retinal periarteritis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "5534004",
+    "display" : "Senile arteritis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "111291001",
+    "display" : "Senile endarteritis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "439731006",
+    "display" : "Septic thrombophlebitis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "10759191000119106",
+    "display" : "Septic thrombophlebitis in puerperium"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "302879007",
+    "display" : "Septic thrombophlebitis of cavernous sinus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "230224002",
+    "display" : "Septic thrombophlebitis of cortical vein"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "230225001",
+    "display" : "Septic thrombophlebitis of great cerebral vein"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "302881009",
+    "display" : "Septic thrombophlebitis of lateral sinus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "302880005",
+    "display" : "Septic thrombophlebitis of sagittal sinus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "230223008",
+    "display" : "Septic thrombophlebitis of sigmoid sinus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "230222003",
+    "display" : "Septic thrombophlebitis of straight sinus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "402658008",
+    "display" : "Serum sickness type vasculitis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "724602004",
+    "display" : "Single organ vasculitis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "724599009",
+    "display" : "Small vessel vasculitis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "724600007",
+    "display" : "Small vessel vasculitis caused by immune complex"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "711164003",
+    "display" : "STING-associated vasculopathy with onset in infancy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "72930009",
+    "display" : "Superficial migratory thrombophlebitis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "2477008",
+    "display" : "Superficial thrombophlebitis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "308136002",
+    "display" : "Superficial thrombophlebitis in pregnancy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "308137006",
+    "display" : "Superficial thrombophlebitis in puerperium"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "234037003",
+    "display" : "Superficial thrombophlebitis of basilic vein"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "234036007",
+    "display" : "Superficial thrombophlebitis of cephalic vein"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "195396009",
+    "display" : "Superficial thrombophlebitis of long saphenous vein"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "195397000",
+    "display" : "Superficial thrombophlebitis of short saphenous vein"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "77910001",
+    "display" : "Suppurative phlebitis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "20735004",
+    "display" : "Syphilitic aortitis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "230735006",
+    "display" : "Syphilitic cerebral arteritis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "95644001",
+    "display" : "Systemic lupus erythematosus encephalitis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "1149219001",
+    "display" : "Systemic rheumatoid vasculitis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "46956008",
+    "display" : "Systemic vasculitis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "359789008",
+    "display" : "Takayasu's disease"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "400130008",
+    "display" : "Temporal arteritis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "8435000",
+    "display" : "Thromboangiitis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "52403007",
+    "display" : "Thromboangiitis obliterans"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "89135007",
+    "display" : "Thromboarteritis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "64156001",
+    "display" : "Thrombophlebitis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "213310008",
+    "display" : "Thrombophlebitis after infusion"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "789672007",
+    "display" : "Thrombophlebitis due to procedure"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "789671000",
+    "display" : "Thrombophlebitis during procedure"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "789681001",
+    "display" : "Thrombophlebitis following perfusion"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "789682008",
+    "display" : "Thrombophlebitis following transfusion"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "83916000",
+    "display" : "Thrombophlebitis in puerperium"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "192772009",
+    "display" : "Thrombophlebitis lateral venous sinus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "31268005",
+    "display" : "Thrombophlebitis migrans"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "438646004",
+    "display" : "Thrombophlebitis of axillary vein"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "8166000",
+    "display" : "Thrombophlebitis of basilar sinus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "1149472000",
+    "display" : "Thrombophlebitis of bilateral lower limbs in pregnancy"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "1149473005",
+    "display" : "Thrombophlebitis of bilateral lower limbs in puerperium"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "69954004",
+    "display" : "Thrombophlebitis of breast"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "192770001",
+    "display" : "Thrombophlebitis of cavernous sinus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "192769002",
+    "display" : "Thrombophlebitis of central nervous system venous sinuses"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "95461006",
+    "display" : "Thrombophlebitis of cerebral vein"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "1748006",
+    "display" : "Thrombophlebitis of deep femoral vein"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "40198004",
+    "display" : "Thrombophlebitis of deep veins of lower extremity"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "95452006",
+    "display" : "Thrombophlebitis of deep veins of upper extremities"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "770111009",
+    "display" : "Thrombophlebitis of dorsal venous arch of foot"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "52496006",
+    "display" : "Thrombophlebitis of femoropopliteal vein"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "42861008",
+    "display" : "Thrombophlebitis of iliac vein"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "48248005",
+    "display" : "Thrombophlebitis of inferior sagittal sinus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "3168002",
+    "display" : "Thrombophlebitis of intracranial venous sinus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "15952061000119106",
+    "display" : "Thrombophlebitis of left axillary vein"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "16025551000119102",
+    "display" : "Thrombophlebitis of left jugular vein"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "16011911000119100",
+    "display" : "Thrombophlebitis of left popliteal vein"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "16011751000119102",
+    "display" : "Thrombophlebitis of left saphenous vein"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "16012271000119106",
+    "display" : "Thrombophlebitis of left tibial vein"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "46253008",
+    "display" : "Thrombophlebitis of lower extremities"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "95447001",
+    "display" : "Thrombophlebitis of mesenteric vein"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "95449003",
+    "display" : "Thrombophlebitis of pelvic vein"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "71719003",
+    "display" : "Thrombophlebitis of retinal vein"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "15952021000119101",
+    "display" : "Thrombophlebitis of right axillary vein"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "16025591000119107",
+    "display" : "Thrombophlebitis of right jugular vein"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "16011951000119104",
+    "display" : "Thrombophlebitis of right popliteal vein"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "16011791000119107",
+    "display" : "Thrombophlebitis of right saphenous vein"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "16012231000119108",
+    "display" : "Thrombophlebitis of right tibial vein"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "438483005",
+    "display" : "Thrombophlebitis of subclavian vein"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "16014551000119108",
+    "display" : "Thrombophlebitis of superficial vein of left lower limb"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "16006191000119103",
+    "display" : "Thrombophlebitis of superficial vein of left upper limb"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "16014511000119107",
+    "display" : "Thrombophlebitis of superficial vein of right lower limb"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "16006151000119108",
+    "display" : "Thrombophlebitis of superficial vein of right upper limb"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "40283005",
+    "display" : "Thrombophlebitis of superficial veins of lower extremity"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "449926001",
+    "display" : "Thrombophlebitis of superficial veins of lower leg"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "95451004",
+    "display" : "Thrombophlebitis of superficial veins of upper extremities"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "192771002",
+    "display" : "Thrombophlebitis of superior longitudinal venous sinus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "26954004",
+    "display" : "Thrombophlebitis of superior sagittal sinus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "195412008",
+    "display" : "Thrombophlebitis of the anterior tibial vein"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "195425000",
+    "display" : "Thrombophlebitis of the common iliac vein"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "195427008",
+    "display" : "Thrombophlebitis of the external iliac vein"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "195410000",
+    "display" : "Thrombophlebitis of the femoral vein"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "195426004",
+    "display" : "Thrombophlebitis of the internal iliac vein"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "95620003",
+    "display" : "Thrombophlebitis of the newborn"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "195411001",
+    "display" : "Thrombophlebitis of the popliteal vein"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "195414009",
+    "display" : "Thrombophlebitis of the posterior tibial vein"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "7387004",
+    "display" : "Thrombophlebitis of tibial vein"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "3681008",
+    "display" : "Thrombophlebitis of torcular Herophili"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "95450003",
+    "display" : "Thrombophlebitis of upper extremities"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "16006071000119100",
+    "display" : "Thrombophlebitis of vein of left upper limb"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "16006031000119103",
+    "display" : "Thrombophlebitis of vein of right upper limb"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "95445009",
+    "display" : "Thrombophlebitis of vena cava"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "1142107003",
+    "display" : "Transient neonatal Behçet disease"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "402656007",
+    "display" : "Urticarial vasculitis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "402416000",
+    "display" : "Urticarial vasculitis with monoclonal IgM component, Schnitzler"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "24366001",
+    "display" : "Varicose veins of lower extremity with inflammation"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "31996006",
+    "display" : "Vasculitis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "770687001",
+    "display" : "Vasculitis due to adenosine deaminase 2 deficiency"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "724063005",
+    "display" : "Vasculitis due to and following viral infection"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "1144956000",
+    "display" : "Vasculitis due to inflammatory bowel disease"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "1144957009",
+    "display" : "Vasculitis due to lymphoproliferative disorder"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "1144953008",
+    "display" : "Vasculitis due to malignant neoplastic disease"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "1144955001",
+    "display" : "Vasculitis due to myeloproliferative disorder"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "1144950006",
+    "display" : "Vasculitis due to Sjögren syndrome"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "724597006",
+    "display" : "Vasculitis of large artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "722858009",
+    "display" : "Vasculitis of large intestine"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "724598001",
+    "display" : "Vasculitis of medium sized vessel"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "721664001",
+    "display" : "Vasculitis of mesenteric artery"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "53312001",
+    "display" : "Vasculitis of the skin"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "234020005",
+    "display" : "Vasculitis secondary to drug"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "90971000119103",
+    "display" : "Vasculitis with glomerulonephritis"
+  } ]
+}

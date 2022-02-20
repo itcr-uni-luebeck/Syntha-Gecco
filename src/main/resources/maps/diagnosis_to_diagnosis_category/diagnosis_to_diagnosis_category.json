@@ -1,0 +1,430 @@
+{
+  "diagnosisCategories" : [
+    {
+      "categoryCode" : 0,
+      "codes" : [
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "195967001",
+          "display" : "Asthma (disorder)"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "13645005",
+          "display" : "Chronic obstructive lung disease (disorder)"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "51615001",
+          "display" : "Fibrosis of lung (disorder)"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "70995007",
+          "display" : "Pulmonary hypertension (disorder)"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "190966007",
+          "display" : "Extreme obesity with alveolar hypoventilation (disorder)"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "73430006",
+          "display" : "Sleep apnea (disorder)"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "78275009",
+          "display" : "Obstructive sleep apnea syndrome (disorder)"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "190905008",
+          "display" : "Cystic fibrosis (disorder)"
+        }
+      ]
+    },
+    {
+      "categoryCode" : 1,
+      "codes" : [
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "38341003",
+          "display" : "Hypertensive disorder, systemic arterial (disorder)"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "399211009",
+          "display" : "History of myocardial infarction (situation)"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "698247007",
+          "display" : "Cardiac arrhythmia (disorder)"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "84114007",
+          "display" : "Heart failure (disorder)"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "399957001",
+          "display" : "Peripheral arterial occlusive disease (disorder)"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "399261000",
+          "display" : "History of coronary artery bypass grafting (situation)"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "53741008",
+          "display" : "Coronary arteriosclerosis (disorder)"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "64586002",
+          "display" : "Carotid artery stenosis (disorder)"
+        }
+      ]
+    },
+    {
+      "categoryCode" : 2,
+      "codes" : [
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "197321007",
+          "display" : "Steatosis of liver (disorder)"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "19943007",
+          "display" : "Cirrhosis of liver (disorder)"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "10295004",
+          "display" : "Chronic viral hepatitis (disorder)"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "235890007",
+          "display" : "Autoimmune liver disease (disorder)"
+        }
+      ]
+    },
+    {
+      "categoryCode" : 3,
+      "codes" : [
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "69896004",
+          "display" : "Rheumatoid arthritis (disorder)"
+        }
+      ]
+    },
+    {
+      "categoryCode" : 4,
+      "codes" : [
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "24526004",
+          "display" : "Inflammatory bowel disease (disorder)"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "31996006",
+          "display" : "Vasculitis (disorder)"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "105969002",
+          "display" : "Disorder of connective tissue (disorder)"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "36138009",
+          "display" : "Congenital immunodeficiency disease (disorder)"
+        }
+      ]
+    },
+    {
+      "categoryCode" : 5,
+      "codes" : [
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "86406008",
+          "display" : "Human immunodeficiency virus infection"
+        }
+      ]
+    },
+    {
+      "categoryCode" : 6,
+      "codes" : [
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "46635009",
+          "display" : "Diabetes mellitus type 1 (disorder)"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "44054006",
+          "display" : "Diabetes mellitus type 2 (disorder)"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "237599002",
+          "display" : "Insulin treated type 2 diabetes mellitus (disorder)"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "8801005",
+          "display" : "Secondary diabetes mellitus (disorder)"
+        }
+      ]
+    },
+    {
+      "categoryCode" : 7,
+      "codes" : [
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "363346000",
+          "display" : "Malignant neoplastic disease"
+        }
+      ]
+    },
+    {
+      "categoryCode" : 8,
+      "codes" : [
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "40845000",
+          "display" : "Gastrointestinal ulcer"
+        }
+      ]
+    },
+    {
+      "categoryCode" : 9,
+      "codes" : [
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "302509004",
+          "display" : "Entire heart (body structure)"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "181216001",
+          "display" : "Entire lung (body structure)"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "181268008",
+          "display" : "Entire liver (body structure)"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "181414000",
+          "display" : "Entire kidney (body structure)"
+        },{
+          "system" : "http://snomed.info/sct",
+          "code" : "181277001",
+          "display" : "Entire pancreas (body structure)"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "113276009",
+          "display" : "Intestinal structure (body structure)"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "181250005",
+          "display" : "Entire small intestine (body structure)"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "181254001",
+          "display" : "Entire large intestine (body structure)"
+        },{
+          "system" : "http://snomed.info/sct",
+          "code" : "119181002",
+          "display" : "Skin part (body structure)"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "181162001",
+          "display" : "Entire cornea (body structure)"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "41845008",
+          "display" : "Ear ossicle structure (body structure)"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "181285005",
+          "display" : "Entire heart valve (body structure)"
+        },{
+          "system" : "http://snomed.info/sct",
+          "code" : "119206002",
+          "display" : "Blood vessel part (body structure)"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "8935007",
+          "display" : "Cerebral meninges structure (body structure)"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "3138006",
+          "display" : "Bone (tissue) structure (body structure)"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "309312004",
+          "display" : "Cartilage tissue (body structure)"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "13024002",
+          "display" : "Tendon structure (body structure)"
+        }
+      ]
+    },
+    {
+      "categoryCode" : 10,
+      "codes" : [
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "14669001",
+          "display" : "Acute renal failure syndrome (disorder)"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "439127006",
+          "display" : "Thrombosis (disorder)"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "414086009",
+          "display" : "Embolism (disorder)"
+        }
+      ]
+    },
+    {
+      "categoryCode" : 11,
+      "codes" : [
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "128283000",
+          "display" : "Chronic nervous system disorder (disorder)"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "49049000",
+          "display" : "Parkinson's disease (disorder)"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "24700007",
+          "display" : "Multiple sclerosis (disorder)"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "257277002",
+          "display" : "Combined disorder of muscle AND peripheral nerve (disorder)"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "84757009",
+          "display" : "Epilepsy (disorder)"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "440140008",
+          "display" : "History of cerebrovascular accident with residual deficit (situation)"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "429993008",
+          "display" : "History of cerebrovascular accident without residual deficits (situation)"
+        }
+      ]
+    },
+    {
+      "categoryCode" : 12,
+      "codes" : [
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "74732009",
+          "display" : "Mental disorder (disorder)"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "197480006",
+          "display" : "Anxiety disorder (disorder)"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "35489007",
+          "display" : "Depressive disorder (disorder)"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "69322001",
+          "display" : "Psychotic disorder (disorder)"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "37796009",
+          "display" : "Migraine (disorder)"
+        }
+      ]
+    },
+    {
+      "categoryCode" : 13,
+      "codes" : [
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "714152005",
+          "display" : "Chronic kidney disease stage 5 on dialysis (disorder)"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "431855005",
+          "display" : "Chronic kidney disease stage 1 (disorder)"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "431856006",
+          "display" : "Chronic kidney disease stage 2 (disorder)"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "433144002",
+          "display" : "Chronic kidney disease stage 3 (disorder)"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "431857002",
+          "display" : "Chronic kidney disease stage 4 (disorder)"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "433146000",
+          "display" : "Chronic kidney disease stage 5 (disorder)"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "709044004",
+          "display" : "Chronic kidney disease (disorder)"
+        }
+      ]
+    },
+    {
+      "categoryCode" : 14,
+      "codes" : [ ]
+    }
+  ]
+}

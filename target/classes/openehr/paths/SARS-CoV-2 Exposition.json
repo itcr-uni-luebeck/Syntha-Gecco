@@ -1,0 +1,114 @@
+{
+  "templateName" : "SARS-CoV-2 Exposition",
+  "paths" : [ {
+    "id" : 0,
+    "aqlPath" : "/context/other_context[at0001]/items[at0004]/value|code",
+    "path" : "sars-cov-2_exposition/context/status|code",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 1,
+    "aqlPath" : "/context/other_context[at0001]/items[at0005]/value",
+    "path" : "sars-cov-2_exposition/context/kategorie",
+    "type" : "TEXT"
+  }, {
+    "id" : 2,
+    "aqlPath" : "/context/start_time",
+    "path" : "sars-cov-2_exposition/context/start_time",
+    "type" : "DATETIME"
+  }, {
+    "id" : 3,
+    "aqlPath" : "/context/setting|code",
+    "path" : "sars-cov-2_exposition/context/setting|code",
+    "type" : "TEXT"
+  }, {
+    "id" : 4,
+    "aqlPath" : "/context/setting|value",
+    "path" : "sars-cov-2_exposition/context/setting|value",
+    "type" : "TEXT"
+  }, {
+    "id" : 5,
+    "aqlPath" : "/content[openEHR-EHR-EVALUATION.infectious_exposure.v0,'SARS-CoV-2 Exposition']/data[at0001]/items[at0002]/value",
+    "path" : "sars-cov-2_exposition/sars-cov-2_exposition/infektionserreger",
+    "type" : "TEXT"
+  }, {
+    "id" : 6,
+    "aqlPath" : "/content[openEHR-EHR-EVALUATION.infectious_exposure.v0,'SARS-CoV-2 Exposition']/data[at0001]/items[at0003,'Exposition vorhanden?']/value",
+    "path" : "sars-cov-2_exposition/sars-cov-2_exposition/exposition_vorhanden",
+    "type" : "TEXT"
+  }, {
+    "id" : 7,
+    "aqlPath" : "/content[openEHR-EHR-EVALUATION.infectious_exposure.v0,'SARS-CoV-2 Exposition']/data[at0001]/items[at0005]/items[at0006]/value",
+    "path" : "sars-cov-2_exposition/sars-cov-2_exposition/spezifische_details_zur_exposition/beschreibung_der_exposition",
+    "type" : "TEXT"
+  }, {
+    "id" : 8,
+    "aqlPath" : "/content[openEHR-EHR-EVALUATION.infectious_exposure.v0,'SARS-CoV-2 Exposition']/data[at0001]/items[at0005]/items[at0007]/value",
+    "path" : "sars-cov-2_exposition/sars-cov-2_exposition/spezifische_details_zur_exposition/datum_uhrzeit_der_exposition",
+    "type" : "DATETIME"
+  }, {
+    "id" : 9,
+    "aqlPath" : "/content[openEHR-EHR-EVALUATION.infectious_exposure.v0,'SARS-CoV-2 Exposition']/language",
+    "path" : "sars-cov-2_exposition/sars-cov-2_exposition/language",
+    "type" : "TEXT"
+  }, {
+    "id" : 10,
+    "aqlPath" : "/content[openEHR-EHR-EVALUATION.infectious_exposure.v0,'SARS-CoV-2 Exposition']/encoding",
+    "path" : "sars-cov-2_exposition/sars-cov-2_exposition/encoding",
+    "type" : "TEXT"
+  }, {
+    "id" : 11,
+    "aqlPath" : "/content[openEHR-EHR-EVALUATION.infectious_exposure.v0,'SARS-CoV-2 Exposition']/subject|id",
+    "path" : "sars-cov-2_exposition/sars-cov-2_exposition/subject|id",
+    "type" : "TEXT"
+  }, {
+    "id" : 12,
+    "aqlPath" : "/content[openEHR-EHR-EVALUATION.infectious_exposure.v0,'SARS-CoV-2 Exposition']/subject|id_scheme",
+    "path" : "sars-cov-2_exposition/sars-cov-2_exposition/subject|id_scheme",
+    "type" : "TEXT"
+  }, {
+    "id" : 13,
+    "aqlPath" : "/content[openEHR-EHR-EVALUATION.infectious_exposure.v0,'SARS-CoV-2 Exposition']/subject|id_namespace",
+    "path" : "sars-cov-2_exposition/sars-cov-2_exposition/subject|id_namespace",
+    "type" : "TEXT"
+  }, {
+    "id" : 14,
+    "aqlPath" : "/content[openEHR-EHR-EVALUATION.infectious_exposure.v0,'SARS-CoV-2 Exposition']/subject|name",
+    "path" : "sars-cov-2_exposition/sars-cov-2_exposition/subject|name",
+    "type" : "TEXT"
+  }, {
+    "id" : 15,
+    "aqlPath" : "/category|code",
+    "path" : "sars-cov-2_exposition/category|code",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 16,
+    "aqlPath" : "/language",
+    "path" : "sars-cov-2_exposition/language",
+    "type" : "TEXT"
+  }, {
+    "id" : 17,
+    "aqlPath" : "/territory",
+    "path" : "sars-cov-2_exposition/territory",
+    "type" : "TEXT"
+  }, {
+    "id" : 18,
+    "aqlPath" : "/composer|id",
+    "path" : "sars-cov-2_exposition/composer|id",
+    "type" : "TEXT"
+  }, {
+    "id" : 19,
+    "aqlPath" : "/composer|id_scheme",
+    "path" : "sars-cov-2_exposition/composer|id_scheme",
+    "type" : "TEXT"
+  }, {
+    "id" : 20,
+    "aqlPath" : "/composer|id_namespace",
+    "path" : "sars-cov-2_exposition/composer|id_namespace",
+    "type" : "TEXT"
+  }, {
+    "id" : 21,
+    "aqlPath" : "/composer|name",
+    "path" : "sars-cov-2_exposition/composer|name",
+    "type" : "TEXT"
+  } ]
+}

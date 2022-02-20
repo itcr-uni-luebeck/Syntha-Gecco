@@ -1,0 +1,109 @@
+{
+  "templateName" : "Herzfrequenz",
+  "paths" : [ {
+    "id" : 0,
+    "aqlPath" : "/context/other_context[at0001]/items[at0004]/value|code",
+    "path" : "herzfrequenz/context/status|code",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 1,
+    "aqlPath" : "/context/other_context[at0001]/items[at0005]/value",
+    "path" : "herzfrequenz/context/kategorie",
+    "type" : "TEXT"
+  }, {
+    "id" : 2,
+    "aqlPath" : "/context/start_time",
+    "path" : "herzfrequenz/context/start_time",
+    "type" : "DATETIME"
+  }, {
+    "id" : 3,
+    "aqlPath" : "/context/setting|code",
+    "path" : "herzfrequenz/context/setting|code",
+    "type" : "TEXT"
+  }, {
+    "id" : 4,
+    "aqlPath" : "/context/setting|value",
+    "path" : "herzfrequenz/context/setting|value",
+    "type" : "TEXT"
+  }, {
+    "id" : 5,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.pulse.v2,'Herzfrequenz']/data[at0002]/events[at0003]/data[at0001]/items[at0004]/value|magnitude",
+    "path" : "herzfrequenz/herzfrequenz/frequenz|magnitude",
+    "type" : "DECIMAL"
+  }, {
+    "id" : 6,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.pulse.v2,'Herzfrequenz']/data[at0002]/events[at0003]/data[at0001]/items[at0004]/value|unit",
+    "path" : "herzfrequenz/herzfrequenz/frequenz|unit",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 7,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.pulse.v2,'Herzfrequenz']/data[at0002]/events[at0003]/time",
+    "path" : "herzfrequenz/herzfrequenz/time",
+    "type" : "DATETIME"
+  }, {
+    "id" : 8,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.pulse.v2,'Herzfrequenz']/language",
+    "path" : "herzfrequenz/herzfrequenz/language",
+    "type" : "TEXT"
+  }, {
+    "id" : 9,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.pulse.v2,'Herzfrequenz']/encoding",
+    "path" : "herzfrequenz/herzfrequenz/encoding",
+    "type" : "TEXT"
+  }, {
+    "id" : 10,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.pulse.v2,'Herzfrequenz']/subject|id",
+    "path" : "herzfrequenz/herzfrequenz/subject|id",
+    "type" : "TEXT"
+  }, {
+    "id" : 11,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.pulse.v2,'Herzfrequenz']/subject|id_scheme",
+    "path" : "herzfrequenz/herzfrequenz/subject|id_scheme",
+    "type" : "TEXT"
+  }, {
+    "id" : 12,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.pulse.v2,'Herzfrequenz']/subject|id_namespace",
+    "path" : "herzfrequenz/herzfrequenz/subject|id_namespace",
+    "type" : "TEXT"
+  }, {
+    "id" : 13,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.pulse.v2,'Herzfrequenz']/subject|name",
+    "path" : "herzfrequenz/herzfrequenz/subject|name",
+    "type" : "TEXT"
+  }, {
+    "id" : 14,
+    "aqlPath" : "/category|code",
+    "path" : "herzfrequenz/category|code",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 15,
+    "aqlPath" : "/language",
+    "path" : "herzfrequenz/language",
+    "type" : "TEXT"
+  }, {
+    "id" : 16,
+    "aqlPath" : "/territory",
+    "path" : "herzfrequenz/territory",
+    "type" : "TEXT"
+  }, {
+    "id" : 17,
+    "aqlPath" : "/composer|id",
+    "path" : "herzfrequenz/composer|id",
+    "type" : "TEXT"
+  }, {
+    "id" : 18,
+    "aqlPath" : "/composer|id_scheme",
+    "path" : "herzfrequenz/composer|id_scheme",
+    "type" : "TEXT"
+  }, {
+    "id" : 19,
+    "aqlPath" : "/composer|id_namespace",
+    "path" : "herzfrequenz/composer|id_namespace",
+    "type" : "TEXT"
+  }, {
+    "id" : 20,
+    "aqlPath" : "/composer|name",
+    "path" : "herzfrequenz/composer|name",
+    "type" : "TEXT"
+  } ]
+}

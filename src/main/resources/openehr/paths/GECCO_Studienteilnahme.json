@@ -1,0 +1,124 @@
+{
+  "templateName" : "GECCO_Studienteilnahme",
+  "paths" : [ {
+    "id" : 0,
+    "aqlPath" : "/context/other_context[at0001]/items[at0004]/value|code",
+    "path" : "gecco_studienteilnahme/context/status|code",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 1,
+    "aqlPath" : "/context/other_context[at0001]/items[at0005]/value",
+    "path" : "gecco_studienteilnahme/context/kategorie",
+    "type" : "TEXT"
+  }, {
+    "id" : 2,
+    "aqlPath" : "/context/start_time",
+    "path" : "gecco_studienteilnahme/context/start_time",
+    "type" : "DATETIME"
+  }, {
+    "id" : 3,
+    "aqlPath" : "/context/setting|code",
+    "path" : "gecco_studienteilnahme/context/setting|code",
+    "type" : "TEXT"
+  }, {
+    "id" : 4,
+    "aqlPath" : "/context/setting|value",
+    "path" : "gecco_studienteilnahme/context/setting|value",
+    "type" : "TEXT"
+  }, {
+    "id" : 5,
+    "aqlPath" : "/content[openEHR-EHR-EVALUATION.gecco_study_participation.v0]/data[at0001]/items[at0002]/value|code",
+    "path" : "gecco_studienteilnahme/gecco_studienteilnahme/bereits_an_interventionellen_klinischen_studien_teilgenommen|code",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 6,
+    "aqlPath" : "/content[openEHR-EHR-EVALUATION.gecco_study_participation.v0]/data[at0001]/items[openEHR-EHR-CLUSTER.study_participation.v1]/items[openEHR-EHR-CLUSTER.study_details.v1]/items[at0001]/value|code",
+    "path" : "gecco_studienteilnahme/gecco_studienteilnahme/studienteilnahme/studie_prüfung/titel_der_studie_prüfung|code",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 7,
+    "aqlPath" : "/content[openEHR-EHR-EVALUATION.gecco_study_participation.v0]/data[at0001]/items[openEHR-EHR-CLUSTER.study_participation.v1]/items[openEHR-EHR-CLUSTER.study_details.v1]/items[at0004]/value",
+    "path" : "gecco_studienteilnahme/gecco_studienteilnahme/studienteilnahme/studie_prüfung/beschreibung",
+    "type" : "TEXT"
+  }, {
+    "id" : 8,
+    "aqlPath" : "/content[openEHR-EHR-EVALUATION.gecco_study_participation.v0]/data[at0001]/items[openEHR-EHR-CLUSTER.study_participation.v1]/items[openEHR-EHR-CLUSTER.study_details.v1]/items[at0033]/items[at0035]/value|code",
+    "path" : "gecco_studienteilnahme/gecco_studienteilnahme/studienteilnahme/studie_prüfung/registrierung/registername|code",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 9,
+    "aqlPath" : "/content[openEHR-EHR-EVALUATION.gecco_study_participation.v0]/data[at0001]/items[openEHR-EHR-CLUSTER.study_participation.v1]/items[openEHR-EHR-CLUSTER.study_details.v1]/items[at0033]/items[at0034]/value",
+    "path" : "gecco_studienteilnahme/gecco_studienteilnahme/studienteilnahme/studie_prüfung/registrierung/registrierungsnummer",
+    "type" : "TEXT"
+  }, {
+    "id" : 10,
+    "aqlPath" : "/content[openEHR-EHR-EVALUATION.gecco_study_participation.v0]/data[at0001]/items[openEHR-EHR-CLUSTER.study_participation.v1]/items[at0014,'Bestätigte Covid-19-Diagnose als Hauptursache für Aufnahme in Studie']/value|code",
+    "path" : "gecco_studienteilnahme/gecco_studienteilnahme/studienteilnahme/bestätigte_covid-19-diagnose_als_hauptursache_für_aufnahme_in_studie|code",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 11,
+    "aqlPath" : "/content[openEHR-EHR-EVALUATION.gecco_study_participation.v0]/language",
+    "path" : "gecco_studienteilnahme/gecco_studienteilnahme/language",
+    "type" : "TEXT"
+  }, {
+    "id" : 12,
+    "aqlPath" : "/content[openEHR-EHR-EVALUATION.gecco_study_participation.v0]/encoding",
+    "path" : "gecco_studienteilnahme/gecco_studienteilnahme/encoding",
+    "type" : "TEXT"
+  }, {
+    "id" : 13,
+    "aqlPath" : "/content[openEHR-EHR-EVALUATION.gecco_study_participation.v0]/subject|id",
+    "path" : "gecco_studienteilnahme/gecco_studienteilnahme/subject|id",
+    "type" : "TEXT"
+  }, {
+    "id" : 14,
+    "aqlPath" : "/content[openEHR-EHR-EVALUATION.gecco_study_participation.v0]/subject|id_scheme",
+    "path" : "gecco_studienteilnahme/gecco_studienteilnahme/subject|id_scheme",
+    "type" : "TEXT"
+  }, {
+    "id" : 15,
+    "aqlPath" : "/content[openEHR-EHR-EVALUATION.gecco_study_participation.v0]/subject|id_namespace",
+    "path" : "gecco_studienteilnahme/gecco_studienteilnahme/subject|id_namespace",
+    "type" : "TEXT"
+  }, {
+    "id" : 16,
+    "aqlPath" : "/content[openEHR-EHR-EVALUATION.gecco_study_participation.v0]/subject|name",
+    "path" : "gecco_studienteilnahme/gecco_studienteilnahme/subject|name",
+    "type" : "TEXT"
+  }, {
+    "id" : 17,
+    "aqlPath" : "/category|code",
+    "path" : "gecco_studienteilnahme/category|code",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 18,
+    "aqlPath" : "/language",
+    "path" : "gecco_studienteilnahme/language",
+    "type" : "TEXT"
+  }, {
+    "id" : 19,
+    "aqlPath" : "/territory",
+    "path" : "gecco_studienteilnahme/territory",
+    "type" : "TEXT"
+  }, {
+    "id" : 20,
+    "aqlPath" : "/composer|id",
+    "path" : "gecco_studienteilnahme/composer|id",
+    "type" : "TEXT"
+  }, {
+    "id" : 21,
+    "aqlPath" : "/composer|id_scheme",
+    "path" : "gecco_studienteilnahme/composer|id_scheme",
+    "type" : "TEXT"
+  }, {
+    "id" : 22,
+    "aqlPath" : "/composer|id_namespace",
+    "path" : "gecco_studienteilnahme/composer|id_namespace",
+    "type" : "TEXT"
+  }, {
+    "id" : 23,
+    "aqlPath" : "/composer|name",
+    "path" : "gecco_studienteilnahme/composer|name",
+    "type" : "TEXT"
+  } ]
+}

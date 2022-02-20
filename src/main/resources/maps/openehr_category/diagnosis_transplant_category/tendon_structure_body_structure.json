@@ -1,0 +1,3218 @@
+{
+  "system" : "SNOMED Clinical Terms",
+  "code" : "13024002",
+  "description" : "",
+  "children" : [ {
+    "system" : "http://snomed.info/sct",
+    "code" : "699958002",
+    "display" : "Attachment of short head of biceps brachii to coracoid process"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "50950001",
+    "display" : "Central tendon of diaphragm structure"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245234007",
+    "display" : "Common extensor origin at elbow"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245235008",
+    "display" : "Common flexor origin at elbow"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245236009",
+    "display" : "Common intrinsic muscle origin of foot"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245233001",
+    "display" : "Common tendon origin"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "280059005",
+    "display" : "Cruciate node of central tendon"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "79731004",
+    "display" : "Deep flexor tendon of thumb"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "280058002",
+    "display" : "Diagonal band of central tendon"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "306795000",
+    "display" : "Distal musculotendinous junction of biceps brachii"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "307003003",
+    "display" : "Distal musculotendinous junction of supraspinatus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "699960000",
+    "display" : "Distal tendon of biceps brachii"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "59331003",
+    "display" : "Entire abductor longi and extensor brevis pollicis muscle tendon"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "863919008",
+    "display" : "Entire abductor tendon of hip"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "181705009",
+    "display" : "Entire Achilles tendon"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "302741007",
+    "display" : "Entire adductor tendon"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "181717006",
+    "display" : "Entire anterior tibial muscle tendon"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "730799007",
+    "display" : "Entire attachment of short head of biceps brachii to coracoid process"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "280063003",
+    "display" : "Entire caval opening of diaphragm"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244943002",
+    "display" : "Entire central tendon of diaphragm"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "368457006",
+    "display" : "Entire chiasma tendinum"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728248007",
+    "display" : "Entire common extensor origin at elbow"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "1052261002",
+    "display" : "Entire common extensor tendon"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728249004",
+    "display" : "Entire common flexor origin at elbow"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "1052262009",
+    "display" : "Entire common flexor tendon"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728250004",
+    "display" : "Entire common intrinsic muscle origin of foot"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "330711000",
+    "display" : "Entire common tendon"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728247002",
+    "display" : "Entire common tendon origin"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "729231009",
+    "display" : "Entire cruciate node of central tendon"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728167002",
+    "display" : "Entire deep extensor tendon of forearm"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245114002",
+    "display" : "Entire deep flexor tendon of finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728149009",
+    "display" : "Entire deep flexor tendon of forearm"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "181660008",
+    "display" : "Entire deep flexor tendon of index finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "181662000",
+    "display" : "Entire deep flexor tendon of little finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "134147003",
+    "display" : "Entire deep flexor tendon of middle finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "181661007",
+    "display" : "Entire deep flexor tendon of ring finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727245008",
+    "display" : "Entire deep flexor tendon of thumb"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "302733007",
+    "display" : "Entire deep pes anserinus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "729230005",
+    "display" : "Entire diagonal band of central tendon"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "729838007",
+    "display" : "Entire distal musculotendinous junction of biceps brachii"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "729846008",
+    "display" : "Entire distal musculotendinous junction of supraspinatus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "14187002",
+    "display" : "Entire distal tendon insertion"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "730800006",
+    "display" : "Entire distal tendon of biceps brachii"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "731507006",
+    "display" : "Entire distal tendon of biceps femoris"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "731504004",
+    "display" : "Entire distal tendon of semimembranosus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "276147006",
+    "display" : "Entire extensor carpi radialis muscle tendon"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245134001",
+    "display" : "Entire extensor carpi ulnaris muscle tendon"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245132002",
+    "display" : "Entire extensor digiti minimi muscle tendon"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "63162003",
+    "display" : "Entire extensor digitorum and extensor indicis muscle tendon"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "1052295003",
+    "display" : "Entire extensor digitorum longus muscle tendon of fifth toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "1052297006",
+    "display" : "Entire extensor digitorum longus muscle tendon of fourth toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "1052293005",
+    "display" : "Entire extensor digitorum longus muscle tendon of second toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "1052294004",
+    "display" : "Entire extensor digitorum longus muscle tendon of third toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "181719009",
+    "display" : "Entire extensor digitorum pedis longus muscle tendon"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728211003",
+    "display" : "Entire extensor digitorum tendon of fifth toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728210002",
+    "display" : "Entire extensor digitorum tendon of fourth toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728208004",
+    "display" : "Entire extensor digitorum tendon of second toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728209007",
+    "display" : "Entire extensor digitorum tendon of third toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728207009",
+    "display" : "Entire extensor digitorum tendon of toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "181718001",
+    "display" : "Entire extensor hallucis longus muscle tendon"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245138003",
+    "display" : "Entire extensor pollicis longus muscle tendon"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "330615000",
+    "display" : "Entire extensor tendon"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "51520007",
+    "display" : "Entire extensor tendon of finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "731288003",
+    "display" : "Entire extensor tendon of foot"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728155004",
+    "display" : "Entire extensor tendon of forearm"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "712836008",
+    "display" : "Entire extensor tendon of hand"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "368318004",
+    "display" : "Entire extensor tendon of index finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "368360000",
+    "display" : "Entire extensor tendon of little finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "368332002",
+    "display" : "Entire extensor tendon of middle finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "368346002",
+    "display" : "Entire extensor tendon of ring finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "44713009",
+    "display" : "Entire extensor tendon of thumb"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727432007",
+    "display" : "Entire extensor tendon of toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727431000",
+    "display" : "Entire extensor tendon of wrist"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "373397009",
+    "display" : "Entire extraocular muscle tendon"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245109001",
+    "display" : "Entire flexor carpi radialis muscle tendon"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "1052268008",
+    "display" : "Entire flexor digitorum longus muscle tendon of fifth toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "1052269000",
+    "display" : "Entire flexor digitorum longus muscle tendon of fourth toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "1052267003",
+    "display" : "Entire flexor digitorum longus muscle tendon of second toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "1052270004",
+    "display" : "Entire flexor digitorum longus muscle tendon of third toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "302515004",
+    "display" : "Entire flexor digitorum pedis longus muscle tendon"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728220007",
+    "display" : "Entire flexor digitorum tendon of first toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728223009",
+    "display" : "Entire flexor digitorum tendon of fourth toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728221006",
+    "display" : "Entire flexor digitorum tendon of second toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728222004",
+    "display" : "Entire flexor digitorum tendon of third toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728219001",
+    "display" : "Entire flexor digitorum tendon of toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "181710008",
+    "display" : "Entire flexor hallucis longus tendon"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245120001",
+    "display" : "Entire flexor pollicis longus muscle tendon"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "330518008",
+    "display" : "Entire flexor tendon"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "58394003",
+    "display" : "Entire flexor tendon of finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "731107000",
+    "display" : "Entire flexor tendon of foot"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728144004",
+    "display" : "Entire flexor tendon of forearm"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "422835002",
+    "display" : "Entire flexor tendon of hand"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "368317009",
+    "display" : "Entire flexor tendon of index finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "211858003",
+    "display" : "Entire flexor tendon of knee joint"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "368359005",
+    "display" : "Entire flexor tendon of little finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "368331009",
+    "display" : "Entire flexor tendon of middle finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "368345003",
+    "display" : "Entire flexor tendon of ring finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "24724004",
+    "display" : "Entire flexor tendon of thumb"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727443004",
+    "display" : "Entire flexor tendon of wrist"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "729748002",
+    "display" : "Entire inferior oblique tendon"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "729747007",
+    "display" : "Entire inferior rectus tendon"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "729842005",
+    "display" : "Entire insertion of biceps brachii"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "368477004",
+    "display" : "Entire intertendineal connection of extensor digitorum muscle of hand"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "74152000",
+    "display" : "Entire lateral flexor tendon of knee"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "729744000",
+    "display" : "Entire lateral rectus tendon"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "729228008",
+    "display" : "Entire leaf of central tendon"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "763899007",
+    "display" : "Entire left Achilles tendon"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728161001",
+    "display" : "Entire long digital extensor tendon - Zone I"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728162008",
+    "display" : "Entire long digital extensor tendon - Zone II"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728163003",
+    "display" : "Entire long digital extensor tendon - Zone III"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728164009",
+    "display" : "Entire long digital extensor tendon - Zone IV"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728165005",
+    "display" : "Entire long digital extensor tendon - Zone V"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728813006",
+    "display" : "Entire long digital extensor tendon zone"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728150009",
+    "display" : "Entire long digital flexor tendon - Zone I"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728151008",
+    "display" : "Entire long digital flexor tendon - Zone II"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728152001",
+    "display" : "Entire long digital flexor tendon - Zone III"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728153006",
+    "display" : "Entire long digital flexor tendon - Zone IV"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728154000",
+    "display" : "Entire long digital flexor tendon - Zone V"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728811008",
+    "display" : "Entire long digital flexor tendon zone"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "80682008",
+    "display" : "Entire medial flexor tendon of knee"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "732189001",
+    "display" : "Entire medial hamstring tendon"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "787450008",
+    "display" : "Entire medial patellofemoral ligament"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "729745004",
+    "display" : "Entire medial rectus tendon"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "729229000",
+    "display" : "Entire middle leaf of central tendon"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "729840002",
+    "display" : "Entire muscle attachment of biceps brachii"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "729835005",
+    "display" : "Entire musculotendinous junction"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "729856007",
+    "display" : "Entire musculotendinous junction of adductor longus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "729836006",
+    "display" : "Entire musculotendinous junction of biceps brachii"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "729869006",
+    "display" : "Entire musculotendinous junction of lateral crural muscle"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "729837002",
+    "display" : "Entire musculotendinous junction of long head of biceps brachii"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "729871006",
+    "display" : "Entire musculotendinous junction of peroneus brevis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "729870007",
+    "display" : "Entire musculotendinous junction of peroneus longus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "729844006",
+    "display" : "Entire musculotendinous junction of supraspinatus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "729872004",
+    "display" : "Entire musculotendinous junction of tibialis anterior"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "729841003",
+    "display" : "Entire origin of long head of biceps brachii"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "244639004",
+    "display" : "Entire patellar ligament"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727155002",
+    "display" : "Entire peritendineum"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "729555003",
+    "display" : "Entire peroneal tendon"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "181721004",
+    "display" : "Entire peroneus longus muscle tendon"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245200006",
+    "display" : "Entire plantaris muscle tendon"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "181716002",
+    "display" : "Entire posterior tibial muscle tendon"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "729857003",
+    "display" : "Entire proximal musculotendinous junction of rectus femoris"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "729845007",
+    "display" : "Entire proximal musculotendinous junction of supraspinatus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "29160004",
+    "display" : "Entire proximal tendon insertion"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "731503005",
+    "display" : "Entire proximal tendon of semimembranosus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245175008",
+    "display" : "Entire quadriceps tendon"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "729829005",
+    "display" : "Entire radial insertion of biceps brachii"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "763900002",
+    "display" : "Entire right Achilles tendon"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "730231007",
+    "display" : "Entire structure of tendons of pes anserinus of lower limb"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728156003",
+    "display" : "Entire superficial extensor tendon of forearm"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245112003",
+    "display" : "Entire superficial flexor tendon of finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728145003",
+    "display" : "Entire superficial flexor tendon of forearm"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "181655009",
+    "display" : "Entire superficial flexor tendon of index finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "181658006",
+    "display" : "Entire superficial flexor tendon of little finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "181656005",
+    "display" : "Entire superficial flexor tendon of middle finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "181657001",
+    "display" : "Entire superficial flexor tendon of ring finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "53376007",
+    "display" : "Entire superficial flexor tendon of thumb"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "211774003",
+    "display" : "Entire superficial pes anserinus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "730592001",
+    "display" : "Entire superior levator palpebrae muscle tendon"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245053008",
+    "display" : "Entire superior oblique muscle tendon"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "729746003",
+    "display" : "Entire superior rectus tendon"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "331408006",
+    "display" : "Entire tendinous arch"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "213790007",
+    "display" : "Entire tendinous arch of soleus muscle"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "331307002",
+    "display" : "Entire tendinous intersection"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "256667004",
+    "display" : "Entire tendon"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "360941003",
+    "display" : "Entire tendon and tendon sheath"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "330807000",
+    "display" : "Entire tendon insertion"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728175008",
+    "display" : "Entire tendon of abductor digiti minimi"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728227005",
+    "display" : "Entire tendon of abductor hallucis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728172006",
+    "display" : "Entire tendon of abductor pollicis brevis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728168007",
+    "display" : "Entire tendon of abductor pollicis longus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728236009",
+    "display" : "Entire tendon of adductor hallucis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728203008",
+    "display" : "Entire tendon of adductor longus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728174007",
+    "display" : "Entire tendon of adductor pollicis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728166006",
+    "display" : "Entire tendon of anconeus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "782537000",
+    "display" : "Entire tendon of ankle"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "726673005",
+    "display" : "Entire tendon of anterior and posterior tibial muscle"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728206000",
+    "display" : "Entire tendon of anterior crural muscle"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728195002",
+    "display" : "Entire tendon of anterior thigh muscle"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728118004",
+    "display" : "Entire tendon of back"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245186005",
+    "display" : "Entire tendon of biceps femoris"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728143005",
+    "display" : "Entire tendon of brachialis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728157007",
+    "display" : "Entire tendon of brachioradialis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "729694009",
+    "display" : "Entire tendon of cervical spine"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "192476008",
+    "display" : "Entire tendon of conus arteriosus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728142000",
+    "display" : "Entire tendon of coracobrachialis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728217004",
+    "display" : "Entire tendon of deep posterior crural muscle"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "729925003",
+    "display" : "Entire tendon of deltoid"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728101003",
+    "display" : "Entire tendon of digastric"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728238005",
+    "display" : "Entire tendon of dorsal interosseus of foot"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728182007",
+    "display" : "Entire tendon of dorsal interosseus of hand"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "774073005",
+    "display" : "Entire tendon of elbow"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728120001",
+    "display" : "Entire tendon of erector spinae"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728159005",
+    "display" : "Entire tendon of extensor carpi radialis brevis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728158002",
+    "display" : "Entire tendon of extensor carpi radialis longus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728160000",
+    "display" : "Entire tendon of extensor digitorum"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728225002",
+    "display" : "Entire tendon of extensor digitorum brevis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728170003",
+    "display" : "Entire tendon of extensor indicis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728169004",
+    "display" : "Entire tendon of extensor pollicis brevis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "368370003",
+    "display" : "Entire tendon of finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728183002",
+    "display" : "Entire tendon of first dorsal interosseous of hand"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728239002",
+    "display" : "Entire tendon of first dorsal interosseus of foot"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728231004",
+    "display" : "Entire tendon of first lumbrical muscle of foot"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728178005",
+    "display" : "Entire tendon of first lumbrical muscle of hand"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728188006",
+    "display" : "Entire tendon of first palmar interosseous"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728244009",
+    "display" : "Entire tendon of first plantar interosseus muscle"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728229008",
+    "display" : "Entire tendon of flexor accessorius"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728148001",
+    "display" : "Entire tendon of flexor carpi ulnaris"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728176009",
+    "display" : "Entire tendon of flexor digiti minimi"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728237000",
+    "display" : "Entire tendon of flexor digiti minimi brevis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728228000",
+    "display" : "Entire tendon of flexor digitorum brevis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "1010280009",
+    "display" : "Entire tendon of flexor digitorum brevis of fifth toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "1010281008",
+    "display" : "Entire tendon of flexor digitorum brevis of fourth toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "1010278003",
+    "display" : "Entire tendon of flexor digitorum brevis of second toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "1010279006",
+    "display" : "Entire tendon of flexor digitorum brevis of third toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728235008",
+    "display" : "Entire tendon of flexor hallucis brevis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728173001",
+    "display" : "Entire tendon of flexor pollicis brevis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245210002",
+    "display" : "Entire tendon of foot"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "730194008",
+    "display" : "Entire tendon of forearm and hand"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728814000",
+    "display" : "Entire tendon of forearm muscle"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728186005",
+    "display" : "Entire tendon of fourth dorsal interosseous of hand"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728242008",
+    "display" : "Entire tendon of fourth dorsal interosseus of foot"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728181000",
+    "display" : "Entire tendon of fourth lumbrical muscle of hand"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728234007",
+    "display" : "Entire tendon of fourth lumbrical of foot"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "729896009",
+    "display" : "Entire tendon of fourth palmar interosseous"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728215007",
+    "display" : "Entire tendon of gastrocnemius"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245168007",
+    "display" : "Entire tendon of gemellus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728095004",
+    "display" : "Entire tendon of genioglossus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245163003",
+    "display" : "Entire tendon of gluteal region"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245166006",
+    "display" : "Entire tendon of gluteus maximus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245165005",
+    "display" : "Entire tendon of gluteus medius"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245164009",
+    "display" : "Entire tendon of gluteus minimus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "730105004",
+    "display" : "Entire tendon of gluteus muscle"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728202003",
+    "display" : "Entire tendon of gracilis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728204002",
+    "display" : "Entire tendon of hamstring muscle"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727429009",
+    "display" : "Entire tendon of hand"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728090009",
+    "display" : "Entire tendon of head"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728089000",
+    "display" : "Entire tendon of head and neck"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "774075003",
+    "display" : "Entire tendon of hip"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728099005",
+    "display" : "Entire tendon of hyoid muscle"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728136004",
+    "display" : "Entire tendon of iliacus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "730100009",
+    "display" : "Entire tendon of iliocostalis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728123004",
+    "display" : "Entire tendon of iliocostalis cervicis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728121002",
+    "display" : "Entire tendon of iliocostalis lumborum"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728122009",
+    "display" : "Entire tendon of iliocostalis thoracis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727512009",
+    "display" : "Entire tendon of iliopsoas"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "9743000",
+    "display" : "Entire tendon of index finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245170003",
+    "display" : "Entire tendon of inferior gemellus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728103000",
+    "display" : "Entire tendon of infrahyoid muscle"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "282101008",
+    "display" : "Entire tendon of infraspinatus muscle"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728224003",
+    "display" : "Entire tendon of intrinsic muscle of foot"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728171004",
+    "display" : "Entire tendon of intrinsic muscle of hand"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "732969001",
+    "display" : "Entire tendon of intrinsic muscle of thumb"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "774078001",
+    "display" : "Entire tendon of knee"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728212005",
+    "display" : "Entire tendon of lateral crural muscle"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728092001",
+    "display" : "Entire tendon of lateral pterygoid"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728096003",
+    "display" : "Entire tendon of levator palati"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "23086003",
+    "display" : "Entire tendon of little finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728141007",
+    "display" : "Entire tendon of long head of biceps brachii"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "731509009",
+    "display" : "Entire tendon of long head of biceps femoris"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "730101008",
+    "display" : "Entire tendon of longissimus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728126007",
+    "display" : "Entire tendon of longissimus capitis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728125006",
+    "display" : "Entire tendon of longissimus cervicis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728124005",
+    "display" : "Entire tendon of longissimus thoracis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728116000",
+    "display" : "Entire tendon of longus capitis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728115001",
+    "display" : "Entire tendon of longus colli"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728205001",
+    "display" : "Entire tendon of lower leg"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728191006",
+    "display" : "Entire tendon of lower limb"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728230003",
+    "display" : "Entire tendon of lumbrical muscle of foot"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728177000",
+    "display" : "Entire tendon of lumbrical muscle of hand"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728201005",
+    "display" : "Entire tendon of medial thigh muscle"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "71784002",
+    "display" : "Entire tendon of middle finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728098002",
+    "display" : "Entire tendon of neck"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728113008",
+    "display" : "Entire tendon of obliquus capitis superior"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728194003",
+    "display" : "Entire tendon of obturator externus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728193009",
+    "display" : "Entire tendon of obturator internus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728192004",
+    "display" : "Entire tendon of obturator muscle"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728105007",
+    "display" : "Entire tendon of omohyoid"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "729743006",
+    "display" : "Entire tendon of orbital muscle"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728187001",
+    "display" : "Entire tendon of palmar interosseous muscle"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728147006",
+    "display" : "Entire tendon of palmaris longus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "729894007",
+    "display" : "Entire tendon of pectoralis major"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727651007",
+    "display" : "Entire tendon of peroneus brevis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727650008",
+    "display" : "Entire tendon of peroneus tertius"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245167002",
+    "display" : "Entire tendon of piriformis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728243003",
+    "display" : "Entire tendon of plantar interosseus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728226001",
+    "display" : "Entire tendon of plantar muscle of foot"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728218009",
+    "display" : "Entire tendon of popliteus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728213000",
+    "display" : "Entire tendon of posterior crural muscle"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728146002",
+    "display" : "Entire tendon of pronator teres"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728134001",
+    "display" : "Entire tendon of psoas major"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728135000",
+    "display" : "Entire tendon of psoas minor"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "730104000",
+    "display" : "Entire tendon of psoas muscle"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728133007",
+    "display" : "Entire tendon of quadratus lumborum"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728132002",
+    "display" : "Entire tendon of rectus abdominis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728111005",
+    "display" : "Entire tendon of rectus capitis posterior major"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728112003",
+    "display" : "Entire tendon of rectus capitis posterior minor"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728196001",
+    "display" : "Entire tendon of rectus femoris"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "22586002",
+    "display" : "Entire tendon of ring finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728139006",
+    "display" : "Entire tendon of rotator cuff of shoulder"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728200006",
+    "display" : "Entire tendon of sartorius"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728106008",
+    "display" : "Entire tendon of scalene muscle"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728107004",
+    "display" : "Entire tendon of scalenus anterior"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728108009",
+    "display" : "Entire tendon of scalenus medius"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728109001",
+    "display" : "Entire tendon of scalenus posterior"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728184008",
+    "display" : "Entire tendon of second dorsal interosseous of hand"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728240000",
+    "display" : "Entire tendon of second dorsal interosseus of foot"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728179002",
+    "display" : "Entire tendon of second lumbrical muscle of hand"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728232006",
+    "display" : "Entire tendon of second lumbrical of foot"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728189003",
+    "display" : "Entire tendon of second palmar interosseous"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728245005",
+    "display" : "Entire tendon of second plantar interosseus muscle"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245187001",
+    "display" : "Entire tendon of semimembranosus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "730103006",
+    "display" : "Entire tendon of semispinalis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728130005",
+    "display" : "Entire tendon of semispinalis capitis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "729693003",
+    "display" : "Entire tendon of semispinalis cervicis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728129000",
+    "display" : "Entire tendon of semispinalis thoracis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728131009",
+    "display" : "Entire tendon of serratus anterior"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "731508001",
+    "display" : "Entire tendon of short head of biceps femoris"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "774079009",
+    "display" : "Entire tendon of shoulder"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728138003",
+    "display" : "Entire tendon of shoulder or upper arm"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728216008",
+    "display" : "Entire tendon of soleus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "730102001",
+    "display" : "Entire tendon of spinalis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728128008",
+    "display" : "Entire tendon of spinalis cervicis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728127003",
+    "display" : "Entire tendon of spinalis thoracis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728119007",
+    "display" : "Entire tendon of splenius cervicis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728094000",
+    "display" : "Entire tendon of stapedius"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728114002",
+    "display" : "Entire tendon of sternocleidomastoid"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728104006",
+    "display" : "Entire tendon of sternohyoid"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728102005",
+    "display" : "Entire tendon of stylohyoid"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728110006",
+    "display" : "Entire tendon of suboccipital muscle"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "282104000",
+    "display" : "Entire tendon of subscapularis muscle"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728214006",
+    "display" : "Entire tendon of superficial posterior crural muscle"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245169004",
+    "display" : "Entire tendon of superior gemellus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728100002",
+    "display" : "Entire tendon of suprahyoid muscle"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "263480002",
+    "display" : "Entire tendon of supraspinatus muscle"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728091008",
+    "display" : "Entire tendon of temporalis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728097007",
+    "display" : "Entire tendon of tensor palati"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728093006",
+    "display" : "Entire tendon of tensor tympani"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "731515009",
+    "display" : "Entire tendon of teres minor"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728185009",
+    "display" : "Entire tendon of third dorsal interosseous of hand"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728241001",
+    "display" : "Entire tendon of third dorsal interosseus of foot"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728180004",
+    "display" : "Entire tendon of third lumbrical muscle of hand"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728233001",
+    "display" : "Entire tendon of third lumbrical of foot"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728190007",
+    "display" : "Entire tendon of third palmar interosseous"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728246006",
+    "display" : "Entire tendon of third plantar interosseous muscle"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "78716002",
+    "display" : "Entire tendon of thumb"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "230087002",
+    "display" : "Entire tendon of toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728117009",
+    "display" : "Entire tendon of trunk"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728140008",
+    "display" : "Entire tendon of upper arm"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728137008",
+    "display" : "Entire tendon of upper limb"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728198000",
+    "display" : "Entire tendon of vastus intermedius"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728197005",
+    "display" : "Entire tendon of vastus lateralis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728199008",
+    "display" : "Entire tendon of vastus medialis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "731422003",
+    "display" : "Entire tendon of wrist"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "731500008",
+    "display" : "Entire tendon or attachment of biceps brachii"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "727207007",
+    "display" : "Entire tendon spindle"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "728812001",
+    "display" : "Entire tendon zone"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245105007",
+    "display" : "Entire triceps tendon"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "331510005",
+    "display" : "Entire tunnel of tendon"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "61374000",
+    "display" : "Entire vincula tendinum of foot"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "361891008",
+    "display" : "Entire vincula tendinum of tendons of fingers"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "368450008",
+    "display" : "Entire vinculum breve"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "368449008",
+    "display" : "Entire vinculum longum"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245194003",
+    "display" : "Extensor digitorum tendon of fifth toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245193009",
+    "display" : "Extensor digitorum tendon of fourth toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245191006",
+    "display" : "Extensor digitorum tendon of second toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245192004",
+    "display" : "Extensor digitorum tendon of third toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245190007",
+    "display" : "Extensor digitorum tendon of toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "118650000",
+    "display" : "Extensor tendon of toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "118649000",
+    "display" : "Extensor tendon of wrist"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "373396000",
+    "display" : "Extraocular muscle tendon structure"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245205001",
+    "display" : "Flexor digitorum tendon of first toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245208004",
+    "display" : "Flexor digitorum tendon of fourth toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245206000",
+    "display" : "Flexor digitorum tendon of second toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245207009",
+    "display" : "Flexor digitorum tendon of third toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245204002",
+    "display" : "Flexor digitorum tendon of toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "122497003",
+    "display" : "Flexor tendon of wrist"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "304925003",
+    "display" : "Inferior oblique tendon"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "304924004",
+    "display" : "Inferior rectus tendon"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "306799006",
+    "display" : "Insertion of biceps brachii"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "304921007",
+    "display" : "Lateral rectus tendon"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "280054000",
+    "display" : "Leaf of central tendon"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "280056003",
+    "display" : "Left leaf of central tendon"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245127003",
+    "display" : "Long digital extensor tendon - Zone I"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245128008",
+    "display" : "Long digital extensor tendon - Zone II"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245129000",
+    "display" : "Long digital extensor tendon - Zone III"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245130005",
+    "display" : "Long digital extensor tendon - Zone IV"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245131009",
+    "display" : "Long digital extensor tendon - Zone V"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "278108003",
+    "display" : "Long digital extensor tendon zone"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245115001",
+    "display" : "Long digital flexor tendon - Zone I"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245116000",
+    "display" : "Long digital flexor tendon - Zone II"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245117009",
+    "display" : "Long digital flexor tendon - Zone III"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245118004",
+    "display" : "Long digital flexor tendon - Zone IV"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245119007",
+    "display" : "Long digital flexor tendon - Zone V"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "278106004",
+    "display" : "Long digital flexor tendon zone"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "699995002",
+    "display" : "Medial hamstring tendon structure"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "304922000",
+    "display" : "Medial rectus tendon"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "280057007",
+    "display" : "Middle leaf of central tendon"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "306797008",
+    "display" : "Muscle attachment of biceps brachii"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "306789001",
+    "display" : "Musculotendinous junction"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "307020004",
+    "display" : "Musculotendinous junction of adductor longus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "306793007",
+    "display" : "Musculotendinous junction of biceps brachii"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "307034004",
+    "display" : "Musculotendinous junction of lateral crural muscle"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "306794001",
+    "display" : "Musculotendinous junction of long head of biceps brachii"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "307038001",
+    "display" : "Musculotendinous junction of peroneus brevis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "307037006",
+    "display" : "Musculotendinous junction of peroneus longus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "307001001",
+    "display" : "Musculotendinous junction of supraspinatus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "307042003",
+    "display" : "Musculotendinous junction of tibialis anterior"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "306798003",
+    "display" : "Origin of long head of biceps brachii"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "372232008",
+    "display" : "Part of superior oblique muscle tendon"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "372234009",
+    "display" : "Part of tendon of orbital muscle"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "63667008",
+    "display" : "Peritendineum"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "281349007",
+    "display" : "Peroneal tendon"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "360767004",
+    "display" : "Pes anserinus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "307021000",
+    "display" : "Proximal musculotendinous junction of rectus femoris"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "307002008",
+    "display" : "Proximal musculotendinous junction of supraspinatus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "305619005",
+    "display" : "Radial insertion of biceps brachii"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "280055004",
+    "display" : "Right leaf of central tendon"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "368375008",
+    "display" : "Structure of abductor longi and extensor brevis pollicis muscle tendon"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "863918000",
+    "display" : "Structure of abductor tendon of hip"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "61352006",
+    "display" : "Structure of Achilles tendon"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "54525003",
+    "display" : "Structure of adductor tendon"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "764530005",
+    "display" : "Structure of adductor tendon of left hip"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "764531009",
+    "display" : "Structure of adductor tendon of right hip"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "56042000",
+    "display" : "Structure of caval opening of diaphragm"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "25708005",
+    "display" : "Structure of chiasma tendinum"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "1052260001",
+    "display" : "Structure of common extensor tendon"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "1052259006",
+    "display" : "Structure of common flexor tendon"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "71685008",
+    "display" : "Structure of common tendon"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245135000",
+    "display" : "Structure of deep extensor tendon of forearm"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "31143001",
+    "display" : "Structure of deep flexor tendon of finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245113008",
+    "display" : "Structure of deep flexor tendon of forearm"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "1350001",
+    "display" : "Structure of deep flexor tendon of index finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "36634005",
+    "display" : "Structure of deep flexor tendon of little finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "43407007",
+    "display" : "Structure of deep flexor tendon of middle finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "61069003",
+    "display" : "Structure of deep flexor tendon of ring finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "27945007",
+    "display" : "Structure of deep pes anserinus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "331008002",
+    "display" : "Structure of distal tendon insertion"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "699992004",
+    "display" : "Structure of distal tendon of biceps femoris"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "699987001",
+    "display" : "Structure of distal tendon of semimembranosus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "50906002",
+    "display" : "Structure of extensor carpi radialis muscle tendon"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "83352005",
+    "display" : "Structure of extensor carpi ulnaris muscle tendon"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "74855001",
+    "display" : "Structure of extensor digiti minimi muscle tendon"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "368319007",
+    "display" : "Structure of extensor digitorum and extensor indicis muscle tendon"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "1052292000",
+    "display" : "Structure of extensor digitorum longus muscle tendon of fifth toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "1052290008",
+    "display" : "Structure of extensor digitorum longus muscle tendon of fourth toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "1052288007",
+    "display" : "Structure of extensor digitorum longus muscle tendon of second toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "1052289004",
+    "display" : "Structure of extensor digitorum longus muscle tendon of third toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "51120000",
+    "display" : "Structure of extensor digitorum pedis longus muscle tendon"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "86539008",
+    "display" : "Structure of extensor hallucis longus muscle tendon"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "40717002",
+    "display" : "Structure of extensor pollicis longus muscle tendon"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "58948005",
+    "display" : "Structure of extensor tendon"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "368381000",
+    "display" : "Structure of extensor tendon of finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "762088000",
+    "display" : "Structure of extensor tendon of finger of left hand"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "762089008",
+    "display" : "Structure of extensor tendon of finger of right hand"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "415638009",
+    "display" : "Structure of extensor tendon of foot"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245121002",
+    "display" : "Structure of extensor tendon of forearm"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "712835007",
+    "display" : "Structure of extensor tendon of hand"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "76086009",
+    "display" : "Structure of extensor tendon of index finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "773718008",
+    "display" : "Structure of extensor tendon of index finger of left hand"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "773719000",
+    "display" : "Structure of extensor tendon of index finger of right hand"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "764655009",
+    "display" : "Structure of extensor tendon of left hand"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "10972000",
+    "display" : "Structure of extensor tendon of little finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "773717003",
+    "display" : "Structure of extensor tendon of little finger of left hand"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "773716007",
+    "display" : "Structure of extensor tendon of little finger of right hand"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "49685001",
+    "display" : "Structure of extensor tendon of middle finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "773714005",
+    "display" : "Structure of extensor tendon of middle finger of left hand"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "773715006",
+    "display" : "Structure of extensor tendon of middle finger of right hand"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "764656005",
+    "display" : "Structure of extensor tendon of right hand"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "13675000",
+    "display" : "Structure of extensor tendon of ring finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "773712009",
+    "display" : "Structure of extensor tendon of ring finger of left hand"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "773713004",
+    "display" : "Structure of extensor tendon of ring finger of right hand"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "368374007",
+    "display" : "Structure of extensor tendon of thumb"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "15862001",
+    "display" : "Structure of flexor carpi radialis muscle tendon"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "1052266007",
+    "display" : "Structure of flexor digitorum longus muscle tendon of fifth toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "1052265006",
+    "display" : "Structure of flexor digitorum longus muscle tendon of fourth toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "1052263004",
+    "display" : "Structure of flexor digitorum longus muscle tendon of second toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "1052264005",
+    "display" : "Structure of flexor digitorum longus muscle tendon of third toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "15243009",
+    "display" : "Structure of flexor digitorum pedis longus muscle tendon"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "89110001",
+    "display" : "Structure of flexor hallucis longus tendon"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "2600000",
+    "display" : "Structure of flexor pollicis longus muscle tendon"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "77685001",
+    "display" : "Structure of flexor tendon"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "368380004",
+    "display" : "Structure of flexor tendon of finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "737019000",
+    "display" : "Structure of flexor tendon of finger of left hand"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "737020006",
+    "display" : "Structure of flexor tendon of finger of right hand"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "118651001",
+    "display" : "Structure of flexor tendon of foot"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245106008",
+    "display" : "Structure of flexor tendon of forearm"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "422871001",
+    "display" : "Structure of flexor tendon of hand"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "13055008",
+    "display" : "Structure of flexor tendon of index finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "11757000",
+    "display" : "Structure of flexor tendon of knee joint"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "722771001",
+    "display" : "Structure of flexor tendon of left hand"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "726047004",
+    "display" : "Structure of flexor tendon of left index finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "725399001",
+    "display" : "Structure of flexor tendon of left middle finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "725107003",
+    "display" : "Structure of flexor tendon of left ring finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "722727000",
+    "display" : "Structure of flexor tendon of left thumb"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "87461007",
+    "display" : "Structure of flexor tendon of little finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "773560009",
+    "display" : "Structure of flexor tendon of little finger of left hand"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "773559004",
+    "display" : "Structure of flexor tendon of little finger of right hand"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "17390005",
+    "display" : "Structure of flexor tendon of middle finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "722772008",
+    "display" : "Structure of flexor tendon of right hand"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "726048009",
+    "display" : "Structure of flexor tendon of right index finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "725400008",
+    "display" : "Structure of flexor tendon of right middle finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "725108008",
+    "display" : "Structure of flexor tendon of right ring finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "722728005",
+    "display" : "Structure of flexor tendon of right thumb"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "77088003",
+    "display" : "Structure of flexor tendon of ring finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "368372006",
+    "display" : "Structure of flexor tendon of thumb"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "52218005",
+    "display" : "Structure of intertendineal connection of extensor digitorum muscle of hand"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "212034003",
+    "display" : "Structure of lateral flexor tendon of knee"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "721064000",
+    "display" : "Structure of left Achilles tendon"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "778056003",
+    "display" : "Structure of left flexor hallucis longus tendon"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "725486000",
+    "display" : "Structure of left flexor pollicis longus muscle tendon"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "764781002",
+    "display" : "Structure of left patellar tendon"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "720474000",
+    "display" : "Structure of left peroneal tendon"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "720472001",
+    "display" : "Structure of left posterior tibial muscle tendon"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "737602003",
+    "display" : "Structure of left quadriceps tendon"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "724044009",
+    "display" : "Structure of left tendon of hamstring muscle"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "211951005",
+    "display" : "Structure of medial flexor tendon of knee"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "787449008",
+    "display" : "Structure of medial patellofemoral ligament"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "18033002",
+    "display" : "Structure of patellar ligament"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "90044004",
+    "display" : "Structure of plantaris muscle tendon"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "330907001",
+    "display" : "Structure of proximal tendon insertion"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "699986005",
+    "display" : "Structure of proximal tendon of semimembranosus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "70567001",
+    "display" : "Structure of quadriceps tendon"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "721063006",
+    "display" : "Structure of right Achilles tendon"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "778057007",
+    "display" : "Structure of right flexor hallucis longus tendon"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "725487009",
+    "display" : "Structure of right flexor pollicis longus muscle tendon"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "764782009",
+    "display" : "Structure of right patellar tendon"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "720475004",
+    "display" : "Structure of right peroneal tendon"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "720625008",
+    "display" : "Structure of right posterior tibial muscle tendon"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "737601005",
+    "display" : "Structure of right quadriceps tendon"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "724045005",
+    "display" : "Structure of right tendon of hamstring muscle"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245122009",
+    "display" : "Structure of superficial extensor tendon of forearm"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "61729009",
+    "display" : "Structure of superficial flexor tendon of finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245107004",
+    "display" : "Structure of superficial flexor tendon of forearm"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "84904004",
+    "display" : "Structure of superficial flexor tendon of index finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "8040001",
+    "display" : "Structure of superficial flexor tendon of little finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "51861003",
+    "display" : "Structure of superficial flexor tendon of middle finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "27448004",
+    "display" : "Structure of superficial flexor tendon of ring finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "368373001",
+    "display" : "Structure of superficial flexor tendon of thumb"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "20029009",
+    "display" : "Structure of superficial pes anserinus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "51703006",
+    "display" : "Structure of superior oblique muscle tendon"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "8775007",
+    "display" : "Structure of tendinous arch"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "50773003",
+    "display" : "Structure of tendinous arch of soleus muscle"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "113241007",
+    "display" : "Structure of tendinous intersection"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "60636007",
+    "display" : "Structure of tendon insertion"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245141007",
+    "display" : "Structure of tendon of abductor pollicis brevis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245136004",
+    "display" : "Structure of tendon of abductor pollicis longus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "870395008",
+    "display" : "Structure of tendon of adductor muscle of thigh"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245144004",
+    "display" : "Structure of tendon of adductor pollicis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245133007",
+    "display" : "Structure of tendon of anconeus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "782536009",
+    "display" : "Structure of tendon of ankle"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "762209001",
+    "display" : "Structure of tendon of anterior thigh muscle of left lower limb"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "762210006",
+    "display" : "Structure of tendon of anterior thigh muscle of right lower limb"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "128508006",
+    "display" : "Structure of tendon of biceps femoris"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245123004",
+    "display" : "Structure of tendon of brachioradialis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "39226007",
+    "display" : "Structure of tendon of conus arteriosus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245153006",
+    "display" : "Structure of tendon of dorsal interosseous of hand"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "774072000",
+    "display" : "Structure of tendon of elbow"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245126007",
+    "display" : "Structure of tendon of extensor digitorum"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245139006",
+    "display" : "Structure of tendon of extensor indicis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245137008",
+    "display" : "Structure of tendon of extensor pollicis brevis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "91322007",
+    "display" : "Structure of tendon of fibularis longus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "29442005",
+    "display" : "Structure of tendon of finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245154000",
+    "display" : "Structure of tendon of first dorsal interosseous of hand"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245148001",
+    "display" : "Structure of tendon of first lumbrical muscle of hand"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245159005",
+    "display" : "Structure of tendon of first palmar interosseous"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245111005",
+    "display" : "Structure of tendon of flexor carpi ulnaris"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "1010275000",
+    "display" : "Structure of tendon of flexor digitorum brevis of fifth toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "1010274001",
+    "display" : "Structure of tendon of flexor digitorum brevis of fourth toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "1010272002",
+    "display" : "Structure of tendon of flexor digitorum brevis of second toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "1010273007",
+    "display" : "Structure of tendon of flexor digitorum brevis of third toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245142000",
+    "display" : "Structure of tendon of flexor pollicis brevis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "53870007",
+    "display" : "Structure of tendon of foot"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "360496004",
+    "display" : "Structure of tendon of forearm and/or hand"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "278187006",
+    "display" : "Structure of tendon of forearm muscle"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245157007",
+    "display" : "Structure of tendon of fourth dorsal interosseous of hand"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245152001",
+    "display" : "Structure of tendon of fourth lumbrical muscle of hand"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "308733003",
+    "display" : "Structure of tendon of fourth palmar interosseous"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "128503002",
+    "display" : "Structure of tendon of gemellus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "128499008",
+    "display" : "Structure of tendon of gluteal region"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "128502007",
+    "display" : "Structure of tendon of gluteus maximus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "128500004",
+    "display" : "Structure of tendon of gluteus medius"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "128501000",
+    "display" : "Structure of tendon of gluteus minimus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "118632007",
+    "display" : "Structure of tendon of hand"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "774074004",
+    "display" : "Structure of tendon of hip"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "368376009",
+    "display" : "Structure of tendon of index finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "128505009",
+    "display" : "Structure of tendon of inferior gemellus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "59713001",
+    "display" : "Structure of tendon of infraspinatus muscle"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245140008",
+    "display" : "Structure of tendon of intrinsic muscle of hand"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "732260006",
+    "display" : "Structure of tendon of intrinsic muscle of thumb"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "774077006",
+    "display" : "Structure of tendon of knee"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "738794003",
+    "display" : "Structure of tendon of left ankle"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "737454003",
+    "display" : "Structure of tendon of left biceps femoris"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "827061002",
+    "display" : "Structure of tendon of left brachioradialis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "773791001",
+    "display" : "Structure of tendon of left elbow"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "737576009",
+    "display" : "Structure of tendon of left foot"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "764592004",
+    "display" : "Structure of tendon of left gluteal region"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "722824001",
+    "display" : "Structure of tendon of left hand"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "773793003",
+    "display" : "Structure of tendon of left hip"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "781072005",
+    "display" : "Structure of tendon of left knee"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "773848004",
+    "display" : "Structure of tendon of left psoas muscle"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "781212007",
+    "display" : "Structure of tendon of left shoulder"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "771249005",
+    "display" : "Structure of tendon of left triceps brachii"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "781211000",
+    "display" : "Structure of tendon of left upper arm"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "722235001",
+    "display" : "Structure of tendon of left wrist"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "368379002",
+    "display" : "Structure of tendon of little finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "699994003",
+    "display" : "Structure of tendon of long head of biceps femoris"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245147006",
+    "display" : "Structure of tendon of lumbrical muscle of hand"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "737534001",
+    "display" : "Structure of tendon of medial muscle of left thigh"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "737533007",
+    "display" : "Structure of tendon of medial muscle of right thigh"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "368377000",
+    "display" : "Structure of tendon of middle finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "764584008",
+    "display" : "Structure of tendon of muscle of left forearm"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "764585009",
+    "display" : "Structure of tendon of muscle of right forearm"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245158002",
+    "display" : "Structure of tendon of palmar interosseous muscle"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245110006",
+    "display" : "Structure of tendon of palmaris longus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "128506005",
+    "display" : "Structure of tendon of piriformis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245212005",
+    "display" : "Structure of tendon of plantar muscle of foot"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245108009",
+    "display" : "Structure of tendon of pronator teres"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "738795002",
+    "display" : "Structure of tendon of right ankle"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "737453009",
+    "display" : "Structure of tendon of right biceps femoris"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "827062009",
+    "display" : "Structure of tendon of right brachioradialis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "773790000",
+    "display" : "Structure of tendon of right elbow"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "737577000",
+    "display" : "Structure of tendon of right foot"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "764593009",
+    "display" : "Structure of tendon of right gluteal region"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "722823007",
+    "display" : "Structure of tendon of right hand"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "773792008",
+    "display" : "Structure of tendon of right hip"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "781071003",
+    "display" : "Structure of tendon of right knee"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "773777007",
+    "display" : "Structure of tendon of right psoas muscle"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "781213002",
+    "display" : "Structure of tendon of right shoulder"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "771248002",
+    "display" : "Structure of tendon of right triceps brachii"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "773653007",
+    "display" : "Structure of tendon of right upper arm"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "722236000",
+    "display" : "Structure of tendon of right wrist"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "368378005",
+    "display" : "Structure of tendon of ring finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "723033006",
+    "display" : "Structure of tendon of rotator cuff of left shoulder"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "723034000",
+    "display" : "Structure of tendon of rotator cuff of right shoulder"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245155004",
+    "display" : "Structure of tendon of second dorsal interosseous of hand"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245149009",
+    "display" : "Structure of tendon of second lumbrical muscle of hand"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245160000",
+    "display" : "Structure of tendon of second palmar interosseous"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "781023003",
+    "display" : "Structure of tendon of second toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "773851006",
+    "display" : "Structure of tendon of second toe of left foot"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "773850007",
+    "display" : "Structure of tendon of second toe of right foot"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "128509003",
+    "display" : "Structure of tendon of semimembranosus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "699993009",
+    "display" : "Structure of tendon of short head of biceps femoris"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "774076002",
+    "display" : "Structure of tendon of shoulder region"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "80108009",
+    "display" : "Structure of tendon of subscapularis muscle"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "128504008",
+    "display" : "Structure of tendon of superior gemellus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "5580002",
+    "display" : "Structure of tendon of supraspinatus muscle"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "700027005",
+    "display" : "Structure of tendon of teres minor"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245156003",
+    "display" : "Structure of tendon of third dorsal interosseous of hand"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245150009",
+    "display" : "Structure of tendon of third lumbrical muscle of hand"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245161001",
+    "display" : "Structure of tendon of third palmar interosseous"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "368371004",
+    "display" : "Structure of tendon of thumb"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "68754001",
+    "display" : "Structure of tendon of toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "770919005",
+    "display" : "Structure of tendon of toe of left foot"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "770920004",
+    "display" : "Structure of tendon of toe of right foot"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245098002",
+    "display" : "Structure of tendon of upper limb"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "426480008",
+    "display" : "Structure of tendon of wrist"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "699959005",
+    "display" : "Structure of tendon or attachment of biceps brachii"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "762213008",
+    "display" : "Structure of tendon or attachment of left biceps brachii"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "762214002",
+    "display" : "Structure of tendon or attachment of right biceps brachii"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "773958001",
+    "display" : "Structure of tendons of pes anserinus of left lower limb"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "773959009",
+    "display" : "Structure of tendons of pes anserinus of right lower limb"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "22525001",
+    "display" : "Structure of triceps tendon"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "68954009",
+    "display" : "Structure of tunnel of tendon"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "233200006",
+    "display" : "Structure of vincula tendinum of foot"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "83791002",
+    "display" : "Structure of vincula tendinum of tendons of fingers"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "29278002",
+    "display" : "Structure of vinculum breve"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "52944004",
+    "display" : "Structure of vinculum longum"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "373404009",
+    "display" : "Superior levator palpebrae muscle tendon"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "304923005",
+    "display" : "Superior rectus tendon"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245145003",
+    "display" : "Tendon of abductor digiti minimi"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245213000",
+    "display" : "Tendon of abductor hallucis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245222004",
+    "display" : "Tendon of adductor hallucis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245183002",
+    "display" : "Tendon of adductor longus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245189003",
+    "display" : "Tendon of anterior crural muscle"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245174007",
+    "display" : "Tendon of anterior thigh muscle"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245079004",
+    "display" : "Tendon of back"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245104006",
+    "display" : "Tendon of brachialis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "303896004",
+    "display" : "Tendon of cervical spine"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245103000",
+    "display" : "Tendon of coracobrachialis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245201005",
+    "display" : "Tendon of deep posterior crural muscle"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "312049005",
+    "display" : "Tendon of deltoid"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245062005",
+    "display" : "Tendon of digastric"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245224003",
+    "display" : "Tendon of dorsal interosseus of foot"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245081002",
+    "display" : "Tendon of erector spinae"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245125006",
+    "display" : "Tendon of extensor carpi radialis brevis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245124005",
+    "display" : "Tendon of extensor carpi radialis longus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245211003",
+    "display" : "Tendon of extensor digitorum brevis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245225002",
+    "display" : "Tendon of first dorsal interosseus of foot"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245217004",
+    "display" : "Tendon of first lumbrical muscle of foot"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245230003",
+    "display" : "Tendon of first plantar interosseus muscle"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245215007",
+    "display" : "Tendon of flexor accessorius"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245146002",
+    "display" : "Tendon of flexor digiti minimi"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245223009",
+    "display" : "Tendon of flexor digiti minimi brevis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245214006",
+    "display" : "Tendon of flexor digitorum brevis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245221006",
+    "display" : "Tendon of flexor hallucis brevis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245228000",
+    "display" : "Tendon of fourth dorsal interosseus of foot"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245220007",
+    "display" : "Tendon of fourth lumbrical of foot"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245198000",
+    "display" : "Tendon of gastrocnemius"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245056000",
+    "display" : "Tendon of genioglossus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "314500005",
+    "display" : "Tendon of gluteus muscle"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245182007",
+    "display" : "Tendon of gracilis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245184008",
+    "display" : "Tendon of hamstring muscle"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245185009",
+    "display" : "Tendon of hamstring part of adductor magnus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245049006",
+    "display" : "Tendon of head"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245048003",
+    "display" : "Tendon of head and neck"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245060002",
+    "display" : "Tendon of hyoid muscle"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245097007",
+    "display" : "Tendon of iliacus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "314474002",
+    "display" : "Tendon of iliocostalis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245084005",
+    "display" : "Tendon of iliocostalis cervicis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245082009",
+    "display" : "Tendon of iliocostalis lumborum"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245083004",
+    "display" : "Tendon of iliocostalis thoracis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "129246009",
+    "display" : "Tendon of iliopsoas"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245064006",
+    "display" : "Tendon of infrahyoid muscle"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245209007",
+    "display" : "Tendon of intrinsic muscle of foot"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245195002",
+    "display" : "Tendon of lateral crural muscle"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245052003",
+    "display" : "Tendon of lateral pterygoid"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "764713005",
+    "display" : "Tendon of left shoulder or upper arm"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245057009",
+    "display" : "Tendon of levator palati"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245102005",
+    "display" : "Tendon of long head of biceps brachii"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "314475001",
+    "display" : "Tendon of longissimus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245087003",
+    "display" : "Tendon of longissimus capitis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245086007",
+    "display" : "Tendon of longissimus cervicis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245085006",
+    "display" : "Tendon of longissimus thoracis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245077002",
+    "display" : "Tendon of longus capitis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245076006",
+    "display" : "Tendon of longus colli"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245188006",
+    "display" : "Tendon of lower leg"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245162008",
+    "display" : "Tendon of lower limb"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245216008",
+    "display" : "Tendon of lumbrical muscle of foot"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245181000",
+    "display" : "Tendon of medial thigh muscle"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245059007",
+    "display" : "Tendon of neck"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245074009",
+    "display" : "Tendon of obliquus capitis superior"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245173001",
+    "display" : "Tendon of obturator externus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245172006",
+    "display" : "Tendon of obturator internus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245171004",
+    "display" : "Tendon of obturator muscle"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245066008",
+    "display" : "Tendon of omohyoid"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "304920008",
+    "display" : "Tendon of orbital muscle"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "307706000",
+    "display" : "Tendon of pectoralis major"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "181722006",
+    "display" : "Tendon of peroneus brevis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "181720003",
+    "display" : "Tendon of peroneus tertius"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245229008",
+    "display" : "Tendon of plantar interosseus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245202003",
+    "display" : "Tendon of popliteus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245196001",
+    "display" : "Tendon of posterior crural muscle"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245095004",
+    "display" : "Tendon of psoas major"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245096003",
+    "display" : "Tendon of psoas minor"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "314478004",
+    "display" : "Tendon of psoas muscle"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245094000",
+    "display" : "Tendon of quadratus lumborum"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245093006",
+    "display" : "Tendon of rectus abdominis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245072008",
+    "display" : "Tendon of rectus capitis posterior major"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245073003",
+    "display" : "Tendon of rectus capitis posterior minor"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245176009",
+    "display" : "Tendon of rectus femoris"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "764714004",
+    "display" : "Tendon of right shoulder or upper arm"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245100002",
+    "display" : "Tendon of rotator cuff of shoulder"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245180004",
+    "display" : "Tendon of sartorius"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245067004",
+    "display" : "Tendon of scalene muscle"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245068009",
+    "display" : "Tendon of scalenus anterior"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245069001",
+    "display" : "Tendon of scalenus medius"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245070000",
+    "display" : "Tendon of scalenus posterior"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245226001",
+    "display" : "Tendon of second dorsal interosseus of foot"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245218009",
+    "display" : "Tendon of second lumbrical of foot"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245231004",
+    "display" : "Tendon of second plantar interosseus muscle"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "314477009",
+    "display" : "Tendon of semispinalis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245091008",
+    "display" : "Tendon of semispinalis capitis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "303895000",
+    "display" : "Tendon of semispinalis cervicis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245090009",
+    "display" : "Tendon of semispinalis thoracis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245092001",
+    "display" : "Tendon of serratus anterior"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245099005",
+    "display" : "Tendon of shoulder or upper arm"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245199008",
+    "display" : "Tendon of soleus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "314476000",
+    "display" : "Tendon of spinalis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245089000",
+    "display" : "Tendon of spinalis cervicis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245088008",
+    "display" : "Tendon of spinalis thoracis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245080001",
+    "display" : "Tendon of splenius cervicis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245055001",
+    "display" : "Tendon of stapedius"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245075005",
+    "display" : "Tendon of sternocleidomastoid"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245065007",
+    "display" : "Tendon of sternohyoid"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245063000",
+    "display" : "Tendon of stylohyoid"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245071001",
+    "display" : "Tendon of suboccipital muscle"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245197005",
+    "display" : "Tendon of superficial posterior crural muscle"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245061003",
+    "display" : "Tendon of suprahyoid muscle"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245051005",
+    "display" : "Tendon of temporalis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245058004",
+    "display" : "Tendon of tensor palati"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245054002",
+    "display" : "Tendon of tensor tympani"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245227005",
+    "display" : "Tendon of third dorsal interosseus of foot"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245219001",
+    "display" : "Tendon of third lumbrical of foot"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245232006",
+    "display" : "Tendon of third plantar interosseous muscle"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245078007",
+    "display" : "Tendon of trunk"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245101003",
+    "display" : "Tendon of upper arm"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245178005",
+    "display" : "Tendon of vastus intermedius"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245177000",
+    "display" : "Tendon of vastus lateralis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "245179002",
+    "display" : "Tendon of vastus medialis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "72364001",
+    "display" : "Tendon spindle"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "13024002",
+    "display" : "Tendon structure"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "726671007",
+    "display" : "Tendon structure of anterior and/or posterior tibial muscle"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "49738002",
+    "display" : "Tendon structure of anterior tibial muscle"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "721126004",
+    "display" : "Tendon structure of left abductor pollicis longus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "721122002",
+    "display" : "Tendon structure of left extensor pollicis brevis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "736623000",
+    "display" : "Tendon structure of long head of left biceps brachii"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "724354000",
+    "display" : "Tendon structure of long head of right biceps brachii"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "63149002",
+    "display" : "Tendon structure of posterior tibial muscle"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "721125000",
+    "display" : "Tendon structure of right abductor pollicis longus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "721121009",
+    "display" : "Tendon structure of right extensor pollicis brevis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "278107008",
+    "display" : "Tendon zone"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "360764006",
+    "display" : "Vincula tendinum"
+  } ]
+}

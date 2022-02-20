@@ -1,0 +1,10 @@
+{
+  "system" : "SNOMED Clinical Terms",
+  "code" : "190966007",
+  "description" : "",
+  "children" : [ {
+    "system" : "http://snomed.info/sct",
+    "code" : "190966007",
+    "display" : "Extreme obesity with alveolar hypoventilation"
+  } ]
+}

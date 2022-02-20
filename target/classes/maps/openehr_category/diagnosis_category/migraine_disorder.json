@@ -1,0 +1,150 @@
+{
+  "system" : "SNOMED Clinical Terms",
+  "code" : "37796009",
+  "description" : "",
+  "children" : [ {
+    "system" : "http://snomed.info/sct",
+    "code" : "95653008",
+    "display" : "Acute confusional migraine"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "145611000119107",
+    "display" : "Allergic migraine"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "83351003",
+    "display" : "Basilar migraine"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "124171000119105",
+    "display" : "Chronic intractable migraine without aura"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "95657009",
+    "display" : "Chronic mixed headache syndrome"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "124001000119104",
+    "display" : "Common migraine with status migrainosus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "193039006",
+    "display" : "Complicated migraine"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "95656000",
+    "display" : "Familial hemiplegic migraine"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "59292006",
+    "display" : "Hemiplegic migraine"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "425936006",
+    "display" : "Intractable ophthalmic migraine"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "26150009",
+    "display" : "Lower half migraine"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "23186000",
+    "display" : "Menstrual migraine"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "124081000119107",
+    "display" : "Menstrual status migrainosus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "37796009",
+    "display" : "Migraine"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "230465000",
+    "display" : "Migraine aura without headache"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "711545001",
+    "display" : "Migraine due to estrogen contraceptive"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "445322004",
+    "display" : "Migraine variant with headache"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "193030005",
+    "display" : "Migraine variants"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "424699007",
+    "display" : "Migraine variants, not intractable"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "4473006",
+    "display" : "Migraine with aura"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "230468003",
+    "display" : "Migraine with ischemic complication"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "699314009",
+    "display" : "Migraine with persistent visual aura"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "230462002",
+    "display" : "Migraine with typical aura"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "56097005",
+    "display" : "Migraine without aura"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "425007008",
+    "display" : "Migraine without aura, not refractory"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "230464001",
+    "display" : "Non-familial hemiplegic migraine"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "95655001",
+    "display" : "Ophthalmic migraine"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "49605003",
+    "display" : "Ophthalmoplegic migraine"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "423894005",
+    "display" : "Refractory migraine"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "425365009",
+    "display" : "Refractory migraine variants"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "423683008",
+    "display" : "Refractory migraine with aura"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "423279000",
+    "display" : "Refractory migraine without aura"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "79267007",
+    "display" : "Retinal migraine"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "230467008",
+    "display" : "Status migrainosus"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "724429004",
+    "display" : "Stroke co-occurrent with migraine"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "427419006",
+    "display" : "Transformed migraine"
+  } ]
+}

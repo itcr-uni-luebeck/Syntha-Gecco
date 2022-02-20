@@ -1,0 +1,134 @@
+{
+  "templateName" : "SOFA",
+  "paths" : [ {
+    "id" : 0,
+    "aqlPath" : "/context/other_context[at0001]/items[at0004]/value|code",
+    "path" : "sofa-score/context/status|code",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 1,
+    "aqlPath" : "/context/other_context[at0001]/items[at0005]/value",
+    "path" : "sofa-score/context/kategorie",
+    "type" : "TEXT"
+  }, {
+    "id" : 2,
+    "aqlPath" : "/context/start_time",
+    "path" : "sofa-score/context/start_time",
+    "type" : "DATETIME"
+  }, {
+    "id" : 3,
+    "aqlPath" : "/context/setting|code",
+    "path" : "sofa-score/context/setting|code",
+    "type" : "TEXT"
+  }, {
+    "id" : 4,
+    "aqlPath" : "/context/setting|value",
+    "path" : "sofa-score/context/setting|value",
+    "type" : "TEXT"
+  }, {
+    "id" : 5,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.sofa_score.v0]/data[at0001]/events[at0002]/data[at0003]/items[at0004]/value",
+    "path" : "sofa-score/sofa_score/respiration",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 6,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.sofa_score.v0]/data[at0001]/events[at0002]/data[at0003]/items[at0010]/value",
+    "path" : "sofa-score/sofa_score/kardiovaskuläres_system",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 7,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.sofa_score.v0]/data[at0001]/events[at0002]/data[at0003]/items[at0016]/value",
+    "path" : "sofa-score/sofa_score/zentrales_nervensystem",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 8,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.sofa_score.v0]/data[at0001]/events[at0002]/data[at0003]/items[at0022]/value",
+    "path" : "sofa-score/sofa_score/nierenfunktion",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 9,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.sofa_score.v0]/data[at0001]/events[at0002]/data[at0003]/items[at0028]/value",
+    "path" : "sofa-score/sofa_score/leberfunktion",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 10,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.sofa_score.v0]/data[at0001]/events[at0002]/data[at0003]/items[at0034]/value",
+    "path" : "sofa-score/sofa_score/blutgerinnung",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 11,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.sofa_score.v0]/data[at0001]/events[at0002]/data[at0003]/items[at0041]/value",
+    "path" : "sofa-score/sofa_score/gesamtergebnis",
+    "type" : "INTEGER"
+  }, {
+    "id" : 12,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.sofa_score.v0]/data[at0001]/events[at0002]/time",
+    "path" : "sofa-score/sofa_score/time",
+    "type" : "DATETIME"
+  }, {
+    "id" : 13,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.sofa_score.v0]/language",
+    "path" : "sofa-score/sofa_score/language",
+    "type" : "TEXT"
+  }, {
+    "id" : 14,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.sofa_score.v0]/encoding",
+    "path" : "sofa-score/sofa_score/encoding",
+    "type" : "TEXT"
+  }, {
+    "id" : 15,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.sofa_score.v0]/subject|id",
+    "path" : "sofa-score/sofa_score/subject|id",
+    "type" : "TEXT"
+  }, {
+    "id" : 16,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.sofa_score.v0]/subject|id_scheme",
+    "path" : "sofa-score/sofa_score/subject|id_scheme",
+    "type" : "TEXT"
+  }, {
+    "id" : 17,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.sofa_score.v0]/subject|id_namespace",
+    "path" : "sofa-score/sofa_score/subject|id_namespace",
+    "type" : "TEXT"
+  }, {
+    "id" : 18,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.sofa_score.v0]/subject|name",
+    "path" : "sofa-score/sofa_score/subject|name",
+    "type" : "TEXT"
+  }, {
+    "id" : 19,
+    "aqlPath" : "/category|code",
+    "path" : "sofa-score/category|code",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 20,
+    "aqlPath" : "/language",
+    "path" : "sofa-score/language",
+    "type" : "TEXT"
+  }, {
+    "id" : 21,
+    "aqlPath" : "/territory",
+    "path" : "sofa-score/territory",
+    "type" : "TEXT"
+  }, {
+    "id" : 22,
+    "aqlPath" : "/composer|id",
+    "path" : "sofa-score/composer|id",
+    "type" : "TEXT"
+  }, {
+    "id" : 23,
+    "aqlPath" : "/composer|id_scheme",
+    "path" : "sofa-score/composer|id_scheme",
+    "type" : "TEXT"
+  }, {
+    "id" : 24,
+    "aqlPath" : "/composer|id_namespace",
+    "path" : "sofa-score/composer|id_namespace",
+    "type" : "TEXT"
+  }, {
+    "id" : 25,
+    "aqlPath" : "/composer|name",
+    "path" : "sofa-score/composer|name",
+    "type" : "TEXT"
+  } ]
+}

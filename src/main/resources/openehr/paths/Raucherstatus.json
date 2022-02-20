@@ -1,0 +1,99 @@
+{
+  "templateName" : "Raucherstatus",
+  "paths" : [ {
+    "id" : 0,
+    "aqlPath" : "/context/other_context[at0001]/items[at0004]/value|code",
+    "path" : "raucherstatus/context/status|code",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 1,
+    "aqlPath" : "/context/other_context[at0001]/items[at0005]/value",
+    "path" : "raucherstatus/context/kategorie",
+    "type" : "TEXT"
+  }, {
+    "id" : 2,
+    "aqlPath" : "/context/start_time",
+    "path" : "raucherstatus/context/start_time",
+    "type" : "DATETIME"
+  }, {
+    "id" : 3,
+    "aqlPath" : "/context/setting|code",
+    "path" : "raucherstatus/context/setting|code",
+    "type" : "TEXT"
+  }, {
+    "id" : 4,
+    "aqlPath" : "/context/setting|value",
+    "path" : "raucherstatus/context/setting|value",
+    "type" : "TEXT"
+  }, {
+    "id" : 5,
+    "aqlPath" : "/content[openEHR-EHR-EVALUATION.tobacco_smoking_summary.v1,'Raucherstatus']/data[at0001]/items[at0043,'Rauchverhalten']/value|code",
+    "path" : "raucherstatus/raucherstatus/rauchverhalten|code",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 6,
+    "aqlPath" : "/content[openEHR-EHR-EVALUATION.tobacco_smoking_summary.v1,'Raucherstatus']/language",
+    "path" : "raucherstatus/raucherstatus/language",
+    "type" : "TEXT"
+  }, {
+    "id" : 7,
+    "aqlPath" : "/content[openEHR-EHR-EVALUATION.tobacco_smoking_summary.v1,'Raucherstatus']/encoding",
+    "path" : "raucherstatus/raucherstatus/encoding",
+    "type" : "TEXT"
+  }, {
+    "id" : 8,
+    "aqlPath" : "/content[openEHR-EHR-EVALUATION.tobacco_smoking_summary.v1,'Raucherstatus']/subject|id",
+    "path" : "raucherstatus/raucherstatus/subject|id",
+    "type" : "TEXT"
+  }, {
+    "id" : 9,
+    "aqlPath" : "/content[openEHR-EHR-EVALUATION.tobacco_smoking_summary.v1,'Raucherstatus']/subject|id_scheme",
+    "path" : "raucherstatus/raucherstatus/subject|id_scheme",
+    "type" : "TEXT"
+  }, {
+    "id" : 10,
+    "aqlPath" : "/content[openEHR-EHR-EVALUATION.tobacco_smoking_summary.v1,'Raucherstatus']/subject|id_namespace",
+    "path" : "raucherstatus/raucherstatus/subject|id_namespace",
+    "type" : "TEXT"
+  }, {
+    "id" : 11,
+    "aqlPath" : "/content[openEHR-EHR-EVALUATION.tobacco_smoking_summary.v1,'Raucherstatus']/subject|name",
+    "path" : "raucherstatus/raucherstatus/subject|name",
+    "type" : "TEXT"
+  }, {
+    "id" : 12,
+    "aqlPath" : "/category|code",
+    "path" : "raucherstatus/category|code",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 13,
+    "aqlPath" : "/language",
+    "path" : "raucherstatus/language",
+    "type" : "TEXT"
+  }, {
+    "id" : 14,
+    "aqlPath" : "/territory",
+    "path" : "raucherstatus/territory",
+    "type" : "TEXT"
+  }, {
+    "id" : 15,
+    "aqlPath" : "/composer|id",
+    "path" : "raucherstatus/composer|id",
+    "type" : "TEXT"
+  }, {
+    "id" : 16,
+    "aqlPath" : "/composer|id_scheme",
+    "path" : "raucherstatus/composer|id_scheme",
+    "type" : "TEXT"
+  }, {
+    "id" : 17,
+    "aqlPath" : "/composer|id_namespace",
+    "path" : "raucherstatus/composer|id_namespace",
+    "type" : "TEXT"
+  }, {
+    "id" : 18,
+    "aqlPath" : "/composer|name",
+    "path" : "raucherstatus/composer|name",
+    "type" : "TEXT"
+  } ]
+}

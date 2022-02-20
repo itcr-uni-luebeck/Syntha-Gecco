@@ -1,0 +1,116 @@
+{
+  "procedureCategories" : [
+    {
+      "categoryCode" : 0,
+      "codes" : []
+    },
+    {
+      "categoryCode" : 1,
+      "codes" : [
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "168537006",
+          "display" : "Plain radiography"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "16310003",
+          "display" : "Diagnostic ultrasonography (procedure)"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "77477000",
+          "display" : "Computerized axial tomography (procedure)"
+        }
+      ]
+    },
+    {
+      "categoryCode" : 2,
+      "codes" : [
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "277132007",
+          "display" : "Therapeutic procedure (procedure)"
+        }
+      ]
+    },
+    {
+      "categoryCode" : 3,
+      "codes" : [
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "127788007",
+          "display" : "Apheresis (procedure)"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "233573008",
+          "display" : "Extracorporeal membrane oxygenation (procedure)"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "108241001",
+          "display" : "Dialysis procedure (procedure)"
+        }
+      ]
+    },
+    {
+      "categoryCode" : 4,
+      "codes" : [
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "53950000",
+          "display" : "Respiratory therapy (procedure)"
+        }
+      ]
+    },
+    {
+      "categoryCode" : 5,
+      "codes" : [
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "40617009",
+          "display" : "Artificial respiration (procedure)"
+        }
+      ]
+    },
+    {
+      "categoryCode" : 6,
+      "codes" : []
+    },
+    {
+      "categoryCode" : 7,
+      "codes" : [
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "371907003",
+          "display" : "Oxygen administration by nasal cannula (procedure)"
+        }
+      ]
+    },
+    {
+      "categoryCode" : 8,
+      "codes" : []
+    },
+    {
+      "categoryCode" : 9,
+      "codes" : [
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "431182000",
+          "display" : "Placing subject in prone position (procedure)"
+        }
+      ]
+    },
+    {
+      "categoryCode" : 10,
+      "codes" : [
+        {
+        "system" : "http://snomed.info/sct",
+        "code" : "428311008",
+        "display" : "Noninvasive ventilation (procedure)"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "system" : "SNOMED Clinical Terms",
+  "code" : "429993008",
+  "description" : "",
+  "children" : [ {
+    "system" : "http://snomed.info/sct",
+    "code" : "429993008",
+    "display" : "History of cerebrovascular accident without residual deficits"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "118971000119107",
+    "display" : "History of embolic stroke without deficits"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "118961000119101",
+    "display" : "History of hemorrhagic cerebrovascular accident without residual deficits"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "141281000119101",
+    "display" : "History of ischemic stroke without residual deficits"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "118951000119103",
+    "display" : "History of thrombotic stroke without residual deficits"
+  } ]
+}

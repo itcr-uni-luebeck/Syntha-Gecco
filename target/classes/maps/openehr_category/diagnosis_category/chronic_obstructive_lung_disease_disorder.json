@@ -1,0 +1,174 @@
+{
+  "system" : "SNOMED Clinical Terms",
+  "code" : "13645005",
+  "description" : "",
+  "children" : [ {
+    "system" : "http://snomed.info/sct",
+    "code" : "195951007",
+    "display" : "Acute exacerbation of chronic obstructive airways disease"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "1751000119100",
+    "display" : "Acute exacerbation of chronic obstructive airways disease with asthma"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "285381006",
+    "display" : "Acute infective exacerbation of chronic obstructive airways disease"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "10692761000119107",
+    "display" : "Asthma-chronic obstructive pulmonary disease overlap syndrome"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "266356006",
+    "display" : "Atrophic (senile) emphysema"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "70756004",
+    "display" : "Bronchial atresia with segmental pulmonary emphysema"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "266355005",
+    "display" : "Bullous emphysema with collapse"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "68328006",
+    "display" : "Centriacinar emphysema"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "195957006",
+    "display" : "Chronic bullous emphysema"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "196026004",
+    "display" : "Chronic emphysema due to chemical fumes"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "836477007",
+    "display" : "Chronic emphysema due to vapor"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "47938003",
+    "display" : "Chronic obliterative bronchiolitis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "840350008",
+    "display" : "Chronic obliterative bronchiolitis due to chemical fumes"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "840351007",
+    "display" : "Chronic obliterative bronchiolitis due to vapor"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "13645005",
+    "display" : "Chronic obstructive lung disease"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "106001000119101",
+    "display" : "Chronic obstructive lung disease co-occurrent with acute bronchitis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "196001008",
+    "display" : "Chronic obstructive pulmonary disease with acute lower respiratory infection"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "33325001",
+    "display" : "Compensatory emphysema"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "47895001",
+    "display" : "Congenital emphysema"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "66987001",
+    "display" : "Congenital lobar emphysema"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "1010333003",
+    "display" : "Emphysema of left lung"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "1010334009",
+    "display" : "Emphysema of right lung"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "57686001",
+    "display" : "Emphysematous bleb of lung"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "135836000",
+    "display" : "End stage chronic obstructive airways disease"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "16003001",
+    "display" : "Giant bullous emphysema"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "60805002",
+    "display" : "Hemolytic anemia with emphysema AND cutis laxa"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "77690003",
+    "display" : "Interstitial emphysema of lung"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "313296004",
+    "display" : "Mild chronic obstructive pulmonary disease"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "313297008",
+    "display" : "Moderate chronic obstructive pulmonary disease"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "16846004",
+    "display" : "Obstructive emphysema"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "4981000",
+    "display" : "Panacinar emphysema"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "31898008",
+    "display" : "Paraseptal emphysema"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "87433001",
+    "display" : "Pulmonary emphysema"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "708030004",
+    "display" : "Pulmonary emphysema co-occurrent with fibrosis of lung"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "233674008",
+    "display" : "Pulmonary emphysema in alpha-1 PI deficiency"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "86680006",
+    "display" : "Ruptured emphysematous bleb of lung"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "233677001",
+    "display" : "Scar emphysema"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "195958001",
+    "display" : "Segmental bullous emphysema"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "313299006",
+    "display" : "Severe chronic obstructive pulmonary disease"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "233675009",
+    "display" : "Toxic emphysema"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "23958009",
+    "display" : "Vanishing lung"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "195959009",
+    "display" : "Zonal bullous emphysema"
+  } ]
+}

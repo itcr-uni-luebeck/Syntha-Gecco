@@ -1,0 +1,494 @@
+{
+  "system" : "SNOMED Clinical Terms",
+  "code" : "69896004",
+  "description" : "",
+  "children" : [ {
+    "system" : "http://snomed.info/sct",
+    "code" : "402427003",
+    "display" : "Accelerated rheumatoid nodulosis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "402428008",
+    "display" : "Accelerated rheumatoid nodulosis caused by methotrexate"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "15686281000119101",
+    "display" : "Bilateral rheumatoid arthritis of feet"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "15687321000119109",
+    "display" : "Bilateral rheumatoid arthritis of hands"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "15687201000119107",
+    "display" : "Bilateral rheumatoid arthritis of knees"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "15673361000119100",
+    "display" : "Bilateral rheumatoid nodule of subcutaneous tissue of elbows"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "15673521000119101",
+    "display" : "Bilateral rheumatoid nodule of subcutaneous tissue of hands"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "15691121000119103",
+    "display" : "Bilateral seronegative rheumatoid arthritis of elbow joints"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "15691081000119100",
+    "display" : "Bilateral seronegative rheumatoid arthritis of feet"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "15691241000119101",
+    "display" : "Bilateral seronegative rheumatoid arthritis of knees"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "15691321000119101",
+    "display" : "Bilateral seronegative rheumatoid arthritis of wrists"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "15691961000119105",
+    "display" : "Bilateral seropositive rheumatoid arthritis of ankle joints"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "16050071000119108",
+    "display" : "Bilateral seropositive rheumatoid arthritis of feet"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "15691921000119100",
+    "display" : "Bilateral seropositive rheumatoid arthritis of hip joints"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "15692001000119101",
+    "display" : "Bilateral seropositive rheumatoid arthritis of joint of elbows"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "15691881000119107",
+    "display" : "Bilateral seropositive rheumatoid arthritis of knees"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "15691841000119102",
+    "display" : "Bilateral seropositive rheumatoid arthritis of shoulder regions"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "15692041000119104",
+    "display" : "Bilateral seropositive rheumatoid arthritis of wrist joint regions"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "82939003",
+    "display" : "Chronic rheumatoid nodular fibrosis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "402431009",
+    "display" : "Cutaneous atrophy due to rheumatoid arthritis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "402434001",
+    "display" : "Cutaneous complication of rheumatoid disease"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "10713006",
+    "display" : "Diffuse interstitial rheumatoid disease of lung"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "52661003",
+    "display" : "Extra-articular rheumatoid process"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "57160007",
+    "display" : "Felty's syndrome"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "201791009",
+    "display" : "Flare of rheumatoid arthritis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "1149218009",
+    "display" : "Isolated nailfold rheumatoid vasculitis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "410796000",
+    "display" : "Juvenile seropositive polyarthritis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "318841000119100",
+    "display" : "Left ankle seropositive rheumatoid arthritis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "318851000119103",
+    "display" : "Left elbow seropositive rheumatoid arthritis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "1073611000119103",
+    "display" : "Left foot seropositive rheumatoid arthritis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "319041000119104",
+    "display" : "Left hip joint seronegative rheumatoid arthritis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "319061000119100",
+    "display" : "Left shoulder region seronegative rheumatoid arthritis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "319071000119106",
+    "display" : "Left wrist region seronegative rheumatoid arthritis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "318901000119107",
+    "display" : "Left wrist region seropositive rheumatoid arthritis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "38877003",
+    "display" : "Rheumatoid aortitis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "399923009",
+    "display" : "Rheumatoid arteritis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "69896004",
+    "display" : "Rheumatoid arthritis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "287008006",
+    "display" : "Rheumatoid arthritis - ankle and/or foot"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "287007001",
+    "display" : "Rheumatoid arthritis - hand joint"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "143441000119108",
+    "display" : "Rheumatoid arthritis in remission"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "201768005",
+    "display" : "Rheumatoid arthritis of acromioclavicular joint"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "201779000",
+    "display" : "Rheumatoid arthritis of ankle"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "201764007",
+    "display" : "Rheumatoid arthritis of cervical spine"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "201774005",
+    "display" : "Rheumatoid arthritis of distal interphalangeal joint of finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "201770001",
+    "display" : "Rheumatoid arthritis of distal radioulnar joint"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "201769002",
+    "display" : "Rheumatoid arthritis of elbow"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "201783000",
+    "display" : "Rheumatoid arthritis of first metatarsophalangeal joint"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "429192004",
+    "display" : "Rheumatoid arthritis of foot"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "201775006",
+    "display" : "Rheumatoid arthritis of hip"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "201785007",
+    "display" : "Rheumatoid arthritis of interphalangeal joint of toe"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "781206002",
+    "display" : "Rheumatoid arthritis of joint of spine"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "201777003",
+    "display" : "Rheumatoid arthritis of knee"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "1073701000119107",
+    "display" : "Rheumatoid arthritis of left foot"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "1073711000119105",
+    "display" : "Rheumatoid arthritis of left hand"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "1073721000119103",
+    "display" : "Rheumatoid arthritis of left hip"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "1073731000119100",
+    "display" : "Rheumatoid arthritis of left knee"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "1073741000119109",
+    "display" : "Rheumatoid arthritis of left shoulder"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "1073751000119106",
+    "display" : "Rheumatoid arthritis of left wrist"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "201784006",
+    "display" : "Rheumatoid arthritis of lesser metatarsophalangeal joint"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "201772009",
+    "display" : "Rheumatoid arthritis of metacarpophalangeal joint"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "287006005",
+    "display" : "Rheumatoid arthritis of multiple joints"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "201773004",
+    "display" : "Rheumatoid arthritis of proximal interphalangeal joint of finger"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "1073781000119104",
+    "display" : "Rheumatoid arthritis of right foot"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "1073791000119101",
+    "display" : "Rheumatoid arthritis of right hand"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "1073801000119100",
+    "display" : "Rheumatoid arthritis of right hip"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "1073811000119102",
+    "display" : "Rheumatoid arthritis of right knee"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "1073821000119109",
+    "display" : "Rheumatoid arthritis of right shoulder"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "1073831000119107",
+    "display" : "Rheumatoid arthritis of right wrist"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "201776007",
+    "display" : "Rheumatoid arthritis of sacroiliac joint"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "201766009",
+    "display" : "Rheumatoid arthritis of shoulder"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "201767000",
+    "display" : "Rheumatoid arthritis of sternoclavicular joint"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "201780002",
+    "display" : "Rheumatoid arthritis of subtalar joint"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "201781003",
+    "display" : "Rheumatoid arthritis of talonavicular joint"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "427770001",
+    "display" : "Rheumatoid arthritis of temporomandibular joint"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "201778008",
+    "display" : "Rheumatoid arthritis of tibiofibular joint"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "201771002",
+    "display" : "Rheumatoid arthritis of wrist"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "735599007",
+    "display" : "Rheumatoid arthritis with erosion of joint"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "402433007",
+    "display" : "Rheumatoid arthritis with nailfold/finger-pulp infarcts"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "28880005",
+    "display" : "Rheumatoid carditis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "77522006",
+    "display" : "Rheumatoid episcleritis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "1156777001",
+    "display" : "Rheumatoid factor positive and anti-citrullinated protein antibody negative juvenile polyarthritis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "1156774008",
+    "display" : "Rheumatoid factor positive and anti-citrullinated protein antibody positive juvenile polyarthritis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "54867000",
+    "display" : "Rheumatoid fibrosing alveolitis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "398726004",
+    "display" : "Rheumatoid lung disease"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "239943002",
+    "display" : "Rheumatoid necrotizing vasculitis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "402432002",
+    "display" : "Rheumatoid neutrophilic dermatitis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "201789001",
+    "display" : "Rheumatoid nodule"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "319861000119106",
+    "display" : "Rheumatoid nodule of subcutaneous tissue of left elbow"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "319871000119100",
+    "display" : "Rheumatoid nodule of subcutaneous tissue of left hand"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "319941000119103",
+    "display" : "Rheumatoid nodule of subcutaneous tissue of right elbow"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "319951000119101",
+    "display" : "Rheumatoid nodule of subcutaneous tissue of right hand"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "402426007",
+    "display" : "Rheumatoid nodulosis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "129563009",
+    "display" : "Rheumatoid osteoperiostitis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "7607008",
+    "display" : "Rheumatoid pericarditis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "398640008",
+    "display" : "Rheumatoid pneumoconiosis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "59165007",
+    "display" : "Rheumatoid scleritis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "400054000",
+    "display" : "Rheumatoid vasculitis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "318911000119105",
+    "display" : "Right ankle seropositive rheumatoid arthritis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "318921000119103",
+    "display" : "Right elbow seropositive rheumatoid arthritis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "1073601000119101",
+    "display" : "Right foot seropositive rheumatoid arthritis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "319121000119106",
+    "display" : "Right hip joint seronegative rheumatoid arthritis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "319141000119100",
+    "display" : "Right shoulder region seronegative rheumatoid arthritis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "319151000119103",
+    "display" : "Right wrist region seronegative rheumatoid arthritis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "318971000119102",
+    "display" : "Right wrist region seropositive rheumatoid arthritis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "239792003",
+    "display" : "Seronegative rheumatoid arthritis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "16606681000119101",
+    "display" : "Seronegative rheumatoid arthritis in remission"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "319011000119103",
+    "display" : "Seronegative rheumatoid arthritis of joint of left ankle"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "319091000119107",
+    "display" : "Seronegative rheumatoid arthritis of joint of right ankle"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "319051000119102",
+    "display" : "Seronegative rheumatoid arthritis of left knee joint"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "319081000119109",
+    "display" : "Seronegative rheumatoid arthritis of multiple joints"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "319131000119109",
+    "display" : "Seronegative rheumatoid arthritis of right knee joint"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "308143008",
+    "display" : "Seropositive erosive rheumatoid arthritis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "239791005",
+    "display" : "Seropositive rheumatoid arthritis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "16606721000119107",
+    "display" : "Seropositive rheumatoid arthritis in remission"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "318891000119108",
+    "display" : "Seropositive rheumatoid arthritis of joint of left shoulder region"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "318961000119108",
+    "display" : "Seropositive rheumatoid arthritis of joint of right shoulder region"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "318861000119101",
+    "display" : "Seropositive rheumatoid arthritis of left hand"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "11055151000119108",
+    "display" : "Seropositive rheumatoid arthritis of multiple joints"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "318931000119100",
+    "display" : "Seropositive rheumatoid arthritis of right hand"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "33719002",
+    "display" : "Subcutaneous rheumatoid nodule"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "1149219001",
+    "display" : "Systemic rheumatoid vasculitis"
+  }, {
+    "system" : "http://snomed.info/sct",
+    "code" : "86219005",
+    "display" : "Uveitis-rheumatoid arthritis syndrome"
+  } ]
+}

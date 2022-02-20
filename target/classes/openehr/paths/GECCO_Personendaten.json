@@ -1,0 +1,384 @@
+{
+  "templateName" : "GECCO_Personendaten",
+  "paths" : [ {
+    "id" : 0,
+    "aqlPath" : "/context/other_context[at0001]/items[at0004]/value|code",
+    "path" : "gecco_personendaten/context/status|code",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 1,
+    "aqlPath" : "/context/other_context[at0001]/items[at0005]/value",
+    "path" : "gecco_personendaten/context/kategorie",
+    "type" : "TEXT"
+  }, {
+    "id" : 2,
+    "aqlPath" : "/context/start_time",
+    "path" : "gecco_personendaten/context/start_time",
+    "type" : "DATETIME"
+  }, {
+    "id" : 3,
+    "aqlPath" : "/context/setting|code",
+    "path" : "gecco_personendaten/context/setting|code",
+    "type" : "TEXT"
+  }, {
+    "id" : 4,
+    "aqlPath" : "/context/setting|value",
+    "path" : "gecco_personendaten/context/setting|value",
+    "type" : "TEXT"
+  }, {
+    "id" : 5,
+    "aqlPath" : "/content[openEHR-EHR-ADMIN_ENTRY.person_data.v0]/data[at0001]/items[openEHR-EHR-CLUSTER.person_name.v0]/items[at0006]/value|code",
+    "path" : "gecco_personendaten/personendaten/personenname/namensart|code",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 6,
+    "aqlPath" : "/content[openEHR-EHR-ADMIN_ENTRY.person_data.v0]/data[at0001]/items[openEHR-EHR-CLUSTER.person_name.v0]/items[at0022]/value",
+    "path" : "gecco_personendaten/personendaten/personenname/bevorzugter_name",
+    "type" : "BOOLEAN"
+  }, {
+    "id" : 7,
+    "aqlPath" : "/content[openEHR-EHR-ADMIN_ENTRY.person_data.v0]/data[at0001]/items[openEHR-EHR-CLUSTER.person_name.v0]/items[at0001]/value",
+    "path" : "gecco_personendaten/personendaten/personenname/name_unstrukturiert",
+    "type" : "TEXT"
+  }, {
+    "id" : 8,
+    "aqlPath" : "/content[openEHR-EHR-ADMIN_ENTRY.person_data.v0]/data[at0001]/items[openEHR-EHR-CLUSTER.person_name.v0]/items[at0002]/items[at0017]/value",
+    "path" : "gecco_personendaten/personendaten/personenname/name_strukturiert/titel",
+    "type" : "TEXT"
+  }, {
+    "id" : 9,
+    "aqlPath" : "/content[openEHR-EHR-ADMIN_ENTRY.person_data.v0]/data[at0001]/items[openEHR-EHR-CLUSTER.person_name.v0]/items[at0002]/items[at0003]/value",
+    "path" : "gecco_personendaten/personendaten/personenname/name_strukturiert/vorname",
+    "type" : "TEXT"
+  }, {
+    "id" : 10,
+    "aqlPath" : "/content[openEHR-EHR-ADMIN_ENTRY.person_data.v0]/data[at0001]/items[openEHR-EHR-CLUSTER.person_name.v0]/items[at0002]/items[at0004]/value",
+    "path" : "gecco_personendaten/personendaten/personenname/name_strukturiert/weiterer_vorname",
+    "type" : "TEXT"
+  }, {
+    "id" : 11,
+    "aqlPath" : "/content[openEHR-EHR-ADMIN_ENTRY.person_data.v0]/data[at0001]/items[openEHR-EHR-CLUSTER.person_name.v0]/items[at0002]/items[at0005]/value",
+    "path" : "gecco_personendaten/personendaten/personenname/name_strukturiert/nachname",
+    "type" : "TEXT"
+  }, {
+    "id" : 12,
+    "aqlPath" : "/content[openEHR-EHR-ADMIN_ENTRY.person_data.v0]/data[at0001]/items[openEHR-EHR-CLUSTER.person_name.v0]/items[at0002]/items[at0018]/value",
+    "path" : "gecco_personendaten/personendaten/personenname/name_strukturiert/suffix",
+    "type" : "TEXT"
+  }, {
+    "id" : 13,
+    "aqlPath" : "/content[openEHR-EHR-ADMIN_ENTRY.person_data.v0]/data[at0001]/items[openEHR-EHR-CLUSTER.person_name.v0]/items[at0014]/value/upper",
+    "path" : "gecco_personendaten/personendaten/personenname/gültigkeitszeitraum/upper",
+    "type" : "DATETIME"
+  }, {
+    "id" : 14,
+    "aqlPath" : "/content[openEHR-EHR-ADMIN_ENTRY.person_data.v0]/data[at0001]/items[openEHR-EHR-CLUSTER.person_name.v0]/items[at0014]/value/lower",
+    "path" : "gecco_personendaten/personendaten/personenname/gültigkeitszeitraum/lower",
+    "type" : "DATETIME"
+  }, {
+    "id" : 15,
+    "aqlPath" : "/content[openEHR-EHR-ADMIN_ENTRY.person_data.v0]/data[at0001]/items[openEHR-EHR-CLUSTER.person_birth_data_iso.v0]/items[at0001]/value",
+    "path" : "gecco_personendaten/personendaten/daten_zur_geburt/geburtsdatum",
+    "type" : "DATE"
+  }, {
+    "id" : 16,
+    "aqlPath" : "/content[openEHR-EHR-ADMIN_ENTRY.person_data.v0]/data[at0001]/items[openEHR-EHR-CLUSTER.person_birth_data_iso.v0]/items[at0003,'Kodierung für Mehrlingsgeburten']/value|code",
+    "path" : "gecco_personendaten/personendaten/daten_zur_geburt/kodierung_für_mehrlingsgeburten|code",
+    "type" : "TEXT"
+  }, {
+    "id" : 17,
+    "aqlPath" : "/content[openEHR-EHR-ADMIN_ENTRY.person_data.v0]/data[at0001]/items[openEHR-EHR-CLUSTER.person_birth_data_iso.v0]/items[at0003,'Kodierung für Mehrlingsgeburten']/value|value",
+    "path" : "gecco_personendaten/personendaten/daten_zur_geburt/kodierung_für_mehrlingsgeburten|value",
+    "type" : "TEXT"
+  }, {
+    "id" : 18,
+    "aqlPath" : "/content[openEHR-EHR-ADMIN_ENTRY.person_data.v0]/data[at0001]/items[at0024]/items[at0025]/value",
+    "path" : "gecco_personendaten/personendaten/angaben_zum_tod/verstorben",
+    "type" : "BOOLEAN"
+  }, {
+    "id" : 19,
+    "aqlPath" : "/content[openEHR-EHR-ADMIN_ENTRY.person_data.v0]/data[at0001]/items[at0024]/items[openEHR-EHR-CLUSTER.death_details.v1]/items[at0001]/value",
+    "path" : "gecco_personendaten/personendaten/angaben_zum_tod/angaben_zum_tod/sterbedatum",
+    "type" : "DATETIME"
+  }, {
+    "id" : 20,
+    "aqlPath" : "/content[openEHR-EHR-ADMIN_ENTRY.person_data.v0]/data[at0001]/items[openEHR-EHR-CLUSTER.address_cc.v0]/items[at0001]/value|code",
+    "path" : "gecco_personendaten/personendaten/adresse/verwendung|code",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 21,
+    "aqlPath" : "/content[openEHR-EHR-ADMIN_ENTRY.person_data.v0]/data[at0001]/items[openEHR-EHR-CLUSTER.address_cc.v0]/items[at0006]/value|code",
+    "path" : "gecco_personendaten/personendaten/adresse/typ_der_adresse|code",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 22,
+    "aqlPath" : "/content[openEHR-EHR-ADMIN_ENTRY.person_data.v0]/data[at0001]/items[openEHR-EHR-CLUSTER.address_cc.v0]/items[at0010]/value",
+    "path" : "gecco_personendaten/personendaten/adresse/text",
+    "type" : "TEXT"
+  }, {
+    "id" : 23,
+    "aqlPath" : "/content[openEHR-EHR-ADMIN_ENTRY.person_data.v0]/data[at0001]/items[openEHR-EHR-CLUSTER.address_cc.v0]/items[at0011]/value",
+    "path" : "gecco_personendaten/personendaten/adresse/zeile",
+    "type" : "TEXT"
+  }, {
+    "id" : 24,
+    "aqlPath" : "/content[openEHR-EHR-ADMIN_ENTRY.person_data.v0]/data[at0001]/items[openEHR-EHR-CLUSTER.address_cc.v0]/items[at0012]/value",
+    "path" : "gecco_personendaten/personendaten/adresse/stadt",
+    "type" : "TEXT"
+  }, {
+    "id" : 25,
+    "aqlPath" : "/content[openEHR-EHR-ADMIN_ENTRY.person_data.v0]/data[at0001]/items[openEHR-EHR-CLUSTER.address_cc.v0]/items[at0013]/value",
+    "path" : "gecco_personendaten/personendaten/adresse/bezirk",
+    "type" : "TEXT"
+  }, {
+    "id" : 26,
+    "aqlPath" : "/content[openEHR-EHR-ADMIN_ENTRY.person_data.v0]/data[at0001]/items[openEHR-EHR-CLUSTER.address_cc.v0]/items[at0014]/value",
+    "path" : "gecco_personendaten/personendaten/adresse/postleitzahl",
+    "type" : "TEXT"
+  }, {
+    "id" : 27,
+    "aqlPath" : "/content[openEHR-EHR-ADMIN_ENTRY.person_data.v0]/data[at0001]/items[openEHR-EHR-CLUSTER.address_cc.v0]/items[at0015]/value",
+    "path" : "gecco_personendaten/personendaten/adresse/land",
+    "type" : "TEXT"
+  }, {
+    "id" : 28,
+    "aqlPath" : "/content[openEHR-EHR-ADMIN_ENTRY.person_data.v0]/data[at0001]/items[openEHR-EHR-CLUSTER.address_cc.v0]/items[at0016]/value",
+    "path" : "gecco_personendaten/personendaten/adresse/beginn_der_gültigkeitsdauer",
+    "type" : "DATETIME"
+  }, {
+    "id" : 29,
+    "aqlPath" : "/content[openEHR-EHR-ADMIN_ENTRY.person_data.v0]/data[at0001]/items[openEHR-EHR-CLUSTER.address_cc.v0]/items[at0017]/value",
+    "path" : "gecco_personendaten/personendaten/adresse/ende_der_gültigkeitsdauer",
+    "type" : "DATETIME"
+  }, {
+    "id" : 30,
+    "aqlPath" : "/content[openEHR-EHR-ADMIN_ENTRY.person_data.v0]/data[at0001]/items[openEHR-EHR-CLUSTER.telecom_details.v0]/items[at0010]/value|code",
+    "path" : "gecco_personendaten/personendaten/einzelheiten_der_kommunikation/modus|code",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 31,
+    "aqlPath" : "/content[openEHR-EHR-ADMIN_ENTRY.person_data.v0]/data[at0001]/items[openEHR-EHR-CLUSTER.telecom_details.v0]/items[at0001]/items[at0004]/value|code",
+    "path" : "gecco_personendaten/personendaten/einzelheiten_der_kommunikation/kontaktdaten/kontakttyp|code",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 32,
+    "aqlPath" : "/content[openEHR-EHR-ADMIN_ENTRY.person_data.v0]/data[at0001]/items[openEHR-EHR-CLUSTER.telecom_details.v0]/items[at0001]/items[at0002]/value",
+    "path" : "gecco_personendaten/personendaten/einzelheiten_der_kommunikation/kontaktdaten/unstrukturierte_kontaktadresse",
+    "type" : "TEXT"
+  }, {
+    "id" : 33,
+    "aqlPath" : "/content[openEHR-EHR-ADMIN_ENTRY.person_data.v0]/data[at0001]/items[openEHR-EHR-CLUSTER.telecom_details.v0]/items[at0001]/items[at0003]/items[at0005]/value",
+    "path" : "gecco_personendaten/personendaten/einzelheiten_der_kommunikation/kontaktdaten/strukturierte_kontaktadresse/landesvorwahl",
+    "type" : "TEXT"
+  }, {
+    "id" : 34,
+    "aqlPath" : "/content[openEHR-EHR-ADMIN_ENTRY.person_data.v0]/data[at0001]/items[openEHR-EHR-CLUSTER.telecom_details.v0]/items[at0001]/items[at0003]/items[at0006]/value",
+    "path" : "gecco_personendaten/personendaten/einzelheiten_der_kommunikation/kontaktdaten/strukturierte_kontaktadresse/ortsvorwahl",
+    "type" : "TEXT"
+  }, {
+    "id" : 35,
+    "aqlPath" : "/content[openEHR-EHR-ADMIN_ENTRY.person_data.v0]/data[at0001]/items[openEHR-EHR-CLUSTER.telecom_details.v0]/items[at0001]/items[at0003]/items[at0007]/value",
+    "path" : "gecco_personendaten/personendaten/einzelheiten_der_kommunikation/kontaktdaten/strukturierte_kontaktadresse/nummer",
+    "type" : "TEXT"
+  }, {
+    "id" : 36,
+    "aqlPath" : "/content[openEHR-EHR-ADMIN_ENTRY.person_data.v0]/data[at0001]/items[openEHR-EHR-CLUSTER.telecom_details.v0]/items[at0001]/items[at0003]/items[at0019]/value",
+    "path" : "gecco_personendaten/personendaten/einzelheiten_der_kommunikation/kontaktdaten/strukturierte_kontaktadresse/durchwahl",
+    "type" : "TEXT"
+  }, {
+    "id" : 37,
+    "aqlPath" : "/content[openEHR-EHR-ADMIN_ENTRY.person_data.v0]/data[at0001]/items[openEHR-EHR-CLUSTER.telecom_details.v0]/items[at0020]/items[at0021]/value",
+    "path" : "gecco_personendaten/personendaten/einzelheiten_der_kommunikation/internet-kommunikation/sender",
+    "type" : "TEXT"
+  }, {
+    "id" : 38,
+    "aqlPath" : "/content[openEHR-EHR-ADMIN_ENTRY.person_data.v0]/data[at0001]/items[openEHR-EHR-CLUSTER.telecom_details.v0]/items[at0020]/items[at0009]/value",
+    "path" : "gecco_personendaten/personendaten/einzelheiten_der_kommunikation/internet-kommunikation/adresse/text_value",
+    "type" : "TEXT"
+  }, {
+    "id" : 39,
+    "aqlPath" : "/content[openEHR-EHR-ADMIN_ENTRY.person_data.v0]/data[at0001]/items[openEHR-EHR-CLUSTER.telecom_details.v0]/items[at0020]/items[at0009]/value",
+    "path" : "gecco_personendaten/personendaten/einzelheiten_der_kommunikation/internet-kommunikation/adresse/uri_value",
+    "type" : "TEXT"
+  }, {
+    "id" : 40,
+    "aqlPath" : "/content[openEHR-EHR-ADMIN_ENTRY.person_data.v0]/data[at0001]/items[openEHR-EHR-CLUSTER.ethnischer_hintergrund.v0]/items[at0002]/value|code",
+    "path" : "gecco_personendaten/personendaten/ethnischer_hintergrund/ethnischer_hintergrund|code",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 41,
+    "aqlPath" : "/content[openEHR-EHR-ADMIN_ENTRY.person_data.v0]/language",
+    "path" : "gecco_personendaten/personendaten/language",
+    "type" : "TEXT"
+  }, {
+    "id" : 42,
+    "aqlPath" : "/content[openEHR-EHR-ADMIN_ENTRY.person_data.v0]/encoding",
+    "path" : "gecco_personendaten/personendaten/encoding",
+    "type" : "TEXT"
+  }, {
+    "id" : 43,
+    "aqlPath" : "/content[openEHR-EHR-ADMIN_ENTRY.person_data.v0]/subject|id",
+    "path" : "gecco_personendaten/personendaten/subject|id",
+    "type" : "TEXT"
+  }, {
+    "id" : 44,
+    "aqlPath" : "/content[openEHR-EHR-ADMIN_ENTRY.person_data.v0]/subject|id_scheme",
+    "path" : "gecco_personendaten/personendaten/subject|id_scheme",
+    "type" : "TEXT"
+  }, {
+    "id" : 45,
+    "aqlPath" : "/content[openEHR-EHR-ADMIN_ENTRY.person_data.v0]/subject|id_namespace",
+    "path" : "gecco_personendaten/personendaten/subject|id_namespace",
+    "type" : "TEXT"
+  }, {
+    "id" : 46,
+    "aqlPath" : "/content[openEHR-EHR-ADMIN_ENTRY.person_data.v0]/subject|name",
+    "path" : "gecco_personendaten/personendaten/subject|name",
+    "type" : "TEXT"
+  }, {
+    "id" : 47,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.age.v0]/data[at0001]/events[at0002]/data[at0003]/items[at0004,'Alter']/value|year",
+    "path" : "gecco_personendaten/alter/alter|year",
+    "type" : "INTEGER"
+  }, {
+    "id" : 48,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.age.v0]/data[at0001]/events[at0002]/data[at0003]/items[at0004,'Alter']/value|month",
+    "path" : "gecco_personendaten/alter/alter|month",
+    "type" : "INTEGER"
+  }, {
+    "id" : 49,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.age.v0]/data[at0001]/events[at0002]/data[at0003]/items[at0004,'Alter']/value|day",
+    "path" : "gecco_personendaten/alter/alter|day",
+    "type" : "INTEGER"
+  }, {
+    "id" : 50,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.age.v0]/data[at0001]/events[at0002]/data[at0003]/items[at0004,'Alter']/value|week",
+    "path" : "gecco_personendaten/alter/alter|week",
+    "type" : "INTEGER"
+  }, {
+    "id" : 51,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.age.v0]/data[at0001]/events[at0002]/data[at0003]/items[at0004,'Alter']/value|hour",
+    "path" : "gecco_personendaten/alter/alter|hour",
+    "type" : "INTEGER"
+  }, {
+    "id" : 52,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.age.v0]/data[at0001]/events[at0002]/data[at0003]/items[at0004,'Alter']/value|minute",
+    "path" : "gecco_personendaten/alter/alter|minute",
+    "type" : "INTEGER"
+  }, {
+    "id" : 53,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.age.v0]/data[at0001]/events[at0002]/data[at0003]/items[at0004,'Alter']/value|second",
+    "path" : "gecco_personendaten/alter/alter|second",
+    "type" : "INTEGER"
+  }, {
+    "id" : 54,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.age.v0]/data[at0001]/events[at0002]/time",
+    "path" : "gecco_personendaten/alter/time",
+    "type" : "DATETIME"
+  }, {
+    "id" : 55,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.age.v0]/language",
+    "path" : "gecco_personendaten/alter/language",
+    "type" : "TEXT"
+  }, {
+    "id" : 56,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.age.v0]/encoding",
+    "path" : "gecco_personendaten/alter/encoding",
+    "type" : "TEXT"
+  }, {
+    "id" : 57,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.age.v0]/subject|id",
+    "path" : "gecco_personendaten/alter/subject|id",
+    "type" : "TEXT"
+  }, {
+    "id" : 58,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.age.v0]/subject|id_scheme",
+    "path" : "gecco_personendaten/alter/subject|id_scheme",
+    "type" : "TEXT"
+  }, {
+    "id" : 59,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.age.v0]/subject|id_namespace",
+    "path" : "gecco_personendaten/alter/subject|id_namespace",
+    "type" : "TEXT"
+  }, {
+    "id" : 60,
+    "aqlPath" : "/content[openEHR-EHR-OBSERVATION.age.v0]/subject|name",
+    "path" : "gecco_personendaten/alter/subject|name",
+    "type" : "TEXT"
+  }, {
+    "id" : 61,
+    "aqlPath" : "/content[openEHR-EHR-EVALUATION.gender.v1]/data[at0002]/items[at0022]/value",
+    "path" : "gecco_personendaten/geschlecht/administratives_geschlecht",
+    "type" : "TEXT"
+  }, {
+    "id" : 62,
+    "aqlPath" : "/content[openEHR-EHR-EVALUATION.gender.v1]/data[at0002]/items[at0019,'Geschlecht bei der Geburt']/value",
+    "path" : "gecco_personendaten/geschlecht/geschlecht_bei_der_geburt",
+    "type" : "TEXT"
+  }, {
+    "id" : 63,
+    "aqlPath" : "/content[openEHR-EHR-EVALUATION.gender.v1]/language",
+    "path" : "gecco_personendaten/geschlecht/language",
+    "type" : "TEXT"
+  }, {
+    "id" : 64,
+    "aqlPath" : "/content[openEHR-EHR-EVALUATION.gender.v1]/encoding",
+    "path" : "gecco_personendaten/geschlecht/encoding",
+    "type" : "TEXT"
+  }, {
+    "id" : 65,
+    "aqlPath" : "/content[openEHR-EHR-EVALUATION.gender.v1]/subject|id",
+    "path" : "gecco_personendaten/geschlecht/subject|id",
+    "type" : "TEXT"
+  }, {
+    "id" : 66,
+    "aqlPath" : "/content[openEHR-EHR-EVALUATION.gender.v1]/subject|id_scheme",
+    "path" : "gecco_personendaten/geschlecht/subject|id_scheme",
+    "type" : "TEXT"
+  }, {
+    "id" : 67,
+    "aqlPath" : "/content[openEHR-EHR-EVALUATION.gender.v1]/subject|id_namespace",
+    "path" : "gecco_personendaten/geschlecht/subject|id_namespace",
+    "type" : "TEXT"
+  }, {
+    "id" : 68,
+    "aqlPath" : "/content[openEHR-EHR-EVALUATION.gender.v1]/subject|name",
+    "path" : "gecco_personendaten/geschlecht/subject|name",
+    "type" : "TEXT"
+  }, {
+    "id" : 69,
+    "aqlPath" : "/category|code",
+    "path" : "gecco_personendaten/category|code",
+    "type" : "CODED_TEXT"
+  }, {
+    "id" : 70,
+    "aqlPath" : "/language",
+    "path" : "gecco_personendaten/language",
+    "type" : "TEXT"
+  }, {
+    "id" : 71,
+    "aqlPath" : "/territory",
+    "path" : "gecco_personendaten/territory",
+    "type" : "TEXT"
+  }, {
+    "id" : 72,
+    "aqlPath" : "/composer|id",
+    "path" : "gecco_personendaten/composer|id",
+    "type" : "TEXT"
+  }, {
+    "id" : 73,
+    "aqlPath" : "/composer|id_scheme",
+    "path" : "gecco_personendaten/composer|id_scheme",
+    "type" : "TEXT"
+  }, {
+    "id" : 74,
+    "aqlPath" : "/composer|id_namespace",
+    "path" : "gecco_personendaten/composer|id_namespace",
+    "type" : "TEXT"
+  }, {
+    "id" : 75,
+    "aqlPath" : "/composer|name",
+    "path" : "gecco_personendaten/composer|name",
+    "type" : "TEXT"
+  } ]
+}
