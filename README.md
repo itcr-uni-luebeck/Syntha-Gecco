@@ -21,5 +21,5 @@ The project can be configured using command line parameters:
 | -ocIdScheme        |   String   |    synthea-gecco    | The scheme of the composer ID within the openEHR template                                                                              |
 | -ocNamespace       |   String   |       synthea       | The namespace of the composer within the openEHR template                                                                              |
 | -ocName            |   String   |    synthea-gecco    | The name of the composer within the openEHR template                                                                                   |
-| -ocTerritory       |   String   |         DE          | The territory in which the composer resides, coded with using the [ISO_3166-1]() coding system                                         |
-| -ocLanguage        |   String   |         de          | The language that is used in the template instances, coded with the [ISO_639-1]() code system                                          |
+| -ocTerritory       |   String   |         DE          | The territory in which the composer resides, coded with using the [ISO_3166-1](https://en.wikipedia.org/wiki/ISO_3166-1) coding system                                         |
+| -ocLanguage        |   String   |         de          | The language that is used in the template instances, coded with the [ISO_639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) code system                                          |
