@@ -15,6 +15,7 @@ class SyntheaGeccoConfig {
     private int population
     private boolean generateFhir
     private boolean generateOpenEhr
+    private String outputDir
 
     private SyntheaGeccoConfig(){
         this.geccoVersion = GeccoVersion.V1_0_4
@@ -24,15 +25,16 @@ class SyntheaGeccoConfig {
         this.resourceFiltering = ResourceFiltering.ALL
         this.generateFhir = true
         this.generateOpenEhr = false
+        this.outputDir = "output"
     }
 
     static SyntheaGeccoConfig getInstance(){
-        if(config == null) config = SyntheaGeccoConfig()
+        if(config == null) config = new SyntheaGeccoConfig()
         return config
     }
 
     enum GeccoVersion{
-        V1_0_3("1.0.3"), V1_0_4("1.0.4")
+        V1_0_3("1.0.3"), V1_0_4("1.0.4"), V1_0_5("1.0.5")
 
         private String version
         private static HashMap<String, GeccoVersion> map = new HashMap<>().tap {it ->
@@ -168,4 +170,11 @@ class SyntheaGeccoConfig {
         this.generateOpenEhr = generateOpenEhr
     }
 
+    String getOutputDir() {
+        return outputDir
+    }
+
+    void setOutputDir(String outputDir) {
+        this.outputDir = outputDir
+    }
 }

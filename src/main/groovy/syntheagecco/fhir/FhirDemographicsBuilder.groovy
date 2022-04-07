@@ -207,7 +207,7 @@ class FhirDemographicsBuilder extends BaseResourceBuilder {
         //Code
         obs.setCode(new CodeableConcept()
                 .addCoding(new Coding("http://loinc.org", "8302-2", "Body height"))
-                .addCoding(new Coding("http://snomed.info/sct", "248334005", "Length of body (observable entity)"))
+                .addCoding(new Coding("http://snomed.info/sct", "1153637007", "Body height (observable entity)"))
         )
 
         //Subject Reference

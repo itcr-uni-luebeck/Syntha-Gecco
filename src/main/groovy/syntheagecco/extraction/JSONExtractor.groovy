@@ -743,78 +743,84 @@ class JSONExtractor {
         for(JsonNode code : diagnosisNode.get("code").get("coding")){
             if(code.get("system").asText() == "http://snomed.info/sct"){
                 def codeString = snomedMapper.getCodeForCategorizedCode(code.get("code").asText(), category)
-                openEhrDiagNames = openEhrNameOfDiagnosisLookup.get(codeString) as List<NameDesProblemsDerDiagnoseDefiningCode>
-                openEhrDiagNames.each {value ->
-                    openEhrDiagCategories.put(value, openEhrDiagnosisCategoryLookup.get(value) as OpenEhrDiagnosisCategory)
-                }
-                coding.setCode(codeString).setDisplay(code.get("display").asText())
-            }
-        }
-        Date onsetDateTime = DateManipulation.dateFromSyntheaDate(diagnosisNode.get("onsetDateTime").asText())
-        Date recordedDate = DateManipulation.dateFromSyntheaDate(diagnosisNode.get("recordedDate").asText())
-        Date abatementDate = diagnosisNode.get("abatementDateTime") == null ?
-                 null : DateManipulation.dateFromSyntheaDate(diagnosisNode.get("abatementDateTime").asText())
-        SDiagnosis diagnosis = new SDiagnosis(id, coding, onsetDateTime, recordedDate)
-        diagnosis.setAbatementDate(abatementDate)
 
-        /*Only proceed if the onset and abatement dates of the resource mark the resource as relevant for the specific
-          case*/
-        if(dateChecker.confirmDates(onsetDateTime, abatementDate, category)){
-            switch(category){
-                case GeccoCategory.CHRONIC_LUNG_DISEASE:
-                    caseInfo.addChronicLungDisease(diagnosis)
-                    break
-                case GeccoCategory.CARDIOVASCULAR_DISEASE:
-                    caseInfo.addCardioVascularDisorder(diagnosis)
-                    break
-                case GeccoCategory.CHRONIC_LIVER_DISEASE:
-                    caseInfo.addChronicLiverDisease(diagnosis)
-                    break
-                case GeccoCategory.RHEUMATOLOGICAL_IMMUNOLOGICAL_DISEASE:
-                    caseInfo.addRheumatologicalImmunologicalDisease(diagnosis)
-                    break
-                case GeccoCategory.HIV_INFECTION:
-                    if(caseInfo.getHivInfection() == null){
-                        caseInfo.setHivInfection(diagnosis)
+                //Check documentation on getCodeForCategorizedCode for possible cases
+                if(codeString != null){
+                    openEhrDiagNames = openEhrNameOfDiagnosisLookup.get(codeString) as List<NameDesProblemsDerDiagnoseDefiningCode>
+                    openEhrDiagNames.each {value ->
+                        openEhrDiagCategories.put(value, openEhrDiagnosisCategoryLookup.get(value) as OpenEhrDiagnosisCategory)
                     }
-                    break
-                case GeccoCategory.DIABETES_MELLITUS:
-                    caseInfo.addDiabetesMellitus(diagnosis)
-                    break
-                case GeccoCategory.MALIGNANT_NEOPLASTIC_DISEASE:
-                    caseInfo.addMalignantNeoplasticDisease(diagnosis)
-                    break
-                case GeccoCategory.CHRONIC_NEURO_MENTAL_DISEASE:
-                    caseInfo.addChronicNeurologicalMentalDisease(diagnosis)
-                    break
-                case GeccoCategory.CHRONIC_KIDNEY_DISEASE:
-                    caseInfo.addChronicKidneyDisease(diagnosis)
-                    break
-                case GeccoCategory.GASTROINTESTINAL_ULCERS:
-                    caseInfo.addGastrointestinalUlcer(diagnosis)
-                    break
-                case GeccoCategory.PREGNANCY:
-                    if(caseInfo.getPregnancy() == null){
-                        caseInfo.setPregnancy(diagnosis)
+                    logger.debug("DiagCode: (${category.toString()}) ${codeString} vs ${code.get("code").asText()}")
+                    coding.setCode(codeString).setDisplay(code.get("display").asText())
+
+                    Date onsetDateTime = DateManipulation.dateFromSyntheaDate(diagnosisNode.get("onsetDateTime").asText())
+                    Date recordedDate = DateManipulation.dateFromSyntheaDate(diagnosisNode.get("recordedDate").asText())
+                    Date abatementDate = diagnosisNode.get("abatementDateTime") == null ?
+                            null : DateManipulation.dateFromSyntheaDate(diagnosisNode.get("abatementDateTime").asText())
+                    SDiagnosis diagnosis = new SDiagnosis(id, coding, onsetDateTime, recordedDate)
+                    diagnosis.setAbatementDate(abatementDate)
+
+                    /*Only proceed if the onset and abatement dates of the resource mark the resource as relevant for the specific
+                      case*/
+                    if(dateChecker.confirmDates(onsetDateTime, abatementDate, category)) {
+                        switch (category) {
+                            case GeccoCategory.CHRONIC_LUNG_DISEASE:
+                                caseInfo.addChronicLungDisease(diagnosis)
+                                break
+                            case GeccoCategory.CARDIOVASCULAR_DISEASE:
+                                caseInfo.addCardioVascularDisorder(diagnosis)
+                                break
+                            case GeccoCategory.CHRONIC_LIVER_DISEASE:
+                                caseInfo.addChronicLiverDisease(diagnosis)
+                                break
+                            case GeccoCategory.RHEUMATOLOGICAL_IMMUNOLOGICAL_DISEASE:
+                                caseInfo.addRheumatologicalImmunologicalDisease(diagnosis)
+                                break
+                            case GeccoCategory.HIV_INFECTION:
+                                if (caseInfo.getHivInfection() == null) {
+                                    caseInfo.setHivInfection(diagnosis)
+                                }
+                                break
+                            case GeccoCategory.DIABETES_MELLITUS:
+                                caseInfo.addDiabetesMellitus(diagnosis)
+                                break
+                            case GeccoCategory.MALIGNANT_NEOPLASTIC_DISEASE:
+                                caseInfo.addMalignantNeoplasticDisease(diagnosis)
+                                break
+                            case GeccoCategory.CHRONIC_NEURO_MENTAL_DISEASE:
+                                caseInfo.addChronicNeurologicalMentalDisease(diagnosis)
+                                break
+                            case GeccoCategory.CHRONIC_KIDNEY_DISEASE:
+                                caseInfo.addChronicKidneyDisease(diagnosis)
+                                break
+                            case GeccoCategory.GASTROINTESTINAL_ULCERS:
+                                caseInfo.addGastrointestinalUlcer(diagnosis)
+                                break
+                            case GeccoCategory.PREGNANCY:
+                                if (caseInfo.getPregnancy() == null) {
+                                    caseInfo.setPregnancy(diagnosis)
+                                }
+                                break
+                            case GeccoCategory.COMPLICATIONS:
+                                caseInfo.addComplication(diagnosis)
+                                break
+                        }
+
+                        /*Only add the diagnoses for later processing to openEHR OPT instances if they could actually be mapped to a
+                        * diagnosis defined in the NameDesProblemsDerDiagnoseDefiningCode code set*/
+                        if (openEhrDiagNames) {
+                            openEhrDiagNames.each { diagName ->
+
+                            }
+                            //Add all diagnosis names for openEhr instance creation
+                            diagnosis.addAllDiagnosisTypes(openEhrDiagNames)
+                            //Map to fitting category for openEhr instance creation
+                            openEhrDiagCategories.each { entry ->
+                                def openEhrDiagnosis = new SOpenEhrDiagnosis(diagnosis, entry.key)
+                                caseInfo.addDiagnosisToCategory(entry.value, openEhrDiagnosis)
+                            }
+                        }
                     }
-                    break
-                case GeccoCategory.COMPLICATIONS:
-                    caseInfo.addComplication(diagnosis)
-                    break
-            }
-
-            /*Only add the diagnoses for later processing to openEHR OPT instances if they could actually be mapped to a
-            * diagnosis defined in the NameDesProblemsDerDiagnoseDefiningCode code set*/
-            if(openEhrDiagNames){
-                openEhrDiagNames.each {diagName ->
-
-                }
-                //Add all diagnosis names for openEhr instance creation
-                diagnosis.addAllDiagnosisTypes(openEhrDiagNames)
-                //Map to fitting category for openEhr instance creation
-                openEhrDiagCategories.each {entry ->
-                    def openEhrDiagnosis = new SOpenEhrDiagnosis(diagnosis, entry.key)
-                    caseInfo.addDiagnosisToCategory(entry.value, openEhrDiagnosis)
                 }
             }
         }

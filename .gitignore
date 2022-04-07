@@ -45,3 +45,4 @@ src/main/groovy/syntheagecco/RunGenerator.java
 src/main/groovy/Script.groovy
 src/main/groovy/TestFutures.groovy
 src/main/groovy/ArrayListTest.groovy
+/target/

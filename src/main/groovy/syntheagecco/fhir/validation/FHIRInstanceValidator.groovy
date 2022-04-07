@@ -25,6 +25,7 @@ import syntheagecco.fhir.model.FhirGeccoCase
 import syntheagecco.utility.FileManipulation
 
 import java.nio.charset.StandardCharsets
+import java.nio.file.Path
 
 class FHIRInstanceValidator {
 
@@ -43,6 +44,7 @@ class FHIRInstanceValidator {
     }
 
     private void init(String remoteValidationUrl){
+        config = SyntheaGeccoConfig.getInstance()
         this.validator = ctx.newValidator()
         ValidationSupportChain supportChain = new ValidationSupportChain()
 
@@ -62,14 +64,25 @@ class FHIRInstanceValidator {
             supportChain.addValidationSupport(remoteSupport)
         }
 
+        def dir = Path.of("src", "main", "resources", "fhir")
+        switch(config.getGeccoVersion()){
+            case SyntheaGeccoConfig.GeccoVersion.V1_0_3:
+            case SyntheaGeccoConfig.GeccoVersion.V1_0_4:
+                dir = dir.resolve("gecco_1.0.4")
+                break
+            default:
+                dir = dir.resolve("gecco_1.0.5")
+                break
+        }
+
         // Get KDS profiles from project resources folder
-        def structureDefList = loadStructureDefinitions()
+        def structureDefList = loadStructureDefinitions(dir)
         // Get code systems
-        def codeSysList = loadCodeSystems()
+        def codeSysList = loadCodeSystems(dir)
         // Get value sets
-        def valueSetList = loadValueSets()
+        def valueSetList = loadValueSets(dir)
         // Get Extensions
-        def extList = loadExtensions()
+        def extList = loadExtensions(dir)
 
         PrePopulatedValidationSupport prePopulatedSupport = new PrePopulatedValidationSupport(ctx)
         // Custom structure definitions
@@ -168,24 +181,24 @@ class FHIRInstanceValidator {
         return profileText
     }
 
-    private List<StructureDefinition> loadStructureDefinitions(){
-        return loadResourceDefinitions(StructureDefinition.class, "src/main/resources/fhir/structure_defs")
+    private List<StructureDefinition> loadStructureDefinitions(Path path){
+        return loadResourceDefinitions(StructureDefinition.class, path.resolve("structure_defs"))
     }
 
-    private List<ValueSet> loadValueSets(){
-        return loadResourceDefinitions(ValueSet.class, "src/main/resources/fhir/value_sets")
+    private List<ValueSet> loadValueSets(Path path){
+        return loadResourceDefinitions(ValueSet.class, path.resolve("value_sets"))
     }
 
-    private List<CodeSystem> loadCodeSystems(){
-        return loadResourceDefinitions(CodeSystem.class, "src/main/resources/fhir/code_systems")
+    private List<CodeSystem> loadCodeSystems(Path path){
+        return loadResourceDefinitions(CodeSystem.class, path.resolve("code_systems"))
     }
 
-    private List<StructureDefinition> loadExtensions(){
-        return loadResourceDefinitions(StructureDefinition.class, "src/main/resources/fhir/extensions")
+    private List<StructureDefinition> loadExtensions(Path path){
+        return loadResourceDefinitions(StructureDefinition.class, path.resolve("extensions"))
     }
 
-    private <R> List<R> loadResourceDefinitions(Class<R> resourceClass, String pathToFolder){
-        def fileList = FileManipulation.getFilesInDirRecursive(pathToFolder, FileManipulation.FileExtension.JSON)
+    private <R> List<R> loadResourceDefinitions(Class<R> resourceClass, Path pathToFolder){
+        def fileList = FileManipulation.getFilesInDirRecursive(pathToFolder.toString(), FileManipulation.FileExtension.JSON)
         def resourceList = []
         fileList.each {file ->
             resourceList << getResourceDefinition(resourceClass, file.getCanonicalPath())

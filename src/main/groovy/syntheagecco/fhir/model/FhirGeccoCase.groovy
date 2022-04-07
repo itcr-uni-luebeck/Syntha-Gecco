@@ -3,6 +3,7 @@ package syntheagecco.fhir.model
 import groovy.transform.TypeChecked
 import org.hl7.fhir.r4.model.Bundle
 import org.hl7.fhir.r4.model.Condition
+import org.hl7.fhir.r4.model.Consent
 import org.hl7.fhir.r4.model.Immunization
 import org.hl7.fhir.r4.model.MedicationStatement
 import org.hl7.fhir.r4.model.Observation
@@ -13,6 +14,7 @@ class FhirGeccoCase {
 
     private Bundle bundle
     private Patient patient
+    private Consent consent
     private List<Condition> conditions
     private List<Procedure> procedures
     private List<Observation> observations
@@ -41,6 +43,14 @@ class FhirGeccoCase {
 
     void setPatient(Patient patient) {
         this.patient = patient
+    }
+
+    Consent getConsent() {
+        return consent
+    }
+
+    void setConsent(Consent consent) {
+        this.consent = consent
     }
 
     List<Condition> getConditions() {

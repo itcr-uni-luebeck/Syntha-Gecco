@@ -108,6 +108,7 @@ class Main {
                 ocName longOpt: 'openEhrComposerName', type: String, defaultValue: Defaults.OpenEhr.Composer.NAME, "the name of the composer within openEHR templates, defaults to: $Defaults.OpenEhr.Composer.NAME"
                 ocTerritory longOpt: 'openEhrComposerTerritory', type: String, defaultValue: "DE", "the territory in which the composer resides, coded with the ISO_3166-1 code system, defaults to: DE"
                 ocLanguage longOpt: 'openEhrComposerLanguage', type: String, defaultValue: "de", "the language which is used in the compositions, coded with the ISO_639-1 code system, defaults to: de"
+                d longOpt: 'dir', type: String, defaultValue: "output", "output directory of the generated data, defaults to: 'output'"
             }
 
             def cliOptions = cli.parse(args)
@@ -199,6 +200,7 @@ class Main {
             def remoteTerminologyUrl = parsedArgs.remoteTerminologyValidation
             def fhirGeneration = parsedArgs.fhir
             def openEhrGeneration = parsedArgs.openEhr
+            def outputDir = parsedArgs.dir
 
             assert version != null: "String ${parsedArgs.geccoVersion} is not a correct GECCO Version argument"
             assert policy != null: "String ${parsedArgs.detectedFilePolicy} is not a correct Detected File Policy argument"
@@ -209,6 +211,7 @@ class Main {
             setValidationStrategy(strategy)
             setRemoteValidationUrl(remoteTerminologyUrl)
             setPopulation((int) parsedArgs.population)
+            setOutputDir(outputDir)
             if(!(fhirGeneration||openEhrGeneration)||fhirGeneration) setGenerateFhir(true)
             if(openEhrGeneration) setGenerateOpenEhr(true)
         }
@@ -422,7 +425,7 @@ class Main {
         caseInformationList = caseInformationList.subList(0, syntheaGeccoConfig.population)
 
         def date = LocalDateTime.now().toEpochSecond(ZoneOffset.UTC).toString()
-        def outputPath = Path.of("output", date)
+        def outputPath = Path.of(syntheaGeccoConfig.getOutputDir(), date)
         //Creating FHIR resource object instances
         if(syntheaGeccoConfig.getGenerateFhir()){
             def fhirGeccoCases = createFhirResources(caseInformationList, syntheaGeccoConfig)

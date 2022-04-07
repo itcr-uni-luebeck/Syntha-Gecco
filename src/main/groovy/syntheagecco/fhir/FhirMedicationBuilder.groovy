@@ -64,35 +64,46 @@ class FhirMedicationBuilder extends BaseResourceBuilder{
             med.setSubject(new Reference("Patient/" + patient.getId()))
 
             //Medication code
+            def atcSystem
+            switch(this.config.geccoVersion){
+                case "1.0.3":
+                case "1.0.4":
+                    atcSystem = "http://fhir.de/CodeSystem/dimdi/atc"
+                    break
+                default:
+                    atcSystem = "http://fhir.de/CodeSystem/bfarm/atc"
+                    break
+            }
+
             CodeableConcept medCode = new CodeableConcept()
             switch (medStatement.getCode()){
                 case "198440":
-                    medCode.addCoding(new Coding("http://fhir.de/CodeSystem/dimdi/atc", "N02BE01", "Paracetamol"))
+                    medCode.addCoding(new Coding(atcSystem, "N02BE01", "Paracetamol"))
                     break
                 case "242969":
-                    medCode.addCoding(new Coding("http://fhir.de/CodeSystem/dimdi/atc", "C01CA03", "Norephinephrine"))
+                    medCode.addCoding(new Coding(atcSystem, "C01CA03", "Norephinephrine"))
                     break
                 case "360110":
-                    medCode.addCoding(new Coding("http://fhir.de/CodeSystem/dimdi/atc", "L04AA10", "Sirolimus"))
+                    medCode.addCoding(new Coding(atcSystem, "L04AA10", "Sirolimus"))
                     break
                 case "597730":
-                    medCode.addCoding(new Coding("http://fhir.de/CodeSystem/dimdi/atc", "J05AR10", "Lopinavir und Ritonavir"))
+                    medCode.addCoding(new Coding(atcSystem, "J05AR10", "Lopinavir und Ritonavir"))
                     break
                 case "2284960":
                     medCode.addCoding(new Coding("http://snomed.info/sct", "870518005", "Product containing remdesivir (medicinal product)"))
                     break
                 case "1657981":
-                    medCode.addCoding(new Coding("http://fhir.de/CodeSystem/dimdi/atc", "L04AC07", "Toclizumab"))
+                    medCode.addCoding(new Coding(atcSystem, "L04AC07", "Toclizumab"))
                     break
                 case "979092":
-                    medCode.addCoding(new Coding("http://fhir.de/CodeSystem/dimdi/atc", "P01BA02", "Hydroxychloroquine"))
+                    medCode.addCoding(new Coding(atcSystem, "P01BA02", "Hydroxychloroquine"))
                     medCode.addCoding(new Coding("http://snomed.info/sct", "83490000", "Product containing hydroxychloroquine (medicinal product)"))
                     break
                 case "1116758":
-                    medCode.addCoding(new Coding("http://fhir.de/CodeSystem/dimdi/atc", "P01BA01", "Chloroquine"))
+                    medCode.addCoding(new Coding(atcSystem, "P01BA01", "Chloroquine"))
                     break
                 case "727711":
-                    medCode.addCoding(new Coding("http://fhir.de/CodeSystem/dimdi/atc", "L04AC03", "Anakinra"))
+                    medCode.addCoding(new Coding(atcSystem, "L04AC03", "Anakinra"))
                     break
                 default:
                     logger.warn("Code '${medStatement.getCode()}' doesn't match yet was put into category 'COVID19_THERAPY'!")
@@ -135,13 +146,24 @@ class FhirMedicationBuilder extends BaseResourceBuilder{
             med.setSubject(new Reference("Patient/" + patient.getId()))
 
             //Medication code
+            def atcSystem
+            switch(this.config.geccoVersion){
+                case "1.0.3":
+                case "1.0.4":
+                    atcSystem = "http://fhir.de/CodeSystem/dimdi/atc"
+                    break
+                default:
+                    atcSystem = "http://fhir.de/CodeSystem/bfarm/atc"
+                    break
+            }
+
             CodeableConcept medCode = new CodeableConcept()
             switch (medStatement.getCode()){
                 case "1659263":
-                    medCode.addCoding(new Coding("http://fhir.de/CodeSystem/dimdi/atc", "B01AB01", "Heparin"))
+                    medCode.addCoding(new Coding(atcSystem, "B01AB01", "Heparin"))
                     break
                 case "854228":
-                    medCode.addCoding(new Coding("http://fhir.de/CodeSystem/dimdi/atc", "B01AB05", "Enoxaparin"))
+                    medCode.addCoding(new Coding(atcSystem, "B01AB05", "Enoxaparin"))
                     break
                 default:
                     logger.warn("Code '${medStatement.getCode()}' doesn't match yet was put into category 'ANTICOAGULATION'!")

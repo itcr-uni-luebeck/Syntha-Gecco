@@ -3,17 +3,22 @@ package syntheagecco.fhir
 import com.fasterxml.jackson.databind.JsonNode
 import org.apache.logging.log4j.LogManager
 import org.apache.logging.log4j.Logger
+import org.hl7.elm.r1.Case
 import org.hl7.fhir.r4.model.Age
 import org.hl7.fhir.r4.model.Bundle
+import org.hl7.fhir.r4.model.CodeableConcept
 import org.hl7.fhir.r4.model.Coding
 import org.hl7.fhir.r4.model.Condition
+import org.hl7.fhir.r4.model.Consent
 import org.hl7.fhir.r4.model.DateTimeType
 import org.hl7.fhir.r4.model.Extension
+import org.hl7.fhir.r4.model.Identifier
 import org.hl7.fhir.r4.model.MedicationStatement
 import org.hl7.fhir.r4.model.Observation
 import org.hl7.fhir.r4.model.Patient
 import org.hl7.fhir.r4.model.Procedure
 import org.hl7.fhir.r4.model.Quantity
+import org.hl7.fhir.r4.model.Reference
 import syntheagecco.config.SyntheaGeccoConfig
 import syntheagecco.extraction.model.CaseInformation
 import syntheagecco.extraction.model.SPatient
@@ -47,7 +52,11 @@ class FhirCaseBuilder {
         logger.debug("Abatement: ${caseInfo.getAbatement()}")
 
         //First: Create Patient resource
-        geccoCase.setPatient(this.buildPatientResource(caseInfo.getPatient(), caseInfo))
+        def patient = this.buildPatientResource(caseInfo.getPatient(), caseInfo)
+        geccoCase.setPatient(patient)
+
+        //Create Consent resource instance
+        geccoCase.setConsent(this.buildConsentResource(caseInfo, patient))
 
         //Run the FHIR builders for each category
         //TODO: Make builder methods static
@@ -88,6 +97,7 @@ class FhirCaseBuilder {
 
     private void buildFhirCaseBundle(FhirGeccoCase geccoCase){
         Bundle bundle = new Bundle()
+        bundle.getMeta().addProfile("https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/gecco-bundle")
         bundle.setType(Bundle.BundleType.TRANSACTION)
 
         //Patient
@@ -97,6 +107,15 @@ class FhirCaseBuilder {
             .setResource(patient)
             .getRequest()
                 .setUrl("Patient")
+                .setMethod(Bundle.HTTPVerb.POST)
+
+        //Consent
+        Consent consent = geccoCase.getConsent()
+        bundle.addEntry()
+            .setFullUrl("Consent/" + consent.getIdElement().getValue())
+            .setResource(consent)
+            .getRequest()
+                .setUrl("Consent")
                 .setMethod(Bundle.HTTPVerb.POST)
 
         //Conditions
@@ -206,6 +225,46 @@ class FhirCaseBuilder {
         pat.setBirthDate(patient.getBirthDate())
 
         return  pat
+    }
+
+    private Consent buildConsentResource(CaseInformation caseInfo, Patient patient){
+        def con = new Consent()
+
+        //ID
+        con.setId(UUID.randomUUID().toString())
+
+        //Profile
+        con.getMeta().addProfile("http://fhir.de/ConsentManagement/StructureDefinition/Consent")
+
+        //Status
+        con.setStatus(Consent.ConsentState.ACTIVE)
+
+        //Scope of use
+        con.setScope(new CodeableConcept(
+                new Coding(
+                        "http://terminology.hl7.org/CodeSystem/consentscope",
+                        "research",
+                        "Research"
+                )
+        ))
+
+        //Category
+        con.addCategory(new CodeableConcept(
+                new Coding(
+                        "http://loinc.org",
+                        "57016-8",
+                        "Privacy policy acknowledgement Document"
+                )
+        ))
+
+        //Patient reference
+        con.setPatient(new Reference(patient))
+
+        /*Timestamp of consent agreement is set to the onset date time since it is equal to the recorded date time and
+        * thus usable as a "realistic" value for this entry*/
+        con.setDateTime(caseInfo.getOnset())
+
+        return con
     }
 
 }
