@@ -27,7 +27,7 @@ src/main/resources/version.txt
 /build/
 
 src/main/resources/map.json
-src/main/groovy/syntheagecco/RunGenerator.java
+src/main/groovy/org.uzl.syntheagecco/org.uzl.syntheagecco.RunGenerator.java
 
 /archive/*
 
@@ -42,7 +42,7 @@ src/main/groovy/syntheagecco/RunGenerator.java
 
 /archive\\*
 
-src/main/groovy/Script.groovy
-src/main/groovy/TestFutures.groovy
+src/main/groovy/org.uzl.syntheagecco.Script.groovy
+src/main/groovy/org.uzl.syntheagecco.TestFutures.groovy
 src/main/groovy/ArrayListTest.groovy
 /target/

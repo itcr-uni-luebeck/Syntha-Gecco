@@ -1,118 +1,118 @@
-2021-05-22 17:40:49,327 ERROR Main [main] error
-2021-05-22 17:40:49,332 WARN Main [main] warn
-2021-05-22 17:40:49,332 INFO Main [main] info
+2021-05-22 17:40:49,327 ERROR org.uzl.syntheagecco.Main [main] error
+2021-05-22 17:40:49,332 WARN org.uzl.syntheagecco.Main [main] warn
+2021-05-22 17:40:49,332 INFO org.uzl.syntheagecco.Main [main] info
 2021-05-23 20:20:25,943 INFO o.a.l.l.Logger$info [main] ????
 2021-05-23 20:21:10,748 INFO o.a.l.l.Logger$info [main] ????
 2021-05-23 20:21:10,807 INFO o.a.l.l.Logger$info [main] ????
 2021-05-23 20:22:15,045 INFO o.a.l.l.Logger$info [main] ????
-2021-08-10 18:01:28,050 ERROR o.a.l.l.Logger$error$0 [main] An error occurred while reading the template file at 'E:\Studium\Semi_6\BA\syntheagecco\src\main\resources\openehr\webtemplates\Atemfrequenz.json'!
-2021-08-10 18:01:28,122 ERROR o.a.l.l.Logger$error$0 [main] An error occurred while reading the template file at 'E:\Studium\Semi_6\BA\syntheagecco\src\main\resources\openehr\webtemplates\Beatmungswerte.json'!
-2021-08-10 18:01:28,195 ERROR o.a.l.l.Logger$error$0 [main] An error occurred while reading the template file at 'E:\Studium\Semi_6\BA\syntheagecco\src\main\resources\openehr\webtemplates\Befund der Blutgasanalyse.json'!
-2021-08-10 18:01:28,228 ERROR o.a.l.l.Logger$error$0 [main] An error occurred while reading the template file at 'E:\Studium\Semi_6\BA\syntheagecco\src\main\resources\openehr\webtemplates\Blutdruck.json'!
-2021-08-10 18:01:28,258 ERROR o.a.l.l.Logger$error$0 [main] An error occurred while reading the template file at 'E:\Studium\Semi_6\BA\syntheagecco\src\main\resources\openehr\webtemplates\DNR-Anordnung.json'!
-2021-08-10 18:01:28,290 ERROR o.a.l.l.Logger$error$0 [main] An error occurred while reading the template file at 'E:\Studium\Semi_6\BA\syntheagecco\src\main\resources\openehr\webtemplates\GECCO_Diagnose.json'!
-2021-08-10 18:01:28,306 ERROR o.a.l.l.Logger$error$0 [main] An error occurred while reading the template file at 'E:\Studium\Semi_6\BA\syntheagecco\src\main\resources\openehr\webtemplates\GECCO_Entlassungsdaten.json'!
-2021-08-10 18:01:28,321 ERROR o.a.l.l.Logger$error$0 [main] An error occurred while reading the template file at 'E:\Studium\Semi_6\BA\syntheagecco\src\main\resources\openehr\webtemplates\GECCO_Laborbefund.json'!
-2021-08-10 18:01:28,334 ERROR o.a.l.l.Logger$error$0 [main] An error occurred while reading the template file at 'E:\Studium\Semi_6\BA\syntheagecco\src\main\resources\openehr\webtemplates\GECCO_Medikation.json'!
-2021-08-10 18:01:28,358 ERROR o.a.l.l.Logger$error$0 [main] An error occurred while reading the template file at 'E:\Studium\Semi_6\BA\syntheagecco\src\main\resources\openehr\webtemplates\GECCO_Personendaten.json'!
-2021-08-10 18:01:28,382 ERROR o.a.l.l.Logger$error$0 [main] An error occurred while reading the template file at 'E:\Studium\Semi_6\BA\syntheagecco\src\main\resources\openehr\webtemplates\GECCO_Prozedur.json'!
-2021-08-10 18:01:28,402 ERROR o.a.l.l.Logger$error$0 [main] An error occurred while reading the template file at 'E:\Studium\Semi_6\BA\syntheagecco\src\main\resources\openehr\webtemplates\GECCO_Serologischer Befund.json'!
-2021-08-10 18:01:28,417 ERROR o.a.l.l.Logger$error$0 [main] An error occurred while reading the template file at 'E:\Studium\Semi_6\BA\syntheagecco\src\main\resources\openehr\webtemplates\GECCO_Studienteilnahme.json'!
-2021-08-10 18:01:28,431 ERROR o.a.l.l.Logger$error$0 [main] An error occurred while reading the template file at 'E:\Studium\Semi_6\BA\syntheagecco\src\main\resources\openehr\webtemplates\GECCO_Virologischer Befund.json'!
-2021-08-10 18:01:28,444 ERROR o.a.l.l.Logger$error$0 [main] An error occurred while reading the template file at 'E:\Studium\Semi_6\BA\syntheagecco\src\main\resources\openehr\webtemplates\Herzfrequenz.json'!
-2021-08-10 18:01:28,469 ERROR o.a.l.l.Logger$error$0 [main] An error occurred while reading the template file at 'E:\Studium\Semi_6\BA\syntheagecco\src\main\resources\openehr\webtemplates\Impfstatus.json'!
-2021-08-10 18:01:28,481 ERROR o.a.l.l.Logger$error$0 [main] An error occurred while reading the template file at 'E:\Studium\Semi_6\BA\syntheagecco\src\main\resources\openehr\webtemplates\Klinische Frailty-Skala.json'!
-2021-08-10 18:01:28,500 ERROR o.a.l.l.Logger$error$0 [main] An error occurred while reading the template file at 'E:\Studium\Semi_6\BA\syntheagecco\src\main\resources\openehr\webtemplates\Koerpertemperatur.json'!
-2021-08-10 18:01:28,516 ERROR o.a.l.l.Logger$error$0 [main] An error occurred while reading the template file at 'E:\Studium\Semi_6\BA\syntheagecco\src\main\resources\openehr\webtemplates\Körpergewicht.json'!
-2021-08-10 18:01:28,537 ERROR o.a.l.l.Logger$error$0 [main] An error occurred while reading the template file at 'E:\Studium\Semi_6\BA\syntheagecco\src\main\resources\openehr\webtemplates\Körpergröße.json'!
-2021-08-10 18:01:28,551 ERROR o.a.l.l.Logger$error$0 [main] An error occurred while reading the template file at 'E:\Studium\Semi_6\BA\syntheagecco\src\main\resources\openehr\webtemplates\Pulsoxymetrie.json'!
-2021-08-10 18:01:28,558 ERROR o.a.l.l.Logger$error$0 [main] An error occurred while reading the template file at 'E:\Studium\Semi_6\BA\syntheagecco\src\main\resources\openehr\webtemplates\Raucherstatus.json'!
-2021-08-10 18:01:28,565 ERROR o.a.l.l.Logger$error$0 [main] An error occurred while reading the template file at 'E:\Studium\Semi_6\BA\syntheagecco\src\main\resources\openehr\webtemplates\Reisehistorie.json'!
-2021-08-10 18:01:28,580 ERROR o.a.l.l.Logger$error$0 [main] An error occurred while reading the template file at 'E:\Studium\Semi_6\BA\syntheagecco\src\main\resources\openehr\webtemplates\SARS-CoV-2 Exposition.json'!
-2021-08-10 18:01:28,587 ERROR o.a.l.l.Logger$error$0 [main] An error occurred while reading the template file at 'E:\Studium\Semi_6\BA\syntheagecco\src\main\resources\openehr\webtemplates\Schwangerschaftsstatus.json'!
-2021-08-10 18:01:28,600 ERROR o.a.l.l.Logger$error$0 [main] An error occurred while reading the template file at 'E:\Studium\Semi_6\BA\syntheagecco\src\main\resources\openehr\webtemplates\SOFA.json'!
-2021-08-10 18:01:28,612 ERROR o.a.l.l.Logger$error$0 [main] An error occurred while reading the template file at 'E:\Studium\Semi_6\BA\syntheagecco\src\main\resources\openehr\webtemplates\Symptom.json'!
-2021-08-10 18:05:59,031 ERROR o.a.l.l.Logger$error$1 [main] An error occurred while reading the template file at 'E:\Studium\Semi_6\BA\syntheagecco\src\main\resources\openehr\webtemplates\Atemfrequenz.json'!
-2021-08-10 18:05:59,072 ERROR o.a.l.l.Logger$error$1 [main] An error occurred while reading the template file at 'E:\Studium\Semi_6\BA\syntheagecco\src\main\resources\openehr\webtemplates\Beatmungswerte.json'!
-2021-08-10 18:05:59,092 ERROR o.a.l.l.Logger$error$1 [main] An error occurred while reading the template file at 'E:\Studium\Semi_6\BA\syntheagecco\src\main\resources\openehr\webtemplates\Befund der Blutgasanalyse.json'!
-2021-08-10 18:05:59,104 ERROR o.a.l.l.Logger$error$1 [main] An error occurred while reading the template file at 'E:\Studium\Semi_6\BA\syntheagecco\src\main\resources\openehr\webtemplates\Blutdruck.json'!
-2021-08-10 18:05:59,115 ERROR o.a.l.l.Logger$error$1 [main] An error occurred while reading the template file at 'E:\Studium\Semi_6\BA\syntheagecco\src\main\resources\openehr\webtemplates\DNR-Anordnung.json'!
-2021-08-10 18:05:59,127 ERROR o.a.l.l.Logger$error$1 [main] An error occurred while reading the template file at 'E:\Studium\Semi_6\BA\syntheagecco\src\main\resources\openehr\webtemplates\GECCO_Diagnose.json'!
-2021-08-10 18:05:59,135 ERROR o.a.l.l.Logger$error$1 [main] An error occurred while reading the template file at 'E:\Studium\Semi_6\BA\syntheagecco\src\main\resources\openehr\webtemplates\GECCO_Entlassungsdaten.json'!
-2021-08-10 18:05:59,151 ERROR o.a.l.l.Logger$error$1 [main] An error occurred while reading the template file at 'E:\Studium\Semi_6\BA\syntheagecco\src\main\resources\openehr\webtemplates\GECCO_Laborbefund.json'!
-2021-08-10 18:05:59,162 ERROR o.a.l.l.Logger$error$1 [main] An error occurred while reading the template file at 'E:\Studium\Semi_6\BA\syntheagecco\src\main\resources\openehr\webtemplates\GECCO_Medikation.json'!
-2021-08-10 18:05:59,183 ERROR o.a.l.l.Logger$error$1 [main] An error occurred while reading the template file at 'E:\Studium\Semi_6\BA\syntheagecco\src\main\resources\openehr\webtemplates\GECCO_Personendaten.json'!
-2021-08-10 18:05:59,195 ERROR o.a.l.l.Logger$error$1 [main] An error occurred while reading the template file at 'E:\Studium\Semi_6\BA\syntheagecco\src\main\resources\openehr\webtemplates\GECCO_Prozedur.json'!
-2021-08-10 18:05:59,206 ERROR o.a.l.l.Logger$error$1 [main] An error occurred while reading the template file at 'E:\Studium\Semi_6\BA\syntheagecco\src\main\resources\openehr\webtemplates\GECCO_Serologischer Befund.json'!
-2021-08-10 18:05:59,217 ERROR o.a.l.l.Logger$error$1 [main] An error occurred while reading the template file at 'E:\Studium\Semi_6\BA\syntheagecco\src\main\resources\openehr\webtemplates\GECCO_Studienteilnahme.json'!
-2021-08-10 18:05:59,226 ERROR o.a.l.l.Logger$error$1 [main] An error occurred while reading the template file at 'E:\Studium\Semi_6\BA\syntheagecco\src\main\resources\openehr\webtemplates\GECCO_Virologischer Befund.json'!
-2021-08-10 18:05:59,239 ERROR o.a.l.l.Logger$error$1 [main] An error occurred while reading the template file at 'E:\Studium\Semi_6\BA\syntheagecco\src\main\resources\openehr\webtemplates\Herzfrequenz.json'!
-2021-08-10 18:05:59,250 ERROR o.a.l.l.Logger$error$1 [main] An error occurred while reading the template file at 'E:\Studium\Semi_6\BA\syntheagecco\src\main\resources\openehr\webtemplates\Impfstatus.json'!
-2021-08-10 18:05:59,257 ERROR o.a.l.l.Logger$error$1 [main] An error occurred while reading the template file at 'E:\Studium\Semi_6\BA\syntheagecco\src\main\resources\openehr\webtemplates\Klinische Frailty-Skala.json'!
-2021-08-10 18:05:59,262 ERROR o.a.l.l.Logger$error$1 [main] An error occurred while reading the template file at 'E:\Studium\Semi_6\BA\syntheagecco\src\main\resources\openehr\webtemplates\Koerpertemperatur.json'!
-2021-08-10 18:05:59,272 ERROR o.a.l.l.Logger$error$1 [main] An error occurred while reading the template file at 'E:\Studium\Semi_6\BA\syntheagecco\src\main\resources\openehr\webtemplates\Körpergewicht.json'!
-2021-08-10 18:05:59,283 ERROR o.a.l.l.Logger$error$1 [main] An error occurred while reading the template file at 'E:\Studium\Semi_6\BA\syntheagecco\src\main\resources\openehr\webtemplates\Körpergröße.json'!
-2021-08-10 18:05:59,302 ERROR o.a.l.l.Logger$error$1 [main] An error occurred while reading the template file at 'E:\Studium\Semi_6\BA\syntheagecco\src\main\resources\openehr\webtemplates\Pulsoxymetrie.json'!
-2021-08-10 18:05:59,307 ERROR o.a.l.l.Logger$error$1 [main] An error occurred while reading the template file at 'E:\Studium\Semi_6\BA\syntheagecco\src\main\resources\openehr\webtemplates\Raucherstatus.json'!
-2021-08-10 18:05:59,311 ERROR o.a.l.l.Logger$error$1 [main] An error occurred while reading the template file at 'E:\Studium\Semi_6\BA\syntheagecco\src\main\resources\openehr\webtemplates\Reisehistorie.json'!
-2021-08-10 18:05:59,315 ERROR o.a.l.l.Logger$error$1 [main] An error occurred while reading the template file at 'E:\Studium\Semi_6\BA\syntheagecco\src\main\resources\openehr\webtemplates\SARS-CoV-2 Exposition.json'!
-2021-08-10 18:05:59,322 ERROR o.a.l.l.Logger$error$1 [main] An error occurred while reading the template file at 'E:\Studium\Semi_6\BA\syntheagecco\src\main\resources\openehr\webtemplates\Schwangerschaftsstatus.json'!
-2021-08-10 18:05:59,326 ERROR o.a.l.l.Logger$error$1 [main] An error occurred while reading the template file at 'E:\Studium\Semi_6\BA\syntheagecco\src\main\resources\openehr\webtemplates\SOFA.json'!
-2021-08-10 18:05:59,330 ERROR o.a.l.l.Logger$error$1 [main] An error occurred while reading the template file at 'E:\Studium\Semi_6\BA\syntheagecco\src\main\resources\openehr\webtemplates\Symptom.json'!
-2021-08-16 15:14:34,687 ERROR o.a.l.l.Logger$error$0 [main] An error occurred while reading the flat template file at 'E:\Studium\Semi_6\BA\syntheagecco\src\main\resources\openehr\paths\Atemfrequenz.json'!
-2021-08-16 15:14:34,694 ERROR o.a.l.l.Logger$error$0 [main] An error occurred while reading the flat template file at 'E:\Studium\Semi_6\BA\syntheagecco\src\main\resources\openehr\paths\Beatmungswerte.json'!
-2021-08-16 15:14:34,702 ERROR o.a.l.l.Logger$error$0 [main] An error occurred while reading the flat template file at 'E:\Studium\Semi_6\BA\syntheagecco\src\main\resources\openehr\paths\Befund der Blutgasanalyse.json'!
-2021-08-16 15:14:34,705 ERROR o.a.l.l.Logger$error$0 [main] An error occurred while reading the flat template file at 'E:\Studium\Semi_6\BA\syntheagecco\src\main\resources\openehr\paths\Blutdruck.json'!
-2021-08-16 15:14:34,708 ERROR o.a.l.l.Logger$error$0 [main] An error occurred while reading the flat template file at 'E:\Studium\Semi_6\BA\syntheagecco\src\main\resources\openehr\paths\DNR-Anordnung.json'!
-2021-08-16 15:14:34,709 ERROR o.a.l.l.Logger$error$0 [main] An error occurred while reading the flat template file at 'E:\Studium\Semi_6\BA\syntheagecco\src\main\resources\openehr\paths\GECCO_Diagnose.json'!
-2021-08-16 15:14:34,711 ERROR o.a.l.l.Logger$error$0 [main] An error occurred while reading the flat template file at 'E:\Studium\Semi_6\BA\syntheagecco\src\main\resources\openehr\paths\GECCO_Entlassungsdaten.json'!
-2021-08-16 15:14:34,712 ERROR o.a.l.l.Logger$error$0 [main] An error occurred while reading the flat template file at 'E:\Studium\Semi_6\BA\syntheagecco\src\main\resources\openehr\paths\GECCO_Laborbefund.json'!
-2021-08-16 15:14:34,714 ERROR o.a.l.l.Logger$error$0 [main] An error occurred while reading the flat template file at 'E:\Studium\Semi_6\BA\syntheagecco\src\main\resources\openehr\paths\GECCO_Medikation.json'!
-2021-08-16 15:14:34,715 ERROR o.a.l.l.Logger$error$0 [main] An error occurred while reading the flat template file at 'E:\Studium\Semi_6\BA\syntheagecco\src\main\resources\openehr\paths\GECCO_Personendaten.json'!
-2021-08-16 15:14:34,716 ERROR o.a.l.l.Logger$error$0 [main] An error occurred while reading the flat template file at 'E:\Studium\Semi_6\BA\syntheagecco\src\main\resources\openehr\paths\GECCO_Prozedur.json'!
-2021-08-16 15:14:34,719 ERROR o.a.l.l.Logger$error$0 [main] An error occurred while reading the flat template file at 'E:\Studium\Semi_6\BA\syntheagecco\src\main\resources\openehr\paths\GECCO_Serologischer Befund.json'!
-2021-08-16 15:14:34,720 ERROR o.a.l.l.Logger$error$0 [main] An error occurred while reading the flat template file at 'E:\Studium\Semi_6\BA\syntheagecco\src\main\resources\openehr\paths\GECCO_Studienteilnahme.json'!
-2021-08-16 15:14:34,722 ERROR o.a.l.l.Logger$error$0 [main] An error occurred while reading the flat template file at 'E:\Studium\Semi_6\BA\syntheagecco\src\main\resources\openehr\paths\GECCO_Virologischer Befund.json'!
-2021-08-16 15:14:34,723 ERROR o.a.l.l.Logger$error$0 [main] An error occurred while reading the flat template file at 'E:\Studium\Semi_6\BA\syntheagecco\src\main\resources\openehr\paths\Herzfrequenz.json'!
-2021-08-16 15:14:34,725 ERROR o.a.l.l.Logger$error$0 [main] An error occurred while reading the flat template file at 'E:\Studium\Semi_6\BA\syntheagecco\src\main\resources\openehr\paths\Impfstatus.json'!
-2021-08-16 15:14:34,726 ERROR o.a.l.l.Logger$error$0 [main] An error occurred while reading the flat template file at 'E:\Studium\Semi_6\BA\syntheagecco\src\main\resources\openehr\paths\Klinische Frailty-Skala.json'!
-2021-08-16 15:14:34,728 ERROR o.a.l.l.Logger$error$0 [main] An error occurred while reading the flat template file at 'E:\Studium\Semi_6\BA\syntheagecco\src\main\resources\openehr\paths\Koerpertemperatur.json'!
-2021-08-16 15:14:34,729 ERROR o.a.l.l.Logger$error$0 [main] An error occurred while reading the flat template file at 'E:\Studium\Semi_6\BA\syntheagecco\src\main\resources\openehr\paths\Körpergewicht.json'!
-2021-08-16 15:14:34,730 ERROR o.a.l.l.Logger$error$0 [main] An error occurred while reading the flat template file at 'E:\Studium\Semi_6\BA\syntheagecco\src\main\resources\openehr\paths\Körpergröße.json'!
-2021-08-16 15:14:34,732 ERROR o.a.l.l.Logger$error$0 [main] An error occurred while reading the flat template file at 'E:\Studium\Semi_6\BA\syntheagecco\src\main\resources\openehr\paths\Pulsoxymetrie.json'!
-2021-08-16 15:14:34,733 ERROR o.a.l.l.Logger$error$0 [main] An error occurred while reading the flat template file at 'E:\Studium\Semi_6\BA\syntheagecco\src\main\resources\openehr\paths\Raucherstatus.json'!
-2021-08-16 15:14:34,735 ERROR o.a.l.l.Logger$error$0 [main] An error occurred while reading the flat template file at 'E:\Studium\Semi_6\BA\syntheagecco\src\main\resources\openehr\paths\Reisehistorie.json'!
-2021-08-16 15:14:34,736 ERROR o.a.l.l.Logger$error$0 [main] An error occurred while reading the flat template file at 'E:\Studium\Semi_6\BA\syntheagecco\src\main\resources\openehr\paths\SARS-CoV-2 Exposition.json'!
-2021-08-16 15:14:34,738 ERROR o.a.l.l.Logger$error$0 [main] An error occurred while reading the flat template file at 'E:\Studium\Semi_6\BA\syntheagecco\src\main\resources\openehr\paths\Schwangerschaftsstatus.json'!
-2021-08-16 15:14:34,739 ERROR o.a.l.l.Logger$error$0 [main] An error occurred while reading the flat template file at 'E:\Studium\Semi_6\BA\syntheagecco\src\main\resources\openehr\paths\SOFA.json'!
-2021-08-16 15:14:34,740 ERROR o.a.l.l.Logger$error$0 [main] An error occurred while reading the flat template file at 'E:\Studium\Semi_6\BA\syntheagecco\src\main\resources\openehr\paths\Symptom.json'!
-2021-08-16 15:20:13,684 ERROR o.a.l.l.Logger$error$1 [main] An error occurred while reading the flat template file at 'E:\Studium\Semi_6\BA\syntheagecco\src\main\resources\openehr\paths\Atemfrequenz.json'!
-2021-08-16 15:20:13,689 ERROR o.a.l.l.Logger$error$1 [main] An error occurred while reading the flat template file at 'E:\Studium\Semi_6\BA\syntheagecco\src\main\resources\openehr\paths\Beatmungswerte.json'!
-2021-08-16 15:20:13,696 ERROR o.a.l.l.Logger$error$1 [main] An error occurred while reading the flat template file at 'E:\Studium\Semi_6\BA\syntheagecco\src\main\resources\openehr\paths\Befund der Blutgasanalyse.json'!
-2021-08-16 15:20:13,697 ERROR o.a.l.l.Logger$error$1 [main] An error occurred while reading the flat template file at 'E:\Studium\Semi_6\BA\syntheagecco\src\main\resources\openehr\paths\Blutdruck.json'!
-2021-08-16 15:20:13,699 ERROR o.a.l.l.Logger$error$1 [main] An error occurred while reading the flat template file at 'E:\Studium\Semi_6\BA\syntheagecco\src\main\resources\openehr\paths\DNR-Anordnung.json'!
-2021-08-16 15:20:13,701 ERROR o.a.l.l.Logger$error$1 [main] An error occurred while reading the flat template file at 'E:\Studium\Semi_6\BA\syntheagecco\src\main\resources\openehr\paths\GECCO_Diagnose.json'!
-2021-08-16 15:20:13,703 ERROR o.a.l.l.Logger$error$1 [main] An error occurred while reading the flat template file at 'E:\Studium\Semi_6\BA\syntheagecco\src\main\resources\openehr\paths\GECCO_Entlassungsdaten.json'!
-2021-08-16 15:20:13,706 ERROR o.a.l.l.Logger$error$1 [main] An error occurred while reading the flat template file at 'E:\Studium\Semi_6\BA\syntheagecco\src\main\resources\openehr\paths\GECCO_Laborbefund.json'!
-2021-08-16 15:20:13,708 ERROR o.a.l.l.Logger$error$1 [main] An error occurred while reading the flat template file at 'E:\Studium\Semi_6\BA\syntheagecco\src\main\resources\openehr\paths\GECCO_Medikation.json'!
-2021-08-16 15:20:13,710 ERROR o.a.l.l.Logger$error$1 [main] An error occurred while reading the flat template file at 'E:\Studium\Semi_6\BA\syntheagecco\src\main\resources\openehr\paths\GECCO_Personendaten.json'!
-2021-08-16 15:20:13,710 ERROR o.a.l.l.Logger$error$1 [main] An error occurred while reading the flat template file at 'E:\Studium\Semi_6\BA\syntheagecco\src\main\resources\openehr\paths\GECCO_Prozedur.json'!
-2021-08-16 15:20:13,713 ERROR o.a.l.l.Logger$error$1 [main] An error occurred while reading the flat template file at 'E:\Studium\Semi_6\BA\syntheagecco\src\main\resources\openehr\paths\GECCO_Serologischer Befund.json'!
-2021-08-16 15:20:13,714 ERROR o.a.l.l.Logger$error$1 [main] An error occurred while reading the flat template file at 'E:\Studium\Semi_6\BA\syntheagecco\src\main\resources\openehr\paths\GECCO_Studienteilnahme.json'!
-2021-08-16 15:20:13,716 ERROR o.a.l.l.Logger$error$1 [main] An error occurred while reading the flat template file at 'E:\Studium\Semi_6\BA\syntheagecco\src\main\resources\openehr\paths\GECCO_Virologischer Befund.json'!
-2021-08-16 15:20:13,717 ERROR o.a.l.l.Logger$error$1 [main] An error occurred while reading the flat template file at 'E:\Studium\Semi_6\BA\syntheagecco\src\main\resources\openehr\paths\Herzfrequenz.json'!
-2021-08-16 15:20:13,719 ERROR o.a.l.l.Logger$error$1 [main] An error occurred while reading the flat template file at 'E:\Studium\Semi_6\BA\syntheagecco\src\main\resources\openehr\paths\Impfstatus.json'!
-2021-08-16 15:20:13,720 ERROR o.a.l.l.Logger$error$1 [main] An error occurred while reading the flat template file at 'E:\Studium\Semi_6\BA\syntheagecco\src\main\resources\openehr\paths\Klinische Frailty-Skala.json'!
-2021-08-16 15:20:13,722 ERROR o.a.l.l.Logger$error$1 [main] An error occurred while reading the flat template file at 'E:\Studium\Semi_6\BA\syntheagecco\src\main\resources\openehr\paths\Koerpertemperatur.json'!
-2021-08-16 15:20:13,722 ERROR o.a.l.l.Logger$error$1 [main] An error occurred while reading the flat template file at 'E:\Studium\Semi_6\BA\syntheagecco\src\main\resources\openehr\paths\Körpergewicht.json'!
-2021-08-16 15:20:13,723 ERROR o.a.l.l.Logger$error$1 [main] An error occurred while reading the flat template file at 'E:\Studium\Semi_6\BA\syntheagecco\src\main\resources\openehr\paths\Körpergröße.json'!
-2021-08-16 15:20:13,724 ERROR o.a.l.l.Logger$error$1 [main] An error occurred while reading the flat template file at 'E:\Studium\Semi_6\BA\syntheagecco\src\main\resources\openehr\paths\Pulsoxymetrie.json'!
-2021-08-16 15:20:13,725 ERROR o.a.l.l.Logger$error$1 [main] An error occurred while reading the flat template file at 'E:\Studium\Semi_6\BA\syntheagecco\src\main\resources\openehr\paths\Raucherstatus.json'!
-2021-08-16 15:20:13,726 ERROR o.a.l.l.Logger$error$1 [main] An error occurred while reading the flat template file at 'E:\Studium\Semi_6\BA\syntheagecco\src\main\resources\openehr\paths\Reisehistorie.json'!
-2021-08-16 15:20:13,727 ERROR o.a.l.l.Logger$error$1 [main] An error occurred while reading the flat template file at 'E:\Studium\Semi_6\BA\syntheagecco\src\main\resources\openehr\paths\SARS-CoV-2 Exposition.json'!
-2021-08-16 15:20:13,728 ERROR o.a.l.l.Logger$error$1 [main] An error occurred while reading the flat template file at 'E:\Studium\Semi_6\BA\syntheagecco\src\main\resources\openehr\paths\Schwangerschaftsstatus.json'!
-2021-08-16 15:20:13,729 ERROR o.a.l.l.Logger$error$1 [main] An error occurred while reading the flat template file at 'E:\Studium\Semi_6\BA\syntheagecco\src\main\resources\openehr\paths\SOFA.json'!
-2021-08-16 15:20:13,730 ERROR o.a.l.l.Logger$error$1 [main] An error occurred while reading the flat template file at 'E:\Studium\Semi_6\BA\syntheagecco\src\main\resources\openehr\paths\Symptom.json'!
+2021-08-10 18:01:28,050 ERROR o.a.l.l.Logger$error$0 [main] An error occurred while reading the template file at 'E:\Studium\Semi_6\BA\org.uzl.syntheagecco\src\main\resources\openehr\webtemplates\Atemfrequenz.json'!
+2021-08-10 18:01:28,122 ERROR o.a.l.l.Logger$error$0 [main] An error occurred while reading the template file at 'E:\Studium\Semi_6\BA\org.uzl.syntheagecco\src\main\resources\openehr\webtemplates\Beatmungswerte.json'!
+2021-08-10 18:01:28,195 ERROR o.a.l.l.Logger$error$0 [main] An error occurred while reading the template file at 'E:\Studium\Semi_6\BA\org.uzl.syntheagecco\src\main\resources\openehr\webtemplates\Befund der Blutgasanalyse.json'!
+2021-08-10 18:01:28,228 ERROR o.a.l.l.Logger$error$0 [main] An error occurred while reading the template file at 'E:\Studium\Semi_6\BA\org.uzl.syntheagecco\src\main\resources\openehr\webtemplates\Blutdruck.json'!
+2021-08-10 18:01:28,258 ERROR o.a.l.l.Logger$error$0 [main] An error occurred while reading the template file at 'E:\Studium\Semi_6\BA\org.uzl.syntheagecco\src\main\resources\openehr\webtemplates\DNR-Anordnung.json'!
+2021-08-10 18:01:28,290 ERROR o.a.l.l.Logger$error$0 [main] An error occurred while reading the template file at 'E:\Studium\Semi_6\BA\org.uzl.syntheagecco\src\main\resources\openehr\webtemplates\GECCO_Diagnose.json'!
+2021-08-10 18:01:28,306 ERROR o.a.l.l.Logger$error$0 [main] An error occurred while reading the template file at 'E:\Studium\Semi_6\BA\org.uzl.syntheagecco\src\main\resources\openehr\webtemplates\GECCO_Entlassungsdaten.json'!
+2021-08-10 18:01:28,321 ERROR o.a.l.l.Logger$error$0 [main] An error occurred while reading the template file at 'E:\Studium\Semi_6\BA\org.uzl.syntheagecco\src\main\resources\openehr\webtemplates\GECCO_Laborbefund.json'!
+2021-08-10 18:01:28,334 ERROR o.a.l.l.Logger$error$0 [main] An error occurred while reading the template file at 'E:\Studium\Semi_6\BA\org.uzl.syntheagecco\src\main\resources\openehr\webtemplates\GECCO_Medikation.json'!
+2021-08-10 18:01:28,358 ERROR o.a.l.l.Logger$error$0 [main] An error occurred while reading the template file at 'E:\Studium\Semi_6\BA\org.uzl.syntheagecco\src\main\resources\openehr\webtemplates\GECCO_Personendaten.json'!
+2021-08-10 18:01:28,382 ERROR o.a.l.l.Logger$error$0 [main] An error occurred while reading the template file at 'E:\Studium\Semi_6\BA\org.uzl.syntheagecco\src\main\resources\openehr\webtemplates\GECCO_Prozedur.json'!
+2021-08-10 18:01:28,402 ERROR o.a.l.l.Logger$error$0 [main] An error occurred while reading the template file at 'E:\Studium\Semi_6\BA\org.uzl.syntheagecco\src\main\resources\openehr\webtemplates\GECCO_Serologischer Befund.json'!
+2021-08-10 18:01:28,417 ERROR o.a.l.l.Logger$error$0 [main] An error occurred while reading the template file at 'E:\Studium\Semi_6\BA\org.uzl.syntheagecco\src\main\resources\openehr\webtemplates\GECCO_Studienteilnahme.json'!
+2021-08-10 18:01:28,431 ERROR o.a.l.l.Logger$error$0 [main] An error occurred while reading the template file at 'E:\Studium\Semi_6\BA\org.uzl.syntheagecco\src\main\resources\openehr\webtemplates\GECCO_Virologischer Befund.json'!
+2021-08-10 18:01:28,444 ERROR o.a.l.l.Logger$error$0 [main] An error occurred while reading the template file at 'E:\Studium\Semi_6\BA\org.uzl.syntheagecco\src\main\resources\openehr\webtemplates\Herzfrequenz.json'!
+2021-08-10 18:01:28,469 ERROR o.a.l.l.Logger$error$0 [main] An error occurred while reading the template file at 'E:\Studium\Semi_6\BA\org.uzl.syntheagecco\src\main\resources\openehr\webtemplates\Impfstatus.json'!
+2021-08-10 18:01:28,481 ERROR o.a.l.l.Logger$error$0 [main] An error occurred while reading the template file at 'E:\Studium\Semi_6\BA\org.uzl.syntheagecco\src\main\resources\openehr\webtemplates\Klinische Frailty-Skala.json'!
+2021-08-10 18:01:28,500 ERROR o.a.l.l.Logger$error$0 [main] An error occurred while reading the template file at 'E:\Studium\Semi_6\BA\org.uzl.syntheagecco\src\main\resources\openehr\webtemplates\Koerpertemperatur.json'!
+2021-08-10 18:01:28,516 ERROR o.a.l.l.Logger$error$0 [main] An error occurred while reading the template file at 'E:\Studium\Semi_6\BA\org.uzl.syntheagecco\src\main\resources\openehr\webtemplates\Kï¿½rpergewicht.json'!
+2021-08-10 18:01:28,537 ERROR o.a.l.l.Logger$error$0 [main] An error occurred while reading the template file at 'E:\Studium\Semi_6\BA\org.uzl.syntheagecco\src\main\resources\openehr\webtemplates\Kï¿½rpergrï¿½ï¿½e.json'!
+2021-08-10 18:01:28,551 ERROR o.a.l.l.Logger$error$0 [main] An error occurred while reading the template file at 'E:\Studium\Semi_6\BA\org.uzl.syntheagecco\src\main\resources\openehr\webtemplates\Pulsoxymetrie.json'!
+2021-08-10 18:01:28,558 ERROR o.a.l.l.Logger$error$0 [main] An error occurred while reading the template file at 'E:\Studium\Semi_6\BA\org.uzl.syntheagecco\src\main\resources\openehr\webtemplates\Raucherstatus.json'!
+2021-08-10 18:01:28,565 ERROR o.a.l.l.Logger$error$0 [main] An error occurred while reading the template file at 'E:\Studium\Semi_6\BA\org.uzl.syntheagecco\src\main\resources\openehr\webtemplates\Reisehistorie.json'!
+2021-08-10 18:01:28,580 ERROR o.a.l.l.Logger$error$0 [main] An error occurred while reading the template file at 'E:\Studium\Semi_6\BA\org.uzl.syntheagecco\src\main\resources\openehr\webtemplates\SARS-CoV-2 Exposition.json'!
+2021-08-10 18:01:28,587 ERROR o.a.l.l.Logger$error$0 [main] An error occurred while reading the template file at 'E:\Studium\Semi_6\BA\org.uzl.syntheagecco\src\main\resources\openehr\webtemplates\Schwangerschaftsstatus.json'!
+2021-08-10 18:01:28,600 ERROR o.a.l.l.Logger$error$0 [main] An error occurred while reading the template file at 'E:\Studium\Semi_6\BA\org.uzl.syntheagecco\src\main\resources\openehr\webtemplates\SOFA.json'!
+2021-08-10 18:01:28,612 ERROR o.a.l.l.Logger$error$0 [main] An error occurred while reading the template file at 'E:\Studium\Semi_6\BA\org.uzl.syntheagecco\src\main\resources\openehr\webtemplates\Symptom.json'!
+2021-08-10 18:05:59,031 ERROR o.a.l.l.Logger$error$1 [main] An error occurred while reading the template file at 'E:\Studium\Semi_6\BA\org.uzl.syntheagecco\src\main\resources\openehr\webtemplates\Atemfrequenz.json'!
+2021-08-10 18:05:59,072 ERROR o.a.l.l.Logger$error$1 [main] An error occurred while reading the template file at 'E:\Studium\Semi_6\BA\org.uzl.syntheagecco\src\main\resources\openehr\webtemplates\Beatmungswerte.json'!
+2021-08-10 18:05:59,092 ERROR o.a.l.l.Logger$error$1 [main] An error occurred while reading the template file at 'E:\Studium\Semi_6\BA\org.uzl.syntheagecco\src\main\resources\openehr\webtemplates\Befund der Blutgasanalyse.json'!
+2021-08-10 18:05:59,104 ERROR o.a.l.l.Logger$error$1 [main] An error occurred while reading the template file at 'E:\Studium\Semi_6\BA\org.uzl.syntheagecco\src\main\resources\openehr\webtemplates\Blutdruck.json'!
+2021-08-10 18:05:59,115 ERROR o.a.l.l.Logger$error$1 [main] An error occurred while reading the template file at 'E:\Studium\Semi_6\BA\org.uzl.syntheagecco\src\main\resources\openehr\webtemplates\DNR-Anordnung.json'!
+2021-08-10 18:05:59,127 ERROR o.a.l.l.Logger$error$1 [main] An error occurred while reading the template file at 'E:\Studium\Semi_6\BA\org.uzl.syntheagecco\src\main\resources\openehr\webtemplates\GECCO_Diagnose.json'!
+2021-08-10 18:05:59,135 ERROR o.a.l.l.Logger$error$1 [main] An error occurred while reading the template file at 'E:\Studium\Semi_6\BA\org.uzl.syntheagecco\src\main\resources\openehr\webtemplates\GECCO_Entlassungsdaten.json'!
+2021-08-10 18:05:59,151 ERROR o.a.l.l.Logger$error$1 [main] An error occurred while reading the template file at 'E:\Studium\Semi_6\BA\org.uzl.syntheagecco\src\main\resources\openehr\webtemplates\GECCO_Laborbefund.json'!
+2021-08-10 18:05:59,162 ERROR o.a.l.l.Logger$error$1 [main] An error occurred while reading the template file at 'E:\Studium\Semi_6\BA\org.uzl.syntheagecco\src\main\resources\openehr\webtemplates\GECCO_Medikation.json'!
+2021-08-10 18:05:59,183 ERROR o.a.l.l.Logger$error$1 [main] An error occurred while reading the template file at 'E:\Studium\Semi_6\BA\org.uzl.syntheagecco\src\main\resources\openehr\webtemplates\GECCO_Personendaten.json'!
+2021-08-10 18:05:59,195 ERROR o.a.l.l.Logger$error$1 [main] An error occurred while reading the template file at 'E:\Studium\Semi_6\BA\org.uzl.syntheagecco\src\main\resources\openehr\webtemplates\GECCO_Prozedur.json'!
+2021-08-10 18:05:59,206 ERROR o.a.l.l.Logger$error$1 [main] An error occurred while reading the template file at 'E:\Studium\Semi_6\BA\org.uzl.syntheagecco\src\main\resources\openehr\webtemplates\GECCO_Serologischer Befund.json'!
+2021-08-10 18:05:59,217 ERROR o.a.l.l.Logger$error$1 [main] An error occurred while reading the template file at 'E:\Studium\Semi_6\BA\org.uzl.syntheagecco\src\main\resources\openehr\webtemplates\GECCO_Studienteilnahme.json'!
+2021-08-10 18:05:59,226 ERROR o.a.l.l.Logger$error$1 [main] An error occurred while reading the template file at 'E:\Studium\Semi_6\BA\org.uzl.syntheagecco\src\main\resources\openehr\webtemplates\GECCO_Virologischer Befund.json'!
+2021-08-10 18:05:59,239 ERROR o.a.l.l.Logger$error$1 [main] An error occurred while reading the template file at 'E:\Studium\Semi_6\BA\org.uzl.syntheagecco\src\main\resources\openehr\webtemplates\Herzfrequenz.json'!
+2021-08-10 18:05:59,250 ERROR o.a.l.l.Logger$error$1 [main] An error occurred while reading the template file at 'E:\Studium\Semi_6\BA\org.uzl.syntheagecco\src\main\resources\openehr\webtemplates\Impfstatus.json'!
+2021-08-10 18:05:59,257 ERROR o.a.l.l.Logger$error$1 [main] An error occurred while reading the template file at 'E:\Studium\Semi_6\BA\org.uzl.syntheagecco\src\main\resources\openehr\webtemplates\Klinische Frailty-Skala.json'!
+2021-08-10 18:05:59,262 ERROR o.a.l.l.Logger$error$1 [main] An error occurred while reading the template file at 'E:\Studium\Semi_6\BA\org.uzl.syntheagecco\src\main\resources\openehr\webtemplates\Koerpertemperatur.json'!
+2021-08-10 18:05:59,272 ERROR o.a.l.l.Logger$error$1 [main] An error occurred while reading the template file at 'E:\Studium\Semi_6\BA\org.uzl.syntheagecco\src\main\resources\openehr\webtemplates\Kï¿½rpergewicht.json'!
+2021-08-10 18:05:59,283 ERROR o.a.l.l.Logger$error$1 [main] An error occurred while reading the template file at 'E:\Studium\Semi_6\BA\org.uzl.syntheagecco\src\main\resources\openehr\webtemplates\Kï¿½rpergrï¿½ï¿½e.json'!
+2021-08-10 18:05:59,302 ERROR o.a.l.l.Logger$error$1 [main] An error occurred while reading the template file at 'E:\Studium\Semi_6\BA\org.uzl.syntheagecco\src\main\resources\openehr\webtemplates\Pulsoxymetrie.json'!
+2021-08-10 18:05:59,307 ERROR o.a.l.l.Logger$error$1 [main] An error occurred while reading the template file at 'E:\Studium\Semi_6\BA\org.uzl.syntheagecco\src\main\resources\openehr\webtemplates\Raucherstatus.json'!
+2021-08-10 18:05:59,311 ERROR o.a.l.l.Logger$error$1 [main] An error occurred while reading the template file at 'E:\Studium\Semi_6\BA\org.uzl.syntheagecco\src\main\resources\openehr\webtemplates\Reisehistorie.json'!
+2021-08-10 18:05:59,315 ERROR o.a.l.l.Logger$error$1 [main] An error occurred while reading the template file at 'E:\Studium\Semi_6\BA\org.uzl.syntheagecco\src\main\resources\openehr\webtemplates\SARS-CoV-2 Exposition.json'!
+2021-08-10 18:05:59,322 ERROR o.a.l.l.Logger$error$1 [main] An error occurred while reading the template file at 'E:\Studium\Semi_6\BA\org.uzl.syntheagecco\src\main\resources\openehr\webtemplates\Schwangerschaftsstatus.json'!
+2021-08-10 18:05:59,326 ERROR o.a.l.l.Logger$error$1 [main] An error occurred while reading the template file at 'E:\Studium\Semi_6\BA\org.uzl.syntheagecco\src\main\resources\openehr\webtemplates\SOFA.json'!
+2021-08-10 18:05:59,330 ERROR o.a.l.l.Logger$error$1 [main] An error occurred while reading the template file at 'E:\Studium\Semi_6\BA\org.uzl.syntheagecco\src\main\resources\openehr\webtemplates\Symptom.json'!
+2021-08-16 15:14:34,687 ERROR o.a.l.l.Logger$error$0 [main] An error occurred while reading the flat template file at 'E:\Studium\Semi_6\BA\org.uzl.syntheagecco\src\main\resources\openehr\paths\Atemfrequenz.json'!
+2021-08-16 15:14:34,694 ERROR o.a.l.l.Logger$error$0 [main] An error occurred while reading the flat template file at 'E:\Studium\Semi_6\BA\org.uzl.syntheagecco\src\main\resources\openehr\paths\Beatmungswerte.json'!
+2021-08-16 15:14:34,702 ERROR o.a.l.l.Logger$error$0 [main] An error occurred while reading the flat template file at 'E:\Studium\Semi_6\BA\org.uzl.syntheagecco\src\main\resources\openehr\paths\Befund der Blutgasanalyse.json'!
+2021-08-16 15:14:34,705 ERROR o.a.l.l.Logger$error$0 [main] An error occurred while reading the flat template file at 'E:\Studium\Semi_6\BA\org.uzl.syntheagecco\src\main\resources\openehr\paths\Blutdruck.json'!
+2021-08-16 15:14:34,708 ERROR o.a.l.l.Logger$error$0 [main] An error occurred while reading the flat template file at 'E:\Studium\Semi_6\BA\org.uzl.syntheagecco\src\main\resources\openehr\paths\DNR-Anordnung.json'!
+2021-08-16 15:14:34,709 ERROR o.a.l.l.Logger$error$0 [main] An error occurred while reading the flat template file at 'E:\Studium\Semi_6\BA\org.uzl.syntheagecco\src\main\resources\openehr\paths\GECCO_Diagnose.json'!
+2021-08-16 15:14:34,711 ERROR o.a.l.l.Logger$error$0 [main] An error occurred while reading the flat template file at 'E:\Studium\Semi_6\BA\org.uzl.syntheagecco\src\main\resources\openehr\paths\GECCO_Entlassungsdaten.json'!
+2021-08-16 15:14:34,712 ERROR o.a.l.l.Logger$error$0 [main] An error occurred while reading the flat template file at 'E:\Studium\Semi_6\BA\org.uzl.syntheagecco\src\main\resources\openehr\paths\GECCO_Laborbefund.json'!
+2021-08-16 15:14:34,714 ERROR o.a.l.l.Logger$error$0 [main] An error occurred while reading the flat template file at 'E:\Studium\Semi_6\BA\org.uzl.syntheagecco\src\main\resources\openehr\paths\GECCO_Medikation.json'!
+2021-08-16 15:14:34,715 ERROR o.a.l.l.Logger$error$0 [main] An error occurred while reading the flat template file at 'E:\Studium\Semi_6\BA\org.uzl.syntheagecco\src\main\resources\openehr\paths\GECCO_Personendaten.json'!
+2021-08-16 15:14:34,716 ERROR o.a.l.l.Logger$error$0 [main] An error occurred while reading the flat template file at 'E:\Studium\Semi_6\BA\org.uzl.syntheagecco\src\main\resources\openehr\paths\GECCO_Prozedur.json'!
+2021-08-16 15:14:34,719 ERROR o.a.l.l.Logger$error$0 [main] An error occurred while reading the flat template file at 'E:\Studium\Semi_6\BA\org.uzl.syntheagecco\src\main\resources\openehr\paths\GECCO_Serologischer Befund.json'!
+2021-08-16 15:14:34,720 ERROR o.a.l.l.Logger$error$0 [main] An error occurred while reading the flat template file at 'E:\Studium\Semi_6\BA\org.uzl.syntheagecco\src\main\resources\openehr\paths\GECCO_Studienteilnahme.json'!
+2021-08-16 15:14:34,722 ERROR o.a.l.l.Logger$error$0 [main] An error occurred while reading the flat template file at 'E:\Studium\Semi_6\BA\org.uzl.syntheagecco\src\main\resources\openehr\paths\GECCO_Virologischer Befund.json'!
+2021-08-16 15:14:34,723 ERROR o.a.l.l.Logger$error$0 [main] An error occurred while reading the flat template file at 'E:\Studium\Semi_6\BA\org.uzl.syntheagecco\src\main\resources\openehr\paths\Herzfrequenz.json'!
+2021-08-16 15:14:34,725 ERROR o.a.l.l.Logger$error$0 [main] An error occurred while reading the flat template file at 'E:\Studium\Semi_6\BA\org.uzl.syntheagecco\src\main\resources\openehr\paths\Impfstatus.json'!
+2021-08-16 15:14:34,726 ERROR o.a.l.l.Logger$error$0 [main] An error occurred while reading the flat template file at 'E:\Studium\Semi_6\BA\org.uzl.syntheagecco\src\main\resources\openehr\paths\Klinische Frailty-Skala.json'!
+2021-08-16 15:14:34,728 ERROR o.a.l.l.Logger$error$0 [main] An error occurred while reading the flat template file at 'E:\Studium\Semi_6\BA\org.uzl.syntheagecco\src\main\resources\openehr\paths\Koerpertemperatur.json'!
+2021-08-16 15:14:34,729 ERROR o.a.l.l.Logger$error$0 [main] An error occurred while reading the flat template file at 'E:\Studium\Semi_6\BA\org.uzl.syntheagecco\src\main\resources\openehr\paths\Kï¿½rpergewicht.json'!
+2021-08-16 15:14:34,730 ERROR o.a.l.l.Logger$error$0 [main] An error occurred while reading the flat template file at 'E:\Studium\Semi_6\BA\org.uzl.syntheagecco\src\main\resources\openehr\paths\Kï¿½rpergrï¿½ï¿½e.json'!
+2021-08-16 15:14:34,732 ERROR o.a.l.l.Logger$error$0 [main] An error occurred while reading the flat template file at 'E:\Studium\Semi_6\BA\org.uzl.syntheagecco\src\main\resources\openehr\paths\Pulsoxymetrie.json'!
+2021-08-16 15:14:34,733 ERROR o.a.l.l.Logger$error$0 [main] An error occurred while reading the flat template file at 'E:\Studium\Semi_6\BA\org.uzl.syntheagecco\src\main\resources\openehr\paths\Raucherstatus.json'!
+2021-08-16 15:14:34,735 ERROR o.a.l.l.Logger$error$0 [main] An error occurred while reading the flat template file at 'E:\Studium\Semi_6\BA\org.uzl.syntheagecco\src\main\resources\openehr\paths\Reisehistorie.json'!
+2021-08-16 15:14:34,736 ERROR o.a.l.l.Logger$error$0 [main] An error occurred while reading the flat template file at 'E:\Studium\Semi_6\BA\org.uzl.syntheagecco\src\main\resources\openehr\paths\SARS-CoV-2 Exposition.json'!
+2021-08-16 15:14:34,738 ERROR o.a.l.l.Logger$error$0 [main] An error occurred while reading the flat template file at 'E:\Studium\Semi_6\BA\org.uzl.syntheagecco\src\main\resources\openehr\paths\Schwangerschaftsstatus.json'!
+2021-08-16 15:14:34,739 ERROR o.a.l.l.Logger$error$0 [main] An error occurred while reading the flat template file at 'E:\Studium\Semi_6\BA\org.uzl.syntheagecco\src\main\resources\openehr\paths\SOFA.json'!
+2021-08-16 15:14:34,740 ERROR o.a.l.l.Logger$error$0 [main] An error occurred while reading the flat template file at 'E:\Studium\Semi_6\BA\org.uzl.syntheagecco\src\main\resources\openehr\paths\Symptom.json'!
+2021-08-16 15:20:13,684 ERROR o.a.l.l.Logger$error$1 [main] An error occurred while reading the flat template file at 'E:\Studium\Semi_6\BA\org.uzl.syntheagecco\src\main\resources\openehr\paths\Atemfrequenz.json'!
+2021-08-16 15:20:13,689 ERROR o.a.l.l.Logger$error$1 [main] An error occurred while reading the flat template file at 'E:\Studium\Semi_6\BA\org.uzl.syntheagecco\src\main\resources\openehr\paths\Beatmungswerte.json'!
+2021-08-16 15:20:13,696 ERROR o.a.l.l.Logger$error$1 [main] An error occurred while reading the flat template file at 'E:\Studium\Semi_6\BA\org.uzl.syntheagecco\src\main\resources\openehr\paths\Befund der Blutgasanalyse.json'!
+2021-08-16 15:20:13,697 ERROR o.a.l.l.Logger$error$1 [main] An error occurred while reading the flat template file at 'E:\Studium\Semi_6\BA\org.uzl.syntheagecco\src\main\resources\openehr\paths\Blutdruck.json'!
+2021-08-16 15:20:13,699 ERROR o.a.l.l.Logger$error$1 [main] An error occurred while reading the flat template file at 'E:\Studium\Semi_6\BA\org.uzl.syntheagecco\src\main\resources\openehr\paths\DNR-Anordnung.json'!
+2021-08-16 15:20:13,701 ERROR o.a.l.l.Logger$error$1 [main] An error occurred while reading the flat template file at 'E:\Studium\Semi_6\BA\org.uzl.syntheagecco\src\main\resources\openehr\paths\GECCO_Diagnose.json'!
+2021-08-16 15:20:13,703 ERROR o.a.l.l.Logger$error$1 [main] An error occurred while reading the flat template file at 'E:\Studium\Semi_6\BA\org.uzl.syntheagecco\src\main\resources\openehr\paths\GECCO_Entlassungsdaten.json'!
+2021-08-16 15:20:13,706 ERROR o.a.l.l.Logger$error$1 [main] An error occurred while reading the flat template file at 'E:\Studium\Semi_6\BA\org.uzl.syntheagecco\src\main\resources\openehr\paths\GECCO_Laborbefund.json'!
+2021-08-16 15:20:13,708 ERROR o.a.l.l.Logger$error$1 [main] An error occurred while reading the flat template file at 'E:\Studium\Semi_6\BA\org.uzl.syntheagecco\src\main\resources\openehr\paths\GECCO_Medikation.json'!
+2021-08-16 15:20:13,710 ERROR o.a.l.l.Logger$error$1 [main] An error occurred while reading the flat template file at 'E:\Studium\Semi_6\BA\org.uzl.syntheagecco\src\main\resources\openehr\paths\GECCO_Personendaten.json'!
+2021-08-16 15:20:13,710 ERROR o.a.l.l.Logger$error$1 [main] An error occurred while reading the flat template file at 'E:\Studium\Semi_6\BA\org.uzl.syntheagecco\src\main\resources\openehr\paths\GECCO_Prozedur.json'!
+2021-08-16 15:20:13,713 ERROR o.a.l.l.Logger$error$1 [main] An error occurred while reading the flat template file at 'E:\Studium\Semi_6\BA\org.uzl.syntheagecco\src\main\resources\openehr\paths\GECCO_Serologischer Befund.json'!
+2021-08-16 15:20:13,714 ERROR o.a.l.l.Logger$error$1 [main] An error occurred while reading the flat template file at 'E:\Studium\Semi_6\BA\org.uzl.syntheagecco\src\main\resources\openehr\paths\GECCO_Studienteilnahme.json'!
+2021-08-16 15:20:13,716 ERROR o.a.l.l.Logger$error$1 [main] An error occurred while reading the flat template file at 'E:\Studium\Semi_6\BA\org.uzl.syntheagecco\src\main\resources\openehr\paths\GECCO_Virologischer Befund.json'!
+2021-08-16 15:20:13,717 ERROR o.a.l.l.Logger$error$1 [main] An error occurred while reading the flat template file at 'E:\Studium\Semi_6\BA\org.uzl.syntheagecco\src\main\resources\openehr\paths\Herzfrequenz.json'!
+2021-08-16 15:20:13,719 ERROR o.a.l.l.Logger$error$1 [main] An error occurred while reading the flat template file at 'E:\Studium\Semi_6\BA\org.uzl.syntheagecco\src\main\resources\openehr\paths\Impfstatus.json'!
+2021-08-16 15:20:13,720 ERROR o.a.l.l.Logger$error$1 [main] An error occurred while reading the flat template file at 'E:\Studium\Semi_6\BA\org.uzl.syntheagecco\src\main\resources\openehr\paths\Klinische Frailty-Skala.json'!
+2021-08-16 15:20:13,722 ERROR o.a.l.l.Logger$error$1 [main] An error occurred while reading the flat template file at 'E:\Studium\Semi_6\BA\org.uzl.syntheagecco\src\main\resources\openehr\paths\Koerpertemperatur.json'!
+2021-08-16 15:20:13,722 ERROR o.a.l.l.Logger$error$1 [main] An error occurred while reading the flat template file at 'E:\Studium\Semi_6\BA\org.uzl.syntheagecco\src\main\resources\openehr\paths\Kï¿½rpergewicht.json'!
+2021-08-16 15:20:13,723 ERROR o.a.l.l.Logger$error$1 [main] An error occurred while reading the flat template file at 'E:\Studium\Semi_6\BA\org.uzl.syntheagecco\src\main\resources\openehr\paths\Kï¿½rpergrï¿½ï¿½e.json'!
+2021-08-16 15:20:13,724 ERROR o.a.l.l.Logger$error$1 [main] An error occurred while reading the flat template file at 'E:\Studium\Semi_6\BA\org.uzl.syntheagecco\src\main\resources\openehr\paths\Pulsoxymetrie.json'!
+2021-08-16 15:20:13,725 ERROR o.a.l.l.Logger$error$1 [main] An error occurred while reading the flat template file at 'E:\Studium\Semi_6\BA\org.uzl.syntheagecco\src\main\resources\openehr\paths\Raucherstatus.json'!
+2021-08-16 15:20:13,726 ERROR o.a.l.l.Logger$error$1 [main] An error occurred while reading the flat template file at 'E:\Studium\Semi_6\BA\org.uzl.syntheagecco\src\main\resources\openehr\paths\Reisehistorie.json'!
+2021-08-16 15:20:13,727 ERROR o.a.l.l.Logger$error$1 [main] An error occurred while reading the flat template file at 'E:\Studium\Semi_6\BA\org.uzl.syntheagecco\src\main\resources\openehr\paths\SARS-CoV-2 Exposition.json'!
+2021-08-16 15:20:13,728 ERROR o.a.l.l.Logger$error$1 [main] An error occurred while reading the flat template file at 'E:\Studium\Semi_6\BA\org.uzl.syntheagecco\src\main\resources\openehr\paths\Schwangerschaftsstatus.json'!
+2021-08-16 15:20:13,729 ERROR o.a.l.l.Logger$error$1 [main] An error occurred while reading the flat template file at 'E:\Studium\Semi_6\BA\org.uzl.syntheagecco\src\main\resources\openehr\paths\SOFA.json'!
+2021-08-16 15:20:13,730 ERROR o.a.l.l.Logger$error$1 [main] An error occurred while reading the flat template file at 'E:\Studium\Semi_6\BA\org.uzl.syntheagecco\src\main\resources\openehr\paths\Symptom.json'!
 2021-09-16 22:05:59,353 INFO o.a.l.l.Logger$info [main] [#]Creating openEhr diagnosis category lookup ...
 2021-09-16 22:05:59,855 INFO o.a.l.l.Logger$info [main] [#]Creating openEhr diagnosis name lookup ...
 2021-09-16 22:06:00,091 WARN o.a.l.l.Logger$warn$2 [main] There are no codes for diagnosis name category 'N_PAST_HISTORY_OF_PROCEDURE_SITUATION_ASSOCIATED_PROCEDURE_ATTRIBUTE_HEART_REVASCULARIZATION_PROCEDURE'.
@@ -605,3 +605,201 @@
 2022-02-19 14:35:22,505 INFO o.a.l.l.Logger$info [main] [#]Creating FHIR resources ...
 2022-02-19 14:35:23,879 INFO o.a.l.l.Logger$info [main] [#]Writing FHIR resources as JSON files ...
 2022-02-19 14:35:28,289 INFO o.a.l.l.Logger$info [main] [#]Done.
+2022-04-10 15:12:43,091 INFO c.u.f.u.VersionUtil [main] HAPI FHIR version 5.2.0 - Rev 50b927b7d2
+2022-04-10 15:12:43,094 INFO c.u.f.c.FhirContext [main] Creating new FHIR context for FHIR version [R4]
+2022-04-10 15:12:54,522 INFO o.a.l.l.Logger$info [main] [#]Configuration:
+	Gecco version: 1.0.5
+2022-04-10 15:12:54,523 INFO o.a.l.l.Logger$info$0 [main] [#]Running Synthea. Generating patients ...
+2022-04-10 15:12:54,815 INFO c.u.f.c.FhirContext [pool-2-thread-5] Creating new FHIR context for FHIR version [R4]
+2022-04-10 15:13:06,404 INFO o.a.l.l.Logger$info [main] [#]Finished running Synthea.
+2022-04-10 15:13:06,405 INFO o.a.l.l.Logger$info [main] [#]Processing JSON files ...
+2022-04-10 15:13:06,439 INFO o.a.l.l.Logger$info [main] [#]Creating SNOMED-CT code lookup ...
+2022-04-10 15:13:06,552 INFO o.a.l.l.Logger$info [main] [#]Creating LOINC code lookup ...
+2022-04-10 15:13:06,557 INFO o.a.l.l.Logger$info [main] [#]Creating rxNorm code lookup ...
+2022-04-10 15:13:06,561 INFO o.a.l.l.Logger$info [main] [#]Creating openEhr diagnosis name lookup ...
+2022-04-10 15:13:06,660 WARN o.a.l.l.Logger$warn$3 [main] There are no codes for diagnosis name category 'N_PAST_HISTORY_OF_PROCEDURE_SITUATION_ASSOCIATED_PROCEDURE_ATTRIBUTE_HEART_REVASCULARIZATION_PROCEDURE'.
+2022-04-10 15:13:06,709 INFO o.a.l.l.Logger$info [main] [#]Creating openEhr diagnosis category lookup ...
+2022-04-10 15:13:06,721 INFO o.a.l.l.Logger$info [main] [#]Creating openEhr procedure name lookup ...
+2022-04-10 15:13:06,755 INFO o.a.l.l.Logger$info [main] [#]Creating openEhr procdure category lookup ...
+2022-04-10 15:13:06,763 INFO o.a.l.l.Logger$info [main] [#]Creating openEhr diagnosis name (transplant) lookup ...
+2022-04-10 15:13:06,801 INFO o.a.l.l.Logger$info [main] [#] Initializing SNOMED-CT mapper ...
+2022-04-10 15:13:08,265 INFO o.a.l.l.Logger$info [main] [#]Extracting information from generated patient records ...
+2022-04-10 15:13:08,302 INFO o.a.l.l.Logger$info$0 [main] Current file: Abram53_Kiehn525_2fb3fd14-7672-995b-ad85-e2152b54d4eb.json
+2022-04-10 15:13:08,394 INFO o.a.l.l.Logger$info$0 [main] Current file: Adrien235_Heaney114_94d61f8b-7834-b3c9-6f5e-dc9ebb882c4b.json
+2022-04-10 15:13:08,405 INFO o.a.l.l.Logger$info$0 [main] Current file: Adriene242_Jacobi462_3026dc15-1672-fb93-cebb-245b44921391.json
+2022-04-10 15:13:08,423 INFO o.a.l.l.Logger$info$0 [main] Current file: Agustin437_Halvorson124_0973489f-574a-fdf6-a487-90fa42daa40d.json
+2022-04-10 15:13:08,464 INFO o.a.l.l.Logger$info$0 [main] Current file: Ahmed109_Kuhic920_23e067cd-885a-0604-88c2-95fd5deed6c0.json
+2022-04-10 15:13:08,485 INFO o.a.l.l.Logger$info$0 [main] Current file: Alejandro916_Sporer811_48535f3a-7455-b4b9-d309-b1a852c37f75.json
+2022-04-10 15:13:08,493 INFO o.a.l.l.Logger$info$0 [main] Current file: Aleta47_Cassin499_4ee6968b-16fe-091e-0d26-d00add4c0b6e.json
+2022-04-10 15:13:08,509 INFO o.a.l.l.Logger$info$0 [main] Current file: Alfredo17_Benavídez820_937ffd72-ddee-b1f4-36a4-eda6fdf51519.json
+2022-04-10 15:13:08,559 INFO o.a.l.l.Logger$info$0 [main] Current file: Aline709_Emard19_1a8fb103-d9c7-779e-60b3-90d515446c39.json
+2022-04-10 15:13:08,583 INFO o.a.l.l.Logger$info$0 [main] Current file: Alphonse92_Harvey63_726f3153-263c-969d-e816-f1147042f609.json
+2022-04-10 15:13:08,589 INFO o.a.l.l.Logger$info$0 [main] Current file: Amado512_Moore224_2cc968e8-ffe4-fa0c-c57a-35d4099e77aa.json
+2022-04-10 15:13:08,608 INFO o.a.l.l.Logger$info$0 [main] Current file: Angelica442_Hegmann834_210d0312-7a33-a855-6671-d87e15e328ae.json
+2022-04-10 15:13:08,632 INFO o.a.l.l.Logger$info$0 [main] Current file: Anya973_Dare640_f1b5cfb1-89ad-6a52-c922-8a465f6c446e.json
+2022-04-10 15:13:08,647 INFO o.a.l.l.Logger$info$0 [main] Current file: Archie818_Labadie908_57c29c1a-53fb-a9da-54d5-4dfbbb2cd195.json
+2022-04-10 15:13:08,655 INFO o.a.l.l.Logger$info$0 [main] Current file: Ardis509_Baumbach677_ec659464-56ff-a403-65f5-bc6c9a1d0bfd.json
+2022-04-10 15:13:08,672 INFO o.a.l.l.Logger$info$0 [main] Current file: Ariel183_Kohler843_b1527ee5-7f6e-cc4b-b72a-3d8594ac0f1d.json
+2022-04-10 15:13:08,681 INFO o.a.l.l.Logger$info$0 [main] Current file: Arlean815_Jones311_46dd27f6-f661-65c8-c89f-c95bc28e5a4c.json
+2022-04-10 15:13:08,688 INFO o.a.l.l.Logger$info$0 [main] Current file: Armando772_Reynoso837_f922a694-2dc9-a271-ad75-0f6a68992c4d.json
+2022-04-10 15:13:08,705 INFO o.a.l.l.Logger$info$0 [main] Current file: Aron520_Denesik803_16a461f5-414c-21a3-5c52-dd799eccce19.json
+2022-04-10 15:13:08,724 INFO o.a.l.l.Logger$info$0 [main] Current file: Athena83_Marks830_f8f58839-64de-e579-9adf-6be4a41e1db1.json
+2022-04-10 15:13:08,807 INFO o.a.l.l.Logger$info$0 [main] Current file: Avery919_Schaefer657_849d4bdc-1da6-3ab9-54e2-194709d4f5b0.json
+2022-04-10 15:13:08,834 INFO o.a.l.l.Logger$info$0 [main] Current file: Avril120_Langworth352_7669daac-4231-2091-c434-d97bc85999fc.json
+2022-04-10 15:13:08,848 INFO o.a.l.l.Logger$info$0 [main] Current file: Barney639_Schuppe920_b38cc1f1-9c5b-e9b8-3fa2-e624a58be593.json
+2022-04-10 15:13:08,867 INFO o.a.l.l.Logger$info$0 [main] Current file: Benito209_Cassin499_0d6e2019-38eb-cfb5-fb17-096b782b1f11.json
+2022-04-10 15:13:08,881 INFO o.a.l.l.Logger$info$0 [main] Current file: Benito209_Fay398_ed6bf8b8-269d-63c2-005b-bb33a9ca607d.json
+2022-04-10 15:13:08,894 INFO o.a.l.l.Logger$info$0 [main] Current file: Benny518_Paucek755_4f41cccd-3d27-a464-6e62-3a05906849cb.json
+2022-04-10 15:13:08,905 INFO o.a.l.l.Logger$info$0 [main] Current file: Bernarda685_Kutch271_f5ccb678-89e0-d259-17e8-840c4fbb9aeb.json
+2022-04-10 15:13:08,914 INFO o.a.l.l.Logger$info$0 [main] Current file: Brandon214_Fisher429_323aac9c-8a48-5d28-ec3c-cd082d34f586.json
+2022-04-10 15:13:08,928 INFO o.a.l.l.Logger$info$0 [main] Current file: Brant303_Swaniawski813_ce3318d1-306c-f86a-26bf-90983742b711.json
+2022-04-10 15:13:08,941 INFO o.a.l.l.Logger$info$0 [main] Current file: Brigid753_West559_12f7de2d-09fa-036c-ac97-f363bd85c6af.json
+2022-04-10 15:13:08,954 INFO o.a.l.l.Logger$info$0 [main] Current file: Brittani427_Wolf938_f7bf73ce-bfe7-b09e-c19b-68f44850b7d4.json
+2022-04-10 15:13:08,969 INFO o.a.l.l.Logger$info$0 [main] Current file: Bryant814_Kunze215_23ce9b64-a6c2-4ffe-9111-9a11adf09a03.json
+2022-04-10 15:13:08,981 INFO o.a.l.l.Logger$info$0 [main] Current file: Buster609_Schneider199_99abbd01-3ceb-2368-9f95-f1a76947dd24.json
+2022-04-10 15:13:08,989 INFO o.a.l.l.Logger$info$0 [main] Current file: Candice681_Conn188_a6616dcc-f160-f8fd-a693-df9e0ee0cac6.json
+2022-04-10 15:13:09,152 INFO o.a.l.l.Logger$info$0 [main] Current file: Candice681_Von197_c2c4bda7-72ea-d272-c9b7-edd462e097cb.json
+2022-04-10 15:13:09,173 INFO o.a.l.l.Logger$info$0 [main] Current file: Candida654_Howell947_ec583710-55f0-dbba-124a-b2f411b1a5fe.json
+2022-04-10 15:13:09,179 INFO o.a.l.l.Logger$info$0 [main] Current file: Catalina187_Toy286_302f6c19-e75a-fd05-4311-30bbf7982619.json
+2022-04-10 15:13:09,187 INFO o.a.l.l.Logger$info$0 [main] Current file: Caterina17_Pfeffer420_af816b29-f7eb-d5b5-8782-b6a341955f3c.json
+2022-04-10 15:13:09,193 INFO o.a.l.l.Logger$info$0 [main] Current file: Cedrick207_Borer986_cefe0bec-39f1-c29c-f3d7-ea11add25571.json
+2022-04-10 15:13:09,197 INFO o.a.l.l.Logger$info$0 [main] Current file: Chance908_Jerde200_f85f1933-3fbf-f31f-b626-98cedcab91ab.json
+2022-04-10 15:13:09,207 INFO o.a.l.l.Logger$info$0 [main] Current file: Chara19_Schimmel440_e2e19430-f79e-ff4d-87fd-206a50d97aa5.json
+2022-04-10 15:13:09,218 INFO o.a.l.l.Logger$info$0 [main] Current file: Charles364_Quigley282_cfe2f7f6-db78-0c6d-7121-723c0d9d0b5e.json
+2022-04-10 15:13:09,233 INFO o.a.l.l.Logger$info$0 [main] Current file: Charles364_Stanton715_10a5a227-b34a-f017-5c32-9b3cce07eb91.json
+2022-04-10 15:13:09,240 INFO o.a.l.l.Logger$info$0 [main] Current file: Charmain607_Ritchie586_ad3077bd-97dc-bdb3-bd3f-1aed58e49932.json
+2022-04-10 15:13:09,244 INFO o.a.l.l.Logger$info$0 [main] Current file: Ciara810_Smith67_736ebe3a-409a-d367-789b-35f0bc66cc76.json
+2022-04-10 15:13:09,254 INFO o.a.l.l.Logger$info$0 [main] Current file: Cira533_Braun514_ba7fe0b0-3f74-a44a-4d24-d3e62eb11c1b.json
+2022-04-10 15:13:09,273 INFO o.a.l.l.Logger$info$0 [main] Current file: Clemente531_Garza151_be532ed8-f274-0d69-0b41-6dc313e21dcb.json
+2022-04-10 15:13:09,288 INFO o.a.l.l.Logger$info$0 [main] Current file: Conchita9_Jaime666_5adcdc6f-4607-7c53-bcb3-1c5db2a3fc98.json
+2022-04-10 15:13:09,301 INFO o.a.l.l.Logger$info$0 [main] Current file: Cristopher265_Cassin499_02742c44-500d-f10e-3e18-90ed3f8d4637.json
+2022-04-10 15:13:09,312 INFO o.a.l.l.Logger$info$0 [main] Current file: Cyril535_Beahan375_2b75f7ad-cd63-34ed-8245-be459a93839f.json
+2022-04-10 15:13:09,324 INFO o.a.l.l.Logger$info$0 [main] Current file: Daren950_Morissette863_d04f35ae-a597-a8af-f909-29701e221a48.json
+2022-04-10 15:13:09,332 INFO o.a.l.l.Logger$info$0 [main] Current file: Darla154_Glover433_8f441fdf-8d69-f562-9bd0-7cd093078801.json
+2022-04-10 15:13:09,347 INFO o.a.l.l.Logger$info$0 [main] Current file: Darnell564_Gutkowski940_bedfede8-ed70-0324-f55d-3fa022e7627c.json
+2022-04-10 15:13:09,363 INFO o.a.l.l.Logger$info$0 [main] Current file: Deangelo7_Crooks415_f55a97a9-1ed0-81bc-8bc3-178744e2c6dd.json
+2022-04-10 15:13:09,371 INFO o.a.l.l.Logger$info$0 [main] Current file: Deidra675_Waelchi213_c248e337-8d1b-e7fb-58b5-77a5d073b1e3.json
+2022-04-10 15:13:09,380 INFO o.a.l.l.Logger$info$0 [main] Current file: Deloras136_Pagac496_bb818221-c213-8a12-569d-5d79f0762f56.json
+2022-04-10 15:13:09,387 INFO o.a.l.l.Logger$info$0 [main] Current file: Demarcus108_Jakubowski832_8d0dcf31-d9b6-4d5e-714f-6eb87155cb12.json
+2022-04-10 15:13:09,394 INFO o.a.l.l.Logger$info$0 [main] Current file: Denese626_Jakubowski832_d111ea6b-07d7-1e4c-7032-718106564174.json
+2022-04-10 15:13:09,400 INFO o.a.l.l.Logger$info$0 [main] Current file: Dewitt635_Marquardt819_6e57fba6-1b53-8da5-32f6-bba0f1eb1766.json
+2022-04-10 15:13:09,404 INFO o.a.l.l.Logger$info$0 [main] Current file: Dirk334_Nitzsche158_57eb147f-4009-6120-87db-72f894400a59.json
+2022-04-10 15:13:09,413 INFO o.a.l.l.Logger$info$0 [main] Current file: Earnest658_Hand679_fdfc2d83-bc2a-5605-16ac-758cf289a9c8.json
+2022-04-10 15:13:09,418 INFO o.a.l.l.Logger$info$0 [main] Current file: Efrain317_Bartell116_41cd0592-a0f0-c0ea-2c1b-32744af68655.json
+2022-04-10 15:13:09,426 INFO o.a.l.l.Logger$info$0 [main] Current file: Ellis535_Reynolds644_aebe6a85-45de-117a-70d7-6a3598e97dd8.json
+2022-04-10 15:13:09,432 INFO o.a.l.l.Logger$info$0 [main] Current file: Enoch803_Strosin214_dae20716-03e0-b112-5cd4-ec4926241f4a.json
+2022-04-10 15:13:09,437 INFO o.a.l.l.Logger$info$0 [main] Current file: Enoch803_Wolff180_d2c9752e-edf9-d70d-ad6c-300003aa8d1f.json
+2022-04-10 15:13:09,448 INFO o.a.l.l.Logger$info$0 [main] Current file: Ernest565_Ondricka197_7d29a5a1-9ee2-bd08-6c5c-caaa729c957d.json
+2022-04-10 15:13:09,457 INFO o.a.l.l.Logger$info$0 [main] Current file: Esteban536_Schowalter414_7647688c-a33f-01d0-6a84-b11325011ef1.json
+2022-04-10 15:13:09,459 INFO o.a.l.l.Logger$info$0 [main] Current file: Evonne919_Boyer713_23017f82-1a75-fdac-d5ca-7b613c16539a.json
+2022-04-10 15:13:09,461 INFO o.a.l.l.Logger$info$0 [main] Current file: Felipe97_Henríquez109_70edd09e-b06a-969a-3f77-817fd93dccca.json
+2022-04-10 15:13:09,465 INFO o.a.l.l.Logger$info$0 [main] Current file: Fernando603_Farrell962_511f4cd4-6a80-e52b-c4f7-fdffd2d45746.json
+2022-04-10 15:13:09,469 INFO o.a.l.l.Logger$info$0 [main] Current file: Fernando603_Hamill307_93977901-127f-1d5c-f21a-73ff67088104.json
+2022-04-10 15:13:09,473 INFO o.a.l.l.Logger$info$0 [main] Current file: Floyd420_Rempel203_5da9f6c8-7f1a-9d61-eb9c-cfe2283d754d.json
+2022-04-10 15:13:09,487 INFO o.a.l.l.Logger$info$0 [main] Current file: Forest317_Mills423_59ecc4c1-dde6-e923-78e1-8cd77911ca83.json
+2022-04-10 15:13:09,499 INFO o.a.l.l.Logger$info$0 [main] Current file: Freddie621_Muller251_483bc988-fc45-3076-81c0-f70591759999.json
+2022-04-10 15:13:09,510 INFO o.a.l.l.Logger$info$0 [main] Current file: Gabriel934_Turner526_7d3554da-2ef6-ab53-c424-b97ad1abcf7c.json
+2022-04-10 15:13:09,519 INFO o.a.l.l.Logger$info$0 [main] Current file: Gerry91_Kessler503_5a72e8c5-3d98-2218-2ea6-1bf26c4e44ba.json
+2022-04-10 15:13:09,523 INFO o.a.l.l.Logger$info$0 [main] Current file: Gino587_Hirthe744_6922d7a1-25c5-2a4d-9d8c-0a0fe8334275.json
+2022-04-10 15:13:09,532 INFO o.a.l.l.Logger$info$0 [main] Current file: Gino587_Watsica258_0ea08008-b983-7c1d-0579-0d4c80c6f4a3.json
+2022-04-10 15:13:09,541 INFO o.a.l.l.Logger$info$0 [main] Current file: Glennis930_Reichert620_c9f392b9-cbdb-f8f0-1770-c2191fc5688a.json
+2022-04-10 15:13:09,547 INFO o.a.l.l.Logger$info$0 [main] Current file: Gustavo235_Mercado213_cba41710-e6df-de85-a90d-93bec572eeef.json
+2022-04-10 15:13:09,560 INFO o.a.l.l.Logger$info$0 [main] Current file: Hailey792_Monahan736_7b5b80fa-0b2f-bf9a-0aeb-b8c4935eb410.json
+2022-04-10 15:13:09,571 INFO o.a.l.l.Logger$info$0 [main] Current file: Harold594_Conroy74_28c77008-3a1a-93bc-433a-e4c8e5dda086.json
+2022-04-10 15:13:09,590 INFO o.a.l.l.Logger$info$0 [main] Current file: Henry768_Barton704_26a627c2-a26c-046f-9fc5-b10eeeea461d.json
+2022-04-10 15:13:09,603 INFO o.a.l.l.Logger$info$0 [main] Current file: Hobert364_Stamm704_5294d272-fcdb-d63c-6d1e-d0d91b59a4cb.json
+2022-04-10 15:13:09,619 INFO o.a.l.l.Logger$info$0 [main] Current file: Ignacia942_Labadie908_369c096b-b8e9-b421-8ae6-52b5acd21563.json
+2022-04-10 15:13:09,631 INFO o.a.l.l.Logger$info$0 [main] Current file: Iris667_Kuphal363_647030bc-b175-cb78-803d-1dda05a2f235.json
+2022-04-10 15:13:09,641 INFO o.a.l.l.Logger$info$0 [main] Current file: Isabell86_Parker433_c8a852df-26b0-0222-8c5f-e8649d7777f1.json
+2022-04-10 15:13:09,655 INFO o.a.l.l.Logger$info$0 [main] Current file: Ivan258_Cummerata161_4ef2ecc6-87b4-186d-5a7b-a37b737d177f.json
+2022-04-10 15:13:09,659 INFO o.a.l.l.Logger$info$0 [main] Current file: Ivan258_Jacobson885_46b26fab-bb94-a4ea-d69c-f85855c33e15.json
+2022-04-10 15:13:09,668 INFO o.a.l.l.Logger$info$0 [main] Current file: Jacob959_Jacobi462_62bebca2-c409-b691-290d-1fe41e652359.json
+2022-04-10 15:13:09,685 INFO o.a.l.l.Logger$info$0 [main] Current file: Jacquelynn434_Conn188_c3ff5ee4-86de-4801-2930-d31ed345cd6d.json
+2022-04-10 15:13:09,713 INFO o.a.l.l.Logger$info$0 [main] Current file: Janene3_Frami345_ebfc5254-07b1-2353-4549-b8947058a544.json
+2022-04-10 15:13:09,728 INFO o.a.l.l.Logger$info$0 [main] Current file: Jay242_Steuber698_0b531e8e-3dec-c509-8354-32fb84502bc0.json
+2022-04-10 15:13:09,739 INFO o.a.l.l.Logger$info$0 [main] Current file: Jere230_Wiegand701_b7bd260f-df9b-62ee-f230-9a5ef64c4133.json
+2022-04-10 15:13:09,749 INFO o.a.l.l.Logger$info$0 [main] Current file: Jerold208_Littel644_c7e8adf2-3a33-d71d-29f1-da3c34a6eb1e.json
+2022-04-10 15:13:09,758 INFO o.a.l.l.Logger$info$0 [main] Current file: Jerrie417_Morar593_9bb03844-58f6-c5cf-d1e4-d58ea81bb642.json
+2022-04-10 15:13:09,767 INFO o.a.l.l.Logger$info$0 [main] Current file: Jerry654_Wunsch504_1e32d6d5-4218-2946-8712-4d326b3d1dc8.json
+2022-04-10 15:13:09,777 INFO o.a.l.l.Logger$info$0 [main] Current file: Jessika892_Kuphal363_1c30d483-46cd-e2f8-c99b-c2fd6418d7b7.json
+2022-04-10 15:13:09,794 INFO o.a.l.l.Logger$info$0 [main] Current file: Jina946_Fahey393_97839d74-51ea-8dd1-16c6-d6d146f50387.json
+2022-04-10 15:13:09,805 INFO o.a.l.l.Logger$info$0 [main] Current file: Johnathan55_Hagenes547_a1283d79-563d-4100-1570-decb5dd5d613.json
+2022-04-10 15:13:09,808 INFO o.a.l.l.Logger$info$0 [main] Current file: Josephine273_Stanton715_2575493a-d8ef-99c3-35ee-ce6f294091aa.json
+2022-04-10 15:13:09,812 INFO o.a.l.l.Logger$info$0 [main] Current file: Joshua658_Pollich983_868c6b99-ff6a-ddd9-fc63-140426b7dca9.json
+2022-04-10 15:13:09,819 INFO o.a.l.l.Logger$info$0 [main] Current file: Juliana372_Pacocha935_45c5fb76-4170-92e1-4d3b-530f50f54249.json
+2022-04-10 15:13:09,826 INFO o.a.l.l.Logger$info$0 [main] Current file: Kali995_Murray856_f343a8f5-8289-c5fd-57df-e858330d4a4f.json
+2022-04-10 15:13:09,830 INFO o.a.l.l.Logger$info$0 [main] Current file: Katherin596_Kozey370_39b8ea06-7d69-123c-c96d-e356298af01f.json
+2022-04-10 15:13:09,845 INFO o.a.l.l.Logger$info$0 [main] Current file: Keenan632_Haag279_a01feeb5-4443-a40d-a15a-4274d1efb8a4.json
+2022-04-10 15:13:09,860 INFO o.a.l.l.Logger$info$0 [main] Current file: Keneth579_Little434_70ab6964-850b-da76-2d70-8a257db68261.json
+2022-04-10 15:13:09,873 INFO o.a.l.l.Logger$info$0 [main] Current file: Kip442_Witting912_d3153154-22aa-b59a-5994-e8bb7a9b3032.json
+2022-04-10 15:13:09,877 INFO o.a.l.l.Logger$info$0 [main] Current file: Lanny564_Frami345_0dcaa1a1-05f8-3132-c291-fe5155805eda.json
+2022-04-10 15:13:09,884 INFO o.a.l.l.Logger$info$0 [main] Current file: Lauran65_Wuckert783_96e17f02-75f7-1f56-fa8b-cd89aa227462.json
+2022-04-10 15:13:09,889 INFO o.a.l.l.Logger$info$0 [main] Current file: Laurence43_Hills818_7194154b-3ef7-f73a-7513-73f75329a179.json
+2022-04-10 15:13:10,114 INFO o.a.l.l.Logger$info$0 [main] Current file: Lavon272_Quigley282_a8b38806-ab90-8057-f2f6-debee5ff1dcc.json
+2022-04-10 15:13:10,121 INFO o.a.l.l.Logger$info$0 [main] Current file: Leisa54_Witting912_3c7bb596-0abd-051f-b73c-cdf3e743230a.json
+2022-04-10 15:13:10,126 INFO o.a.l.l.Logger$info$0 [main] Current file: Lenny728_Ziemann98_eeaacd6b-9de7-a9df-9a22-794e1f25022e.json
+2022-04-10 15:13:10,346 INFO o.a.l.l.Logger$info$0 [main] Current file: Leo278_Lueilwitz711_295a1594-960d-42ce-7497-6194274805c4.json
+2022-04-10 15:13:10,363 INFO o.a.l.l.Logger$info$0 [main] Current file: Leo278_Toy286_66dd0de2-908d-6427-6524-51cdcad3af53.json
+2022-04-10 15:13:10,367 INFO o.a.l.l.Logger$info$0 [main] Current file: Leota851_Waelchi213_3a71f64a-2725-4868-7ea3-2f38db196c68.json
+2022-04-10 15:13:10,373 INFO o.a.l.l.Logger$info$0 [main] Current file: Letty680_Wehner319_925f7758-4be6-23d4-9337-f567c92dd8a1.json
+2022-04-10 15:13:10,377 INFO o.a.l.l.Logger$info$0 [main] Current file: Linwood526_Simonis280_ce5c6b19-0de0-518b-0e45-1c26b823185b.json
+2022-04-10 15:13:10,404 INFO o.a.l.l.Logger$info$0 [main] Current file: Lorenza655_Farrell962_a4bf45bf-92c8-0a45-87dd-e65497ec8ede.json
+2022-04-10 15:13:10,417 INFO o.a.l.l.Logger$info$0 [main] Current file: Lou594_Cassin499_aa26fce9-ebe9-562d-caf8-3785a9141416.json
+2022-04-10 15:13:10,421 INFO o.a.l.l.Logger$info$0 [main] Current file: Loyd638_Glover433_a45332c4-acec-e0e1-e21a-e289e6edef51.json
+2022-04-10 15:13:10,425 INFO o.a.l.l.Logger$info$0 [main] Current file: Lynna524_Rippin620_7ee7c9f9-0f8f-cf94-933a-76f5c46c8811.json
+2022-04-10 15:13:10,427 INFO o.a.l.l.Logger$info$0 [main] Current file: Marcos263_Hernandes724_4af0a6cb-216a-7670-8f98-31c83a3e500d.json
+2022-04-10 15:13:10,434 INFO o.a.l.l.Logger$info$0 [main] Current file: Marco_Antonio298_Nieto461_56322dd1-af00-493b-4841-37cf18c70bbe.json
+2022-04-10 15:13:10,437 INFO o.a.l.l.Logger$info$0 [main] Current file: Mary779_Ritchie586_148b42b2-3034-0384-76bf-29411f6d2ad2.json
+2022-04-10 15:13:10,440 INFO o.a.l.l.Logger$info$0 [main] Current file: Mayte822_Caldera106_8a1b7cb8-fa3c-58fc-5c12-53061b4db03e.json
+2022-04-10 15:13:10,454 INFO o.a.l.l.Logger$info$0 [main] Current file: Melia148_Bartell116_e03b95a4-4265-8437-b83a-be76f06ba981.json
+2022-04-10 15:13:10,463 INFO o.a.l.l.Logger$info$0 [main] Current file: Meta661_Harvey63_795595d5-c842-3bae-74e9-335e85572469.json
+2022-04-10 15:13:10,473 INFO o.a.l.l.Logger$info$0 [main] Current file: Mickey576_Marvin195_a61cceed-4586-5e52-470c-45a5f2d259cb.json
+2022-04-10 15:13:10,477 INFO o.a.l.l.Logger$info$0 [main] Current file: Miguel815_Legros616_1f20f8ed-cc67-80d4-73bf-b6d9302c2a68.json
+2022-04-10 15:13:10,481 INFO o.a.l.l.Logger$info$0 [main] Current file: Milissa240_Reichel38_79be29c0-7db7-024c-f4b0-92abebbaf5f8.json
+2022-04-10 15:13:10,493 INFO o.a.l.l.Logger$info$0 [main] Current file: Myron933_Grimes165_5cb0c2b2-6427-2774-595e-464b53984f53.json
+2022-04-10 15:13:10,500 INFO o.a.l.l.Logger$info$0 [main] Current file: Nathanael908_Hoppe518_37ed9c50-b15b-d560-9320-313d30fd9c34.json
+2022-04-10 15:13:10,505 INFO o.a.l.l.Logger$info$0 [main] Current file: Nenita289_Champlin946_a880ee3e-31a3-861d-de67-43f076628fb3.json
+2022-04-10 15:13:10,510 INFO o.a.l.l.Logger$info$0 [main] Current file: Newton741_Schoen8_a01c8a5c-ca55-4389-cc69-ff49cd4099bc.json
+2022-04-10 15:13:10,512 INFO o.a.l.l.Logger$info$0 [main] Current file: Newton741_Swaniawski813_b261b33c-a92c-dd6b-1272-0462e7fed6be.json
+2022-04-10 15:13:10,515 INFO o.a.l.l.Logger$info$0 [main] Current file: Noe500_Eichmann909_909ff7b2-cd7b-45a8-3e8e-1ce3ccba74a1.json
+2022-04-10 15:13:10,529 INFO o.a.l.l.Logger$info$0 [main] Current file: Olin642_Kuhn96_41c7c3e0-dfbd-3b59-28c1-9189b9d1d5a2.json
+2022-04-10 15:13:10,542 INFO o.a.l.l.Logger$info$0 [main] Current file: Omer483_Spencer878_8605e424-1cfc-b45e-e909-b82126b25a30.json
+2022-04-10 15:13:10,549 INFO o.a.l.l.Logger$info$0 [main] Current file: Oren284_Dicki44_85454980-efe2-29d4-5057-235d5648dd46.json
+2022-04-10 15:13:10,555 INFO o.a.l.l.Logger$info$0 [main] Current file: Owen89_Durgan499_41c78274-a88b-52ab-930d-52aff598c402.json
+2022-04-10 15:13:10,559 INFO o.a.l.l.Logger$info$0 [main] Current file: Phil587_Wunsch504_9dde6e35-610e-8f04-2eeb-cf7752c72403.json
+2022-04-10 15:13:10,573 INFO o.a.l.l.Logger$info$0 [main] Current file: Quentin28_Schultz619_67cefc92-b260-20b1-21c3-eacb38c62474.json
+2022-04-10 15:13:10,585 INFO o.a.l.l.Logger$info$0 [main] Current file: Raeann749_Wintheiser220_8d8dd34e-d9a6-1ebf-cf6a-7d15a6ab9643.json
+2022-04-10 15:13:10,591 INFO o.a.l.l.Logger$info$0 [main] Current file: Ralph813_Rice937_f9d3a1af-a01f-5777-abb3-2d2f63414161.json
+2022-04-10 15:13:10,597 INFO o.a.l.l.Logger$info$0 [main] Current file: Reinaldo138_Dibbert990_2f6d996b-c5dc-1e87-c57f-53c827c21804.json
+2022-04-10 15:13:10,606 INFO o.a.l.l.Logger$info$0 [main] Current file: Ricardo560_Blanda868_59692c3a-3b3a-7d27-3953-bf14b992535b.json
+2022-04-10 15:13:10,611 INFO o.a.l.l.Logger$info$0 [main] Current file: Richard937_Runolfsdottir785_095a050c-2e29-2fea-0dd6-59a807e5475d.json
+2022-04-10 15:13:10,613 INFO o.a.l.l.Logger$info$0 [main] Current file: Rocky100_McLaughlin530_0802083c-c7f0-5e64-7c3e-92efa3a4daa5.json
+2022-04-10 15:13:10,643 INFO o.a.l.l.Logger$info$0 [main] Current file: Rosemarie149_Gislason620_712f4206-102b-23e3-22ff-6f4bf0f93372.json
+2022-04-10 15:13:10,649 INFO o.a.l.l.Logger$info$0 [main] Current file: See995_Reinger292_5c593f9e-f378-2848-0b05-12028a944870.json
+2022-04-10 15:13:10,654 INFO o.a.l.l.Logger$info$0 [main] Current file: Shad704_Konopelski743_87f86bfb-5a90-173a-4f81-7b8e43d025ad.json
+2022-04-10 15:13:10,665 INFO o.a.l.l.Logger$info$0 [main] Current file: Shara355_Nitzsche158_a969a41a-98ac-ad35-34ac-656a056ec67d.json
+2022-04-10 15:13:10,678 INFO o.a.l.l.Logger$info$0 [main] Current file: Sharan181_Cormier289_3632a965-5692-501d-09f6-2f9fe99717ba.json
+2022-04-10 15:13:10,686 INFO o.a.l.l.Logger$info$0 [main] Current file: Sherill945_Muller251_ca1ef178-b9b7-c837-8810-03a966095e94.json
+2022-04-10 15:13:10,693 INFO o.a.l.l.Logger$info$0 [main] Current file: Stanford577_West559_e2159110-ba86-ade7-450b-4fb4e112752b.json
+2022-04-10 15:13:10,699 INFO o.a.l.l.Logger$info$0 [main] Current file: Taneka590_Kris249_df6eabe8-eb7a-5aeb-f966-55bede74708e.json
+2022-04-10 15:13:10,706 INFO o.a.l.l.Logger$info$0 [main] Current file: Telma919_Russel238_8346067b-167a-8e7d-0e90-00ca1aa1be78.json
+2022-04-10 15:13:10,709 INFO o.a.l.l.Logger$info$0 [main] Current file: Teodora360_Stamm704_18127384-ee90-8ee0-93e5-6df7119fe84f.json
+2022-04-10 15:13:10,715 INFO o.a.l.l.Logger$info$0 [main] Current file: Thaddeus38_Sipes176_9a383203-d543-347b-9014-d05e5f1361f1.json
+2022-04-10 15:13:10,733 INFO o.a.l.l.Logger$info$0 [main] Current file: Timika369_Bashirian201_f835ba2c-a269-85a2-e6a5-a1467b7910d0.json
+2022-04-10 15:13:10,741 INFO o.a.l.l.Logger$info$0 [main] Current file: Trinidad33_Roob72_970eb29e-788e-5840-34cf-0e76606cbce1.json
+2022-04-10 15:13:10,753 INFO o.a.l.l.Logger$info$0 [main] Current file: Truman805_Bergstrom287_b4cd3136-f07a-d2d3-1ccb-c670d3e21bab.json
+2022-04-10 15:13:10,766 INFO o.a.l.l.Logger$info$0 [main] Current file: Valeri645_Armstrong51_60623032-7c0c-7dd6-a852-4e54b620ea75.json
+2022-04-10 15:13:10,776 INFO o.a.l.l.Logger$info$0 [main] Current file: Valeri645_Rath779_5409e94a-58d3-32fb-7688-c2f99a4beadc.json
+2022-04-10 15:13:10,781 INFO o.a.l.l.Logger$info$0 [main] Current file: Vern731_Funk324_220f30e5-8868-6fc5-77ed-c065f2d4ebbd.json
+2022-04-10 15:13:10,785 INFO o.a.l.l.Logger$info$0 [main] Current file: Veronique514_Gulgowski816_42900aba-a337-0c62-1e0d-4a979cbad91b.json
+2022-04-10 15:13:10,793 INFO o.a.l.l.Logger$info$0 [main] Current file: Vincenzo126_Stoltenberg489_e24e90c8-e4ca-17d6-5d9b-3397fc1eb92d.json
+2022-04-10 15:13:10,801 INFO o.a.l.l.Logger$info$0 [main] Current file: Virgilio529_Pfeffer420_194bb342-c317-4d41-b87d-6647efefc1f3.json
+2022-04-10 15:13:10,813 INFO o.a.l.l.Logger$info$0 [main] Current file: Wanda961_Brakus656_4b302926-9b0b-d71f-0ed8-20ed541dec22.json
+2022-04-10 15:13:10,820 INFO o.a.l.l.Logger$info$0 [main] Current file: Ward668_Dickens475_793dc053-79f6-191a-a8b5-aaf111261ca2.json
+2022-04-10 15:13:10,827 INFO o.a.l.l.Logger$info$0 [main] Current file: Wesley533_Mann644_c87c451b-4fc1-4947-eb8d-28927ac0c086.json
+2022-04-10 15:13:10,844 INFO o.a.l.l.Logger$info$0 [main] Current file: Wesley533_Schneider199_74f43324-9b59-05bf-7a05-4d5d1e8fca44.json
+2022-04-10 15:13:10,854 INFO o.a.l.l.Logger$info$0 [main] Current file: Whitney250_Borer986_c68dc8df-2a44-4309-88dc-e53606a694aa.json
+2022-04-10 15:13:10,858 INFO o.a.l.l.Logger$info$0 [main] Current file: Yan646_Gerhold939_27b7381c-d04f-f48a-b43a-a645af0a8ac4.json
+2022-04-10 15:13:10,977 INFO o.a.l.l.Logger$info [main] [#]Creating FHIR resources ...
+2022-04-10 15:13:11,191 INFO o.a.l.l.Logger$info [main] [#]Writing FHIR resources as JSON files ...
+2022-04-10 15:13:11,786 INFO o.a.l.l.Logger$info [main] [#]Done.
