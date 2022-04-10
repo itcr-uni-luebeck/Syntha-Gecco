@@ -9,6 +9,8 @@ import org.uzl.syntheagecco.extraction.OpenEhrProcedureCategory
 import org.uzl.syntheagecco.openehr.sdk.model.generated.geccoprozedurcomposition.definition.NameDerProzedurDefiningCode
 import org.uzl.syntheagecco.utility.FileManipulation
 
+import java.nio.file.Paths
+
 class OpenEhrProcedureCategoryLookup extends Lookup<NameDerProzedurDefiningCode, OpenEhrProcedureCategory>{
 
     private static final Logger logger = LogManager.getLogger(OpenEhrDiagnosisCategoryLookup.class)
@@ -16,12 +18,15 @@ class OpenEhrProcedureCategoryLookup extends Lookup<NameDerProzedurDefiningCode,
     OpenEhrProcedureCategoryLookup(){
         super({
             logger.info("[#]Creating openEhr procdure category lookup ...")
+
+            def indexFile = FileManipulation.getResource(Paths.get("OpenEhrProcedureCategoryIndex.txt"))
+            def sources = []
+            indexFile.split("\\n").each {fileName ->
+                sources << FileManipulation.getResource(Paths.get(fileName))
+            }
+
             def mapper = new ObjectMapper()
             def codeMap = new HashMap<NameDerProzedurDefiningCode, OpenEhrProcedureCategory>()
-            def mapSourceDir = "src/main/resources/maps/procedure_to_procedure_category"
-
-            //Get all JSON files in the directories
-            def mapFiles = FileManipulation.getFilesInDirRecursive(mapSourceDir, FileManipulation.FileExtension.JSON)
 
             //Map snomed codes to enum values
             def codeToDiagNameMap = new HashMap<String, NameDerProzedurDefiningCode>()
@@ -29,14 +34,14 @@ class OpenEhrProcedureCategoryLookup extends Lookup<NameDerProzedurDefiningCode,
                 codeToDiagNameMap[value.getCode()] = value
             }
 
-            if(mapFiles.size().is(0)) {
-                logger.error("No JSON files in parent directory '${mapSourceDir}'!")
-                throw new Exception("No JSON files could be found in '${mapSourceDir}'")
+            if(sources.size().is(0)) {
+                logger.error("No JSON files in parent directory 'maps\\procedure_to_procedure_category'!")
+                throw new Exception("No JSON files could be found in 'maps\\procedure_to_procedure_category'")
             }
             else {
                 //Read JSON files
                 logger.debug("Reading JSON files containing codes...")
-                mapFiles.each { mapFile ->
+                sources.each { mapFile ->
                     try {
                         JsonNode jsonRoot = mapper.readTree(mapFile)
                         JsonNode categories = jsonRoot.get("procedureCategories")

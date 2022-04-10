@@ -1,0 +1,15 @@
+maps\loinc\blood_gas_panel.json
+maps\loinc\blood_pressure.json
+maps\loinc\body_height.json
+maps\loinc\body_temperature.json
+maps\loinc\body_weight.json
+maps\loinc\fi_o2.json
+maps\loinc\heart_rate.json
+maps\loinc\laboratory_value.json
+maps\loinc\oxygen_saturation.json
+maps\loinc\pa_co2.json
+maps\loinc\pa_o2.json
+maps\loinc\ph.json
+maps\loinc\respiratory_rate.json
+maps\loinc\sars_cov_2_rt_pcr.json
+maps\loinc\tobacco_smoking_status.json

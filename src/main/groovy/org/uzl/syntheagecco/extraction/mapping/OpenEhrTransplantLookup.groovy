@@ -8,6 +8,8 @@ import org.apache.logging.log4j.Logger
 import org.uzl.syntheagecco.openehr.sdk.model.generated.geccodiagnosecomposition.definition.NameDesProblemsDerDiagnoseDefiningCode
 import org.uzl.syntheagecco.utility.FileManipulation
 
+import java.nio.file.Paths
+
 class OpenEhrTransplantLookup extends Lookup<String, List<NameDesProblemsDerDiagnoseDefiningCode>>{
 
     private static final Logger logger = LogManager.getLogger(OpenEhrDiagnosisCategoryLookup.class)
@@ -15,26 +17,29 @@ class OpenEhrTransplantLookup extends Lookup<String, List<NameDesProblemsDerDiag
     OpenEhrTransplantLookup(){
         super({
             logger.info("[#]Creating openEhr diagnosis name (transplant) lookup ...")
+
+            def indexFile = FileManipulation.getResource(Paths.get("OpenEhrTransplantIndex.txt"))
+            def sources = []
+            indexFile.split("\\n").each {fileName ->
+                sources << FileManipulation.getResource(Paths.get(fileName))
+            }
+
             def mapper = new ObjectMapper()
             def codeMap = new MultiListMap<String, NameDesProblemsDerDiagnoseDefiningCode>()
-            def mapSourceDir = "src/main/resources/maps/openehr_category/diagnosis_transplant_category"
-
-            //Get all JSON files in the directories
-            def mapFiles = FileManipulation.getFilesInDirRecursive(mapSourceDir, FileManipulation.FileExtension.JSON)
 
             def diagnosisMap = new HashMap<String, NameDesProblemsDerDiagnoseDefiningCode>()
             NameDesProblemsDerDiagnoseDefiningCode.values().each {value ->
                 diagnosisMap[value.getCode()] = value
             }
 
-            if(mapFiles.size().is(0)) {
-                logger.error("No JSON files in parent directory '${mapSourceDir}'!")
-                throw new Exception("No JSON files could be found in '${mapSourceDir}'")
+            if(sources.size().is(0)) {
+                logger.error("No JSON files in parent directory 'maps\\openehr_category\\diagnosis_transplant_category'!")
+                throw new Exception("No JSON files could be found in 'maps\\openehr_category\\diagnosis_transplant_category'")
             }
             else{
                 //Read JSON files
                 logger.debug("Reading JSON files containing codes...")
-                mapFiles.each { mapFile ->
+                sources.each { mapFile ->
                     try{
                         JsonNode jsonRoot = mapper.readTree(mapFile)
                         def currentCategory = diagnosisMap[jsonRoot.get("code").asText()]

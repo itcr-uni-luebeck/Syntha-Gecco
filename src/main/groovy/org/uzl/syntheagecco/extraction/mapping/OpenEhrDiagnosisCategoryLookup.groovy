@@ -2,12 +2,15 @@ package org.uzl.syntheagecco.extraction.mapping
 
 import com.fasterxml.jackson.databind.JsonNode
 import com.fasterxml.jackson.databind.ObjectMapper
+import com.google.common.io.Resources
 import org.apache.commons.lang3.exception.ExceptionUtils
 import org.apache.logging.log4j.LogManager
 import org.apache.logging.log4j.Logger
 import org.uzl.syntheagecco.extraction.OpenEhrDiagnosisCategory
 import org.uzl.syntheagecco.openehr.sdk.model.generated.geccodiagnosecomposition.definition.NameDesProblemsDerDiagnoseDefiningCode
 import org.uzl.syntheagecco.utility.FileManipulation
+
+import java.nio.file.Paths
 
 class OpenEhrDiagnosisCategoryLookup extends Lookup<NameDesProblemsDerDiagnoseDefiningCode, OpenEhrDiagnosisCategory>{
 
@@ -16,12 +19,14 @@ class OpenEhrDiagnosisCategoryLookup extends Lookup<NameDesProblemsDerDiagnoseDe
     OpenEhrDiagnosisCategoryLookup(){
         super({
             logger.info("[#]Creating openEhr diagnosis category lookup ...")
+            def indexFile = FileManipulation.getResource(Paths.get("OpenEhrDiagnosisCategoryIndex.txt"))
+            def sources = []
+            indexFile.split("\\n").each {fileName ->
+                sources << FileManipulation.getResource(Paths.get(fileName))
+            }
+
             def mapper = new ObjectMapper()
             def codeMap = new HashMap<NameDesProblemsDerDiagnoseDefiningCode, OpenEhrDiagnosisCategory>()
-            def mapSourceDir = "src/main/resources/maps/diagnosis_to_diagnosis_category"
-
-            //Get all JSON files in the directories
-            def mapFiles = FileManipulation.getFilesInDirRecursive(mapSourceDir, FileManipulation.FileExtension.JSON)
 
             //Map snomed codes to enum values
             def codeToDiagNameMap = new HashMap<String, NameDesProblemsDerDiagnoseDefiningCode>()
@@ -29,14 +34,14 @@ class OpenEhrDiagnosisCategoryLookup extends Lookup<NameDesProblemsDerDiagnoseDe
                 codeToDiagNameMap[value.getCode()] = value
             }
 
-            if(mapFiles.size().is(0)) {
-                logger.error("No JSON files in parent directory '${mapSourceDir}'!")
-                throw new Exception("No JSON files could be found in '${mapSourceDir}'")
+            if(sources.size().is(0)) {
+                logger.error("No JSON files in parent directory 'maps\\diagnosis_to_diagnosis_category'!")
+                throw new Exception("No JSON files could be found in 'maps\\diagnosis_to_diagnosis_category'")
             }
             else {
                 //Read JSON files
                 logger.debug("Reading JSON files containing codes...")
-                mapFiles.each { mapFile ->
+                sources.each { mapFile ->
                     try {
                         JsonNode jsonRoot = mapper.readTree(mapFile)
                         JsonNode categories = jsonRoot.get("diagnosisCategories")

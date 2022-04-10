@@ -1,8 +1,14 @@
 package org.uzl.syntheagecco.utility
 
+import com.google.common.base.Charsets
+import com.google.common.io.Resources
 import groovy.io.FileType
 import org.apache.logging.log4j.LogManager
 import org.apache.logging.log4j.Logger
+
+import java.nio.charset.StandardCharsets
+import java.nio.file.Path
+import java.nio.file.Paths
 
 class FileManipulation {
 
@@ -54,6 +60,57 @@ class FileManipulation {
         }
         def newFile = new File("${newDir.getCanonicalPath()}/${fileName}.${ext.toString()}")
         newFile << content
+    }
+
+    static InputStream getResourceFile(String... pathComponents){
+        def path = Paths.get(pathComponents)
+        getResourceFile(path)
+    }
+
+    static InputStream getResourceFile(Path path){
+        def classLoader = Thread.currentThread().getContextClassLoader()
+        return classLoader.getResourceAsStream(path.toString())
+    }
+
+    /*
+    static List<InputStream> getResoureFilesInDir(Path path){
+        def stream = getResourceFile(path)
+        def files = []
+
+        try {
+            def reader = new BufferedReader(new InputStreamReader(stream, StandardCharsets.UTF_8))
+            def fileName = "" as String
+            while((fileName = reader.readLine()) != null) {
+                files << getResourceFile(path.resolve(fileName))
+            }
+        }
+        catch (IOException e){
+            logger.error(e.getMessage())
+            return null
+        }
+        return files
+    }
+     */
+
+    static List<String> getResourceFilesInDir(Path path){
+        //def classLoader = FileManipulation.class.getClassLoader()
+        //def stream = classLoader.getResourceAsStream(path.toString())
+        //System.out.println("Stream: " + stream)
+        def url = Resources.getResource(path.toString())
+        def s = Resources.toString(url, Charsets.UTF_8)
+        def fileNames = s.split("\\n").findAll {it -> it.contains('.json')}
+        def files = []
+        fileNames.each {fileName ->
+            def fileUrl = Resources.getResource(path.resolve(fileName).toString())
+            files << Resources.toString(fileUrl, Charsets.UTF_8)
+        }
+        return files
+    }
+
+    static String getResource(Path path){
+        System.out.println(path.toString())
+        def url = Resources.getResource(path.toString())
+        return Resources.toString(url, Charsets.UTF_8)
     }
 
 }
