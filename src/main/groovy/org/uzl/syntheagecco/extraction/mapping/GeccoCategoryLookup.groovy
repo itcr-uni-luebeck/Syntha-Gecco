@@ -27,7 +27,6 @@ abstract class GeccoCategoryLookup extends Lookup<String, GeccoCategory> {
             //Get all JSON files in the directory
             def indexFile = FileManipulation.getResource(path)
             def sources = []
-            System.out.println(indexFile)
             indexFile.split("\\n").each {fileName ->
                 sources << FileManipulation.getResource(Paths.get(fileName))
             }

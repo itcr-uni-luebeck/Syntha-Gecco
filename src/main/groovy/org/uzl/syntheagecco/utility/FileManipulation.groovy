@@ -109,7 +109,7 @@ class FileManipulation {
 
     static String getResource(Path path){
         System.out.println(path.toString())
-        def url = Resources.getResource(path.toString())
+        def url = Resources.getResource(path.toString().replaceAll("\\\\", "/"))
         return Resources.toString(url, Charsets.UTF_8)
     }
 
